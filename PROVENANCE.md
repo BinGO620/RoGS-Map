@@ -82,4 +82,14 @@ overlay 机制：修订版 `test_dyn_probe.py` 存于 `/data/monogs-export/overl
 
 ## 冒烟 A/B 与离线轨补记
 
-（执行时填写。）
+- **冒烟 A/B**：`configs/experiments/paper2_fulltable/r33_rebase_baseline_balloon.yaml`，
+  `--max-frames 40 --seed 0`，同机同卡（RTX 2060）各一次，参照 = monogs-ours@31b0f0367
+  纯净副本。ATE RMSE 0.7208 vs 0.7458 cm（Δ=0.025cm）、KF-ATE 0.8885 vs 0.8743、
+  per-frame 均值 0.6469 vs 0.6689——Δ 低于同配置跨批噪声地板（0.18–0.62cm）一个量级，
+  与 RoGS-SLAM 的 A/B（Δ=0.022cm）同量级。**判定：PASS。**
+- **离线轨单点**：rd_harness 于冒烟 run 自产 PLY 上全链路（codec 编码→重建→渲染→分区
+  指标）：13.80 B/prim，ratio 5.80×，PSNR 18.077 / static 30.578——裁剪仓内 codec 线完整可用。
+- **Release 底图资产**：`tools/derive_release_runs.py` 从证据 json 反推出 **63 个底图 run**
+  （RD 腿 legacy baseline + 修复腿 r33 baseline 7×3，盘上 0 缺失）；
+  `tools/package_release_assets.sh` 逐 run 打包三判据件并出 sha256 清单
+  （`tools/release_assets.sha256`）；`scripts/download_assets.sh` 下载+校验+还原。

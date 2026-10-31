@@ -37,3 +37,7 @@ results/**/*.jpeg
 # ---- 逐 KF 过程件（可再生中间快照；终态 trj_final/stats_final 保持入库）------
 results/**/plot/trj_[0-9]*.json
 results/**/plot/stats_[0-9]*.json
+
+# Release 资产打包产物
+tools/dist/
+results/base_runs/
