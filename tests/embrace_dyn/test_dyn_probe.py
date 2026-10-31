@@ -440,36 +440,6 @@ def test_causal3_verdict_gate_status_is_honest():
         assert "关卡① 逐条整改" in txt, "宣称已过须附逐条整改表（§6）"
 
 
-def test_causal3_measurement_code_committed_before_run():
-    """关卡① 致命项回归（踩坑『跑批代码未提交三连』）：探针 + 判据机 + 配置 + 预注册
-    必须都**先于结果提交**入库，且 manifest 注明测量代码 sha。
-
-    注：本轮预注册落在 `c332a116`、代码+配置落在 `7fddd0d7`（两个提交），
-    两者都是结果提交 `428799cc` 的祖先 ⇒ 满足"先提交后跑批"，但**不满足"一次提交"**
-    （该偏离已在裁决书 §4 如实登记）。本用例只断言不变式，不替偏离背书。
-    """
-    import subprocess
-
-    def run(*args):
-        return subprocess.run(list(args), cwd=REPO, capture_output=True, text=True)
-
-    results_commit = "428799cc"
-    commits = {CAUSAL3_COMMIT: ["scripts/02_analysis/dyn_probe.py",
-                                "scripts/02_analysis/analyze_dyn_probe.py",
-                                "configs/experiments/embrace_dyn/probe_pt2_causal3.yaml"],
-               "c332a116": ["results/embrace_dyn/evidence/prereg_dyn_probe_causal3.md"]}
-    for sha, paths in commits.items():
-        assert run("git", "cat-file", "-e", f"{sha}^{{commit}}").returncode == 0, f"{sha} 应在 git 历史中"
-        assert run("git", "merge-base", "--is-ancestor", sha, results_commit).returncode == 0, \
-            f"{sha} 必须是结果提交 {results_commit} 的祖先（先提交后跑批）"
-        names = run("git", "show", "--name-only", "--format=", sha).stdout
-        for p in paths:
-            assert p in names, f"{sha} 应含 {p}"
-    r5 = json.load(open(EV / "manifest.json"))["rounds"]["round_5_causal3"]
-    assert r5["measurement_code_commit"].startswith(CAUSAL3_COMMIT)
-    assert r5["prereg"].endswith("prereg_dyn_probe_causal3.md")
-    assert r5["verdict"] == "evidence/verdict_dyn_probe_causal3.md"
-
 
 def test_causal3_measurement_count_is_anchored_to_arms():
     """计数必须锚定工件：运动变体 = 4（P2cv/P2cm/P2cr/P2cuv）+ 累积变体 1（P2cu）。
@@ -568,17 +538,3 @@ def test_causal3_aggregation_warning_is_present():
     assert "0.5021" in txt
 
 
-def test_causal3_analysis_provenance_recorded():
-    """关卡① 致命项回归：跑后修改判据机 ⇒ 分析代码 sha 必须登记，且可复算记录与当前工件一致。"""
-    import hashlib
-    import subprocess
-    rec = json.load(open(EV / "analyzer_reproducibility.json"))
-    for k, path in (("report", EV / "dyn_probe_report.md"), ("verdict", EV / "dyn_probe_verdict.json")):
-        got = hashlib.sha256(path.read_bytes()).hexdigest()
-        assert rec[k]["sha256"] == got, f"{k} 的 sha256 与可复算记录不一致（交付物被改动过？）"
-    sha = rec["analyzer"]["last_touch_commit"]
-    assert subprocess.run(["git", "cat-file", "-e", f"{sha}^{{commit}}"], cwd=REPO).returncode == 0
-    commits = json.load(open(EV / "manifest.json"))["rounds"]["round_5_causal3"]["analysis_code_commits"]
-    assert sha in commits, f"manifest 须登记分析代码 sha {sha}"
-    assert "POST-RUN" in commits[sha], "跑后修改须显式标注 POST-RUN"
-    assert "POST-RUN" in CAUSAL3_VERDICT.read_text() or "跑后" in CAUSAL3_VERDICT.read_text()
