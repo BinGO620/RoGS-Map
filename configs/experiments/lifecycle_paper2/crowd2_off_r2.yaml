@@ -1,0 +1,10 @@
+# L1 最小效果验证（R7）：crowd2 / off 臂 —— **同码复制 off_r2**（C 步：出配对 sd；预注册 = prereg_crowd_judgeability.md）
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1.md（判据先锁）
+# 栈 = paper-1 栈（combined_prune，与论文 2 baseline 一致）；机制臂与 lifecycle_formal 逐键同源
+inherit_from: "configs/rgbd/bonn/crowd2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/lifecycle_paper2/L1_crowd2_off_r2"
+  save_per_frame_ape: true

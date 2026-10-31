@@ -1,0 +1,210 @@
+{
+ "sources": [
+  "results/embrace_online/evidence/p0_probe_pt2_results.json",
+  "results/embrace_online/evidence/p0_probe_balloon_results.json"
+ ],
+ "cap": 60000,
+ "maps": {
+  "p0_probe_pt2_results:gate": {
+   "source": "results/embrace_online/evidence/p0_probe_pt2_results.json",
+   "n_static": 55174,
+   "online": {
+    "n_walked_frames": 128,
+    "inserted_per_frame": 2326.97,
+    "buf_final": 60000,
+    "buf_max": 60000,
+    "pinning_frame": 218,
+    "pinned": true,
+    "cap": 60000,
+    "inserted_total": 297852,
+    "evicted_total": 237852,
+    "churn": 0.7986
+   },
+   "classic_arms": {
+    "P1": {
+     "n_frames": 16,
+     "mean_n_dyn": 0.0,
+     "cost_frac": 0.0
+    },
+    "P2": {
+     "n_frames": 16,
+     "mean_n_dyn": 4606.9,
+     "cost_frac": 0.0835
+    },
+    "C-": {
+     "n_frames": 16,
+     "mean_n_dyn": 4606.9,
+     "cost_frac": 0.0835
+    },
+    "P0o": {
+     "n_frames": 6,
+     "mean_n_dyn": 54305.5,
+     "cost_frac": 0.9843
+    },
+    "P0n": {
+     "n_frames": 6,
+     "mean_n_dyn": 54305.5,
+     "cost_frac": 0.9843
+    },
+    "C-o": {
+     "n_frames": 6,
+     "mean_n_dyn": 54305.5,
+     "cost_frac": 0.9843
+    }
+   }
+  },
+  "p0_probe_pt2_results:baseline": {
+   "source": "results/embrace_online/evidence/p0_probe_pt2_results.json",
+   "n_static": 84162,
+   "online": {
+    "n_walked_frames": 128,
+    "inserted_per_frame": 2318.46,
+    "buf_final": 60000,
+    "buf_max": 60000,
+    "pinning_frame": 219,
+    "pinned": true,
+    "cap": 60000,
+    "inserted_total": 296763,
+    "evicted_total": 236763,
+    "churn": 0.7978
+   },
+   "classic_arms": {
+    "P1": {
+     "n_frames": 16,
+     "mean_n_dyn": 0.0,
+     "cost_frac": 0.0
+    },
+    "P2": {
+     "n_frames": 16,
+     "mean_n_dyn": 4606.9,
+     "cost_frac": 0.0547
+    },
+    "C-": {
+     "n_frames": 16,
+     "mean_n_dyn": 4606.9,
+     "cost_frac": 0.0547
+    },
+    "P0o": {
+     "n_frames": 6,
+     "mean_n_dyn": 54103.8,
+     "cost_frac": 0.6429
+    },
+    "P0n": {
+     "n_frames": 6,
+     "mean_n_dyn": 54103.8,
+     "cost_frac": 0.6429
+    },
+    "C-o": {
+     "n_frames": 6,
+     "mean_n_dyn": 54103.8,
+     "cost_frac": 0.6429
+    }
+   }
+  },
+  "p0_probe_balloon_results:gate": {
+   "source": "results/embrace_online/evidence/p0_probe_balloon_results.json",
+   "n_static": 50593,
+   "online": {
+    "n_walked_frames": 38,
+    "inserted_per_frame": 1782.76,
+    "buf_final": 60000,
+    "buf_max": 60000,
+    "pinning_frame": 300,
+    "pinned": true,
+    "cap": 60000,
+    "inserted_total": 67745,
+    "evicted_total": 7745,
+    "churn": 0.1143
+   },
+   "classic_arms": {
+    "P1": {
+     "n_frames": 16,
+     "mean_n_dyn": 0.0,
+     "cost_frac": 0.0
+    },
+    "P2": {
+     "n_frames": 16,
+     "mean_n_dyn": 5948.4,
+     "cost_frac": 0.1176
+    },
+    "C-": {
+     "n_frames": 16,
+     "mean_n_dyn": 5948.4,
+     "cost_frac": 0.1176
+    },
+    "P0o": {
+     "n_frames": 3,
+     "mean_n_dyn": 39973.3,
+     "cost_frac": 0.7901
+    },
+    "P0n": {
+     "n_frames": 3,
+     "mean_n_dyn": 39973.3,
+     "cost_frac": 0.7901
+    },
+    "C-o": {
+     "n_frames": 3,
+     "mean_n_dyn": 39973.3,
+     "cost_frac": 0.7901
+    }
+   }
+  },
+  "p0_probe_balloon_results:baseline": {
+   "source": "results/embrace_online/evidence/p0_probe_balloon_results.json",
+   "n_static": 32174,
+   "online": {
+    "n_walked_frames": 38,
+    "inserted_per_frame": 1657.37,
+    "buf_final": 60000,
+    "buf_max": 60000,
+    "pinning_frame": 304,
+    "pinned": true,
+    "cap": 60000,
+    "inserted_total": 62980,
+    "evicted_total": 2980,
+    "churn": 0.0473
+   },
+   "classic_arms": {
+    "P1": {
+     "n_frames": 16,
+     "mean_n_dyn": 0.0,
+     "cost_frac": 0.0
+    },
+    "P2": {
+     "n_frames": 16,
+     "mean_n_dyn": 5948.4,
+     "cost_frac": 0.1849
+    },
+    "C-": {
+     "n_frames": 16,
+     "mean_n_dyn": 5948.4,
+     "cost_frac": 0.1849
+    },
+    "P0o": {
+     "n_frames": 3,
+     "mean_n_dyn": 39655.3,
+     "cost_frac": 1.2325
+    },
+    "P0n": {
+     "n_frames": 3,
+     "mean_n_dyn": 39655.3,
+     "cost_frac": 1.2325
+    },
+    "C-o": {
+     "n_frames": 3,
+     "mean_n_dyn": 39655.3,
+     "cost_frac": 1.2325
+    }
+   }
+  }
+ },
+ "fit": null,
+ "predictions": [],
+ "notes": [
+  "p0_probe_pt2_results.json:gate 已钉顶（触顶帧 218）⇒ buf_final=60000 是护栏值，不进稳态拟合",
+  "p0_probe_pt2_results.json:baseline 已钉顶（触顶帧 219）⇒ buf_final=60000 是护栏值，不进稳态拟合",
+  "p0_probe_balloon_results.json:gate 已钉顶（触顶帧 300）⇒ buf_final=60000 是护栏值，不进稳态拟合",
+  "p0_probe_balloon_results.json:baseline 已钉顶（触顶帧 304）⇒ buf_final=60000 是护栏值，不进稳态拟合"
+ ],
+ "prereg_cost_template": "prereg 必填成本项（逐帧/持续类策略）：若 stride=S、每帧掩码均面积 A px、体素/差集去重保率 r ⇒ 每帧插入 ≈ A/S²·r 基元；无护栏稳态缓冲 ≈ rate × b 帧（b = 有效驻留帧数，本工具拟合）；护栏 cap ⇒ 预测钉顶帧 ≈ cap/rate，**触顶后机制被旁路、判据不再回答机制问题**（须预声明）。"
+}

@@ -1,0 +1,221 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon_off_s1/datasets_bonn/l3_balloon_off/seed_1/2026-09-21-01-26-08",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon_off_s1/datasets_bonn/l3_balloon_off/seed_1/2026-09-21-01-26-08/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  74,
+  98,
+  123,
+  147,
+  171,
+  195,
+  219,
+  244,
+  268,
+  292,
+  316,
+  340,
+  364,
+  389,
+  413,
+  437
+ ],
+ "n_prims_total": 34077,
+ "prereg": "prereg_instrument_v2.md",
+ "band_used": 0.15,
+ "summary": {
+  "exc_full_static": {
+   "n": 17,
+   "median": 3.183,
+   "iqr": [
+    -5.4427,
+    6.3251
+   ],
+   "mean": 1.099
+  },
+  "exc_ring": {
+   "n": 12,
+   "median": 2.652,
+   "iqr": [
+    0.9326,
+    6.4589
+   ],
+   "mean": 3.0493
+  },
+  "exc_depth_matched": {
+   "n": 17,
+   "median": 2.6803,
+   "iqr": [
+    -7.9301,
+    6.4289
+   ],
+   "mean": 0.7168
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 27699,
+   "exc_full_cm": 6.1068,
+   "exc_ring_cm": 1.4857,
+   "exc_m3_cm": 8.7846,
+   "m3_band_tried": null,
+   "m3_z_med": 3.269
+  },
+  {
+   "frame": 74,
+   "n_vac_px": 79843,
+   "exc_full_cm": 3.4018,
+   "exc_ring_cm": 3.764,
+   "exc_m3_cm": 6.4289,
+   "m3_band_tried": null,
+   "m3_z_med": 3.269
+  },
+  {
+   "frame": 98,
+   "n_vac_px": 105732,
+   "exc_full_cm": 9.8907,
+   "exc_ring_cm": 3.6808,
+   "exc_m3_cm": 11.0696,
+   "m3_band_tried": null,
+   "m3_z_med": 3.208
+  },
+  {
+   "frame": 123,
+   "n_vac_px": 98804,
+   "exc_full_cm": 3.183,
+   "exc_ring_cm": 1.0934,
+   "exc_m3_cm": 3.1809,
+   "m3_band_tried": null,
+   "m3_z_med": 3.064
+  },
+  {
+   "frame": 147,
+   "n_vac_px": 77228,
+   "exc_full_cm": -1.3941,
+   "exc_ring_cm": -8.3102,
+   "exc_m3_cm": 2.6803,
+   "m3_band_tried": null,
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 171,
+   "n_vac_px": 90585,
+   "exc_full_cm": 2.6183,
+   "exc_ring_cm": 0.45,
+   "exc_m3_cm": 1.8513,
+   "m3_band_tried": null,
+   "m3_z_med": 2.317
+  },
+  {
+   "frame": 195,
+   "n_vac_px": 113398,
+   "exc_full_cm": 6.3251,
+   "exc_ring_cm": 5.7757,
+   "exc_m3_cm": 3.657,
+   "m3_band_tried": null,
+   "m3_z_med": 2.598
+  },
+  {
+   "frame": 219,
+   "n_vac_px": 136870,
+   "exc_full_cm": -1.2062,
+   "exc_ring_cm": -1.6163,
+   "exc_m3_cm": -3.7614,
+   "m3_band_tried": null,
+   "m3_z_med": 2.933
+  },
+  {
+   "frame": 244,
+   "n_vac_px": 156217,
+   "exc_full_cm": 20.4373,
+   "exc_ring_cm": 10.683,
+   "exc_m3_cm": 18.0044,
+   "m3_band_tried": null,
+   "m3_z_med": 3.149
+  },
+  {
+   "frame": 268,
+   "n_vac_px": 122507,
+   "exc_full_cm": 8.0072,
+   "exc_ring_cm": 1.6231,
+   "exc_m3_cm": 2.4399,
+   "m3_band_tried": null,
+   "m3_z_med": 3.149
+  },
+  {
+   "frame": 292,
+   "n_vac_px": 146721,
+   "exc_full_cm": 8.7568,
+   "exc_ring_cm": 8.5083,
+   "exc_m3_cm": 4.8007,
+   "m3_band_tried": null,
+   "m3_z_med": 2.723
+  },
+  {
+   "frame": 316,
+   "n_vac_px": 257011,
+   "exc_full_cm": 3.3613,
+   "exc_ring_cm": 9.4537,
+   "exc_m3_cm": 10.1953,
+   "m3_band_tried": null,
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 340,
+   "n_vac_px": 268030,
+   "exc_full_cm": -8.507,
+   "exc_ring_cm": null,
+   "exc_m3_cm": -9.8916,
+   "m3_band_tried": null,
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 364,
+   "n_vac_px": 264721,
+   "exc_full_cm": -9.569,
+   "exc_ring_cm": null,
+   "exc_m3_cm": -12.2379,
+   "m3_band_tried": null,
+   "m3_z_med": 2.68
+  },
+  {
+   "frame": 389,
+   "n_vac_px": 265907,
+   "exc_full_cm": -5.4427,
+   "exc_ring_cm": null,
+   "exc_m3_cm": -7.9301,
+   "m3_band_tried": null,
+   "m3_z_med": 2.579
+  },
+  {
+   "frame": 413,
+   "n_vac_px": 265261,
+   "exc_full_cm": -14.3574,
+   "exc_ring_cm": null,
+   "exc_m3_cm": -13.8788,
+   "m3_band_tried": null,
+   "m3_z_med": 2.659
+  },
+  {
+   "frame": 437,
+   "n_vac_px": 266013,
+   "exc_full_cm": -12.9286,
+   "exc_ring_cm": null,
+   "exc_m3_cm": -13.2072,
+   "m3_band_tried": null,
+   "m3_z_med": 2.659
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

@@ -1,0 +1,11 @@
+# L2 新域移植（D2-009 夜间保守执行件）：TUM fr3_walking_rpy / off 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L2_tum_wk.md（判据先锁；先于本批提交）
+# 栈 = paper-1 栈（combined_prune）；无 AlphaLifecycle 块（= 生命周期关）
+inherit_from: "configs/rgbd/tum/f3_wk_rpy.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L3_tum_wk_rpy_off"
+  save_per_frame_ape: true

@@ -1,0 +1,45 @@
+MonoGS: Running MonoGS evaluation mode
+MonoGS: Following config will be overriden
+MonoGS:         save_results=True
+MonoGS:         eval_rendering=True
+MonoGS:         save_raw_metrics=True
+MonoGS:         save_final_tracking=True
+MonoGS:         save_final_gaussians=True
+MonoGS: saving results in 
+results/paper2_rollout/roll_static_seed0/datasets_bonn/roll_static/seed_0/2026-0
+9-11-08-00-35
+MonoGS: logging console output to 
+results/paper2_rollout/roll_static_seed0/datasets_bonn/roll_static/seed_0/2026-0
+9-11-08-00-35/console.log
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: SWBA gate kf=5: static_conf=0.391 (max 0.38)
+MonoGS: SWBA kf=5:  static_conf=0.391 > 0.38
+MonoGS: Candidate insert KF 5: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: SWBA gate kf=10: static_conf=0.395 (max 0.38)
+MonoGS: SWBA kf=10:  static_conf=0.395 > 0.38
+MonoGS: Candidate insert KF 10: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: SWBA gate kf=15: static_conf=0.352 (max 0.38)
+MonoGS: SWBA kf=15: 6 edges free=[10, 15] anchors=2 |dc| 0.1% |dt| med 0.23cm 
+max 0.28cm |rot| med 0.05° max 0.05°
+MonoGS: Candidate insert KF 15: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: SWBA gate kf=20: static_conf=0.335 (max 0.38)
+MonoGS: Pruned 1 lineage(s): removed 0 Gaussians
+MonoGS: SWBA kf=20: 10 edges free=[15, 20] anchors=3 |dc| 0.3% |dt| med 0.42cm 
+max 0.63cm |rot| med 0.13° max 0.18°
+MonoGS: Evaluating ATE at frame:  21
+Eval: RMSE ATE [m] 0.003823086374590388
+MonoGS: Candidate insert KF 20: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: SWBA gate kf=25: static_conf=0.281 (max 0.38)

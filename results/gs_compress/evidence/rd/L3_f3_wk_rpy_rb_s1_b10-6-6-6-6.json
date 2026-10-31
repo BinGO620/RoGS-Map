@@ -1,0 +1,89 @@
+{
+  "tag": "L3_f3_wk_rpy_rb_s1",
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed1/datasets_tum/r34_rb_f3_wk_rpy/seed_1/2026-09-17-19-42-23",
+  "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed1/datasets_tum/r34_rb_f3_wk_rpy/seed_1/2026-09-17-19-42-23/point_cloud/final/point_cloud.ply",
+  "bits": [
+    10,
+    6,
+    6,
+    6,
+    6
+  ],
+  "bits_dyn": null,
+  "coarsen": null,
+  "n": 96052,
+  "n_orig": 96052,
+  "prune": {
+    "opacity_below": null,
+    "scale_above": null,
+    "ghost": false,
+    "dropped": 0
+  },
+  "alloc": "uniform",
+  "partition_meta": {
+    "iso_scale": false,
+    "iso_thresh": 0.1
+  },
+  "codec_bytes": 911112,
+  "codec_bytes_per_prim": 9.485611960188232,
+  "rate_bytes_per_prim": 9.485611960188232,
+  "recon_ply_bytes": 6531951,
+  "orig_full_bytes": 7684160,
+  "orig_render_bytes": 5378912,
+  "ratio_full": 8.433825918218616,
+  "ratio_render14": 5.903678142753032,
+  "render": {
+    "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s1/2026-10-04-00-00-28",
+    "ply": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s1/2026-10-04-00-00-28/point_cloud/final/point_cloud.ply",
+    "trj": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s1/2026-10-04-00-00-28/plot/trj_full_final.json",
+    "n_frames": 5,
+    "interval": 5,
+    "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+    "mask_source": null,
+    "mask_kind": null,
+    "mask_class": null,
+    "mask_validity": null,
+    "mean_psnr": 12.7012,
+    "mean_ssim": 0.5279,
+    "mean_lpips": 0.4687,
+    "mean_depth_l1_cm": 77.4259,
+    "per_frame": [
+      {
+        "frame": 0,
+        "psnr": 13.5684,
+        "ssim": 0.501,
+        "lpips": 0.4596,
+        "depth_l1_cm": 94.6704
+      },
+      {
+        "frame": 60,
+        "psnr": 15.9184,
+        "ssim": 0.6182,
+        "lpips": 0.4751,
+        "depth_l1_cm": 51.3505
+      },
+      {
+        "frame": 120,
+        "psnr": 13.6606,
+        "ssim": 0.5272,
+        "lpips": 0.419,
+        "depth_l1_cm": 83.1782
+      },
+      {
+        "frame": 180,
+        "psnr": 6.9224,
+        "ssim": 0.3385,
+        "lpips": 0.5974,
+        "depth_l1_cm": 43.254
+      },
+      {
+        "frame": 240,
+        "psnr": 13.4362,
+        "ssim": 0.6544,
+        "lpips": 0.3926,
+        "depth_l1_cm": 114.6765
+      }
+    ],
+    "frames_render_skipped": 0
+  }
+}

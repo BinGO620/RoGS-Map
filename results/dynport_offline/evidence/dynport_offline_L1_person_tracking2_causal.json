@@ -1,0 +1,41 @@
+{
+  "seq": "person_tracking2",
+  "n_common_frames": 22,
+  "arms": [
+    "E",
+    "D",
+    "Cneg"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": 10.016,
+    "iqr": 3.9861
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.2427,
+    "iqr": 0.09
+  },
+  "J3_static_delta": {
+    "median": -10.0549,
+    "iqr": 6.7804
+  },
+  "J3_full_delta": {
+    "median": -1.5622,
+    "iqr": 16.8768
+  },
+  "J6_bad_px_median": 33630.0,
+  "J7_neg_control_dl1_ratio": {
+    "median": 1.3418,
+    "iqr": 0.6325
+  },
+  "J6_judgeable": true,
+  "render_exit": "render_subset_not_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "causal_snapshot",
+  "instrument_note": "causal \u7528\u4e8e J1/J2\uff08\u52a8\u6001\u533a\uff09\uff1bJ3 \u9759\u6001\u533a\u5e94\u53d6 final_map \u53e3\u5f84"
+}

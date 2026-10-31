@@ -1,0 +1,30 @@
+{
+ "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed0/datasets_tum/r34_gate_f1_desk2/seed_0/2026-09-17-10-54-50",
+ "ply": "results/paper2_rollout/r34_gate_f1_desk2_seed0/datasets_tum/r34_gate_f1_desk2/seed_0/2026-09-17-10-54-50/point_cloud/final_after_opt/point_cloud.ply",
+ "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+ "anchor_est0_gt0_cm": 0.0,
+ "mask_source": null,
+ "results": {
+  "est": {
+   "fusion": {
+    "frames_used": 32,
+    "frames_total": 635,
+    "frame_stride": 20,
+    "pixel_stride": 5,
+    "masked_px_skipped": 0,
+    "frames_without_mask": 32,
+    "fusion_pose": "est"
+   },
+   "metrics": {
+    "accuracy_cm": 5.2344,
+    "completion_cm": 3.4812,
+    "completion_ratio": 80.1065,
+    "precision_ratio": 74.4295,
+    "fscore": 77.1637,
+    "num_rec_points_eval": 61000,
+    "num_gt_points_eval": 200000,
+    "threshold_m": 0.05
+   }
+  }
+ }
+}

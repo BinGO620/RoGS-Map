@@ -1,0 +1,22 @@
+=== L1f canonical render: devices=cuda:0,cuda:1 jobs=9 (expect 9) 2026年 09月 25日 星期五 09:49:36 CST ===
+render L1f2_balloon2_obsdebt_s0 start attempt=0 dev=cuda:0 2026年 09月 25日 星期五 09:49:36 CST
+render L1f2_balloon2_obsdebt_s1 start attempt=0 dev=cuda:1 2026年 09月 25日 星期五 09:49:36 CST
+render L1f2_balloon2_obsdebt_s1 rc=0 n_frames=17 2026年 09月 25日 星期五 09:49:55 CST
+render L1f2_balloon2_obsdebt_s0 rc=0 n_frames=17 2026年 09月 25日 星期五 09:49:55 CST
+render L1f_balloon2_exitfill_ctrl_s0 start attempt=0 dev=cuda:1 2026年 09月 25日 星期五 09:49:55 CST
+render L1f2_balloon2_obsdebt_s2 start attempt=0 dev=cuda:0 2026年 09月 25日 星期五 09:49:55 CST
+render L1f_balloon2_exitfill_ctrl_s0 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:05 CST
+render L1f2_balloon2_obsdebt_s2 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:05 CST
+render L1f_balloon2_exitfill_ctrl_s2 start attempt=0 dev=cuda:1 2026年 09月 25日 星期五 09:50:05 CST
+render L1f_balloon2_exitfill_ctrl_s1 start attempt=0 dev=cuda:0 2026年 09月 25日 星期五 09:50:05 CST
+render L1f_balloon2_exitfill_ctrl_s1 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:14 CST
+render L1f_balloon2_exitfill_ctrl_s2 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:14 CST
+render L1f_person_tracking_obsdebt_s0 start attempt=0 dev=cuda:0 2026年 09月 25日 星期五 09:50:14 CST
+render L1f_person_tracking_obsdebt_s1 start attempt=0 dev=cuda:1 2026年 09月 25日 星期五 09:50:14 CST
+render L1f_person_tracking_obsdebt_s0 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:24 CST
+render L1f_person_tracking_obsdebt_s1 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:24 CST
+WORKER1_DONE 2026年 09月 25日 星期五 09:50:24 CST
+render L1f_person_tracking_obsdebt_s2 start attempt=0 dev=cuda:0 2026年 09月 25日 星期五 09:50:24 CST
+render L1f_person_tracking_obsdebt_s2 rc=0 n_frames=17 2026年 09月 25日 星期五 09:50:33 CST
+WORKER0_DONE 2026年 09月 25日 星期五 09:50:33 CST
+L1F_RENDER_DONE rc0=9 dirs=9 (expect rc0=9 dirs=9) 2026年 09月 25日 星期五 09:50:33 CST

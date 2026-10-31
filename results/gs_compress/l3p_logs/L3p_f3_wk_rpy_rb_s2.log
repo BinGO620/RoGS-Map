@@ -1,0 +1,77 @@
+[rd_sweep] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/gs_compress/rd_harness.py --run-dir results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/ --tag L3p_f3_wk_rpy_rb_s2 --baseline --frames 0,60,120,180,240 --device cuda:0
+[rd_harness] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/02_analysis/render_compare.py --run-dir /data/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05 --ply final --out-dir /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_baseline --device cuda:0 --frames 0,60,120,180,240
+[render_compare] PLY=/data/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply n=82295 sh=0 model_dev=cuda:0
+[render_compare] N=873 render frames=[0, 60, 120, 180, 240]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (857 stems)
+  frame 0: PSNR=13.76 SSIM=0.544 LPIPS=0.444 dL1=97.18025326728821 | static PSNR=21.9502 SSIM=0.8095 cov=0.9999
+  frame 60: PSNR=15.75 SSIM=0.635 LPIPS=0.459 dL1=51.90587639808655 | static PSNR=21.0257 SSIM=0.7592 cov=1.0 | ghost_excess=-4.1955cm
+  frame 120: PSNR=13.86 SSIM=0.556 LPIPS=0.387 dL1=83.26995372772217 | static PSNR=22.5239 SSIM=0.7927 cov=0.9994 | ghost_excess=-12.6743cm
+  frame 180: PSNR=6.98 SSIM=0.321 LPIPS=0.612 dL1=50.032055377960205 | static PSNR=7.8207 SSIM=0.3785 cov=0.9998 | ghost_excess=-19.2279cm
+  frame 240: PSNR=13.29 SSIM=0.673 LPIPS=0.372 dL1=117.19037294387817 | static PSNR=21.4259 SSIM=0.7835 cov=0.9997 | ghost_excess=-11.4437cm
+[render_compare] wrote /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_baseline  mean PSNR=12.727 SSIM=0.5459 LPIPS=0.4549 | static PSNR=18.9493 cov=0.9998 | ghost_excess=-11.8854cm | freshvac_excess(w=30)=1.8117cm
+[rd_harness] BASELINE L3p_f3_wk_rpy_rb_s2 psnr=12.727 static_psnr=18.9493 ghost_dl1=-11.8854
+[rd_sweep] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/gs_compress/rd_harness.py --run-dir results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/ --tag L3p_f3_wk_rpy_rb_s2 --bits 16,8,8,8,8 --frames 0,60,120,180,240 --device cuda:0
+[rd_harness] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/02_analysis/render_compare.py --run-dir /data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-09 --ply final --out-dir /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b16-8-8-8-8 --device cuda:0 --frames 0,60,120,180,240
+[render_compare] PLY=/data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-09/point_cloud/final/point_cloud.ply n=82295 sh=0 model_dev=cuda:0
+[render_compare] N=873 render frames=[0, 60, 120, 180, 240]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (857 stems)
+  frame 0: PSNR=13.74 SSIM=0.544 LPIPS=0.444 dL1=97.16882705688477 | static PSNR=21.9264 SSIM=0.8089 cov=0.9999
+  frame 60: PSNR=15.76 SSIM=0.635 LPIPS=0.461 dL1=51.90780758857727 | static PSNR=21.0246 SSIM=0.7588 cov=1.0 | ghost_excess=-4.1916cm
+  frame 120: PSNR=13.84 SSIM=0.556 LPIPS=0.388 dL1=83.29983353614807 | static PSNR=22.5064 SSIM=0.7923 cov=0.9994 | ghost_excess=-12.6045cm
+  frame 180: PSNR=6.97 SSIM=0.321 LPIPS=0.613 dL1=49.99096691608429 | static PSNR=7.8128 SSIM=0.3782 cov=0.9998 | ghost_excess=-19.2217cm
+  frame 240: PSNR=13.29 SSIM=0.673 LPIPS=0.374 dL1=117.19732284545898 | static PSNR=21.4165 SSIM=0.7828 cov=0.9997 | ghost_excess=-11.3882cm
+[render_compare] wrote /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b16-8-8-8-8  mean PSNR=12.7198 SSIM=0.5457 LPIPS=0.4559 | static PSNR=18.9373 cov=0.9998 | ghost_excess=-11.8515cm | freshvac_excess(w=30)=1.8381cm
+[rd_harness] OK L3p_f3_wk_rpy_rb_s2 bits=[16, 8, 8, 8, 8] rate=13.54 B/prim ratio_full=5.91x psnr=12.7198 static_psnr=18.9373 ghost_dl1=-11.8515
+[rd_harness] wrote /data/monogs-ours/results/gs_compress/evidence/rd/L3p_f3_wk_rpy_rb_s2_b16-8-8-8-8.json
+[rd_sweep] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/gs_compress/rd_harness.py --run-dir results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/ --tag L3p_f3_wk_rpy_rb_s2 --bits 12,7,7,7,7 --frames 0,60,120,180,240 --device cuda:0
+[rd_harness] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/02_analysis/render_compare.py --run-dir /data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-48 --ply final --out-dir /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b12-7-7-7-7 --device cuda:0 --frames 0,60,120,180,240
+[render_compare] PLY=/data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-48/point_cloud/final/point_cloud.ply n=82295 sh=0 model_dev=cuda:0
+[render_compare] N=873 render frames=[0, 60, 120, 180, 240]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (857 stems)
+  frame 0: PSNR=13.77 SSIM=0.540 LPIPS=0.448 dL1=97.1932590007782 | static PSNR=21.7665 SSIM=0.8002 cov=0.9999
+  frame 60: PSNR=15.76 SSIM=0.633 LPIPS=0.465 dL1=51.829320192337036 | static PSNR=20.9189 SSIM=0.7565 cov=1.0 | ghost_excess=-4.2171cm
+  frame 120: PSNR=13.86 SSIM=0.552 LPIPS=0.391 dL1=83.17101001739502 | static PSNR=22.3652 SSIM=0.7845 cov=0.9994 | ghost_excess=-12.7618cm
+  frame 180: PSNR=6.99 SSIM=0.321 LPIPS=0.615 dL1=49.853089451789856 | static PSNR=7.855 SSIM=0.3782 cov=0.9998 | ghost_excess=-19.0538cm
+  frame 240: PSNR=13.29 SSIM=0.671 LPIPS=0.378 dL1=117.12453365325928 | static PSNR=21.3622 SSIM=0.7807 cov=0.9997 | ghost_excess=-11.447cm
+[render_compare] wrote /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b12-7-7-7-7  mean PSNR=12.7355 SSIM=0.5433 LPIPS=0.4594 | static PSNR=18.8536 cov=0.9998 | ghost_excess=-11.8699cm | freshvac_excess(w=30)=1.8445cm
+[rd_harness] OK L3p_f3_wk_rpy_rb_s2 bits=[12, 7, 7, 7, 7] rate=11.30 B/prim ratio_full=7.08x psnr=12.7355 static_psnr=18.8536 ghost_dl1=-11.8699
+[rd_harness] wrote /data/monogs-ours/results/gs_compress/evidence/rd/L3p_f3_wk_rpy_rb_s2_b12-7-7-7-7.json
+[rd_sweep] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/gs_compress/rd_harness.py --run-dir results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/ --tag L3p_f3_wk_rpy_rb_s2 --bits 10,6,6,6,6 --frames 0,60,120,180,240 --device cuda:0
+[rd_harness] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/02_analysis/render_compare.py --run-dir /data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-30 --ply final --out-dir /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b10-6-6-6-6 --device cuda:0 --frames 0,60,120,180,240
+[render_compare] PLY=/data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-30/point_cloud/final/point_cloud.ply n=82295 sh=0 model_dev=cuda:0
+[render_compare] N=873 render frames=[0, 60, 120, 180, 240]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (857 stems)
+  frame 0: PSNR=13.60 SSIM=0.504 LPIPS=0.471 dL1=96.77584767341614 | static PSNR=20.0781 SSIM=0.722 cov=0.9999
+  frame 60: PSNR=15.67 SSIM=0.615 LPIPS=0.487 dL1=51.87222361564636 | static PSNR=20.5404 SSIM=0.7323 cov=1.0 | ghost_excess=-4.0532cm
+  frame 120: PSNR=13.72 SSIM=0.518 LPIPS=0.420 dL1=83.0482006072998 | static PSNR=20.5584 SSIM=0.7067 cov=0.9994 | ghost_excess=-12.5497cm
+  frame 180: PSNR=6.88 SSIM=0.314 LPIPS=0.643 dL1=50.0511109828949 | static PSNR=7.7623 SSIM=0.3738 cov=0.9998 | ghost_excess=-19.7996cm
+  frame 240: PSNR=13.21 SSIM=0.648 LPIPS=0.414 dL1=117.11198091506958 | static PSNR=20.8106 SSIM=0.7475 cov=0.9998 | ghost_excess=-11.4178cm
+[render_compare] wrote /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b10-6-6-6-6  mean PSNR=12.619 SSIM=0.5195 LPIPS=0.4868 | static PSNR=17.95 cov=0.9998 | ghost_excess=-11.9551cm | freshvac_excess(w=30)=1.7527cm
+[rd_harness] OK L3p_f3_wk_rpy_rb_s2 bits=[10, 6, 6, 6, 6] rate=9.40 B/prim ratio_full=8.51x psnr=12.619 static_psnr=17.95 ghost_dl1=-11.9551
+[rd_harness] wrote /data/monogs-ours/results/gs_compress/evidence/rd/L3p_f3_wk_rpy_rb_s2_b10-6-6-6-6.json
+[rd_sweep] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/gs_compress/rd_harness.py --run-dir results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/ --tag L3p_f3_wk_rpy_rb_s2 --bits 8,4,4,4,4 --frames 0,60,120,180,240 --device cuda:0
+[rd_harness] $ /data/conda_envs/monogs-ours/bin/python /data/monogs-ours/scripts/02_analysis/render_compare.py --run-dir /data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-24 --ply final --out-dir /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b8-4-4-4-4 --device cuda:0 --frames 0,60,120,180,240
+[render_compare] PLY=/data/monogs-ours/results/gs_compress/recon/L3p_f3_wk_rpy_rb_s2/2026-10-04-00-00-24/point_cloud/final/point_cloud.ply n=82295 sh=0 model_dev=cuda:0
+[render_compare] N=873 render frames=[0, 60, 120, 180, 240]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (857 stems)
+  frame 0: PSNR=12.34 SSIM=0.324 LPIPS=0.625 dL1=95.52496671676636 | static PSNR=14.7397 SSIM=0.4013 cov=1.0
+  frame 60: PSNR=14.43 SSIM=0.511 LPIPS=0.608 dL1=52.544862031936646 | static PSNR=17.0475 SSIM=0.5926 cov=1.0 | ghost_excess=-3.1822cm
+  frame 120: PSNR=12.42 SSIM=0.350 LPIPS=0.612 dL1=86.00884079933167 | static PSNR=14.6427 SSIM=0.417 cov=0.9998 | ghost_excess=-12.2711cm
+  frame 180: PSNR=6.59 SSIM=0.293 LPIPS=0.731 dL1=49.879732728004456 | static PSNR=7.5724 SSIM=0.3545 cov=1.0 | ghost_excess=-17.8038cm
+  frame 240: PSNR=12.29 SSIM=0.506 LPIPS=0.592 dL1=117.31462478637695 | static PSNR=16.286 SSIM=0.5642 cov=1.0 | ghost_excess=-9.1663cm
+[render_compare] wrote /data/monogs-ours/results/gs_compress/render/L3p_f3_wk_rpy_rb_s2_b8-4-4-4-4  mean PSNR=11.613 SSIM=0.3968 LPIPS=0.6335 | static PSNR=14.0577 cov=1.0 | ghost_excess=-10.6059cm | freshvac_excess(w=30)=2.5019cm
+[rd_harness] OK L3p_f3_wk_rpy_rb_s2 bits=[8, 4, 4, 4, 4] rate=5.67 B/prim ratio_full=14.10x psnr=11.613 static_psnr=14.0577 ghost_dl1=-10.6059
+[rd_harness] wrote /data/monogs-ours/results/gs_compress/evidence/rd/L3p_f3_wk_rpy_rb_s2_b8-4-4-4-4.json
+# R-D sweep: L3p_f3_wk_rpy_rb_s2
+
+frames=0,60,120,180,240
+
+| alloc | bits | bits_dyn | B/prim | ratio_full | PSNR | static_psnr | ghost_dl1 |
+|---|---|---|---|---|---|---|---|
+| baseline | None | - | 0.00 | 0.00x | 12.727 | 18.9493 | -11.8854 |
+| uniform | [16, 8, 8, 8, 8] | - | 13.54 | 5.91x | 12.7198 | 18.9373 | -11.8515 |
+| uniform | [12, 7, 7, 7, 7] | - | 11.30 | 7.08x | 12.7355 | 18.8536 | -11.8699 |
+| uniform | [10, 6, 6, 6, 6] | - | 9.40 | 8.51x | 12.619 | 17.95 | -11.9551 |
+| uniform | [8, 4, 4, 4, 4] | - | 5.67 | 14.10x | 11.613 | 14.0577 | -10.6059 |
+
+[rd_sweep] wrote /data/monogs-ours/results/gs_compress/evidence/rd/L3p_f3_wk_rpy_rb_s2_rd_table.json

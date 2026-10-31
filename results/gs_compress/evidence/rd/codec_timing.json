@@ -1,0 +1,138 @@
+{
+  "reps": 3,
+  "device": "CPU single-thread",
+  "rows": [
+    {
+      "tag": "L2_balloon2_baseline_s0",
+      "n": 26997,
+      "near-lossless": {
+        "encode_ms": 18.771371338516474,
+        "decode_ms": 3.3165162118772664,
+        "encode_us_per_prim": 0.6953132325264464,
+        "decode_us_per_prim": 0.12284758350473263
+      },
+      "mid": {
+        "encode_ms": 31.72957027951876,
+        "decode_ms": 4.4405342390139895,
+        "encode_us_per_prim": 1.175299858484971,
+        "decode_us_per_prim": 0.16448250690869318
+      },
+      "aggressive": {
+        "encode_ms": 140.25345801686248,
+        "decode_ms": 3.7525356747210026,
+        "encode_us_per_prim": 5.195149758005056,
+        "decode_us_per_prim": 0.1389982470171131
+      }
+    },
+    {
+      "tag": "L2_balloon_baseline_s0",
+      "n": 36721,
+      "near-lossless": {
+        "encode_ms": 26.872633025050163,
+        "decode_ms": 4.556807378927867,
+        "encode_us_per_prim": 0.7318055887652887,
+        "decode_us_per_prim": 0.12409268208730338
+      },
+      "mid": {
+        "encode_ms": 60.63076869274179,
+        "decode_ms": 4.990390346695979,
+        "encode_us_per_prim": 1.6511197596128044,
+        "decode_us_per_prim": 0.135900175558835
+      },
+      "aggressive": {
+        "encode_ms": 278.88695274790126,
+        "decode_ms": 5.987018657227357,
+        "encode_us_per_prim": 7.594753758010437,
+        "decode_us_per_prim": 0.1630407302967609
+      }
+    },
+    {
+      "tag": "L2_crowd2_baseline_s1",
+      "n": 41452,
+      "near-lossless": {
+        "encode_ms": 33.12372509390116,
+        "decode_ms": 5.304302554577589,
+        "encode_us_per_prim": 0.7990862948446675,
+        "decode_us_per_prim": 0.1279625242347194
+      },
+      "mid": {
+        "encode_ms": 85.41919570416212,
+        "decode_ms": 6.225198662529389,
+        "encode_us_per_prim": 2.060677306382373,
+        "decode_us_per_prim": 0.15017848746814122
+      },
+      "aggressive": {
+        "encode_ms": 393.78537330776453,
+        "decode_ms": 6.6236563337345915,
+        "encode_us_per_prim": 9.499791887189147,
+        "decode_us_per_prim": 0.1597909952169881
+      }
+    },
+    {
+      "tag": "L2_crowd3_baseline_s2",
+      "n": 48378,
+      "near-lossless": {
+        "encode_ms": 35.71687530105313,
+        "decode_ms": 5.850315714875857,
+        "encode_us_per_prim": 0.7382875542819697,
+        "decode_us_per_prim": 0.12092925947488233
+      },
+      "mid": {
+        "encode_ms": 105.3429093832771,
+        "decode_ms": 6.018076557666063,
+        "encode_us_per_prim": 2.177496163199742,
+        "decode_us_per_prim": 0.12439696882190382
+      },
+      "aggressive": {
+        "encode_ms": 406.0453640607496,
+        "decode_ms": 7.732726633548737,
+        "encode_us_per_prim": 8.393182108825284,
+        "decode_us_per_prim": 0.15983973362992965
+      }
+    },
+    {
+      "tag": "L2_crowd_final_s0",
+      "n": 43247,
+      "near-lossless": {
+        "encode_ms": 30.74441011995077,
+        "decode_ms": 5.478417966514826,
+        "encode_us_per_prim": 0.7109027243496837,
+        "decode_us_per_prim": 0.12667741037562896
+      },
+      "mid": {
+        "encode_ms": 66.49517764647801,
+        "decode_ms": 5.212844039003055,
+        "encode_us_per_prim": 1.5375674069063292,
+        "decode_us_per_prim": 0.1205365467894433
+      },
+      "aggressive": {
+        "encode_ms": 344.19090300798416,
+        "decode_ms": 6.946041869620482,
+        "encode_us_per_prim": 7.958723217980071,
+        "decode_us_per_prim": 0.16061326495758046
+      }
+    },
+    {
+      "tag": "L2_person_tracking_final_s2",
+      "n": 59346,
+      "near-lossless": {
+        "encode_ms": 39.6319303351144,
+        "decode_ms": 7.511419554551442,
+        "encode_us_per_prim": 0.6678113155918579,
+        "decode_us_per_prim": 0.1265699382359627
+      },
+      "mid": {
+        "encode_ms": 73.32619465887547,
+        "decode_ms": 10.144539332638184,
+        "encode_us_per_prim": 1.235570967864312,
+        "decode_us_per_prim": 0.17093888943885324
+      },
+      "aggressive": {
+        "encode_ms": 333.69046030566096,
+        "decode_ms": 7.714651990681887,
+        "encode_us_per_prim": 5.622796149793769,
+        "decode_us_per_prim": 0.12999447293300118
+      }
+    }
+  ]
+}

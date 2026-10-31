@@ -1,0 +1,50 @@
+[l2supp] render_L2_crowd2_gate_s0_canon cfg=l2_crowd2_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] render_L2_crowd2_gate_s1_canon cfg=l2_crowd2_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] render_L2_crowd_gate_s0_canon cfg=l2_crowd_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] render_L2_crowd_gate_s1_canon cfg=l2_crowd_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] render_L2_person_tracking2_gate_s0_canon cfg=l2_person_tracking2_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] render_L2_person_tracking2_gate_s1_canon cfg=l2_person_tracking2_gate.yaml rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 312, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 113, in main
+    assert ply_path and trj_path, "no PLY/trj"
+AssertionError: no PLY/trj
+
+[l2supp] attempted 6 runs (expect 6)
+[l2supp] ok-count = 0 (expect 6)

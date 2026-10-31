@@ -1,0 +1,15 @@
+# L3 正式批（幸存者正式批）：balloon2 / exit 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L3.md（判据先锁）
+#        + results/lifecycle_paper2/evidence/prereg_L3_amendment_1_frameset.md（帧集/仪器修正；判据不变）
+# 栈 = paper-1 栈（combined_prune，与论文 2 baseline 一致）；臂仅 AlphaLifecycle 键，阈值走默认
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+
+Results:
+  save_dir: "results/lifecycle_paper2/L3_balloon2_exit"
+  save_per_frame_ape: true

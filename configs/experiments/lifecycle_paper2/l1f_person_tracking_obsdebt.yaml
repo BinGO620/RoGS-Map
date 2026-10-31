@@ -1,0 +1,22 @@
+# L1f 观测债补偿：person_tracking 约束域臂（obsdebt on；只作 ATE/PSNR 约束门 + 点火诊断）
+# 预注册 = prereg_L1f_obsdebt.md §3（pt 不作判效，只作约束门；B0 约束条款 2）
+inherit_from: "configs/rgbd/bonn/person_tracking.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit_fill"
+  obsdebt: true
+  obsdebt_voxel_size: 0.05
+  obsdebt_iter_boost: 0.5
+  fill_k: 8
+  fill_band_abs_m: 0.10
+  fill_band_rel: 0.03
+  fill_min_opacity: 0.5
+  fill_max_points: 2000
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1f_person_tracking_obsdebt"
+  save_per_frame_ape: true

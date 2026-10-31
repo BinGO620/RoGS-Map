@@ -1,0 +1,67 @@
+{
+    "accuracy_cm": 58.9831,
+    "completion_cm": 128.1142,
+    "completion_ratio": 1.539,
+    "precision_ratio": 4.0225,
+    "fscore": 2.2262,
+    "num_rec_points_eval": 200000,
+    "num_gt_points_eval": 200000,
+    "threshold_m": 0.05,
+    "bonn_alignment_formula": "T_g = T_ROS^{-1} T_0 T_ROS T_m",
+    "bonn_t_g": [
+        [
+            0.30847864262187474,
+            0.37832372475579773,
+            -0.9400512655092363,
+            -0.5906885683753993
+        ],
+        [
+            0.009284155865759544,
+            -0.9837081242780916,
+            -0.3928461036883249,
+            1.3165979539933215
+        ],
+        [
+            -1.0133818833470558,
+            0.10620275663172701,
+            -0.28980460146689346,
+            -1.626625871471808
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "mesh_vertices": 170488,
+    "mesh_faces": 310184,
+    "geometry_protocol_version": "mesh-tsdf-v2",
+    "representation": "tsdf_mesh_surface",
+    "protocol_eligible": true,
+    "pose_source": "full_estimated_trajectory",
+    "source_rec_mesh": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/geometry/tsdf_mesh.ply",
+    "mesh_metadata": {
+        "mesh_protocol_version": "gaussian-render-tsdf-v2",
+        "source_gaussians": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/point_cloud/final_after_opt/point_cloud.ply",
+        "pose_source": "full_estimated_trajectory",
+        "trajectory_frames": 590,
+        "integrated_frames": 119,
+        "frame_stride": 5,
+        "voxel_length_m": 0.02,
+        "sdf_trunc_m": 0.08,
+        "depth_trunc_m": 5.0,
+        "opacity_threshold": 0.5,
+        "min_component_triangles": 100,
+        "vertices": 170488,
+        "faces": 310184,
+        "mesh_path": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/geometry/tsdf_mesh.ply"
+    },
+    "diagnostic_gaussian_center_accuracy_cm": 78.9575,
+    "diagnostic_gaussian_center_completion_cm": 83.1062,
+    "diagnostic_gaussian_center_completion_ratio": 1.5765,
+    "source_gt_point_cloud": "datasets/bonn/rgbd_bonn_groundtruth_1mm_section.ply",
+    "source_rec_point_cloud": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/point_cloud/final_after_opt/point_cloud.ply",
+    "notes_suffix": "BONN official GT point cloud; reconstruction aligned with T_g = T_ROS^{-1} T_0 T_ROS T_m. Main geometry uses the TSDF mesh surface.",
+    "geometry_eval_time_s": 20.0063
+}

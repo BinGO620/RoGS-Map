@@ -1,0 +1,16 @@
+# L1c 时序先验 off 一致性臂：person_tracking / occoff
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1c_occupancy.md §4（三门法）
+# 与 occ 臂逐键同源，仅 occupancy_memory 缺省（=false，default-off）
+inherit_from: "configs/rgbd/bonn/person_tracking.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+  evidence_gate: false
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1c_person_tracking_occoff"
+  save_per_frame_ape: true

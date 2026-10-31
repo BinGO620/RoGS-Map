@@ -1,0 +1,22 @@
+# 由 gen_probe_5seq_configs.py 生成；帧/t0 锁自 coverage_b1/balloon2.json（判据先锁）
+prereg: results/embrace_dyn/evidence/prereg_dyn_probe_5seq_2026-10-05.md
+sequence: balloon2
+device: cuda:0
+ply: final_after_opt
+mask_subdir: auto
+mask_class: 15
+unproj_stride: 3
+fit_iters: 300
+lrs: {xyz: 5.0e-4, scale: 5.0e-3, rot: 1.0e-3, opa: 5.0e-2, dc: 5.0e-3}
+control_shift_cam_m: [0.30, 0.0, 0.0]
+t0_frame: 194
+frames: [0, 16, 31, 60, 75, 91, 132, 147, 163, 178, 194, 210, 331, 424, 439, 455]
+arms: [P1, P2, C-, P4, P2c]
+maps:
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56
+    kf_log: results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0.consolelog
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_balloon2_seed0/datasets_bonn/r33_rebase_gate_balloon2/seed_0/2026-09-16-04-27-06
+    kf_log: results/paper2_fulltable/r33_rebase_gate_balloon2_seed0.consolelog
+out: results/embrace_dyn/evidence/dyn_probe_5seq_balloon2_results.json

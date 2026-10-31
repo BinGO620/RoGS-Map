@@ -1,0 +1,51 @@
+# fig4_tail — Heavy-tail of primitive scales (two panels)
+# 论文位置：§4 What a Map Is Made Of（图注 fig:tail）
+# 类型：数据图（直方图 + 分组柱）→ ❌ 不可用生成模型产出
+#   本文件 = 【样式重构说明书】：用绘图代码重画
+# 目标尺寸：双栏宽 183 mm，两联，现图 439×172 pt（≈2.56:1）
+
+================================================================
+中文意图说明
+================================================================
+左右两联：
+- 左：crowd2 gate 地图的"最大轴 log-scale"分布直方图（对数 y 轴），标一条虚线 = p99.9 阈值，
+  尾部（大基元）是重点
+- 右：每序列的"范围膨胀率"分组柱（scale vs xyz 两组），虚线 = 1.0 基准线，序列横排
+
+待改进点：
+1. 直方图颜色单调、阈值线与柱色对比不足
+2. 右联 x 轴序列名旋转挤、字号小
+3. 两联字号不统一；y 标签/单位不齐
+4. 缺面板编号 (a)(b)
+
+================================================================
+Restyle spec（绘图代码重画，数据不变）
+================================================================
+Keep DATA identical (same histogram bins/values, same bars). Redraw STYLE only.
+
+Left panel:
+- Histogram bars: sky blue #56B4E9, no edge, log y-scale.
+- Threshold line: vermillion #D55E00 dashed 1.2 pt, labelled "p99.9 = X m" in legend (frameless).
+- Shade the tail region (beyond threshold) with a light warm tint (alpha 0.15) to draw the eye.
+- Axis labels "max-axis log-scale" (x), "primitive count (log)" (y), Arial 7 pt; ticks 6 pt.
+Right panel:
+- Grouped bars: scale = vermillion #D55E00, xyz = blue #0072B2; group width consistent,
+  white 0.5 pt edge between bars; baseline dotted line at 1.0 (#333, 0.7 pt).
+- x tick labels (sequence short names) horizontal where possible, else 30°, 6–7 pt.
+- y label "range inflation"; Arial 7 pt.
+Both panels: light grid (alpha 0.25) behind data; frameless legends; no titles INSIDE the panels
+(use one LaTeX caption); add bold panel letters "(a)" "(b)" top-left, 8 pt.
+White background; colourblind-safe; output vector PDF, double-column width 183 mm.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT regenerate the distribution — bars/bins must match the real data. No 3D bars, no shadows.
+
+================================================================
+Post checklist
+================================================================
+[ ] 直方图/柱的高度与原始数据逐格一致（未编造）
+[ ] 两联字体/字号统一；面板号 (a)(b) 齐
+[ ] 配色 Okabe-Ito（蓝/朱红），色盲安全
+[ ] 阈值线为虚线且有标签

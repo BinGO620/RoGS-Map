@@ -1,0 +1,150 @@
+[dyn_probe] config=/home/jiangwenheng/cron/monogs-ours/configs/experiments/embrace_online/probe_pt2_online.yaml arms=['P1', 'P2', 'C-', 'P0o', 'P0n', 'C-o'] frames=[19, 48, 60, 72, 83, 98, 146, 171, 182, 193, 205, 216, 228, 242, 259, 321]
+[dyn_probe] gate: n_static=55174 mask=dynamic_mask
+  [gate] P1 f19: 22.2367 dB dl1=42.125
+  [gate] P1 f48: 15.1353 dB dl1=39.4549
+  [gate] P1 f60: 14.0793 dB dl1=39.6677
+  [gate] P1 f72: 11.6852 dB dl1=41.2474
+  [gate] P1 f83: 8.9974 dB dl1=41.602
+  [gate] P1 f98: 7.8937 dB dl1=42.076
+  [gate] P1 f146: 6.6454 dB dl1=40.4773
+  [gate] P1 f171: 6.5298 dB dl1=42.9479
+  [gate] P1 f182: 7.1999 dB dl1=43.319
+  [gate] P1 f193: 5.3997 dB dl1=40.0134
+  [gate] P1 f205: 6.0363 dB dl1=40.769
+  [gate] P1 f216: 6.0066 dB dl1=39.6786
+  [gate] P1 f228: 5.697 dB dl1=43.0465
+  [gate] P1 f242: 6.2095 dB dl1=40.338
+  [gate] P1 f259: 5.9768 dB dl1=42.014
+  [gate] P1 f321: 15.978 dB dl1=44.7551
+  [gate] P2 f19: 33.8515 dB dl1=6.1579 (fit 0.11949->0.01806)
+  [gate] C- f19: 18.8258 dB dl1=38.7923
+  [gate] P2 f48: 28.2947 dB dl1=8.1291 (fit 0.17441->0.02909)
+  [gate] C- f48: 13.9228 dB dl1=39.0119
+  [gate] P2 f60: 31.3031 dB dl1=7.6108 (fit 0.19972->0.02408)
+  [gate] C- f60: 12.0689 dB dl1=38.9583
+  [gate] P2 f72: 31.8302 dB dl1=7.1435 (fit 0.25494->0.02643)
+  [gate] C- f72: 10.9961 dB dl1=41.4226
+  [gate] P2 f83: 28.2792 dB dl1=10.9908 (fit 0.30794->0.03851)
+  [gate] C- f83: 8.8702 dB dl1=40.9919
+  [gate] P2 f98: 23.635 dB dl1=13.0604 (fit 0.3565->0.04801)
+  [gate] C- f98: 7.6547 dB dl1=42.7261
+  [gate] P2 f146: 27.8959 dB dl1=11.8825 (fit 0.42585->0.03885)
+  [gate] C- f146: 6.4356 dB dl1=41.0033
+  [gate] P2 f171: 28.1803 dB dl1=9.4917 (fit 0.39113->0.0349)
+  [gate] C- f171: 6.4995 dB dl1=42.448
+  [gate] P2 f182: 28.7236 dB dl1=9.7366 (fit 0.39176->0.03368)
+  [gate] C- f182: 7.0132 dB dl1=43.6378
+  [gate] P2 f193: 27.3061 dB dl1=9.0581 (fit 0.43796->0.03912)
+  [gate] C- f193: 5.4751 dB dl1=40.7645
+  [gate] P2 f205: 27.9657 dB dl1=7.2646 (fit 0.40051->0.03482)
+  [gate] C- f205: 5.9516 dB dl1=41.0155
+  [gate] P2 f216: 27.7691 dB dl1=7.0986 (fit 0.396->0.03376)
+  [gate] C- f216: 6.143 dB dl1=38.5596
+  [gate] P2 f228: 27.9847 dB dl1=7.0816 (fit 0.43079->0.035)
+  [gate] C- f228: 5.5537 dB dl1=41.9539
+  [gate] P2 f242: 27.6564 dB dl1=8.7746 (fit 0.38736->0.03517)
+  [gate] C- f242: 6.2292 dB dl1=40.599
+  [gate] P2 f259: 21.8761 dB dl1=12.6201 (fit 0.41624->0.05341)
+  [gate] C- f259: 6.2913 dB dl1=41.6305
+  [gate] P2 f321: 31.9875 dB dl1=8.3478 (fit 0.27969->0.02787)
+  [gate] C- f321: 11.6964 dB dl1=41.7184
+  [gate] P0o f205: bad=9.2776 dB dl1=32.9143 static=19.0755 n_dyn=32156
+  [gate] C-o f205: bad=6.9835 dB dl1=37.9265 static=15.8581 n_dyn=32156
+  [gate] P0n f205: bad=9.187 dB dl1=33.6591 static=19.0874 n_dyn=32156
+  [gate] P0o f216: bad=9.2123 dB dl1=31.4247 static=18.5056 n_dyn=53677
+  [gate] C-o f216: bad=8.0581 dB dl1=34.3185 static=15.7997 n_dyn=53677
+  [gate] P0n f216: bad=9.1434 dB dl1=31.9695 static=18.4944 n_dyn=53677
+  [gate] P0o f228: bad=9.6873 dB dl1=29.3712 static=19.0531 n_dyn=60000
+  [gate] C-o f228: bad=7.6324 dB dl1=34.0619 static=15.1795 n_dyn=60000
+  [gate] P0n f228: bad=9.5839 dB dl1=29.9835 static=19.0673 n_dyn=60000
+  [gate] P0o f242: bad=10.7445 dB dl1=26.2317 static=20.0905 n_dyn=60000
+  [gate] C-o f242: bad=7.2685 dB dl1=37.9172 static=15.0243 n_dyn=60000
+  [gate] P0n f242: bad=10.6622 dB dl1=26.5838 static=19.9889 n_dyn=60000
+  [gate] P0o f259: bad=11.8101 dB dl1=26.2994 static=21.9466 n_dyn=60000
+  [gate] C-o f259: bad=7.2645 dB dl1=43.0706 static=15.7131 n_dyn=60000
+  [gate] P0n f259: bad=11.7906 dB dl1=27.1454 static=22.2519 n_dyn=60000
+  [gate] P0o f321: bad=16.4516 dB dl1=18.4578 static=26.2518 n_dyn=60000
+  [gate] C-o f321: bad=13.6809 dB dl1=44.6792 static=19.1499 n_dyn=60000
+  [gate] P0n f321: bad=15.7605 dB dl1=17.0867 static=25.1478 n_dyn=60000
+[dyn_probe] baseline: n_static=84162 mask=dynamic_mask
+  [baseline] P1 f19: 20.5653 dB dl1=43.5567
+  [baseline] P1 f48: 14.7554 dB dl1=41.274
+  [baseline] P1 f60: 12.9178 dB dl1=41.5094
+  [baseline] P1 f72: 11.6436 dB dl1=42.3069
+  [baseline] P1 f83: 8.5871 dB dl1=41.3592
+  [baseline] P1 f98: 7.9129 dB dl1=41.7439
+  [baseline] P1 f146: 6.1377 dB dl1=42.4765
+  [baseline] P1 f171: 6.2933 dB dl1=44.5384
+  [baseline] P1 f182: 6.7163 dB dl1=44.9354
+  [baseline] P1 f193: 5.1855 dB dl1=41.1904
+  [baseline] P1 f205: 6.1758 dB dl1=39.3398
+  [baseline] P1 f216: 5.9949 dB dl1=38.6815
+  [baseline] P1 f228: 6.0387 dB dl1=42.3742
+  [baseline] P1 f242: 6.7517 dB dl1=42.1396
+  [baseline] P1 f259: 6.1174 dB dl1=42.7783
+  [baseline] P1 f321: 15.0811 dB dl1=42.6203
+  [baseline] P2 f19: 32.6497 dB dl1=7.6112 (fit 0.13019->0.02091)
+  [baseline] C- f19: 18.1326 dB dl1=40.3664
+  [baseline] P2 f48: 22.9263 dB dl1=10.1679 (fit 0.18533->0.04167)
+  [baseline] C- f48: 13.4076 dB dl1=41.0542
+  [baseline] P2 f60: 24.0481 dB dl1=10.0357 (fit 0.21797->0.04209)
+  [baseline] C- f60: 11.4206 dB dl1=41.0404
+  [baseline] P2 f72: 24.5802 dB dl1=8.4777 (fit 0.25697->0.039)
+  [baseline] C- f72: 11.2095 dB dl1=42.3949
+  [baseline] P2 f83: 23.5509 dB dl1=11.8525 (fit 0.31904->0.04823)
+  [baseline] C- f83: 8.7082 dB dl1=40.8383
+  [baseline] P2 f98: 28.0522 dB dl1=13.557 (fit 0.35079->0.03901)
+  [baseline] C- f98: 7.6756 dB dl1=42.4866
+  [baseline] P2 f146: 27.7049 dB dl1=11.4279 (fit 0.42903->0.04069)
+  [baseline] C- f146: 6.0962 dB dl1=42.5606
+  [baseline] P2 f171: 28.2642 dB dl1=8.7793 (fit 0.40165->0.03474)
+  [baseline] C- f171: 6.2532 dB dl1=43.6689
+  [baseline] P2 f182: 28.7242 dB dl1=9.1756 (fit 0.39806->0.03276)
+  [baseline] C- f182: 6.5959 dB dl1=45.1924
+  [baseline] P2 f193: 28.7219 dB dl1=8.4439 (fit 0.44429->0.0334)
+  [baseline] C- f193: 5.4348 dB dl1=41.9959
+  [baseline] P2 f205: 28.7289 dB dl1=7.9793 (fit 0.39451->0.03154)
+  [baseline] C- f205: 6.0675 dB dl1=39.4554
+  [baseline] P2 f216: 28.0062 dB dl1=8.9302 (fit 0.40016->0.03514)
+  [baseline] C- f216: 6.0998 dB dl1=37.6609
+  [baseline] P2 f228: 27.8854 dB dl1=8.6476 (fit 0.41378->0.03577)
+  [baseline] C- f228: 5.873 dB dl1=41.2897
+  [baseline] P2 f242: 25.2849 dB dl1=12.0154 (fit 0.3674->0.04433)
+  [baseline] C- f242: 6.4536 dB dl1=41.7918
+  [baseline] P2 f259: 21.3882 dB dl1=13.5119 (fit 0.41214->0.05697)
+  [baseline] C- f259: 6.205 dB dl1=42.4084
+  [baseline] P2 f321: 31.1122 dB dl1=9.2858 (fit 0.26066->0.0322)
+  [baseline] C- f321: 11.8311 dB dl1=39.9993
+  [baseline] P0o f205: bad=9.3486 dB dl1=33.1715 static=18.7446 n_dyn=31815
+  [baseline] C-o f205: bad=7.0387 dB dl1=38.4455 static=15.5871 n_dyn=31815
+  [baseline] P0n f205: bad=9.267 dB dl1=34.0428 static=18.7624 n_dyn=31815
+  [baseline] P0o f216: bad=9.0478 dB dl1=32.5109 static=18.4036 n_dyn=52808
+  [baseline] C-o f216: bad=8.2964 dB dl1=34.4764 static=15.7974 n_dyn=52808
+  [baseline] P0n f216: bad=8.9831 dB dl1=33.1728 static=18.3389 n_dyn=52808
+  [baseline] P0o f228: bad=9.9422 dB dl1=30.884 static=19.0815 n_dyn=60000
+  [baseline] C-o f228: bad=7.7081 dB dl1=35.2621 static=15.0922 n_dyn=60000
+  [baseline] P0n f228: bad=9.8366 dB dl1=31.4832 static=18.9571 n_dyn=60000
+  [baseline] P0o f242: bad=10.9292 dB dl1=29.5554 static=20.5243 n_dyn=60000
+  [baseline] C-o f242: bad=7.6324 dB dl1=39.871 static=15.1443 n_dyn=60000
+  [baseline] P0n f242: bad=10.8465 dB dl1=29.8259 static=20.3786 n_dyn=60000
+  [baseline] P0o f259: bad=11.8314 dB dl1=26.1727 static=22.0695 n_dyn=60000
+  [baseline] C-o f259: bad=7.1113 dB dl1=44.0729 static=15.9232 n_dyn=60000
+  [baseline] P0n f259: bad=11.8066 dB dl1=26.9148 static=22.0467 n_dyn=60000
+  [baseline] P0o f321: bad=16.4958 dB dl1=18.6138 static=26.8253 n_dyn=60000
+  [baseline] C-o f321: bad=13.1573 dB dl1=43.5385 static=20.3464 n_dyn=60000
+  [baseline] P0n f321: bad=15.9521 dB dl1=17.5043 static=26.0063 n_dyn=60000
+[dyn_probe] written results/embrace_online/evidence/p0_probe_pt2_results.json
+── gate ──
+  P1  n= 16 dyn_psnr=9.4817 dB dyn_dl1=41.4707 cm cov=1.0 static=26.9766 n_dyn=0.0
+  P2  n= 16 dyn_psnr=28.4087 dB dyn_dl1=9.028 cm cov=1.0 static=27.1526 n_dyn=4606.875
+  C-  n= 16 dyn_psnr=8.7267 dB dyn_dl1=40.9521 cm cov=1.0 static=14.2456 n_dyn=4606.875
+  P0o n=  6 dyn_psnr=11.23 dB dyn_dl1=27.0918 cm cov=1.0 static=20.8205 n_dyn=54305.5
+  P0n n=  6 dyn_psnr=11.065 dB dyn_dl1=27.3637 cm cov=1.0 static=20.673 n_dyn=54305.5
+  C-o n=  6 dyn_psnr=8.5996 dB dyn_dl1=37.4967 cm cov=1.0 static=16.1208 n_dyn=54305.5
+── baseline ──
+  P1  n= 16 dyn_psnr=9.1797 dB dyn_dl1=42.0515 cm cov=1.0 static=27.3823 n_dyn=0.0
+  P2  n= 16 dyn_psnr=26.9768 dB dyn_dl1=9.9937 cm cov=1.0 static=27.5402 n_dyn=4606.875
+  C-  n= 16 dyn_psnr=8.5915 dB dyn_dl1=41.5128 cm cov=1.0 static=14.2199 n_dyn=4606.875
+  P0o n=  6 dyn_psnr=11.2791 dB dyn_dl1=27.6454 cm cov=1.0 static=20.9415 n_dyn=54103.8333
+  P0n n=  6 dyn_psnr=11.1303 dB dyn_dl1=27.9679 cm cov=1.0 static=20.7483 n_dyn=54103.8333
+  C-o n=  6 dyn_psnr=8.5757 dB dyn_dl1=37.5835 cm cov=1.0 static=16.3151 n_dyn=54103.8333

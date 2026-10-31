@@ -1,0 +1,67 @@
+# fig2_render_crowd2 — Qualitative rendering montage (crowd2)
+# 论文位置：§8.2 Measurement（图注 fig:render）
+# 类型：实验渲染照片拼图（真实工件）→ ❌ 不可用生成模型产出（会篡改证据）
+#   本文件 = 【样式重构说明书】：交给绘图工具/人工重排，或用图像编辑模型只做"排版层"改动
+# 目标尺寸：双栏宽 183 mm，宽高比约 1.66:1（现图 398×239 pt）
+
+================================================================
+中文意图说明
+================================================================
+这张图是"定性渲染对比"：3 行 × 3 列照片网格。
+- 第 1 行 = Ground truth（真值），第 2 行 = base 臂，第 3 行 = gate 臂
+- 3 列 = 3 个固定帧
+- 每张 render 图（第 2、3 行）右下角有一个**放大插框**，框住"腾空区（人去楼空处）"，
+  用暖色边框标出，展示残影/鬼影细节
+- 图注在 LaTeX 里写，图内不要标题
+
+**不美观→待改进点**（这是本图重排要解决的）
+1. 三行字号/留白不齐；行标签（Ground truth / base / gate）位置偏挤
+2. 放大插框的位置/大小三列不一致，边框颜色不统一
+3. 缺面板编号 (a)(b)(c) 之类；缺"帧号"标注
+4. 行间距/列间距不匀，整图显得碎
+
+================================================================
+Style-restructure spec（给绘图工具/人工，或图像编辑模型，只动排版）
+================================================================
+Goal: re-compose the EXISTING photographs into a publication-grade montage.
+ABSOLUTELY DO NOT alter, inpaint, beautify, denoise, or regenerate the photo pixels —
+these are experimental evidence. Only rearrange, crop-resize uniformly, align, and
+re-badge. Keep every photo's true content byte-faithful (only lossless crop/scale allowed).
+
+Grid: 3 rows × 3 columns. Columns = three fixed evaluation frames (same frames for all rows).
+Row labels on the far left, rotated 0°, right-aligned: "Ground truth", "base", "gate".
+Use a subtle backing band behind each row label so rows read as bands.
+
+Per-photo zoom inset: for rows 2 and 3, place one inset in the lower-right of each photo,
+zooming the vacated region (where a moving person was). Draw a thin rectangle on the photo
+marking the zoomed area, same rectangle drawn as border around the inset. Use ONE consistent
+accent colour for all insets (vermillion #D55E00), 0.75 pt. Insets identical size across the
+grid; corner placement identical across the grid.
+
+Add a small frame index under each column (e.g. "frame 125 / 380 / 635"), Arial 6 pt,
+grey. Optional panel letters (a)(b)(c) top-left of each column, 8 pt bold, black.
+
+Typography: Arial/Helvetica, 6–7 pt, consistent. Row labels 7 pt. No figure-internal title.
+Spacing: uniform small gaps (~2 pt) between panels; thin 0.5 pt panel borders or none.
+
+Colour: only the inset accent (vermillion #D55E00) as a highlight; keep photos untouched.
+White page background. Colourblind-safe.
+
+Output: vector container (PDF) with embedded images at ≥300 dpi, or 600 dpi PNG.
+Canvas aspect ≈ 1.66:1 (double-column width 183 mm), no outer border.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT regenerate, smooth, upscale-generatively, or "improve" any photograph.
+Do NOT add icons, arrows, decorative shapes, or captions inside the image.
+Do NOT change the number of rows/columns (3×3 fixed).
+
+================================================================
+Post checklist
+================================================================
+[ ] 三行标签整齐、字号统一；行间距均匀
+[ ] 放大插框三列位置/大小/边框色完全一致
+[ ] 照片像素未被生成模型改动（仅无损裁剪/缩放）
+[ ] 图内无标题无图注（图注在 LaTeX）
+[ ] 帧号/面板号（若加）字体一致、色盲安全

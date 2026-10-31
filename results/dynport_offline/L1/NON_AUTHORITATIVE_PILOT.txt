@@ -1,0 +1,6 @@
+NON_AUTHORITATIVE_PILOT
+=======================
+本目录（results/dynport_offline/L1/crowd2_R1/）是 2026-10-06 S4 冒烟测产物：
+本机 RTX 2060、crowd2 单序列、非权威 —— 只用于验证端到端管线，**不进 L1 判据计数**。
+记录见 results/dynport_offline/evidence/smoke_S4_2026-10-06.md。
+正式 L1 批（3 序列 × {R1,C-}，远程 3090）另跑并覆盖本目录。

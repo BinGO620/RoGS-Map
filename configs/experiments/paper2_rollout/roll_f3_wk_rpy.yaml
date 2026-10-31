@@ -1,0 +1,27 @@
+# paper2 拉通扩大验证: gate 臂 held-out TUM 序列, 零参数重调 (DISCIPLINE #8).
+inherit_from: "configs/rgbd/tum/f3_wk_rpy.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_rollout/roll_f3_wk_rpy"
+  save_per_frame_ape: true

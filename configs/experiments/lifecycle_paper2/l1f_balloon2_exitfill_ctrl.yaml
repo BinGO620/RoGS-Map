@@ -1,0 +1,20 @@
+# L1f 对照臂（prereg_L1f_obsdebt §2 修订版）：balloon2，exit_fill 同管线、obsdebt=False
+# 单变量对照：与主臂唯一差异 = 债分配律（关卡① 重大-1 整改）
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit_fill"
+  obsdebt: false
+  fill_k: 8
+  fill_band_abs_m: 0.10
+  fill_band_rel: 0.03
+  fill_min_opacity: 0.5
+  fill_max_points: 2000
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1f_balloon2_exitfill_ctrl"
+  save_per_frame_ape: true

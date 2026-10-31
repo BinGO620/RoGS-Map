@@ -1,0 +1,638 @@
+{
+ "experiment": "r31_selfcheck_gate",
+ "date": "2026-09-15",
+ "prereg": "results/paper2_fulltable/evidence/prereg_r31_selfcheck.md",
+ "question": "H1: is SWBA rel_improve (self-check) a sequence-independent substitute for the static_conf absolute threshold?",
+ "verdict": "NOT ESTABLISHED — no arm passes all three gates; SUB fails at every threshold; gate skip-rate is flat across sequence difficulty. Excluded direction.",
+ "ate_column": "ate_rmse_cm (col8, full-frame)",
+ "seeds": "n=2 (seed 0,1) — screening discipline",
+ "runs_rc0": 42,
+ "batch": "remote jiangwenheng 3090x2, r31.done 42/42 finished rc=0",
+ "reference_note": "r29_framegate reference is the 2026-09-07 run tree (pre-Jacobian-fix); R31 ran 2026-09-15. Comparison is cross-version — see verdict_r31.md section 5. UPDATED 2026-09-16 (R32): the reference column has been rebaselined to r32_regate038 (current HEAD, 21 run rc=0 -> pt1 8.0647, crowd2 2.5713, crowd3 1.8336, balloon 4.1239). Recomputed criteria: MAIN unchanged for 0.5%/1%, flips to FAIL for 2% (crowd2 2.6933 vs 2.6484); SUB FAIL for all three UNCHANGED; MECH is reference-independent and stays PASS (691/385, 380/681, 90/989). Overall verdict 'NOT ESTABLISHED' is therefore UNCHANGED. The 2% flip is NOT evidence of strengthening: that arm's crowd2 two-seed spread is 0.941cm vs a +/-3% band of 0.081cm (noise-level), and R32 measured same-code run-to-run spread of 0.18-0.62cm. See evidence/verdict_f_rebase.md section 5.",
+ "arms": {
+  "r31_selfcheck_0p5": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.9479,
+      "kf_cm": 3.8008,
+      "applied": 46,
+      "skipped": 25,
+      "skip_pct": 35.2
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.8221,
+      "kf_cm": 3.666,
+      "applied": 39,
+      "skipped": 29,
+      "skip_pct": 42.6
+     }
+    ],
+    "mean_full_cm": 3.885,
+    "applied": 85,
+    "skipped": 54
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.2783,
+      "kf_cm": 5.1898,
+      "applied": 43,
+      "skipped": 13,
+      "skip_pct": 23.2
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.4514,
+      "kf_cm": 5.3387,
+      "applied": 31,
+      "skipped": 15,
+      "skip_pct": 32.6
+     }
+    ],
+    "mean_full_cm": 5.3648,
+    "applied": 74,
+    "skipped": 28
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.2892,
+      "kf_cm": 3.0858,
+      "applied": 46,
+      "skipped": 33,
+      "skip_pct": 41.8
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.3119,
+      "kf_cm": 2.894,
+      "applied": 48,
+      "skipped": 33,
+      "skip_pct": 40.7
+     }
+    ],
+    "mean_full_cm": 2.3006,
+    "applied": 94,
+    "skipped": 66
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.8353,
+      "kf_cm": 2.7874,
+      "applied": 44,
+      "skipped": 19,
+      "skip_pct": 30.2
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.6794,
+      "kf_cm": 2.5155,
+      "applied": 35,
+      "skipped": 25,
+      "skip_pct": 41.7
+     }
+    ],
+    "mean_full_cm": 2.7573,
+    "applied": 79,
+    "skipped": 44
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.6832,
+      "kf_cm": 1.6037,
+      "applied": 51,
+      "skipped": 23,
+      "skip_pct": 31.1
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.9018,
+      "kf_cm": 1.8336,
+      "applied": 44,
+      "skipped": 20,
+      "skip_pct": 31.2
+     }
+    ],
+    "mean_full_cm": 1.7925,
+    "applied": 95,
+    "skipped": 43
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 9.2517,
+      "kf_cm": 9.3167,
+      "applied": 63,
+      "skipped": 40,
+      "skip_pct": 38.8
+     },
+     {
+      "seed": 1,
+      "full_cm": 8.3628,
+      "kf_cm": 8.5181,
+      "applied": 73,
+      "skipped": 32,
+      "skip_pct": 30.5
+     }
+    ],
+    "mean_full_cm": 8.8072,
+    "applied": 136,
+    "skipped": 72
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 12.9004,
+      "kf_cm": 12.83,
+      "applied": 58,
+      "skipped": 41,
+      "skip_pct": 41.4
+     },
+     {
+      "seed": 1,
+      "full_cm": 11.7296,
+      "kf_cm": 11.7106,
+      "applied": 70,
+      "skipped": 37,
+      "skip_pct": 34.6
+     }
+    ],
+    "mean_full_cm": 12.315,
+    "applied": 128,
+    "skipped": 78
+   }
+  },
+  "r31_selfcheck_1": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.6379,
+      "kf_cm": 3.5267,
+      "applied": 21,
+      "skipped": 46,
+      "skip_pct": 68.7
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.7949,
+      "kf_cm": 3.6443,
+      "applied": 18,
+      "skipped": 51,
+      "skip_pct": 73.9
+     }
+    ],
+    "mean_full_cm": 3.7164,
+    "applied": 39,
+    "skipped": 97
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.0996,
+      "kf_cm": 5.0354,
+      "applied": 23,
+      "skipped": 31,
+      "skip_pct": 57.4
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.4601,
+      "kf_cm": 5.3819,
+      "applied": 17,
+      "skipped": 35,
+      "skip_pct": 67.3
+     }
+    ],
+    "mean_full_cm": 5.2798,
+    "applied": 40,
+    "skipped": 66
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.075,
+      "kf_cm": 2.3246,
+      "applied": 26,
+      "skipped": 51,
+      "skip_pct": 66.2
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2611,
+      "kf_cm": 2.7055,
+      "applied": 30,
+      "skipped": 44,
+      "skip_pct": 59.5
+     }
+    ],
+    "mean_full_cm": 2.1681,
+    "applied": 56,
+    "skipped": 95
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.3375,
+      "kf_cm": 2.187,
+      "applied": 22,
+      "skipped": 36,
+      "skip_pct": 62.1
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.3142,
+      "kf_cm": 2.2587,
+      "applied": 21,
+      "skipped": 37,
+      "skip_pct": 63.8
+     }
+    ],
+    "mean_full_cm": 2.3258,
+    "applied": 43,
+    "skipped": 73
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.7326,
+      "kf_cm": 1.7195,
+      "applied": 30,
+      "skipped": 40,
+      "skip_pct": 57.1
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.6746,
+      "kf_cm": 1.6533,
+      "applied": 29,
+      "skipped": 44,
+      "skip_pct": 60.3
+     }
+    ],
+    "mean_full_cm": 1.7036,
+    "applied": 59,
+    "skipped": 84
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 10.2381,
+      "kf_cm": 10.2372,
+      "applied": 36,
+      "skipped": 64,
+      "skip_pct": 64.0
+     },
+     {
+      "seed": 1,
+      "full_cm": 10.2656,
+      "kf_cm": 10.1591,
+      "applied": 40,
+      "skipped": 68,
+      "skip_pct": 63.0
+     }
+    ],
+    "mean_full_cm": 10.2518,
+    "applied": 76,
+    "skipped": 132
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.6539,
+      "kf_cm": 11.6476,
+      "applied": 38,
+      "skipped": 63,
+      "skip_pct": 62.4
+     },
+     {
+      "seed": 1,
+      "full_cm": 12.4956,
+      "kf_cm": 12.4258,
+      "applied": 29,
+      "skipped": 71,
+      "skip_pct": 71.0
+     }
+    ],
+    "mean_full_cm": 12.0747,
+    "applied": 67,
+    "skipped": 134
+   }
+  },
+  "r31_selfcheck_2": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.2552,
+      "kf_cm": 3.2048,
+      "applied": 4,
+      "skipped": 65,
+      "skip_pct": 94.2
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.9179,
+      "kf_cm": 2.8679,
+      "applied": 4,
+      "skipped": 69,
+      "skip_pct": 94.5
+     }
+    ],
+    "mean_full_cm": 3.0865,
+    "applied": 8,
+    "skipped": 134
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.0786,
+      "kf_cm": 5.0575,
+      "applied": 3,
+      "skipped": 48,
+      "skip_pct": 94.1
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.5818,
+      "kf_cm": 5.5423,
+      "applied": 5,
+      "skipped": 51,
+      "skip_pct": 91.1
+     }
+    ],
+    "mean_full_cm": 5.3302,
+    "applied": 8,
+    "skipped": 99
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.2935,
+      "kf_cm": 2.8671,
+      "applied": 6,
+      "skipped": 77,
+      "skip_pct": 92.8
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2941,
+      "kf_cm": 2.7928,
+      "applied": 5,
+      "skipped": 67,
+      "skip_pct": 93.1
+     }
+    ],
+    "mean_full_cm": 2.2938,
+    "applied": 11,
+    "skipped": 144
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.1638,
+      "kf_cm": 3.0992,
+      "applied": 3,
+      "skipped": 53,
+      "skip_pct": 94.6
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2228,
+      "kf_cm": 2.3266,
+      "applied": 2,
+      "skipped": 56,
+      "skip_pct": 96.6
+     }
+    ],
+    "mean_full_cm": 2.6933,
+    "applied": 5,
+    "skipped": 109
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.5604,
+      "kf_cm": 1.5248,
+      "applied": 9,
+      "skipped": 66,
+      "skip_pct": 88.0
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.5828,
+      "kf_cm": 1.5806,
+      "applied": 7,
+      "skipped": 60,
+      "skip_pct": 89.6
+     }
+    ],
+    "mean_full_cm": 1.5716,
+    "applied": 16,
+    "skipped": 126
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.4881,
+      "kf_cm": 11.5214,
+      "applied": 8,
+      "skipped": 97,
+      "skip_pct": 92.4
+     },
+     {
+      "seed": 1,
+      "full_cm": 11.2011,
+      "kf_cm": 11.3472,
+      "applied": 13,
+      "skipped": 92,
+      "skip_pct": 87.6
+     }
+    ],
+    "mean_full_cm": 11.3446,
+    "applied": 21,
+    "skipped": 189
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.3444,
+      "kf_cm": 11.2902,
+      "applied": 10,
+      "skipped": 95,
+      "skip_pct": 90.5
+     },
+     {
+      "seed": 1,
+      "full_cm": 11.3521,
+      "kf_cm": 11.3942,
+      "applied": 11,
+      "skipped": 93,
+      "skip_pct": 89.4
+     }
+    ],
+    "mean_full_cm": 11.3483,
+    "applied": 21,
+    "skipped": 188
+   }
+  }
+ },
+ "reference_r29_framegate": {
+  "balloon": {
+   "mean_full_cm": 4.0564,
+   "per_seed": [
+    3.9873,
+    4.267,
+    3.9149
+   ]
+  },
+  "balloon2": {
+   "mean_full_cm": 5.3996,
+   "per_seed": [
+    5.3995,
+    5.3796,
+    5.4196
+   ]
+  },
+  "crowd": {
+   "mean_full_cm": 2.2503,
+   "per_seed": [
+    2.1383,
+    2.4405,
+    2.1721
+   ]
+  },
+  "crowd2": {
+   "mean_full_cm": 2.6201,
+   "per_seed": [
+    2.3435,
+    2.6716,
+    2.8452
+   ]
+  },
+  "crowd3": {
+   "mean_full_cm": 1.8936,
+   "per_seed": [
+    1.9024,
+    1.9307,
+    1.8477
+   ]
+  },
+  "person_tracking": {
+   "mean_full_cm": 7.8336,
+   "per_seed": [
+    7.5461,
+    7.5316,
+    8.4231
+   ]
+  },
+  "person_tracking2": {
+   "mean_full_cm": 11.5371,
+   "per_seed": [
+    11.1784,
+    11.39,
+    12.043
+   ]
+  }
+ },
+ "criteria_verdict": {
+  "r31_selfcheck_0p5": {
+   "MAIN": "FAIL",
+   "MAIN_detail": {
+    "crowd2": [
+     2.7573,
+     2.6201
+    ],
+    "crowd3": [
+     1.7925,
+     1.8936
+    ],
+    "balloon": [
+     3.885,
+     4.0564
+    ]
+   },
+   "SUB": "FAIL",
+   "SUB_value": 8.8072,
+   "MECH": "PASS",
+   "MECH_counts": {
+    "applied": 691,
+    "skipped": 385
+   },
+   "arm_skip_pct": 35.8
+  },
+  "r31_selfcheck_1": {
+   "MAIN": "PASS",
+   "MAIN_detail": {
+    "crowd2": [
+     2.3258,
+     2.6201
+    ],
+    "crowd3": [
+     1.7036,
+     1.8936
+    ],
+    "balloon": [
+     3.7164,
+     4.0564
+    ]
+   },
+   "SUB": "FAIL",
+   "SUB_value": 10.2518,
+   "MECH": "PASS",
+   "MECH_counts": {
+    "applied": 380,
+    "skipped": 681
+   },
+   "arm_skip_pct": 64.2
+  },
+  "r31_selfcheck_2": {
+   "MAIN": "PASS",
+   "MAIN_detail": {
+    "crowd2": [
+     2.6933,
+     2.6201
+    ],
+    "crowd3": [
+     1.5716,
+     1.8936
+    ],
+    "balloon": [
+     3.0865,
+     4.0564
+    ]
+   },
+   "SUB": "FAIL",
+   "SUB_value": 11.3446,
+   "MECH": "PASS",
+   "MECH_counts": {
+    "applied": 90,
+    "skipped": 989
+   },
+   "arm_skip_pct": 91.7
+  }
+ }
+}

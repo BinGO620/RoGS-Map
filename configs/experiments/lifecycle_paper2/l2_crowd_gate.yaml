@@ -1,0 +1,18 @@
+# L2 gate 泛化批（D2-005 A 拍板）：crowd / gate 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L2_gate.md（判据先锁；先于任何 L2 run 提交）
+# 机制代码与 L1b as-run 逐字同源（be504ab0..HEAD core-unchanged 已验证）——零核心代码改动批
+# 对照 = 已有 L3 exit 同 seed canonical 渲染（零新增对照 run）
+inherit_from: "configs/rgbd/bonn/crowd.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+  evidence_gate: true
+
+Results:
+  # canonical 布尔掩码（掩码体系 v2.1）；runtime P-A 可直接消费
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L2_crowd_gate"
+  save_per_frame_ape: true

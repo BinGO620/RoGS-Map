@@ -1,0 +1,18 @@
+# L3 正式批（幸存者正式批）：mvnobox / exit_fill 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L3.md（判据先锁）
+#        + results/lifecycle_paper2/evidence/prereg_L3_amendment_1_frameset.md（帧集/仪器修正；判据不变）
+# 栈 = paper-1 栈（combined_prune，与论文 2 baseline 一致）；臂仅 AlphaLifecycle 键，阈值走默认
+inherit_from: "configs/rgbd/bonn/moving_nonobstructing_box.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit_fill"
+  fill_k: 4
+  fill_min_opacity: 0.8
+  fill_band_abs_m: 0.06
+
+Results:
+  save_dir: "results/lifecycle_paper2/L3_mvnobox_exit_fill"
+  save_per_frame_ape: true

@@ -1,0 +1,862 @@
+{
+ "mask_class_probed": 15,
+ "sequences": {
+  "f3_office": {
+   "dataset_path": "/data/Datasets/TUM/rgbd_dataset_freiburg3_long_office_household",
+   "exists": true,
+   "mask": {
+    "mask_subdir": "seg_mask",
+    "n_files": 2585,
+    "frames_scanned": 2585,
+    "class_hist": {
+     "3": 162167208,
+     "0": 159643076,
+     "33": 122651758,
+     "10": 58078313,
+     "74": 46119281,
+     "15": 40784144,
+     "75": 34028073,
+     "108": 22544523,
+     "100": 18890803,
+     "67": 18647452,
+     "98": 16354405,
+     "12": 15627079,
+     "19": 13816925,
+     "115": 13671895,
+     "138": 11779648
+    },
+    "frames_with_any_label": 2585,
+    "frames_hitting_class": 1160,
+    "total_px_hitting_class": 40784144,
+    "class_hist_full_nclasses": 55,
+    "class_1_px": 0,
+    "class_15_px": 40784144
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 41,
+    "raw_median": 8355.0,
+    "raw_p95": 24915.0,
+    "raw_max": 49350.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55/config.yml",
+   "calibration": {
+    "fx": 535.4,
+    "fy": 539.2,
+    "cx": 320.1,
+    "cy": 247.6,
+    "distorted": false,
+    "depth_scale": 5000.0,
+    "k1": 0.0,
+    "k2": 0.0,
+    "p1": 0.0,
+    "p2": 0.0
+   },
+   "config_dataset_path": "datasets/tum/rgbd_dataset_freiburg3_long_office_household",
+   "fused_depth_m": {
+    "median": 1.671,
+    "p95": 4.983,
+    "max": 9.87
+   }
+  },
+  "f3_st_rpy": {
+   "dataset_path": "/data/Datasets/TUM/rgbd_dataset_freiburg3_sitting_rpy",
+   "exists": true,
+   "mask": {
+    "mask_subdir": "seg_mask",
+    "n_files": 820,
+    "frames_scanned": 820,
+    "class_hist": {
+     "0": 94665756,
+     "12": 45336954,
+     "3": 38793643,
+     "5": 24249547,
+     "74": 11207842,
+     "33": 10609929,
+     "100": 7404043,
+     "19": 4793047,
+     "141": 4226886,
+     "8": 2593966,
+     "75": 1721212,
+     "10": 1664313,
+     "24": 1508680,
+     "67": 774167,
+     "143": 526636
+    },
+    "frames_with_any_label": 820,
+    "frames_hitting_class": 31,
+    "total_px_hitting_class": 107413,
+    "class_hist_full_nclasses": 45,
+    "class_1_px": 0,
+    "class_15_px": 107413
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 41,
+    "raw_median": 12075.0,
+    "raw_p95": 36660.0,
+    "raw_max": 49350.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_f3_st_rpy_seed0/datasets_tum/r34_rb_f3_st_rpy/seed_0/2026-09-17-11-34-31/config.yml",
+   "calibration": {
+    "fx": 535.4,
+    "fy": 539.2,
+    "cx": 320.1,
+    "cy": 247.6,
+    "distorted": false,
+    "depth_scale": 5000.0,
+    "k1": 0.0,
+    "k2": 0.0,
+    "p1": 0.0,
+    "p2": 0.0
+   },
+   "config_dataset_path": "datasets/tum/rgbd_dataset_freiburg3_sitting_rpy",
+   "fused_depth_m": {
+    "median": 2.415,
+    "p95": 7.332,
+    "max": 9.87
+   }
+  },
+  "f3_wk_rpy": {
+   "dataset_path": "/data/Datasets/TUM/rgbd_dataset_freiburg3_walking_rpy",
+   "exists": true,
+   "mask": {
+    "mask_subdir": "seg_mask",
+    "n_files": 910,
+    "frames_scanned": 910,
+    "class_hist": {
+     "0": 95890239,
+     "3": 48801269,
+     "12": 40375529,
+     "5": 32045960,
+     "33": 15466800,
+     "74": 10934922,
+     "100": 8762841,
+     "10": 6902657,
+     "19": 5048050,
+     "75": 4840047,
+     "141": 2288756,
+     "8": 2138511,
+     "138": 1728107,
+     "67": 868759,
+     "88": 676202
+    },
+    "frames_with_any_label": 910,
+    "frames_hitting_class": 86,
+    "total_px_hitting_class": 92058,
+    "class_hist_full_nclasses": 47,
+    "class_1_px": 0,
+    "class_15_px": 92058
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 42,
+    "raw_median": 12610.0,
+    "raw_p95": 40095.0,
+    "raw_max": 49350.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08/config.yml",
+   "calibration": {
+    "fx": 535.4,
+    "fy": 539.2,
+    "cx": 320.1,
+    "cy": 247.6,
+    "distorted": false,
+    "depth_scale": 5000.0,
+    "k1": 0.0,
+    "k2": 0.0,
+    "p1": 0.0,
+    "p2": 0.0
+   },
+   "config_dataset_path": "datasets/tum/rgbd_dataset_freiburg3_walking_rpy",
+   "fused_depth_m": {
+    "median": 2.522,
+    "p95": 8.019,
+    "max": 9.87
+   }
+  },
+  "f1_room": {
+   "dataset_path": "/data/Datasets/TUM/rgbd_dataset_freiburg1_room",
+   "exists": true,
+   "mask": {
+    "mask_subdir": null,
+    "n_files": 0,
+    "note": "no mask dir"
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 40,
+    "raw_median": 7102.0,
+    "raw_p95": 14069.0,
+    "raw_max": 41936.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_f1_room_seed0/datasets_tum/r34_rb_f1_room/seed_0/2026-09-17-07-24-39/config.yml",
+   "calibration": {
+    "fx": 517.306408,
+    "fy": 516.469215,
+    "cx": 318.64304,
+    "cy": 255.313989,
+    "distorted": true,
+    "depth_scale": 5000.0,
+    "k1": 0.262383,
+    "k2": -0.953104,
+    "p1": -0.005358,
+    "p2": 0.002628
+   },
+   "config_dataset_path": "datasets/tum/rgbd_dataset_freiburg1_room",
+   "fused_depth_m": {
+    "median": 1.42,
+    "p95": 2.814,
+    "max": 8.387
+   }
+  },
+  "f1_desk2": {
+   "dataset_path": "/data/Datasets/TUM/rgbd_dataset_freiburg1_desk2",
+   "exists": true,
+   "mask": {
+    "mask_subdir": null,
+    "n_files": 0,
+    "note": "no mask dir"
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 43,
+    "raw_median": 5519.0,
+    "raw_p95": 13214.0,
+    "raw_max": 20095.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_f1_desk2_seed0/datasets_tum/r34_rb_f1_desk2/seed_0/2026-09-17-10-09-41/config.yml",
+   "calibration": {
+    "fx": 517.306408,
+    "fy": 516.469215,
+    "cx": 318.64304,
+    "cy": 255.313989,
+    "distorted": true,
+    "depth_scale": 5000.0,
+    "k1": 0.262383,
+    "k2": -0.953104,
+    "p1": -0.005358,
+    "p2": 0.002628
+   },
+   "config_dataset_path": "datasets/tum/rgbd_dataset_freiburg1_desk2",
+   "fused_depth_m": {
+    "median": 1.104,
+    "p95": 2.643,
+    "max": 4.019
+   }
+  },
+  "moving_obstructing_box": {
+   "dataset_path": "/data/Datasets/Bonn/rgbd_bonn_moving_obstructing_box",
+   "exists": true,
+   "mask": {
+    "mask_subdir": "dynamic_mask_gtmc",
+    "n_files": 589,
+    "frames_scanned": 589,
+    "class_hist": {
+     "binary>127": "gtmc (dynamic=1)"
+    },
+    "frames_with_any_label": 462,
+    "frames_hitting_class": 462,
+    "total_px_hitting_class": 9101903
+   },
+   "fused_depth_raw_stats": {
+    "n_frames_sampled": 43,
+    "raw_median": 10715.0,
+    "raw_p95": 15890.0,
+    "raw_max": 20205.0
+   },
+   "config_path": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed0/datasets_bonn/r34_rb_moving_obstructing_box/seed_0/2026-09-17-18-38-21/config.yml",
+   "calibration": {
+    "fx": 542.822841,
+    "fy": 542.57687,
+    "cx": 315.59352,
+    "cy": 237.756098,
+    "distorted": true,
+    "depth_scale": 5000.0,
+    "k1": 0.039903,
+    "k2": -0.099343,
+    "p1": -0.00073,
+    "p2": -0.000144
+   },
+   "config_dataset_path": "datasets/bonn/rgbd_bonn_moving_obstructing_box",
+   "fused_depth_m": {
+    "median": 2.143,
+    "p95": 3.178,
+    "max": 4.041
+   }
+  }
+ },
+ "geom_r34": {
+  "f1_room": {
+   "n": 9,
+   "acc_median": 6.423,
+   "acc_min": 5.638,
+   "acc_max": 7.007,
+   "comp_median": 4.598,
+   "mask_sources": [
+    "None"
+   ],
+   "masked_px_skipped_set": [
+    0
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed0/datasets_tum/r34_rb_f1_room/seed_0/2026-09-17-07-24-39",
+     "accuracy_cm": 5.6375,
+     "completion_cm": 3.7052,
+     "fscore": 74.9013,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed1/datasets_tum/r34_rb_f1_room/seed_1/2026-09-17-07-24-39",
+     "accuracy_cm": 6.4723,
+     "completion_cm": 4.598,
+     "fscore": 70.5188,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed2/datasets_tum/r34_rb_f1_room/seed_2/2026-09-17-07-24-39",
+     "accuracy_cm": 7.0066,
+     "completion_cm": 3.6929,
+     "fscore": 72.0108,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed0/datasets_tum/r34_sw_f1_room/seed_0/2026-09-17-07-24-39",
+     "accuracy_cm": 6.5566,
+     "completion_cm": 4.4689,
+     "fscore": 70.1543,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed1/datasets_tum/r34_sw_f1_room/seed_1/2026-09-17-08-43-16",
+     "accuracy_cm": 6.6754,
+     "completion_cm": 4.2829,
+     "fscore": 69.7142,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed2/datasets_tum/r34_sw_f1_room/seed_2/2026-09-17-08-43-18",
+     "accuracy_cm": 5.9635,
+     "completion_cm": 5.4045,
+     "fscore": 66.4514,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed0/datasets_tum/r34_gate_f1_room/seed_0/2026-09-17-08-43-41",
+     "accuracy_cm": 5.9042,
+     "completion_cm": 5.8461,
+     "fscore": 65.0795,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed1/datasets_tum/r34_gate_f1_room/seed_1/2026-09-17-08-51-20",
+     "accuracy_cm": 6.4225,
+     "completion_cm": 4.8178,
+     "fscore": 68.3066,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed2/datasets_tum/r34_gate_f1_room/seed_2/2026-09-17-10-09-49",
+     "accuracy_cm": 5.8751,
+     "completion_cm": 5.4291,
+     "fscore": 66.3222,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 66
+    }
+   ]
+  },
+  "f1_desk2": {
+   "n": 9,
+   "acc_median": 5.467,
+   "acc_min": 5.094,
+   "acc_max": 7.112,
+   "comp_median": 3.446,
+   "mask_sources": [
+    "None"
+   ],
+   "masked_px_skipped_set": [
+    0
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed0/datasets_tum/r34_rb_f1_desk2/seed_0/2026-09-17-10-09-41",
+     "accuracy_cm": 6.0855,
+     "completion_cm": 3.3878,
+     "fscore": 73.4614,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed1/datasets_tum/r34_rb_f1_desk2/seed_1/2026-09-17-10-09-01",
+     "accuracy_cm": 7.1125,
+     "completion_cm": 3.7981,
+     "fscore": 69.7148,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed2/datasets_tum/r34_rb_f1_desk2/seed_2/2026-09-17-10-14-51",
+     "accuracy_cm": 5.1746,
+     "completion_cm": 3.5932,
+     "fscore": 75.8192,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed0/datasets_tum/r34_sw_f1_desk2/seed_0/2026-09-17-11-29-56",
+     "accuracy_cm": 6.0184,
+     "completion_cm": 3.3756,
+     "fscore": 74.5841,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed1/datasets_tum/r34_sw_f1_desk2/seed_1/2026-09-17-10-50-42",
+     "accuracy_cm": 5.1089,
+     "completion_cm": 3.4465,
+     "fscore": 77.7549,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed2/datasets_tum/r34_sw_f1_desk2/seed_2/2026-09-17-10-49-20",
+     "accuracy_cm": 5.0937,
+     "completion_cm": 3.3361,
+     "fscore": 77.4283,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed0/datasets_tum/r34_gate_f1_desk2/seed_0/2026-09-17-10-54-50",
+     "accuracy_cm": 5.2344,
+     "completion_cm": 3.4812,
+     "fscore": 77.1637,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed1/datasets_tum/r34_gate_f1_desk2/seed_1/2026-09-17-12-14-33",
+     "accuracy_cm": 5.467,
+     "completion_cm": 3.1842,
+     "fscore": 76.5185,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed2/datasets_tum/r34_gate_f1_desk2/seed_2/2026-09-17-11-35-44",
+     "accuracy_cm": 6.5696,
+     "completion_cm": 3.6687,
+     "fscore": 72.4675,
+     "mask_source": null,
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 32
+    }
+   ]
+  },
+  "f3_st_rpy": {
+   "n": 9,
+   "acc_median": 233.951,
+   "acc_min": 177.101,
+   "acc_max": 252.578,
+   "comp_median": 4.747,
+   "mask_sources": [
+    "seg_mask"
+   ],
+   "masked_px_skipped_set": [
+    0
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed0/datasets_tum/r34_rb_f3_st_rpy/seed_0/2026-09-17-11-34-31",
+     "accuracy_cm": 242.8565,
+     "completion_cm": 5.5735,
+     "fscore": 35.0557,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed1/datasets_tum/r34_rb_f3_st_rpy/seed_1/2026-09-17-11-37-40",
+     "accuracy_cm": 177.101,
+     "completion_cm": 4.6659,
+     "fscore": 41.9508,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed2/datasets_tum/r34_rb_f3_st_rpy/seed_2/2026-09-17-12-57-46",
+     "accuracy_cm": 233.9512,
+     "completion_cm": 4.9199,
+     "fscore": 39.0526,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed0/datasets_tum/r34_sw_f3_st_rpy/seed_0/2026-09-17-12-20-19",
+     "accuracy_cm": 252.5785,
+     "completion_cm": 5.5101,
+     "fscore": 34.7974,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed1/datasets_tum/r34_sw_f3_st_rpy/seed_1/2026-09-17-12-16-10",
+     "accuracy_cm": 212.7462,
+     "completion_cm": 4.7467,
+     "fscore": 37.4558,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed2/datasets_tum/r34_sw_f3_st_rpy/seed_2/2026-09-17-12-19-44",
+     "accuracy_cm": 241.036,
+     "completion_cm": 4.6307,
+     "fscore": 32.9819,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed0/datasets_tum/r34_gate_f3_st_rpy/seed_0/2026-09-17-13-36-01",
+     "accuracy_cm": 243.6839,
+     "completion_cm": 4.4645,
+     "fscore": 33.4399,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed1/datasets_tum/r34_gate_f3_st_rpy/seed_1/2026-09-17-13-10-05",
+     "accuracy_cm": 212.4454,
+     "completion_cm": 5.2052,
+     "fscore": 38.0433,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed2/datasets_tum/r34_gate_f3_st_rpy/seed_2/2026-09-17-13-04-37",
+     "accuracy_cm": 209.3231,
+     "completion_cm": 4.7023,
+     "fscore": 40.3183,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 0,
+     "fusion_frames_used": 40
+    }
+   ]
+  },
+  "f3_office": {
+   "n": 9,
+   "acc_median": 42.684,
+   "acc_min": 28.095,
+   "acc_max": 48.714,
+   "comp_median": 5.915,
+   "mask_sources": [
+    "seg_mask"
+   ],
+   "masked_px_skipped_set": [
+    2019126
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55",
+     "accuracy_cm": 38.9828,
+     "completion_cm": 5.6157,
+     "fscore": 73.5863,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed1/datasets_tum/r34_rb_f3_office/seed_1/2026-09-17-14-24-19",
+     "accuracy_cm": 46.64,
+     "completion_cm": 5.8958,
+     "fscore": 72.9026,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed2/datasets_tum/r34_rb_f3_office/seed_2/2026-09-17-13-57-16",
+     "accuracy_cm": 37.2463,
+     "completion_cm": 5.9148,
+     "fscore": 74.2624,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed0/datasets_tum/r34_sw_f3_office/seed_0/2026-09-17-13-51-23",
+     "accuracy_cm": 48.7136,
+     "completion_cm": 6.1365,
+     "fscore": 71.6358,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed1/datasets_tum/r34_sw_f3_office/seed_1/2026-09-17-15-06-21",
+     "accuracy_cm": 42.5978,
+     "completion_cm": 5.9695,
+     "fscore": 74.3416,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed2/datasets_tum/r34_sw_f3_office/seed_2/2026-09-17-16-21-15",
+     "accuracy_cm": 42.6845,
+     "completion_cm": 5.8062,
+     "fscore": 74.3497,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed0/datasets_tum/r34_gate_f3_office/seed_0/2026-09-17-15-56-05",
+     "accuracy_cm": 43.3188,
+     "completion_cm": 6.0681,
+     "fscore": 73.8071,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed1/datasets_tum/r34_gate_f3_office/seed_1/2026-09-17-16-11-20",
+     "accuracy_cm": 45.962,
+     "completion_cm": 6.3236,
+     "fscore": 72.7296,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed2/datasets_tum/r34_gate_f3_office/seed_2/2026-09-17-17-27-09",
+     "accuracy_cm": 28.0953,
+     "completion_cm": 4.8951,
+     "fscore": 76.0569,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 2019126,
+     "fusion_frames_used": 126
+    }
+   ]
+  },
+  "moving_obstructing_box": {
+   "n": 9,
+   "acc_median": 4.622,
+   "acc_min": 4.143,
+   "acc_max": 5.775,
+   "comp_median": 7.579,
+   "mask_sources": [
+    "dynamic_mask_gtmc"
+   ],
+   "masked_px_skipped_set": [
+    411278
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed0/datasets_bonn/r34_rb_moving_obstructing_box/seed_0/2026-09-17-18-38-21",
+     "accuracy_cm": 4.1426,
+     "completion_cm": 8.22,
+     "fscore": 65.212,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed1/datasets_bonn/r34_rb_moving_obstructing_box/seed_1/2026-09-17-18-16-04",
+     "accuracy_cm": 4.3969,
+     "completion_cm": 6.4314,
+     "fscore": 66.9252,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed2/datasets_bonn/r34_rb_moving_obstructing_box/seed_2/2026-09-17-18-28-41",
+     "accuracy_cm": 4.622,
+     "completion_cm": 6.2373,
+     "fscore": 64.493,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed0/datasets_bonn/r34_sw_moving_obstructing_box/seed_0/2026-09-17-19-34-37",
+     "accuracy_cm": 4.1791,
+     "completion_cm": 7.4348,
+     "fscore": 62.8918,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed1/datasets_bonn/r34_sw_moving_obstructing_box/seed_1/2026-09-17-19-19-10",
+     "accuracy_cm": 5.1285,
+     "completion_cm": 7.9352,
+     "fscore": 57.6324,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed2/datasets_bonn/r34_sw_moving_obstructing_box/seed_2/2026-09-17-18-54-59",
+     "accuracy_cm": 4.3748,
+     "completion_cm": 7.6045,
+     "fscore": 64.3735,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15",
+     "accuracy_cm": 5.7746,
+     "completion_cm": 5.1721,
+     "fscore": 65.5328,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed1/datasets_bonn/r34_gate_moving_obstructing_box/seed_1/2026-09-17-20-17-21",
+     "accuracy_cm": 4.8271,
+     "completion_cm": 7.5791,
+     "fscore": 60.6381,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed2/datasets_bonn/r34_gate_moving_obstructing_box/seed_2/2026-09-17-20-01-00",
+     "accuracy_cm": 4.7906,
+     "completion_cm": 7.7821,
+     "fscore": 61.6931,
+     "mask_source": "dynamic_mask_gtmc",
+     "masked_px_skipped": 411278,
+     "fusion_frames_used": 30
+    }
+   ]
+  },
+  "f3_wk_rpy": {
+   "n": 9,
+   "acc_median": 215.567,
+   "acc_min": 185.51,
+   "acc_max": 236.988,
+   "comp_median": 12.2,
+   "mask_sources": [
+    "seg_mask"
+   ],
+   "masked_px_skipped_set": [
+    4563
+   ],
+   "rows": [
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08",
+     "accuracy_cm": 185.51,
+     "completion_cm": 13.0504,
+     "fscore": 40.3215,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed1/datasets_tum/r34_rb_f3_wk_rpy/seed_1/2026-09-17-19-42-23",
+     "accuracy_cm": 224.4021,
+     "completion_cm": 11.7961,
+     "fscore": 33.7541,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+     "accuracy_cm": 236.9881,
+     "completion_cm": 12.6038,
+     "fscore": 33.4861,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed0/datasets_tum/r34_sw_f3_wk_rpy/seed_0/2026-09-17-20-41-12",
+     "accuracy_cm": 199.9836,
+     "completion_cm": 8.7366,
+     "fscore": 37.468,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed1/datasets_tum/r34_sw_f3_wk_rpy/seed_1/2026-09-17-20-10-47",
+     "accuracy_cm": 202.5433,
+     "completion_cm": 11.7613,
+     "fscore": 33.1995,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed2/datasets_tum/r34_sw_f3_wk_rpy/seed_2/2026-09-17-20-23-50",
+     "accuracy_cm": 215.5667,
+     "completion_cm": 12.0948,
+     "fscore": 35.3552,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed0/datasets_tum/r34_gate_f3_wk_rpy/seed_0/2026-09-17-21-39-46",
+     "accuracy_cm": 222.4762,
+     "completion_cm": 13.7051,
+     "fscore": 32.2303,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed1/datasets_tum/r34_gate_f3_wk_rpy/seed_1/2026-09-17-21-29-54",
+     "accuracy_cm": 201.1185,
+     "completion_cm": 12.2003,
+     "fscore": 38.674,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    },
+    {
+     "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed2/datasets_tum/r34_gate_f3_wk_rpy/seed_2/2026-09-17-21-01-33",
+     "accuracy_cm": 222.7568,
+     "completion_cm": 12.5376,
+     "fscore": 33.8308,
+     "mask_source": "seg_mask",
+     "masked_px_skipped": 4563,
+     "fusion_frames_used": 44
+    }
+   ]
+  }
+ }
+}

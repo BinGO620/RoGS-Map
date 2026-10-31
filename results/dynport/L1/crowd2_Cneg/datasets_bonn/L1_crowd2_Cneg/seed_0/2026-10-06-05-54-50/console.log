@@ -1,0 +1,1402 @@
+MonoGS: saving results in 
+results/dynport/L1/crowd2_Cneg/datasets_bonn/L1_crowd2_Cneg/seed_0/2026-10-06-05
+-54-50
+MonoGS: logging console output to 
+results/dynport/L1/crowd2_Cneg/datasets_bonn/L1_crowd2_Cneg/seed_0/2026-10-06-05
+-54-50/console.log
+MonoGS: Semantic insertion gate frame 0: 65818 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Semantic insertion gate frame 5: 76128 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: DynPort KF 5: inserted=17482 case1_hits=0 n_buf=17482 n_model=34931 
+cond1=0 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 5: n=17482 iters=300 loss 0.2345->0.2194 opa 0.500->0.498
+MonoGS: Candidate insert KF 5: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 11: 90311 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: DynPort KF 11: inserted=99 case1_hits=22727 n_buf=17104 n_model=33929 
+cond1=481 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 11: n=17104 iters=300 loss 0.4425->0.0784 opa 
+0.500->0.500
+MonoGS: Candidate insert KF 11: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001110, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 18: 101002 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 29 lineage(s): removed 6 Gaussians
+MonoGS: DynPort KF 18: inserted=348 case1_hits=50418 n_buf=13008 n_model=34898 
+cond1=4925 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 18: n=13008 iters=300 loss 0.5293->0.0972 opa 
+0.501->0.501
+MonoGS: Candidate insert KF 18: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 25: 118218 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 340 lineage(s): removed 228 Gaussians
+MonoGS: Evaluating ATE at frame:  26
+Eval: RMSE ATE [m] 0.006348955033839662
+MonoGS: DynPort KF 25: inserted=4068 case1_hits=78494 n_buf=4904 n_model=31588 
+cond1=17097 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 25: n=4904 iters=300 loss 0.5032->0.1123 opa 0.511->0.521
+MonoGS: Candidate insert KF 25: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 32: 149181 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 425 lineage(s): removed 304 Gaussians
+MonoGS: DynPort KF 32: inserted=2131 case1_hits=117602 n_buf=6548 n_model=37932 
+cond1=17584 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 32: n=6548 iters=300 loss 0.4585->0.1810 opa 0.219->0.233
+MonoGS: Candidate insert KF 32: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 38: 171823 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3858 lineage(s): removed 2375 Gaussians
+MonoGS: DynPort KF 38: inserted=396 case1_hits=166921 n_buf=3167 n_model=23721 
+cond1=21411 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 38: n=3167 iters=300 loss 0.4827->0.2003 opa 0.131->0.163
+MonoGS: Candidate insert KF 38: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 45: 170768 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3681 lineage(s): removed 2105 Gaussians
+MonoGS: DynPort KF 45: inserted=6477 case1_hits=210965 n_buf=7751 n_model=31255 
+cond1=23304 cond2=0 cap_hits=0
+MonoGS: DynPort fit KF 45: n=7751 iters=300 loss 0.5403->0.1091 opa 0.439->0.491
+MonoGS: Candidate insert KF 45: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 51: 160335 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4222 lineage(s): removed 1346 Gaussians
+MonoGS: DynPort KF 51: inserted=1832 case1_hits=256490 n_buf=8732 n_model=35902 
+cond1=23924 cond2=231 cap_hits=0
+MonoGS: DynPort fit KF 51: n=8732 iters=300 loss 0.5543->0.0627 opa 0.190->0.410
+MonoGS: Candidate insert KF 51: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 56: 131551 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  57
+Eval: RMSE ATE [m] 0.021003016542443756
+MonoGS: Pruned 5087 lineage(s): removed 1864 Gaussians
+MonoGS: DynPort KF 56: inserted=5120 case1_hits=289878 n_buf=12633 n_model=42942
+cond1=25143 cond2=231 cap_hits=0
+MonoGS: DynPort fit KF 56: n=12633 iters=300 loss 0.5324->0.0380 opa 
+0.264->0.430
+MonoGS: Candidate insert KF 56: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001181, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 62: 96026 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5280 lineage(s): removed 1947 Gaussians
+MonoGS: DynPort KF 62: inserted=1203 case1_hits=316913 n_buf=8387 n_model=41751 
+cond1=30592 cond2=231 cap_hits=0
+MonoGS: DynPort fit KF 62: n=8387 iters=300 loss 0.4761->0.0532 opa 0.130->0.164
+MonoGS: Candidate insert KF 62: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001062, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 69: 107215 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4027 lineage(s): removed 4027 Gaussians
+MonoGS: DynPort KF 69: inserted=3009 case1_hits=345878 n_buf=6369 n_model=40706 
+cond1=35619 cond2=231 cap_hits=0
+MonoGS: DynPort fit KF 69: n=6369 iters=300 loss 0.4492->0.0535 opa 0.287->0.425
+MonoGS: Candidate insert KF 69: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001147, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 76: 129534 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 2839 lineage(s): removed 1223 Gaussians
+MonoGS: DynPort KF 76: inserted=2484 case1_hits=381166 n_buf=7873 n_model=25969 
+cond1=36956 cond2=274 cap_hits=0
+MonoGS: DynPort fit KF 76: n=7873 iters=300 loss 0.4193->0.0628 opa 0.347->0.516
+MonoGS: Candidate insert KF 76: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 83: 140196 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 2820 lineage(s): removed 1141 Gaussians
+MonoGS: DynPort KF 83: inserted=3336 case1_hits=415553 n_buf=8241 n_model=30196 
+cond1=39924 cond2=274 cap_hits=0
+MonoGS: DynPort fit KF 83: n=8241 iters=300 loss 0.3894->0.1116 opa 0.396->0.415
+MonoGS: Candidate insert KF 83: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001589, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 91: 137665 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  92
+Eval: RMSE ATE [m] 0.02070376247833041
+MonoGS: Pruned 3668 lineage(s): removed 1233 Gaussians
+MonoGS: DynPort KF 91: inserted=1158 case1_hits=453536 n_buf=6136 n_model=31879 
+cond1=43059 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 91: n=6136 iters=300 loss 0.4257->0.1995 opa 0.448->0.480
+MonoGS: Candidate insert KF 91: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 98: 120605 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4112 lineage(s): removed 1275 Gaussians
+MonoGS: DynPort KF 98: inserted=22207 case1_hits=467185 n_buf=22953 
+n_model=52432 cond1=48449 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 98: n=22953 iters=300 loss 0.4391->0.0765 opa 
+0.512->0.547
+MonoGS: Candidate insert KF 98: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 106: 124658 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4825 lineage(s): removed 55 Gaussians
+MonoGS: DynPort KF 106: inserted=3825 case1_hits=497809 n_buf=25874 
+n_model=60298 cond1=49353 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 106: n=25874 iters=300 loss 0.4119->0.0414 opa 
+0.413->0.577
+MonoGS: Candidate insert KF 106: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001227, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 115: 130576 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3946 lineage(s): removed 3946 Gaussians
+MonoGS: DynPort KF 115: inserted=2815 case1_hits=529322 n_buf=24085 
+n_model=59563 cond1=53957 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 115: n=24085 iters=300 loss 0.4046->0.0398 opa 
+0.465->0.583
+MonoGS: Candidate insert KF 115: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001197, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 125: 102704 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3288 lineage(s): removed 3288 Gaussians
+MonoGS: DynPort KF 125: inserted=241 case1_hits=552770 n_buf=5462 n_model=42652 
+cond1=72821 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 125: n=5462 iters=300 loss 0.4949->0.0798 opa 
+0.432->0.447
+MonoGS: Candidate insert KF 125: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 133: 102114 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  134
+Eval: RMSE ATE [m] 0.022441845587058605
+MonoGS: Pruned 3126 lineage(s): removed 3126 Gaussians
+MonoGS: DynPort KF 133: inserted=2572 case1_hits=572548 n_buf=6599 n_model=45690
+cond1=74256 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 133: n=6599 iters=300 loss 0.4188->0.1528 opa 
+0.335->0.324
+MonoGS: Candidate insert KF 133: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001308, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 139: 122691 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3856 lineage(s): removed 3856 Gaussians
+MonoGS: DynPort KF 139: inserted=8577 case1_hits=597901 n_buf=11404 
+n_model=51653 cond1=78028 cond2=402 cap_hits=0
+MonoGS: DynPort fit KF 139: n=11404 iters=300 loss 0.4463->0.0878 opa 
+0.414->0.417
+MonoGS: Candidate insert KF 139: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001268, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 147: 163280 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4809 lineage(s): removed 4809 Gaussians
+MonoGS: DynPort KF 147: inserted=3199 case1_hits=640744 n_buf=12823 
+n_model=53289 cond1=79803 cond2=407 cap_hits=0
+MonoGS: DynPort fit KF 147: n=12823 iters=300 loss 0.4873->0.0862 opa 
+0.293->0.378
+MonoGS: Candidate insert KF 147: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 153: 168355 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4487 lineage(s): removed 4487 Gaussians
+MonoGS: DynPort KF 153: inserted=7597 case1_hits=680885 n_buf=18228 
+n_model=59210 cond1=81995 cond2=407 cap_hits=0
+MonoGS: DynPort fit KF 153: n=18228 iters=300 loss 0.5265->0.0605 opa 
+0.340->0.428
+MonoGS: Candidate insert KF 153: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 160: 100561 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4127 lineage(s): removed 4127 Gaussians
+MonoGS: DynPort KF 160: inserted=1474 case1_hits=708821 n_buf=8993 n_model=50857
+cond1=92704 cond2=407 cap_hits=0
+MonoGS: DynPort fit KF 160: n=8993 iters=300 loss 0.5296->0.0586 opa 
+0.139->0.198
+MonoGS: Candidate insert KF 160: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 167: 118466 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  168
+Eval: RMSE ATE [m] 0.023523563087810333
+MonoGS: Pruned 4182 lineage(s): removed 4182 Gaussians
+MonoGS: DynPort KF 167: inserted=7447 case1_hits=735948 n_buf=11434 
+n_model=54129 cond1=97710 cond2=407 cap_hits=0
+MonoGS: DynPort fit KF 167: n=11434 iters=300 loss 0.4407->0.0543 opa 
+0.391->0.679
+MonoGS: Candidate insert KF 167: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 175: 129923 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4028 lineage(s): removed 2089 Gaussians
+MonoGS: DynPort KF 175: inserted=760 case1_hits=771576 n_buf=9745 n_model=33765 
+cond1=100793 cond2=407 cap_hits=0
+MonoGS: DynPort fit KF 175: n=9745 iters=300 loss 0.4274->0.0419 opa 
+0.421->0.527
+MonoGS: Candidate insert KF 175: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 180: 121686 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4756 lineage(s): removed 2183 Gaussians
+MonoGS: DynPort KF 180: inserted=210 case1_hits=804571 n_buf=7961 n_model=34798 
+cond1=102778 cond2=416 cap_hits=0
+MonoGS: DynPort fit KF 180: n=7961 iters=300 loss 0.4224->0.0431 opa 
+0.346->0.394
+MonoGS: Candidate insert KF 180: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001343, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 186: 88888 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4691 lineage(s): removed 2261 Gaussians
+MonoGS: DynPort KF 186: inserted=317 case1_hits=827524 n_buf=4182 n_model=33759 
+cond1=106874 cond2=416 cap_hits=0
+MonoGS: DynPort fit KF 186: n=4182 iters=300 loss 0.4309->0.0588 opa 
+0.421->0.427
+MonoGS: Candidate insert KF 186: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 193: 44748 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4887 lineage(s): removed 1467 Gaussians
+MonoGS: DynPort KF 193: inserted=7956 case1_hits=831990 n_buf=9618 n_model=42728
+cond1=109394 cond2=416 cap_hits=0
+MonoGS: DynPort fit KF 193: n=9618 iters=300 loss 0.3951->0.1222 opa 
+0.477->0.479
+MonoGS: Candidate insert KF 193: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001097, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 199: 41587 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  200
+MonoGS: Pruned 4793 lineage(s): removed 42 Gaussians
+Eval: RMSE ATE [m] 0.024090707832926165
+MonoGS: DynPort KF 199: inserted=386 case1_hits=842195 n_buf=8589 n_model=46657 
+cond1=110809 cond2=416 cap_hits=0
+MonoGS: DynPort fit KF 199: n=8589 iters=300 loss 0.4220->0.1465 opa 
+0.085->0.086
+MonoGS: Candidate insert KF 199: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001061, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 206: 35755 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4415 lineage(s): removed 4415 Gaussians
+MonoGS: DynPort KF 206: inserted=0 case1_hits=851309 n_buf=8302 n_model=46955 
+cond1=111096 cond2=416 cap_hits=0
+MonoGS: DynPort fit KF 206: n=8302 iters=300 loss 0.2963->0.1316 opa 
+0.030->0.030
+MonoGS: Candidate insert KF 206: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001094, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 214: 61499 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4122 lineage(s): removed 1167 Gaussians
+MonoGS: DynPort KF 214: inserted=14428 case1_hits=853112 n_buf=14757 
+n_model=41069 cond1=119062 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 214: n=14757 iters=300 loss 0.5345->0.3406 opa 
+0.490->0.494
+MonoGS: Candidate insert KF 214: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001181, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 219: 96160 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4514 lineage(s): removed 2610 Gaussians
+MonoGS: DynPort KF 219: inserted=4638 case1_hits=875418 n_buf=18948 
+n_model=47650 cond1=119509 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 219: n=18948 iters=300 loss 0.4853->0.0894 opa 
+0.143->0.261
+MonoGS: Candidate insert KF 219: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 227: 97160 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4642 lineage(s): removed 2321 Gaussians
+MonoGS: DynPort KF 227: inserted=1036 case1_hits=901336 n_buf=11782 
+n_model=43163 cond1=127711 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 227: n=11782 iters=300 loss 0.5100->0.1051 opa 
+0.123->0.340
+MonoGS: Candidate insert KF 227: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 234: 110369 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  235
+Eval: RMSE ATE [m] 0.024785712394714637
+MonoGS: Pruned 4921 lineage(s): removed 1867 Gaussians
+MonoGS: DynPort KF 234: inserted=1098 case1_hits=931978 n_buf=6194 n_model=40708
+cond1=134397 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 234: n=6194 iters=300 loss 0.4849->0.1485 opa 
+0.162->0.244
+MonoGS: Candidate insert KF 234: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 240: 114597 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5332 lineage(s): removed 1930 Gaussians
+MonoGS: DynPort KF 240: inserted=812 case1_hits=962596 n_buf=5316 n_model=42900 
+cond1=136087 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 240: n=5316 iters=300 loss 0.4483->0.1003 opa 
+0.203->0.243
+MonoGS: Candidate insert KF 240: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 247: 77908 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5038 lineage(s): removed 5038 Gaussians
+MonoGS: DynPort KF 247: inserted=2086 case1_hits=979375 n_buf=5283 n_model=42829
+cond1=138206 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 247: n=5283 iters=300 loss 0.4528->0.0948 opa 
+0.239->0.224
+MonoGS: Candidate insert KF 247: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 254: 74895 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Pruned 5018 lineage(s): removed 953 Gaussians
+MonoGS: DynPort KF 254: inserted=1754 case1_hits=998349 n_buf=4191 n_model=27154
+cond1=141132 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 254: n=4191 iters=300 loss 0.3521->0.1195 opa 
+0.305->0.324
+MonoGS: Candidate insert KF 254: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001212, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 262: 98909 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4315 lineage(s): removed 766 Gaussians
+MonoGS: DynPort KF 262: inserted=3153 case1_hits=1024096 n_buf=6293 
+n_model=33527 cond1=142183 cond2=442 cap_hits=0
+MonoGS: DynPort fit KF 262: n=6293 iters=300 loss 0.3535->0.1034 opa 
+0.262->0.445
+MonoGS: Candidate insert KF 262: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 269: 128684 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  270
+Eval: RMSE ATE [m] 0.024450200660321067
+MonoGS: Pruned 4063 lineage(s): removed 1207 Gaussians
+MonoGS: DynPort KF 269: inserted=1329 case1_hits=1060116 n_buf=5781 
+n_model=36818 cond1=144004 cond2=462 cap_hits=0
+MonoGS: DynPort fit KF 269: n=5781 iters=300 loss 0.4020->0.0606 opa 
+0.428->0.498
+MonoGS: Candidate insert KF 269: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 277: 141500 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4487 lineage(s): removed 1474 Gaussians
+MonoGS: DynPort KF 277: inserted=1882 case1_hits=1100318 n_buf=6317 
+n_model=40885 cond1=145350 cond2=462 cap_hits=0
+MonoGS: DynPort fit KF 277: n=6317 iters=300 loss 0.3999->0.0769 opa 
+0.386->0.412
+MonoGS: Candidate insert KF 277: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 284: 161049 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5151 lineage(s): removed 1244 Gaussians
+MonoGS: DynPort KF 284: inserted=628 case1_hits=1145750 n_buf=6202 n_model=44526
+cond1=146093 cond2=462 cap_hits=0
+MonoGS: DynPort fit KF 284: n=6202 iters=300 loss 0.3756->0.0678 opa 
+0.330->0.374
+MonoGS: Candidate insert KF 284: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 291: 140990 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4937 lineage(s): removed 4937 Gaussians
+MonoGS: DynPort KF 291: inserted=408 case1_hits=1183513 n_buf=6113 n_model=44500
+cond1=146590 cond2=462 cap_hits=0
+MonoGS: DynPort fit KF 291: n=6113 iters=300 loss 0.3340->0.0727 opa 
+0.357->0.401
+MonoGS: Candidate insert KF 291: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 298: 131260 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4605 lineage(s): removed 4605 Gaussians
+MonoGS: DynPort KF 298: inserted=656 case1_hits=1217984 n_buf=5158 n_model=26900
+cond1=147580 cond2=1388 cap_hits=0
+MonoGS: DynPort fit KF 298: n=5158 iters=300 loss 0.3957->0.0808 opa 
+0.360->0.524
+MonoGS: Candidate insert KF 298: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 305: 141817 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  306
+MonoGS: Pruned 4964 lineage(s): removed 1747 Gaussians
+Eval: RMSE ATE [m] 0.03374980584257731
+MonoGS: DynPort KF 305: inserted=16023 case1_hits=1240664 n_buf=19199 
+n_model=44209 cond1=149562 cond2=1388 cap_hits=0
+MonoGS: DynPort fit KF 305: n=19199 iters=300 loss 0.4611->0.0813 opa 
+0.479->0.597
+MonoGS: Candidate insert KF 305: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 310: 143183 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5339 lineage(s): removed 2794 Gaussians
+MonoGS: DynPort KF 310: inserted=321 case1_hits=1280971 n_buf=17264 
+n_model=44480 cond1=151119 cond2=2087 cap_hits=0
+MonoGS: DynPort fit KF 310: n=17264 iters=300 loss 0.4531->0.0654 opa 
+0.072->0.607
+MonoGS: Candidate insert KF 310: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 316: 142937 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4655 lineage(s): removed 2216 Gaussians
+MonoGS: DynPort KF 316: inserted=363 case1_hits=1320826 n_buf=13856 
+n_model=43856 cond1=154625 cond2=2352 cap_hits=0
+MonoGS: DynPort fit KF 316: n=13856 iters=300 loss 0.4362->0.0659 opa 
+0.404->0.698
+MonoGS: Candidate insert KF 316: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 323: 145651 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4215 lineage(s): removed 2106 Gaussians
+MonoGS: DynPort KF 323: inserted=706 case1_hits=1360725 n_buf=2529 n_model=35423
+cond1=166608 cond2=2402 cap_hits=0
+MonoGS: DynPort fit KF 323: n=2529 iters=300 loss 0.4589->0.1523 opa 
+0.308->0.504
+MonoGS: Candidate insert KF 323: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 329: 161032 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4242 lineage(s): removed 4242 Gaussians
+MonoGS: DynPort KF 329: inserted=8999 case1_hits=1396560 n_buf=10668 
+n_model=44320 cond1=167468 cond2=2402 cap_hits=0
+MonoGS: DynPort fit KF 329: n=10668 iters=300 loss 0.4692->0.0775 opa 
+0.481->0.519
+MonoGS: Candidate insert KF 329: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 337: 154451 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  338
+Eval: RMSE ATE [m] 0.03847776773615734
+MonoGS: Pruned 4601 lineage(s): removed 4601 Gaussians
+MonoGS: DynPort KF 337: inserted=1322 case1_hits=1440623 n_buf=11215 
+n_model=28184 cond1=168584 cond2=2410 cap_hits=0
+MonoGS: DynPort fit KF 337: n=11215 iters=300 loss 0.4832->0.0862 opa 
+0.133->0.410
+MonoGS: Candidate insert KF 337: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 344: 154050 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4509 lineage(s): removed 1034 Gaussians
+MonoGS: DynPort KF 344: inserted=2971 case1_hits=1483529 n_buf=10342 
+n_model=31277 cond1=172428 cond2=2410 cap_hits=0
+MonoGS: DynPort fit KF 344: n=10342 iters=300 loss 0.4705->0.0652 opa 
+0.351->0.677
+MonoGS: Candidate insert KF 344: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 352: 129411 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4842 lineage(s): removed 837 Gaussians
+MonoGS: DynPort KF 352: inserted=1110 case1_hits=1517331 n_buf=3900 
+n_model=28998 cond1=179643 cond2=2747 cap_hits=0
+MonoGS: DynPort fit KF 352: n=3900 iters=300 loss 0.5102->0.0729 opa 
+0.198->0.549
+MonoGS: Candidate insert KF 352: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 361: 163945 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5798 lineage(s): removed 943 Gaussians
+MonoGS: DynPort KF 361: inserted=16405 case1_hits=1549123 n_buf=17523 
+n_model=46678 cond1=182425 cond2=2747 cap_hits=0
+MonoGS: DynPort fit KF 361: n=17523 iters=300 loss 0.4775->0.0937 opa 
+0.487->0.662
+MonoGS: Candidate insert KF 361: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 368: 155860 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4042 lineage(s): removed 717 Gaussians
+MonoGS: DynPort KF 368: inserted=347 case1_hits=1590562 n_buf=15406 
+n_model=48844 cond1=184889 cond2=2747 cap_hits=0
+MonoGS: DynPort fit KF 368: n=15406 iters=300 loss 0.4981->0.1272 opa 
+0.327->0.348
+MonoGS: Candidate insert KF 368: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001080, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 375: 135110 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  376
+Eval: RMSE ATE [m] 0.03750297219621893
+MonoGS: Pruned 5516 lineage(s): removed 5516 Gaussians
+MonoGS: DynPort KF 375: inserted=2886 case1_hits=1621564 n_buf=16966 
+n_model=49888 cond1=186188 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 375: n=16966 iters=300 loss 0.4705->0.1369 opa 
+0.210->0.267
+MonoGS: Candidate insert KF 375: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 382: 95324 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4698 lineage(s): removed 4698 Gaussians
+MonoGS: DynPort KF 382: inserted=3847 case1_hits=1638595 n_buf=18048 
+n_model=51272 cond1=188953 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 382: n=18048 iters=300 loss 0.4058->0.0673 opa 
+0.232->0.334
+MonoGS: Candidate insert KF 382: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001629, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 389: 61069 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4512 lineage(s): removed 4512 Gaussians
+MonoGS: DynPort KF 389: inserted=5187 case1_hits=1649774 n_buf=8172 
+n_model=27630 cond1=204181 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 389: n=8172 iters=300 loss 0.2809->0.0406 opa 
+0.580->0.661
+MonoGS: Candidate insert KF 389: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001181, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 397: 69355 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4685 lineage(s): removed 843 Gaussians
+MonoGS: DynPort KF 397: inserted=3805 case1_hits=1664358 n_buf=9651 
+n_model=33266 cond1=206507 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 397: n=9651 iters=300 loss 0.3153->0.0529 opa 
+0.551->0.662
+MonoGS: Candidate insert KF 397: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001074, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 404: 78419 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3455 lineage(s): removed 1084 Gaussians
+MonoGS: DynPort KF 404: inserted=194 case1_hits=1683922 n_buf=4276 n_model=31807
+cond1=212076 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 404: n=4276 iters=300 loss 0.2804->0.0497 opa 
+0.470->0.731
+MonoGS: Candidate insert KF 404: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001035, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 412: 70891 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  413
+MonoGS: Pruned 3310 lineage(s): removed 1107 Gaussians
+Eval: RMSE ATE [m] 0.03647454676389916
+MonoGS: DynPort KF 412: inserted=0 case1_hits=1701472 n_buf=3582 n_model=35006 
+cond1=212770 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 412: n=3582 iters=300 loss 0.2133->0.0399 opa 
+0.732->0.815
+MonoGS: Candidate insert KF 412: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001014, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 419: 34280 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3569 lineage(s): removed 525 Gaussians
+MonoGS: DynPort KF 419: inserted=67 case1_hits=1708166 n_buf=513 n_model=36415 
+cond1=215906 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 419: n=513 iters=300 loss 0.1937->0.0461 opa 0.686->0.703
+MonoGS: Candidate insert KF 419: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3293 lineage(s): removed 3293 Gaussians
+MonoGS: DynPort KF 426: inserted=0 case1_hits=1708166 n_buf=513 n_model=38124 
+cond1=215906 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 426: n=513 iters=300 loss 0.0000->0.0000 opa 0.699->0.699
+MonoGS: Candidate insert KF 426: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 2715 lineage(s): removed 2715 Gaussians
+MonoGS: DynPort KF 433: inserted=0 case1_hits=1708166 n_buf=513 n_model=40409 
+cond1=215906 cond2=2774 cap_hits=0
+MonoGS: DynPort fit KF 433: n=513 iters=300 loss 0.0000->0.0000 opa 0.699->0.699
+MonoGS: Candidate insert KF 433: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3448 lineage(s): removed 1584 Gaussians
+MonoGS: DynPort KF 439: inserted=0 case1_hits=1708166 n_buf=391 n_model=24930 
+cond1=215906 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 439: n=391 iters=300 loss 0.0000->0.0000 opa 0.762->0.762
+MonoGS: Candidate insert KF 439: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 446: 13632 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  447
+Eval: RMSE ATE [m] 0.0367226301592667
+MonoGS: Pruned 4217 lineage(s): removed 2128 Gaussians
+MonoGS: DynPort KF 446: inserted=2156 case1_hits=1708166 n_buf=2156 
+n_model=29567 cond1=216297 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 446: n=2156 iters=300 loss 0.2788->0.2788 opa 
+0.500->0.500
+MonoGS: Candidate insert KF 446: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001345, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 453: 51324 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4663 lineage(s): removed 2249 Gaussians
+MonoGS: DynPort KF 453: inserted=2811 case1_hits=1721075 n_buf=4965 
+n_model=35127 cond1=216299 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 453: n=4965 iters=300 loss 0.3046->0.1848 opa 
+0.291->0.337
+MonoGS: Candidate insert KF 453: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001049, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 460: 49742 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4824 lineage(s): removed 2289 Gaussians
+MonoGS: DynPort KF 460: inserted=704 case1_hits=1736301 n_buf=5666 n_model=38539
+cond1=216302 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 460: n=5666 iters=300 loss 0.3293->0.0403 opa 
+0.108->0.439
+MonoGS: Candidate insert KF 460: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 467: 43381 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4902 lineage(s): removed 393 Gaussians
+MonoGS: DynPort KF 467: inserted=0 case1_hits=1750130 n_buf=5467 n_model=42947 
+cond1=216501 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 467: n=5467 iters=300 loss 0.3494->0.0424 opa 
+0.252->0.422
+MonoGS: Candidate insert KF 467: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 473: 49424 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5203 lineage(s): removed 5203 Gaussians
+MonoGS: DynPort KF 473: inserted=58 case1_hits=1765859 n_buf=3237 n_model=40514 
+cond1=218789 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 473: n=3237 iters=300 loss 0.3466->0.0526 opa 
+0.284->0.371
+MonoGS: Candidate insert KF 473: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 479: 56544 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  480
+MonoGS: Pruned 4771 lineage(s): removed 4771 Gaussians
+Eval: RMSE ATE [m] 0.03649390411476935
+MonoGS: DynPort KF 479: inserted=205 case1_hits=1783592 n_buf=1793 n_model=22626
+cond1=220618 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 479: n=1793 iters=300 loss 0.3221->0.0492 opa 
+0.389->0.571
+MonoGS: Candidate insert KF 479: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 486: 54082 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4835 lineage(s): removed 879 Gaussians
+MonoGS: DynPort KF 486: inserted=14 case1_hits=1800610 n_buf=1041 n_model=25995 
+cond1=221384 cond2=2903 cap_hits=0
+MonoGS: DynPort fit KF 486: n=1041 iters=300 loss 0.3212->0.0704 opa 
+0.529->0.615
+MonoGS: Candidate insert KF 486: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001560, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 493: 44048 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4872 lineage(s): removed 758 Gaussians
+MonoGS: DynPort KF 493: inserted=5 case1_hits=1811133 n_buf=450 n_model=29646 
+cond1=221922 cond2=2961 cap_hits=0
+MonoGS: DynPort fit KF 493: n=450 iters=300 loss 0.3206->0.1852 opa 0.609->0.665
+MonoGS: Candidate insert KF 493: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001266, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4739 lineage(s): removed 1071 Gaussians
+MonoGS: DynPort KF 501: inserted=0 case1_hits=1811133 n_buf=450 n_model=33575 
+cond1=221922 cond2=2961 cap_hits=0
+MonoGS: DynPort fit KF 501: n=450 iters=300 loss 0.0000->0.0000 opa 0.635->0.635
+MonoGS: Candidate insert KF 501: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001107, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3808 lineage(s): removed 625 Gaussians
+MonoGS: DynPort KF 507: inserted=0 case1_hits=1811133 n_buf=265 n_model=37765 
+cond1=221922 cond2=3146 cap_hits=0
+MonoGS: DynPort fit KF 507: n=265 iters=300 loss 0.0000->0.0000 opa 0.533->0.533
+MonoGS: Candidate insert KF 507: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001179, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  514
+Eval: RMSE ATE [m] 0.03559941279337594
+MonoGS: Pruned 3488 lineage(s): removed 3488 Gaussians
+MonoGS: DynPort KF 513: inserted=0 case1_hits=1811133 n_buf=265 n_model=39277 
+cond1=221922 cond2=3146 cap_hits=0
+MonoGS: DynPort fit KF 513: n=265 iters=300 loss 0.0000->0.0000 opa 0.509->0.509
+MonoGS: Candidate insert KF 513: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001589, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3117 lineage(s): removed 3117 Gaussians
+MonoGS: DynPort KF 518: inserted=0 case1_hits=1811133 n_buf=265 n_model=41160 
+cond1=221922 cond2=3146 cap_hits=0
+MonoGS: DynPort fit KF 518: n=265 iters=300 loss 0.0000->0.0000 opa 0.507->0.507
+MonoGS: Candidate insert KF 518: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001204, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3667 lineage(s): removed 1004 Gaussians
+MonoGS: DynPort KF 524: inserted=0 case1_hits=1811133 n_buf=220 n_model=24089 
+cond1=221922 cond2=3193 cap_hits=0
+MonoGS: DynPort fit KF 524: n=220 iters=300 loss 0.0000->0.0000 opa 0.508->0.508
+MonoGS: Candidate insert KF 524: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001061, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4033 lineage(s): removed 862 Gaussians
+MonoGS: DynPort KF 530: inserted=0 case1_hits=1811133 n_buf=16 n_model=28023 
+cond1=221922 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 530: n=16 iters=300 loss 0.0000->0.0000 opa 0.181->0.181
+MonoGS: Candidate insert KF 530: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 536: 71750 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4140 lineage(s): removed 929 Gaussians
+MonoGS: DynPort KF 536: inserted=20640 case1_hits=1811133 n_buf=20640 
+n_model=52718 cond1=221938 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 536: n=20640 iters=300 loss 0.5322->0.5322 opa 
+0.500->0.500
+MonoGS: Candidate insert KF 536: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 544: 82705 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  545
+Eval: RMSE ATE [m] 0.034751301322731916
+MonoGS: Pruned 4342 lineage(s): removed 1190 Gaussians
+MonoGS: DynPort KF 544: inserted=5168 case1_hits=1830724 n_buf=20620 
+n_model=56508 cond1=227126 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 544: n=20620 iters=300 loss 0.5095->0.0914 opa 
+0.134->0.155
+MonoGS: Candidate insert KF 544: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 553: 71411 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4291 lineage(s): removed 762 Gaussians
+MonoGS: DynPort KF 553: inserted=660 case1_hits=1850785 n_buf=2228 n_model=42354
+cond1=246178 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 553: n=2228 iters=300 loss 0.5065->0.2258 opa 
+0.156->0.277
+MonoGS: Candidate insert KF 553: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 561: 67441 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4870 lineage(s): removed 4870 Gaussians
+MonoGS: DynPort KF 561: inserted=776 case1_hits=1870227 n_buf=1382 n_model=41638
+cond1=247800 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 561: n=1382 iters=300 loss 0.4667->0.2024 opa 
+0.315->0.380
+MonoGS: Candidate insert KF 561: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 567: 60091 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4888 lineage(s): removed 4888 Gaussians
+MonoGS: DynPort KF 567: inserted=278 case1_hits=1887426 n_buf=1381 n_model=41749
+cond1=248079 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 567: n=1381 iters=300 loss 0.4157->0.0986 opa 
+0.328->0.417
+MonoGS: Candidate insert KF 567: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001180, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 573: 54010 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4874 lineage(s): removed 1171 Gaussians
+MonoGS: DynPort KF 573: inserted=314 case1_hits=1902680 n_buf=1431 n_model=23848
+cond1=248431 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 573: n=1431 iters=300 loss 0.5143->0.0915 opa 
+0.383->0.474
+MonoGS: Candidate insert KF 573: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001384, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 579: 44547 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  580
+Eval: RMSE ATE [m] 0.035403518769038404
+MonoGS: Pruned 5536 lineage(s): removed 1355 Gaussians
+MonoGS: DynPort KF 579: inserted=178 case1_hits=1915409 n_buf=1219 n_model=27281
+cond1=248821 cond2=3397 cap_hits=0
+MonoGS: DynPort fit KF 579: n=1219 iters=300 loss 0.5212->0.0868 opa 
+0.408->0.535
+MonoGS: Candidate insert KF 579: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001648, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 587: 42475 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4575 lineage(s): removed 897 Gaussians
+MonoGS: DynPort KF 587: inserted=54 case1_hits=1927259 n_buf=571 n_model=30736 
+cond1=249495 cond2=3425 cap_hits=0
+MonoGS: DynPort fit KF 587: n=571 iters=300 loss 0.5083->0.1329 opa 0.297->0.444
+MonoGS: Candidate insert KF 587: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001462, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 595: 41381 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4836 lineage(s): removed 638 Gaussians
+MonoGS: DynPort KF 595: inserted=2 case1_hits=1939201 n_buf=438 n_model=34965 
+cond1=249607 cond2=3448 cap_hits=0
+MonoGS: DynPort fit KF 595: n=438 iters=300 loss 0.4930->0.1838 opa 0.337->0.631
+MonoGS: Candidate insert KF 595: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001337, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 602: 39507 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4819 lineage(s): removed 368 Gaussians
+MonoGS: DynPort KF 602: inserted=7769 case1_hits=1942785 n_buf=8090 
+n_model=47249 cond1=249724 cond2=3448 cap_hits=0
+MonoGS: DynPort fit KF 602: n=8090 iters=300 loss 0.4634->0.1597 opa 
+0.504->0.508
+MonoGS: Candidate insert KF 602: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001030, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 609: 41745 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4852 lineage(s): removed 4852 Gaussians
+MonoGS: DynPort KF 609: inserted=9 case1_hits=1954688 n_buf=7942 n_model=47249 
+cond1=249881 cond2=3448 cap_hits=0
+MonoGS: DynPort fit KF 609: n=7942 iters=300 loss 0.4345->0.0761 opa 
+0.034->0.167
+MonoGS: Candidate insert KF 609: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001018, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 616: 45004 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  617
+MonoGS: Pruned 4677 lineage(s): removed 4677 Gaussians
+Eval: RMSE ATE [m] 0.03438373415818516
+MonoGS: DynPort KF 616: inserted=0 case1_hits=1967760 n_buf=8051 n_model=32856 
+cond1=250009 cond2=3480 cap_hits=0
+MonoGS: DynPort fit KF 616: n=8051 iters=300 loss 0.3806->0.0370 opa 
+0.116->0.558
+MonoGS: Candidate insert KF 616: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 623: 48757 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4590 lineage(s): removed 942 Gaussians
+MonoGS: DynPort KF 623: inserted=114 case1_hits=1981793 n_buf=7365 n_model=36228
+cond1=250809 cond2=3480 cap_hits=0
+MonoGS: DynPort fit KF 623: n=7365 iters=300 loss 0.3779->0.0413 opa 
+0.393->0.612
+MonoGS: Candidate insert KF 623: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 629: 48614 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4639 lineage(s): removed 1164 Gaussians
+MonoGS: DynPort KF 629: inserted=4 case1_hits=1995902 n_buf=4926 n_model=37625 
+cond1=253224 cond2=3508 cap_hits=0
+MonoGS: DynPort fit KF 629: n=4926 iters=300 loss 0.3926->0.0456 opa 
+0.525->0.623
+MonoGS: Candidate insert KF 629: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 637: 55659 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4576 lineage(s): removed 804 Gaussians
+MonoGS: DynPort KF 637: inserted=658 case1_hits=2011725 n_buf=1383 n_model=38278
+cond1=257425 cond2=3508 cap_hits=0
+MonoGS: DynPort fit KF 637: n=1383 iters=300 loss 0.3816->0.0628 opa 
+0.439->0.580
+MonoGS: Candidate insert KF 637: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 644: 64775 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3831 lineage(s): removed 793 Gaussians
+MonoGS: DynPort KF 644: inserted=324 case1_hits=2031027 n_buf=1243 n_model=42345
+cond1=257889 cond2=3508 cap_hits=0
+MonoGS: DynPort fit KF 644: n=1243 iters=300 loss 0.3697->0.0656 opa 
+0.470->0.577
+MonoGS: Candidate insert KF 644: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 651: 80480 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  652
+Eval: RMSE ATE [m] 0.033944234420655604
+MonoGS: Pruned 3649 lineage(s): removed 3649 Gaussians
+MonoGS: DynPort KF 651: inserted=54 case1_hits=2055602 n_buf=497 n_model=42950 
+cond1=258458 cond2=3739 cap_hits=0
+MonoGS: DynPort fit KF 651: n=497 iters=300 loss 0.4706->0.3492 opa 0.546->0.647
+MonoGS: Candidate insert KF 651: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 657: 54778 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4340 lineage(s): removed 4340 Gaussians
+MonoGS: DynPort KF 657: inserted=12690 case1_hits=2056063 n_buf=12811 
+n_model=55924 cond1=258834 cond2=3739 cap_hits=0
+MonoGS: DynPort fit KF 657: n=12811 iters=300 loss 0.5181->0.1332 opa 
+0.501->0.510
+MonoGS: Candidate insert KF 657: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4425 lineage(s): removed 1450 Gaussians
+MonoGS: DynPort KF 664: inserted=0 case1_hits=2056063 n_buf=13004 n_model=38827 
+cond1=258834 cond2=3739 cap_hits=0
+MonoGS: DynPort fit KF 664: n=13004 iters=300 loss 0.0000->0.0000 opa 
+0.064->0.064
+MonoGS: Candidate insert KF 664: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001166, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4700 lineage(s): removed 1273 Gaussians
+MonoGS: DynPort KF 669: inserted=0 case1_hits=2056063 n_buf=12988 n_model=42538 
+cond1=258834 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 669: n=12988 iters=300 loss 0.0000->0.0000 opa 
+0.028->0.028
+MonoGS: Candidate insert KF 669: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001705, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4708 lineage(s): removed 1037 Gaussians
+MonoGS: DynPort KF 674: inserted=0 case1_hits=2056063 n_buf=12988 n_model=46501 
+cond1=258834 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 674: n=12988 iters=300 loss 0.0000->0.0000 opa 
+0.026->0.026
+MonoGS: Candidate insert KF 674: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001062, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  680
+MonoGS: Pruned 4854 lineage(s): removed 1235 Gaussians
+Eval: RMSE ATE [m] 0.034164151895106847
+MonoGS: DynPort KF 679: inserted=0 case1_hits=2056063 n_buf=12988 n_model=50266 
+cond1=258834 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 679: n=12988 iters=300 loss 0.0000->0.0000 opa 
+0.026->0.026
+MonoGS: Candidate insert KF 679: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001158, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 684: 22636 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4455 lineage(s): removed 410 Gaussians
+MonoGS: DynPort KF 684: inserted=4698 case1_hits=2056063 n_buf=4698 
+n_model=46566 cond1=271822 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 684: n=4698 iters=300 loss 0.4580->0.4580 opa 
+0.500->0.500
+MonoGS: Candidate insert KF 684: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001078, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 692: 70649 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4898 lineage(s): removed 4898 Gaussians
+MonoGS: DynPort KF 692: inserted=1238 case1_hits=2075332 n_buf=5726 
+n_model=47696 cond1=272032 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 692: n=5726 iters=300 loss 0.4839->0.4425 opa 
+0.116->0.121
+MonoGS: Candidate insert KF 692: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 700: 72956 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4067 lineage(s): removed 540 Gaussians
+MonoGS: DynPort KF 700: inserted=420 case1_hits=2096984 n_buf=5942 n_model=30710
+cond1=272297 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 700: n=5942 iters=300 loss 0.4806->0.3791 opa 
+0.047->0.057
+MonoGS: Candidate insert KF 700: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 707: 75233 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4315 lineage(s): removed 490 Gaussians
+MonoGS: DynPort KF 707: inserted=296 case1_hits=2119234 n_buf=6019 n_model=35297
+cond1=272516 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 707: n=6019 iters=300 loss 0.4785->0.0816 opa 
+0.039->0.102
+MonoGS: Candidate insert KF 707: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 714: 76361 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  715
+MonoGS: Pruned 4973 lineage(s): removed 561 Gaussians
+Eval: RMSE ATE [m] 0.033512498643265415
+MonoGS: DynPort KF 714: inserted=329 case1_hits=2141760 n_buf=3877 n_model=37594
+cond1=274987 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 714: n=3877 iters=300 loss 0.5196->0.0748 opa 
+0.063->0.098
+MonoGS: Candidate insert KF 714: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 721: 82170 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5110 lineage(s): removed 586 Gaussians
+MonoGS: DynPort KF 721: inserted=275 case1_hits=2166247 n_buf=478 n_model=38609 
+cond1=278661 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 721: n=478 iters=300 loss 0.5222->0.1402 opa 0.293->0.305
+MonoGS: Candidate insert KF 721: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 729: 94272 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5011 lineage(s): removed 248 Gaussians
+MonoGS: DynPort KF 729: inserted=221 case1_hits=2192742 n_buf=358 n_model=43241 
+cond1=279002 cond2=3755 cap_hits=0
+MonoGS: DynPort fit KF 729: n=358 iters=300 loss 0.5673->0.5512 opa 0.310->0.313
+MonoGS: Candidate insert KF 729: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001041, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 735: 91541 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4553 lineage(s): removed 4553 Gaussians
+MonoGS: DynPort KF 735: inserted=82 case1_hits=2220368 n_buf=84 n_model=43414 
+cond1=279249 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 735: n=84 iters=300 loss 0.5429->0.5429 opa 0.488->0.488
+MonoGS: Candidate insert KF 735: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 742: 86324 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4126 lineage(s): removed 4126 Gaussians
+MonoGS: DynPort KF 742: inserted=19345 case1_hits=2221732 n_buf=19345 
+n_model=63549 cond1=279333 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 742: n=19345 iters=300 loss 0.5182->0.5120 opa 
+0.500->0.500
+MonoGS: Candidate insert KF 742: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 749: 61065 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  750
+MonoGS: Pruned 4316 lineage(s): removed 916 Gaussians
+Eval: RMSE ATE [m] 0.03314336103334512
+MonoGS: DynPort KF 749: inserted=0 case1_hits=2234383 n_buf=17561 n_model=44900 
+cond1=281126 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 749: n=17561 iters=300 loss 0.4556->0.2183 opa 
+0.015->0.020
+MonoGS: Candidate insert KF 749: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 757: 16516 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4557 lineage(s): removed 894 Gaussians
+MonoGS: DynPort KF 757: inserted=98 case1_hits=2234543 n_buf=10675 n_model=42120
+cond1=288110 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 757: n=10675 iters=300 loss 0.3191->0.1909 opa 
+0.007->0.008
+MonoGS: Candidate insert KF 757: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001403, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 765: 34497 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4895 lineage(s): removed 878 Gaussians
+MonoGS: DynPort KF 765: inserted=5119 case1_hits=2237223 n_buf=5217 
+n_model=40784 cond1=298687 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 765: n=5217 iters=300 loss 0.2893->0.2113 opa 
+0.496->0.493
+MonoGS: Candidate insert KF 765: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001450, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 774: 46534 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4544 lineage(s): removed 490 Gaussians
+MonoGS: DynPort KF 774: inserted=0 case1_hits=2251587 n_buf=5217 n_model=45294 
+cond1=298687 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 774: n=5217 iters=300 loss 0.3465->0.1191 opa 
+0.086->0.161
+MonoGS: Candidate insert KF 774: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 782: 44668 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3933 lineage(s): removed 449 Gaussians
+MonoGS: DynPort KF 782: inserted=0 case1_hits=2265741 n_buf=5186 n_model=49814 
+cond1=298718 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 782: n=5186 iters=300 loss 0.3660->0.1220 opa 
+0.126->0.129
+MonoGS: Candidate insert KF 782: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001117, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 790: 41388 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  791
+MonoGS: Pruned 3708 lineage(s): removed 3708 Gaussians
+Eval: RMSE ATE [m] 0.03245521767538958
+MonoGS: DynPort KF 790: inserted=0 case1_hits=2278966 n_buf=4637 n_model=50557 
+cond1=299267 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 790: n=4637 iters=300 loss 0.3987->0.1345 opa 
+0.089->0.092
+MonoGS: Candidate insert KF 790: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001142, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 798: 35029 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 2998 lineage(s): removed 2998 Gaussians
+MonoGS: DynPort KF 798: inserted=15 case1_hits=2290153 n_buf=765 n_model=48687 
+cond1=303154 cond2=3864 cap_hits=0
+MonoGS: DynPort fit KF 798: n=765 iters=300 loss 0.4276->0.1308 opa 0.204->0.227
+MonoGS: Candidate insert KF 798: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001041, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 806: 39100 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3670 lineage(s): removed 603 Gaussians
+MonoGS: DynPort KF 806: inserted=0 case1_hits=2302629 n_buf=647 n_model=31320 
+cond1=303302 cond2=3869 cap_hits=0
+MonoGS: DynPort fit KF 806: n=647 iters=300 loss 0.3523->0.1211 opa 0.213->0.229
+MonoGS: Candidate insert KF 806: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001177, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 814: 40777 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4486 lineage(s): removed 975 Gaussians
+MonoGS: DynPort KF 814: inserted=2 case1_hits=2315704 n_buf=17 n_model=34715 
+cond1=303737 cond2=4066 cap_hits=0
+MonoGS: DynPort fit KF 814: n=17 iters=300 loss 0.3567->0.3562 opa 0.123->0.182
+MonoGS: Candidate insert KF 814: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001484, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 821: 34989 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4789 lineage(s): removed 1019 Gaussians
+MonoGS: DynPort KF 821: inserted=10674 case1_hits=2315897 n_buf=10690 
+n_model=49369 cond1=303738 cond2=4066 cap_hits=0
+MonoGS: DynPort fit KF 821: n=10690 iters=300 loss 0.4008->0.0634 opa 
+0.500->0.532
+MonoGS: Candidate insert KF 821: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001346, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 829: 47527 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  830
+MonoGS: Pruned 3818 lineage(s): removed 1093 Gaussians
+Eval: RMSE ATE [m] 0.03181674163484955
+MonoGS: DynPort KF 829: inserted=19 case1_hits=2330280 n_buf=10695 n_model=53281
+cond1=303752 cond2=4066 cap_hits=0
+MonoGS: DynPort fit KF 829: n=10695 iters=300 loss 0.3729->0.0649 opa 
+0.058->0.101
+MonoGS: Candidate insert KF 829: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001299, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 836: 50370 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3528 lineage(s): removed 618 Gaussians
+MonoGS: DynPort KF 836: inserted=0 case1_hits=2345476 n_buf=10626 n_model=57594 
+cond1=303821 cond2=4066 cap_hits=0
+MonoGS: DynPort fit KF 836: n=10626 iters=300 loss 0.3837->0.0545 opa 
+0.035->0.078
+MonoGS: Candidate insert KF 836: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 845: 48075 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 2732 lineage(s): removed 2732 Gaussians
+MonoGS: DynPort KF 845: inserted=7 case1_hits=2357831 n_buf=9852 n_model=59088 
+cond1=304600 cond2=4068 cap_hits=0
+MonoGS: DynPort fit KF 845: n=9852 iters=300 loss 0.3973->0.0513 opa 
+0.025->0.041
+MonoGS: Candidate insert KF 845: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001185, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 854: 17012 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3525 lineage(s): removed 3525 Gaussians
+MonoGS: DynPort KF 854: inserted=30 case1_hits=2360904 n_buf=1278 n_model=51989 
+cond1=313204 cond2=4068 cap_hits=0
+MonoGS: DynPort fit KF 854: n=1278 iters=300 loss 0.3709->0.0957 opa 
+0.080->0.085
+MonoGS: Candidate insert KF 854: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001159, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3627 lineage(s): removed 550 Gaussians
+MonoGS: DynPort KF 863: inserted=0 case1_hits=2360904 n_buf=1300 n_model=31754 
+cond1=313204 cond2=4070 cap_hits=0
+MonoGS: DynPort fit KF 863: n=1300 iters=300 loss 0.0000->0.0000 opa 
+0.073->0.073
+MonoGS: Candidate insert KF 863: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001227, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  870
+MonoGS: Pruned 3993 lineage(s): removed 590 Gaussians
+Eval: RMSE ATE [m] 0.031213076011469384
+MonoGS: DynPort KF 869: inserted=0 case1_hits=2360904 n_buf=31 n_model=34895 
+cond1=313204 cond2=5339 cap_hits=0
+MonoGS: DynPort fit KF 869: n=31 iters=300 loss 0.0000->0.0000 opa 0.780->0.780
+MonoGS: Candidate insert KF 869: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001446, scale_max=0.020000, scale_init=knn
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Pruned 4197 lineage(s): removed 540 Gaussians
+MonoGS: DynPort KF 875: inserted=0 case1_hits=2360904 n_buf=30 n_model=39354 
+cond1=313204 cond2=5340 cap_hits=0
+MonoGS: DynPort fit KF 875: n=30 iters=300 loss 0.0000->0.0000 opa 0.655->0.655
+MonoGS: Candidate insert KF 875: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001343, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4059 lineage(s): removed 411 Gaussians
+MonoGS: DynPort KF 881: inserted=0 case1_hits=2360904 n_buf=30 n_model=43943 
+cond1=313204 cond2=5340 cap_hits=0
+MonoGS: DynPort fit KF 881: n=30 iters=300 loss 0.0000->0.0000 opa 0.581->0.581
+MonoGS: Candidate insert KF 881: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001150, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3879 lineage(s): removed 154 Gaussians
+MonoGS: DynPort KF 887: inserted=0 case1_hits=2360904 n_buf=30 n_model=48789 
+cond1=313204 cond2=5340 cap_hits=0
+MonoGS: DynPort fit KF 887: n=30 iters=300 loss 0.0000->0.0000 opa 0.608->0.608
+MonoGS: Candidate insert KF 887: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001131, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3630 lineage(s): removed 3630 Gaussians
+MonoGS: DynPort KF 893: inserted=0 case1_hits=2360904 n_buf=30 n_model=50159 
+cond1=313204 cond2=5340 cap_hits=0
+MonoGS: DynPort fit KF 893: n=30 iters=300 loss 0.0000->0.0000 opa 0.638->0.638
+MonoGS: Candidate insert KF 893: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001198, scale_max=0.020000, scale_init=knn
+Eval: RMSE ATE [m] 0.03079431189026634
+Eval: Online SLAM time 707.5492051197216
+Eval: Online SLAM FPS 1.2649296946755253
+Eval: per-frame APE: KF-RMSE=3.22cm (129 kf) vs nonKF-RMSE=3.18cm (766 nonkf) ->
+results/dynport/L1/crowd2_Cneg/datasets_bonn/L1_crowd2_Cneg/seed_0/2026-10-06-05
+-54-50/per_frame_ape.csv
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.

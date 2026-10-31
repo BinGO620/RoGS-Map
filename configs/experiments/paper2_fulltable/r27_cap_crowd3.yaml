@@ -1,0 +1,36 @@
+# paper2 fulltable: FINAL two-layer form (SWBA + loop closure, R24 machine)
+# on the standard Bonn subset. Generic settings only — every parameter here
+# has a diagnostic provenance from R19-R24 (verifier gate 0.05 = true/false
+# residual gap across pt1/pt2; v3 co-location scoring + cell diversity =
+# GT-audit/plateau-flood fixes; two-stage verification = r21b tail-
+# regression fix). No per-sequence tuning (CLAUDE.md #8).
+# Arm pairing: baseline = combined_prune/crowd3.yaml, same seeds/conditions.
+# Pre-registered: no-regression hard gate on easy sequences (crowd family,
+# balloon) vs baseline; pt family vs par controls (reference).
+
+inherit_from: "configs/rgbd/bonn/crowd3.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  max_update_trans: 0.015
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r27_cap_crowd3"
+  save_per_frame_ape: true

@@ -1,0 +1,36 @@
+{
+  "experiment": "dynport_offline_j3_instrument_diag",
+  "rows": [
+    {
+      "seq": "crowd2",
+      "n_frames": 35,
+      "base_static_psnr_median": 26.2298,
+      "B_minus_A_merged_final": -0.0622,
+      "C_minus_A_causal_samepose": -3.8764,
+      "D_minus_A_fresh_oracle": 0.0045,
+      "n_dyn_final": 29,
+      "n_snaps": 178
+    },
+    {
+      "seq": "balloon2",
+      "n_frames": 18,
+      "base_static_psnr_median": 24.9442,
+      "B_minus_A_merged_final": -3.2058,
+      "C_minus_A_causal_samepose": -0.9412,
+      "D_minus_A_fresh_oracle": 0.0031,
+      "n_dyn_final": 1436,
+      "n_snaps": 93
+    },
+    {
+      "seq": "person_tracking2",
+      "n_frames": 22,
+      "base_static_psnr_median": 27.7214,
+      "B_minus_A_merged_final": 0.0,
+      "C_minus_A_causal_samepose": -1.0806,
+      "D_minus_A_fresh_oracle": -0.0002,
+      "n_dyn_final": 0,
+      "n_snaps": 76
+    }
+  ],
+  "note": "B=\u73b0 J3(final-map, \u5408\u5e76\u56fe\u672b\u5e27\u5c42)\uff1bC=\u540c\u4f4d\u59ff\u56e0\u679c\u5c42\uff1bD=oracle \u9010\u5e27\u5c42\uff1b\u5168\u90e8\u540c\u4e00\u5e27\u4f4d\u59ff \u21d2 \u5dee\u5f02\u7eaf\u7531\u5c42\u65f6\u523b/\u7d2f\u79ef\u51b3\u5b9a"
+}

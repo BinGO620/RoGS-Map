@@ -1,0 +1,226 @@
+{
+  "probe": [
+    {
+      "seq": "person_tracking2",
+      "arm": "gate",
+      "dyn_psnr_gain_db": 10.2821,
+      "bad_psnr_gain_db": 10.7305,
+      "bad_dl1_ratio": 0.5647219976148544,
+      "p2_bad_dl1_cm": 15.2951,
+      "p1_bad_dl1_cm": 27.0843,
+      "bad_px": 17747.125,
+      "full_gain_db": 2.086400000000001,
+      "static_gain_db": 0.1186,
+      "n_dyn_frac": null
+    },
+    {
+      "seq": "person_tracking2",
+      "arm": "baseline",
+      "dyn_psnr_gain_db": 10.4344,
+      "bad_psnr_gain_db": 10.9783,
+      "bad_dl1_ratio": 0.5547552086322677,
+      "p2_bad_dl1_cm": 15.4648,
+      "p1_bad_dl1_cm": 27.8768,
+      "bad_px": 17673.3125,
+      "full_gain_db": 2.2761999999999993,
+      "static_gain_db": 0.1136,
+      "n_dyn_frac": null
+    },
+    {
+      "seq": "balloon",
+      "arm": "gate",
+      "dyn_psnr_gain_db": 15.8164,
+      "bad_psnr_gain_db": 15.8164,
+      "bad_dl1_ratio": 0.2137315727494766,
+      "p2_bad_dl1_cm": 7.8407,
+      "p1_bad_dl1_cm": 36.6848,
+      "bad_px": null,
+      "full_gain_db": 2.2522,
+      "static_gain_db": 0.1725,
+      "n_dyn_frac": 0.0768
+    },
+    {
+      "seq": "balloon",
+      "arm": "baseline",
+      "dyn_psnr_gain_db": 15.8477,
+      "bad_psnr_gain_db": 15.8477,
+      "bad_dl1_ratio": 0.1839811792072534,
+      "p2_bad_dl1_cm": 6.9601,
+      "p1_bad_dl1_cm": 37.8305,
+      "bad_px": null,
+      "full_gain_db": 2.2526,
+      "static_gain_db": 0.1618,
+      "n_dyn_frac": 0.1208
+    }
+  ],
+  "canon": {
+    "swbaonly|balloon2": {
+      "ghost_cm": -12.948066666666668,
+      "freshvac_cm": 6.279733333333334,
+      "static_psnr": 26.106633333333335,
+      "vacated_px": 200392.2
+    },
+    "gate|person_tracking": {
+      "ghost_cm": 3.8587333333333333,
+      "freshvac_cm": 4.6725666666666665,
+      "static_psnr": 27.600966666666668,
+      "vacated_px": 111174.6
+    },
+    "gate|balloon": {
+      "ghost_cm": 0.45446666666666663,
+      "freshvac_cm": 2.020166666666667,
+      "static_psnr": 27.654233333333334,
+      "vacated_px": 170924.4
+    },
+    "final|person_tracking2": {
+      "ghost_cm": 0.8891,
+      "freshvac_cm": 1.2695666666666667,
+      "static_psnr": 27.733999999999998,
+      "vacated_px": 168116.93333333332
+    },
+    "baseline|crowd": {
+      "ghost_cm": 1.4506999999999999,
+      "freshvac_cm": 0.8465333333333334,
+      "static_psnr": 27.610966666666666,
+      "vacated_px": 158560.0
+    },
+    "final|crowd3": {
+      "ghost_cm": 4.8393,
+      "freshvac_cm": -0.8172,
+      "static_psnr": 24.62173333333333,
+      "vacated_px": 187063.8571
+    },
+    "baseline|crowd2": {
+      "ghost_cm": 4.431333333333333,
+      "freshvac_cm": -2.864133333333333,
+      "static_psnr": 27.445733333333333,
+      "vacated_px": 216704.4286
+    },
+    "baseline|person_tracking2": {
+      "ghost_cm": 2.2066666666666666,
+      "freshvac_cm": 0.9359333333333333,
+      "static_psnr": 27.736066666666666,
+      "vacated_px": 168116.93333333332
+    },
+    "gate|crowd2": {
+      "ghost_cm": 4.4851,
+      "freshvac_cm": -3.2122,
+      "static_psnr": 27.54083333333333,
+      "vacated_px": 216704.4286
+    },
+    "baseline|balloon2": {
+      "ghost_cm": -10.849499999999999,
+      "freshvac_cm": 7.415333333333334,
+      "static_psnr": 26.276733333333333,
+      "vacated_px": 200392.2
+    },
+    "gate|balloon2": {
+      "ghost_cm": -13.239933333333333,
+      "freshvac_cm": 7.846633333333333,
+      "static_psnr": 26.453566666666667,
+      "vacated_px": 200392.2
+    },
+    "swbaonly|crowd3": {
+      "ghost_cm": 3.4365,
+      "freshvac_cm": -1.1492333333333333,
+      "static_psnr": 24.7918,
+      "vacated_px": 187063.8571
+    },
+    "baseline|balloon": {
+      "ghost_cm": 2.9653666666666667,
+      "freshvac_cm": 1.3034666666666666,
+      "static_psnr": 27.6792,
+      "vacated_px": 170924.4
+    },
+    "final|balloon": {
+      "ghost_cm": 3.3085,
+      "freshvac_cm": 1.2762666666666667,
+      "static_psnr": 27.737,
+      "vacated_px": 170924.4
+    },
+    "swbaonly|person_tracking": {
+      "ghost_cm": 4.6768,
+      "freshvac_cm": 5.288366666666667,
+      "static_psnr": 27.5868,
+      "vacated_px": 111174.6
+    },
+    "swbaonly|crowd2": {
+      "ghost_cm": -1.8419999999999999,
+      "freshvac_cm": -3.316866666666667,
+      "static_psnr": 26.914666666666665,
+      "vacated_px": 216704.4286
+    },
+    "final|crowd2": {
+      "ghost_cm": 3.3861666666666665,
+      "freshvac_cm": -1.9853333333333334,
+      "static_psnr": 27.268766666666668,
+      "vacated_px": 216704.4286
+    },
+    "gate|crowd": {
+      "ghost_cm": 1.9707666666666668,
+      "freshvac_cm": 0.6808666666666667,
+      "static_psnr": 27.600166666666667,
+      "vacated_px": 158560.0
+    },
+    "gate|person_tracking2": {
+      "ghost_cm": 1.7494999999999998,
+      "freshvac_cm": -0.6126666666666666,
+      "static_psnr": 27.605533333333334,
+      "vacated_px": 168116.93333333332
+    },
+    "swbaonly|crowd": {
+      "ghost_cm": 0.7278333333333333,
+      "freshvac_cm": 0.01100000000000001,
+      "static_psnr": 27.278166666666667,
+      "vacated_px": 158560.0
+    },
+    "final|crowd": {
+      "ghost_cm": 1.994,
+      "freshvac_cm": 1.3292666666666668,
+      "static_psnr": 27.095333333333333,
+      "vacated_px": 158560.0
+    },
+    "gate|crowd3": {
+      "ghost_cm": 5.478766666666667,
+      "freshvac_cm": -0.3901333333333333,
+      "static_psnr": 24.654799999999998,
+      "vacated_px": 187063.8571
+    },
+    "baseline|person_tracking": {
+      "ghost_cm": 3.964566666666667,
+      "freshvac_cm": 6.5045,
+      "static_psnr": 27.3133,
+      "vacated_px": 111174.6
+    },
+    "swbaonly|person_tracking2": {
+      "ghost_cm": 1.5711666666666666,
+      "freshvac_cm": -0.1441,
+      "static_psnr": 28.187366666666666,
+      "vacated_px": 168116.93333333332
+    },
+    "baseline|crowd3": {
+      "ghost_cm": 4.538733333333333,
+      "freshvac_cm": 0.0622,
+      "static_psnr": 24.791833333333333,
+      "vacated_px": 187063.8571
+    },
+    "final|person_tracking": {
+      "ghost_cm": 3.472766666666667,
+      "freshvac_cm": 4.749466666666667,
+      "static_psnr": 27.651366666666668,
+      "vacated_px": 111174.6
+    },
+    "swbaonly|balloon": {
+      "ghost_cm": 2.942833333333333,
+      "freshvac_cm": 1.7656,
+      "static_psnr": 27.366333333333333,
+      "vacated_px": 170924.4
+    },
+    "final|balloon2": {
+      "ghost_cm": -10.999066666666666,
+      "freshvac_cm": 4.858766666666667,
+      "static_psnr": 26.121366666666667,
+      "vacated_px": 200392.2
+    }
+  }
+}

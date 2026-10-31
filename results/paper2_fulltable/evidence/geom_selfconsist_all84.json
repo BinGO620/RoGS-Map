@@ -1,0 +1,2522 @@
+[
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed0/datasets_bonn/r33_rebase_baseline_balloon/seed_0/2026-09-16-01-37-09",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed0/datasets_bonn/r33_rebase_baseline_balloon/seed_0/2026-09-16-01-37-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.0469,
+     "completion_cm": 8.1847,
+     "completion_ratio": 58.176,
+     "precision_ratio": 72.1887,
+     "fscore": 64.4293,
+     "num_rec_points_eval": 32174,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed1/datasets_bonn/r33_rebase_baseline_balloon/seed_1/2026-09-16-01-37-09",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed1/datasets_bonn/r33_rebase_baseline_balloon/seed_1/2026-09-16-01-37-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.2702,
+     "completion_cm": 8.2059,
+     "completion_ratio": 63.4535,
+     "precision_ratio": 70.0781,
+     "fscore": 66.6015,
+     "num_rec_points_eval": 47263,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed2/datasets_bonn/r33_rebase_baseline_balloon/seed_2/2026-09-16-01-37-09",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon_seed2/datasets_bonn/r33_rebase_baseline_balloon/seed_2/2026-09-16-01-37-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.0189,
+     "completion_cm": 8.9235,
+     "completion_ratio": 59.223,
+     "precision_ratio": 71.2213,
+     "fscore": 64.6703,
+     "num_rec_points_eval": 31426,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.2265,
+     "completion_cm": 9.1157,
+     "completion_ratio": 56.0815,
+     "precision_ratio": 76.0455,
+     "fscore": 64.5553,
+     "num_rec_points_eval": 46196,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed1/datasets_bonn/r33_rebase_baseline_balloon2/seed_1/2026-09-16-03-19-59",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed1/datasets_bonn/r33_rebase_baseline_balloon2/seed_1/2026-09-16-03-19-59/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.7086,
+     "completion_cm": 8.9811,
+     "completion_ratio": 56.524,
+     "precision_ratio": 76.7597,
+     "fscore": 65.1057,
+     "num_rec_points_eval": 44737,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed2/datasets_bonn/r33_rebase_baseline_balloon2/seed_2/2026-09-16-03-18-24",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed2/datasets_bonn/r33_rebase_baseline_balloon2/seed_2/2026-09-16-03-18-24/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.43,
+     "completion_cm": 9.4713,
+     "completion_ratio": 53.8655,
+     "precision_ratio": 74.4007,
+     "fscore": 62.4893,
+     "num_rec_points_eval": 37458,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed0/datasets_bonn/r33_rebase_baseline_crowd/seed_0/2026-09-16-04-45-31",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed0/datasets_bonn/r33_rebase_baseline_crowd/seed_0/2026-09-16-04-45-31/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.44,
+     "completion_cm": 17.7436,
+     "completion_ratio": 60.6705,
+     "precision_ratio": 77.2486,
+     "fscore": 67.9632,
+     "num_rec_points_eval": 50186,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed1/datasets_bonn/r33_rebase_baseline_crowd/seed_1/2026-09-16-04-59-48",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed1/datasets_bonn/r33_rebase_baseline_crowd/seed_1/2026-09-16-04-59-48/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 3.6151,
+     "completion_cm": 15.6315,
+     "completion_ratio": 60.702,
+     "precision_ratio": 82.1572,
+     "fscore": 69.8185,
+     "num_rec_points_eval": 51141,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed2/datasets_bonn/r33_rebase_baseline_crowd/seed_2/2026-09-16-04-56-30",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd_seed2/datasets_bonn/r33_rebase_baseline_crowd/seed_2/2026-09-16-04-56-30/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.463,
+     "completion_cm": 19.2798,
+     "completion_ratio": 49.9285,
+     "precision_ratio": 68.9246,
+     "fscore": 57.9085,
+     "num_rec_points_eval": 37512,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed0/datasets_bonn/r33_rebase_baseline_crowd2/seed_0/2026-09-16-06-54-45",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed0/datasets_bonn/r33_rebase_baseline_crowd2/seed_0/2026-09-16-06-54-45/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.2459,
+     "completion_cm": 17.6743,
+     "completion_ratio": 44.6505,
+     "precision_ratio": 78.8628,
+     "fscore": 57.0184,
+     "num_rec_points_eval": 49349,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed1/datasets_bonn/r33_rebase_baseline_crowd2/seed_1/2026-09-16-07-15-15",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed1/datasets_bonn/r33_rebase_baseline_crowd2/seed_1/2026-09-16-07-15-15/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.9617,
+     "completion_cm": 20.2941,
+     "completion_ratio": 32.597,
+     "precision_ratio": 67.9782,
+     "fscore": 44.0643,
+     "num_rec_points_eval": 28440,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed2/datasets_bonn/r33_rebase_baseline_crowd2/seed_2/2026-09-16-07-08-15",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed2/datasets_bonn/r33_rebase_baseline_crowd2/seed_2/2026-09-16-07-08-15/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.3072,
+     "completion_cm": 19.5653,
+     "completion_ratio": 49.0165,
+     "precision_ratio": 78.6946,
+     "fscore": 60.4072,
+     "num_rec_points_eval": 46622,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed0/datasets_bonn/r33_rebase_baseline_crowd3/seed_0/2026-09-16-09-11-26",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed0/datasets_bonn/r33_rebase_baseline_crowd3/seed_0/2026-09-16-09-11-26/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.6196,
+     "completion_cm": 24.0199,
+     "completion_ratio": 48.3105,
+     "precision_ratio": 74.9704,
+     "fscore": 58.7578,
+     "num_rec_points_eval": 35470,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed1/datasets_bonn/r33_rebase_baseline_crowd3/seed_1/2026-09-16-09-22-06",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed1/datasets_bonn/r33_rebase_baseline_crowd3/seed_1/2026-09-16-09-22-06/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.6961,
+     "completion_cm": 25.082,
+     "completion_ratio": 45.8675,
+     "precision_ratio": 74.652,
+     "fscore": 56.8224,
+     "num_rec_points_eval": 38437,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed2/datasets_bonn/r33_rebase_baseline_crowd3/seed_2/2026-09-16-09-14-52",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_crowd3_seed2/datasets_bonn/r33_rebase_baseline_crowd3/seed_2/2026-09-16-09-14-52/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 3.965,
+     "completion_cm": 23.3762,
+     "completion_ratio": 51.859,
+     "precision_ratio": 79.5091,
+     "fscore": 62.7742,
+     "num_rec_points_eval": 50271,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed0/datasets_bonn/r33_rebase_baseline_person_tracking/seed_0/2026-09-16-11-20-48",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed0/datasets_bonn/r33_rebase_baseline_person_tracking/seed_0/2026-09-16-11-20-48/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.3805,
+     "completion_cm": 7.0157,
+     "completion_ratio": 54.5475,
+     "precision_ratio": 65.6252,
+     "fscore": 59.5758,
+     "num_rec_points_eval": 77231,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed1/datasets_bonn/r33_rebase_baseline_person_tracking/seed_1/2026-09-16-11-25-49",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed1/datasets_bonn/r33_rebase_baseline_person_tracking/seed_1/2026-09-16-11-25-49/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.7743,
+     "completion_cm": 7.001,
+     "completion_ratio": 53.3735,
+     "precision_ratio": 60.1904,
+     "fscore": 56.5773,
+     "num_rec_points_eval": 61980,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed2/datasets_bonn/r33_rebase_baseline_person_tracking/seed_2/2026-09-16-11-19-55",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed2/datasets_bonn/r33_rebase_baseline_person_tracking/seed_2/2026-09-16-11-19-55/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.7507,
+     "completion_cm": 7.0019,
+     "completion_ratio": 56.0455,
+     "precision_ratio": 63.6061,
+     "fscore": 59.5869,
+     "num_rec_points_eval": 68495,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.3427,
+     "completion_cm": 7.3929,
+     "completion_ratio": 61.458,
+     "precision_ratio": 68.0628,
+     "fscore": 64.592,
+     "num_rec_points_eval": 84162,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed1/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_1/2026-09-16-13-31-13",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed1/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_1/2026-09-16-13-31-13/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.6167,
+     "completion_cm": 7.9568,
+     "completion_ratio": 51.7245,
+     "precision_ratio": 62.5934,
+     "fscore": 56.6423,
+     "num_rec_points_eval": 64748,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed2/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_2/2026-09-16-13-27-09",
+  "ply": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed2/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_2/2026-09-16-13-27-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.7812,
+     "completion_cm": 7.6765,
+     "completion_ratio": 59.427,
+     "precision_ratio": 71.9853,
+     "fscore": 65.1061,
+     "num_rec_points_eval": 80515,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed0/datasets_bonn/r33_rebase_swbaonly_balloon/seed_0/2026-09-16-02-09-42",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed0/datasets_bonn/r33_rebase_swbaonly_balloon/seed_0/2026-09-16-02-09-42/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.0574,
+     "completion_cm": 8.4237,
+     "completion_ratio": 62.621,
+     "precision_ratio": 72.1643,
+     "fscore": 67.0548,
+     "num_rec_points_eval": 41224,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed1/datasets_bonn/r33_rebase_swbaonly_balloon/seed_1/2026-09-16-02-12-50",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed1/datasets_bonn/r33_rebase_swbaonly_balloon/seed_1/2026-09-16-02-12-50/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.8526,
+     "completion_cm": 8.2039,
+     "completion_ratio": 63.0865,
+     "precision_ratio": 71.6296,
+     "fscore": 67.0871,
+     "num_rec_points_eval": 46129,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed2/datasets_bonn/r33_rebase_swbaonly_balloon/seed_2/2026-09-16-02-43-22",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon_seed2/datasets_bonn/r33_rebase_swbaonly_balloon/seed_2/2026-09-16-02-43-22/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.4121,
+     "completion_cm": 7.539,
+     "completion_ratio": 61.777,
+     "precision_ratio": 70.7762,
+     "fscore": 65.9711,
+     "num_rec_points_eval": 45042,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed0/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_0/2026-09-16-03-50-00",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed0/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_0/2026-09-16-03-50-00/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.9688,
+     "completion_cm": 7.5677,
+     "completion_ratio": 58.958,
+     "precision_ratio": 77.1674,
+     "fscore": 66.8448,
+     "num_rec_points_eval": 59345,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed1/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_1/2026-09-16-03-53-31",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed1/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_1/2026-09-16-03-53-31/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.4962,
+     "completion_cm": 8.7863,
+     "completion_ratio": 56.35,
+     "precision_ratio": 75.4937,
+     "fscore": 64.532,
+     "num_rec_points_eval": 51399,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed2/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_2/2026-09-16-04-15-23",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed2/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_2/2026-09-16-04-15-23/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.2394,
+     "completion_cm": 9.9106,
+     "completion_ratio": 43.843,
+     "precision_ratio": 70.454,
+     "fscore": 54.0507,
+     "num_rec_points_eval": 30901,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed0/datasets_bonn/r33_rebase_swbaonly_crowd/seed_0/2026-09-16-05-36-01",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed0/datasets_bonn/r33_rebase_swbaonly_crowd/seed_0/2026-09-16-05-36-01/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.409,
+     "completion_cm": 18.2087,
+     "completion_ratio": 58.151,
+     "precision_ratio": 77.5783,
+     "fscore": 66.4743,
+     "num_rec_points_eval": 52922,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed1/datasets_bonn/r33_rebase_swbaonly_crowd/seed_1/2026-09-16-05-46-43",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed1/datasets_bonn/r33_rebase_swbaonly_crowd/seed_1/2026-09-16-05-46-43/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.8914,
+     "completion_cm": 18.6897,
+     "completion_ratio": 58.7305,
+     "precision_ratio": 73.8959,
+     "fscore": 65.4461,
+     "num_rec_points_eval": 49452,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed2/datasets_bonn/r33_rebase_swbaonly_crowd/seed_2/2026-09-16-06-04-03",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd_seed2/datasets_bonn/r33_rebase_swbaonly_crowd/seed_2/2026-09-16-06-04-03/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.1763,
+     "completion_cm": 18.1595,
+     "completion_ratio": 61.109,
+     "precision_ratio": 79.2075,
+     "fscore": 68.991,
+     "num_rec_points_eval": 58598,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed0/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_0/2026-09-16-07-43-52",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed0/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_0/2026-09-16-07-43-52/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.4693,
+     "completion_cm": 20.8947,
+     "completion_ratio": 35.201,
+     "precision_ratio": 62.7325,
+     "fscore": 45.0969,
+     "num_rec_points_eval": 34086,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed1/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_1/2026-09-16-08-10-43",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed1/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_1/2026-09-16-08-10-43/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.4055,
+     "completion_cm": 20.4252,
+     "completion_ratio": 36.079,
+     "precision_ratio": 62.7686,
+     "fscore": 45.8206,
+     "num_rec_points_eval": 39550,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed2/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_2/2026-09-16-08-22-15",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed2/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_2/2026-09-16-08-22-15/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.6046,
+     "completion_cm": 19.546,
+     "completion_ratio": 35.622,
+     "precision_ratio": 62.1512,
+     "fscore": 45.2874,
+     "num_rec_points_eval": 31425,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed0/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_0/2026-09-16-09-51-01",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed0/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_0/2026-09-16-09-51-01/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.2976,
+     "completion_cm": 20.7051,
+     "completion_ratio": 54.6325,
+     "precision_ratio": 65.4232,
+     "fscore": 59.5429,
+     "num_rec_points_eval": 86292,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed1/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_1/2026-09-16-10-27-57",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed1/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_1/2026-09-16-10-27-57/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.3514,
+     "completion_cm": 25.2682,
+     "completion_ratio": 42.2925,
+     "precision_ratio": 78.1492,
+     "fscore": 54.8834,
+     "num_rec_points_eval": 47687,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed2/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_2/2026-09-16-10-34-06",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_crowd3_seed2/datasets_bonn/r33_rebase_swbaonly_crowd3/seed_2/2026-09-16-10-34-06/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.016,
+     "completion_cm": 22.4701,
+     "completion_ratio": 44.5225,
+     "precision_ratio": 72.5216,
+     "fscore": 55.1731,
+     "num_rec_points_eval": 48842,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed0/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_0/2026-09-16-12-01-25",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed0/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_0/2026-09-16-12-01-25/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.0422,
+     "completion_cm": 6.38,
+     "completion_ratio": 61.318,
+     "precision_ratio": 65.238,
+     "fscore": 63.2173,
+     "num_rec_points_eval": 85254,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed1/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_1/2026-09-16-12-34-18",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed1/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_1/2026-09-16-12-34-18/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.747,
+     "completion_cm": 6.1697,
+     "completion_ratio": 62.1095,
+     "precision_ratio": 63.243,
+     "fscore": 62.6711,
+     "num_rec_points_eval": 89251,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed2/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_2/2026-09-16-12-43-12",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed2/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_2/2026-09-16-12-43-12/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.2926,
+     "completion_cm": 7.3813,
+     "completion_ratio": 52.946,
+     "precision_ratio": 64.3748,
+     "fscore": 58.1037,
+     "num_rec_points_eval": 65973,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed0/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_0/2026-09-16-14-03-23",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed0/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_0/2026-09-16-14-03-23/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.5335,
+     "completion_cm": 8.5976,
+     "completion_ratio": 46.735,
+     "precision_ratio": 62.0212,
+     "fscore": 53.3038,
+     "num_rec_points_eval": 52424,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed1/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_1/2026-09-16-14-27-04",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed1/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_1/2026-09-16-14-27-04/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.9324,
+     "completion_cm": 7.3819,
+     "completion_ratio": 59.8585,
+     "precision_ratio": 61.0161,
+     "fscore": 60.4318,
+     "num_rec_points_eval": 86782,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed2/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_2/2026-09-16-14-35-14",
+  "ply": "results/paper2_fulltable/r33_rebase_swbaonly_person_tracking2_seed2/datasets_bonn/r33_rebase_swbaonly_person_tracking2/seed_2/2026-09-16-14-35-14/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.9217,
+     "completion_cm": 7.8246,
+     "completion_ratio": 55.555,
+     "precision_ratio": 64.8993,
+     "fscore": 59.8647,
+     "num_rec_points_eval": 59409,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon_seed0/datasets_bonn/r33_rebase_final_balloon/seed_0/2026-09-16-01-37-09",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon_seed0/datasets_bonn/r33_rebase_final_balloon/seed_0/2026-09-16-01-37-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.0856,
+     "completion_cm": 8.6059,
+     "completion_ratio": 53.9255,
+     "precision_ratio": 66.4794,
+     "fscore": 59.548,
+     "num_rec_points_eval": 35068,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon_seed1/datasets_bonn/r33_rebase_final_balloon/seed_1/2026-09-16-02-09-24",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon_seed1/datasets_bonn/r33_rebase_final_balloon/seed_1/2026-09-16-02-09-24/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.294,
+     "completion_cm": 7.9703,
+     "completion_ratio": 61.6135,
+     "precision_ratio": 70.1109,
+     "fscore": 65.5881,
+     "num_rec_points_eval": 44615,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon_seed2/datasets_bonn/r33_rebase_final_balloon/seed_2/2026-09-16-02-09-49",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon_seed2/datasets_bonn/r33_rebase_final_balloon/seed_2/2026-09-16-02-09-49/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.2717,
+     "completion_cm": 9.0719,
+     "completion_ratio": 55.9185,
+     "precision_ratio": 69.9302,
+     "fscore": 62.1443,
+     "num_rec_points_eval": 35238,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon2_seed0/datasets_bonn/r33_rebase_final_balloon2/seed_0/2026-09-16-03-20-05",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon2_seed0/datasets_bonn/r33_rebase_final_balloon2/seed_0/2026-09-16-03-20-05/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.4534,
+     "completion_cm": 8.3138,
+     "completion_ratio": 53.4645,
+     "precision_ratio": 73.9619,
+     "fscore": 62.0646,
+     "num_rec_points_eval": 49539,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon2_seed1/datasets_bonn/r33_rebase_final_balloon2/seed_1/2026-09-16-03-44-25",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon2_seed1/datasets_bonn/r33_rebase_final_balloon2/seed_1/2026-09-16-03-44-25/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.6594,
+     "completion_cm": 9.3922,
+     "completion_ratio": 52.2055,
+     "precision_ratio": 78.0168,
+     "fscore": 62.5531,
+     "num_rec_points_eval": 51171,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_balloon2_seed2/datasets_bonn/r33_rebase_final_balloon2/seed_2/2026-09-16-03-52-05",
+  "ply": "results/paper2_fulltable/r33_rebase_final_balloon2_seed2/datasets_bonn/r33_rebase_final_balloon2/seed_2/2026-09-16-03-52-05/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.5037,
+     "completion_cm": 10.311,
+     "completion_ratio": 54.855,
+     "precision_ratio": 73.2764,
+     "fscore": 62.7415,
+     "num_rec_points_eval": 42947,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd_seed0/datasets_bonn/r33_rebase_final_crowd/seed_0/2026-09-16-04-55-36",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd_seed0/datasets_bonn/r33_rebase_final_crowd/seed_0/2026-09-16-04-55-36/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.5749,
+     "completion_cm": 17.7936,
+     "completion_ratio": 59.194,
+     "precision_ratio": 76.1221,
+     "fscore": 66.5992,
+     "num_rec_points_eval": 45695,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd_seed1/datasets_bonn/r33_rebase_final_crowd/seed_1/2026-09-16-05-13-58",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd_seed1/datasets_bonn/r33_rebase_final_crowd/seed_1/2026-09-16-05-13-58/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.8026,
+     "completion_cm": 19.5208,
+     "completion_ratio": 54.991,
+     "precision_ratio": 75.4099,
+     "fscore": 63.6018,
+     "num_rec_points_eval": 39093,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd_seed2/datasets_bonn/r33_rebase_final_crowd/seed_2/2026-09-16-05-40-23",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd_seed2/datasets_bonn/r33_rebase_final_crowd/seed_2/2026-09-16-05-40-23/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.947,
+     "completion_cm": 17.8618,
+     "completion_ratio": 58.6845,
+     "precision_ratio": 74.3294,
+     "fscore": 65.5869,
+     "num_rec_points_eval": 39333,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd2_seed0/datasets_bonn/r33_rebase_final_crowd2/seed_0/2026-09-16-07-20-36",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd2_seed0/datasets_bonn/r33_rebase_final_crowd2/seed_0/2026-09-16-07-20-36/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.4507,
+     "completion_cm": 18.9289,
+     "completion_ratio": 42.8135,
+     "precision_ratio": 69.1914,
+     "fscore": 52.8964,
+     "num_rec_points_eval": 36334,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd2_seed1/datasets_bonn/r33_rebase_final_crowd2/seed_1/2026-09-16-07-30-40",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd2_seed1/datasets_bonn/r33_rebase_final_crowd2/seed_1/2026-09-16-07-30-40/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.8463,
+     "completion_cm": 13.6898,
+     "completion_ratio": 53.1505,
+     "precision_ratio": 62.7899,
+     "fscore": 57.5695,
+     "num_rec_points_eval": 59078,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd2_seed2/datasets_bonn/r33_rebase_final_crowd2/seed_2/2026-09-16-07-52-14",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd2_seed2/datasets_bonn/r33_rebase_final_crowd2/seed_2/2026-09-16-07-52-14/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.9888,
+     "completion_cm": 18.0381,
+     "completion_ratio": 49.277,
+     "precision_ratio": 66.8381,
+     "fscore": 56.7296,
+     "num_rec_points_eval": 38704,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd3_seed0/datasets_bonn/r33_rebase_final_crowd3/seed_0/2026-09-16-09-41-26",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd3_seed0/datasets_bonn/r33_rebase_final_crowd3/seed_0/2026-09-16-09-41-26/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.44,
+     "completion_cm": 25.3046,
+     "completion_ratio": 34.734,
+     "precision_ratio": 68.8609,
+     "fscore": 46.1763,
+     "num_rec_points_eval": 38312,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd3_seed1/datasets_bonn/r33_rebase_final_crowd3/seed_1/2026-09-16-09-47-08",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd3_seed1/datasets_bonn/r33_rebase_final_crowd3/seed_1/2026-09-16-09-47-08/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.3381,
+     "completion_cm": 24.0755,
+     "completion_ratio": 30.6785,
+     "precision_ratio": 69.8673,
+     "fscore": 42.6358,
+     "num_rec_points_eval": 27963,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_crowd3_seed2/datasets_bonn/r33_rebase_final_crowd3/seed_2/2026-09-16-09-57-21",
+  "ply": "results/paper2_fulltable/r33_rebase_final_crowd3_seed2/datasets_bonn/r33_rebase_final_crowd3/seed_2/2026-09-16-09-57-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.0671,
+     "completion_cm": 21.1426,
+     "completion_ratio": 44.9705,
+     "precision_ratio": 72.4566,
+     "fscore": 55.4967,
+     "num_rec_points_eval": 53875,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed0/datasets_bonn/r33_rebase_final_person_tracking/seed_0/2026-09-16-11-54-38",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed0/datasets_bonn/r33_rebase_final_person_tracking/seed_0/2026-09-16-11-54-38/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.0562,
+     "completion_cm": 6.9314,
+     "completion_ratio": 56.9385,
+     "precision_ratio": 62.5452,
+     "fscore": 59.6103,
+     "num_rec_points_eval": 80975,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed1/datasets_bonn/r33_rebase_final_person_tracking/seed_1/2026-09-16-12-03-09",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed1/datasets_bonn/r33_rebase_final_person_tracking/seed_1/2026-09-16-12-03-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.4892,
+     "completion_cm": 7.4888,
+     "completion_ratio": 50.5095,
+     "precision_ratio": 62.4569,
+     "fscore": 55.8514,
+     "num_rec_points_eval": 59814,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed2/datasets_bonn/r33_rebase_final_person_tracking/seed_2/2026-09-16-12-05-21",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking_seed2/datasets_bonn/r33_rebase_final_person_tracking/seed_2/2026-09-16-12-05-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.7893,
+     "completion_cm": 7.5631,
+     "completion_ratio": 49.4215,
+     "precision_ratio": 63.4268,
+     "fscore": 55.5551,
+     "num_rec_points_eval": 54838,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed0/datasets_bonn/r33_rebase_final_person_tracking2/seed_0/2026-09-16-13-49-40",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed0/datasets_bonn/r33_rebase_final_person_tracking2/seed_0/2026-09-16-13-49-40/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.6761,
+     "completion_cm": 9.3434,
+     "completion_ratio": 42.3555,
+     "precision_ratio": 60.9723,
+     "fscore": 49.9868,
+     "num_rec_points_eval": 56383,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed1/datasets_bonn/r33_rebase_final_person_tracking2/seed_1/2026-09-16-13-56-21",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed1/datasets_bonn/r33_rebase_final_person_tracking2/seed_1/2026-09-16-13-56-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.665,
+     "completion_cm": 8.2431,
+     "completion_ratio": 51.761,
+     "precision_ratio": 65.9114,
+     "fscore": 57.9854,
+     "num_rec_points_eval": 63866,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed2/datasets_bonn/r33_rebase_final_person_tracking2/seed_2/2026-09-16-14-06-38",
+  "ply": "results/paper2_fulltable/r33_rebase_final_person_tracking2_seed2/datasets_bonn/r33_rebase_final_person_tracking2/seed_2/2026-09-16-14-06-38/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.9443,
+     "completion_cm": 7.9333,
+     "completion_ratio": 55.2005,
+     "precision_ratio": 65.2844,
+     "fscore": 59.8205,
+     "num_rec_points_eval": 66604,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon_seed0/datasets_bonn/r33_rebase_gate_balloon/seed_0/2026-09-16-02-45-13",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon_seed0/datasets_bonn/r33_rebase_gate_balloon/seed_0/2026-09-16-02-45-13/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.6648,
+     "completion_cm": 8.4683,
+     "completion_ratio": 64.524,
+     "precision_ratio": 73.5537,
+     "fscore": 68.7436,
+     "num_rec_points_eval": 50593,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon_seed1/datasets_bonn/r33_rebase_gate_balloon/seed_1/2026-09-16-02-44-22",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon_seed1/datasets_bonn/r33_rebase_gate_balloon/seed_1/2026-09-16-02-44-22/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.602,
+     "completion_cm": 9.3315,
+     "completion_ratio": 50.0845,
+     "precision_ratio": 68.124,
+     "fscore": 57.7278,
+     "num_rec_points_eval": 33119,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon_seed2/datasets_bonn/r33_rebase_gate_balloon/seed_2/2026-09-16-02-46-47",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon_seed2/datasets_bonn/r33_rebase_gate_balloon/seed_2/2026-09-16-02-46-47/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 22,
+     "frames_total": 439,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 714665,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.9768,
+     "completion_cm": 8.4736,
+     "completion_ratio": 59.307,
+     "precision_ratio": 71.8518,
+     "fscore": 64.9795,
+     "num_rec_points_eval": 41555,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed0/datasets_bonn/r33_rebase_gate_balloon2/seed_0/2026-09-16-04-27-06",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed0/datasets_bonn/r33_rebase_gate_balloon2/seed_0/2026-09-16-04-27-06/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.7227,
+     "completion_cm": 8.799,
+     "completion_ratio": 54.5405,
+     "precision_ratio": 77.5397,
+     "fscore": 64.0377,
+     "num_rec_points_eval": 53441,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed1/datasets_bonn/r33_rebase_gate_balloon2/seed_1/2026-09-16-04-24-10",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed1/datasets_bonn/r33_rebase_gate_balloon2/seed_1/2026-09-16-04-24-10/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.6507,
+     "completion_cm": 11.1992,
+     "completion_ratio": 48.9305,
+     "precision_ratio": 68.2361,
+     "fscore": 56.9928,
+     "num_rec_points_eval": 37297,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed2/datasets_bonn/r33_rebase_gate_balloon2/seed_2/2026-09-16-04-25-32",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_balloon2_seed2/datasets_bonn/r33_rebase_gate_balloon2/seed_2/2026-09-16-04-25-32/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 24,
+     "frames_total": 469,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 507887,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.3921,
+     "completion_cm": 11.4807,
+     "completion_ratio": 50.3605,
+     "precision_ratio": 69.9345,
+     "fscore": 58.555,
+     "num_rec_points_eval": 41516,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd_seed0/datasets_bonn/r33_rebase_gate_crowd/seed_0/2026-09-16-06-31-10",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd_seed0/datasets_bonn/r33_rebase_gate_crowd/seed_0/2026-09-16-06-31-10/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.6263,
+     "completion_cm": 18.1905,
+     "completion_ratio": 55.725,
+     "precision_ratio": 75.56,
+     "fscore": 64.1441,
+     "num_rec_points_eval": 54014,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd_seed1/datasets_bonn/r33_rebase_gate_crowd/seed_1/2026-09-16-06-24-56",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd_seed1/datasets_bonn/r33_rebase_gate_crowd/seed_1/2026-09-16-06-24-56/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.5346,
+     "completion_cm": 16.1076,
+     "completion_ratio": 58.5835,
+     "precision_ratio": 69.9773,
+     "fscore": 63.7755,
+     "num_rec_points_eval": 52054,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd_seed2/datasets_bonn/r33_rebase_gate_crowd/seed_2/2026-09-16-06-35-48",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd_seed2/datasets_bonn/r33_rebase_gate_crowd/seed_2/2026-09-16-06-35-48/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 47,
+     "frames_total": 928,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 201402,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.5444,
+     "completion_cm": 17.5245,
+     "completion_ratio": 55.2165,
+     "precision_ratio": 71.0513,
+     "fscore": 62.141,
+     "num_rec_points_eval": 45774,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed0/datasets_bonn/r33_rebase_gate_crowd2/seed_0/2026-09-16-08-41-06",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed0/datasets_bonn/r33_rebase_gate_crowd2/seed_0/2026-09-16-08-41-06/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.232,
+     "completion_cm": 16.6839,
+     "completion_ratio": 48.19,
+     "precision_ratio": 68.9168,
+     "fscore": 56.7192,
+     "num_rec_points_eval": 38738,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed1/datasets_bonn/r33_rebase_gate_crowd2/seed_1/2026-09-16-08-32-30",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed1/datasets_bonn/r33_rebase_gate_crowd2/seed_1/2026-09-16-08-32-30/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.3313,
+     "completion_cm": 17.1613,
+     "completion_ratio": 52.938,
+     "precision_ratio": 72.5516,
+     "fscore": 61.212,
+     "num_rec_points_eval": 50083,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed2/datasets_bonn/r33_rebase_gate_crowd2/seed_2/2026-09-16-08-59-58",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd2_seed2/datasets_bonn/r33_rebase_gate_crowd2/seed_2/2026-09-16-08-59-58/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 45,
+     "frames_total": 895,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 134319,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.2986,
+     "completion_cm": 19.4023,
+     "completion_ratio": 50.975,
+     "precision_ratio": 74.4323,
+     "fscore": 60.5098,
+     "num_rec_points_eval": 46375,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed0/datasets_bonn/r33_rebase_gate_crowd3/seed_0/2026-09-16-10-44-27",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed0/datasets_bonn/r33_rebase_gate_crowd3/seed_0/2026-09-16-10-44-27/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.9988,
+     "completion_cm": 24.7941,
+     "completion_ratio": 49.1825,
+     "precision_ratio": 73.6724,
+     "fscore": 58.9866,
+     "num_rec_points_eval": 45629,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed1/datasets_bonn/r33_rebase_gate_crowd3/seed_1/2026-09-16-10-38-33",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed1/datasets_bonn/r33_rebase_gate_crowd3/seed_1/2026-09-16-10-38-33/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.0671,
+     "completion_cm": 22.0746,
+     "completion_ratio": 54.6915,
+     "precision_ratio": 79.2691,
+     "fscore": 64.7257,
+     "num_rec_points_eval": 52728,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed2/datasets_bonn/r33_rebase_gate_crowd3/seed_2/2026-09-16-11-13-25",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_crowd3_seed2/datasets_bonn/r33_rebase_gate_crowd3/seed_2/2026-09-16-11-13-25/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 43,
+     "frames_total": 854,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 43,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.7171,
+     "completion_cm": 21.4328,
+     "completion_ratio": 48.5845,
+     "precision_ratio": 75.7259,
+     "fscore": 59.1922,
+     "num_rec_points_eval": 43120,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.5391,
+     "completion_cm": 7.5363,
+     "completion_ratio": 47.7825,
+     "precision_ratio": 59.1041,
+     "fscore": 52.8437,
+     "num_rec_points_eval": 47594,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed1/datasets_bonn/r33_rebase_gate_person_tracking/seed_1/2026-09-16-12-44-22",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed1/datasets_bonn/r33_rebase_gate_person_tracking/seed_1/2026-09-16-12-44-22/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.6103,
+     "completion_cm": 7.1734,
+     "completion_ratio": 53.034,
+     "precision_ratio": 61.13,
+     "fscore": 56.7949,
+     "num_rec_points_eval": 61433,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed2/datasets_bonn/r33_rebase_gate_person_tracking/seed_2/2026-09-16-13-13-27",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed2/datasets_bonn/r33_rebase_gate_person_tracking/seed_2/2026-09-16-13-13-27/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 580,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 789257,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.6185,
+     "completion_cm": 7.269,
+     "completion_ratio": 51.5295,
+     "precision_ratio": 59.4382,
+     "fscore": 55.202,
+     "num_rec_points_eval": 66252,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/datasets_bonn/r33_rebase_gate_person_tracking2/seed_0/2026-09-16-14-47-45",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/datasets_bonn/r33_rebase_gate_person_tracking2/seed_0/2026-09-16-14-47-45/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.5043,
+     "completion_cm": 8.9019,
+     "completion_ratio": 45.766,
+     "precision_ratio": 62.756,
+     "fscore": 52.931,
+     "num_rec_points_eval": 55174,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed1/datasets_bonn/r33_rebase_gate_person_tracking2/seed_1/2026-09-16-14-44-01",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed1/datasets_bonn/r33_rebase_gate_person_tracking2/seed_1/2026-09-16-14-44-01/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.3619,
+     "completion_cm": 8.341,
+     "completion_ratio": 53.675,
+     "precision_ratio": 68.8384,
+     "fscore": 60.3183,
+     "num_rec_points_eval": 62407,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed2/datasets_bonn/r33_rebase_gate_person_tracking2/seed_2/2026-09-16-15-04-41",
+  "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed2/datasets_bonn/r33_rebase_gate_person_tracking2/seed_2/2026-09-16-15-04-41/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 29,
+     "frames_total": 567,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 767947,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.7929,
+     "completion_cm": 7.8398,
+     "completion_ratio": 56.0155,
+     "precision_ratio": 66.4464,
+     "fscore": 60.7867,
+     "num_rec_points_eval": 74904,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ }
+]

@@ -1,0 +1,22 @@
+# 由 gen_probe_5seq_configs.py 生成；帧/t0 锁自 coverage_b1/person_tracking.json（判据先锁）
+prereg: results/embrace_dyn/evidence/prereg_dyn_probe_5seq_2026-10-05.md
+sequence: person_tracking
+device: cuda:0
+ply: final_after_opt
+mask_subdir: auto
+mask_class: 15
+unproj_stride: 3
+fit_iters: 300
+lrs: {xyz: 5.0e-4, scale: 5.0e-3, rot: 1.0e-3, opa: 5.0e-2, dc: 5.0e-3}
+control_shift_cam_m: [0.30, 0.0, 0.0]
+t0_frame: 241
+frames: [28, 56, 159, 169, 179, 189, 200, 210, 220, 230, 241, 251, 261, 271, 282, 292]
+arms: [P1, P2, C-, P4, P2c]
+maps:
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed0/datasets_bonn/r33_rebase_baseline_person_tracking/seed_0/2026-09-16-11-20-48
+    kf_log: results/paper2_fulltable/r33_rebase_baseline_person_tracking_seed0.consolelog
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02
+    kf_log: results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0.consolelog
+out: results/embrace_dyn/evidence/dyn_probe_5seq_person_tracking_results.json

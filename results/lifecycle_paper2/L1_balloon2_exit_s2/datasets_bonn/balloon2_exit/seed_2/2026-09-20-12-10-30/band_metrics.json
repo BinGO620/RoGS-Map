@@ -1,0 +1,30 @@
+{
+ "mask_subdir": "dynamic_mask_gtmc",
+ "frames_scored": 94,
+ "bands": {
+  "band10": {
+   "radius_px": 10,
+   "psnr": 22.184,
+   "ssim": 0.8089,
+   "depth_l1_pen_cm": 23.934,
+   "support_px_mean": 13669,
+   "frames_with_support": 91
+  },
+  "band25": {
+   "radius_px": 25,
+   "psnr": 22.3882,
+   "ssim": 0.8263,
+   "depth_l1_pen_cm": 23.9509,
+   "support_px_mean": 36668,
+   "frames_with_support": 91
+  },
+  "band50": {
+   "radius_px": 50,
+   "psnr": 22.081,
+   "ssim": 0.8324,
+   "depth_l1_pen_cm": 25.0548,
+   "support_px_mean": 74715,
+   "frames_with_support": 91
+  }
+ }
+}

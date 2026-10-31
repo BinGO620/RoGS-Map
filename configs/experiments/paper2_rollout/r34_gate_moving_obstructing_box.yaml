@@ -1,0 +1,30 @@
+# R34 same-batch re-verification: byte-identical to roll_moving_obstructing_box.yaml except save_dir.
+# See results/paper2_rollout/evidence/prereg_r34.md
+# paper2 拉通扩大验证: gate 臂(两层+帧门) held-out 序列, 单变量=序列本身.
+# SWBA/回环/门控参数 = pt 家族标定值原样部署, 零重调 (DISCIPLINE #8).
+inherit_from: "configs/rgbd/bonn/moving_obstructing_box.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_rollout/r34_gate_moving_obstructing_box"
+  save_per_frame_ape: true

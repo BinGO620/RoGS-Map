@@ -1,0 +1,59 @@
+{
+  "tag": "L3_moving_obstructing_box_gate_s0",
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15",
+  "kind": "baseline",
+  "render": {
+    "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15",
+    "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/point_cloud/final/point_cloud.ply",
+    "trj": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/plot/trj_full_final.json",
+    "n_frames": 5,
+    "interval": 5,
+    "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+    "mask_source": null,
+    "mask_kind": null,
+    "mask_class": null,
+    "mask_validity": null,
+    "mean_psnr": 17.9445,
+    "mean_ssim": 0.7075,
+    "mean_lpips": 0.4794,
+    "mean_depth_l1_cm": 17.4703,
+    "per_frame": [
+      {
+        "frame": 0,
+        "psnr": 27.2035,
+        "ssim": 0.8771,
+        "lpips": 0.2431,
+        "depth_l1_cm": 1.8337
+      },
+      {
+        "frame": 60,
+        "psnr": 22.7354,
+        "ssim": 0.7909,
+        "lpips": 0.3027,
+        "depth_l1_cm": 4.833
+      },
+      {
+        "frame": 120,
+        "psnr": 16.3884,
+        "ssim": 0.6311,
+        "lpips": 0.5343,
+        "depth_l1_cm": 18.0696
+      },
+      {
+        "frame": 180,
+        "psnr": 13.4335,
+        "ssim": 0.6223,
+        "lpips": 0.602,
+        "depth_l1_cm": 42.0606
+      },
+      {
+        "frame": 240,
+        "psnr": 9.9615,
+        "ssim": 0.616,
+        "lpips": 0.7147,
+        "depth_l1_cm": 20.5544
+      }
+    ],
+    "frames_render_skipped": 0
+  }
+}

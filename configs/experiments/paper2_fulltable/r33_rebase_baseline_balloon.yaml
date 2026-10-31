@@ -1,0 +1,12 @@
+# R33 rebaseline of the BASELINE arm (both layers off).
+# Byte-identical to balloon_baseline.yaml except save_dir. The SWBA jacobian fix
+# is inert here (SWBA disabled: no SWBA block), so this rerun exists ONLY to
+# put Tab.1/Tab.3 on one batch -- it is a condition-matching rerun, not a
+# code-version fix. See evidence/prereg_rebase_arms.md.
+inherit_from: "configs/rgbd/bonn/balloon.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/paper2_fulltable/r33_rebase_baseline_balloon"
+  save_per_frame_ape: true

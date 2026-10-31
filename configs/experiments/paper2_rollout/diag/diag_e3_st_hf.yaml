@@ -1,0 +1,11 @@
+inherit_from: "configs/rgbd/tum/f3_st_hf.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+SemanticMask:
+  mask_mapping: true
+  mask_insertion: true
+Results:
+  save_dir: "results/paper2_rollout/diag_e3_f3_st_hf"
+  save_per_frame_ape: true
+DiagE3:
+  note: "2x2补角: mapping/insertion全开+无SWBA/回环/门控栈 (判别掩码危害与栈的交互)"

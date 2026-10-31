@@ -1,0 +1,39 @@
+{
+  "seq": "balloon2",
+  "n_common_frames": 18,
+  "arms": [
+    "E",
+    "D"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": -0.1346,
+    "iqr": 0.5048
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.8056,
+    "iqr": 0.2414
+  },
+  "J3_static_delta": {
+    "median": -2.2383,
+    "iqr": 2.169
+  },
+  "J3_full_delta": {
+    "median": -0.8536,
+    "iqr": 1.2503
+  },
+  "J6_bad_px_median": 44790.0,
+  "J7_neg_control_dl1_ratio": {
+    "median": null
+  },
+  "J6_judgeable": true,
+  "render_exit": "render_subset_not_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "final_map",
+  "instrument_note": "final_map \u7528\u4e8e J3\uff08\u9759\u6001\u533a\uff09\uff1bJ1/J2 \u52a8\u6001\u533a\u5e94\u53d6 --causal \u53e3\u5f84"
+}

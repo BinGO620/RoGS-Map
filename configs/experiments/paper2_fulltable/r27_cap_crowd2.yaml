@@ -1,0 +1,35 @@
+# R27: global correction cap 1.5cm. Cross-sequence signature from the
+# fulltable logs: HELPFUL corrections are small (pt1 median 0.8cm, R9) while
+# HARMFUL ones are large (crowd2 median 2.9-6.6cm on a 2cm-quality sequence)
+# — the harm signature is the magnitude, not the timing. Clipping at 1.5cm
+# keeps pt1's working corrections (median 0.8 < cap) and cuts crowd2's noise
+# injection 3-6x. R10 precedent: tightening max_update_trans recovered pt2's
+# +9% harm to baseline. Config-only, generic.
+# Test: crowd2 single run — ATE should return toward baseline (2.2).
+
+inherit_from: "configs/rgbd/bonn/crowd2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  max_update_trans: 0.015
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r27_cap_crowd2"
+  save_per_frame_ape: true

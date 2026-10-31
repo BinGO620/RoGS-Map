@@ -1,0 +1,24 @@
+method_from: configs/experiments/combined_prune/method.yaml
+method: Combined-Prune
+SWBA:
+  enabled: false
+LoopClosure:
+  enabled: false
+TransientMap:
+  enabled: false
+E2ObjectLayer:
+  enabled: false
+DynPort:
+  enabled: true
+  lam_d: 0.05
+  cap: 50000
+  lmax: 45
+  unproj_stride: 3
+  fit_iters: 300
+  lineage_base: 402653184
+  min_scale_m: 0.001
+  max_scale_m: 0.02
+Results:
+  save_dir: results/dynport/calib/crowd2_lam050
+  save_per_frame_ape: true
+inherit_from: configs/rgbd/bonn/crowd2.yaml

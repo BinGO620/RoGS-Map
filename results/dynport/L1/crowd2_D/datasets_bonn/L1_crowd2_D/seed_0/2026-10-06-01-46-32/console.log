@@ -1,0 +1,48 @@
+MonoGS: saving results in 
+results/dynport/L1/crowd2_D/datasets_bonn/L1_crowd2_D/seed_0/2026-10-06-01-46-32
+MonoGS: logging console output to 
+results/dynport/L1/crowd2_D/datasets_bonn/L1_crowd2_D/seed_0/2026-10-06-01-46-32
+/console.log
+MonoGS: Semantic insertion gate frame 0: 65807 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Semantic insertion gate frame 5: 76128 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Candidate insert KF 5: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001031, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 10: 86554 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Candidate insert KF 10: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001016, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 15: 96630 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 16 lineage(s): removed 0 Gaussians
+MonoGS: Candidate insert KF 15: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001086, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 20: 103024 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 77 lineage(s): removed 17 Gaussians
+MonoGS: Evaluating ATE at frame:  21
+Eval: RMSE ATE [m] 0.006246687452370697
+MonoGS: Candidate insert KF 20: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+Traceback (most recent call last):
+  File "/data/monogs-ours/slam.py", line 755, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "/data/monogs-ours/slam.py", line 358, in __init__
+    self.frontend.run()
+  File "/data/monogs-ours/utils/slam_frontend.py", line 2838, in run
+    create_kf = self.is_keyframe(
+  File "/data/monogs-ours/utils/slam_frontend.py", line 2082, in is_keyframe
+    union = torch.logical_or(
+RuntimeError: The size of tensor a (39049) must match the size of tensor b (49331) at non-singleton dimension 0

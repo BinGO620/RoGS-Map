@@ -1,0 +1,15 @@
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+SemanticMask:
+  enabled: true
+  model: "maskrcnn"
+  dynamic_classes: [1]
+  dilate_px: 7
+  mask_mapping: true
+  mask_insertion: true
+MaskStability:
+  enabled: true
+  log_interval: 50
+Results:
+  save_per_frame_ape: true

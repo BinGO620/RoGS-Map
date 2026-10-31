@@ -1,0 +1,198 @@
+[
+ {
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_st_rpy_seed0/datasets_tum/r34_rb_f3_st_rpy/seed_0/2026-09-17-11-34-31",
+  "calib": {
+   "fx": 535.4,
+   "fy": 539.2,
+   "cx": 320.1,
+   "cy": 247.6,
+   "distorted": false,
+   "depth_scale": 5000.0
+  },
+  "dataset_path": "datasets/tum/rgbd_dataset_freiburg3_sitting_rpy",
+  "mask_source": "seg_mask",
+  "masked_px_skipped": 0,
+  "rec_stats": {
+   "n": 79898,
+   "bbox_diag_m": 15.672,
+   "radius_median_m": 3.689,
+   "radius_p99_m": 7.357,
+   "radius_max_m": 9.441
+  },
+  "ref_stats": {
+   "n": 200000,
+   "bbox_diag_m": 6.832,
+   "radius_median_m": 0.922,
+   "radius_p99_m": 4.071,
+   "radius_max_m": 6.384
+  },
+  "acc_rec_to_ref": {
+   "mean_cm": 242.857,
+   "median_cm": 297.834,
+   "p95_cm": 532.524,
+   "p99_cm": 723.391,
+   "trimmed_mean_cm": 221.45,
+   "frac_within_5cm": 0.2417,
+   "frac_over_1m": 0.58154,
+   "frac_over_5m": 0.0802
+  },
+  "comp_ref_to_rec": {
+   "mean_cm": 5.573,
+   "median_cm": 3.67,
+   "p95_cm": 16.813,
+   "p99_cm": 29.508,
+   "trimmed_mean_cm": 4.607,
+   "frac_within_5cm": 0.638,
+   "frac_over_1m": 0.0,
+   "frac_over_5m": 0.0
+  },
+  "scale_ratio_rec_over_ref": 2.2939
+ },
+ {
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55",
+  "calib": {
+   "fx": 535.4,
+   "fy": 539.2,
+   "cx": 320.1,
+   "cy": 247.6,
+   "distorted": false,
+   "depth_scale": 5000.0
+  },
+  "dataset_path": "datasets/tum/rgbd_dataset_freiburg3_long_office_household",
+  "mask_source": "seg_mask",
+  "masked_px_skipped": 2019126,
+  "rec_stats": {
+   "n": 59126,
+   "bbox_diag_m": 14.176,
+   "radius_median_m": 1.326,
+   "radius_p99_m": 7.03,
+   "radius_max_m": 9.685
+  },
+  "ref_stats": {
+   "n": 200000,
+   "bbox_diag_m": 6.739,
+   "radius_median_m": 1.092,
+   "radius_p99_m": 4.112,
+   "radius_max_m": 6.235
+  },
+  "acc_rec_to_ref": {
+   "mean_cm": 38.983,
+   "median_cm": 1.844,
+   "p95_cm": 278.569,
+   "p99_cm": 331.359,
+   "trimmed_mean_cm": 24.424,
+   "frac_within_5cm": 0.7204,
+   "frac_over_1m": 0.13801,
+   "frac_over_5m": 5e-05
+  },
+  "comp_ref_to_rec": {
+   "mean_cm": 5.616,
+   "median_cm": 2.42,
+   "p95_cm": 24.395,
+   "p99_cm": 45.407,
+   "trimmed_mean_cm": 3.97,
+   "frac_within_5cm": 0.752,
+   "frac_over_1m": 0.0,
+   "frac_over_5m": 0.0
+  },
+  "scale_ratio_rec_over_ref": 2.1036
+ },
+ {
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f1_room_seed0/datasets_tum/r34_rb_f1_room/seed_0/2026-09-17-07-24-39",
+  "calib": {
+   "fx": 517.306408,
+   "fy": 516.469215,
+   "cx": 318.64304,
+   "cy": 255.313989,
+   "distorted": true,
+   "depth_scale": 5000.0
+  },
+  "dataset_path": "datasets/tum/rgbd_dataset_freiburg1_room",
+  "mask_source": null,
+  "masked_px_skipped": 0,
+  "rec_stats": {
+   "n": 142454,
+   "bbox_diag_m": 10.359,
+   "radius_median_m": 2.238,
+   "radius_p99_m": 5.912,
+   "radius_max_m": 11.879
+  },
+  "ref_stats": {
+   "n": 200000,
+   "bbox_diag_m": 7.844,
+   "radius_median_m": 2.076,
+   "radius_p99_m": 4.073,
+   "radius_max_m": 6.825
+  },
+  "acc_rec_to_ref": {
+   "mean_cm": 5.638,
+   "median_cm": 2.854,
+   "p95_cm": 17.855,
+   "p99_cm": 54.512,
+   "trimmed_mean_cm": 3.74,
+   "frac_within_5cm": 0.7154,
+   "frac_over_1m": 0.00249,
+   "frac_over_5m": 1e-05
+  },
+  "comp_ref_to_rec": {
+   "mean_cm": 3.705,
+   "median_cm": 2.523,
+   "p95_cm": 10.245,
+   "p99_cm": 21.269,
+   "trimmed_mean_cm": 2.999,
+   "frac_within_5cm": 0.7859,
+   "frac_over_1m": 0.00012,
+   "frac_over_5m": 0.0
+  },
+  "scale_ratio_rec_over_ref": 1.3206
+ },
+ {
+  "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_moving_obstructing_box_seed0/datasets_bonn/r34_rb_moving_obstructing_box/seed_0/2026-09-17-18-38-21",
+  "calib": {
+   "fx": 542.822841,
+   "fy": 542.57687,
+   "cx": 315.59352,
+   "cy": 237.756098,
+   "distorted": true,
+   "depth_scale": 5000.0
+  },
+  "dataset_path": "datasets/bonn/rgbd_bonn_moving_obstructing_box",
+  "mask_source": "dynamic_mask_gtmc",
+  "masked_px_skipped": 411278,
+  "rec_stats": {
+   "n": 73343,
+   "bbox_diag_m": 7.153,
+   "radius_median_m": 1.495,
+   "radius_p99_m": 3.449,
+   "radius_max_m": 5.419
+  },
+  "ref_stats": {
+   "n": 200000,
+   "bbox_diag_m": 7.031,
+   "radius_median_m": 1.469,
+   "radius_p99_m": 3.215,
+   "radius_max_m": 3.5
+  },
+  "acc_rec_to_ref": {
+   "mean_cm": 4.143,
+   "median_cm": 2.492,
+   "p95_cm": 12.2,
+   "p99_cm": 26.092,
+   "trimmed_mean_cm": 3.213,
+   "frac_within_5cm": 0.7553,
+   "frac_over_1m": 0.0002,
+   "frac_over_5m": 0.0
+  },
+  "comp_ref_to_rec": {
+   "mean_cm": 8.22,
+   "median_cm": 4.043,
+   "p95_cm": 29.205,
+   "p99_cm": 51.682,
+   "trimmed_mean_cm": 6.441,
+   "frac_within_5cm": 0.5737,
+   "frac_over_1m": 0.0,
+   "frac_over_5m": 0.0
+  },
+  "scale_ratio_rec_over_ref": 1.0174
+ }
+]

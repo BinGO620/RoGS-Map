@@ -1,0 +1,11 @@
+# paper2 fulltable BASELINE arm: Combined-Prune as published (both layers off).
+# Identical to balloon2_final except SWBA/LoopClosure absent — condition-matched
+# pairing for the no-regression gate.
+
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/paper2_fulltable/balloon2_baseline"
+  save_per_frame_ape: true

@@ -1,0 +1,34 @@
+# P0 embrace_online：pt2 主域（预注册 results/embrace_online/evidence/prereg_P0_embrace_online.md）
+# 臂：P1（中性参照+M_bad 定义者）/ P2（同批 oracle 锚）/ C-（P2 型错位锚 = canonical 仪器
+#     判别力读数，prereg §9 修订）/ P0o（在线生命周期主臂）/ P0n（无退役消融）/
+#     C-o（阴性对照：0.30m 平移，必须 FAIL 主判）
+# 掩码源 = canonical dynamic_mask/（D1-006 后唯一活跃源；测量口径 #3）。
+# 帧集/t0 由 cmd_coverage 在 canonical 掩码上重推导（evidence/coverage_pt2_canonical.json）。
+prereg: results/embrace_online/evidence/prereg_P0_embrace_online.md
+sequence: person_tracking2
+device: cuda:0
+ply: final_after_opt
+mask_subdir: auto
+mask_class: 15
+unproj_stride: 3
+fit_iters: 300
+lrs: {xyz: 5.0e-4, scale: 5.0e-3, rot: 1.0e-3, opa: 5.0e-2, dc: 5.0e-3}
+online:
+  voxel: 0.02          # 体素去重（prereg §3.1 第 2 条）
+  cap: 60000           # 工程护栏（非机制；触顶逐出最低 σ(ρ) 并计数）
+  lam_rho: 0.01        # 稀疏先验
+  lr_rho: 5.0e-2       # ρ 学习率（opa 同档）
+  rho_init: 0.9        # 新基元存在量初值
+  window: 4            # 滚动窗 W
+  steps_per_frame: 10  # 每走帧 Adam 步数 S
+  seed: 0
+  shift_cam_m: [0.30, 0.0, 0.0]  # C-o 阴性对照（相机系，拟合后施加）
+t0_frame: 193
+frames: [19, 48, 60, 72, 83, 98, 146, 171, 182, 193, 205, 216, 228, 242, 259, 321]
+arms: [P1, P2, C-, P0o, P0n, C-o]
+maps:
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/datasets_bonn/r33_rebase_gate_person_tracking2/seed_0/2026-09-16-14-47-45
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00
+out: results/embrace_online/evidence/p0_probe_pt2_results.json

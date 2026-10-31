@@ -1,0 +1,48 @@
+{
+ "purpose": "independent diagnostics for the causal round (gate-1 remediation)",
+ "frame_rate": {
+  "median_interval_s": 0.03351998329162598,
+  "min_s": 0.032670021057128906,
+  "max_s": 0.03413987159729004,
+  "hz_median": 29.832950431387054,
+  "source": "datasets/bonn/rgbd_bonn_person_tracking2/rgb.txt timestamps"
+ },
+ "velocity_estimator": {
+  "n": 60,
+  "m_per_frame": {
+   "min": 0.009163,
+   "p25": 0.02546,
+   "median": 0.1187135,
+   "p75": 0.219654,
+   "max": 0.3473
+  },
+  "m_per_s_using_measured_hz": {
+   "min": 0.27335932480279956,
+   "median": 3.541573961036467,
+   "max": 10.360983684820724
+  },
+  "judgement": "跨度 0.27–10.4 m/s：低端是正常步行速度、高端物理不合理 ⇒ 估计器**不稳定不可用**（并非一律不可能）；其使用使 C2 比值 1.23（更差）"
+ },
+ "bad_subset_composition": {
+  "gate": {
+   "mask_px_total": 509203,
+   "hole_px": 0,
+   "wrong_gt10cm_px": 283954,
+   "bad_px": 283954,
+   "frac_bad_of_mask": 0.5576,
+   "frac_hole_of_bad": 0.0,
+   "penalty_constant_applies": false,
+   "tol_m": 0.1
+  },
+  "baseline": {
+   "mask_px_total": 509203,
+   "hole_px": 0,
+   "wrong_gt10cm_px": 282773,
+   "bad_px": 282773,
+   "frac_bad_of_mask": 0.5553,
+   "frac_hole_of_bad": 0.0,
+   "penalty_constant_applies": false,
+   "tol_m": 0.1
+  }
+ }
+}

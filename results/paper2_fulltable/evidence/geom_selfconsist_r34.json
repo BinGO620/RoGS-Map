@@ -1,0 +1,1622 @@
+[
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed0/datasets_tum/r34_rb_f1_room/seed_0/2026-09-17-07-24-39",
+  "ply": "results/paper2_rollout/r34_rb_f1_room_seed0/datasets_tum/r34_rb_f1_room/seed_0/2026-09-17-07-24-39/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.6375,
+     "completion_cm": 3.7052,
+     "completion_ratio": 78.5945,
+     "precision_ratio": 71.5396,
+     "fscore": 74.9013,
+     "num_rec_points_eval": 142454,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed1/datasets_tum/r34_rb_f1_room/seed_1/2026-09-17-07-24-39",
+  "ply": "results/paper2_rollout/r34_rb_f1_room_seed1/datasets_tum/r34_rb_f1_room/seed_1/2026-09-17-07-24-39/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.4723,
+     "completion_cm": 4.598,
+     "completion_ratio": 70.5305,
+     "precision_ratio": 70.5071,
+     "fscore": 70.5188,
+     "num_rec_points_eval": 151179,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_room_seed2/datasets_tum/r34_rb_f1_room/seed_2/2026-09-17-07-24-39",
+  "ply": "results/paper2_rollout/r34_rb_f1_room_seed2/datasets_tum/r34_rb_f1_room/seed_2/2026-09-17-07-24-39/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.0066,
+     "completion_cm": 3.6929,
+     "completion_ratio": 77.683,
+     "precision_ratio": 67.1105,
+     "fscore": 72.0108,
+     "num_rec_points_eval": 200000,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed0/datasets_tum/r34_rb_f1_desk2/seed_0/2026-09-17-10-09-41",
+  "ply": "results/paper2_rollout/r34_rb_f1_desk2_seed0/datasets_tum/r34_rb_f1_desk2/seed_0/2026-09-17-10-09-41/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.0855,
+     "completion_cm": 3.3878,
+     "completion_ratio": 79.5385,
+     "precision_ratio": 68.2471,
+     "fscore": 73.4614,
+     "num_rec_points_eval": 56779,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed1/datasets_tum/r34_rb_f1_desk2/seed_1/2026-09-17-10-09-01",
+  "ply": "results/paper2_rollout/r34_rb_f1_desk2_seed1/datasets_tum/r34_rb_f1_desk2/seed_1/2026-09-17-10-09-01/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 7.1125,
+     "completion_cm": 3.7981,
+     "completion_ratio": 77.1345,
+     "precision_ratio": 63.5973,
+     "fscore": 69.7148,
+     "num_rec_points_eval": 41703,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f1_desk2_seed2/datasets_tum/r34_rb_f1_desk2/seed_2/2026-09-17-10-14-51",
+  "ply": "results/paper2_rollout/r34_rb_f1_desk2_seed2/datasets_tum/r34_rb_f1_desk2/seed_2/2026-09-17-10-14-51/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.1746,
+     "completion_cm": 3.5932,
+     "completion_ratio": 77.45,
+     "precision_ratio": 74.2556,
+     "fscore": 75.8192,
+     "num_rec_points_eval": 60281,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed0/datasets_tum/r34_rb_f3_st_rpy/seed_0/2026-09-17-11-34-31",
+  "ply": "results/paper2_rollout/r34_rb_f3_st_rpy_seed0/datasets_tum/r34_rb_f3_st_rpy/seed_0/2026-09-17-11-34-31/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 242.8565,
+     "completion_cm": 5.5735,
+     "completion_ratio": 63.802,
+     "precision_ratio": 24.1671,
+     "fscore": 35.0557,
+     "num_rec_points_eval": 79898,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed1/datasets_tum/r34_rb_f3_st_rpy/seed_1/2026-09-17-11-37-40",
+  "ply": "results/paper2_rollout/r34_rb_f3_st_rpy_seed1/datasets_tum/r34_rb_f3_st_rpy/seed_1/2026-09-17-11-37-40/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 177.101,
+     "completion_cm": 4.6659,
+     "completion_ratio": 66.798,
+     "precision_ratio": 30.5769,
+     "fscore": 41.9508,
+     "num_rec_points_eval": 127786,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_st_rpy_seed2/datasets_tum/r34_rb_f3_st_rpy/seed_2/2026-09-17-12-57-46",
+  "ply": "results/paper2_rollout/r34_rb_f3_st_rpy_seed2/datasets_tum/r34_rb_f3_st_rpy/seed_2/2026-09-17-12-57-46/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 233.9512,
+     "completion_cm": 4.9199,
+     "completion_ratio": 66.8445,
+     "precision_ratio": 27.584,
+     "fscore": 39.0526,
+     "num_rec_points_eval": 93188,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55",
+  "ply": "results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 38.9828,
+     "completion_cm": 5.6157,
+     "completion_ratio": 75.203,
+     "precision_ratio": 72.0377,
+     "fscore": 73.5863,
+     "num_rec_points_eval": 59126,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed1/datasets_tum/r34_rb_f3_office/seed_1/2026-09-17-14-24-19",
+  "ply": "results/paper2_rollout/r34_rb_f3_office_seed1/datasets_tum/r34_rb_f3_office/seed_1/2026-09-17-14-24-19/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 46.64,
+     "completion_cm": 5.8958,
+     "completion_ratio": 75.876,
+     "precision_ratio": 70.1534,
+     "fscore": 72.9026,
+     "num_rec_points_eval": 67589,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_office_seed2/datasets_tum/r34_rb_f3_office/seed_2/2026-09-17-13-57-16",
+  "ply": "results/paper2_rollout/r34_rb_f3_office_seed2/datasets_tum/r34_rb_f3_office/seed_2/2026-09-17-13-57-16/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 37.2463,
+     "completion_cm": 5.9148,
+     "completion_ratio": 75.63,
+     "precision_ratio": 72.9433,
+     "fscore": 74.2624,
+     "num_rec_points_eval": 59963,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed0/datasets_bonn/r34_rb_moving_obstructing_box/seed_0/2026-09-17-18-38-21",
+  "ply": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed0/datasets_bonn/r34_rb_moving_obstructing_box/seed_0/2026-09-17-18-38-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.1426,
+     "completion_cm": 8.22,
+     "completion_ratio": 57.375,
+     "precision_ratio": 75.5287,
+     "fscore": 65.212,
+     "num_rec_points_eval": 73343,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed1/datasets_bonn/r34_rb_moving_obstructing_box/seed_1/2026-09-17-18-16-04",
+  "ply": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed1/datasets_bonn/r34_rb_moving_obstructing_box/seed_1/2026-09-17-18-16-04/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.3969,
+     "completion_cm": 6.4314,
+     "completion_ratio": 60.8975,
+     "precision_ratio": 74.2773,
+     "fscore": 66.9252,
+     "num_rec_points_eval": 65172,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed2/datasets_bonn/r34_rb_moving_obstructing_box/seed_2/2026-09-17-18-28-41",
+  "ply": "results/paper2_rollout/r34_rb_moving_obstructing_box_seed2/datasets_bonn/r34_rb_moving_obstructing_box/seed_2/2026-09-17-18-28-41/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.622,
+     "completion_cm": 6.2373,
+     "completion_ratio": 57.488,
+     "precision_ratio": 73.442,
+     "fscore": 64.493,
+     "num_rec_points_eval": 66496,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08",
+  "ply": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 185.51,
+     "completion_cm": 13.0504,
+     "completion_ratio": 59.4395,
+     "precision_ratio": 30.5087,
+     "fscore": 40.3215,
+     "num_rec_points_eval": 122611,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed1/datasets_tum/r34_rb_f3_wk_rpy/seed_1/2026-09-17-19-42-23",
+  "ply": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed1/datasets_tum/r34_rb_f3_wk_rpy/seed_1/2026-09-17-19-42-23/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 224.4021,
+     "completion_cm": 11.7961,
+     "completion_ratio": 55.5775,
+     "precision_ratio": 24.237,
+     "fscore": 33.7541,
+     "num_rec_points_eval": 101052,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+  "ply": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 236.9881,
+     "completion_cm": 12.6038,
+     "completion_ratio": 55.6905,
+     "precision_ratio": 23.9407,
+     "fscore": 33.4861,
+     "num_rec_points_eval": 87295,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed0/datasets_tum/r34_sw_f1_room/seed_0/2026-09-17-07-24-39",
+  "ply": "results/paper2_rollout/r34_sw_f1_room_seed0/datasets_tum/r34_sw_f1_room/seed_0/2026-09-17-07-24-39/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.5566,
+     "completion_cm": 4.4689,
+     "completion_ratio": 69.4275,
+     "precision_ratio": 70.8964,
+     "fscore": 70.1543,
+     "num_rec_points_eval": 151277,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed1/datasets_tum/r34_sw_f1_room/seed_1/2026-09-17-08-43-16",
+  "ply": "results/paper2_rollout/r34_sw_f1_room_seed1/datasets_tum/r34_sw_f1_room/seed_1/2026-09-17-08-43-16/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.6754,
+     "completion_cm": 4.2829,
+     "completion_ratio": 71.727,
+     "precision_ratio": 67.8114,
+     "fscore": 69.7142,
+     "num_rec_points_eval": 141783,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_room_seed2/datasets_tum/r34_sw_f1_room/seed_2/2026-09-17-08-43-18",
+  "ply": "results/paper2_rollout/r34_sw_f1_room_seed2/datasets_tum/r34_sw_f1_room/seed_2/2026-09-17-08-43-18/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.9635,
+     "completion_cm": 5.4045,
+     "completion_ratio": 63.1095,
+     "precision_ratio": 70.167,
+     "fscore": 66.4514,
+     "num_rec_points_eval": 130121,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed0/datasets_tum/r34_sw_f1_desk2/seed_0/2026-09-17-11-29-56",
+  "ply": "results/paper2_rollout/r34_sw_f1_desk2_seed0/datasets_tum/r34_sw_f1_desk2/seed_0/2026-09-17-11-29-56/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.0184,
+     "completion_cm": 3.3756,
+     "completion_ratio": 80.328,
+     "precision_ratio": 69.6068,
+     "fscore": 74.5841,
+     "num_rec_points_eval": 46257,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed1/datasets_tum/r34_sw_f1_desk2/seed_1/2026-09-17-10-50-42",
+  "ply": "results/paper2_rollout/r34_sw_f1_desk2_seed1/datasets_tum/r34_sw_f1_desk2/seed_1/2026-09-17-10-50-42/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.1089,
+     "completion_cm": 3.4465,
+     "completion_ratio": 81.3095,
+     "precision_ratio": 74.498,
+     "fscore": 77.7549,
+     "num_rec_points_eval": 44824,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f1_desk2_seed2/datasets_tum/r34_sw_f1_desk2/seed_2/2026-09-17-10-49-20",
+  "ply": "results/paper2_rollout/r34_sw_f1_desk2_seed2/datasets_tum/r34_sw_f1_desk2/seed_2/2026-09-17-10-49-20/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.0937,
+     "completion_cm": 3.3361,
+     "completion_ratio": 80.68,
+     "precision_ratio": 74.4285,
+     "fscore": 77.4283,
+     "num_rec_points_eval": 46935,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed0/datasets_tum/r34_sw_f3_st_rpy/seed_0/2026-09-17-12-20-19",
+  "ply": "results/paper2_rollout/r34_sw_f3_st_rpy_seed0/datasets_tum/r34_sw_f3_st_rpy/seed_0/2026-09-17-12-20-19/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 252.5785,
+     "completion_cm": 5.5101,
+     "completion_ratio": 59.966,
+     "precision_ratio": 24.5101,
+     "fscore": 34.7974,
+     "num_rec_points_eval": 95222,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed1/datasets_tum/r34_sw_f3_st_rpy/seed_1/2026-09-17-12-16-10",
+  "ply": "results/paper2_rollout/r34_sw_f3_st_rpy_seed1/datasets_tum/r34_sw_f3_st_rpy/seed_1/2026-09-17-12-16-10/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 212.7462,
+     "completion_cm": 4.7467,
+     "completion_ratio": 68.115,
+     "precision_ratio": 25.8297,
+     "fscore": 37.4558,
+     "num_rec_points_eval": 92959,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_st_rpy_seed2/datasets_tum/r34_sw_f3_st_rpy/seed_2/2026-09-17-12-19-44",
+  "ply": "results/paper2_rollout/r34_sw_f3_st_rpy_seed2/datasets_tum/r34_sw_f3_st_rpy/seed_2/2026-09-17-12-19-44/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 241.036,
+     "completion_cm": 4.6307,
+     "completion_ratio": 68.7755,
+     "precision_ratio": 21.6923,
+     "fscore": 32.9819,
+     "num_rec_points_eval": 118157,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed0/datasets_tum/r34_sw_f3_office/seed_0/2026-09-17-13-51-23",
+  "ply": "results/paper2_rollout/r34_sw_f3_office_seed0/datasets_tum/r34_sw_f3_office/seed_0/2026-09-17-13-51-23/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 48.7136,
+     "completion_cm": 6.1365,
+     "completion_ratio": 73.157,
+     "precision_ratio": 70.1767,
+     "fscore": 71.6358,
+     "num_rec_points_eval": 50437,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed1/datasets_tum/r34_sw_f3_office/seed_1/2026-09-17-15-06-21",
+  "ply": "results/paper2_rollout/r34_sw_f3_office_seed1/datasets_tum/r34_sw_f3_office/seed_1/2026-09-17-15-06-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 42.5978,
+     "completion_cm": 5.9695,
+     "completion_ratio": 74.4645,
+     "precision_ratio": 74.2191,
+     "fscore": 74.3416,
+     "num_rec_points_eval": 63547,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_office_seed2/datasets_tum/r34_sw_f3_office/seed_2/2026-09-17-16-21-15",
+  "ply": "results/paper2_rollout/r34_sw_f3_office_seed2/datasets_tum/r34_sw_f3_office/seed_2/2026-09-17-16-21-15/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 42.6845,
+     "completion_cm": 5.8062,
+     "completion_ratio": 75.2445,
+     "precision_ratio": 73.4759,
+     "fscore": 74.3497,
+     "num_rec_points_eval": 64530,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed0/datasets_bonn/r34_sw_moving_obstructing_box/seed_0/2026-09-17-19-34-37",
+  "ply": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed0/datasets_bonn/r34_sw_moving_obstructing_box/seed_0/2026-09-17-19-34-37/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.1791,
+     "completion_cm": 7.4348,
+     "completion_ratio": 53.509,
+     "precision_ratio": 76.2648,
+     "fscore": 62.8918,
+     "num_rec_points_eval": 69142,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed1/datasets_bonn/r34_sw_moving_obstructing_box/seed_1/2026-09-17-19-19-10",
+  "ply": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed1/datasets_bonn/r34_sw_moving_obstructing_box/seed_1/2026-09-17-19-19-10/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.1285,
+     "completion_cm": 7.9352,
+     "completion_ratio": 49.515,
+     "precision_ratio": 68.9331,
+     "fscore": 57.6324,
+     "num_rec_points_eval": 42666,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed2/datasets_bonn/r34_sw_moving_obstructing_box/seed_2/2026-09-17-18-54-59",
+  "ply": "results/paper2_rollout/r34_sw_moving_obstructing_box_seed2/datasets_bonn/r34_sw_moving_obstructing_box/seed_2/2026-09-17-18-54-59/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.3748,
+     "completion_cm": 7.6045,
+     "completion_ratio": 55.829,
+     "precision_ratio": 76.0061,
+     "fscore": 64.3735,
+     "num_rec_points_eval": 58840,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed0/datasets_tum/r34_sw_f3_wk_rpy/seed_0/2026-09-17-20-41-12",
+  "ply": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed0/datasets_tum/r34_sw_f3_wk_rpy/seed_0/2026-09-17-20-41-12/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 199.9836,
+     "completion_cm": 8.7366,
+     "completion_ratio": 62.1875,
+     "precision_ratio": 26.8108,
+     "fscore": 37.468,
+     "num_rec_points_eval": 184534,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed1/datasets_tum/r34_sw_f3_wk_rpy/seed_1/2026-09-17-20-10-47",
+  "ply": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed1/datasets_tum/r34_sw_f3_wk_rpy/seed_1/2026-09-17-20-10-47/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 202.5433,
+     "completion_cm": 11.7613,
+     "completion_ratio": 54.413,
+     "precision_ratio": 23.8869,
+     "fscore": 33.1995,
+     "num_rec_points_eval": 101294,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed2/datasets_tum/r34_sw_f3_wk_rpy/seed_2/2026-09-17-20-23-50",
+  "ply": "results/paper2_rollout/r34_sw_f3_wk_rpy_seed2/datasets_tum/r34_sw_f3_wk_rpy/seed_2/2026-09-17-20-23-50/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 215.5667,
+     "completion_cm": 12.0948,
+     "completion_ratio": 59.418,
+     "precision_ratio": 25.1643,
+     "fscore": 35.3552,
+     "num_rec_points_eval": 153404,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed0/datasets_tum/r34_gate_f1_room/seed_0/2026-09-17-08-43-41",
+  "ply": "results/paper2_rollout/r34_gate_f1_room_seed0/datasets_tum/r34_gate_f1_room/seed_0/2026-09-17-08-43-41/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.9042,
+     "completion_cm": 5.8461,
+     "completion_ratio": 61.106,
+     "precision_ratio": 69.6056,
+     "fscore": 65.0795,
+     "num_rec_points_eval": 120713,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed1/datasets_tum/r34_gate_f1_room/seed_1/2026-09-17-08-51-20",
+  "ply": "results/paper2_rollout/r34_gate_f1_room_seed1/datasets_tum/r34_gate_f1_room/seed_1/2026-09-17-08-51-20/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.4225,
+     "completion_cm": 4.8178,
+     "completion_ratio": 67.28,
+     "precision_ratio": 69.365,
+     "fscore": 68.3066,
+     "num_rec_points_eval": 114402,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_room_seed2/datasets_tum/r34_gate_f1_room/seed_2/2026-09-17-10-09-49",
+  "ply": "results/paper2_rollout/r34_gate_f1_room_seed2/datasets_tum/r34_gate_f1_room/seed_2/2026-09-17-10-09-49/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 66,
+     "frames_total": 1315,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 66,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.8751,
+     "completion_cm": 5.4291,
+     "completion_ratio": 62.704,
+     "precision_ratio": 70.3835,
+     "fscore": 66.3222,
+     "num_rec_points_eval": 126909,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed0/datasets_tum/r34_gate_f1_desk2/seed_0/2026-09-17-10-54-50",
+  "ply": "results/paper2_rollout/r34_gate_f1_desk2_seed0/datasets_tum/r34_gate_f1_desk2/seed_0/2026-09-17-10-54-50/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.2344,
+     "completion_cm": 3.4812,
+     "completion_ratio": 80.1065,
+     "precision_ratio": 74.4295,
+     "fscore": 77.1637,
+     "num_rec_points_eval": 61000,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed1/datasets_tum/r34_gate_f1_desk2/seed_1/2026-09-17-12-14-33",
+  "ply": "results/paper2_rollout/r34_gate_f1_desk2_seed1/datasets_tum/r34_gate_f1_desk2/seed_1/2026-09-17-12-14-33/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.467,
+     "completion_cm": 3.1842,
+     "completion_ratio": 81.8995,
+     "precision_ratio": 71.801,
+     "fscore": 76.5185,
+     "num_rec_points_eval": 60229,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f1_desk2_seed2/datasets_tum/r34_gate_f1_desk2/seed_2/2026-09-17-11-35-44",
+  "ply": "results/paper2_rollout/r34_gate_f1_desk2_seed2/datasets_tum/r34_gate_f1_desk2/seed_2/2026-09-17-11-35-44/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": null,
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 32,
+     "frames_total": 635,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 32,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 6.5696,
+     "completion_cm": 3.6687,
+     "completion_ratio": 80.5195,
+     "precision_ratio": 65.8795,
+     "fscore": 72.4675,
+     "num_rec_points_eval": 42555,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed0/datasets_tum/r34_gate_f3_st_rpy/seed_0/2026-09-17-13-36-01",
+  "ply": "results/paper2_rollout/r34_gate_f3_st_rpy_seed0/datasets_tum/r34_gate_f3_st_rpy/seed_0/2026-09-17-13-36-01/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 243.6839,
+     "completion_cm": 4.4645,
+     "completion_ratio": 71.1665,
+     "precision_ratio": 21.8545,
+     "fscore": 33.4399,
+     "num_rec_points_eval": 135263,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed1/datasets_tum/r34_gate_f3_st_rpy/seed_1/2026-09-17-13-10-05",
+  "ply": "results/paper2_rollout/r34_gate_f3_st_rpy_seed1/datasets_tum/r34_gate_f3_st_rpy/seed_1/2026-09-17-13-10-05/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 212.4454,
+     "completion_cm": 5.2052,
+     "completion_ratio": 66.252,
+     "precision_ratio": 26.6825,
+     "fscore": 38.0433,
+     "num_rec_points_eval": 116597,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_st_rpy_seed2/datasets_tum/r34_gate_f3_st_rpy/seed_2/2026-09-17-13-04-37",
+  "ply": "results/paper2_rollout/r34_gate_f3_st_rpy_seed2/datasets_tum/r34_gate_f3_st_rpy/seed_2/2026-09-17-13-04-37/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 40,
+     "frames_total": 796,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 0,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 209.3231,
+     "completion_cm": 4.7023,
+     "completion_ratio": 69.8085,
+     "precision_ratio": 28.3444,
+     "fscore": 40.3183,
+     "num_rec_points_eval": 122384,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed0/datasets_tum/r34_gate_f3_office/seed_0/2026-09-17-15-56-05",
+  "ply": "results/paper2_rollout/r34_gate_f3_office_seed0/datasets_tum/r34_gate_f3_office/seed_0/2026-09-17-15-56-05/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 43.3188,
+     "completion_cm": 6.0681,
+     "completion_ratio": 74.9945,
+     "precision_ratio": 72.6567,
+     "fscore": 73.8071,
+     "num_rec_points_eval": 56193,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed1/datasets_tum/r34_gate_f3_office/seed_1/2026-09-17-16-11-20",
+  "ply": "results/paper2_rollout/r34_gate_f3_office_seed1/datasets_tum/r34_gate_f3_office/seed_1/2026-09-17-16-11-20/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 45.962,
+     "completion_cm": 6.3236,
+     "completion_ratio": 73.1535,
+     "precision_ratio": 72.3107,
+     "fscore": 72.7296,
+     "num_rec_points_eval": 49622,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_office_seed2/datasets_tum/r34_gate_f3_office/seed_2/2026-09-17-17-27-09",
+  "ply": "results/paper2_rollout/r34_gate_f3_office_seed2/datasets_tum/r34_gate_f3_office/seed_2/2026-09-17-17-27-09/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 126,
+     "frames_total": 2515,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 2019126,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 28.0953,
+     "completion_cm": 4.8951,
+     "completion_ratio": 76.546,
+     "precision_ratio": 75.5739,
+     "fscore": 76.0569,
+     "num_rec_points_eval": 112556,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15",
+  "ply": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 5.7746,
+     "completion_cm": 5.1721,
+     "completion_ratio": 66.2635,
+     "precision_ratio": 64.818,
+     "fscore": 65.5328,
+     "num_rec_points_eval": 87468,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed1/datasets_bonn/r34_gate_moving_obstructing_box/seed_1/2026-09-17-20-17-21",
+  "ply": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed1/datasets_bonn/r34_gate_moving_obstructing_box/seed_1/2026-09-17-20-17-21/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.8271,
+     "completion_cm": 7.5791,
+     "completion_ratio": 52.923,
+     "precision_ratio": 70.9866,
+     "fscore": 60.6381,
+     "num_rec_points_eval": 49546,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed2/datasets_bonn/r34_gate_moving_obstructing_box/seed_2/2026-09-17-20-01-00",
+  "ply": "results/paper2_rollout/r34_gate_moving_obstructing_box_seed2/datasets_bonn/r34_gate_moving_obstructing_box/seed_2/2026-09-17-20-01-00/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0,
+  "mask_source": "dynamic_mask_gtmc",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 30,
+     "frames_total": 590,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 411278,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 4.7906,
+     "completion_cm": 7.7821,
+     "completion_ratio": 54.4565,
+     "precision_ratio": 71.1476,
+     "fscore": 61.6931,
+     "num_rec_points_eval": 56699,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed0/datasets_tum/r34_gate_f3_wk_rpy/seed_0/2026-09-17-21-39-46",
+  "ply": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed0/datasets_tum/r34_gate_f3_wk_rpy/seed_0/2026-09-17-21-39-46/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0001,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 222.4762,
+     "completion_cm": 13.7051,
+     "completion_ratio": 49.67,
+     "precision_ratio": 23.8547,
+     "fscore": 32.2303,
+     "num_rec_points_eval": 78756,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed1/datasets_tum/r34_gate_f3_wk_rpy/seed_1/2026-09-17-21-29-54",
+  "ply": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed1/datasets_tum/r34_gate_f3_wk_rpy/seed_1/2026-09-17-21-29-54/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0001,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 201.1185,
+     "completion_cm": 12.2003,
+     "completion_ratio": 56.409,
+     "precision_ratio": 29.4233,
+     "fscore": 38.674,
+     "num_rec_points_eval": 91407,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ },
+ {
+  "run_dir": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed2/datasets_tum/r34_gate_f3_wk_rpy/seed_2/2026-09-17-21-01-33",
+  "ply": "results/paper2_rollout/r34_gate_f3_wk_rpy_seed2/datasets_tum/r34_gate_f3_wk_rpy/seed_2/2026-09-17-21-01-33/point_cloud/final_after_opt/point_cloud.ply",
+  "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+  "anchor_est0_gt0_cm": 0.0001,
+  "mask_source": "seg_mask",
+  "results": {
+   "est": {
+    "fusion": {
+     "frames_used": 44,
+     "frames_total": 873,
+     "frame_stride": 20,
+     "pixel_stride": 5,
+     "masked_px_skipped": 4563,
+     "frames_without_mask": 0,
+     "fusion_pose": "est"
+    },
+    "metrics": {
+     "accuracy_cm": 222.7568,
+     "completion_cm": 12.5376,
+     "completion_ratio": 56.2425,
+     "precision_ratio": 24.191,
+     "fscore": 33.8308,
+     "num_rec_points_eval": 100715,
+     "num_gt_points_eval": 200000,
+     "threshold_m": 0.05
+    }
+   }
+  }
+ }
+]

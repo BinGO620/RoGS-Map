@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "repair_wall_s": 190.8,
+  "fit_time_s": 179.98,
+  "unproject_time_s": 0.38,
+  "online_time_s": 1258.4153,
+  "n_kf": 113,
+  "n_snapshots": 67,
+  "n_static": 84162,
+  "n_dyn": 0,
+  "vitality": {
+    "case1_hits": 268351,
+    "case2_new": 19337,
+    "cond1_deleted": 13813,
+    "cond2_deleted": 5524,
+    "evicted_total": 0,
+    "cap_hits": 0,
+    "buf_final": 0
+  },
+  "mask_erode_px": 0,
+  "n_suppressed": 38565,
+  "n_clamped": 18497,
+  "max_scale_m": 0.02,
+  "s5_suppress_out_mask": true,
+  "s5_scale_clamp": true,
+  "lam_d": 0.2,
+  "cap": 50000,
+  "lmax": 45,
+  "unproj_stride": 3,
+  "fit_iters": 300,
+  "control_shift_m": 0.0
+}

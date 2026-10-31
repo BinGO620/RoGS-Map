@@ -1,0 +1,16 @@
+{
+  "mesh_protocol_version": "gaussian-render-tsdf-v2",
+  "source_gaussians": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56/point_cloud/final_after_opt/point_cloud.ply",
+  "pose_source": "full_estimated_trajectory",
+  "trajectory_frames": 469,
+  "integrated_frames": 95,
+  "frame_stride": 5,
+  "voxel_length_m": 0.02,
+  "sdf_trunc_m": 0.08,
+  "depth_trunc_m": 5.0,
+  "opacity_threshold": 0.5,
+  "min_component_triangles": 100,
+  "vertices": 150944,
+  "faces": 281846,
+  "mesh_path": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56/geometry/tsdf_mesh.ply"
+}

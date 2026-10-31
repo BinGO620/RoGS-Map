@@ -1,0 +1,23 @@
+# L1c 时序先验（occupancy memory，D2-006）：person_tracking / occ 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1c_occupancy.md（判据先锁；先于任何 run 提交）
+# ⚠️ 机制开关独立：evidence_gate 显式 false（防归因混淆——审查 v1 计划时确认的致命项）
+# 对照 = 已有 L3 exit 同 seed canonical 渲染（零新增对照 run）
+inherit_from: "configs/rgbd/bonn/person_tracking.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+  evidence_gate: false
+  occupancy_memory: true
+  # 参数锁定于 prereg §1.2（改参 = 先提修正案再重派）
+  occupancy_voxel_size: 0.05
+  occupancy_warm_kfs: 10
+  occupancy_decay: 0.9
+  occupancy_alpha_guard: 0.35
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1c_person_tracking_occ"
+  save_per_frame_ape: true

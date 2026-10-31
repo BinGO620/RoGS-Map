@@ -1,0 +1,8 @@
+fig_teaser — 样式重构说明书（非生成模型用；本图为真实工件照片拼图，禁止 AI 生成）
+
+版式：单栏两行，每行 2 面板（16:9 中心裁切），行内箭头 "→" 连接；面板描边 0.9pt。
+上行：erased (prior paradigm) → repaired (+6.8 dB dyn.)（蓝框 → 橙框，数字行橙色加粗）
+下行：stored map render → codec decode (6.0×)（蓝框 → 橙框，数字行橙色加粗）
+标签：每面板左下角白底（α=0.80）黑字，Arial ≥6.4pt。
+配色：Okabe-Ito 蓝 #0072B2 / 朱红 #D55E00；无标题、无图例、无装饰。
+内容：全部来自 crowd2 f621 samepose 渲染与 codec 重建渲染（真实工件，勿重绘/美化）。

@@ -1,0 +1,45 @@
+{
+  "seq": "balloon2",
+  "n_common_frames": 18,
+  "n_eval_frames": 18,
+  "arms": [
+    "E",
+    "D",
+    "Cneg"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": 5.0444,
+    "iqr": 4.0886
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.2457,
+    "iqr": 0.3144
+  },
+  "J3_static_delta": {
+    "median": -3.0792,
+    "iqr": 4.4394
+  },
+  "J3_full_delta": {
+    "median": 1.0041,
+    "iqr": 3.9023
+  },
+  "J5_two_state_full_psnr_maxabs": 5.5654,
+  "J6_bad_px_median": 44790.0,
+  "instrument_samepose": false,
+  "J7_neg_control_dl1_ratio": {
+    "median": 2.2571,
+    "iqr": 1.4445
+  },
+  "J6_frame_coverage": 1.0,
+  "J6_judgeable": true,
+  "render_exit": "render_subset_not_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "causal_snapshot_poseconfounded",
+  "instrument_note": "\u8bca\u65ad\u53e3\u5f84\uff1a\u5feb\u7167\u4f4d\u59ff\uff08\u4f4d\u59ff\u6df7\u6742 \u22124~\u22128 dB\uff09\uff0c\u7981\u8fdb\u51fa\u53e3"
+}

@@ -1,0 +1,37 @@
+# ⚠ DEAD CONFIG (2026-09-24, D1-014 次要项)：mask_subdir 指向已删除的 dynamic_mask_gtmc（D1-006）；
+# embrace_dyn 三轮全 NO-GO 收口（NOTES 已排除方向），保留仅作审计痕迹，rerun 必断裂。
+# embrace_dyn 因果化探针配置（预注册：evidence/prereg_dyn_probe_causal.md）
+# 与父配置同参数（帧/拟合/插入），只增加因果臂与 map 级 KF 日志来源。
+prereg: results/embrace_dyn/evidence/prereg_dyn_probe_causal.md
+sequence: person_tracking2
+device: cuda:0
+ply: final_after_opt
+mask_subdir: dynamic_mask_gtmc
+mask_class: 15
+
+unproj_stride: 3
+fit_iters: 300
+lrs:
+  xyz: 5.0e-4
+  scale: 5.0e-3
+  rot: 1.0e-3
+  opa: 5.0e-2
+  dc: 5.0e-3
+
+# C-c 阴性对照：沿相机系横轴平移 0.30m（拟合后施加）
+control_shift_cam_m: [0.30, 0.0, 0.0]
+
+t0_frame: 309
+frames: [2, 93, 122, 141, 178, 197, 243, 282, 309, 329, 347, 398, 421, 439, 512, 561]
+# P1/P2/C- 为父预注册同义臂（同批重测，构成又一次 L2 数据点）；P2c/P2cv/C-c 为因果臂
+arms: [P1, P2, C-, P2c, P2cv, C-c]
+
+maps:
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/datasets_bonn/r33_rebase_gate_person_tracking2/seed_0/2026-09-16-14-47-45
+    kf_log: results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0.consolelog
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00
+    kf_log: results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0.consolelog
+
+out: results/embrace_dyn/evidence/dyn_probe_causal_results.json

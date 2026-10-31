@@ -1,0 +1,39 @@
+# R29: per-frame static_conf gate at 0.38 (between crowd2 p25=0.36 and
+# pt1 drift-segment band 0.17-0.31 from the r26 distributions). The last
+# untested member of the health-gate family: cost gate (circular, R25),
+# mean-reliability (weak, R26), direction coherence (person-drag is
+# coherent, R28) — per-frame arming is the remainder.
+# Test: crowd2 single run — the gate should skip the low-conf (harmful)
+# SWBA steps; ATE toward baseline (2.2) = family closes positively.
+
+inherit_from: "configs/rgbd/bonn/crowd2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_per_frame_ape: true
+
+MaskStability:
+  enabled: true
+  release_rule: "runlen"
+  runlen_min: 30
+  log_interval: 50

@@ -1,0 +1,116 @@
+== per-run ATE (full-frame cm) + gate two-state ==
+arm                seq              seed    full      kf  apply  skip  skip%
+r31_selfcheck_0p5  balloon             0   3.948   3.801     46    25    35%
+r31_selfcheck_0p5  balloon             1   3.822   3.666     39    29    43%
+
+r31_selfcheck_0p5  balloon2            0   5.278   5.190     43    13    23%
+r31_selfcheck_0p5  balloon2            1   5.451   5.339     31    15    33%
+
+r31_selfcheck_0p5  crowd               0   2.289   3.086     46    33    42%
+r31_selfcheck_0p5  crowd               1   2.312   2.894     48    33    41%
+
+r31_selfcheck_0p5  crowd2              0   2.835   2.787     44    19    30%
+r31_selfcheck_0p5  crowd2              1   2.679   2.515     35    25    42%
+
+r31_selfcheck_0p5  crowd3              0   1.683   1.604     51    23    31%
+r31_selfcheck_0p5  crowd3              1   1.902   1.834     44    20    31%
+
+r31_selfcheck_0p5  person_tracking     0   9.252   9.317     63    40    39%
+r31_selfcheck_0p5  person_tracking     1   8.363   8.518     73    32    30%
+
+r31_selfcheck_0p5  person_tracking2    0  12.900  12.830     58    41    41%
+r31_selfcheck_0p5  person_tracking2    1  11.730  11.711     70    37    35%
+
+r31_selfcheck_1    balloon             0   3.638   3.527     21    46    69%
+r31_selfcheck_1    balloon             1   3.795   3.644     18    51    74%
+
+r31_selfcheck_1    balloon2            0   5.100   5.035     23    31    57%
+r31_selfcheck_1    balloon2            1   5.460   5.382     17    35    67%
+
+r31_selfcheck_1    crowd               0   2.075   2.325     26    51    66%
+r31_selfcheck_1    crowd               1   2.261   2.705     30    44    59%
+
+r31_selfcheck_1    crowd2              0   2.337   2.187     22    36    62%
+r31_selfcheck_1    crowd2              1   2.314   2.259     21    37    64%
+
+r31_selfcheck_1    crowd3              0   1.733   1.720     30    40    57%
+r31_selfcheck_1    crowd3              1   1.675   1.653     29    44    60%
+
+r31_selfcheck_1    person_tracking     0  10.238  10.237     36    64    64%
+r31_selfcheck_1    person_tracking     1  10.266  10.159     40    68    63%
+
+r31_selfcheck_1    person_tracking2    0  11.654  11.648     38    63    62%
+r31_selfcheck_1    person_tracking2    1  12.496  12.426     29    71    71%
+
+r31_selfcheck_2    balloon             0   3.255   3.205      4    65    94%
+r31_selfcheck_2    balloon             1   2.918   2.868      4    69    95%
+
+r31_selfcheck_2    balloon2            0   5.079   5.058      3    48    94%
+r31_selfcheck_2    balloon2            1   5.582   5.542      5    51    91%
+
+r31_selfcheck_2    crowd               0   2.293   2.867      6    77    93%
+r31_selfcheck_2    crowd               1   2.294   2.793      5    67    93%
+
+r31_selfcheck_2    crowd2              0   3.164   3.099      3    53    95%
+r31_selfcheck_2    crowd2              1   2.223   2.327      2    56    97%
+
+r31_selfcheck_2    crowd3              0   1.560   1.525      9    66    88%
+r31_selfcheck_2    crowd3              1   1.583   1.581      7    60    90%
+
+r31_selfcheck_2    person_tracking     0  11.488  11.521      8    97    92%
+r31_selfcheck_2    person_tracking     1  11.201  11.347     13    92    88%
+
+r31_selfcheck_2    person_tracking2    0  11.344  11.290     10    95    90%
+r31_selfcheck_2    person_tracking2    1  11.352  11.394     11    93    89%
+
+== arm means (n=2) ==
+arm                seq              full_mean  skip%
+r31_selfcheck_0p5  balloon              3.885    39%
+r31_selfcheck_0p5  balloon2             5.365    27%
+r31_selfcheck_0p5  crowd                2.301    41%
+r31_selfcheck_0p5  crowd2               2.757    36%
+r31_selfcheck_0p5  crowd3               1.792    31%
+r31_selfcheck_0p5  person_tracking      8.807    35%
+r31_selfcheck_0p5  person_tracking2    12.315    38%
+
+r31_selfcheck_1    balloon              3.716    71%
+r31_selfcheck_1    balloon2             5.280    62%
+r31_selfcheck_1    crowd                2.168    63%
+r31_selfcheck_1    crowd2               2.326    63%
+r31_selfcheck_1    crowd3               1.704    59%
+r31_selfcheck_1    person_tracking     10.252    63%
+r31_selfcheck_1    person_tracking2    12.075    67%
+
+r31_selfcheck_2    balloon              3.087    94%
+r31_selfcheck_2    balloon2             5.330    93%
+r31_selfcheck_2    crowd                2.294    93%
+r31_selfcheck_2    crowd2               2.693    96%
+r31_selfcheck_2    crowd3               1.572    89%
+r31_selfcheck_2    person_tracking     11.345    90%
+r31_selfcheck_2    person_tracking2    11.348    90%
+
+== pre-registered criteria ==
+
+--- r31_selfcheck_0p5 ---
+  MAIN crowd2: 2.757 vs r29 2.620 (+3%=2.699) -> FAIL
+  MAIN crowd3: 1.792 vs r29 1.894 (+3%=1.950) -> PASS
+  MAIN balloon: 3.885 vs r29 4.056 (+3%=4.178) -> PASS
+  SUB  person_tracking: 8.807 vs 8.2 -> FAIL
+  MECH applied=691 skipped=385 -> PASS
+  => MAIN=FAIL SUB=FAIL MECH=PASS
+
+--- r31_selfcheck_1 ---
+  MAIN crowd2: 2.326 vs r29 2.620 (+3%=2.699) -> PASS
+  MAIN crowd3: 1.704 vs r29 1.894 (+3%=1.950) -> PASS
+  MAIN balloon: 3.716 vs r29 4.056 (+3%=4.178) -> PASS
+  SUB  person_tracking: 10.252 vs 8.2 -> FAIL
+  MECH applied=380 skipped=681 -> PASS
+  => MAIN=PASS SUB=FAIL MECH=PASS
+
+--- r31_selfcheck_2 ---
+  MAIN crowd2: 2.693 vs r29 2.620 (+3%=2.699) -> PASS
+  MAIN crowd3: 1.572 vs r29 1.894 (+3%=1.950) -> PASS
+  MAIN balloon: 3.087 vs r29 4.056 (+3%=4.178) -> PASS
+  SUB  person_tracking: 11.345 vs 8.2 -> FAIL
+  MECH applied=90 skipped=989 -> PASS
+  => MAIN=PASS SUB=FAIL MECH=PASS

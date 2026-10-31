@@ -1,0 +1,32 @@
+# R30 (experiment F): static_conf gate sensitivity scan — threshold 0.30.
+# Derived from r29_framegate_* (0.38) by changing ONLY swba_max_static_conf
+# and save_dir; SWBA+LoopClosure blocks are byte-identical to r29.
+# Purpose (REVIEW_skeleton K8): verify the gate gain does not depend on the
+# exact threshold value. 0.38 was calibrated only on pt1/crowd2; this scan
+# spans 0.30-0.45 on the standard 7 sequences, 2 seeds.
+inherit_from: "configs/rgbd/bonn/crowd.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.30
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r30_conf030_crowd"
+  save_per_frame_ape: true

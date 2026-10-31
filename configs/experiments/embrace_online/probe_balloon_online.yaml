@@ -1,0 +1,32 @@
+# P0 embrace_online：balloon 泛化（预注册 results/embrace_online/evidence/prereg_P0_embrace_online.md §4 J5）
+# 泛化判据 = 两图 M_bad PSNR median Δ(P0o−P1) > 0（n=3 因果帧不设 +2.5 线；主域/泛化分工同历史四轮）。
+# 帧集/t0 由 cmd_coverage 在 canonical 掩码上重推导（evidence/coverage_balloon_canonical.json）。
+prereg: results/embrace_online/evidence/prereg_P0_embrace_online.md
+sequence: balloon
+generality_sequence: balloon
+device: cuda:0
+ply: final_after_opt
+mask_subdir: auto
+mask_class: 15
+unproj_stride: 3
+fit_iters: 300
+lrs: {xyz: 5.0e-4, scale: 5.0e-3, rot: 1.0e-3, opa: 5.0e-2, dc: 5.0e-3}
+online:
+  voxel: 0.02
+  cap: 60000
+  lam_rho: 0.01
+  lr_rho: 5.0e-2
+  rho_init: 0.9
+  window: 4
+  steps_per_frame: 10
+  seed: 0
+  shift_cam_m: [0.30, 0.0, 0.0]
+t0_frame: 269
+frames: [0, 69, 80, 138, 149, 160, 171, 182, 192, 203, 216, 258, 269, 280, 291, 307]
+arms: [P1, P2, C-, P0o, P0n, C-o]
+maps:
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_balloon_seed0/datasets_bonn/r33_rebase_gate_balloon/seed_0/2026-09-16-02-45-13
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_balloon_seed0/datasets_bonn/r33_rebase_baseline_balloon/seed_0/2026-09-16-01-37-09
+out: results/embrace_online/evidence/p0_probe_balloon_results.json

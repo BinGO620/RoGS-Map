@@ -1,0 +1,50 @@
+{
+  "experiment": "embrace_online_P0",
+  "date": "2026-09-25",
+  "verdict": "FAIL",
+  "exit": 3,
+  "prereg": "results/embrace_online/evidence/prereg_P0_embrace_online.md",
+  "judge_output": "results/embrace_online/evidence/p0_online_judgments.json",
+  "raw_results": [
+    "results/embrace_online/evidence/p0_probe_pt2_results.json",
+    "results/embrace_online/evidence/p0_probe_balloon_results.json"
+  ],
+  "consolelogs": [
+    "results/embrace_online/evidence/p0_probe_pt2.consolelog",
+    "results/embrace_online/evidence/p0_probe_balloon.consolelog"
+  ],
+  "configs": [
+    "configs/experiments/embrace_online/probe_pt2_online.yaml",
+    "configs/experiments/embrace_online/probe_balloon_online.yaml"
+  ],
+  "execution": {
+    "host": "remote_3090_x2",
+    "head": "72b329abc",
+    "gpu_minutes": "~90 (dual-GPU parallel)",
+    "dispatch_incident": "first dispatch ran stale code (no fetch) + chained-launch missed balloon; killed by explicit PID, redispached; no artifacts from stale run"
+  },
+  "readings": {
+    "j1_bad_psnr_delta_median": {"pt2_gate": 3.834, "pt2_baseline": 3.7962, "balloon_gate": 3.3213, "balloon_baseline": 2.4547},
+    "j2_bad_dl1_ratio_median": {"pt2_gate": 0.6359, "pt2_baseline": 0.6801, "balloon_gate": 0.482, "balloon_baseline": 0.4875},
+    "j3_static_delta_median": {"pt2_gate": -7.326, "pt2_baseline": -7.4114, "balloon_gate": -3.6574, "balloon_baseline": -1.8532},
+    "j4_cost_frac": {"pt2_gate": 1.0875, "pt2_baseline": 0.7129, "balloon_gate": 1.1859, "balloon_baseline": 1.8649},
+    "j7a_ctrl_fails_main": true,
+    "j7b_depth_anchor_resolves_shift": false,
+    "j8_alive": true,
+    "p0n_minus_p0o_db": {"pt2_gate": -0.1, "pt2_baseline": -0.1, "balloon_gate": 0.02, "balloon_baseline": -0.04}
+  },
+  "binding_failure": "J3 static gate (-7.33/-7.41 << -0.65) and J4 cost (1.09/0.71 >> 0.15); J1/J2/J5/J7a/J8 passed",
+  "gate1_review": {
+    "reviewer": "slam-critic",
+    "date": "2026-09-25",
+    "result": "Accept with 4 preconditions",
+    "report": "/tmp/slam_critic_p0_2026-09-25.md",
+    "preconditions_disposition": "major-1: amendment self-registered in D2-016; major-2: decomposition in verdict §3; major-3: J7b limitation in verdict §4; minor-1/2/3: exit_reason not quoted / rolling-window nature in §5 / C- shift declaration left to P1 config"
+  },
+  "instrument": {
+    "mask_source": "canonical dynamic_mask/ (single source)",
+    "frame_selection": "cmd_coverage re-derived on canonical masks",
+    "historical_compat": "GTMC-era numbers co-reported only, never mixed"
+  },
+  "phase_e": "stop-and-report: option A (default) = 乙 standalone L1 on balloon2 (6 run); option B = 丙 pure writing boundary; both in D2-016 one-pager"
+}

@@ -1,0 +1,198 @@
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f2_balloon2_obsdebt/datasets_bonn/l1f_balloon2_obsdebt/seed_0/2026-09-24-21-31-37/point_cloud/final_after_opt/point_cloud.ply n=43018 sh=0 model_dev=cuda:0
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f2_balloon2_obsdebt/datasets_bonn/l1f_balloon2_obsdebt/seed_1/2026-09-24-21-48-34/point_cloud/final_after_opt/point_cloud.ply n=47951 sh=0 model_dev=cuda:1
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] scale guard >0.5m: pruning 518 degenerate primitives of 43018
+[render_compare] scale guard >0.5m: pruning 449 degenerate primitives of 47951
+  frame 50: PSNR=12.79 SSIM=0.707 LPIPS=0.434 dL1=44.75518763065338 | static PSNR=14.5298 SSIM=0.7977 cov=0.9994 | ghost_excess=-4.4278cm
+  frame 50: PSNR=12.13 SSIM=0.695 LPIPS=0.439 dL1=45.19043564796448 | static PSNR=14.0682 SSIM=0.7865 cov=1.0 | ghost_excess=-6.6058cm
+  frame 76: PSNR=13.50 SSIM=0.683 LPIPS=0.463 dL1=37.789490818977356 | static PSNR=17.52 SSIM=0.8071 cov=1.0 | ghost_excess=-2.2137cm
+  frame 76: PSNR=14.02 SSIM=0.695 LPIPS=0.454 dL1=40.53128957748413 | static PSNR=17.442 SSIM=0.821 cov=0.9994 | ghost_excess=0.5712cm
+  frame 102: PSNR=15.51 SSIM=0.695 LPIPS=0.410 dL1=25.236406922340393 | static PSNR=17.428 SSIM=0.7742 cov=1.0 | ghost_excess=3.9211cm
+  frame 102: PSNR=14.09 SSIM=0.670 LPIPS=0.462 dL1=22.464513778686523 | static PSNR=15.5422 SSIM=0.7438 cov=1.0 | ghost_excess=1.6747cm
+  frame 128: PSNR=14.44 SSIM=0.711 LPIPS=0.404 dL1=38.3172333240509 | static PSNR=21.5434 SSIM=0.8532 cov=1.0 | ghost_excess=0.4066cm
+  frame 128: PSNR=13.59 SSIM=0.689 LPIPS=0.428 dL1=38.47639560699463 | static PSNR=19.8763 SSIM=0.8295 cov=1.0 | ghost_excess=-4.1113cm
+  frame 154: PSNR=14.91 SSIM=0.733 LPIPS=0.410 dL1=35.8016699552536 | static PSNR=18.5242 SSIM=0.8372 cov=1.0 | ghost_excess=-1.1055cm
+  frame 154: PSNR=14.32 SSIM=0.725 LPIPS=0.419 dL1=35.71314811706543 | static PSNR=18.7863 SSIM=0.8295 cov=1.0 | ghost_excess=-2.0357cm
+  frame 180: PSNR=13.88 SSIM=0.718 LPIPS=0.405 dL1=46.94546163082123 | static PSNR=18.6173 SSIM=0.8448 cov=1.0 | ghost_excess=-0.7961cm
+  frame 180: PSNR=13.66 SSIM=0.697 LPIPS=0.440 dL1=46.738386154174805 | static PSNR=17.4718 SSIM=0.8174 cov=1.0 | ghost_excess=-0.7749cm
+  frame 206: PSNR=13.39 SSIM=0.708 LPIPS=0.435 dL1=44.16049122810364 | static PSNR=16.0891 SSIM=0.8054 cov=1.0 | ghost_excess=-0.1084cm
+  frame 206: PSNR=13.02 SSIM=0.686 LPIPS=0.462 dL1=41.13392233848572 | static PSNR=16.342 SSIM=0.7823 cov=1.0 | ghost_excess=-1.8906cm
+  frame 232: PSNR=14.06 SSIM=0.630 LPIPS=0.440 dL1=50.10668635368347 | static PSNR=17.2661 SSIM=0.6977 cov=1.0 | ghost_excess=-0.7163cm
+  frame 232: PSNR=13.64 SSIM=0.625 LPIPS=0.454 dL1=51.190632581710815 | static PSNR=16.7622 SSIM=0.6872 cov=1.0 | ghost_excess=-3.1806cm
+  frame 258: PSNR=16.71 SSIM=0.776 LPIPS=0.361 dL1=32.03872740268707 | static PSNR=19.6245 SSIM=0.8383 cov=0.9998 | ghost_excess=-12.6615cm
+  frame 258: PSNR=16.12 SSIM=0.764 LPIPS=0.377 dL1=32.08394944667816 | static PSNR=19.0129 SSIM=0.8272 cov=1.0 | ghost_excess=-9.0766cm
+  frame 285: PSNR=17.31 SSIM=0.784 LPIPS=0.384 dL1=32.44693577289581 | static PSNR=20.6421 SSIM=0.8603 cov=1.0 | ghost_excess=6.5119cm
+  frame 285: PSNR=16.81 SSIM=0.759 LPIPS=0.420 dL1=33.006951212882996 | static PSNR=19.0712 SSIM=0.8294 cov=1.0 | ghost_excess=-4.2915cm
+  frame 311: PSNR=15.33 SSIM=0.760 LPIPS=0.404 dL1=34.493470191955566 | static PSNR=19.4148 SSIM=0.8478 cov=1.0 | ghost_excess=6.4218cm
+  frame 311: PSNR=15.20 SSIM=0.734 LPIPS=0.435 dL1=34.93126034736633 | static PSNR=18.3965 SSIM=0.8145 cov=1.0 | ghost_excess=-2.8142cm
+  frame 337: PSNR=15.24 SSIM=0.772 LPIPS=0.284 dL1=24.064043164253235 | static PSNR=17.9432 SSIM=0.8551 cov=1.0 | ghost_excess=-7.1388cm
+  frame 337: PSNR=16.44 SSIM=0.778 LPIPS=0.289 dL1=24.89970326423645 | static PSNR=18.85 SSIM=0.8573 cov=1.0 | ghost_excess=0.1629cm
+  frame 363: PSNR=17.57 SSIM=0.818 LPIPS=0.256 dL1=13.598011434078217 | static PSNR=18.1644 SSIM=0.8448 cov=1.0 | ghost_excess=-13.1505cm
+  frame 363: PSNR=18.53 SSIM=0.835 LPIPS=0.248 dL1=16.328783333301544 | static PSNR=19.6687 SSIM=0.862 cov=1.0 | ghost_excess=-6.5692cm
+  frame 389: PSNR=17.30 SSIM=0.797 LPIPS=0.292 dL1=29.70724105834961 | static PSNR=18.5383 SSIM=0.8512 cov=1.0 | ghost_excess=-11.0704cm
+  frame 389: PSNR=16.54 SSIM=0.789 LPIPS=0.301 dL1=29.197749495506287 | static PSNR=18.6708 SSIM=0.8458 cov=1.0 | ghost_excess=-11.6294cm
+  frame 415: PSNR=15.43 SSIM=0.781 LPIPS=0.327 dL1=28.07503640651703 | static PSNR=20.8541 SSIM=0.8943 cov=1.0 | ghost_excess=-9.0323cm
+  frame 415: PSNR=16.41 SSIM=0.776 LPIPS=0.340 dL1=30.33725917339325 | static PSNR=21.6052 SSIM=0.8865 cov=1.0 | ghost_excess=-8.4638cm
+  frame 441: PSNR=14.45 SSIM=0.744 LPIPS=0.361 dL1=38.43531310558319 | static PSNR=21.6241 SSIM=0.8723 cov=1.0 | ghost_excess=-31.4061cm
+  frame 441: PSNR=13.43 SSIM=0.747 LPIPS=0.343 dL1=37.51240074634552 | static PSNR=21.2565 SSIM=0.8858 cov=1.0 | ghost_excess=-32.4149cm
+  frame 467: PSNR=16.86 SSIM=0.759 LPIPS=0.345 dL1=26.288652420043945 | static PSNR=20.4815 SSIM=0.8363 cov=1.0 | ghost_excess=-8.351cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f2_balloon2_obsdebt_s0_canon  mean PSNR=15.0628 SSIM=0.7302 LPIPS=0.3926 | static PSNR=18.4481 cov=1.0 | ghost_excess=-5.9422cm | freshvac_excess(w=30)=0.6517cm
+  frame 467: PSNR=16.65 SSIM=0.768 LPIPS=0.318 dL1=25.41865110397339 | static PSNR=20.3348 SSIM=0.8458 cov=1.0 | ghost_excess=-7.9071cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f2_balloon2_obsdebt_s1_canon  mean PSNR=15.1308 SSIM=0.7406 LPIPS=0.3747 | static PSNR=18.7262 cov=0.9999 | ghost_excess=-4.8974cm | freshvac_excess(w=30)=2.2634cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_balloon2_balloon2_exitfill_ctrl/datasets_bonn/l1f_balloon2_exitfill_ctrl/seed_0/2026-09-24-17-13-25/point_cloud/final_after_opt/point_cloud.ply n=46396 sh=0 model_dev=cuda:1
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] scale guard >0.5m: pruning 476 degenerate primitives of 46396
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f2_balloon2_obsdebt/datasets_bonn/l1f_balloon2_obsdebt/seed_2/2026-09-24-22-05-42/point_cloud/final_after_opt/point_cloud.ply n=37248 sh=0 model_dev=cuda:0
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] scale guard >0.5m: pruning 445 degenerate primitives of 37248
+  frame 50: PSNR=11.99 SSIM=0.697 LPIPS=0.434 dL1=47.45852053165436 | static PSNR=14.8028 SSIM=0.7925 cov=1.0 | ghost_excess=-4.208cm
+  frame 50: PSNR=12.36 SSIM=0.723 LPIPS=0.401 dL1=43.38048994541168 | static PSNR=14.6969 SSIM=0.8227 cov=1.0 | ghost_excess=-5.1134cm
+  frame 76: PSNR=13.49 SSIM=0.687 LPIPS=0.447 dL1=41.76051318645477 | static PSNR=18.393 SSIM=0.8201 cov=1.0 | ghost_excess=-2.9849cm
+  frame 76: PSNR=13.41 SSIM=0.704 LPIPS=0.429 dL1=39.17272984981537 | static PSNR=18.3313 SSIM=0.8455 cov=0.9991 | ghost_excess=-6.4461cm
+  frame 102: PSNR=14.83 SSIM=0.700 LPIPS=0.423 dL1=24.10239279270172 | static PSNR=17.0901 SSIM=0.7852 cov=0.9996 | ghost_excess=-0.3075cm
+  frame 102: PSNR=13.33 SSIM=0.682 LPIPS=0.442 dL1=22.175411880016327 | static PSNR=14.6731 SSIM=0.7651 cov=0.9988 | ghost_excess=1.3885cm
+  frame 128: PSNR=12.43 SSIM=0.684 LPIPS=0.405 dL1=41.41455590724945 | static PSNR=21.2604 SSIM=0.8409 cov=1.0 | ghost_excess=-0.1584cm
+  frame 128: PSNR=12.90 SSIM=0.709 LPIPS=0.392 dL1=35.227084159851074 | static PSNR=19.3423 SSIM=0.8577 cov=1.0 | ghost_excess=-4.3174cm
+  frame 154: PSNR=13.76 SSIM=0.727 LPIPS=0.408 dL1=37.565186619758606 | static PSNR=19.5342 SSIM=0.8393 cov=1.0 | ghost_excess=-5.2155cm
+  frame 154: PSNR=14.49 SSIM=0.748 LPIPS=0.382 dL1=33.2922637462616 | static PSNR=19.6996 SSIM=0.8618 cov=1.0 | ghost_excess=-7.0272cm
+  frame 180: PSNR=13.11 SSIM=0.709 LPIPS=0.427 dL1=48.41649532318115 | static PSNR=18.722 SSIM=0.8391 cov=1.0 | ghost_excess=-7.5527cm
+  frame 180: PSNR=13.85 SSIM=0.723 LPIPS=0.395 dL1=43.56412589550018 | static PSNR=18.7655 SSIM=0.8537 cov=1.0 | ghost_excess=-3.1508cm
+  frame 206: PSNR=13.25 SSIM=0.702 LPIPS=0.446 dL1=44.41324770450592 | static PSNR=17.5608 SSIM=0.8035 cov=0.9998 | ghost_excess=-4.5128cm
+  frame 206: PSNR=13.50 SSIM=0.714 LPIPS=0.414 dL1=43.02007853984833 | static PSNR=17.4877 SSIM=0.8249 cov=0.9984 | ghost_excess=-2.7513cm
+  frame 232: PSNR=13.54 SSIM=0.624 LPIPS=0.445 dL1=50.349587202072144 | static PSNR=16.5431 SSIM=0.6855 cov=0.9999 | ghost_excess=-9.8337cm
+  frame 232: PSNR=13.94 SSIM=0.635 LPIPS=0.448 dL1=49.00515973567963 | static PSNR=17.1468 SSIM=0.7059 cov=0.9973 | ghost_excess=-11.0549cm
+  frame 258: PSNR=15.80 SSIM=0.772 LPIPS=0.371 dL1=34.28082466125488 | static PSNR=19.5923 SSIM=0.8337 cov=0.9997 | ghost_excess=-12.1836cm
+  frame 258: PSNR=16.49 SSIM=0.774 LPIPS=0.385 dL1=32.804322242736816 | static PSNR=19.5263 SSIM=0.8341 cov=0.9979 | ghost_excess=-11.7624cm
+  frame 285: PSNR=15.91 SSIM=0.769 LPIPS=0.408 dL1=35.02277731895447 | static PSNR=20.1337 SSIM=0.8493 cov=1.0 | ghost_excess=-1.5266cm
+  frame 285: PSNR=17.69 SSIM=0.786 LPIPS=0.389 dL1=30.8087557554245 | static PSNR=21.858 SSIM=0.8692 cov=1.0 | ghost_excess=4.3106cm
+  frame 311: PSNR=15.07 SSIM=0.742 LPIPS=0.429 dL1=37.04322278499603 | static PSNR=19.6996 SSIM=0.8316 cov=1.0 | ghost_excess=-3.0798cm
+  frame 311: PSNR=15.34 SSIM=0.763 LPIPS=0.401 dL1=32.373929023742676 | static PSNR=19.9162 SSIM=0.8595 cov=1.0 | ghost_excess=2.0185cm
+  frame 337: PSNR=14.13 SSIM=0.765 LPIPS=0.299 dL1=24.339960515499115 | static PSNR=17.9945 SSIM=0.8574 cov=1.0 | ghost_excess=-10.9121cm
+  frame 337: PSNR=16.47 SSIM=0.802 LPIPS=0.273 dL1=20.581206679344177 | static PSNR=19.6127 SSIM=0.8748 cov=1.0 | ghost_excess=-4.6483cm
+  frame 363: PSNR=17.57 SSIM=0.828 LPIPS=0.241 dL1=13.840463757514954 | static PSNR=19.4205 SSIM=0.8605 cov=1.0 | ghost_excess=-1.9359cm
+  frame 363: PSNR=18.37 SSIM=0.826 LPIPS=0.274 dL1=14.179058372974396 | static PSNR=19.6918 SSIM=0.8549 cov=1.0 | ghost_excess=-6.2088cm
+  frame 389: PSNR=16.97 SSIM=0.798 LPIPS=0.289 dL1=29.575717449188232 | static PSNR=19.1664 SSIM=0.8548 cov=1.0 | ghost_excess=-14.0463cm
+  frame 389: PSNR=17.23 SSIM=0.794 LPIPS=0.312 dL1=28.5500168800354 | static PSNR=18.8498 SSIM=0.847 cov=0.9954 | ghost_excess=-2.5208cm
+  frame 415: PSNR=14.09 SSIM=0.757 LPIPS=0.346 dL1=29.05896008014679 | static PSNR=20.8284 SSIM=0.8807 cov=1.0 | ghost_excess=-21.5778cm
+  frame 415: PSNR=16.16 SSIM=0.792 LPIPS=0.332 dL1=27.56313681602478 | static PSNR=22.692 SSIM=0.8994 cov=1.0 | ghost_excess=-11.3115cm
+  frame 441: PSNR=12.90 SSIM=0.728 LPIPS=0.362 dL1=37.82548010349274 | static PSNR=20.4695 SSIM=0.8722 cov=1.0 | ghost_excess=-34.2708cm
+  frame 441: PSNR=14.29 SSIM=0.754 LPIPS=0.356 dL1=33.929815888404846 | static PSNR=21.9367 SSIM=0.8802 cov=1.0 | ghost_excess=-32.4476cm
+  frame 467: PSNR=15.04 SSIM=0.756 LPIPS=0.340 dL1=26.930925250053406 | static PSNR=20.1981 SSIM=0.8464 cov=1.0 | ghost_excess=-8.7056cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_balloon2_exitfill_ctrl_s0_canon  mean PSNR=14.3467 SSIM=0.7321 LPIPS=0.3835 | static PSNR=18.9064 cov=0.9999 | ghost_excess=-8.4125cm | freshvac_excess(w=30)=0.6599cm
+  frame 467: PSNR=17.12 SSIM=0.777 LPIPS=0.318 dL1=22.400346398353577 | static PSNR=21.832 SSIM=0.8509 cov=1.0 | ghost_excess=-6.9615cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f2_balloon2_obsdebt_s2_canon  mean PSNR=15.1142 SSIM=0.7474 LPIPS=0.3732 | static PSNR=19.1799 cov=0.9992 | ghost_excess=-6.3532cm | freshvac_excess(w=30)=3.1351cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_balloon2_balloon2_exitfill_ctrl/datasets_bonn/l1f_balloon2_exitfill_ctrl/seed_2/2026-09-24-17-31-27/point_cloud/final_after_opt/point_cloud.ply n=50096 sh=0 model_dev=cuda:1
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] scale guard >0.5m: pruning 534 degenerate primitives of 50096
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_balloon2_balloon2_exitfill_ctrl/datasets_bonn/l1f_balloon2_exitfill_ctrl/seed_1/2026-09-24-17-17-32/point_cloud/final_after_opt/point_cloud.ply n=54158 sh=0 model_dev=cuda:0
+[render_compare] N=469 render frames=[50, 76, 102, 128, 154, 180, 206, 232, 258, 285, 311, 337, 363, 389, 415, 441, 467]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (469 stems)
+[render_compare] scale guard >0.5m: pruning 539 degenerate primitives of 54158
+  frame 50: PSNR=12.05 SSIM=0.714 LPIPS=0.402 dL1=47.157442569732666 | static PSNR=14.9363 SSIM=0.8182 cov=1.0 | ghost_excess=-4.7334cm
+  frame 50: PSNR=12.36 SSIM=0.704 LPIPS=0.409 dL1=48.95701706409454 | static PSNR=14.2216 SSIM=0.8001 cov=1.0 | ghost_excess=-8.1874cm
+  frame 76: PSNR=13.63 SSIM=0.692 LPIPS=0.436 dL1=40.603891015052795 | static PSNR=17.8563 SSIM=0.8234 cov=0.999 | ghost_excess=-6.2927cm
+  frame 76: PSNR=12.84 SSIM=0.684 LPIPS=0.433 dL1=42.410898208618164 | static PSNR=16.8259 SSIM=0.8204 cov=0.9994 | ghost_excess=-9.5787cm
+  frame 102: PSNR=15.05 SSIM=0.687 LPIPS=0.435 dL1=25.073814392089844 | static PSNR=16.555 SSIM=0.7673 cov=0.9988 | ghost_excess=2.7642cm
+  frame 102: PSNR=14.05 SSIM=0.680 LPIPS=0.436 dL1=25.106802582740784 | static PSNR=15.6085 SSIM=0.7565 cov=0.9999 | ghost_excess=0.6792cm
+  frame 128: PSNR=13.16 SSIM=0.679 LPIPS=0.404 dL1=39.52518403530121 | static PSNR=19.6876 SSIM=0.8309 cov=1.0 | ghost_excess=-4.2682cm
+  frame 128: PSNR=12.94 SSIM=0.696 LPIPS=0.400 dL1=39.967843890190125 | static PSNR=19.5438 SSIM=0.8526 cov=1.0 | ghost_excess=-8.8351cm
+  frame 154: PSNR=13.81 SSIM=0.723 LPIPS=0.401 dL1=36.52610778808594 | static PSNR=18.9561 SSIM=0.8388 cov=1.0 | ghost_excess=-4.2259cm
+  frame 154: PSNR=14.40 SSIM=0.733 LPIPS=0.386 dL1=37.95889914035797 | static PSNR=19.1152 SSIM=0.8462 cov=1.0 | ghost_excess=-9.1668cm
+  frame 180: PSNR=13.17 SSIM=0.700 LPIPS=0.423 dL1=47.54250347614288 | static PSNR=17.4988 SSIM=0.8298 cov=1.0 | ghost_excess=-7.9885cm
+  frame 180: PSNR=13.27 SSIM=0.701 LPIPS=0.411 dL1=47.089457511901855 | static PSNR=16.9206 SSIM=0.8255 cov=1.0 | ghost_excess=-3.5085cm
+  frame 206: PSNR=13.52 SSIM=0.709 LPIPS=0.433 dL1=44.71130669116974 | static PSNR=16.8867 SSIM=0.809 cov=0.9987 | ghost_excess=-3.2807cm
+  frame 206: PSNR=13.22 SSIM=0.703 LPIPS=0.419 dL1=45.028480887413025 | static PSNR=16.3457 SSIM=0.8049 cov=0.9998 | ghost_excess=-0.8737cm
+  frame 232: PSNR=13.98 SSIM=0.640 LPIPS=0.435 dL1=51.22460722923279 | static PSNR=17.3282 SSIM=0.7096 cov=1.0 | ghost_excess=-14.4486cm
+  frame 232: PSNR=13.91 SSIM=0.649 LPIPS=0.423 dL1=51.84336304664612 | static PSNR=17.3176 SSIM=0.7227 cov=1.0 | ghost_excess=-16.8905cm
+  frame 258: PSNR=16.74 SSIM=0.775 LPIPS=0.361 dL1=36.40614151954651 | static PSNR=20.3665 SSIM=0.8411 cov=0.9997 | ghost_excess=-16.0002cm
+  frame 258: PSNR=16.55 SSIM=0.780 LPIPS=0.361 dL1=33.80120098590851 | static PSNR=20.0132 SSIM=0.8468 cov=0.9983 | ghost_excess=-12.0691cm
+  frame 285: PSNR=16.72 SSIM=0.778 LPIPS=0.382 dL1=35.80392897129059 | static PSNR=21.0173 SSIM=0.8615 cov=1.0 | ghost_excess=-4.1256cm
+  frame 285: PSNR=15.86 SSIM=0.762 LPIPS=0.409 dL1=33.62640142440796 | static PSNR=20.0125 SSIM=0.8464 cov=1.0 | ghost_excess=-3.5839cm
+  frame 311: PSNR=14.63 SSIM=0.748 LPIPS=0.410 dL1=37.515801191329956 | static PSNR=18.6795 SSIM=0.8424 cov=1.0 | ghost_excess=-1.1739cm
+  frame 311: PSNR=14.42 SSIM=0.743 LPIPS=0.423 dL1=36.39455735683441 | static PSNR=18.5629 SSIM=0.838 cov=1.0 | ghost_excess=-4.8923cm
+  frame 337: PSNR=14.68 SSIM=0.776 LPIPS=0.281 dL1=25.5475252866745 | static PSNR=19.8619 SSIM=0.8661 cov=1.0 | ghost_excess=-11.7273cm
+  frame 337: PSNR=15.25 SSIM=0.783 LPIPS=0.283 dL1=24.807780981063843 | static PSNR=18.7055 SSIM=0.8712 cov=1.0 | ghost_excess=-7.6437cm
+  frame 363: PSNR=19.52 SSIM=0.846 LPIPS=0.222 dL1=16.100038588047028 | static PSNR=21.0886 SSIM=0.8731 cov=1.0 | ghost_excess=-4.954cm
+  frame 363: PSNR=19.60 SSIM=0.842 LPIPS=0.234 dL1=13.602165877819061 | static PSNR=20.7179 SSIM=0.8691 cov=1.0 | ghost_excess=-11.2685cm
+  frame 389: PSNR=17.37 SSIM=0.803 LPIPS=0.293 dL1=29.505714774131775 | static PSNR=19.223 SSIM=0.8594 cov=0.9999 | ghost_excess=-2.5104cm
+  frame 389: PSNR=18.11 SSIM=0.800 LPIPS=0.292 dL1=29.69191074371338 | static PSNR=19.2959 SSIM=0.8537 cov=1.0 | ghost_excess=-9.0799cm
+  frame 415: PSNR=14.54 SSIM=0.778 LPIPS=0.333 dL1=29.546353220939636 | static PSNR=22.6493 SSIM=0.8994 cov=1.0 | ghost_excess=-22.7046cm
+  frame 415: PSNR=14.68 SSIM=0.778 LPIPS=0.331 dL1=30.869019031524658 | static PSNR=22.1376 SSIM=0.8998 cov=1.0 | ghost_excess=-29.5509cm
+  frame 441: PSNR=13.30 SSIM=0.739 LPIPS=0.357 dL1=37.537357211112976 | static PSNR=21.7679 SSIM=0.8819 cov=1.0 | ghost_excess=-32.7752cm
+  frame 441: PSNR=13.20 SSIM=0.725 LPIPS=0.359 dL1=38.07312846183777 | static PSNR=21.4772 SSIM=0.8665 cov=1.0 | ghost_excess=-32.2778cm
+  frame 467: PSNR=15.54 SSIM=0.770 LPIPS=0.323 dL1=26.320096850395203 | static PSNR=21.3183 SSIM=0.859 cov=1.0 | ghost_excess=-16.3526cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_balloon2_exitfill_ctrl_s2_canon  mean PSNR=14.7144 SSIM=0.7377 LPIPS=0.3748 | static PSNR=19.0707 cov=0.9997 | ghost_excess=-9.0614cm | freshvac_excess(w=30)=1.2271cm
+  frame 467: PSNR=16.61 SSIM=0.764 LPIPS=0.327 dL1=26.66182518005371 | static PSNR=20.7104 SSIM=0.852 cov=1.0 | ghost_excess=-15.5079cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_balloon2_exitfill_ctrl_s1_canon  mean PSNR=14.8541 SSIM=0.7379 LPIPS=0.3703 | static PSNR=18.7651 cov=0.9999 | ghost_excess=-10.7641cm | freshvac_excess(w=30)=2.3067cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_person_tracking_person_tracking_obsdebt/datasets_bonn/l1f_person_tracking_obsdebt/seed_1/2026-09-24-18-15-06/point_cloud/final_after_opt/point_cloud.ply n=49392 sh=0 model_dev=cuda:1
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (580 stems)
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_person_tracking_person_tracking_obsdebt/datasets_bonn/l1f_person_tracking_obsdebt/seed_0/2026-09-24-18-06-34/point_cloud/final_after_opt/point_cloud.ply n=115854 sh=0 model_dev=cuda:0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (580 stems)
+[render_compare] scale guard >0.5m: pruning 589 degenerate primitives of 49392
+[render_compare] scale guard >0.5m: pruning 632 degenerate primitives of 115854
+  frame 50: PSNR=15.58 SSIM=0.762 LPIPS=0.384 dL1=31.904172897338867 | static PSNR=22.3267 SSIM=0.8382 cov=0.9989 | ghost_excess=0.5624cm
+  frame 50: PSNR=15.19 SSIM=0.745 LPIPS=0.398 dL1=39.81666564941406 | static PSNR=19.9832 SSIM=0.8121 cov=1.0 | ghost_excess=2.6147cm
+  frame 83: PSNR=15.30 SSIM=0.739 LPIPS=0.438 dL1=35.24598777294159 | static PSNR=19.9611 SSIM=0.8103 cov=1.0 | ghost_excess=4.2546cm
+  frame 83: PSNR=15.37 SSIM=0.724 LPIPS=0.453 dL1=42.48248338699341 | static PSNR=19.0466 SSIM=0.7921 cov=0.9989 | ghost_excess=-7.7702cm
+  frame 116: PSNR=16.83 SSIM=0.763 LPIPS=0.427 dL1=38.456764817237854 | static PSNR=20.2757 SSIM=0.8303 cov=0.9994 | ghost_excess=3.11cm
+  frame 116: PSNR=15.93 SSIM=0.735 LPIPS=0.475 dL1=46.64112329483032 | static PSNR=19.3046 SSIM=0.801 cov=0.9999 | ghost_excess=-6.3944cm
+  frame 149: PSNR=14.84 SSIM=0.757 LPIPS=0.414 dL1=30.101278424263 | static PSNR=19.6863 SSIM=0.8164 cov=0.9996 | ghost_excess=1.6272cm
+  frame 149: PSNR=14.14 SSIM=0.710 LPIPS=0.454 dL1=37.790435552597046 | static PSNR=19.0365 SSIM=0.7662 cov=0.999 | ghost_excess=2.5826cm
+  frame 182: PSNR=12.26 SSIM=0.713 LPIPS=0.435 dL1=38.18031847476959 | static PSNR=19.7558 SSIM=0.8135 cov=0.9993 | ghost_excess=-2.7717cm
+  frame 182: PSNR=11.95 SSIM=0.745 LPIPS=0.404 dL1=31.60156011581421 | static PSNR=18.7168 SSIM=0.8398 cov=1.0 | ghost_excess=0.2553cm
+  frame 215: PSNR=12.71 SSIM=0.572 LPIPS=0.509 dL1=32.556623220443726 | static PSNR=15.6456 SSIM=0.6288 cov=1.0 | ghost_excess=-3.5746cm
+  frame 215: PSNR=14.31 SSIM=0.752 LPIPS=0.408 dL1=26.525241136550903 | static PSNR=19.9618 SSIM=0.8382 cov=0.9965 | ghost_excess=-2.955cm
+  frame 248: PSNR=14.16 SSIM=0.711 LPIPS=0.397 dL1=41.26526117324829 | static PSNR=20.0881 SSIM=0.8062 cov=0.9996 | ghost_excess=4.9782cm
+  frame 248: PSNR=12.53 SSIM=0.670 LPIPS=0.428 dL1=46.637386083602905 | static PSNR=15.5482 SSIM=0.7591 cov=0.9666 | ghost_excess=15.4878cm
+  frame 281: PSNR=17.44 SSIM=0.758 LPIPS=0.337 dL1=47.77737259864807 | static PSNR=18.2804 SSIM=0.8311 cov=0.9761 | ghost_excess=12.2373cm
+  frame 281: PSNR=19.39 SSIM=0.811 LPIPS=0.286 dL1=35.83729863166809 | static PSNR=22.7495 SSIM=0.8807 cov=1.0 | ghost_excess=9.9451cm
+  frame 314: PSNR=20.54 SSIM=0.846 LPIPS=0.230 dL1=13.465341925621033 | static PSNR=21.4433 SSIM=0.8507 cov=1.0 | ghost_excess=2.153cm
+  frame 314: PSNR=19.25 SSIM=0.826 LPIPS=0.251 dL1=21.18213176727295 | static PSNR=19.9418 SSIM=0.8354 cov=0.9762 | ghost_excess=10.4065cm
+  frame 347: PSNR=20.82 SSIM=0.882 LPIPS=0.223 dL1=19.309602677822113 | static PSNR=21.5486 SSIM=0.8887 cov=1.0 | ghost_excess=-10.8868cm
+  frame 347: PSNR=24.47 SSIM=0.902 LPIPS=0.207 dL1=9.482327103614807 | static PSNR=25.4441 SSIM=0.909 cov=1.0 | ghost_excess=0.9477cm
+  frame 380: PSNR=21.71 SSIM=0.862 LPIPS=0.330 dL1=21.908314526081085 | static PSNR=22.4283 SSIM=0.8681 cov=1.0 | ghost_excess=-1.9182cm
+  frame 380: PSNR=21.21 SSIM=0.881 LPIPS=0.319 dL1=10.730573534965515 | static PSNR=21.619 SSIM=0.8873 cov=1.0 | ghost_excess=-6.2926cm
+  frame 413: PSNR=19.34 SSIM=0.797 LPIPS=0.359 dL1=22.763127088546753 | static PSNR=20.2413 SSIM=0.8118 cov=1.0 | ghost_excess=6.9947cm
+  frame 413: PSNR=18.92 SSIM=0.828 LPIPS=0.351 dL1=14.353315532207489 | static PSNR=19.3218 SSIM=0.8416 cov=0.9998 | ghost_excess=2.8056cm
+  frame 446: PSNR=17.77 SSIM=0.757 LPIPS=0.426 dL1=16.86900556087494 | static PSNR=17.5606 SSIM=0.7563 cov=1.0 | ghost_excess=2.8939cm
+  frame 446: PSNR=17.56 SSIM=0.781 LPIPS=0.411 dL1=14.240702986717224 | static PSNR=17.5485 SSIM=0.7839 cov=0.9999 | ghost_excess=4.4288cm
+  frame 479: PSNR=18.02 SSIM=0.712 LPIPS=0.372 dL1=15.146788954734802 | static PSNR=18.1179 SSIM=0.7198 cov=1.0 | ghost_excess=-3.2947cm
+  frame 479: PSNR=18.12 SSIM=0.749 LPIPS=0.381 dL1=12.436070293188095 | static PSNR=18.5007 SSIM=0.7548 cov=0.9999 | ghost_excess=0.7197cm
+  frame 512: PSNR=21.28 SSIM=0.826 LPIPS=0.262 dL1=14.870917797088623 | static PSNR=21.8412 SSIM=0.8396 cov=1.0 | ghost_excess=1.9874cm
+  frame 512: PSNR=22.12 SSIM=0.832 LPIPS=0.283 dL1=15.717928111553192 | static PSNR=22.4985 SSIM=0.8411 cov=0.9993 | ghost_excess=-0.0476cm
+  frame 545: PSNR=21.44 SSIM=0.842 LPIPS=0.246 dL1=14.72090631723404 | static PSNR=21.9826 SSIM=0.852 cov=1.0 | ghost_excess=1.0631cm
+  frame 545: PSNR=22.14 SSIM=0.828 LPIPS=0.289 dL1=17.31933057308197 | static PSNR=22.7772 SSIM=0.8352 cov=0.9995 | ghost_excess=-2.1897cm
+  frame 578: PSNR=21.01 SSIM=0.831 LPIPS=0.253 dL1=14.205318689346313 | static PSNR=21.3651 SSIM=0.8414 cov=1.0 | ghost_excess=0.7045cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_person_tracking_obsdebt_s0_canon  mean PSNR=17.7115 SSIM=0.7691 LPIPS=0.3593 | static PSNR=20.1258 cov=0.9998 | ghost_excess=-0.0408cm | freshvac_excess(w=30)=1.1268cm
+  frame 578: PSNR=21.82 SSIM=0.826 LPIPS=0.291 dL1=16.83058738708496 | static PSNR=22.4325 SSIM=0.8301 cov=0.9995 | ghost_excess=-3.3965cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_person_tracking_obsdebt_s1_canon  mean PSNR=17.9047 SSIM=0.7881 LPIPS=0.3543 | static PSNR=20.2848 cov=0.9948 | ghost_excess=2.4683cm | freshvac_excess(w=30)=5.2286cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1f_person_tracking_person_tracking_obsdebt/datasets_bonn/l1f_person_tracking_obsdebt/seed_2/2026-09-24-18-28-13/point_cloud/final_after_opt/point_cloud.ply n=114423 sh=0 model_dev=cuda:0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] eval mask: source=dynamic_mask kind=boolean class=None validity=canonical (580 stems)
+[render_compare] scale guard >0.5m: pruning 617 degenerate primitives of 114423
+  frame 50: PSNR=15.45 SSIM=0.769 LPIPS=0.352 dL1=29.40983474254608 | static PSNR=22.2994 SSIM=0.8455 cov=0.9999 | ghost_excess=2.3201cm
+  frame 83: PSNR=15.32 SSIM=0.743 LPIPS=0.422 dL1=33.97234082221985 | static PSNR=19.9092 SSIM=0.8202 cov=0.9999 | ghost_excess=0.7111cm
+  frame 116: PSNR=15.92 SSIM=0.763 LPIPS=0.406 dL1=37.43691146373749 | static PSNR=19.3437 SSIM=0.8325 cov=1.0 | ghost_excess=0.6269cm
+  frame 149: PSNR=13.81 SSIM=0.740 LPIPS=0.395 dL1=28.734904527664185 | static PSNR=17.4403 SSIM=0.8001 cov=1.0 | ghost_excess=7.3963cm
+  frame 182: PSNR=11.94 SSIM=0.724 LPIPS=0.398 dL1=34.70690846443176 | static PSNR=18.116 SSIM=0.822 cov=0.9997 | ghost_excess=2.9195cm
+  frame 215: PSNR=14.60 SSIM=0.760 LPIPS=0.395 dL1=30.226030945777893 | static PSNR=21.3996 SSIM=0.8452 cov=1.0 | ghost_excess=-3.2494cm
+  frame 248: PSNR=13.08 SSIM=0.688 LPIPS=0.394 dL1=45.255473256111145 | static PSNR=18.7753 SSIM=0.7865 cov=1.0 | ghost_excess=8.482cm
+  frame 281: PSNR=17.20 SSIM=0.807 LPIPS=0.286 dL1=38.331809639930725 | static PSNR=22.3461 SSIM=0.8701 cov=1.0 | ghost_excess=13.7076cm
+  frame 314: PSNR=20.48 SSIM=0.844 LPIPS=0.236 dL1=13.99632841348648 | static PSNR=21.6507 SSIM=0.85 cov=1.0 | ghost_excess=5.3673cm
+  frame 347: PSNR=19.12 SSIM=0.882 LPIPS=0.206 dL1=11.822699755430222 | static PSNR=19.7507 SSIM=0.8892 cov=1.0 | ghost_excess=-3.624cm
+  frame 380: PSNR=20.62 SSIM=0.881 LPIPS=0.290 dL1=15.818032622337341 | static PSNR=21.4167 SSIM=0.8876 cov=1.0 | ghost_excess=-11.6517cm
+  frame 413: PSNR=17.26 SSIM=0.841 LPIPS=0.337 dL1=25.20858645439148 | static PSNR=17.8628 SSIM=0.8555 cov=1.0 | ghost_excess=6.0859cm
+  frame 446: PSNR=21.61 SSIM=0.815 LPIPS=0.346 dL1=23.314204812049866 | static PSNR=22.8469 SSIM=0.8232 cov=1.0 | ghost_excess=15.8197cm
+  frame 479: PSNR=16.42 SSIM=0.757 LPIPS=0.342 dL1=12.838234007358551 | static PSNR=17.0277 SSIM=0.7679 cov=0.9998 | ghost_excess=-0.2915cm
+  frame 512: PSNR=21.89 SSIM=0.827 LPIPS=0.235 dL1=14.518123865127563 | static PSNR=22.874 SSIM=0.8403 cov=1.0 | ghost_excess=-1.7383cm
+  frame 545: PSNR=21.72 SSIM=0.860 LPIPS=0.219 dL1=15.200580656528473 | static PSNR=22.184 SSIM=0.8667 cov=0.9999 | ghost_excess=-4.0192cm
+  frame 578: PSNR=21.70 SSIM=0.856 LPIPS=0.220 dL1=14.84520435333252 | static PSNR=22.3571 SSIM=0.8608 cov=1.0 | ghost_excess=-4.397cm
+[render_compare] wrote results/lifecycle_paper2/render_L1f_person_tracking_obsdebt_s2_canon  mean PSNR=17.538 SSIM=0.7975 LPIPS=0.3223 | static PSNR=20.4471 cov=1.0 | ghost_excess=2.0274cm | freshvac_excess(w=30)=5.3701cm

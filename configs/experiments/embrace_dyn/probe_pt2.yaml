@@ -1,0 +1,36 @@
+# ⚠ DEAD CONFIG (2026-09-24, D1-014 次要项)：mask_subdir 指向已删除的 dynamic_mask_gtmc（D1-006）；
+# embrace_dyn 三轮全 NO-GO 收口（NOTES 已排除方向），保留仅作审计痕迹，rerun 必断裂。
+# embrace_dyn 生死筛探针配置（离线渲染，本地 2060；判据与锁定参数见预注册）
+# 预注册：results/embrace_dyn/evidence/prereg_dyn_probe.md（本文件任何改动都须同步该文档并留痕）
+prereg: results/embrace_dyn/evidence/prereg_dyn_probe.md
+sequence: person_tracking2
+device: cuda:0
+ply: final_after_opt
+mask_subdir: dynamic_mask_gtmc
+mask_class: 15
+
+# 插入与拟合（所有臂同一预算/超参，不得逐臂调整）
+unproj_stride: 3
+fit_iters: 300
+lrs:
+  xyz: 5.0e-4
+  scale: 5.0e-3
+  rot: 1.0e-3
+  opa: 5.0e-2
+  dc: 5.0e-3
+
+# 阴性对照：沿相机系横轴平移 0.30m（在拟合之后施加）
+control_shift_cam_m: [0.30, 0.0, 0.0]
+
+# 内容判据锁定的评估帧与烘焙参考帧（prereg §3）
+t0_frame: 309
+frames: [2, 93, 122, 141, 178, 197, 243, 282, 309, 329, 347, 398, 421, 439, 512, 561]
+arms: [P1, P2, C-, P4]
+
+maps:
+  - tag: gate
+    run_dir: results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/datasets_bonn/r33_rebase_gate_person_tracking2/seed_0/2026-09-16-14-47-45
+  - tag: baseline
+    run_dir: results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00
+
+out: results/embrace_dyn/evidence/dyn_probe_results.json

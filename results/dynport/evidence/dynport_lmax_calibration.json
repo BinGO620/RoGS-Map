@@ -1,0 +1,41 @@
+{
+  "prereg": "results/dynport/evidence/prereg_dynport_L1.md",
+  "section": "\u00a710",
+  "date": "2026-10-06",
+  "git_head": null,
+  "scope": "crowd2, 120 frames, seed0, local 2060 PILOT (non-authoritative)",
+  "fix": "constant-velocity extrapolation (DynaGSLAM v- substitute) + Cond1 predicted-position + thr same-source",
+  "locked": {
+    "lam_d": 0.2,
+    "lmax": 45,
+    "cap": 50000,
+    "unproj_stride": 3,
+    "lineage_base": 402653184
+  },
+  "grid": [
+    {
+      "lam_d": 0.05,
+      "cond2_max": 4,
+      "cond1_max": 234961,
+      "case1_max": 467539,
+      "n_buf_last": 16031,
+      "ate_m": 0.014177234646926464
+    },
+    {
+      "lam_d": 0.12,
+      "cond2_max": 213,
+      "cond1_max": 78735,
+      "case1_max": 636338,
+      "n_buf_last": 3273,
+      "ate_m": 0.016139850650192217
+    },
+    {
+      "lam_d": 0.2,
+      "cond2_max": 335,
+      "cond1_max": 47108,
+      "case1_max": 664158,
+      "n_buf_last": 6928,
+      "ate_m": 0.01463824914482851
+    }
+  ]
+}

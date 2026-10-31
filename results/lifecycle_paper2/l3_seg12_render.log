@@ -1,0 +1,528 @@
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_off_s0/datasets_bonn/l3_person_tracking_off/seed_0/2026-09-21-06-05-29/point_cloud/final_after_opt/point_cloud.ply n=86567 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 613 degenerate primitives of 86567
+  frame 50: PSNR=15.71 SSIM=0.798 LPIPS=0.329 dL1=26.214557886123657 | static PSNR=22.7495 SSIM=0.8661 cov=0.9998 | ghost_excess=0.6808cm
+  frame 83: PSNR=15.35 SSIM=0.758 LPIPS=0.415 dL1=28.351908922195435 | static PSNR=20.9993 SSIM=0.8254 cov=1.0 | ghost_excess=-1.0168cm
+  frame 116: PSNR=16.62 SSIM=0.791 LPIPS=0.398 dL1=31.919583678245544 | static PSNR=22.1375 SSIM=0.8564 cov=0.9999 | ghost_excess=-0.0375cm
+  frame 149: PSNR=14.27 SSIM=0.764 LPIPS=0.373 dL1=25.001028180122375 | static PSNR=19.4715 SSIM=0.8162 cov=0.9995 | ghost_excess=2.9302cm
+  frame 182: PSNR=12.26 SSIM=0.754 LPIPS=0.373 dL1=31.345468759536743 | static PSNR=19.7557 SSIM=0.8486 cov=0.9993 | ghost_excess=-3.4033cm
+  frame 215: PSNR=14.71 SSIM=0.778 LPIPS=0.387 dL1=25.643661618232727 | static PSNR=21.7643 SSIM=0.8535 cov=1.0 | ghost_excess=-1.6654cm
+  frame 248: PSNR=13.76 SSIM=0.717 LPIPS=0.389 dL1=53.336602449417114 | static PSNR=19.3817 SSIM=0.809 cov=0.997 | ghost_excess=13.8983cm
+  frame 281: PSNR=18.62 SSIM=0.804 LPIPS=0.290 dL1=44.53545808792114 | static PSNR=21.2755 SSIM=0.8627 cov=0.996 | ghost_excess=12.2249cm
+  frame 314: PSNR=20.48 SSIM=0.850 LPIPS=0.235 dL1=14.552611112594604 | static PSNR=21.2901 SSIM=0.8569 cov=0.9977 | ghost_excess=6.9515cm
+  frame 347: PSNR=19.29 SSIM=0.874 LPIPS=0.220 dL1=8.0402210354805 | static PSNR=19.691 SSIM=0.8828 cov=1.0 | ghost_excess=1.8642cm
+  frame 380: PSNR=21.96 SSIM=0.881 LPIPS=0.308 dL1=10.82298457622528 | static PSNR=22.4495 SSIM=0.8873 cov=1.0 | ghost_excess=-6.7118cm
+  frame 413: PSNR=17.13 SSIM=0.805 LPIPS=0.362 dL1=14.724667370319366 | static PSNR=17.5567 SSIM=0.8188 cov=1.0 | ghost_excess=-1.0558cm
+  frame 446: PSNR=22.85 SSIM=0.813 LPIPS=0.344 dL1=14.331740140914917 | static PSNR=23.6537 SSIM=0.8195 cov=1.0 | ghost_excess=3.7192cm
+  frame 479: PSNR=22.27 SSIM=0.816 LPIPS=0.279 dL1=13.283593952655792 | static PSNR=23.2797 SSIM=0.8231 cov=1.0 | ghost_excess=1.2814cm
+  frame 512: PSNR=24.01 SSIM=0.861 LPIPS=0.202 dL1=13.804467022418976 | static PSNR=25.4613 SSIM=0.8752 cov=1.0 | ghost_excess=0.5872cm
+  frame 545: PSNR=23.73 SSIM=0.886 LPIPS=0.188 dL1=13.849051296710968 | static PSNR=24.6194 SSIM=0.8944 cov=0.9999 | ghost_excess=-1.724cm
+  frame 578: PSNR=23.83 SSIM=0.888 LPIPS=0.187 dL1=13.733361661434174 | static PSNR=24.8058 SSIM=0.896 cov=0.9999 | ghost_excess=-1.8365cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_off_s0_seg12dense  mean PSNR=18.6389 SSIM=0.814 LPIPS=0.3106 | static PSNR=21.7848 cov=0.9994 | ghost_excess=1.5698cm | freshvac_excess(w=30)=5.0066cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_off_s1/datasets_bonn/l3_person_tracking_off/seed_1/2026-09-21-06-03-13/point_cloud/final_after_opt/point_cloud.ply n=66608 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 589 degenerate primitives of 66608
+  frame 50: PSNR=15.64 SSIM=0.788 LPIPS=0.343 dL1=25.090518593788147 | static PSNR=22.9644 SSIM=0.8604 cov=0.9999 | ghost_excess=0.1742cm
+  frame 83: PSNR=15.64 SSIM=0.761 LPIPS=0.412 dL1=26.675057411193848 | static PSNR=19.7706 SSIM=0.8262 cov=0.9978 | ghost_excess=-2.3918cm
+  frame 116: PSNR=15.69 SSIM=0.781 LPIPS=0.402 dL1=29.505518078804016 | static PSNR=19.0438 SSIM=0.8505 cov=0.9995 | ghost_excess=-1.2291cm
+  frame 149: PSNR=13.97 SSIM=0.765 LPIPS=0.400 dL1=25.577425956726074 | static PSNR=18.4025 SSIM=0.8156 cov=0.9983 | ghost_excess=-0.942cm
+  frame 182: PSNR=12.02 SSIM=0.748 LPIPS=0.389 dL1=32.324960827827454 | static PSNR=18.4526 SSIM=0.8386 cov=0.9977 | ghost_excess=0.1027cm
+  frame 215: PSNR=14.04 SSIM=0.766 LPIPS=0.391 dL1=24.179694056510925 | static PSNR=20.0119 SSIM=0.8462 cov=1.0 | ghost_excess=-2.8007cm
+  frame 248: PSNR=13.44 SSIM=0.726 LPIPS=0.395 dL1=38.4407639503479 | static PSNR=18.5635 SSIM=0.8135 cov=0.9982 | ghost_excess=6.6494cm
+  frame 281: PSNR=15.59 SSIM=0.776 LPIPS=0.323 dL1=35.990333557128906 | static PSNR=20.0131 SSIM=0.8449 cov=0.9948 | ghost_excess=10.9958cm
+  frame 314: PSNR=19.41 SSIM=0.848 LPIPS=0.233 dL1=13.107694685459137 | static PSNR=20.7115 SSIM=0.8581 cov=0.996 | ghost_excess=8.2634cm
+  frame 347: PSNR=20.39 SSIM=0.880 LPIPS=0.233 dL1=6.7174263298511505 | static PSNR=21.12 SSIM=0.8895 cov=1.0 | ghost_excess=0.7803cm
+  frame 380: PSNR=18.87 SSIM=0.871 LPIPS=0.332 dL1=8.15201923251152 | static PSNR=19.0453 SSIM=0.8762 cov=1.0 | ghost_excess=-4.5171cm
+  frame 413: PSNR=15.65 SSIM=0.803 LPIPS=0.377 dL1=20.38237601518631 | static PSNR=15.996 SSIM=0.8164 cov=1.0 | ghost_excess=4.118cm
+  frame 446: PSNR=20.03 SSIM=0.819 LPIPS=0.367 dL1=13.345862925052643 | static PSNR=20.6352 SSIM=0.8239 cov=0.9994 | ghost_excess=3.7913cm
+  frame 479: PSNR=18.06 SSIM=0.771 LPIPS=0.350 dL1=9.97234657406807 | static PSNR=18.2408 SSIM=0.7765 cov=1.0 | ghost_excess=-1.6378cm
+  frame 512: PSNR=22.32 SSIM=0.848 LPIPS=0.218 dL1=10.811995714902878 | static PSNR=23.0739 SSIM=0.8637 cov=1.0 | ghost_excess=-0.2963cm
+  frame 545: PSNR=23.59 SSIM=0.883 LPIPS=0.202 dL1=11.177151650190353 | static PSNR=24.1941 SSIM=0.8918 cov=1.0 | ghost_excess=-0.2241cm
+  frame 578: PSNR=23.57 SSIM=0.883 LPIPS=0.199 dL1=11.319369822740555 | static PSNR=24.1441 SSIM=0.8903 cov=1.0 | ghost_excess=-0.4329cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_off_s1_seg12dense  mean PSNR=17.5242 SSIM=0.807 LPIPS=0.3273 | static PSNR=20.2578 cov=0.9989 | ghost_excess=1.2002cm | freshvac_excess(w=30)=4.0329cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_off_s2/datasets_bonn/l3_person_tracking_off/seed_2/2026-09-21-06-30-15/point_cloud/final_after_opt/point_cloud.ply n=55775 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 623 degenerate primitives of 55775
+  frame 50: PSNR=14.90 SSIM=0.782 LPIPS=0.343 dL1=26.55186653137207 | static PSNR=21.139 SSIM=0.8531 cov=0.9999 | ghost_excess=0.3235cm
+  frame 83: PSNR=15.33 SSIM=0.754 LPIPS=0.406 dL1=27.751171588897705 | static PSNR=21.7281 SSIM=0.8205 cov=0.9999 | ghost_excess=1.6236cm
+  frame 116: PSNR=17.14 SSIM=0.793 LPIPS=0.386 dL1=29.911181330680847 | static PSNR=23.2095 SSIM=0.8611 cov=0.9999 | ghost_excess=1.6501cm
+  frame 149: PSNR=14.41 SSIM=0.769 LPIPS=0.395 dL1=24.606497585773468 | static PSNR=20.5372 SSIM=0.8205 cov=1.0 | ghost_excess=-3.9425cm
+  frame 182: PSNR=12.15 SSIM=0.747 LPIPS=0.383 dL1=27.58415937423706 | static PSNR=19.7269 SSIM=0.8397 cov=1.0 | ghost_excess=-3.328cm
+  frame 215: PSNR=14.37 SSIM=0.771 LPIPS=0.385 dL1=22.90004938840866 | static PSNR=21.4367 SSIM=0.8488 cov=1.0 | ghost_excess=-1.3426cm
+  frame 248: PSNR=12.71 SSIM=0.665 LPIPS=0.420 dL1=41.387876868247986 | static PSNR=17.9013 SSIM=0.7572 cov=1.0 | ghost_excess=8.7409cm
+  frame 281: PSNR=16.94 SSIM=0.782 LPIPS=0.326 dL1=35.72644293308258 | static PSNR=20.4509 SSIM=0.837 cov=0.9982 | ghost_excess=8.8711cm
+  frame 314: PSNR=18.90 SSIM=0.840 LPIPS=0.264 dL1=13.457861542701721 | static PSNR=19.6725 SSIM=0.8473 cov=1.0 | ghost_excess=3.8187cm
+  frame 347: PSNR=20.75 SSIM=0.885 LPIPS=0.217 dL1=8.550657331943512 | static PSNR=21.1907 SSIM=0.8921 cov=1.0 | ghost_excess=2.4487cm
+  frame 380: PSNR=23.44 SSIM=0.883 LPIPS=0.313 dL1=6.91915825009346 | static PSNR=24.1424 SSIM=0.8883 cov=1.0 | ghost_excess=0.0451cm
+  frame 413: PSNR=15.93 SSIM=0.800 LPIPS=0.366 dL1=9.567178785800934 | static PSNR=16.456 SSIM=0.8137 cov=1.0 | ghost_excess=-2.8938cm
+  frame 446: PSNR=20.89 SSIM=0.811 LPIPS=0.360 dL1=11.430322378873825 | static PSNR=21.3516 SSIM=0.8169 cov=1.0 | ghost_excess=1.3712cm
+  frame 479: PSNR=20.15 SSIM=0.781 LPIPS=0.311 dL1=10.148338228464127 | static PSNR=20.859 SSIM=0.7902 cov=1.0 | ghost_excess=-1.3912cm
+  frame 512: PSNR=23.30 SSIM=0.866 LPIPS=0.211 dL1=11.67079210281372 | static PSNR=24.7068 SSIM=0.8777 cov=1.0 | ghost_excess=-1.8257cm
+  frame 545: PSNR=23.61 SSIM=0.875 LPIPS=0.220 dL1=11.874499171972275 | static PSNR=24.9602 SSIM=0.884 cov=0.9999 | ghost_excess=-2.5315cm
+  frame 578: PSNR=23.56 SSIM=0.872 LPIPS=0.215 dL1=11.82403564453125 | static PSNR=25.1463 SSIM=0.8809 cov=1.0 | ghost_excess=-2.3596cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_off_s2_seg12dense  mean PSNR=18.1456 SSIM=0.8045 LPIPS=0.3246 | static PSNR=21.4479 cov=0.9999 | ghost_excess=0.5458cm | freshvac_excess(w=30)=3.9613cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_exit_s0/datasets_bonn/l3_person_tracking_exit/seed_0/2026-09-21-06-26-42/point_cloud/final_after_opt/point_cloud.ply n=60002 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 607 degenerate primitives of 60002
+  frame 50: PSNR=15.57 SSIM=0.760 LPIPS=0.386 dL1=26.929393410682678 | static PSNR=20.6615 SSIM=0.8291 cov=0.9998 | ghost_excess=-2.3527cm
+  frame 83: PSNR=15.33 SSIM=0.746 LPIPS=0.442 dL1=32.78363049030304 | static PSNR=19.9952 SSIM=0.8118 cov=1.0 | ghost_excess=-1.526cm
+  frame 116: PSNR=16.18 SSIM=0.774 LPIPS=0.430 dL1=35.50063073635101 | static PSNR=19.7353 SSIM=0.8353 cov=1.0 | ghost_excess=0.3371cm
+  frame 149: PSNR=14.31 SSIM=0.756 LPIPS=0.408 dL1=28.646087646484375 | static PSNR=19.5137 SSIM=0.8064 cov=1.0 | ghost_excess=6.1378cm
+  frame 182: PSNR=11.64 SSIM=0.728 LPIPS=0.420 dL1=34.56881642341614 | static PSNR=17.9445 SSIM=0.8163 cov=1.0 | ghost_excess=0.3636cm
+  frame 215: PSNR=14.34 SSIM=0.767 LPIPS=0.402 dL1=29.148167371749878 | static PSNR=20.8036 SSIM=0.8445 cov=1.0 | ghost_excess=0.1308cm
+  frame 248: PSNR=12.99 SSIM=0.718 LPIPS=0.408 dL1=42.51808226108551 | static PSNR=18.8443 SSIM=0.8072 cov=1.0 | ghost_excess=5.7428cm
+  frame 281: PSNR=15.66 SSIM=0.785 LPIPS=0.323 dL1=38.39714527130127 | static PSNR=20.8268 SSIM=0.8555 cov=0.9938 | ghost_excess=9.8806cm
+  frame 314: PSNR=19.90 SSIM=0.844 LPIPS=0.259 dL1=11.38983964920044 | static PSNR=20.7045 SSIM=0.8503 cov=1.0 | ghost_excess=2.3993cm
+  frame 347: PSNR=19.36 SSIM=0.878 LPIPS=0.230 dL1=7.459702342748642 | static PSNR=20.2381 SSIM=0.8875 cov=1.0 | ghost_excess=2.9349cm
+  frame 380: PSNR=18.52 SSIM=0.869 LPIPS=0.329 dL1=8.13121497631073 | static PSNR=18.8305 SSIM=0.8749 cov=1.0 | ghost_excess=-4.2741cm
+  frame 413: PSNR=16.40 SSIM=0.788 LPIPS=0.403 dL1=12.77056485414505 | static PSNR=16.8345 SSIM=0.7986 cov=1.0 | ghost_excess=-0.4281cm
+  frame 446: PSNR=20.70 SSIM=0.817 LPIPS=0.386 dL1=11.957341432571411 | static PSNR=21.5492 SSIM=0.8219 cov=1.0 | ghost_excess=1.1774cm
+  frame 479: PSNR=17.74 SSIM=0.756 LPIPS=0.353 dL1=11.870695650577545 | static PSNR=17.8511 SSIM=0.7636 cov=1.0 | ghost_excess=0.7647cm
+  frame 512: PSNR=21.39 SSIM=0.831 LPIPS=0.254 dL1=12.204325944185257 | static PSNR=22.0332 SSIM=0.8477 cov=1.0 | ghost_excess=-1.3613cm
+  frame 545: PSNR=22.74 SSIM=0.854 LPIPS=0.247 dL1=13.174712657928467 | static PSNR=23.2771 SSIM=0.8636 cov=0.9998 | ghost_excess=-3.5937cm
+  frame 578: PSNR=22.26 SSIM=0.851 LPIPS=0.248 dL1=13.115164637565613 | static PSNR=22.7464 SSIM=0.86 cov=0.9999 | ghost_excess=-4.0498cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_exit_s0_seg12dense  mean PSNR=17.3538 SSIM=0.7954 LPIPS=0.3487 | static PSNR=20.1406 cov=0.9996 | ghost_excess=0.7225cm | freshvac_excess(w=30)=3.5053cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_exit_s1/datasets_bonn/l3_person_tracking_exit/seed_1/2026-09-21-06-54-27/point_cloud/final_after_opt/point_cloud.ply n=61897 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 570 degenerate primitives of 61897
+  frame 50: PSNR=15.54 SSIM=0.787 LPIPS=0.347 dL1=25.200986862182617 | static PSNR=22.1781 SSIM=0.854 cov=1.0 | ghost_excess=2.6763cm
+  frame 83: PSNR=15.08 SSIM=0.742 LPIPS=0.428 dL1=29.922696948051453 | static PSNR=19.6169 SSIM=0.8117 cov=0.9992 | ghost_excess=-2.8281cm
+  frame 116: PSNR=16.87 SSIM=0.784 LPIPS=0.405 dL1=31.9728285074234 | static PSNR=21.3406 SSIM=0.8464 cov=1.0 | ghost_excess=0.325cm
+  frame 149: PSNR=14.42 SSIM=0.752 LPIPS=0.412 dL1=24.565285444259644 | static PSNR=19.5218 SSIM=0.8035 cov=0.9984 | ghost_excess=-2.1401cm
+  frame 182: PSNR=11.76 SSIM=0.734 LPIPS=0.395 dL1=30.1244854927063 | static PSNR=18.4254 SSIM=0.8269 cov=0.9973 | ghost_excess=-0.3686cm
+  frame 215: PSNR=14.30 SSIM=0.770 LPIPS=0.392 dL1=24.139076471328735 | static PSNR=21.6373 SSIM=0.8489 cov=1.0 | ghost_excess=-2.8562cm
+  frame 248: PSNR=12.81 SSIM=0.703 LPIPS=0.414 dL1=44.49354112148285 | static PSNR=17.5308 SSIM=0.7946 cov=0.988 | ghost_excess=7.7515cm
+  frame 281: PSNR=17.83 SSIM=0.795 LPIPS=0.304 dL1=34.3714565038681 | static PSNR=19.8391 SSIM=0.8454 cov=0.9951 | ghost_excess=9.1403cm
+  frame 314: PSNR=20.46 SSIM=0.853 LPIPS=0.236 dL1=11.526214331388474 | static PSNR=21.1726 SSIM=0.8611 cov=1.0 | ghost_excess=6.5126cm
+  frame 347: PSNR=18.63 SSIM=0.876 LPIPS=0.226 dL1=7.546593993902206 | static PSNR=18.8467 SSIM=0.8822 cov=1.0 | ghost_excess=0.8882cm
+  frame 380: PSNR=20.35 SSIM=0.879 LPIPS=0.306 dL1=7.970612496137619 | static PSNR=20.906 SSIM=0.8853 cov=1.0 | ghost_excess=-5.3153cm
+  frame 413: PSNR=15.69 SSIM=0.792 LPIPS=0.378 dL1=12.893283367156982 | static PSNR=16.125 SSIM=0.8063 cov=0.9999 | ghost_excess=-0.2039cm
+  frame 446: PSNR=19.04 SSIM=0.810 LPIPS=0.366 dL1=11.607377231121063 | static PSNR=19.8999 SSIM=0.8177 cov=0.9997 | ghost_excess=0.1036cm
+  frame 479: PSNR=19.10 SSIM=0.777 LPIPS=0.323 dL1=11.982142180204391 | static PSNR=19.3239 SSIM=0.7813 cov=0.9993 | ghost_excess=-2.0758cm
+  frame 512: PSNR=23.47 SSIM=0.858 LPIPS=0.212 dL1=12.416087836027145 | static PSNR=24.8048 SSIM=0.8755 cov=0.9999 | ghost_excess=-2.972cm
+  frame 545: PSNR=25.80 SSIM=0.893 LPIPS=0.188 dL1=13.163992762565613 | static PSNR=27.6336 SSIM=0.9048 cov=0.9997 | ghost_excess=-4.368cm
+  frame 578: PSNR=25.10 SSIM=0.888 LPIPS=0.191 dL1=12.882804870605469 | static PSNR=26.8206 SSIM=0.8983 cov=0.9997 | ghost_excess=-4.5478cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_exit_s1_seg12dense  mean PSNR=18.0148 SSIM=0.8054 LPIPS=0.3249 | static PSNR=20.919 cov=0.9986 | ghost_excess=-0.0164cm | freshvac_excess(w=30)=4.2651cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking_exit_s2/datasets_bonn/l3_person_tracking_exit/seed_2/2026-09-21-06-49-15/point_cloud/final_after_opt/point_cloud.ply n=59613 sh=0
+[render_compare] N=580 render frames=[50, 83, 116, 149, 182, 215, 248, 281, 314, 347, 380, 413, 446, 479, 512, 545, 578]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 604 degenerate primitives of 59613
+  frame 50: PSNR=15.26 SSIM=0.781 LPIPS=0.342 dL1=27.3747980594635 | static PSNR=21.9942 SSIM=0.8514 cov=1.0 | ghost_excess=3.6857cm
+  frame 83: PSNR=15.69 SSIM=0.762 LPIPS=0.415 dL1=32.78980553150177 | static PSNR=21.8839 SSIM=0.8291 cov=0.9981 | ghost_excess=2.2522cm
+  frame 116: PSNR=16.60 SSIM=0.785 LPIPS=0.407 dL1=34.388190507888794 | static PSNR=22.3035 SSIM=0.8537 cov=1.0 | ghost_excess=7.9015cm
+  frame 149: PSNR=14.56 SSIM=0.767 LPIPS=0.397 dL1=26.626601815223694 | static PSNR=21.0458 SSIM=0.8211 cov=0.9993 | ghost_excess=11.6234cm
+  frame 182: PSNR=12.49 SSIM=0.760 LPIPS=0.390 dL1=33.44509303569794 | static PSNR=20.1756 SSIM=0.85 cov=0.9996 | ghost_excess=-1.8162cm
+  frame 215: PSNR=14.49 SSIM=0.757 LPIPS=0.403 dL1=24.424901604652405 | static PSNR=21.1509 SSIM=0.8382 cov=1.0 | ghost_excess=0.5199cm
+  frame 248: PSNR=12.83 SSIM=0.688 LPIPS=0.408 dL1=48.8640159368515 | static PSNR=17.3654 SSIM=0.7682 cov=0.9837 | ghost_excess=8.4618cm
+  frame 281: PSNR=15.43 SSIM=0.748 LPIPS=0.355 dL1=42.54893660545349 | static PSNR=17.5155 SSIM=0.8046 cov=0.9798 | ghost_excess=10.1649cm
+  frame 314: PSNR=18.38 SSIM=0.811 LPIPS=0.276 dL1=14.15531039237976 | static PSNR=18.9429 SSIM=0.8168 cov=0.9939 | ghost_excess=6.3717cm
+  frame 347: PSNR=20.84 SSIM=0.883 LPIPS=0.225 dL1=8.753139525651932 | static PSNR=21.5452 SSIM=0.8912 cov=1.0 | ghost_excess=-0.291cm
+  frame 380: PSNR=22.76 SSIM=0.879 LPIPS=0.319 dL1=10.175319015979767 | static PSNR=23.279 SSIM=0.8846 cov=1.0 | ghost_excess=-4.6891cm
+  frame 413: PSNR=16.81 SSIM=0.798 LPIPS=0.387 dL1=16.61514639854431 | static PSNR=17.2416 SSIM=0.8104 cov=1.0 | ghost_excess=-5.1856cm
+  frame 446: PSNR=20.63 SSIM=0.818 LPIPS=0.370 dL1=15.759548544883728 | static PSNR=21.0693 SSIM=0.8231 cov=0.9988 | ghost_excess=7.2072cm
+  frame 479: PSNR=17.79 SSIM=0.753 LPIPS=0.355 dL1=12.00108751654625 | static PSNR=18.0698 SSIM=0.7663 cov=1.0 | ghost_excess=-2.4232cm
+  frame 512: PSNR=21.71 SSIM=0.849 LPIPS=0.227 dL1=13.23205977678299 | static PSNR=22.5085 SSIM=0.864 cov=1.0 | ghost_excess=0.0947cm
+  frame 545: PSNR=22.44 SSIM=0.864 LPIPS=0.226 dL1=13.693884015083313 | static PSNR=23.4371 SSIM=0.8755 cov=1.0 | ghost_excess=-0.7963cm
+  frame 578: PSNR=21.67 SSIM=0.860 LPIPS=0.230 dL1=13.454076647758484 | static PSNR=22.4273 SSIM=0.8701 cov=1.0 | ghost_excess=-1.4542cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking_exit_s2_seg12dense  mean PSNR=17.6709 SSIM=0.7978 LPIPS=0.3372 | static PSNR=20.7033 cov=0.9972 | ghost_excess=2.4487cm | freshvac_excess(w=30)=4.2156cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_off_s0/datasets_bonn/l3_person_tracking2_off/seed_0/2026-09-21-07-18-04/point_cloud/final_after_opt/point_cloud.ply n=53084 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 517 degenerate primitives of 53084
+  frame 50: PSNR=16.03 SSIM=0.768 LPIPS=0.330 dL1=28.347808122634888 | static PSNR=20.4798 SSIM=0.8447 cov=0.9999 | ghost_excess=-6.5938cm
+  frame 82: PSNR=13.28 SSIM=0.747 LPIPS=0.423 dL1=34.49615836143494 | static PSNR=17.7163 SSIM=0.8419 cov=0.9974 | ghost_excess=9.5993cm
+  frame 114: PSNR=16.16 SSIM=0.787 LPIPS=0.368 dL1=34.43816006183624 | static PSNR=20.4478 SSIM=0.8551 cov=0.998 | ghost_excess=6.0318cm
+  frame 147: PSNR=12.46 SSIM=0.696 LPIPS=0.408 dL1=27.895936369895935 | static PSNR=18.8435 SSIM=0.7765 cov=0.998 | ghost_excess=4.5459cm
+  frame 179: PSNR=12.80 SSIM=0.662 LPIPS=0.407 dL1=24.54187422990799 | static PSNR=17.316 SSIM=0.7419 cov=0.9995 | ghost_excess=0.3222cm
+  frame 211: PSNR=13.77 SSIM=0.758 LPIPS=0.368 dL1=25.15069842338562 | static PSNR=20.6101 SSIM=0.8548 cov=0.9994 | ghost_excess=-3.584cm
+  frame 243: PSNR=12.95 SSIM=0.748 LPIPS=0.360 dL1=30.660420656204224 | static PSNR=19.071 SSIM=0.8386 cov=0.9934 | ghost_excess=3.1896cm
+  frame 275: PSNR=13.94 SSIM=0.752 LPIPS=0.365 dL1=51.37345790863037 | static PSNR=18.2003 SSIM=0.8204 cov=0.9711 | ghost_excess=-5.9627cm
+  frame 308: PSNR=15.80 SSIM=0.771 LPIPS=0.340 dL1=46.772462129592896 | static PSNR=18.9542 SSIM=0.8335 cov=0.9745 | ghost_excess=-6.0159cm
+  frame 340: PSNR=21.97 SSIM=0.873 LPIPS=0.211 dL1=12.862204015254974 | static PSNR=22.9455 SSIM=0.8839 cov=1.0 | ghost_excess=-0.8244cm
+  frame 372: PSNR=20.50 SSIM=0.843 LPIPS=0.188 dL1=8.610748499631882 | static PSNR=21.4086 SSIM=0.8468 cov=1.0 | ghost_excess=-1.1311cm
+  frame 404: PSNR=15.05 SSIM=0.821 LPIPS=0.272 dL1=8.19588303565979 | static PSNR=15.3135 SSIM=0.8341 cov=1.0 | ghost_excess=2.8035cm
+  frame 436: PSNR=12.08 SSIM=0.812 LPIPS=0.368 dL1=10.114630311727524 | static PSNR=12.2353 SSIM=0.8201 cov=1.0 | ghost_excess=-0.8059cm
+  frame 468: PSNR=19.42 SSIM=0.830 LPIPS=0.279 dL1=11.757662147283554 | static PSNR=19.9883 SSIM=0.8439 cov=0.9964 | ghost_excess=0.4873cm
+  frame 501: PSNR=20.52 SSIM=0.854 LPIPS=0.254 dL1=13.722403347492218 | static PSNR=21.1789 SSIM=0.865 cov=0.996 | ghost_excess=2.2249cm
+  frame 533: PSNR=18.22 SSIM=0.851 LPIPS=0.265 dL1=16.261428594589233 | static PSNR=18.4455 SSIM=0.8568 cov=0.9972 | ghost_excess=-1.4254cm
+  frame 565: PSNR=18.07 SSIM=0.844 LPIPS=0.285 dL1=15.973848104476929 | static PSNR=18.2887 SSIM=0.8509 cov=0.9981 | ghost_excess=-1.4799cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_off_s0_seg12dense  mean PSNR=16.0595 SSIM=0.7892 LPIPS=0.3231 | static PSNR=18.9084 cov=0.9952 | ghost_excess=0.0813cm | freshvac_excess(w=30)=1.3211cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_off_s1/datasets_bonn/l3_person_tracking2_off/seed_1/2026-09-21-07-11-16/point_cloud/final_after_opt/point_cloud.ply n=127037 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 560 degenerate primitives of 127037
+  frame 50: PSNR=19.26 SSIM=0.803 LPIPS=0.300 dL1=29.346099495887756 | static PSNR=21.8349 SSIM=0.8614 cov=1.0 | ghost_excess=-0.2376cm
+  frame 82: PSNR=14.44 SSIM=0.736 LPIPS=0.436 dL1=33.02035331726074 | static PSNR=18.8743 SSIM=0.8295 cov=0.9997 | ghost_excess=10.4745cm
+  frame 114: PSNR=16.61 SSIM=0.795 LPIPS=0.375 dL1=34.67927873134613 | static PSNR=20.9803 SSIM=0.8608 cov=0.9997 | ghost_excess=8.8347cm
+  frame 147: PSNR=12.44 SSIM=0.707 LPIPS=0.394 dL1=27.910766005516052 | static PSNR=18.6733 SSIM=0.7825 cov=0.9995 | ghost_excess=1.6906cm
+  frame 179: PSNR=13.39 SSIM=0.710 LPIPS=0.394 dL1=25.876709818840027 | static PSNR=18.2766 SSIM=0.8004 cov=1.0 | ghost_excess=1.9347cm
+  frame 211: PSNR=13.86 SSIM=0.780 LPIPS=0.327 dL1=26.708748936653137 | static PSNR=21.7383 SSIM=0.8786 cov=1.0 | ghost_excess=3.7805cm
+  frame 243: PSNR=13.57 SSIM=0.773 LPIPS=0.324 dL1=33.565619587898254 | static PSNR=20.1756 SSIM=0.8654 cov=0.9998 | ghost_excess=2.1913cm
+  frame 275: PSNR=14.90 SSIM=0.784 LPIPS=0.327 dL1=40.287232398986816 | static PSNR=21.4145 SSIM=0.8594 cov=0.9998 | ghost_excess=0.4397cm
+  frame 308: PSNR=15.83 SSIM=0.795 LPIPS=0.302 dL1=44.029635190963745 | static PSNR=21.1429 SSIM=0.8666 cov=1.0 | ghost_excess=0.3898cm
+  frame 340: PSNR=20.63 SSIM=0.872 LPIPS=0.199 dL1=15.359503030776978 | static PSNR=21.4243 SSIM=0.8828 cov=1.0 | ghost_excess=-1.5888cm
+  frame 372: PSNR=21.16 SSIM=0.873 LPIPS=0.163 dL1=10.230138897895813 | static PSNR=22.129 SSIM=0.8783 cov=1.0 | ghost_excess=-3.1322cm
+  frame 404: PSNR=16.05 SSIM=0.847 LPIPS=0.230 dL1=10.629577189683914 | static PSNR=16.1415 SSIM=0.8584 cov=1.0 | ghost_excess=3.3402cm
+  frame 436: PSNR=12.04 SSIM=0.829 LPIPS=0.324 dL1=13.483810424804688 | static PSNR=12.1855 SSIM=0.8374 cov=1.0 | ghost_excess=-0.4577cm
+  frame 468: PSNR=20.95 SSIM=0.843 LPIPS=0.260 dL1=13.38239312171936 | static PSNR=21.5057 SSIM=0.8531 cov=1.0 | ghost_excess=3.6065cm
+  frame 501: PSNR=21.30 SSIM=0.839 LPIPS=0.258 dL1=13.684657216072083 | static PSNR=22.0844 SSIM=0.8505 cov=1.0 | ghost_excess=5.1564cm
+  frame 533: PSNR=20.10 SSIM=0.840 LPIPS=0.262 dL1=14.527267217636108 | static PSNR=20.4955 SSIM=0.8432 cov=1.0 | ghost_excess=-2.5626cm
+  frame 565: PSNR=19.92 SSIM=0.849 LPIPS=0.260 dL1=14.097081124782562 | static PSNR=20.1974 SSIM=0.8515 cov=1.0 | ghost_excess=-2.4687cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_off_s1_seg12dense  mean PSNR=16.8501 SSIM=0.8044 LPIPS=0.302 | static PSNR=19.9573 cov=0.9999 | ghost_excess=1.8465cm | freshvac_excess(w=30)=4.2143cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_off_s2/datasets_bonn/l3_person_tracking2_off/seed_2/2026-09-21-07-40-38/point_cloud/final_after_opt/point_cloud.ply n=88531 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 609 degenerate primitives of 88531
+  frame 50: PSNR=17.65 SSIM=0.781 LPIPS=0.325 dL1=29.018253087997437 | static PSNR=20.5918 SSIM=0.8445 cov=0.9999 | ghost_excess=-3.9721cm
+  frame 82: PSNR=13.31 SSIM=0.729 LPIPS=0.424 dL1=33.196231722831726 | static PSNR=17.1644 SSIM=0.8187 cov=0.9993 | ghost_excess=10.0975cm
+  frame 114: PSNR=17.15 SSIM=0.785 LPIPS=0.350 dL1=33.75783562660217 | static PSNR=22.5346 SSIM=0.8508 cov=0.9994 | ghost_excess=4.3883cm
+  frame 147: PSNR=12.06 SSIM=0.712 LPIPS=0.412 dL1=29.397636651992798 | static PSNR=19.093 SSIM=0.7884 cov=0.9989 | ghost_excess=2.939cm
+  frame 179: PSNR=12.90 SSIM=0.720 LPIPS=0.376 dL1=24.046583473682404 | static PSNR=19.8177 SSIM=0.8139 cov=1.0 | ghost_excess=2.1225cm
+  frame 211: PSNR=13.12 SSIM=0.771 LPIPS=0.358 dL1=25.043484568595886 | static PSNR=20.8668 SSIM=0.8707 cov=1.0 | ghost_excess=1.5042cm
+  frame 243: PSNR=13.09 SSIM=0.770 LPIPS=0.345 dL1=32.95001983642578 | static PSNR=18.584 SSIM=0.8579 cov=1.0 | ghost_excess=3.7833cm
+  frame 275: PSNR=14.33 SSIM=0.773 LPIPS=0.334 dL1=42.44686961174011 | static PSNR=19.786 SSIM=0.8462 cov=0.9967 | ghost_excess=-2.6695cm
+  frame 308: PSNR=16.16 SSIM=0.790 LPIPS=0.317 dL1=41.51806831359863 | static PSNR=21.0239 SSIM=0.8583 cov=0.996 | ghost_excess=-4.9037cm
+  frame 340: PSNR=19.65 SSIM=0.860 LPIPS=0.216 dL1=12.690848112106323 | static PSNR=20.2587 SSIM=0.8703 cov=1.0 | ghost_excess=0.7016cm
+  frame 372: PSNR=19.39 SSIM=0.856 LPIPS=0.176 dL1=9.874354302883148 | static PSNR=20.1697 SSIM=0.8617 cov=1.0 | ghost_excess=-1.0698cm
+  frame 404: PSNR=14.24 SSIM=0.819 LPIPS=0.261 dL1=10.361605882644653 | static PSNR=14.3226 SSIM=0.8311 cov=1.0 | ghost_excess=2.576cm
+  frame 436: PSNR=11.32 SSIM=0.788 LPIPS=0.363 dL1=13.543109595775604 | static PSNR=11.5978 SSIM=0.8 cov=1.0 | ghost_excess=-1.4314cm
+  frame 468: PSNR=19.13 SSIM=0.828 LPIPS=0.289 dL1=12.01125681400299 | static PSNR=19.2375 SSIM=0.8366 cov=1.0 | ghost_excess=0.6096cm
+  frame 501: PSNR=20.95 SSIM=0.841 LPIPS=0.262 dL1=12.905529141426086 | static PSNR=21.4964 SSIM=0.8506 cov=1.0 | ghost_excess=4.3069cm
+  frame 533: PSNR=19.69 SSIM=0.834 LPIPS=0.267 dL1=13.121864199638367 | static PSNR=19.8334 SSIM=0.8369 cov=0.9999 | ghost_excess=-0.8041cm
+  frame 565: PSNR=19.73 SSIM=0.844 LPIPS=0.259 dL1=12.73835301399231 | static PSNR=19.807 SSIM=0.8451 cov=0.9999 | ghost_excess=-1.0402cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_off_s2_seg12dense  mean PSNR=16.1098 SSIM=0.7942 LPIPS=0.3138 | static PSNR=19.1874 cov=0.9994 | ghost_excess=1.0081cm | freshvac_excess(w=30)=1.0209cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_exit_s0/datasets_bonn/l3_person_tracking2_exit/seed_0/2026-09-21-07-32-53/point_cloud/final_after_opt/point_cloud.ply n=115030 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 558 degenerate primitives of 115030
+  frame 50: PSNR=16.36 SSIM=0.756 LPIPS=0.362 dL1=30.65257966518402 | static PSNR=17.6467 SSIM=0.8123 cov=1.0 | ghost_excess=-4.7608cm
+  frame 82: PSNR=13.03 SSIM=0.741 LPIPS=0.430 dL1=36.11044883728027 | static PSNR=18.1216 SSIM=0.8382 cov=1.0 | ghost_excess=11.2583cm
+  frame 114: PSNR=16.02 SSIM=0.775 LPIPS=0.391 dL1=39.53905701637268 | static PSNR=20.8877 SSIM=0.8446 cov=1.0 | ghost_excess=4.1133cm
+  frame 147: PSNR=11.97 SSIM=0.703 LPIPS=0.433 dL1=32.715073227882385 | static PSNR=17.2142 SSIM=0.7807 cov=1.0 | ghost_excess=7.7342cm
+  frame 179: PSNR=13.04 SSIM=0.705 LPIPS=0.397 dL1=28.561747074127197 | static PSNR=17.4508 SSIM=0.79 cov=1.0 | ghost_excess=4.0503cm
+  frame 211: PSNR=14.34 SSIM=0.770 LPIPS=0.348 dL1=28.713086247444153 | static PSNR=22.5581 SSIM=0.8678 cov=1.0 | ghost_excess=-0.0466cm
+  frame 243: PSNR=14.02 SSIM=0.783 LPIPS=0.321 dL1=37.02691197395325 | static PSNR=21.5141 SSIM=0.8744 cov=0.9994 | ghost_excess=1.3669cm
+  frame 275: PSNR=14.60 SSIM=0.790 LPIPS=0.318 dL1=43.2575523853302 | static PSNR=21.4906 SSIM=0.8662 cov=0.9992 | ghost_excess=2.1805cm
+  frame 308: PSNR=14.90 SSIM=0.796 LPIPS=0.308 dL1=47.097110748291016 | static PSNR=21.5992 SSIM=0.872 cov=1.0 | ghost_excess=-0.4197cm
+  frame 340: PSNR=22.14 SSIM=0.886 LPIPS=0.185 dL1=16.955535113811493 | static PSNR=23.707 SSIM=0.897 cov=1.0 | ghost_excess=-1.6806cm
+  frame 372: PSNR=21.67 SSIM=0.845 LPIPS=0.163 dL1=11.70317828655243 | static PSNR=22.8885 SSIM=0.8495 cov=1.0 | ghost_excess=-4.1779cm
+  frame 404: PSNR=16.49 SSIM=0.836 LPIPS=0.237 dL1=13.751232624053955 | static PSNR=16.5143 SSIM=0.8486 cov=1.0 | ghost_excess=3.7849cm
+  frame 436: PSNR=11.79 SSIM=0.803 LPIPS=0.371 dL1=16.80428385734558 | static PSNR=11.9613 SSIM=0.8126 cov=1.0 | ghost_excess=0.0101cm
+  frame 468: PSNR=19.95 SSIM=0.853 LPIPS=0.276 dL1=20.19430100917816 | static PSNR=20.5833 SSIM=0.8624 cov=0.9999 | ghost_excess=5.9175cm
+  frame 501: PSNR=21.34 SSIM=0.859 LPIPS=0.248 dL1=20.5898255109787 | static PSNR=22.0904 SSIM=0.8715 cov=0.9998 | ghost_excess=2.7332cm
+  frame 533: PSNR=21.04 SSIM=0.859 LPIPS=0.243 dL1=19.541747868061066 | static PSNR=22.1316 SSIM=0.8677 cov=0.9998 | ghost_excess=0.2666cm
+  frame 565: PSNR=20.57 SSIM=0.850 LPIPS=0.263 dL1=18.911446630954742 | static PSNR=21.5759 SSIM=0.8575 cov=0.9999 | ghost_excess=0.1019cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_exit_s0_seg12dense  mean PSNR=16.6631 SSIM=0.8005 LPIPS=0.3114 | static PSNR=19.9962 cov=0.9999 | ghost_excess=1.9078cm | freshvac_excess(w=30)=2.0776cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_exit_s1/datasets_bonn/l3_person_tracking2_exit/seed_1/2026-09-21-08-02-52/point_cloud/final_after_opt/point_cloud.ply n=60291 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 489 degenerate primitives of 60291
+  frame 50: PSNR=17.24 SSIM=0.785 LPIPS=0.333 dL1=28.25973629951477 | static PSNR=20.8696 SSIM=0.8603 cov=0.9983 | ghost_excess=0.3169cm
+  frame 82: PSNR=13.05 SSIM=0.740 LPIPS=0.417 dL1=35.1757675409317 | static PSNR=17.1585 SSIM=0.8379 cov=0.9974 | ghost_excess=10.0825cm
+  frame 114: PSNR=15.83 SSIM=0.789 LPIPS=0.373 dL1=34.00817811489105 | static PSNR=19.6559 SSIM=0.8584 cov=0.9979 | ghost_excess=11.6882cm
+  frame 147: PSNR=11.77 SSIM=0.708 LPIPS=0.429 dL1=25.24852752685547 | static PSNR=17.3137 SSIM=0.7863 cov=0.9971 | ghost_excess=6.4677cm
+  frame 179: PSNR=12.80 SSIM=0.705 LPIPS=0.406 dL1=21.8158021569252 | static PSNR=17.0911 SSIM=0.7961 cov=1.0 | ghost_excess=-0.7955cm
+  frame 211: PSNR=13.40 SSIM=0.753 LPIPS=0.367 dL1=20.658139884471893 | static PSNR=19.5936 SSIM=0.8504 cov=1.0 | ghost_excess=0.922cm
+  frame 243: PSNR=12.83 SSIM=0.750 LPIPS=0.360 dL1=30.232906341552734 | static PSNR=18.4815 SSIM=0.8435 cov=0.9978 | ghost_excess=0.7989cm
+  frame 275: PSNR=13.67 SSIM=0.758 LPIPS=0.353 dL1=43.87851059436798 | static PSNR=19.0897 SSIM=0.8299 cov=0.9852 | ghost_excess=-6.7694cm
+  frame 308: PSNR=14.78 SSIM=0.778 LPIPS=0.324 dL1=41.290491819381714 | static PSNR=19.7131 SSIM=0.8498 cov=0.9923 | ghost_excess=-1.8951cm
+  frame 340: PSNR=19.17 SSIM=0.865 LPIPS=0.208 dL1=11.798634380102158 | static PSNR=20.0206 SSIM=0.8772 cov=1.0 | ghost_excess=1.2333cm
+  frame 372: PSNR=19.79 SSIM=0.851 LPIPS=0.180 dL1=7.571214437484741 | static PSNR=20.6675 SSIM=0.8567 cov=1.0 | ghost_excess=1.3067cm
+  frame 404: PSNR=15.98 SSIM=0.835 LPIPS=0.270 dL1=6.043685227632523 | static PSNR=16.0319 SSIM=0.8474 cov=1.0 | ghost_excess=1.6879cm
+  frame 436: PSNR=12.16 SSIM=0.818 LPIPS=0.372 dL1=8.10534730553627 | static PSNR=12.4447 SSIM=0.8285 cov=1.0 | ghost_excess=-5.0824cm
+  frame 468: PSNR=19.81 SSIM=0.845 LPIPS=0.260 dL1=12.190800905227661 | static PSNR=20.3091 SSIM=0.8558 cov=0.9993 | ghost_excess=0.8194cm
+  frame 501: PSNR=20.89 SSIM=0.858 LPIPS=0.235 dL1=13.880981504917145 | static PSNR=21.5567 SSIM=0.8685 cov=0.9991 | ghost_excess=6.1261cm
+  frame 533: PSNR=19.33 SSIM=0.849 LPIPS=0.238 dL1=15.457665920257568 | static PSNR=19.596 SSIM=0.8582 cov=0.9997 | ghost_excess=0.685cm
+  frame 565: PSNR=19.10 SSIM=0.852 LPIPS=0.251 dL1=14.969472587108612 | static PSNR=19.3843 SSIM=0.8605 cov=0.9997 | ghost_excess=1.1083cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_exit_s1_seg12dense  mean PSNR=15.9755 SSIM=0.7964 LPIPS=0.3163 | static PSNR=18.7634 cov=0.9979 | ghost_excess=1.6883cm | freshvac_excess(w=30)=2.9474cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_person_tracking2_exit_s2/datasets_bonn/l3_person_tracking2_exit/seed_2/2026-09-21-07-54-00/point_cloud/final_after_opt/point_cloud.ply n=54361 sh=0
+[render_compare] N=567 render frames=[50, 82, 114, 147, 179, 211, 243, 275, 308, 340, 372, 404, 436, 468, 501, 533, 565]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 523 degenerate primitives of 54361
+  frame 50: PSNR=16.36 SSIM=0.778 LPIPS=0.332 dL1=30.200958251953125 | static PSNR=18.9231 SSIM=0.8357 cov=0.9846 | ghost_excess=-6.7106cm
+  frame 82: PSNR=13.33 SSIM=0.741 LPIPS=0.436 dL1=33.45058560371399 | static PSNR=17.8526 SSIM=0.8387 cov=0.9988 | ghost_excess=8.0418cm
+  frame 114: PSNR=16.60 SSIM=0.786 LPIPS=0.389 dL1=32.04030692577362 | static PSNR=21.4854 SSIM=0.8523 cov=0.9996 | ghost_excess=10.0609cm
+  frame 147: PSNR=12.25 SSIM=0.699 LPIPS=0.420 dL1=26.47576332092285 | static PSNR=18.9332 SSIM=0.7763 cov=0.9997 | ghost_excess=6.8442cm
+  frame 179: PSNR=12.27 SSIM=0.737 LPIPS=0.387 dL1=22.916896641254425 | static PSNR=17.7858 SSIM=0.8347 cov=0.9994 | ghost_excess=0.3325cm
+  frame 211: PSNR=12.84 SSIM=0.753 LPIPS=0.370 dL1=23.854853212833405 | static PSNR=19.1266 SSIM=0.8496 cov=0.9995 | ghost_excess=-1.9852cm
+  frame 243: PSNR=12.91 SSIM=0.753 LPIPS=0.362 dL1=32.31750428676605 | static PSNR=17.9478 SSIM=0.8412 cov=0.9927 | ghost_excess=1.0905cm
+  frame 275: PSNR=13.37 SSIM=0.754 LPIPS=0.378 dL1=50.478529930114746 | static PSNR=17.7485 SSIM=0.8224 cov=0.9758 | ghost_excess=-2.687cm
+  frame 308: PSNR=15.16 SSIM=0.762 LPIPS=0.361 dL1=46.626657247543335 | static PSNR=18.1421 SSIM=0.8266 cov=0.9838 | ghost_excess=0.224cm
+  frame 340: PSNR=19.09 SSIM=0.869 LPIPS=0.212 dL1=15.62751978635788 | static PSNR=19.5187 SSIM=0.879 cov=0.9993 | ghost_excess=1.98cm
+  frame 372: PSNR=19.68 SSIM=0.841 LPIPS=0.186 dL1=9.509759396314621 | static PSNR=20.4763 SSIM=0.8467 cov=1.0 | ghost_excess=-0.1191cm
+  frame 404: PSNR=14.17 SSIM=0.821 LPIPS=0.281 dL1=7.743493467569351 | static PSNR=14.1985 SSIM=0.8332 cov=1.0 | ghost_excess=1.56cm
+  frame 436: PSNR=11.43 SSIM=0.800 LPIPS=0.387 dL1=9.956835210323334 | static PSNR=11.6526 SSIM=0.8122 cov=1.0 | ghost_excess=-0.0167cm
+  frame 468: PSNR=19.26 SSIM=0.832 LPIPS=0.317 dL1=13.908593356609344 | static PSNR=19.7724 SSIM=0.8438 cov=1.0 | ghost_excess=1.9086cm
+  frame 501: PSNR=20.15 SSIM=0.839 LPIPS=0.295 dL1=15.529750287532806 | static PSNR=20.8631 SSIM=0.8501 cov=0.9998 | ghost_excess=1.6283cm
+  frame 533: PSNR=17.92 SSIM=0.830 LPIPS=0.310 dL1=17.135028541088104 | static PSNR=18.1317 SSIM=0.8358 cov=0.9997 | ghost_excess=-2.7168cm
+  frame 565: PSNR=17.74 SSIM=0.824 LPIPS=0.329 dL1=16.968484222888947 | static PSNR=17.8793 SSIM=0.8295 cov=0.9999 | ghost_excess=-1.7196cm
+[render_compare] wrote results/lifecycle_paper2/render_L3_person_tracking2_exit_s2_seg12dense  mean PSNR=15.5616 SSIM=0.7894 LPIPS=0.3384 | static PSNR=18.261 cov=0.996 | ghost_excess=1.0421cm | freshvac_excess(w=30)=1.0439cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_off_s0/datasets_bonn/l3_crowd_off/seed_0/2026-09-21-03-05-16/point_cloud/final_after_opt/point_cloud.ply n=47259 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 169 degenerate primitives of 47259
+  frame 50: PSNR=19.03 SSIM=0.878 LPIPS=0.226 dL1=14.024500548839569 | static PSNR=19.5358 SSIM=0.8952 cov=0.9984
+  frame 100: PSNR=22.50 SSIM=0.900 LPIPS=0.219 dL1=12.800602614879608 | static PSNR=23.311 SSIM=0.9114 cov=0.9963
+  frame 150: PSNR=20.39 SSIM=0.876 LPIPS=0.246 dL1=15.397319197654724 | static PSNR=21.0739 SSIM=0.8909 cov=0.9877
+  frame 200: PSNR=20.72 SSIM=0.886 LPIPS=0.230 dL1=15.258973836898804 | static PSNR=21.4933 SSIM=0.9057 cov=0.9943
+  frame 250: PSNR=13.05 SSIM=0.693 LPIPS=0.417 dL1=74.10929799079895 | static PSNR=22.3304 SSIM=0.899 cov=0.998 | ghost_excess=21.0704cm
+  frame 300: PSNR=11.77 SSIM=0.660 LPIPS=0.502 dL1=64.7352397441864 | static PSNR=17.3991 SSIM=0.833 cov=0.9665 | ghost_excess=2.6601cm
+  frame 350: PSNR=15.24 SSIM=0.715 LPIPS=0.445 dL1=45.06712555885315 | static PSNR=21.9027 SSIM=0.8788 cov=0.9982
+  frame 400: PSNR=14.22 SSIM=0.746 LPIPS=0.344 dL1=32.06543326377869 | static PSNR=20.1993 SSIM=0.8826 cov=0.993
+  frame 450: PSNR=11.49 SSIM=0.580 LPIPS=0.580 dL1=98.07763695716858 | static PSNR=17.9814 SSIM=0.8247 cov=0.989
+  frame 500: PSNR=17.11 SSIM=0.809 LPIPS=0.308 dL1=25.16666352748871 | static PSNR=22.7434 SSIM=0.8823 cov=0.9905
+  frame 550: PSNR=12.10 SSIM=0.672 LPIPS=0.478 dL1=58.177340030670166 | static PSNR=21.3952 SSIM=0.8547 cov=0.9875
+  frame 600: PSNR=10.38 SSIM=0.614 LPIPS=0.530 dL1=101.421058177948 | static PSNR=20.1177 SSIM=0.8546 cov=0.9922
+  frame 650: PSNR=15.25 SSIM=0.744 LPIPS=0.375 dL1=28.77681255340576 | static PSNR=19.7348 SSIM=0.8363 cov=0.9934
+  frame 700: PSNR=14.27 SSIM=0.780 LPIPS=0.333 dL1=26.587626338005066 | static PSNR=21.037 SSIM=0.8815 cov=0.9985
+  frame 750: PSNR=13.33 SSIM=0.766 LPIPS=0.383 dL1=31.50954246520996 | static PSNR=17.2349 SSIM=0.836 cov=0.9874
+  frame 800: PSNR=15.05 SSIM=0.774 LPIPS=0.359 dL1=21.825720369815826 | static PSNR=21.026 SSIM=0.8757 cov=0.993
+  frame 850: PSNR=16.14 SSIM=0.827 LPIPS=0.308 dL1=21.673768758773804 | static PSNR=21.5252 SSIM=0.8965 cov=0.9952
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_off_s0_seg12dense  mean PSNR=15.4138 SSIM=0.76 LPIPS=0.3696 | static PSNR=20.5907 cov=0.9917 | ghost_excess=11.8652cm | freshvac_excess(w=30)=2.0253cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_off_s1/datasets_bonn/l3_crowd_off/seed_1/2026-09-21-03-03-19/point_cloud/final_after_opt/point_cloud.ply n=47537 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 190 degenerate primitives of 47537
+  frame 50: PSNR=21.31 SSIM=0.883 LPIPS=0.205 dL1=9.219878911972046 | static PSNR=21.7386 SSIM=0.8981 cov=1.0
+  frame 100: PSNR=22.99 SSIM=0.897 LPIPS=0.208 dL1=7.825259864330292 | static PSNR=24.5105 SSIM=0.9145 cov=1.0
+  frame 150: PSNR=21.71 SSIM=0.884 LPIPS=0.231 dL1=10.099530220031738 | static PSNR=22.078 SSIM=0.8941 cov=0.9988
+  frame 200: PSNR=20.11 SSIM=0.891 LPIPS=0.208 dL1=8.602098375558853 | static PSNR=20.3644 SSIM=0.9078 cov=1.0
+  frame 250: PSNR=11.98 SSIM=0.679 LPIPS=0.413 dL1=72.17108011245728 | static PSNR=21.7443 SSIM=0.894 cov=1.0 | ghost_excess=10.8338cm
+  frame 300: PSNR=11.99 SSIM=0.669 LPIPS=0.484 dL1=55.92590570449829 | static PSNR=21.2856 SSIM=0.8549 cov=1.0 | ghost_excess=-1.0322cm
+  frame 350: PSNR=14.27 SSIM=0.702 LPIPS=0.444 dL1=44.139787554740906 | static PSNR=22.0412 SSIM=0.8801 cov=1.0
+  frame 400: PSNR=14.10 SSIM=0.753 LPIPS=0.326 dL1=27.787435054779053 | static PSNR=20.8488 SSIM=0.8894 cov=1.0
+  frame 450: PSNR=10.77 SSIM=0.575 LPIPS=0.566 dL1=94.71051692962646 | static PSNR=18.1463 SSIM=0.8353 cov=1.0
+  frame 500: PSNR=17.97 SSIM=0.816 LPIPS=0.309 dL1=19.972069561481476 | static PSNR=23.339 SSIM=0.883 cov=0.9999
+  frame 550: PSNR=11.67 SSIM=0.666 LPIPS=0.481 dL1=53.65636348724365 | static PSNR=20.23 SSIM=0.8501 cov=0.9999
+  frame 600: PSNR=9.75 SSIM=0.612 LPIPS=0.526 dL1=99.4616150856018 | static PSNR=20.2556 SSIM=0.8745 cov=1.0
+  frame 650: PSNR=14.24 SSIM=0.739 LPIPS=0.374 dL1=23.832900822162628 | static PSNR=19.5641 SSIM=0.8357 cov=1.0
+  frame 700: PSNR=13.86 SSIM=0.782 LPIPS=0.309 dL1=25.335219502449036 | static PSNR=21.5072 SSIM=0.8849 cov=1.0
+  frame 750: PSNR=13.71 SSIM=0.774 LPIPS=0.355 dL1=25.688371062278748 | static PSNR=20.5237 SSIM=0.8485 cov=0.9999
+  frame 800: PSNR=14.67 SSIM=0.768 LPIPS=0.352 dL1=17.51156747341156 | static PSNR=21.2349 SSIM=0.8751 cov=0.9998
+  frame 850: PSNR=16.21 SSIM=0.839 LPIPS=0.278 dL1=17.18568652868271 | static PSNR=23.6581 SSIM=0.9125 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_off_s1_seg12dense  mean PSNR=15.3715 SSIM=0.7605 LPIPS=0.357 | static PSNR=21.3571 cov=0.9999 | ghost_excess=4.9008cm | freshvac_excess(w=30)=2.979cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_off_s2/datasets_bonn/l3_crowd_off/seed_2/2026-09-21-03-26-16/point_cloud/final_after_opt/point_cloud.ply n=41376 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 180 degenerate primitives of 41376
+  frame 50: PSNR=19.71 SSIM=0.875 LPIPS=0.236 dL1=9.978336840867996 | static PSNR=19.9906 SSIM=0.8874 cov=0.9983
+  frame 100: PSNR=23.47 SSIM=0.901 LPIPS=0.218 dL1=8.838951587677002 | static PSNR=24.3278 SSIM=0.9129 cov=1.0
+  frame 150: PSNR=18.87 SSIM=0.870 LPIPS=0.266 dL1=11.12687662243843 | static PSNR=19.1752 SSIM=0.8823 cov=0.9954
+  frame 200: PSNR=20.56 SSIM=0.889 LPIPS=0.230 dL1=9.332486987113953 | static PSNR=20.9257 SSIM=0.9069 cov=0.9993
+  frame 250: PSNR=12.75 SSIM=0.687 LPIPS=0.417 dL1=71.15983963012695 | static PSNR=22.0593 SSIM=0.8975 cov=1.0 | ghost_excess=11.4817cm
+  frame 300: PSNR=11.67 SSIM=0.661 LPIPS=0.503 dL1=59.856390953063965 | static PSNR=19.9527 SSIM=0.8435 cov=0.9896 | ghost_excess=-6.6301cm
+  frame 350: PSNR=15.23 SSIM=0.709 LPIPS=0.442 dL1=44.42512392997742 | static PSNR=22.8025 SSIM=0.8723 cov=1.0
+  frame 400: PSNR=14.78 SSIM=0.754 LPIPS=0.339 dL1=27.55662500858307 | static PSNR=20.8776 SSIM=0.8877 cov=0.9999
+  frame 450: PSNR=11.18 SSIM=0.576 LPIPS=0.573 dL1=96.60592079162598 | static PSNR=20.0575 SSIM=0.8386 cov=1.0
+  frame 500: PSNR=17.56 SSIM=0.805 LPIPS=0.325 dL1=20.19823044538498 | static PSNR=21.9333 SSIM=0.8735 cov=0.999
+  frame 550: PSNR=11.71 SSIM=0.667 LPIPS=0.481 dL1=53.8642942905426 | static PSNR=20.8937 SSIM=0.8561 cov=1.0
+  frame 600: PSNR=9.98 SSIM=0.617 LPIPS=0.527 dL1=101.49306058883667 | static PSNR=21.1768 SSIM=0.8758 cov=1.0
+  frame 650: PSNR=15.04 SSIM=0.742 LPIPS=0.394 dL1=24.063287675380707 | static PSNR=20.0814 SSIM=0.8355 cov=1.0
+  frame 700: PSNR=13.86 SSIM=0.785 LPIPS=0.331 dL1=23.22951853275299 | static PSNR=21.0148 SSIM=0.8859 cov=0.9985
+  frame 750: PSNR=13.53 SSIM=0.769 LPIPS=0.384 dL1=27.327725291252136 | static PSNR=19.1869 SSIM=0.8381 cov=0.996
+  frame 800: PSNR=14.53 SSIM=0.766 LPIPS=0.364 dL1=17.47501939535141 | static PSNR=21.4405 SSIM=0.8734 cov=1.0
+  frame 850: PSNR=16.33 SSIM=0.834 LPIPS=0.296 dL1=17.73698180913925 | static PSNR=23.3541 SSIM=0.9029 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_off_s2_seg12dense  mean PSNR=15.3379 SSIM=0.7594 LPIPS=0.3721 | static PSNR=21.1324 cov=0.9986 | ghost_excess=2.4258cm | freshvac_excess(w=30)=1.4194cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_exit_s0/datasets_bonn/l3_crowd_exit/seed_0/2026-09-21-03-24-32/point_cloud/final_after_opt/point_cloud.ply n=52223 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 183 degenerate primitives of 52223
+  frame 50: PSNR=21.14 SSIM=0.892 LPIPS=0.202 dL1=11.223864555358887 | static PSNR=21.6818 SSIM=0.9059 cov=0.9999
+  frame 100: PSNR=23.84 SSIM=0.910 LPIPS=0.201 dL1=9.028033912181854 | static PSNR=24.7963 SSIM=0.9204 cov=1.0
+  frame 150: PSNR=20.47 SSIM=0.884 LPIPS=0.237 dL1=10.251595079898834 | static PSNR=21.9445 SSIM=0.9003 cov=0.9998
+  frame 200: PSNR=21.83 SSIM=0.892 LPIPS=0.215 dL1=11.784558743238449 | static PSNR=22.164 SSIM=0.908 cov=0.9998
+  frame 250: PSNR=13.02 SSIM=0.695 LPIPS=0.410 dL1=72.15650081634521 | static PSNR=22.8834 SSIM=0.9031 cov=1.0 | ghost_excess=17.2667cm
+  frame 300: PSNR=11.76 SSIM=0.661 LPIPS=0.499 dL1=60.53277254104614 | static PSNR=17.4025 SSIM=0.8331 cov=1.0 | ghost_excess=6.85cm
+  frame 350: PSNR=14.70 SSIM=0.713 LPIPS=0.440 dL1=47.908079624176025 | static PSNR=22.5136 SSIM=0.8842 cov=1.0
+  frame 400: PSNR=14.77 SSIM=0.753 LPIPS=0.338 dL1=29.768559336662292 | static PSNR=21.1948 SSIM=0.8853 cov=0.9999
+  frame 450: PSNR=11.15 SSIM=0.580 LPIPS=0.572 dL1=98.27094078063965 | static PSNR=19.2359 SSIM=0.8357 cov=1.0
+  frame 500: PSNR=18.32 SSIM=0.829 LPIPS=0.299 dL1=21.16810530424118 | static PSNR=24.1497 SSIM=0.8964 cov=1.0
+  frame 550: PSNR=11.99 SSIM=0.683 LPIPS=0.471 dL1=54.93927597999573 | static PSNR=21.3521 SSIM=0.87 cov=1.0
+  frame 600: PSNR=10.07 SSIM=0.621 LPIPS=0.518 dL1=101.75478458404541 | static PSNR=21.4866 SSIM=0.8763 cov=1.0
+  frame 650: PSNR=15.12 SSIM=0.746 LPIPS=0.375 dL1=26.048067212104797 | static PSNR=20.2513 SSIM=0.8387 cov=1.0
+  frame 700: PSNR=14.18 SSIM=0.790 LPIPS=0.313 dL1=24.24081712961197 | static PSNR=22.2664 SSIM=0.8911 cov=0.9999
+  frame 750: PSNR=13.59 SSIM=0.781 LPIPS=0.367 dL1=27.667492628097534 | static PSNR=18.9853 SSIM=0.8497 cov=0.9999
+  frame 800: PSNR=14.75 SSIM=0.778 LPIPS=0.352 dL1=20.545464754104614 | static PSNR=20.8892 SSIM=0.8852 cov=0.9999
+  frame 850: PSNR=15.84 SSIM=0.837 LPIPS=0.288 dL1=18.948787450790405 | static PSNR=22.8419 SSIM=0.904 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_exit_s0_seg12dense  mean PSNR=15.6791 SSIM=0.7674 LPIPS=0.3586 | static PSNR=21.5317 cov=0.9999 | ghost_excess=12.0584cm | freshvac_excess(w=30)=2.0077cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_exit_s1/datasets_bonn/l3_crowd_exit/seed_1/2026-09-21-03-47-00/point_cloud/final_after_opt/point_cloud.ply n=81336 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 180 degenerate primitives of 81336
+  frame 50: PSNR=23.18 SSIM=0.900 LPIPS=0.186 dL1=10.491452366113663 | static PSNR=23.5611 SSIM=0.9119 cov=0.9998
+  frame 100: PSNR=23.24 SSIM=0.912 LPIPS=0.179 dL1=7.074978202581406 | static PSNR=24.5949 SSIM=0.9248 cov=1.0
+  frame 150: PSNR=20.88 SSIM=0.898 LPIPS=0.214 dL1=10.741416364908218 | static PSNR=21.6197 SSIM=0.9086 cov=1.0
+  frame 200: PSNR=22.42 SSIM=0.900 LPIPS=0.193 dL1=9.202403575181961 | static PSNR=22.8816 SSIM=0.9168 cov=0.9998
+  frame 250: PSNR=12.64 SSIM=0.695 LPIPS=0.408 dL1=69.6327269077301 | static PSNR=24.3818 SSIM=0.911 cov=1.0 | ghost_excess=8.2677cm
+  frame 300: PSNR=12.19 SSIM=0.682 LPIPS=0.475 dL1=55.48456311225891 | static PSNR=22.7419 SSIM=0.8655 cov=1.0 | ghost_excess=0.1029cm
+  frame 350: PSNR=14.66 SSIM=0.713 LPIPS=0.430 dL1=45.47570049762726 | static PSNR=21.6893 SSIM=0.8849 cov=1.0
+  frame 400: PSNR=14.53 SSIM=0.757 LPIPS=0.319 dL1=25.869834423065186 | static PSNR=22.2415 SSIM=0.8926 cov=0.9998
+  frame 450: PSNR=11.10 SSIM=0.587 LPIPS=0.565 dL1=94.39116716384888 | static PSNR=20.6413 SSIM=0.8495 cov=1.0
+  frame 500: PSNR=18.21 SSIM=0.828 LPIPS=0.285 dL1=20.457853376865387 | static PSNR=23.3279 SSIM=0.8937 cov=1.0
+  frame 550: PSNR=11.81 SSIM=0.679 LPIPS=0.463 dL1=52.86300182342529 | static PSNR=20.6573 SSIM=0.8623 cov=1.0
+  frame 600: PSNR=9.88 SSIM=0.617 LPIPS=0.513 dL1=97.5229561328888 | static PSNR=21.5641 SSIM=0.8739 cov=1.0
+  frame 650: PSNR=15.09 SSIM=0.744 LPIPS=0.365 dL1=22.694337368011475 | static PSNR=21.2827 SSIM=0.8424 cov=1.0
+  frame 700: PSNR=14.34 SSIM=0.800 LPIPS=0.287 dL1=25.53248703479767 | static PSNR=22.2975 SSIM=0.9009 cov=0.9999
+  frame 750: PSNR=14.12 SSIM=0.797 LPIPS=0.344 dL1=26.670897006988525 | static PSNR=22.7431 SSIM=0.8706 cov=0.9998
+  frame 800: PSNR=14.62 SSIM=0.781 LPIPS=0.341 dL1=18.322667479515076 | static PSNR=20.7005 SSIM=0.8857 cov=1.0
+  frame 850: PSNR=15.88 SSIM=0.843 LPIPS=0.267 dL1=16.25477522611618 | static PSNR=24.6544 SSIM=0.9169 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_exit_s1_seg12dense  mean PSNR=15.8115 SSIM=0.7725 LPIPS=0.3433 | static PSNR=22.4459 cov=0.9999 | ghost_excess=4.1853cm | freshvac_excess(w=30)=2.6919cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd_exit_s2/datasets_bonn/l3_crowd_exit/seed_2/2026-09-21-03-45-05/point_cloud/final_after_opt/point_cloud.ply n=71028 sh=0
+[render_compare] N=928 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 191 degenerate primitives of 71028
+  frame 50: PSNR=21.83 SSIM=0.890 LPIPS=0.207 dL1=9.780383110046387 | static PSNR=22.0188 SSIM=0.903 cov=1.0
+  frame 100: PSNR=26.21 SSIM=0.918 LPIPS=0.183 dL1=6.610068678855896 | static PSNR=28.2123 SSIM=0.9323 cov=1.0
+  frame 150: PSNR=23.31 SSIM=0.898 LPIPS=0.215 dL1=8.56940895318985 | static PSNR=23.8177 SSIM=0.9109 cov=0.9999
+  frame 200: PSNR=23.35 SSIM=0.901 LPIPS=0.208 dL1=8.319170773029327 | static PSNR=24.2766 SSIM=0.9169 cov=1.0
+  frame 250: PSNR=13.21 SSIM=0.694 LPIPS=0.417 dL1=69.70398426055908 | static PSNR=23.7573 SSIM=0.9019 cov=1.0 | ghost_excess=11.4466cm
+  frame 300: PSNR=12.27 SSIM=0.681 LPIPS=0.474 dL1=54.730576276779175 | static PSNR=22.5628 SSIM=0.8626 cov=1.0 | ghost_excess=-3.8788cm
+  frame 350: PSNR=14.82 SSIM=0.707 LPIPS=0.441 dL1=44.22424137592316 | static PSNR=22.7595 SSIM=0.8772 cov=1.0
+  frame 400: PSNR=15.26 SSIM=0.760 LPIPS=0.325 dL1=25.374534726142883 | static PSNR=23.39 SSIM=0.8923 cov=1.0
+  frame 450: PSNR=11.49 SSIM=0.587 LPIPS=0.571 dL1=93.3864951133728 | static PSNR=20.3371 SSIM=0.8413 cov=1.0
+  frame 500: PSNR=18.29 SSIM=0.820 LPIPS=0.296 dL1=18.329282104969025 | static PSNR=25.4624 SSIM=0.888 cov=1.0
+  frame 550: PSNR=12.02 SSIM=0.673 LPIPS=0.466 dL1=50.85022449493408 | static PSNR=21.5748 SSIM=0.8536 cov=1.0
+  frame 600: PSNR=10.11 SSIM=0.625 LPIPS=0.503 dL1=97.98464179039001 | static PSNR=23.35 SSIM=0.8911 cov=1.0
+  frame 650: PSNR=15.85 SSIM=0.756 LPIPS=0.368 dL1=22.282788157463074 | static PSNR=22.9995 SSIM=0.8514 cov=1.0
+  frame 700: PSNR=14.84 SSIM=0.795 LPIPS=0.305 dL1=24.7023344039917 | static PSNR=23.2299 SSIM=0.8956 cov=1.0
+  frame 750: PSNR=14.03 SSIM=0.792 LPIPS=0.353 dL1=25.938299298286438 | static PSNR=21.2993 SSIM=0.8653 cov=1.0
+  frame 800: PSNR=15.41 SSIM=0.780 LPIPS=0.335 dL1=17.369453608989716 | static PSNR=22.8472 SSIM=0.887 cov=1.0
+  frame 850: PSNR=16.65 SSIM=0.844 LPIPS=0.272 dL1=15.254554152488708 | static PSNR=25.62 SSIM=0.9148 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd_exit_s2_seg12dense  mean PSNR=16.4102 SSIM=0.7718 LPIPS=0.3494 | static PSNR=23.3832 cov=1.0 | ghost_excess=3.7839cm | freshvac_excess(w=30)=2.216cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_off_s0/datasets_bonn/l3_crowd2_off/seed_0/2026-09-21-04-08-45/point_cloud/final_after_opt/point_cloud.ply n=46706 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 226 degenerate primitives of 46706
+  frame 50: PSNR=10.82 SSIM=0.572 LPIPS=0.558 dL1=144.92837190628052 | static PSNR=17.2581 SSIM=0.8691 cov=0.9992 | ghost_excess=10.4842cm
+  frame 100: PSNR=12.72 SSIM=0.665 LPIPS=0.456 dL1=85.32504439353943 | static PSNR=21.0837 SSIM=0.904 cov=1.0 | ghost_excess=5.1582cm
+  frame 150: PSNR=10.42 SSIM=0.552 LPIPS=0.617 dL1=123.02534580230713 | static PSNR=17.5862 SSIM=0.8263 cov=1.0 | ghost_excess=6.8075cm
+  frame 200: PSNR=13.59 SSIM=0.763 LPIPS=0.353 dL1=20.868094265460968 | static PSNR=16.0535 SSIM=0.8486 cov=1.0
+  frame 250: PSNR=14.18 SSIM=0.756 LPIPS=0.370 dL1=39.03358280658722 | static PSNR=19.6157 SSIM=0.8933 cov=1.0
+  frame 300: PSNR=10.70 SSIM=0.564 LPIPS=0.562 dL1=72.88423180580139 | static PSNR=14.8107 SSIM=0.7691 cov=0.9902
+  frame 350: PSNR=10.53 SSIM=0.606 LPIPS=0.519 dL1=98.77976775169373 | static PSNR=18.7623 SSIM=0.8478 cov=1.0
+  frame 400: PSNR=12.54 SSIM=0.748 LPIPS=0.386 dL1=30.14158308506012 | static PSNR=18.1565 SSIM=0.886 cov=1.0
+  frame 450: PSNR=17.45 SSIM=0.811 LPIPS=0.298 dL1=20.18314152956009 | static PSNR=20.5482 SSIM=0.8742 cov=1.0
+  frame 500: PSNR=18.35 SSIM=0.870 LPIPS=0.215 dL1=11.168156564235687 | static PSNR=19.6147 SSIM=0.9039 cov=1.0
+  frame 550: PSNR=13.88 SSIM=0.747 LPIPS=0.398 dL1=76.44250392913818 | static PSNR=18.7637 SSIM=0.8835 cov=0.9775
+  frame 600: PSNR=13.70 SSIM=0.791 LPIPS=0.371 dL1=27.735605835914612 | static PSNR=17.7739 SSIM=0.8734 cov=1.0
+  frame 650: PSNR=12.53 SSIM=0.729 LPIPS=0.382 dL1=47.42864966392517 | static PSNR=19.5813 SSIM=0.8669 cov=1.0
+  frame 700: PSNR=14.17 SSIM=0.756 LPIPS=0.356 dL1=71.09189629554749 | static PSNR=19.1682 SSIM=0.8861 cov=1.0
+  frame 750: PSNR=13.70 SSIM=0.810 LPIPS=0.315 dL1=42.625442147254944 | static PSNR=19.7223 SSIM=0.8968 cov=1.0
+  frame 800: PSNR=15.67 SSIM=0.823 LPIPS=0.302 dL1=22.47677594423294 | static PSNR=20.3058 SSIM=0.8949 cov=1.0
+  frame 850: PSNR=16.48 SSIM=0.844 LPIPS=0.260 dL1=22.670677304267883 | static PSNR=21.747 SSIM=0.9226 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_off_s0_seg12dense  mean PSNR=13.6136 SSIM=0.7299 LPIPS=0.3952 | static PSNR=18.856 cov=0.9981 | ghost_excess=7.4833cm | freshvac_excess(w=30)=0.351cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_off_s1/datasets_bonn/l3_crowd2_off/seed_1/2026-09-21-04-05-40/point_cloud/final_after_opt/point_cloud.ply n=34972 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 200 degenerate primitives of 34972
+  frame 50: PSNR=10.77 SSIM=0.576 LPIPS=0.565 dL1=138.71963024139404 | static PSNR=17.6382 SSIM=0.8738 cov=1.0 | ghost_excess=-8.6713cm
+  frame 100: PSNR=13.27 SSIM=0.671 LPIPS=0.457 dL1=83.26375484466553 | static PSNR=22.6526 SSIM=0.9053 cov=1.0 | ghost_excess=-5.3234cm
+  frame 150: PSNR=10.50 SSIM=0.557 LPIPS=0.611 dL1=119.95543241500854 | static PSNR=18.6746 SSIM=0.8329 cov=1.0 | ghost_excess=5.5436cm
+  frame 200: PSNR=14.31 SSIM=0.780 LPIPS=0.336 dL1=17.238691449165344 | static PSNR=17.7962 SSIM=0.863 cov=1.0
+  frame 250: PSNR=12.28 SSIM=0.748 LPIPS=0.383 dL1=37.77846395969391 | static PSNR=19.8247 SSIM=0.9009 cov=1.0
+  frame 300: PSNR=10.37 SSIM=0.571 LPIPS=0.549 dL1=74.071604013443 | static PSNR=14.9463 SSIM=0.7794 cov=0.9997
+  frame 350: PSNR=10.89 SSIM=0.605 LPIPS=0.532 dL1=96.0290253162384 | static PSNR=18.6482 SSIM=0.8391 cov=1.0
+  frame 400: PSNR=12.58 SSIM=0.742 LPIPS=0.385 dL1=27.815145254135132 | static PSNR=19.6731 SSIM=0.8832 cov=1.0
+  frame 450: PSNR=17.03 SSIM=0.811 LPIPS=0.300 dL1=17.116810381412506 | static PSNR=20.9936 SSIM=0.8722 cov=1.0
+  frame 500: PSNR=19.41 SSIM=0.876 LPIPS=0.198 dL1=11.778753995895386 | static PSNR=21.3623 SSIM=0.9083 cov=1.0
+  frame 550: PSNR=14.33 SSIM=0.771 LPIPS=0.389 dL1=71.53272032737732 | static PSNR=21.5698 SSIM=0.908 cov=1.0
+  frame 600: PSNR=14.82 SSIM=0.810 LPIPS=0.344 dL1=23.0788916349411 | static PSNR=20.5794 SSIM=0.8862 cov=1.0
+  frame 650: PSNR=14.99 SSIM=0.771 LPIPS=0.353 dL1=44.01845932006836 | static PSNR=23.0389 SSIM=0.8947 cov=1.0
+  frame 700: PSNR=14.18 SSIM=0.764 LPIPS=0.350 dL1=68.31052303314209 | static PSNR=19.83 SSIM=0.8943 cov=1.0
+  frame 750: PSNR=14.20 SSIM=0.820 LPIPS=0.323 dL1=41.94158911705017 | static PSNR=19.5858 SSIM=0.9034 cov=1.0
+  frame 800: PSNR=16.12 SSIM=0.827 LPIPS=0.300 dL1=21.555492281913757 | static PSNR=22.0405 SSIM=0.8985 cov=1.0
+  frame 850: PSNR=16.06 SSIM=0.827 LPIPS=0.263 dL1=21.049730479717255 | static PSNR=21.6331 SSIM=0.9076 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_off_s1_seg12dense  mean PSNR=13.8885 SSIM=0.7369 LPIPS=0.3903 | static PSNR=20.0287 cov=1.0 | ghost_excess=-2.817cm | freshvac_excess(w=30)=0.0958cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_off_s2/datasets_bonn/l3_crowd2_off/seed_2/2026-09-21-04-28-12/point_cloud/final_after_opt/point_cloud.ply n=36068 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 197 degenerate primitives of 36068
+  frame 50: PSNR=10.75 SSIM=0.576 LPIPS=0.558 dL1=136.45118474960327 | static PSNR=18.1893 SSIM=0.8773 cov=1.0 | ghost_excess=-5.3474cm
+  frame 100: PSNR=12.78 SSIM=0.662 LPIPS=0.460 dL1=84.24122929573059 | static PSNR=20.452 SSIM=0.8993 cov=1.0 | ghost_excess=7.8405cm
+  frame 150: PSNR=10.36 SSIM=0.567 LPIPS=0.605 dL1=121.33053541183472 | static PSNR=18.8168 SSIM=0.8589 cov=1.0 | ghost_excess=-17.1034cm
+  frame 200: PSNR=13.32 SSIM=0.776 LPIPS=0.351 dL1=18.430104851722717 | static PSNR=16.5004 SSIM=0.8693 cov=1.0
+  frame 250: PSNR=13.15 SSIM=0.756 LPIPS=0.373 dL1=37.27047145366669 | static PSNR=19.3002 SSIM=0.8978 cov=1.0
+  frame 300: PSNR=10.13 SSIM=0.554 LPIPS=0.562 dL1=77.43876576423645 | static PSNR=13.7275 SSIM=0.758 cov=0.9474
+  frame 350: PSNR=10.82 SSIM=0.606 LPIPS=0.527 dL1=97.59454131126404 | static PSNR=18.845 SSIM=0.8408 cov=1.0
+  frame 400: PSNR=10.37 SSIM=0.732 LPIPS=0.400 dL1=31.120580434799194 | static PSNR=18.1042 SSIM=0.8923 cov=1.0
+  frame 450: PSNR=17.97 SSIM=0.825 LPIPS=0.293 dL1=17.26510226726532 | static PSNR=22.659 SSIM=0.8917 cov=1.0
+  frame 500: PSNR=18.73 SSIM=0.872 LPIPS=0.207 dL1=14.596040546894073 | static PSNR=19.9973 SSIM=0.905 cov=1.0
+  frame 550: PSNR=13.93 SSIM=0.757 LPIPS=0.388 dL1=71.46000862121582 | static PSNR=21.1341 SSIM=0.9001 cov=0.9845
+  frame 600: PSNR=13.45 SSIM=0.787 LPIPS=0.370 dL1=26.430392265319824 | static PSNR=17.2883 SSIM=0.8703 cov=1.0
+  frame 650: PSNR=12.33 SSIM=0.735 LPIPS=0.389 dL1=45.789551734924316 | static PSNR=19.7848 SSIM=0.8784 cov=1.0
+  frame 700: PSNR=13.60 SSIM=0.759 LPIPS=0.352 dL1=69.29471492767334 | static PSNR=19.9925 SSIM=0.8944 cov=1.0
+  frame 750: PSNR=13.95 SSIM=0.806 LPIPS=0.319 dL1=44.21507716178894 | static PSNR=18.2357 SSIM=0.8889 cov=1.0
+  frame 800: PSNR=15.69 SSIM=0.823 LPIPS=0.300 dL1=23.83585274219513 | static PSNR=20.2295 SSIM=0.8928 cov=1.0
+  frame 850: PSNR=15.47 SSIM=0.838 LPIPS=0.262 dL1=20.773372054100037 | static PSNR=23.0354 SSIM=0.9189 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_off_s2_seg12dense  mean PSNR=13.341 SSIM=0.7313 LPIPS=0.3951 | static PSNR=19.1936 cov=0.996 | ghost_excess=-4.8701cm | freshvac_excess(w=30)=0.3658cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_exit_s0/datasets_bonn/l3_crowd2_exit/seed_0/2026-09-21-04-24-48/point_cloud/final_after_opt/point_cloud.ply n=48468 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 220 degenerate primitives of 48468
+  frame 50: PSNR=10.82 SSIM=0.574 LPIPS=0.559 dL1=136.87987327575684 | static PSNR=18.4803 SSIM=0.8772 cov=1.0 | ghost_excess=-8.2398cm
+  frame 100: PSNR=13.06 SSIM=0.657 LPIPS=0.468 dL1=82.37758278846741 | static PSNR=19.9562 SSIM=0.8868 cov=1.0 | ghost_excess=3.6597cm
+  frame 150: PSNR=10.46 SSIM=0.561 LPIPS=0.607 dL1=121.32070064544678 | static PSNR=18.5228 SSIM=0.851 cov=1.0 | ghost_excess=-5.4031cm
+  frame 200: PSNR=14.09 SSIM=0.785 LPIPS=0.322 dL1=20.583078265190125 | static PSNR=17.2583 SSIM=0.8726 cov=1.0
+  frame 250: PSNR=13.48 SSIM=0.740 LPIPS=0.392 dL1=37.70534694194794 | static PSNR=19.3524 SSIM=0.8825 cov=1.0
+  frame 300: PSNR=11.49 SSIM=0.574 LPIPS=0.539 dL1=72.19377160072327 | static PSNR=15.2235 SSIM=0.7615 cov=0.9978
+  frame 350: PSNR=10.98 SSIM=0.603 LPIPS=0.528 dL1=94.19342875480652 | static PSNR=18.4602 SSIM=0.8345 cov=1.0
+  frame 400: PSNR=12.19 SSIM=0.749 LPIPS=0.377 dL1=30.186155438423157 | static PSNR=21.2879 SSIM=0.8976 cov=1.0
+  frame 450: PSNR=17.65 SSIM=0.819 LPIPS=0.285 dL1=19.904586672782898 | static PSNR=21.9457 SSIM=0.8855 cov=1.0
+  frame 500: PSNR=19.85 SSIM=0.864 LPIPS=0.220 dL1=12.864826619625092 | static PSNR=20.9245 SSIM=0.8946 cov=1.0
+  frame 550: PSNR=13.93 SSIM=0.757 LPIPS=0.393 dL1=70.39549946784973 | static PSNR=22.1599 SSIM=0.9016 cov=0.9991
+  frame 600: PSNR=14.82 SSIM=0.821 LPIPS=0.328 dL1=26.250547170639038 | static PSNR=19.8652 SSIM=0.8995 cov=1.0
+  frame 650: PSNR=13.22 SSIM=0.757 LPIPS=0.366 dL1=43.20484101772308 | static PSNR=23.3371 SSIM=0.89 cov=1.0
+  frame 700: PSNR=13.97 SSIM=0.756 LPIPS=0.356 dL1=69.53931450843811 | static PSNR=20.6743 SSIM=0.8895 cov=1.0
+  frame 750: PSNR=14.70 SSIM=0.806 LPIPS=0.332 dL1=42.26018488407135 | static PSNR=19.2269 SSIM=0.8847 cov=1.0
+  frame 800: PSNR=16.04 SSIM=0.821 LPIPS=0.309 dL1=22.329799830913544 | static PSNR=20.8646 SSIM=0.8889 cov=1.0
+  frame 850: PSNR=15.62 SSIM=0.837 LPIPS=0.262 dL1=21.539947390556335 | static PSNR=22.5361 SSIM=0.9189 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_exit_s0_seg12dense  mean PSNR=13.9039 SSIM=0.7342 LPIPS=0.3908 | static PSNR=20.0045 cov=0.9998 | ghost_excess=-3.3277cm | freshvac_excess(w=30)=-0.6397cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_exit_s1/datasets_bonn/l3_crowd2_exit/seed_1/2026-09-21-04-47-30/point_cloud/final_after_opt/point_cloud.ply n=48102 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 224 degenerate primitives of 48102
+  frame 50: PSNR=10.85 SSIM=0.582 LPIPS=0.557 dL1=137.56461143493652 | static PSNR=17.0093 SSIM=0.8788 cov=1.0 | ghost_excess=-3.4421cm
+  frame 100: PSNR=13.16 SSIM=0.676 LPIPS=0.448 dL1=83.18555951118469 | static PSNR=25.2955 SSIM=0.9142 cov=1.0 | ghost_excess=6.7882cm
+  frame 150: PSNR=10.56 SSIM=0.566 LPIPS=0.598 dL1=121.67184352874756 | static PSNR=20.1432 SSIM=0.8499 cov=1.0 | ghost_excess=8.5836cm
+  frame 200: PSNR=14.24 SSIM=0.791 LPIPS=0.310 dL1=19.162103533744812 | static PSNR=17.6661 SSIM=0.8774 cov=1.0
+  frame 250: PSNR=12.64 SSIM=0.745 LPIPS=0.379 dL1=36.31511628627777 | static PSNR=19.9822 SSIM=0.8947 cov=1.0
+  frame 300: PSNR=10.95 SSIM=0.589 LPIPS=0.539 dL1=71.9090461730957 | static PSNR=15.7575 SSIM=0.789 cov=1.0
+  frame 350: PSNR=10.87 SSIM=0.607 LPIPS=0.521 dL1=95.78384160995483 | static PSNR=20.026 SSIM=0.8424 cov=1.0
+  frame 400: PSNR=14.87 SSIM=0.778 LPIPS=0.368 dL1=31.2436580657959 | static PSNR=20.427 SSIM=0.901 cov=1.0
+  frame 450: PSNR=17.43 SSIM=0.819 LPIPS=0.278 dL1=18.65578144788742 | static PSNR=22.6846 SSIM=0.8841 cov=1.0
+  frame 500: PSNR=19.74 SSIM=0.876 LPIPS=0.200 dL1=11.632782965898514 | static PSNR=21.6172 SSIM=0.908 cov=1.0
+  frame 550: PSNR=15.13 SSIM=0.769 LPIPS=0.377 dL1=73.29490184783936 | static PSNR=21.3287 SSIM=0.9027 cov=0.9997
+  frame 600: PSNR=14.80 SSIM=0.827 LPIPS=0.322 dL1=25.382009148597717 | static PSNR=22.3512 SSIM=0.9091 cov=1.0
+  frame 650: PSNR=14.37 SSIM=0.759 LPIPS=0.355 dL1=44.883087277412415 | static PSNR=23.7143 SSIM=0.8932 cov=1.0
+  frame 700: PSNR=15.13 SSIM=0.771 LPIPS=0.345 dL1=69.45695281028748 | static PSNR=19.9937 SSIM=0.8954 cov=1.0
+  frame 750: PSNR=14.82 SSIM=0.825 LPIPS=0.302 dL1=40.564316511154175 | static PSNR=22.5319 SSIM=0.9124 cov=1.0
+  frame 800: PSNR=16.39 SSIM=0.825 LPIPS=0.297 dL1=20.90955227613449 | static PSNR=22.882 SSIM=0.8947 cov=1.0
+  frame 850: PSNR=17.43 SSIM=0.847 LPIPS=0.253 dL1=20.497499406337738 | static PSNR=23.7693 SSIM=0.9245 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_exit_s1_seg12dense  mean PSNR=14.3173 SSIM=0.7443 LPIPS=0.3792 | static PSNR=21.0106 cov=1.0 | ghost_excess=3.9766cm | freshvac_excess(w=30)=0.8636cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_crowd2_exit_s2/datasets_bonn/l3_crowd2_exit/seed_2/2026-09-21-04-44-24/point_cloud/final_after_opt/point_cloud.ply n=65735 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=12
+[render_compare] scale guard >0.5m: pruning 260 degenerate primitives of 65735
+  frame 50: PSNR=10.92 SSIM=0.581 LPIPS=0.547 dL1=137.75125741958618 | static PSNR=18.8229 SSIM=0.8805 cov=1.0 | ghost_excess=-6.6323cm
+  frame 100: PSNR=13.28 SSIM=0.672 LPIPS=0.440 dL1=82.14690089225769 | static PSNR=23.2735 SSIM=0.9085 cov=1.0 | ghost_excess=-2.4746cm
+  frame 150: PSNR=10.66 SSIM=0.569 LPIPS=0.589 dL1=120.15632390975952 | static PSNR=20.1264 SSIM=0.8572 cov=1.0 | ghost_excess=-5.9773cm
+  frame 200: PSNR=14.50 SSIM=0.795 LPIPS=0.304 dL1=20.210638642311096 | static PSNR=18.5791 SSIM=0.8847 cov=1.0
+  frame 250: PSNR=13.55 SSIM=0.750 LPIPS=0.371 dL1=40.132302045822144 | static PSNR=20.4114 SSIM=0.8955 cov=1.0
+  frame 300: PSNR=11.14 SSIM=0.576 LPIPS=0.531 dL1=72.41307497024536 | static PSNR=15.331 SSIM=0.7655 cov=1.0
+  frame 350: PSNR=11.03 SSIM=0.610 LPIPS=0.507 dL1=94.27096843719482 | static PSNR=19.8873 SSIM=0.8453 cov=1.0
+  frame 400: PSNR=12.99 SSIM=0.760 LPIPS=0.374 dL1=26.65134370326996 | static PSNR=20.9932 SSIM=0.9077 cov=1.0
+  frame 450: PSNR=18.16 SSIM=0.830 LPIPS=0.266 dL1=19.620883464813232 | static PSNR=24.7603 SSIM=0.8969 cov=1.0
+  frame 500: PSNR=21.18 SSIM=0.877 LPIPS=0.191 dL1=14.210501313209534 | static PSNR=22.1851 SSIM=0.9051 cov=1.0
+  frame 550: PSNR=14.33 SSIM=0.769 LPIPS=0.373 dL1=73.19721579551697 | static PSNR=22.9771 SSIM=0.9099 cov=1.0
+  frame 600: PSNR=14.92 SSIM=0.831 LPIPS=0.317 dL1=26.364338397979736 | static PSNR=22.9151 SSIM=0.914 cov=1.0
+  frame 650: PSNR=16.22 SSIM=0.783 LPIPS=0.350 dL1=41.08186960220337 | static PSNR=24.36 SSIM=0.9007 cov=1.0
+  frame 700: PSNR=14.33 SSIM=0.765 LPIPS=0.338 dL1=69.8703408241272 | static PSNR=21.1158 SSIM=0.8953 cov=1.0
+  frame 750: PSNR=15.05 SSIM=0.819 LPIPS=0.299 dL1=43.66068243980408 | static PSNR=20.2663 SSIM=0.8977 cov=1.0
+  frame 800: PSNR=16.08 SSIM=0.828 LPIPS=0.280 dL1=23.313449323177338 | static PSNR=21.382 SSIM=0.8979 cov=1.0
+  frame 850: PSNR=16.59 SSIM=0.847 LPIPS=0.234 dL1=21.428830921649933 | static PSNR=24.934 SSIM=0.9266 cov=1.0
+[render_compare] wrote results/lifecycle_paper2/render_L3_crowd2_exit_s2_seg12dense  mean PSNR=14.4072 SSIM=0.7449 LPIPS=0.3713 | static PSNR=21.313 cov=1.0 | ghost_excess=-5.0281cm | freshvac_excess(w=30)=-0.1726cm

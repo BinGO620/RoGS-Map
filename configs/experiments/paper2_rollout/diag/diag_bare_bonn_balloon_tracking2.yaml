@@ -1,0 +1,5 @@
+inherit_from: "configs/rgbd/bonn/balloon_tracking2.yaml"
+DiagBare:
+  note: "裸MonoGS基线: balloon_tracking2 21cm 是场景难度还是 Combined-Prune 回归 (无method_from=全部新机制默认关闭)"
+Results:
+  save_per_frame_ape: true

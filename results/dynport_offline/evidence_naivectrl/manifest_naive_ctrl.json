@@ -1,0 +1,147 @@
+{
+  "experiment": "dynport_offline_naive_ctrl",
+  "prereg": "results/dynport_offline/evidence/prereg_naive_ctrl_2026-10-13.md",
+  "date": "2026-10-13",
+  "head": "918e79b04da643c418870a734119b20f9d630720",
+  "judge": "scripts/dynport/judge_dynport.py --samepose",
+  "instrument_note": "samepose\uff08\u00a712 v4\uff09\uff1bNaive = \u65e0\u751f\u547d\u5468\u671f/\u65e0S5\uff1bR1 = \u5b8c\u6574\u7b97\u5b50\uff08\u5b58\u91cf\u590d\u7528\uff09",
+  "per_seq": {
+    "crowd2": {
+      "r0": "results/paper2_fulltable/r33_rebase_baseline_crowd2_seed0/datasets_bonn/r33_rebase_baseline_crowd2/seed_0/2026-09-16-06-54-45",
+      "r1": "results/dynport_offline/L1_v4/crowd2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/crowd2_Naive",
+      "r1_judge": "{'seq': 'crowd2', 'n_common_frames': 35, 'n_eval_frames': 35, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 7.9545, 'iqr': 3.8102}, 'J2_bad_dl1_ratio': {'median': 0.4731, 'iqr': 0.3777}, 'J3_static_delta': {'median': -0.0353, 'iqr': 0.2235}, 'J3_full_delta': {'median': 4.3967, 'iqr': 3.0502}, 'J5_two_state_full_psnr_maxabs': 10.5228, 'J6_bad_px_median': 58555.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 7.9545, 'iqr': 3.8102}, 'J2_samepose_bad_dl1_ratio': {'median': 0.4731, 'iqr': 0.3777}, 'J3_samepose_static_delta': {'median': -0.0353, 'iqr': 0.2235}, 'J3_samepose_full_delta': {'median': 4.3967, 'iqr': 3.0502}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 1.794, 'iqr': 1.4738}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 7.9545,
+      "J2_R1": 0.4731,
+      "J3_R1": -0.0353,
+      "J1_Naive": 9.3564,
+      "J2_Naive": 0.1778,
+      "J3_Naive": -15.9328,
+      "deltaJ2_R1_minus_Naive": 0.2953,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 43,
+      "n_dyn_Naive": 1258111,
+      "n_naive_inserted": 1258111,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_crowd2_samepose.json"
+    },
+    "balloon2": {
+      "r0": "results/paper2_fulltable/r33_rebase_baseline_balloon2_seed0/datasets_bonn/r33_rebase_baseline_balloon2/seed_0/2026-09-16-03-15-56",
+      "r1": "results/dynport_offline/L1_v4/balloon2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/balloon2_Naive",
+      "r1_judge": "{'seq': 'balloon2', 'n_common_frames': 18, 'n_eval_frames': 18, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 6.0822, 'iqr': 5.3163}, 'J2_bad_dl1_ratio': {'median': 0.2268, 'iqr': 0.3287}, 'J3_static_delta': {'median': 0.0711, 'iqr': 0.2076}, 'J3_full_delta': {'median': 2.5117, 'iqr': 3.0122}, 'J5_two_state_full_psnr_maxabs': 5.9193, 'J6_bad_px_median': 44790.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 6.0822, 'iqr': 5.3163}, 'J2_samepose_bad_dl1_ratio': {'median': 0.2268, 'iqr': 0.3287}, 'J3_samepose_static_delta': {'median': 0.0711, 'iqr': 0.2076}, 'J3_samepose_full_delta': {'median': 2.5117, 'iqr': 3.0122}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 2.313, 'iqr': 1.5894}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 6.0822,
+      "J2_R1": 0.2268,
+      "J3_R1": 0.0711,
+      "J1_Naive": 6.9224,
+      "J2_Naive": 0.1851,
+      "J3_Naive": -11.7243,
+      "deltaJ2_R1_minus_Naive": 0.0417,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 4042,
+      "n_dyn_Naive": 456968,
+      "n_naive_inserted": 456968,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_balloon2_samepose.json"
+    },
+    "person_tracking2": {
+      "r0": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00",
+      "r1": "results/dynport_offline/L1_v4/person_tracking2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/person_tracking2_Naive",
+      "r1_judge": "{'seq': 'person_tracking2', 'n_common_frames': 22, 'n_eval_frames': 22, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 6.4244, 'iqr': 0.9861}, 'J2_bad_dl1_ratio': {'median': 0.5501, 'iqr': 0.2717}, 'J3_static_delta': {'median': 0.0, 'iqr': 0.018}, 'J3_full_delta': {'median': 1.9878, 'iqr': 4.6509}, 'J5_two_state_full_psnr_maxabs': 6.434900000000001, 'J6_bad_px_median': 33630.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 6.4244, 'iqr': 0.9861}, 'J2_samepose_bad_dl1_ratio': {'median': 0.5501, 'iqr': 0.2717}, 'J3_samepose_static_delta': {'median': 0.0, 'iqr': 0.018}, 'J3_samepose_full_delta': {'median': 1.9878, 'iqr': 4.6509}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 1.5275, 'iqr': 0.811}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 6.4244,
+      "J2_R1": 0.5501,
+      "J3_R1": 0.0,
+      "J1_Naive": 8.4239,
+      "J2_Naive": 0.2831,
+      "J3_Naive": -16.6618,
+      "deltaJ2_R1_minus_Naive": 0.267,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 0,
+      "n_dyn_Naive": 287688,
+      "n_naive_inserted": 287688,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_person_tracking2_samepose.json"
+    }
+  },
+  "summary": {
+    "crowd2": {
+      "r1": "results/dynport_offline/L1_v4/crowd2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/crowd2_Naive",
+      "r1_judge": "{'seq': 'crowd2', 'n_common_frames': 35, 'n_eval_frames': 35, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 7.9545, 'iqr': 3.8102}, 'J2_bad_dl1_ratio': {'median': 0.4731, 'iqr': 0.3777}, 'J3_static_delta': {'median': -0.0353, 'iqr': 0.2235}, 'J3_full_delta': {'median': 4.3967, 'iqr': 3.0502}, 'J5_two_state_full_psnr_maxabs': 10.5228, 'J6_bad_px_median': 58555.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 7.9545, 'iqr': 3.8102}, 'J2_samepose_bad_dl1_ratio': {'median': 0.4731, 'iqr': 0.3777}, 'J3_samepose_static_delta': {'median': -0.0353, 'iqr': 0.2235}, 'J3_samepose_full_delta': {'median': 4.3967, 'iqr': 3.0502}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 1.794, 'iqr': 1.4738}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 7.9545,
+      "J2_R1": 0.4731,
+      "J3_R1": -0.0353,
+      "J1_Naive": 9.3564,
+      "J2_Naive": 0.1778,
+      "J3_Naive": -15.9328,
+      "deltaJ2_R1_minus_Naive": 0.2953,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 43,
+      "n_dyn_Naive": 1258111,
+      "n_naive_inserted": 1258111,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_crowd2_samepose.json"
+    },
+    "balloon2": {
+      "r1": "results/dynport_offline/L1_v4/balloon2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/balloon2_Naive",
+      "r1_judge": "{'seq': 'balloon2', 'n_common_frames': 18, 'n_eval_frames': 18, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 6.0822, 'iqr': 5.3163}, 'J2_bad_dl1_ratio': {'median': 0.2268, 'iqr': 0.3287}, 'J3_static_delta': {'median': 0.0711, 'iqr': 0.2076}, 'J3_full_delta': {'median': 2.5117, 'iqr': 3.0122}, 'J5_two_state_full_psnr_maxabs': 5.9193, 'J6_bad_px_median': 44790.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 6.0822, 'iqr': 5.3163}, 'J2_samepose_bad_dl1_ratio': {'median': 0.2268, 'iqr': 0.3287}, 'J3_samepose_static_delta': {'median': 0.0711, 'iqr': 0.2076}, 'J3_samepose_full_delta': {'median': 2.5117, 'iqr': 3.0122}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 2.313, 'iqr': 1.5894}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 6.0822,
+      "J2_R1": 0.2268,
+      "J3_R1": 0.0711,
+      "J1_Naive": 6.9224,
+      "J2_Naive": 0.1851,
+      "J3_Naive": -11.7243,
+      "deltaJ2_R1_minus_Naive": 0.0417,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 4042,
+      "n_dyn_Naive": 456968,
+      "n_naive_inserted": 456968,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_balloon2_samepose.json"
+    },
+    "person_tracking2": {
+      "r1": "results/dynport_offline/L1_v4/person_tracking2_R1",
+      "naive": "results/dynport_offline/NaiveCtrl/person_tracking2_Naive",
+      "r1_judge": "{'seq': 'person_tracking2', 'n_common_frames': 22, 'n_eval_frames': 22, 'arms': ['E', 'D', 'Cneg'], 'J1_bad_psnr_delta': {'median': 6.4244, 'iqr': 0.9861}, 'J2_bad_dl1_ratio': {'median': 0.5501, 'iqr': 0.2717}, 'J3_static_delta': {'median': 0.0, 'iqr': 0.018}, 'J3_full_delta': {'median': 1.9878, 'iqr': 4.6509}, 'J5_two_state_full_psnr_maxabs': 6.434900000000001, 'J6_bad_px_median': 33630.0, 'instrument_samepose': True, 'J1_samepose_bad_psnr_delta': {'median': 6.4244, 'iqr': 0.9861}, 'J2_samepose_bad_dl1_ratio': {'median': 0.5501, 'iqr': 0.2717}, 'J3_samepose_static_delta': {'median': 0.0, 'iqr': 0.018}, 'J3_samepose_full_delta': {'median': 1.9878, 'iqr': 4.6509}, 'J3_samepose_static_body_delta': {'median': 0.0, 'note': 'only-static-rows render; construct-diagnostic'}, 'J7_neg_control_dl1_ratio': {'median': 1.5275, 'iqr': 0.811}, 'J6_frame_coverage': 1.0, 'J6_judgeable': True, 'render_exit': 'render_subset_ok', 'locked_thresholds': {'j1_main_db': 2.5, 'j2_dl1_ratio': 0.7, 'j3_static_db': 0.25, 'j7_ctrl_min': 1.15}, 'J3_in_locked_exit': True, 'instrument': 'samepose_causal', 'instrument_note': '\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90'}",
+      "J1_R1": 6.4244,
+      "J2_R1": 0.5501,
+      "J3_R1": 0.0,
+      "J1_Naive": 8.4239,
+      "J2_Naive": 0.2831,
+      "J3_Naive": -16.6618,
+      "deltaJ2_R1_minus_Naive": 0.267,
+      "C1_operator_gain": false,
+      "C3_S5_protects_static": true,
+      "n_dyn_R1": 0,
+      "n_dyn_Naive": 287688,
+      "n_naive_inserted": 287688,
+      "naive_s5": {
+        "suppress": false,
+        "clamp": false
+      },
+      "naive_judge": "results/dynport_offline/evidence_naivectrl/naive_ctrl_person_tracking2_samepose.json"
+    }
+  }
+}

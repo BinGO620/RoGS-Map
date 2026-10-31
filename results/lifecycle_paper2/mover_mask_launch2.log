@@ -1,0 +1,22 @@
+=== mover-mask pipeline: motion=dynamic_mask_motion union=dynamic_mask_mover 2026年 09月 25日 星期五 15:50:26 CST ===
+SKIP ① balloon: datasets/bonn/rgbd_bonn_balloon/dynamic_mask_motion 已存在
+SKIP ① balloon2: datasets/bonn/rgbd_bonn_balloon2/dynamic_mask_motion 已存在
+SKIP ① moving_nonobstructing_box: datasets/bonn/rgbd_bonn_moving_nonobstructing_box/dynamic_mask_motion 已存在
+SKIP ① moving_nonobstructing_box2: datasets/bonn/rgbd_bonn_moving_nonobstructing_box2/dynamic_mask_motion 已存在
+--- ② compose union balloon 2026年 09月 25日 星期五 15:50:26 CST ---
+  ② balloon rc=0 masks=438
+--- ② compose union balloon2 2026年 09月 25日 星期五 15:50:29 CST ---
+  ② balloon2 rc=0 masks=469
+--- ② compose union moving_nonobstructing_box 2026年 09月 25日 星期五 15:50:33 CST ---
+  ② moving_nonobstructing_box rc=0 masks=778
+--- ② compose union moving_nonobstructing_box2 2026年 09月 25日 星期五 15:50:38 CST ---
+  ② moving_nonobstructing_box2 rc=0 masks=931
+--- ③ audit balloon 2026年 09月 25日 星期五 15:50:44 CST ---
+  ③ balloon audit rc=0
+--- ③ audit balloon2 2026年 09月 25日 星期五 15:50:45 CST ---
+  ③ balloon2 audit rc=0
+--- ③ audit moving_nonobstructing_box 2026年 09月 25日 星期五 15:50:47 CST ---
+  ③ moving_nonobstructing_box audit rc=0
+--- ③ audit moving_nonobstructing_box2 2026年 09月 25日 星期五 15:50:49 CST ---
+  ③ moving_nonobstructing_box2 audit rc=0
+MOVER_MASK_PIPELINE_DONE rc_all=0 2026年 09月 25日 星期五 15:50:53 CST

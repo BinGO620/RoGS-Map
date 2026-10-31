@@ -1,0 +1,21 @@
+MonoGS: saving results in 
+results/paper2_rollout/local_probe_bt/datasets_bonn/roll_balloon_tracking/seed_0
+/2026-09-09-16-45-11
+MonoGS: logging console output to 
+results/paper2_rollout/local_probe_bt/datasets_bonn/roll_balloon_tracking/seed_0
+/2026-09-09-16-45-11/console.log
+MonoGS: Resetting the system
+MonoGS: Initialized map
+[W CudaIPCTypes.cpp:15] Producer process has been terminated before all shared CUDA tensors released. See Note [Sharing CUDA tensors]
+Traceback (most recent call last):
+  File "/data/monogs-ours/slam.py", line 755, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "/data/monogs-ours/slam.py", line 358, in __init__
+    self.frontend.run()
+  File "/data/monogs-ours/utils/slam_frontend.py", line 2169, in run
+    render_pkg = self.tracking(cur_frame_idx, viewpoint)
+  File "/data/monogs-ours/utils/slam_frontend.py", line 839, in tracking
+    self._reliability_flow_index = assert_reliability_flow_available(
+  File "/data/monogs-ours/utils/reliability_signal.py", line 723, in assert_reliability_flow_available
+    raise RuntimeError(
+RuntimeError: ReliabilitySignal.enabled=true but no frozen flow found in datasets/bonn/rgbd_bonn_balloon_tracking/flow_raft. Refusing to run ReliabilitySignal with an empty flow index (see reliability_signal_silent_noop_incident.md). Build flow_raft/ for this sequence, or set ReliabilitySignal.enabled=false to run without it.

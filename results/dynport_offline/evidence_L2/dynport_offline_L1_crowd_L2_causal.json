@@ -1,0 +1,44 @@
+{
+  "seq": "crowd",
+  "n_common_frames": 29,
+  "n_eval_frames": 37,
+  "arms": [
+    "E",
+    "D",
+    "Cneg"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": 5.5036,
+    "iqr": 3.5512
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.5909,
+    "iqr": 0.3304
+  },
+  "J3_static_delta": {
+    "median": -3.8459,
+    "iqr": 4.475
+  },
+  "J3_full_delta": {
+    "median": 3.51,
+    "iqr": 2.8201
+  },
+  "J6_bad_px_median": 47457.0,
+  "instrument_samepose": false,
+  "J7_neg_control_dl1_ratio": {
+    "median": 1.3225,
+    "iqr": 0.6509
+  },
+  "J6_frame_coverage": 0.7838,
+  "J6_judgeable": true,
+  "render_exit": "render_subset_not_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "causal_snapshot_poseconfounded",
+  "instrument_note": "\u8bca\u65ad\u53e3\u5f84\uff1a\u5feb\u7167\u4f4d\u59ff\uff08\u4f4d\u59ff\u6df7\u6742 \u22124~\u22128 dB\uff09\uff0c\u7981\u8fdb\u51fa\u53e3"
+}

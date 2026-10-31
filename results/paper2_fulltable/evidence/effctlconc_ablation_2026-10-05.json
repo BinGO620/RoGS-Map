@@ -1,0 +1,112 @@
+{
+  "complete": true,
+  "n_rows": 12,
+  "rows": [
+    {
+      "arm": "baseline",
+      "seq": "balloon",
+      "exclusive_fps": 1.1621,
+      "concurrent_fps": 0.6447,
+      "ratio": 1.8025438188304634
+    },
+    {
+      "arm": "baseline",
+      "seq": "crowd2",
+      "exclusive_fps": 1.2782,
+      "concurrent_fps": 0.9874,
+      "ratio": 1.294510836540409
+    },
+    {
+      "arm": "baseline",
+      "seq": "person_tracking",
+      "exclusive_fps": 1.1283,
+      "concurrent_fps": 0.8789,
+      "ratio": 1.283763795653658
+    },
+    {
+      "arm": "swbaonly",
+      "seq": "balloon",
+      "exclusive_fps": 0.8468,
+      "concurrent_fps": 0.5758,
+      "ratio": 1.470649531087183
+    },
+    {
+      "arm": "swbaonly",
+      "seq": "crowd2",
+      "exclusive_fps": 0.8595,
+      "concurrent_fps": 0.5988,
+      "ratio": 1.435370741482966
+    },
+    {
+      "arm": "swbaonly",
+      "seq": "person_tracking",
+      "exclusive_fps": 0.8435,
+      "concurrent_fps": 0.6367,
+      "ratio": 1.3247997487042562
+    },
+    {
+      "arm": "final",
+      "seq": "balloon",
+      "exclusive_fps": 0.862,
+      "concurrent_fps": 0.4711,
+      "ratio": 1.8297601358522606
+    },
+    {
+      "arm": "final",
+      "seq": "crowd2",
+      "exclusive_fps": 0.8637,
+      "concurrent_fps": 0.5582,
+      "ratio": 1.5472948763883911
+    },
+    {
+      "arm": "final",
+      "seq": "person_tracking",
+      "exclusive_fps": 0.8336,
+      "concurrent_fps": 0.478,
+      "ratio": 1.7439330543933056
+    },
+    {
+      "arm": "gate",
+      "seq": "balloon",
+      "exclusive_fps": 0.9073,
+      "concurrent_fps": 0.8164,
+      "ratio": 1.111342479176874
+    },
+    {
+      "arm": "gate",
+      "seq": "crowd2",
+      "exclusive_fps": 1.1388,
+      "concurrent_fps": 0.6952,
+      "ratio": 1.6380897583429228
+    },
+    {
+      "arm": "gate",
+      "seq": "person_tracking",
+      "exclusive_fps": 0.8581,
+      "concurrent_fps": 0.8451,
+      "ratio": 1.0153827949355105
+    }
+  ],
+  "per_arm": {
+    "baseline": {
+      "exclusive_median": 1.1621,
+      "concurrent_median": 0.8789,
+      "ratio": 1.3222209580157014
+    },
+    "swbaonly": {
+      "exclusive_median": 0.8468,
+      "concurrent_median": 0.5988,
+      "ratio": 1.4141616566466266
+    },
+    "final": {
+      "exclusive_median": 0.862,
+      "concurrent_median": 0.478,
+      "ratio": 1.8033472803347281
+    },
+    "gate": {
+      "exclusive_median": 0.9073,
+      "concurrent_median": 0.8164,
+      "ratio": 1.111342479176874
+    }
+  }
+}

@@ -1,0 +1,416 @@
+## L1f obsdebt 判据机（prereg_L1f_obsdebt §2/§2b/§3/§4；instrument_v2 三参照）
+- 读法：Δ = obsdebt − exit_fill（同帧集配对）→ 逐 seed median → **median-of-medians**；门槛 1.48cm（负 = obsdebt 改善）
+- seeds = [0, 1, 2]；后缀 = _canon
+
+## 1. 主效果域 balloon2（prereg §3 主判据）
+{
+ "domain": "balloon2",
+ "judgeable": true,
+ "primary_ref": "m3",
+ "delta_definition": "obsdebt(L1f2) − exit_fill_ctrl(L1f)；同管线单变量（prereg §2）",
+ "judgeability": {
+  "0": {
+   "judgeable": true,
+   "n_common_frames": 17,
+   "per_ref_available": {
+    "m3": "15/17",
+    "full": "17/17",
+    "ring": "17/17"
+   }
+  },
+  "1": {
+   "judgeable": true,
+   "n_common_frames": 17,
+   "per_ref_available": {
+    "m3": "15/17",
+    "full": "17/17",
+    "ring": "17/17"
+   }
+  },
+  "2": {
+   "judgeable": true,
+   "n_common_frames": 17,
+   "per_ref_available": {
+    "m3": "15/17",
+    "full": "17/17",
+    "ring": "17/17"
+   }
+  }
+ },
+ "primary": {
+  "judgeable": true,
+  "per_seed": {
+   "0": {
+    "median": 3.5703,
+    "iqr": [
+     3.05,
+     6.1878
+    ],
+    "n": 15
+   },
+   "1": {
+    "median": 12.0035,
+    "iqr": [
+     5.3513,
+     13.1615
+    ],
+    "n": 15
+   },
+   "2": {
+    "median": -3.4415,
+    "iqr": [
+     -6.7497,
+     1.8261
+    ],
+    "n": 15
+   }
+  },
+  "seed_medians": [
+   3.5703,
+   12.0035,
+   -3.4415
+  ],
+  "median_of_medians": 3.5703,
+  "across_seed_iqr": [
+   -3.4415,
+   12.0035
+  ],
+  "n_neg": 1,
+  "n_seed": 3,
+  "n_neg_ratio": "1/3",
+  "threshold": 1.48,
+  "sign_ok": false,
+  "mag_ok": false,
+  "PASS": false
+ },
+ "primary_robustness": {
+  "available": true,
+  "seed_medians": {
+   "0": 3.5703,
+   "1": 12.0035,
+   "2": -3.4415
+  },
+  "min": -3.4415,
+  "max": 12.0035,
+  "across_seed_spread": 15.445,
+  "n_sign_flips": 2,
+  "loo": {
+   "0": {
+    "mom": 4.281,
+    "n_neg_ratio": "1/2",
+    "PASS": false
+   },
+   "1": {
+    "mom": 0.0644,
+    "n_neg_ratio": "1/2",
+    "PASS": false
+   },
+   "2": {
+    "mom": 7.7869,
+    "n_neg_ratio": "0/2",
+    "PASS": false
+   }
+  },
+  "loo_pass_count": "0/3",
+  "note": "PASS 对单 seed 的依赖度；仅诊断，不替代 judge_main。"
+ },
+ "refs": {
+  "m3": {
+   "judgeable": true,
+   "per_seed": {
+    "0": {
+     "median": 3.5703,
+     "iqr": [
+      3.05,
+      6.1878
+     ],
+     "n": 15
+    },
+    "1": {
+     "median": 12.0035,
+     "iqr": [
+      5.3513,
+      13.1615
+     ],
+     "n": 15
+    },
+    "2": {
+     "median": -3.4415,
+     "iqr": [
+      -6.7497,
+      1.8261
+     ],
+     "n": 15
+    }
+   },
+   "seed_medians": [
+    3.5703,
+    12.0035,
+    -3.4415
+   ],
+   "median_of_medians": 3.5703,
+   "across_seed_iqr": [
+    -3.4415,
+    12.0035
+   ],
+   "n_neg": 1,
+   "n_seed": 3,
+   "n_neg_ratio": "1/3"
+  },
+  "full": {
+   "judgeable": true,
+   "per_seed": {
+    "0": {
+     "median": 3.7166,
+     "iqr": [
+      1.01,
+      10.573
+     ],
+     "n": 17
+    },
+    "1": {
+     "median": 5.9508,
+     "iqr": [
+      0.7345,
+      10.1472
+     ],
+     "n": 17
+    },
+    "2": {
+     "median": -1.5934,
+     "iqr": [
+      -3.0166,
+      1.141
+     ],
+     "n": 17
+    }
+   },
+   "seed_medians": [
+    3.7166,
+    5.9508,
+    -1.5934
+   ],
+   "median_of_medians": 3.7166,
+   "across_seed_iqr": [
+    -1.5934,
+    5.9508
+   ],
+   "n_neg": 1,
+   "n_seed": 3,
+   "n_neg_ratio": "1/3"
+  },
+  "ring": {
+   "judgeable": true,
+   "per_seed": {
+    "0": {
+     "median": 3.4077,
+     "iqr": [
+      0.3228,
+      8.3361
+     ],
+     "n": 17
+    },
+    "1": {
+     "median": 5.2931,
+     "iqr": [
+      0.7045,
+      10.2114
+     ],
+     "n": 17
+    },
+    "2": {
+     "median": -1.2014,
+     "iqr": [
+      -3.166,
+      1.6282
+     ],
+     "n": 17
+    }
+   },
+   "seed_medians": [
+    3.4077,
+    5.2931,
+    -1.2014
+   ],
+   "median_of_medians": 3.4077,
+   "across_seed_iqr": [
+    -1.2014,
+    5.2931
+   ],
+   "n_neg": 1,
+   "n_seed": 3,
+   "n_neg_ratio": "1/3"
+  }
+ },
+ "refs_robustness": {
+  "m3": {
+   "available": true,
+   "seed_medians": {
+    "0": 3.5703,
+    "1": 12.0035,
+    "2": -3.4415
+   },
+   "min": -3.4415,
+   "max": 12.0035,
+   "across_seed_spread": 15.445,
+   "n_sign_flips": 2,
+   "loo": {
+    "0": {
+     "mom": 4.281,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "1": {
+     "mom": 0.0644,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "2": {
+     "mom": 7.7869,
+     "n_neg_ratio": "0/2",
+     "PASS": false
+    }
+   },
+   "loo_pass_count": "0/3",
+   "note": "PASS 对单 seed 的依赖度；仅诊断，不替代 judge_main。"
+  },
+  "full": {
+   "available": true,
+   "seed_medians": {
+    "0": 3.7166,
+    "1": 5.9508,
+    "2": -1.5934
+   },
+   "min": -1.5934,
+   "max": 5.9508,
+   "across_seed_spread": 7.5442,
+   "n_sign_flips": 2,
+   "loo": {
+    "0": {
+     "mom": 2.1787,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "1": {
+     "mom": 1.0616,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "2": {
+     "mom": 4.8337,
+     "n_neg_ratio": "0/2",
+     "PASS": false
+    }
+   },
+   "loo_pass_count": "0/3",
+   "note": "PASS 对单 seed 的依赖度；仅诊断，不替代 judge_main。"
+  },
+  "ring": {
+   "available": true,
+   "seed_medians": {
+    "0": 3.4077,
+    "1": 5.2931,
+    "2": -1.2014
+   },
+   "min": -1.2014,
+   "max": 5.2931,
+   "across_seed_spread": 6.4945,
+   "n_sign_flips": 2,
+   "loo": {
+    "0": {
+     "mom": 2.0458,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "1": {
+     "mom": 1.1032,
+     "n_neg_ratio": "1/2",
+     "PASS": false
+    },
+    "2": {
+     "mom": 4.3504,
+     "n_neg_ratio": "0/2",
+     "PASS": false
+    }
+   },
+   "loo_pass_count": "0/3",
+   "note": "PASS 对单 seed 的依赖度；仅诊断，不替代 judge_main。"
+  }
+ },
+ "PRIMARY_JUDGEABLE": true,
+ "PASS": false
+}
+## 2. 约束门 + 护栏（balloon2）
+ATE (vs off):          {"ok": true, "mean_rel": -0.0172, "max_rel": 0.0071, "single_ok": true, "per_seed": [{"seed": 0, "ate": 5.383, "off": 5.4421, "rel": -0.0109}, {"seed": 1, "ate": 5.3297, "off": 5.2921, "rel": 0.0071}, {"seed": 2, "ate": 4.9782, "off": 5.2286, "rel": -0.0479}]}
+ATE (vs exit_fill, 同批·补充非判据): {"ok": true, "mean_rel": 0.005, "max_rel": 0.0317, "single_ok": true, "per_seed": [{"seed": 0, "ate": 5.383, "off": 5.2554, "rel": 0.0243}, {"seed": 1, "ate": 5.3297, "off": 5.1661, "rel": 0.0317}, {"seed": 2, "ate": 4.9782, "off": 5.1916, "rel": -0.0411}]}
+static PSNR (vs ctrl): {"ok": true, "delta_db": -0.1293, "base_db": 18.9141}
+coverage guard:        {"floor": 0.99, "invalid_runs": [], "all_valid": true}
+primitive budget:      {"ok": false, "per_seed_inflation": {"0": -0.1806, "1": -0.2069, "2": -0.2565, "3": 2.1044, "4": -0.252, "5": -0.2299}, "worst": 2.1044, "limit": 0.8}
+
+## 3. 约束域 person_tracking（只作约束门 + 点火诊断，不判效）
+{
+ "domain": "person_tracking",
+ "role": "constraint-only (prereg §3)",
+ "ATE": {
+  "ok": false,
+  "mean_rel": -0.056,
+  "max_rel": 0.1141,
+  "single_ok": false,
+  "per_seed": [
+   {
+    "seed": 0,
+    "ate": 8.0106,
+    "off": 11.5419,
+    "rel": -0.306
+   },
+   {
+    "seed": 1,
+    "ate": 12.2057,
+    "off": 11.9218,
+    "rel": 0.0238
+   },
+   {
+    "seed": 2,
+    "ate": 11.5576,
+    "off": 10.3737,
+    "rel": 0.1141
+   }
+  ]
+ },
+ "PSNR": {
+  "ok": false,
+  "delta_db": -1.0392,
+  "base_db": 21.3251
+ }
+}
+
+## 4. 点火计数（prereg §2b 三正则；零点火 = run 无效）
+主臂 balloon2:  {"0": {"present": true, "ledger_lines": 84, "ledger_total_max": 63807, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 1, "vacated_max_px": 1, "FIRING": "yes"}, "1": {"present": true, "ledger_lines": 77, "ledger_total_max": 59244, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 1, "vacated_max_px": 4, "FIRING": "yes"}, "2": {"present": true, "ledger_lines": 84, "ledger_total_max": 63888, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 2, "vacated_max_px": 12, "FIRING": "yes"}}
+对照 balloon2:  {"0": {"present": true, "ledger_lines": 0, "ledger_total_max": 0, "ledger_monotone": false, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 1, "FIRING": "none"}, "1": {"present": true, "ledger_lines": 0, "ledger_total_max": 0, "ledger_monotone": false, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 59, "FIRING": "none"}, "2": {"present": true, "ledger_lines": 0, "ledger_total_max": 0, "ledger_monotone": false, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 0, "FIRING": "none"}}
+约束域 pt:      {"0": {"present": true, "ledger_lines": 84, "ledger_total_max": 28303, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 0, "FIRING": "yes"}, "1": {"present": true, "ledger_lines": 66, "ledger_total_max": 22280, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 102, "FIRING": "yes"}, "2": {"present": true, "ledger_lines": 73, "ledger_total_max": 24360, "ledger_monotone": true, "fill_lines": 0, "fill_kept_total": 0, "fill_kept_max": 0, "boost_lines": 0, "vacated_max_px": 243, "FIRING": "yes"}}
+
+## 5. 判定汇总
+{
+ "PASS_main_balloon2": false,
+ "primary_median_of_medians": 3.5703,
+ "threshold": 1.48,
+ "n_neg_ratio": "1/3",
+ "robustness_leave_one_out": {
+  "seed_medians": {
+   "0": 3.5703,
+   "1": 12.0035,
+   "2": -3.4415
+  },
+  "across_seed_spread": 15.445,
+  "loo_pass_count": "0/3",
+  "n_sign_flips": 2
+ },
+ "constraint_ATE_ok": true,
+ "constraint_PSNR_ok": true,
+ "coverage_guard_ok": true,
+ "prim_budget_ok": false,
+ "prim_worst_inflation": 2.1044,
+ "firing_main_any": true
+}
+
+判定：PASS=False

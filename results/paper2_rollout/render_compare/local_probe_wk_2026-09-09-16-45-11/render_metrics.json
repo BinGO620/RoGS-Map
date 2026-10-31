@@ -1,0 +1,28 @@
+{
+ "run_dir": "/data/monogs-ours/results/paper2_rollout/local_probe_wk/datasets_tum/roll_f3_wk_xyz/seed_0/2026-09-09-16-45-11",
+ "ply": "/data/monogs-ours/results/paper2_rollout/local_probe_wk/datasets_tum/roll_f3_wk_xyz/seed_0/2026-09-09-16-45-11/point_cloud/final_after_opt/point_cloud.ply",
+ "trj": "/data/monogs-ours/results/paper2_rollout/local_probe_wk/datasets_tum/roll_f3_wk_xyz/seed_0/2026-09-09-16-45-11/plot/trj_full_final.json",
+ "n_frames": 2,
+ "interval": 40,
+ "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+ "mean_psnr": 21.2047,
+ "mean_ssim": 0.7746,
+ "mean_lpips": 0.246,
+ "mean_depth_l1_cm": 64.9513,
+ "per_frame": [
+  {
+   "frame": 0,
+   "psnr": 20.5916,
+   "ssim": 0.777,
+   "lpips": 0.2171,
+   "depth_l1_cm": 76.7746
+  },
+  {
+   "frame": 40,
+   "psnr": 21.8177,
+   "ssim": 0.7722,
+   "lpips": 0.275,
+   "depth_l1_cm": 53.1279
+  }
+ ]
+}

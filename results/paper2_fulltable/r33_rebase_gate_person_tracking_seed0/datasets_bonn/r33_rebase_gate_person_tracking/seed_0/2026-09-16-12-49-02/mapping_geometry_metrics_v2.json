@@ -1,0 +1,67 @@
+{
+    "accuracy_cm": 97.5479,
+    "completion_cm": 112.807,
+    "completion_ratio": 4.0275,
+    "precision_ratio": 6.6895,
+    "fscore": 5.0279,
+    "num_rec_points_eval": 200000,
+    "num_gt_points_eval": 200000,
+    "threshold_m": 0.05,
+    "bonn_alignment_formula": "T_g = T_ROS^{-1} T_0 T_ROS T_m",
+    "bonn_t_g": [
+        [
+            1.0077501599680305,
+            0.056846903834444226,
+            -0.3214727581669555,
+            -0.45553918394913795
+        ],
+        [
+            -0.10136407838371868,
+            -0.9370459287576378,
+            -0.48348671576467256,
+            1.9473950415570631
+        ],
+        [
+            -0.31040787473552967,
+            0.4907167175908862,
+            -0.8859497792965586,
+            -1.1876819712249758
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "mesh_vertices": 270411,
+    "mesh_faces": 493918,
+    "geometry_protocol_version": "mesh-tsdf-v2",
+    "representation": "tsdf_mesh_surface",
+    "protocol_eligible": true,
+    "pose_source": "full_estimated_trajectory",
+    "source_rec_mesh": "/home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02/geometry/tsdf_mesh.ply",
+    "mesh_metadata": {
+        "mesh_protocol_version": "gaussian-render-tsdf-v2",
+        "source_gaussians": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02/point_cloud/final_after_opt/point_cloud.ply",
+        "pose_source": "full_estimated_trajectory",
+        "trajectory_frames": 580,
+        "integrated_frames": 117,
+        "frame_stride": 5,
+        "voxel_length_m": 0.02,
+        "sdf_trunc_m": 0.08,
+        "depth_trunc_m": 5.0,
+        "opacity_threshold": 0.5,
+        "min_component_triangles": 100,
+        "vertices": 270411,
+        "faces": 493918,
+        "mesh_path": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02/geometry/tsdf_mesh.ply"
+    },
+    "diagnostic_gaussian_center_accuracy_cm": 96.1207,
+    "diagnostic_gaussian_center_completion_cm": 99.3069,
+    "diagnostic_gaussian_center_completion_ratio": 5.242,
+    "source_gt_point_cloud": "datasets/bonn/rgbd_bonn_groundtruth_1mm_section.ply",
+    "source_rec_point_cloud": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02/point_cloud/final_after_opt/point_cloud.ply",
+    "notes_suffix": "BONN official GT point cloud; reconstruction aligned with T_g = T_ROS^{-1} T_0 T_ROS T_m. Main geometry uses the TSDF mesh surface.",
+    "geometry_eval_time_s": 21.5837
+}

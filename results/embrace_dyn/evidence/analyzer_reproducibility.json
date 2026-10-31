@@ -1,0 +1,19 @@
+{
+ "report": {
+  "path": "results/embrace_dyn/evidence/dyn_probe_report.md",
+  "sha256": "338a0b95777b1d61d16e9ea48af9ed3a221a4004aea54e8e2d89f355d4de531a"
+ },
+ "verdict": {
+  "path": "results/embrace_dyn/evidence/dyn_probe_verdict.json",
+  "sha256": "2dd352a56bf59eed671d81d36e4ccc064c07fdb2f5046befe45f0d58c277131e"
+ },
+ "analyzer": {
+  "path": "scripts/02_analysis/analyze_dyn_probe.py",
+  "sha256": "8f8bbb22463103749de08030381fe1196f45cbe9c703350e727a8809a019f8df",
+  "last_touch_commit": "428799cc"
+ },
+ "command": "python scripts/02_analysis/analyze_dyn_probe.py --out-md /tmp/c3repro/report.md --json-out /tmp/c3repro/verdict.json",
+ "result": "byte-identical to the landed artifacts",
+ "note": "the analyzer only READS results/*.json and WRITES --out-md/--json-out (verified: only two write calls, lines 582 and 738); it never writes the per-frame raw results JSON, which is produced by dyn_probe.py at run time (results[\"aggregate\"], dyn_probe.py:1078)",
+ "written_by": "main session, 2026-09-19 (gate-1 remediation for the causal round III verdict)"
+}

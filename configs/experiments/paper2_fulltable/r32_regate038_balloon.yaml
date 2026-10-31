@@ -1,0 +1,32 @@
+# R32 (experiment F rebase): static_conf gate at 0.38, re-run on current HEAD.
+# Byte-identical to r29_framegate_balloon.yaml except save_dir. The original 0.38
+# arm ran on 2026-09-07 code, before the SWBA jacobian fixes (a21e0773 /
+# 1150fb25, 2026-09-09) that changed deployed SWBA behaviour; its numbers are
+# therefore not comparable to the 0.30/0.45 arms (2026-09-14/15). Rebaseline
+# only -- no experimental variable changed.
+inherit_from: "configs/rgbd/bonn/balloon.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r32_regate038_balloon"
+  save_per_frame_ape: true

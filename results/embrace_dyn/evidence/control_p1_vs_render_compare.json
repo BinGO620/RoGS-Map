@@ -1,0 +1,56 @@
+{
+ "purpose": "positive control: probe P1 whole-image PSNR vs existing render_compare.py output, same frames/PLY/poses/protocol",
+ "config": "/tmp/debug_probe_control.yaml (frames taken verbatim from the render_compare run)",
+ "reference": "results/paper2_fulltable/render_compare/r33_rebase_gate_person_tracking2_seed0_2026-09-16-14-47-45/render_metrics.json",
+ "max_abs_delta_db": 0.0003,
+ "rows": [
+  {
+   "frame": 0,
+   "probe_full_psnr": 26.5858,
+   "render_compare_psnr": 26.5858,
+   "delta_db": 0.0
+  },
+  {
+   "frame": 80,
+   "probe_full_psnr": 18.3378,
+   "render_compare_psnr": 18.3378,
+   "delta_db": 0.0
+  },
+  {
+   "frame": 160,
+   "probe_full_psnr": 15.7218,
+   "render_compare_psnr": 15.7218,
+   "delta_db": 0.0
+  },
+  {
+   "frame": 240,
+   "probe_full_psnr": 14.5706,
+   "render_compare_psnr": 14.5707,
+   "delta_db": -0.0001
+  },
+  {
+   "frame": 325,
+   "probe_full_psnr": 24.1832,
+   "render_compare_psnr": 24.1829,
+   "delta_db": 0.0003
+  },
+  {
+   "frame": 405,
+   "probe_full_psnr": 27.416,
+   "render_compare_psnr": 27.416,
+   "delta_db": 0.0
+  },
+  {
+   "frame": 485,
+   "probe_full_psnr": 28.4216,
+   "render_compare_psnr": 28.4216,
+   "delta_db": 0.0
+  },
+  {
+   "frame": 565,
+   "probe_full_psnr": 28.2712,
+   "render_compare_psnr": 28.2712,
+   "delta_db": 0.0
+  }
+ ]
+}

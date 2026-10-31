@@ -1,0 +1,580 @@
+{
+ "experiment": "embrace_dyn",
+ "sub": "dyn_probe (mapping/render-side go-no-go screen)",
+ "date": "2026-09-19",
+ "head": "bc67143a",
+ "nature": "screen only -- NOT a paper number (single sequence, single seed, offline, non-causal ceiling)",
+ "prereg": "results/embrace_dyn/evidence/prereg_dyn_probe.md (landed before any outcome metric)",
+ "config": "configs/experiments/embrace_dyn/probe_pt2.yaml",
+ "tools": [
+  "scripts/02_analysis/dyn_probe.py",
+  "scripts/02_analysis/analyze_dyn_probe.py"
+ ],
+ "inputs": {
+  "sequence": "person_tracking2",
+  "masks": "datasets/bonn/rgbd_bonn_person_tracking2/dynamic_mask_gtmc (frozen, method-independent; three-level stem matching)",
+  "maps": {
+   "gate": "results/paper2_fulltable/r33_rebase_gate_person_tracking2_seed0/.../2026-09-16-14-47-45 (PLY final_after_opt, n=55174)",
+   "baseline": "results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/.../2026-09-16-13-23-00 (n=84162)"
+  },
+  "poses": "plot/trj_full_final.json trj_est (C2W); rendering uses its inverse",
+  "frames": [
+   2,
+   93,
+   122,
+   141,
+   178,
+   197,
+   243,
+   282,
+   309,
+   329,
+   347,
+   398,
+   421,
+   439,
+   512,
+   561
+  ],
+  "t0_frame": 309,
+  "frame_selection_rule": "content-only: mask coverage >= median of nonzero-coverage frames, then 16 frames evenly spaced in time (locked before any render metric)"
+ },
+ "protocol": {
+  "arms": {
+   "P1": "erase -- frozen map as-is",
+   "P2": "per-frame transient insertion from that frame's own mask+depth + 300-step local fit (constructive ceiling, non-causal)",
+   "C-": "P2 result translated 0.30 m along the camera-x axis AFTER the fit (negative control / instrument check)",
+   "P4": "insert+fit at t0=309 only, then frozen (naive bake-in)"
+  },
+  "insertion_convention": "repo's own GaussianModel._gaussians_from_points (KNN scale, Dataset.point_size=0.01, RGB2SH, inverse-sigmoid(0.5) opacity); mask pixels stride=3",
+  "fit": "300 iters, Adam groups xyz 5e-4 / log_scale 5e-3 / rot 1e-3 / opa 5e-2 / dc 5e-3, loss = in-mask RGB L1 + 0.1 * in-mask depth L1(m), seed 0",
+  "metrics": {
+   "dyn_psnr": "PSNR over dynamic-mask AND valid-GT-depth (implementation of the DynaGSLAM 'DynaPSNR' protocol, arXiv 2503.11979)",
+   "dyn_dl1_cm": "penalized depth L1 inside the mask (holes charged d_max=50cm) -- same function as project P-A",
+   "full_psnr": "whole-image PSNR, line-identical to render_compare.py",
+   "static_psnr": "utils.static_eval.static_background_metrics (same source as run-time P-A)",
+   "ghost_excess_cm": "utils.static_eval.vacated_contrast_metrics"
+  },
+  "pairing": "same frozen map, same poses, same frames => paired comparison, no seed noise",
+  "insertion_depth_range_m": [
+   0.2,
+   8.0
+  ],
+  "insertion_depth_range_note": "dyn_probe.py defaults; not in prereg 4/5 originally -- back-registered"
+ },
+ "judgment": {
+  "thresholds_from_prereg": {
+   "ceiling_dl1_ratio": 0.7,
+   "ceiling_psnr_gain_db": 2.0,
+   "motion_dl1_ratio": 1.3,
+   "harm_static_db": 0.25,
+   "cost_frac": 0.5,
+   "instrument_dl1_ratio": 1.15
+  },
+  "gate_map": {
+   "ceiling": {
+    "dl1_ratio": 0.5768,
+    "psnr_gain_db": 10.2943,
+    "pass": true
+   },
+   "motion_necessity": {
+    "dl1_ratio_far_from_t0": 1.8253,
+    "n_frames": 12,
+    "pass": true
+   },
+   "no_harm": {
+    "d_static_db": 0.1211,
+    "d_full_db": 2.0886,
+    "pass": true
+   },
+   "cost": {
+    "n_dyn_frac": 0.064,
+    "pass": true
+   },
+   "instrument": {
+    "dl1_ratio": 1.7696,
+    "pass": true
+   },
+   "outcome": "GO"
+  },
+  "baseline_map": {
+   "ceiling": {
+    "dl1_ratio": 0.5607,
+    "psnr_gain_db": 10.4622,
+    "pass": true
+   },
+   "motion_necessity": {
+    "dl1_ratio_far_from_t0": 1.9535,
+    "n_frames": 12,
+    "pass": true
+   },
+   "no_harm": {
+    "d_static_db": 0.1143,
+    "d_full_db": 2.2811,
+    "pass": true
+   },
+   "cost": {
+    "n_dyn_frac": 0.042,
+    "pass": true
+   },
+   "instrument": {
+    "dl1_ratio": 1.8144,
+    "pass": true
+   },
+   "outcome": "GO"
+  },
+  "descriptive_bake_in_vs_erase": {
+   "gate": {
+    "dl1_ratio_P4_over_P1": 1.0023,
+    "psnr_delta_db": -0.464,
+    "d_static_db": -1.17
+   },
+   "baseline": {
+    "dl1_ratio_P4_over_P1": 1.0301,
+    "psnr_delta_db": -0.6722,
+    "d_static_db": -1.1
+   }
+  },
+  "criteria_count": 6,
+  "criterion_6_positive_control": {
+   "max_abs_delta_db": 0.0003,
+   "n_frames": 8,
+   "artifact": "evidence/control_p1_vs_render_compare.json",
+   "pass": true
+  }
+ },
+ "reproducibility_L2": {
+  "protocol": "same locked config run repeatedly (rep1/rep2 + rounds 2-3); artifacts: l2_repeatability.json + dyn_probe_results_rep2.json",
+  "bit_identical_arms": [
+   "P1 for every map (no fitting)"
+  ],
+  "max_abs_delta_dyn_psnr_db_rep1_vs_rep2": 0.0055,
+  "max_abs_delta_dyn_psnr_db_three_runs_gate_P2": 0.0112,
+  "note": "quote the L2 band as <=0.012 dB (three runs), not 0.0055 (two runs) -- gate-1 minor",
+  "cause": "GPU rasterizer backward atomics during the 300-step local fit"
+ },
+ "material_check": {
+  "mask_coverage_median_person_tracking2_gtmc": 0.03,
+  "ghost_inventory": "map points projecting inside the mask: 12-13% (mostly background BEHIND the person); points in front of the GT surface (true ghost candidates): 2-1016 per frame (mean 83 gate / 157 baseline, <0.2% of the map)",
+  "implication": "no material to deform in the frozen map => the minimal form must INSERT from observation, not deform existing gaussians"
+ },
+ "artifacts": [
+  "evidence/prereg_dyn_probe.md",
+  "evidence/materials_dyn_probe.json",
+  "evidence/frame_coverage_pt2.json",
+  "evidence/dyn_probe_results.json",
+  "evidence/dyn_probe_results_rep2.json",
+  "evidence/control_p1_vs_render_compare.json",
+  "evidence/l2_repeatability.json",
+  "evidence/dyn_probe_report.md",
+  "evidence/dyn_probe_verdict.json",
+  "evidence/verdict_dyn_probe.md",
+  "evidence/slam_critic_report_embrace_dyn_gate1.md",
+  "evidence/manifest.json",
+  "configs/experiments/embrace_dyn/probe_pt2.yaml",
+  "configs/experiments/embrace_dyn/control_p1_vs_render_compare.yaml",
+  "evidence/prereg_dyn_probe_causal.md",
+  "evidence/prereg_dyn_probe_badsubset_addendum.md",
+  "evidence/dyn_probe_causal_results.json",
+  "evidence/verdict_dyn_probe_causal.md",
+  "evidence/dyn_probe_results_rep2.json",
+  "evidence/diag_causal_checks.json",
+  "evidence/slam_critic_report_causal_gate1.md",
+  "evidence/prereg_dyn_probe_causal2.md",
+  "evidence/dyn_probe_causal2_results.json",
+  "evidence/verdict_dyn_probe_causal2.md",
+  "evidence/diag_causal2_rigid_failures.txt",
+  "evidence/slam_critic_report_causal2_gate1.md",
+  "evidence/prereg_dyn_probe_balloon.md",
+  "evidence/frame_coverage_balloon.json",
+  "evidence/dyn_probe_balloon_results.json",
+  "evidence/verdict_dyn_probe_generality.md",
+  "evidence/slam_critic_report_balloon_gate1.md"
+ ],
+ "limitations": [
+  "P2 is a constructive optimistic ceiling AND non-causal (uses the evaluated frame's own observation)",
+  "ATE NOT measured -- dynamic primitives' effect on tracking is unknown (DISCIPLINE #7 makes absolute ATE the first acceptance criterion)",
+  "online-vs-offline mask difference not quantified (frozen gtmc vs online MaskRCNN)",
+  "single sequence (person_tracking2), single seed, two same-batch maps => NOT an independent replication",
+  "efficiency not measured (no training)",
+  "in-mask depth L1 uses the 3DGS expected depth => sensitive to opacity",
+  "P4 used 11906 primitives = 3.37x P2's mean => arms NOT cost-matched; P4's static damage direction is credible but its magnitude needs a cost-matched rerun",
+  "fit 'effect' evidence is first/last loss only (P2 per-frame mean 0.113->0.027, opa 0.50->0.758; P4 single fit 0.140->0.029, opa 0.711); no loss curve",
+  "ghost inventory sampled every 25 frames (23 frames), barely overlapping the 16 eval frames => limited representativeness",
+  "prereg text defect: criterion 3 was written two-sided |d static| <= 0.25 dB; measured +0.12 dB (positive); intent is non-degradation",
+  "causal arms: still no ATE measurement (offline); ATE must be reported once the mechanism runs online",
+  "P2c's appearance-side retention is only 0.119-0.130 in PSNR terms (geometric retention 0.586 on the bad subset) -- both must be reported together",
+  "the causal arm degrades the static region by 0.78 dB (stale primitives occlude vacated background) => retirement/visibility is mandatory, not optional",
+  "the in-mask metric is heterogeneous because the GTMC mask area jumps 4k->116k px frame to frame; every in-mask number must carry its protocol (full mask vs M_bad)",
+  "causal round II used a 12-frame paired set (4 frames excluded) => numbers are NOT directly comparable to round I's 15-frame set; round-I references on the same 12 frames are quoted in the verdict",
+  "the three 'cheapest' mechanisms tested are all offline insert-then-transform; the NO-GO does NOT rule out online joint optimisation"
+ ],
+ "gate_1_slam_critic": {
+  "status": "PASSED (after corrections)",
+  "reviewer_verdict": "Reject (landing-blocking) with 1 fatal / 6 major / 8 minor / 5 unverifiable; NO substantive direction conclusion overturned",
+  "report": "evidence/slam_critic_report_embrace_dyn_gate1.md",
+  "resolution_table": "evidence/verdict_dyn_probe.md section 7",
+  "key_corrections": [
+   "criterion 6 (positive control) added to the analyzer/report/manifest; document now says six criteria, not five",
+   "L2 wording corrected (only P1 bit-identical)",
+   "previously unread columns consumed (dyn_px / vacated_px / per-frame fit evidence)",
+   "dyn_cov registered as non-discriminative and promoted into conclusion 3",
+   "P4 cost-mismatch caveat added (magnitude downgraded, direction kept)",
+   "ATE-untested limitation added"
+  ],
+  "scope_note": "this block describes the ROUND-1 (four-arm ladder) gate-1 review only; rounds 2/3/4 each carry their own gate_1 string, and round 5 is pending (see rounds.round_5_causal3.gate_1)"
+ },
+ "next_steps": [
+  "mechanism implementation under the code-protection exception process (config switch default-off = bit-identical to mainline)",
+  "causal preregistration: insert from past frames only, evaluate on later frames; quantify the causal-vs-oracle gap",
+  "extend to >=2 sequences (one non-pt) + held-out + 3 seeds on the remote 3090 (user-authorized)",
+  "literature calibration via resources/lit_dyn_mapping/ before claiming novelty"
+ ],
+ "dyn_cov_null_result": "mask-region coverage == 1.000 for every arm => the frozen map covers the dynamic region with background gaussians (no holes); the anti-dynamic paradigm's cost is WRONG CONTENT, not MISSING CONTENT; dyn_cov is therefore non-discriminative here and is registered as such (no conclusions use it)",
+ "process_defects_selfdisclosed": [
+  "verdict draft was written before the positive control ran (fixed at gate 1)",
+  "L2 statement was factually wrong in the first draft (fixed)",
+  "four stages were committed within the same second => git timestamps cannot prove prereg-before-results (mtime evidence only)",
+  "produced-but-unread columns (the 4th instance of this failure mode in the project)"
+ ],
+ "rounds": {
+  "round_1_four_arm_ladder": {
+   "prereg": "evidence/prereg_dyn_probe.md",
+   "config": "configs/experiments/embrace_dyn/probe_pt2.yaml",
+   "results": "evidence/dyn_probe_results.json",
+   "verdict": "evidence/verdict_dyn_probe.md",
+   "outcome": "GO (six criteria, both maps)",
+   "gate_1": "PASSED after corrections (Reject -> fixes -> pass)"
+  },
+  "round_2_causal": {
+   "prereg": "evidence/prereg_dyn_probe_causal.md",
+   "config": "configs/experiments/embrace_dyn/probe_pt2_causal.yaml",
+   "results": "evidence/dyn_probe_causal_results.json",
+   "verdict": "evidence/verdict_dyn_probe_causal.md",
+   "outcome": "PARTIAL (C1b PASS; C3 FAIL static region degraded => retirement/motion mandatory; C2 FAIL velocity estimator unusable)",
+   "kf_source": "consolelog 'Candidate insert KF' (113 KFs, gap exactly 5); PLY carries no KF field",
+   "cold_start_rule": "frames with no preceding KF (f2) excluded from causal criteria, rule locked before the run",
+   "measurement_code_commit": "92af04d3 (probe+configs frozen and committed BEFORE the round-3 batch; the results JSONs were produced by it)",
+   "analysis_code_commits": [
+    "a2539071",
+    "4040329f"
+   ],
+   "gate_1": "PASSED (round 2). Round-1 review = Reject (1 fatal: measurement code uncommitted + inconsistent HEAD fields; 5 major; 7 minor); all resolved -- see verdict_dyn_probe_causal.md section 7",
+   "final_numbers_paired_frameset_n15": {
+    "C1b_causal_retention_bad_subset": {
+     "P2c": [
+      0.594,
+      0.607
+     ],
+     "P2cv": [
+      0.217,
+      0.266
+     ],
+     "threshold": 0.5,
+     "pass": true
+    },
+    "C1_full_mask_reference": {
+     "P2c": [
+      0.59,
+      0.583
+     ],
+     "P2cv": [
+      0.157,
+      0.191
+     ]
+    },
+    "C2_velocity_ratio": [
+     1.23,
+     1.218
+    ],
+    "C3_d_static_db_P2c": [
+     -0.53,
+     -0.63
+    ],
+    "C4_n_dyn_frac": [
+     0.071,
+     0.046
+    ],
+    "C5_instrument": [
+     1.32,
+     1.33
+    ]
+   }
+  },
+  "bad_subset_addendum": {
+   "prereg": "evidence/prereg_dyn_probe_badsubset_addendum.md",
+   "definition": "M_bad = dynamic mask AND valid GT depth AND (P1 rendered depth invalid OR |P1 - GT| > 0.10 m); identical for all arms (paired)",
+   "measured": {
+    "mean_bad_px": 17747,
+    "frac_of_image": 0.058,
+    "frac_of_mask": 0.556
+   },
+   "effect": "ceiling becomes LARGER on the subset (P2 vs P1: +10.73/+11.00 dB, dl1 ratio 0.565/0.555) => the copy-of-background component (~44% of the mask) is quantified and excluded from the primary reading"
+  },
+  "velocity_estimator_falsified": {
+   "arm": "P2cv (centroid-difference velocity)",
+   "measured_speed_m_per_frame": [
+    0.12,
+    0.25
+   ],
+   "implication": "3.6-7.5 m/s, physically impossible; GTMC mask area jumps 4k->116k px between adjacent KFs so the centroid tracks mask shape, not object motion",
+   "next": "robust rigid registration (largest connected component + NN matching + Umeyama) in a new pre-registered arm, NOT swapped in-place"
+  },
+  "round_3_causal2": {
+   "prereg": "evidence/prereg_dyn_probe_causal2.md",
+   "config": "configs/experiments/embrace_dyn/probe_pt2_causal2.yaml",
+   "results": "evidence/dyn_probe_causal2_results.json",
+   "verdict": "evidence/verdict_dyn_probe_causal2.md",
+   "measurement_code_commit": "15a7ad55 (probe + config + prereg committed BEFORE the batch)",
+   "arms": "P1 / P2 / P2c(hold) / P2cs(mask CC) / P2cm(CC+median velocity) / P2cr(CC+rigid constant-twist, primary) / C-c",
+   "outcome": "NO-GO on both maps (appearance retention D2 = 0.048/0.035 vs threshold 0.40; geometry D3 = 0.583/0.577 vs 0.75; mask-CC ablation D1 = 1.025 no contribution; static harm D4 = -0.83/-0.89 dB)",
+   "frames_used": 12,
+   "excluded_frames": {
+    "2": "cold start (no preceding KF)",
+    "93/243/561": "rigid estimation degenerate (Degenerate covariance rank)"
+   },
+   "structural_findings": {
+    "F6": "rigid estimation fails on 3/15 frames => mechanism availability 12/15; needs a pre-registered degenerate fallback ; evidence landed: evidence/diag_causal2_rigid_failures.txt",
+    "F7": "icp_rmse_m median 0.039 / max 0.670 m => the two-KF rigid-alignment assumption fails on some frames",
+    "F8": "extrapolation destroys already-correct content when the estimate is wrong (P2cr bad_dl1 20.47 > P2cs 20.16) => conservative hold beats aggressive extrapolation"
+   },
+   "remaining_paths": [
+    "online joint optimisation (core-code mechanism + ATE reporting; requires its own project/prereg)",
+    "no method contribution: fold the two rounds into a boundary-characterisation Discussion"
+   ],
+   "gate_1": "PASSED (round 3). Round-1 review = Reject (1 fatal: gate-group numbers mislabelled as baseline + unreproducible values; 5 major; 5 minor); all resolved -- see verdict_dyn_probe_causal2.md section 7",
+   "final_numbers_n12_paired": {
+    "D1_mask_cc_ratio": [
+     1.0253,
+     1.026
+    ],
+    "D2_appearance_retention_P2cr": [
+     0.0475,
+     0.0778
+    ],
+    "D2_P2c_reference": [
+     0.1581,
+     0.1562
+    ],
+    "D3_geometry_retention_P2cr": [
+     0.5826,
+     0.6054
+    ],
+    "D4_d_static_db": [
+     -0.8309,
+     -0.98
+    ],
+    "D5_cost_frac": [
+     0.0767,
+     0.0503
+    ],
+    "D6_instrument": [
+     1.3217,
+     1.3756
+    ],
+    "sensitivity_15f": {
+     "D1": [
+      1.0222,
+      1.0209
+     ],
+     "P2c_appearance": [
+      0.138,
+      0.1388
+     ],
+     "P2c_geometry": [
+      0.5932,
+      0.6071
+     ],
+     "P2c_d_static": [
+      -0.5361,
+      -0.6244
+     ]
+    }
+   },
+   "P2cm_negative_retention": "bad_psnr 17.37 (gate) / 17.35 (baseline) is BELOW the erase baseline P1 19.19 / 19.09 => the median-velocity translation arm is worse than erasing",
+   "untested_cheap_variants": [
+    "degenerate-frame fallback to hold",
+    ">2-KF least-squares motion estimation",
+    "dt-bucketed extrapolation",
+    "mask stabilisation other than largest-CC (temporal voting / mask history / MaskRCNN source)",
+    "different sequence or mask source"
+   ],
+   "boundary_claim": "NOT 'the offline direction is exhausted'; the claim is: the four cheapest mechanisms tried all fail, with a consistent 'more aggressive = worse' direction"
+  },
+  "round_4_generality_balloon": {
+   "prereg": "evidence/prereg_dyn_probe_balloon.md",
+   "config": "configs/experiments/embrace_dyn/probe_balloon_generality.yaml",
+   "results": "evidence/dyn_probe_balloon_results.json",
+   "verdict": "evidence/verdict_dyn_probe_generality.md",
+   "measurement_code_commit": "6e6e8a79",
+   "outcome": "generality CONFIRMED in direction on a 2nd sequence",
+   "numbers": {
+    "ceiling_bad_psnr_gain_db": [
+     15.82,
+     15.85
+    ],
+    "ceiling_bad_dl1_ratio": [
+     0.214,
+     0.184
+    ],
+    "P2c_retention_bad_dl1": [
+     0.696,
+     0.719
+    ],
+    "P2c_retention_bad_psnr": [
+     0.221,
+     0.242
+    ],
+    "excl_dt0_n13": {
+     "retention_bad_dl1": [
+      0.666,
+      0.687
+     ],
+     "retention_bad_psnr": [
+      0.144,
+      0.161
+     ]
+    },
+    "d_static_db": [
+     -0.26,
+     -0.19
+    ]
+   },
+   "calibre_note": "2 of the 16 balloon eval frames (125, 320) are themselves KFs (dt=0 => the causal arm degenerates to the oracle); values excluding them are reported (n=13)",
+   "pt2_reference": {
+    "ceiling_bad_psnr_gain_db": [
+     10.73,
+     11.0
+    ],
+    "ceiling_bad_dl1_ratio": [
+     0.565,
+     0.555
+    ],
+    "P2c_retention_bad_dl1": [
+     0.59,
+     0.583
+    ],
+    "P2c_retention_bad_psnr": [
+     0.12,
+     0.14
+    ],
+    "d_static_db": [
+     -0.53,
+     -0.63
+    ]
+   },
+   "boundary": "single seed, two sequences => cross-sequence, NOT full-table evidence; no ATE",
+   "analysis_code_commit": "cd97c117 (committed AFTER the run -- process defect, see verdict section 6)",
+   "gate_1": "PASSED (round 4). Round-1 review = Reject (1 fatal: analysis code uncommitted + provenance; 5 major; 5 minor); all resolved -- see verdict_dyn_probe_generality.md section 6",
+   "frame_calibre": "16 frames locked; f2 is a cold start => paired n=15 (the exclusion propagates to ALL arms)",
+   "extra_reported_criteria": {
+    "instrument_ratio": [
+     4.2621,
+     4.7242
+    ],
+    "positive_control_max_delta_db": 0.0003,
+    "P4_vs_P1": {
+     "dl1_ratio": [
+      0.928,
+      0.8624
+     ],
+     "psnr_delta_db": [
+      -1.0822,
+      -1.604
+     ],
+     "d_static_db": [
+      -3.9673,
+      -4.3224
+     ]
+    }
+   },
+   "bad_area_denominators": {
+    "image": "480x640",
+    "n_static": {
+     "gate": 50593,
+     "baseline": 32174
+    }
+   },
+   "untested_controls": [
+    "within-sequence controlled comparison (smoothest-motion frame subset of pt2)",
+    "area-normalised comparison",
+    "balloon L2 repeatability (absent => G3 undecidable)"
+   ]
+  },
+  "round_5_causal3": {
+   "prereg": "evidence/prereg_dyn_probe_causal3.md",
+   "config": "configs/experiments/embrace_dyn/probe_pt2_causal3.yaml",
+   "results": "evidence/dyn_probe_causal3_results.json",
+   "verdict": "evidence/verdict_dyn_probe_causal3.md",
+   "measurement_code_commit": "7fddd0d7 (probe + analyzer + config committed BEFORE the batch); the prereg landed separately in c332a116 -- both are ancestors of the results commit 428799cc, so 'committed before the run' holds, but the 'single commit' form of the rule does not (registered in the verdict section 4)",
+   "arms": "P1 erase / P2 oracle / P2c (hold, control) / P2cu (multi-frame union, window w=4 => 5 frames) / P2cuv (union + per-primitive KNN velocity, primary) / C-u (misaligned control)",
+   "outcome": "NO-GO on both maps -- PENDING GATE-1 REVIEW WHEN FIRST WRITTEN; gate-1 passed in round 5 after corrections (see the verdict section 6). E2 appearance retention 0.0285/0.0535 vs 0.40 FAIL; E3 geometry retention 0.5021/0.4976 vs 0.75 FAIL; E4 static harm -1.0303/-1.2425 dB vs 0.25 FAIL; E1 accumulation ablation 0.9693/0.9775 vs 0.90 FAIL (an ERROR-RATIO threshold, ablation only, not a decision criterion); E5 cost n_dyn_frac 0.3634/0.2382 PASS; E6 instrument 1.2475/1.2546 PASS",
+   "frames_used": 15,
+   "primitive_growth": "mean n_dyn 3,909.07 (P2c) -> 20,048.2 (P2cu/P2cuv) = 5.13x. An earlier draft said 'x6.4'; no such key exists in any artifact (hand-copy error, corrected before the gate-1 dispatch)",
+   "structural_findings": {
+    "F10": "per-primitive KNN velocity erases the accumulation gain entirely: in E7_stratified.by_mask_size (gate) the union arm P2cu improves BOTH mask buckets (dl1 0.216->0.2902 poor / 0.8012->0.8478 good) while the primary arm P2cuv sits BELOW the hold arm in both (0.1767 / 0.6815)",
+    "F11": "the pooled ablation reading (E1) and the per-frame stratified retention reading are different normalizations; both must be reported together and must not be conflated",
+    "F12": "compensating with more points does not cross the mask-quality barrier: 5.13x primitives buy ~3% pooled error reduction"
+   },
+   "motion_model_attempts": "4 motion variants, none usable: (1) global mean velocity P2cv (round 1), (2) global median velocity P2cm (round 2), (3) rigid constant-twist P2cr (round 2), (4) per-primitive KNN velocity P2cuv (round 3, the literature's own parameterisation). Plus 1 accumulation variant (P2cu, round 3) which FAILED its ablation bar. An earlier draft said '5' -- corrected during gate-1 remediation. Calibre correction: round 1's machine verdict was PARTIAL (primary criterion C1b geometry retention 0.5936/0.6068 passed), not a failure",
+   "remaining_paths": "1) online joint optimisation (core-code exception flow, ATE must be reported) -- project-level decision; 2) no method contribution: carry the ceiling + three causal rounds + fairness audit into the paper-2 Discussion as a boundary characterisation",
+   "gate_1": "PASSED (round 5). Round-1 review = Reject (1 fatal: the E7 helper was fixed after the run while the hardest reading rests on that block, plus the analyzer sha was not recorded; 5 major; 8 minor; 4 unverifiable). All 18 items resolved -- 14 accepted and remediated, 4 unverifiable resolved by structural proof or by landing the missing records. NO-GO direction NOT overturned. Full report: evidence/slam_critic_report_causal3_gate1.md; item-by-item table: verdict section 6",
+   "calibre": "all readings above come from dyn_probe_verdict.json:causal3_judgments (paired, n=15; frames [93,122,141,178,197,243,282,309,329,347,398,421,439,512,561]). diag_causal_fairness.json covers rounds 1/2/balloon only (see its 'sources') and is NOT a source for this round -- where cited it is a cross-round re-analysis and is labelled as such. AGGREGATION WARNING: E2/E3 (whole-set) and E7 (per-bucket) are NOT interchangeable; on the full set retention_of(means) and _retention_perframe agree numerically (E3 = 0.5021 both ways, because the analyzer's means ARE per-frame means), so the only difference is subsetting. Re-averaging the two bucket values by frame count (0.4459) is WRONG and matches neither. Bucket threshold = median n_dyn over the 15 frames = 3642 (matches the value independently recorded in diag_causal_fairness.json). Buckets are n=7/8, single seed, no variance/CI: the 'eats the whole gain' reading is an observational comparison, not a significance test. Worst-case: a reader must not re-average buckets",
+   "analysis_code_commits": {
+    "7fddd0d7": "E1-E6 criteria (same commit as the measurement code, committed BEFORE the batch)",
+    "428799cc": "POST-RUN fix of the E7 stratified helper (nonexistent `retention` -> `_retention_perframe`). The verdict's hardest reading rests on this post-hoc block, so the post-hoc status is stated in the verdict header and section 4"
+   },
+   "reproducibility": "evidence/analyzer_reproducibility.json -- re-running the committed analyzer from the landed result JSONs reproduces dyn_probe_report.md and dyn_probe_verdict.json BYTE-IDENTICALLY (sha256 recorded; the check was run into /tmp, the landed deliverables were not overwritten)",
+   "untested_cheap_variants": "NOT exhausted offline. (a) the prereg's OWN pre-written remedy for this outcome was never executed: prereg section 4 says 'if P2cuv is clearly worse than P2cu -> per-point velocity needs gating/smoothing'; the condition triggered but the arm was upgraded straight to 'unusable'. (b) round-2 leftovers: degenerate-frame fallback (F6), >2-KF least squares, layered by delta-t. (c) mask-source / sequence swap. So 'offline has reached its boundary' is NOT claimed; the claim is 'marginal return of further offline mechanism variants is expected to be low (a judgement)'"
+  }
+ },
+ "bad_subset_decomposition": {
+  "M_bad": {
+   "mean_px": 17747,
+   "frac_of_image": 0.058,
+   "frac_of_mask_gate": 0.558,
+   "frac_of_mask_baseline": 0.555,
+   "hole_px": 0,
+   "hole_frac_of_bad": 0.0,
+   "penalty_constant_applies": false,
+   "P2_over_P1_dl1_ratio": [
+    0.565,
+    0.555
+   ],
+   "P1_psnr": [
+    20.34,
+    20.49
+   ],
+   "P2_psnr": [
+    31.18,
+    31.7
+   ]
+  },
+  "M_good": {
+   "mean_px": 14078,
+   "P2_over_P1_dl1_ratio": [
+    1.192,
+    1.085
+   ],
+   "P1_psnr": [
+    22.01,
+    23.39
+   ],
+   "P2_psnr": [
+    30.91,
+    31.45
+   ],
+   "interpretation": "P2's PSNR gain here is a copy of the evaluated frame's own input; its depth ratio is ~1.1-1.2 (slightly worse) => the genuine depth gain comes entirely from M_bad"
+  },
+  "comparability_rule": "dB gains are NOT comparable across pixel sets (different P1 baselines); conclusions use within-set ratios only"
+ },
+ "kf_insertion_insight": {
+  "n_dyn_per_frame_P2c": {
+   "min": 123,
+   "median": 3642,
+   "max": 12906
+  },
+  "example": "eval frame 309 -> nearest KF 305 has a tiny GTMC mask (4051 px) => only 438 primitives inserted => that frame's causal arm is nearly equivalent to erasing",
+  "implication": "mask stability / history aggregation matters as much as the insertion rule (finding F5)"
+ }
+}

@@ -1,0 +1,523 @@
+{
+ "experiment": "paper2_rollout/reverification_r34",
+ "date": "2026-09-18",
+ "batch": "R34: 3 arms x 6 seq x 3 seed = 54 run, all rc=0 (2026-09-17 07:24 -> 22:14)",
+ "arms_note": "same-batch, same-code re-verification of the 6 |delta|>1.5cm held-out sequences (prereg selection rule). rb = fixed-stack baseline (SWBA/LoopClosure/gate all off, K7: same-batch contrast ONLY, must not be used as a standalone method baseline or extrapolated across experiments); sw = rb+SWBA (attribution arm); gate = deployment form",
+ "ate_column": "ate_rmse_cm (col8, full-frame); kf_cm = keyframe col14",
+ "prereg": "evidence/prereg_r34.md",
+ "analyzer_output": "evidence/analyze_r34_output.txt",
+ "verdict": "K5 reproducibility (full prior, x_rows_seeds12 included): 3/6 EXCEEDS -> 2 harm seqs NOT-REPRODUCIBLE (f1_room +8.152, f3_st_rpy +2.602); kept 2/3 with gate>+1.0cm (f3_office +1.603, f3_wk_rpy +1.706); mob direction-reversed (-9.939, its all-off prior spread 18.8cm); control f1_desk2 -1.327 direction reproduced; K6='partially failed' (full-prior read). Original '5 of 6 held-out harmed' claim defeated under BOTH prior readings. Loop-closure zero-correction is Bonn-scoped; no final arm added (§2.1). Gate-3: 13 adopted + 1 partial; gate-1: Accept-with-conditions, all cleared.",
+ "runs_rc0": 54,
+ "arms": {
+  "rb": {
+   "f1_room": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.7585,
+      "kf_cm": 4.5741
+     },
+     {
+      "seed": 1,
+      "full_cm": 27.9942,
+      "kf_cm": 28.1551
+     },
+     {
+      "seed": 2,
+      "full_cm": 16.4192,
+      "kf_cm": 16.4963
+     }
+    ],
+    "mean_full_cm": 16.3906,
+    "sd_full_cm": 11.6179,
+    "mean_kf_cm": 16.4085
+   },
+   "f1_desk2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.0771,
+      "kf_cm": 4.8092
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.1772,
+      "kf_cm": 4.9271
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.0685,
+      "kf_cm": 4.8628
+     }
+    ],
+    "mean_full_cm": 5.1076,
+    "sd_full_cm": 0.0604,
+    "mean_kf_cm": 4.8664
+   },
+   "f3_st_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.234,
+      "kf_cm": 2.6191
+     },
+     {
+      "seed": 1,
+      "full_cm": 8.8418,
+      "kf_cm": 8.6074
+     },
+     {
+      "seed": 2,
+      "full_cm": 3.7863,
+      "kf_cm": 3.0103
+     }
+    ],
+    "mean_full_cm": 5.2874,
+    "sd_full_cm": 3.0906,
+    "mean_kf_cm": 4.7456
+   },
+   "f3_office": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.3635,
+      "kf_cm": 1.3473
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.4233,
+      "kf_cm": 1.4045
+     },
+     {
+      "seed": 2,
+      "full_cm": 1.4241,
+      "kf_cm": 1.4039
+     }
+    ],
+    "mean_full_cm": 1.4036,
+    "sd_full_cm": 0.0348,
+    "mean_kf_cm": 1.3852
+   },
+   "moving_obstructing_box": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 14.1704,
+      "kf_cm": 14.2053
+     },
+     {
+      "seed": 1,
+      "full_cm": 32.6366,
+      "kf_cm": 32.2523
+     },
+     {
+      "seed": 2,
+      "full_cm": 40.7215,
+      "kf_cm": 40.3416
+     }
+    ],
+    "mean_full_cm": 29.1762,
+    "sd_full_cm": 13.6096,
+    "mean_kf_cm": 28.9331
+   },
+   "f3_wk_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.596,
+      "kf_cm": 3.145
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.9484,
+      "kf_cm": 3.452
+     },
+     {
+      "seed": 2,
+      "full_cm": 7.1275,
+      "kf_cm": 6.225
+     }
+    ],
+    "mean_full_cm": 4.8906,
+    "sd_full_cm": 1.9452,
+    "mean_kf_cm": 4.274
+   }
+  },
+  "sw": {
+   "f1_room": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 12.6176,
+      "kf_cm": 12.365
+     },
+     {
+      "seed": 1,
+      "full_cm": 12.1831,
+      "kf_cm": 11.9109
+     },
+     {
+      "seed": 2,
+      "full_cm": 16.8897,
+      "kf_cm": 16.7801
+     }
+    ],
+    "mean_full_cm": 13.8968,
+    "sd_full_cm": 2.601,
+    "mean_kf_cm": 13.6853
+   },
+   "f1_desk2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.4826,
+      "kf_cm": 3.1837
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.4915,
+      "kf_cm": 3.1316
+     },
+     {
+      "seed": 2,
+      "full_cm": 3.3828,
+      "kf_cm": 3.0578
+     }
+    ],
+    "mean_full_cm": 3.4523,
+    "sd_full_cm": 0.0604,
+    "mean_kf_cm": 3.1244
+   },
+   "f3_st_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.1079,
+      "kf_cm": 10.3448
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.4068,
+      "kf_cm": 3.9113
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.1554,
+      "kf_cm": 3.5035
+     }
+    ],
+    "mean_full_cm": 7.2234,
+    "sd_full_cm": 3.3665,
+    "mean_kf_cm": 5.9199
+   },
+   "f3_office": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.0759,
+      "kf_cm": 3.0581
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.2268,
+      "kf_cm": 3.1924
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.8529,
+      "kf_cm": 2.8303
+     }
+    ],
+    "mean_full_cm": 3.0519,
+    "sd_full_cm": 0.1881,
+    "mean_kf_cm": 3.0269
+   },
+   "moving_obstructing_box": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 34.6072,
+      "kf_cm": 34.0763
+     },
+     {
+      "seed": 1,
+      "full_cm": 15.8065,
+      "kf_cm": 15.6823
+     },
+     {
+      "seed": 2,
+      "full_cm": 10.5876,
+      "kf_cm": 10.6254
+     }
+    ],
+    "mean_full_cm": 20.3338,
+    "sd_full_cm": 12.6336,
+    "mean_kf_cm": 20.128
+   },
+   "f3_wk_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 19.8984,
+      "kf_cm": 19.9901
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.4761,
+      "kf_cm": 3.7699
+     },
+     {
+      "seed": 2,
+      "full_cm": 6.9217,
+      "kf_cm": 5.1907
+     }
+    ],
+    "mean_full_cm": 10.7654,
+    "sd_full_cm": 7.9424,
+    "mean_kf_cm": 9.6502
+   }
+  },
+  "gate": {
+   "f1_room": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 24.7121,
+      "kf_cm": 24.5897
+     },
+     {
+      "seed": 1,
+      "full_cm": 12.2267,
+      "kf_cm": 11.8745
+     },
+     {
+      "seed": 2,
+      "full_cm": 16.9052,
+      "kf_cm": 16.676
+     }
+    ],
+    "mean_full_cm": 17.948,
+    "sd_full_cm": 6.3077,
+    "mean_kf_cm": 17.7134
+   },
+   "f1_desk2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.017,
+      "kf_cm": 3.7529
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.8833,
+      "kf_cm": 3.5927
+     },
+     {
+      "seed": 2,
+      "full_cm": 3.4427,
+      "kf_cm": 3.1874
+     }
+    ],
+    "mean_full_cm": 3.781,
+    "sd_full_cm": 0.3005,
+    "mean_kf_cm": 3.511
+   },
+   "f3_st_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.2746,
+      "kf_cm": 3.5583
+     },
+     {
+      "seed": 1,
+      "full_cm": 6.8742,
+      "kf_cm": 5.6504
+     },
+     {
+      "seed": 2,
+      "full_cm": 8.6429,
+      "kf_cm": 7.0321
+     }
+    ],
+    "mean_full_cm": 6.9306,
+    "sd_full_cm": 1.6849,
+    "mean_kf_cm": 5.4136
+   },
+   "f3_office": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.0952,
+      "kf_cm": 3.0677
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.086,
+      "kf_cm": 3.0591
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.8379,
+      "kf_cm": 2.8133
+     }
+    ],
+    "mean_full_cm": 3.0064,
+    "sd_full_cm": 0.146,
+    "mean_kf_cm": 2.98
+   },
+   "moving_obstructing_box": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 13.6988,
+      "kf_cm": 13.7626
+     },
+     {
+      "seed": 1,
+      "full_cm": 31.3765,
+      "kf_cm": 31.1024
+     },
+     {
+      "seed": 2,
+      "full_cm": 12.6351,
+      "kf_cm": 12.6669
+     }
+    ],
+    "mean_full_cm": 19.2368,
+    "sd_full_cm": 10.5267,
+    "mean_kf_cm": 19.1773
+   },
+   "f3_wk_rpy": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 6.1046,
+      "kf_cm": 4.9363
+     },
+     {
+      "seed": 1,
+      "full_cm": 6.4807,
+      "kf_cm": 6.0372
+     },
+     {
+      "seed": 2,
+      "full_cm": 7.2051,
+      "kf_cm": 6.3675
+     }
+    ],
+    "mean_full_cm": 6.5968,
+    "sd_full_cm": 0.5594,
+    "mean_kf_cm": 5.7803
+   }
+  }
+ },
+ "derived": {
+  "f1_room": {
+   "rb_to_sw_cm": -2.4938,
+   "rb_to_gate_cm": 1.5574
+  },
+  "f1_desk2": {
+   "rb_to_sw_cm": -1.6553,
+   "rb_to_gate_cm": -1.3266
+  },
+  "f3_st_rpy": {
+   "rb_to_sw_cm": 1.936,
+   "rb_to_gate_cm": 1.6432
+  },
+  "f3_office": {
+   "rb_to_sw_cm": 1.6483,
+   "rb_to_gate_cm": 1.6028
+  },
+  "moving_obstructing_box": {
+   "rb_to_sw_cm": -8.8424,
+   "rb_to_gate_cm": -9.9394
+  },
+  "f3_wk_rpy": {
+   "rb_to_sw_cm": 5.8748,
+   "rb_to_gate_cm": 1.7062
+  }
+ },
+ "k5_reproducibility": {
+  "f1_room": {
+   "frozen_rb_cm": 8.2384,
+   "prior_obs_cm": [
+    8.2384,
+    6.4318,
+    4.7338,
+    7.0213,
+    9.3311
+   ],
+   "delta_cm": 8.1522,
+   "tol_cm": 4.5973,
+   "pass": false
+  },
+  "f1_desk2": {
+   "frozen_rb_cm": 7.1966,
+   "prior_obs_cm": [
+    7.1966
+   ],
+   "delta_cm": -2.089,
+   "tol_cm": 1.0,
+   "pass": false
+  },
+  "f3_st_rpy": {
+   "frozen_rb_cm": 2.6851,
+   "prior_obs_cm": [
+    2.6851,
+    2.7578,
+    4.5114
+   ],
+   "delta_cm": 2.6023,
+   "tol_cm": 1.8263,
+   "pass": false
+  },
+  "f3_office": {
+   "frozen_rb_cm": 1.6438,
+   "prior_obs_cm": [
+    1.6438
+   ],
+   "delta_cm": -0.2402,
+   "tol_cm": 1.0,
+   "pass": true
+  },
+  "moving_obstructing_box": {
+   "frozen_rb_cm": 18.7758,
+   "prior_obs_cm": [
+    18.7758,
+    37.5449,
+    20.9375
+   ],
+   "delta_cm": 10.4004,
+   "tol_cm": 18.7691,
+   "pass": true
+  },
+  "f3_wk_rpy": {
+   "frozen_rb_cm": 4.2924,
+   "prior_obs_cm": [
+    4.2924,
+    4.4823,
+    4.2109
+   ],
+   "delta_cm": 0.5982,
+   "tol_cm": 1.0,
+   "pass": true
+  }
+ },
+ "k6": {
+  "harm_seq_kept": [
+   "f3_office",
+   "moving_obstructing_box",
+   "f3_wk_rpy"
+  ],
+  "harm_seq_dropped_k5": [
+   "f1_room",
+   "f3_st_rpy"
+  ],
+  "kept_with_gate_gt_1cm": [
+   "f3_office",
+   "f3_wk_rpy"
+  ],
+  "verdict": "partially failed: only 2/3 kept harm seq exceed +1.0cm"
+ }
+}

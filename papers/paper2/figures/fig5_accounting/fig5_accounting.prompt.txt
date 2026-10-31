@@ -1,0 +1,46 @@
+# fig5_accounting — Bytes per primitive in the stored schema
+# 论文位置：§4 What a Map Is Made Of（图注 fig:accounting）
+# 类型：数据图（单条堆叠横条）→ ❌ 不可用生成模型产出
+#   本文件 = 【样式重构说明书】：用绘图代码重画
+# 目标尺寸：单栏 ~89 mm，现图 267×182 pt
+
+================================================================
+中文意图说明
+================================================================
+一条水平堆叠条，表示每个基元 80 B（20 字段 f32）的构成：
+- 56 B = 渲染载荷（光栅器读的 14 字段，蓝）
+- 24 B = 记账字段（6 字段，从不被读，暖色；zlib 会把它们压掉）
+两个分段内各写数字 "56 B" / "24 B"（白字）；下方图例两行。
+
+待改进点：
+1. 条太细、图例占位大，整体留白浪费（现图偏方，不紧凑）
+2. 分段标签字号与外框不精致
+3. 缺"总长 80 B"的视觉提示
+
+================================================================
+Restyle spec（绘图代码重画，数据不变）
+================================================================
+Keep DATA identical (56 B / 24 B / total 80 B). Redraw STYLE only.
+- One horizontal stacked bar, height ~0.42 of axes, y-axis hidden.
+- Segment 1: "#0072B2" (blue), label "56 B" centred, white bold 7 pt.
+- Segment 2: "#D55E00" (vermillion), label "24 B" centred, white bold 7 pt.
+- Thin white 0.5 pt divider between segments (as now).
+- x label "bytes per primitive (20-field f32)", Arial 7 pt; ticks 6 pt at 0/20/40/60/80,
+  direction in.
+- Legend below, frameless, one line per segment, 6–7 pt:
+  "render payload (14 fields the rasteriser reads)" and
+  "accounting fields (6 fields, never read; zlib removes them)".
+- Colourblind-safe (blue/vermillion). White background. No title (LaTeX caption).
+- Tight canvas, wide-short (double-column-friendly), output vector PDF.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT change the byte numbers. No 3D, no shadows, no gradients, no pie chart.
+
+================================================================
+Post checklist
+================================================================
+[ ] 分段标签 56 B / 24 B 正确，总长对应 80 B
+[ ] 配色 Okabe-Ito 蓝/朱红；图例无框
+[ ] 版式紧凑（非方图）、轴标签带单位

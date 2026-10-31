@@ -1,0 +1,60 @@
+{
+  "seq": "balloon2",
+  "n_common_frames": 18,
+  "n_eval_frames": 18,
+  "arms": [
+    "E",
+    "D",
+    "Cneg"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": 6.0822,
+    "iqr": 5.3163
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.2268,
+    "iqr": 0.3287
+  },
+  "J3_static_delta": {
+    "median": 0.0711,
+    "iqr": 0.2076
+  },
+  "J3_full_delta": {
+    "median": 2.5117,
+    "iqr": 3.0122
+  },
+  "J6_bad_px_median": 44790.0,
+  "instrument_samepose": true,
+  "J1_samepose_bad_psnr_delta": {
+    "median": 6.0822,
+    "iqr": 5.3163
+  },
+  "J2_samepose_bad_dl1_ratio": {
+    "median": 0.2268,
+    "iqr": 0.3287
+  },
+  "J3_samepose_static_delta": {
+    "median": 0.0711,
+    "iqr": 0.2076
+  },
+  "J3_samepose_static_body_delta": {
+    "median": 0.0,
+    "note": "only-static-rows render; construct-diagnostic"
+  },
+  "J7_neg_control_dl1_ratio": {
+    "median": 2.313,
+    "iqr": 1.5894
+  },
+  "J6_frame_coverage": 1.0,
+  "J6_judgeable": true,
+  "render_exit": "render_subset_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "samepose_causal",
+  "instrument_note": "\u51fa\u53e3\u53e3\u5f84\uff08\u00a712 v4\uff09\uff1a\u5168\u81c2\u5e27 e \u4f4d\u59ff + \u6700\u8fd1 \u2264e \u5feb\u7167\u5c42\uff1bJ1/J2/J3 \u540c\u6e90"
+}

@@ -1,0 +1,6 @@
+inherit_from: "configs/experiments/paper2_rollout/diag/diag_mskfix_st_hf.yaml"
+MaskStability:
+  enabled: true
+  log_interval: 10
+DiagMskFixLi10:
+  note: "仪表加密版: log_interval=10, 抓悬崖窗口释放时间线"

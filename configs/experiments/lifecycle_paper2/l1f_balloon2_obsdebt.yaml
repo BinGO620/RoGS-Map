@@ -1,0 +1,31 @@
+# L1f 观测债补偿（D2-011 ②）：balloon2 主臂（obsdebt on，exit_fill 模式）
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1f_obsdebt.md（判据先锁 4d5dd720；先于任何 run）
+# B0 上限核算 = b0_headroom_verdict_2026-09-24.md（边界 PASS 带强约束：门槛 1.48cm=2×分辨力、
+#   跨 seed 聚合读法、balloon2 主效果域、pt 只作约束门）
+# 机制 = exit_fill 管线 + 观测债账本（utils/obsdebt.py）：掩码覆盖一帧 = 该 voxel 债 +1
+#        （不衰减不淘汰=欠账语义）；分配律 = fill 插入预算按债降序重分配 + 插入基元
+#        迭代配额 boost（梯度屏蔽只动新基元）。纯资源分配：无新门/阈值/状态。
+# 对照（as-run）= 同管线 exit_fill 臂（l1f_balloon2_exitfill_ctrl.yaml）——prereg §2 修订 77d48328
+#        后的单变量对照；【2026-09-25 整改更正】原注释"对照 = 已有 L3 balloon2 exit 同 seed canonical
+#        （零新增对照 run）"为修订前计划、与 as-run 不符；读法 Δ = obsdebt − exit_fill，
+#        见 verdict_L1f_obsdebt.md §1
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit_fill"
+  obsdebt: true
+  obsdebt_voxel_size: 0.05
+  obsdebt_iter_boost: 0.5
+  fill_k: 8
+  fill_band_abs_m: 0.10
+  fill_band_rel: 0.03
+  fill_min_opacity: 0.5
+  fill_max_points: 2000
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1f_balloon2_obsdebt"
+  save_per_frame_ape: true

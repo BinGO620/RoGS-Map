@@ -1,0 +1,79 @@
+[batch] manifest entries = 109 (expect 109); shard 1/2 on cuda:0
+[batch] shard 1/2: 54 runs
+[batch] render_L1b_person_tracking_gate_s1_canon: rc=0
+[batch] render_L1c_person_tracking_exit_s3_canon: rc=0
+[batch] render_L1c_person_tracking_exit_s5_canon: rc=0
+[batch] render_L1c_person_tracking_occ_s1_canon: rc=0
+[batch] render_L1c_person_tracking_occ_s3_canon: rc=0
+[batch] render_L1c_person_tracking_occ_s5_canon: rc=0
+[batch] render_L1d_person_tracking_stacked_s0_canon: rc=0
+[batch] render_L1d_person_tracking_stacked_s2_canon: rc=0
+[batch] render_L1d_person_tracking_stacked_s4_canon: rc=0
+[batch] render_L1e_person_tracking_param_s0_canon: rc=0
+[batch] render_L1e_person_tracking_param_s2_canon: rc=0
+[batch] render_L1e_person_tracking_param_s4_canon: rc=0
+[batch] render_L1e_person_tracking_seam_s0_canon: rc=0
+[batch] render_L1e_person_tracking_seam_s2_canon: rc=0
+[batch] render_L1e_person_tracking_seam_s4_canon: rc=0
+[batch] render_L2_crowd2_gate_s0_canon: rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 303, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 100, in main
+    config = yaml.safe_load(open(os.path.join(run_dir, "config.yml")))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L2_crowd2_gate_s0/datasets_bonn/l2_crowd2_gate/seed_0/2026-09-22-17-58-12/config.yml'
+
+[batch] render_L2_crowd_gate_s0_canon: rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 303, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 100, in main
+    config = yaml.safe_load(open(os.path.join(run_dir, "config.yml")))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L2_crowd_gate_s0/datasets_bonn/l2_crowd_gate/seed_0/2026-09-22-17-29-50/config.yml'
+
+[batch] render_L2_person_tracking2_gate_s0_canon: rc=1
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 303, in <module>
+    main()
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/instrument_v2_rescore.py", line 100, in main
+    config = yaml.safe_load(open(os.path.join(run_dir, "config.yml")))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L2_person_tracking2_gate_s0/datasets_bonn/l2_person_tracking2_gate/seed_0/2026-09-22-17-09-21/config.yml'
+
+[batch] render_L3_balloon2_exit_fill_s0_canon: rc=0
+[batch] render_L3_balloon2_exit_fill_s2_canon: rc=0
+[batch] render_L3_balloon2_exit_s1_canon: rc=0
+[batch] render_L3_balloon2_off_s0_canon: rc=0
+[batch] render_L3_balloon2_off_s2_canon: rc=0
+[batch] render_L3_balloon_exit_s1_canon: rc=0
+[batch] render_L3_balloon_off_s0_canon: rc=0
+[batch] render_L3_balloon_off_s2_canon: rc=0
+[batch] render_L3_crowd2_exit_s1_canon: rc=0
+[batch] render_L3_crowd2_off_s0_canon: rc=0
+[batch] render_L3_crowd2_off_s2_canon: rc=0
+[batch] render_L3_crowd3_exit_s1_canon: rc=0
+[batch] render_L3_crowd3_off_s0_canon: rc=0
+[batch] render_L3_crowd3_off_s2_canon: rc=0
+[batch] render_L3_crowd_exit_s1_canon: rc=0
+[batch] render_L3_crowd_off_s0_canon: rc=0
+[batch] render_L3_crowd_off_s2_canon: rc=0
+[batch] render_L3_mvnobox2_exit_s1_canon: rc=0
+[batch] render_L3_mvnobox2_off_s0_canon: rc=0
+[batch] render_L3_mvnobox2_off_s2_canon: rc=0
+[batch] render_L3_mvnobox_exit_fill_s1_canon: rc=0
+[batch] render_L3_mvnobox_exit_s0_canon: rc=0
+[batch] render_L3_mvnobox_exit_s2_canon: rc=0
+[batch] render_L3_mvnobox_off_s1_canon: rc=0
+[batch] render_L3_person_tracking2_exit_s0_canon: rc=0
+[batch] render_L3_person_tracking2_exit_s2_canon: rc=0
+[batch] render_L3_person_tracking2_off_s1_canon: rc=0
+[batch] render_L3_person_tracking_exit_s0_canon: rc=0
+[batch] render_L3_person_tracking_exit_s2_canon: rc=0
+[batch] render_L3_person_tracking_off_s1_canon: rc=0
+[batch] render_L3_tum_wk_rpy_exit_s0_canon: rc=0
+[batch] render_L3_tum_wk_rpy_exit_s2_canon: rc=0
+[batch] render_L3_tum_wk_rpy_exit_s4_canon: rc=0
+[batch] render_L3_tum_wk_rpy_off_s0_canon: rc=0
+[batch] render_L3_tum_wk_rpy_off_s2_canon: rc=0
+[batch] render_L3_tum_wk_rpy_off_s4_canon: rc=0
+[batch] shard 1 complete: 51/54 ok
+[batch] shard 1 done-file ok-count = 51

@@ -1,0 +1,16 @@
+{
+  "sequence_dir": "/data/Datasets/Bonn/rgbd_bonn_crowd3",
+  "n_frames": 854,
+  "method": "MaskRCNN(COCO person=1) -> seg_mask, person px = 15 (VOC id)",
+  "caliber_note": "matches shipped seg_mask of crowd/crowd2: raw pixel space, stem-keyed, uint8, person=15; per-frame person mask (no dilation)",
+  "params": {
+    "conf": 0.5,
+    "dilate_px": 0,
+    "device": "cuda"
+  },
+  "coverage_frac": {
+    "mean": 0.20334833244901446,
+    "median": 0.19394205729166666,
+    "max": 0.599990234375
+  }
+}

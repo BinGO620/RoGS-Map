@@ -1,0 +1,58 @@
+{
+ "exp_id": "lifecycle_paper2/instrument_v2",
+ "created": "2026-09-24",
+ "description": "仪器 v2（matched-control freshvac 三参照：全域静态 / 邻域环 / 深度分层匹配）全臂重评分（只重渲染不重训）；产出 C1/pt/各臂在 v2 口径下的效应量重读与'哪些历史判决仍成立'一页表",
+ "prereg": "evidence/prereg_instrument_v2.md",
+ "prereg_commit": "3cecccfe",
+ "amendment": "evidence/prereg_instrument_v2.md §8（实施澄清）+ §9（修正案 1：可判性判据 thin + 两读法并陈）",
+ "analysis_commit": "a9895d1e",
+ "measurement_commit": {
+  "main_batch_73_runs": "2864c997",
+  "rerun_30_runs_crowd_tum": "5695bc94",
+  "l2_supplement_attempt": "3ac72fd0"
+ },
+ "equivalence_artifact": "results/lifecycle_paper2/instrument_v2/control/control_report.md",
+ "equivalence_result": "旧码 2864c997 vs 新码 5695bc94 在同一 crowd run 逐帧比对：两臂皆有效且逐位一致 6、新码 None = 旧码 NaN 11、真不一致 0",
+ "host": "jiangwenheng@172.16.227.24 (2x RTX3090, 分片 2 卡并行, CUDA_DEVICE_ORDER=PCI_BUS_ID)",
+ "scope": {
+  "expected_runs": 109,
+  "scored_runs": 103,
+  "exception": "L2 gate 6 run（crowd/crowd2/person_tracking2 x s0/s1）不可评分：无 config.yml 快照 + plot/trj_full_final.json 缺失（git 亦未跟踪）"
+ },
+ "instrument_params": {
+  "band_options": [0.15, 0.25, 0.35],
+  "band_used_0.15": 97,
+  "band_used_0.25": 6,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "edge_margin_px": 15
+ },
+ "criterion": "C1 支柱（prereg 子集 = balloon2 / mvnobox / crowd3，9 对）三参照 median 同号 且 |median| >= 0.5cm；方向 负 = exit 改善",
+ "judgeability": "thin（修正案 1/§9）：任一参照可用帧 < 50% 两臂共同帧，或 support 像素中位 = 0 ⇒ 判效不可用",
+ "key_numbers_cm": {
+  "C1_pass_with_thin": "2/9",
+  "C1_pass_without_thin": "4/9",
+  "balloon2_s1": {"full": -2.57, "ring": -2.78, "m3": -3.96, "verdict": "存活·改善"},
+  "balloon2_s2": {"full": -3.57, "ring": -2.09, "m3": -5.82, "verdict": "存活·改善"},
+  "balloon2_s0": {"full": -0.80, "ring": 1.95, "m3": -2.08, "verdict": "混号（共同帧严格版同号）"},
+  "mvnobox_s0_s1_s2": "三参照同号但 |median| 0.09-0.42（未达 0.5；s2 方向反向）",
+  "crowd3": "不可判（对照区缺 ⚠稀薄；可用帧 8/8/6 共 17）",
+  "pt": "不可判（6 对中 3 同号 3 混号、方向不一致）"
+ },
+ "instrument_findings": {
+  "crowd_no_control_region": "crowd2 static_bg 与 ring 支撑中位均为 0（vac 204006 px ≈ 全图 66%）；crowd 仅 2/2/2 帧可用；crowd3 8/8/6",
+  "ring_support_small": "稀疏域 balloon2 环支撑中位 2882 px vs vac 200522 px",
+  "census_cross_frame_contamination": "ghost_population_census.py 同一 no_grad 内 3 次归因渲染致后续帧污染；批量 vs 单帧最大差 12.7cm；单帧重跑与 instrument_v2 逐位一致"
+ },
+ "gate1": {
+  "rounds": 3,
+  "history": ["Reject(1致命/7重大/6次要)", "Reject(3重大)", "Accept-with-conditions(4条件, 已清零)"],
+  "reports": ["/tmp/instrument_v2_gate1_2026-09-24.md", "/tmp/instrument_v2_gate1_round2_2026-09-24.md", "/tmp/instrument_v2_gate1_round3_2026-09-24.md"]
+ },
+ "verdict": "evidence/verdict_instrument_v2.md",
+ "summary_table": "evidence/instrument_v2_onepager_table.md",
+ "readouts": "results/lifecycle_paper2/instrument_v2/rescore/*.json (103)",
+ "batch_records": "results/lifecycle_paper2/instrument_v2/{README.md, rescore_batch_shard*.done, rescore_batch_l2supp.done, *.log}",
+ "pull_scope": "rescore/*.json + done/log + control/* （JSON-only，KB 级；无重数据）",
+ "d2_report": "prereg §5 触发：C1 未整体存活 ⇒ 呈报用户（见 verdict §9），不自动改叙事"
+}

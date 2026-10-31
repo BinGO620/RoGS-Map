@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "repair_wall_s": 544.32,
+  "fit_time_s": 519.46,
+  "unproject_time_s": 0.38,
+  "online_time_s": 933.3867,
+  "n_kf": 93,
+  "n_snapshots": 93,
+  "n_static": 46196,
+  "n_dyn": 399,
+  "vitality": {
+    "case1_hits": 419873,
+    "case2_new": 37095,
+    "cond1_deleted": 21280,
+    "cond2_deleted": 15416,
+    "evicted_total": 0,
+    "cap_hits": 0,
+    "buf_final": 399
+  },
+  "lam_d": 0.2,
+  "cap": 50000,
+  "lmax": 45,
+  "unproj_stride": 3,
+  "fit_iters": 300,
+  "control_shift_m": 0.3
+}

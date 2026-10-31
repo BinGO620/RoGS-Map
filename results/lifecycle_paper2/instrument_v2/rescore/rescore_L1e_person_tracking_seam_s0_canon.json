@@ -1,0 +1,221 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1e_person_tracking_seam_s0/datasets_bonn/l1e_person_tracking_seam/seed_0/2026-09-23-22-54-02",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1e_person_tracking_seam_s0/datasets_bonn/l1e_person_tracking_seam/seed_0/2026-09-23-22-54-02/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  83,
+  116,
+  149,
+  182,
+  215,
+  248,
+  281,
+  314,
+  347,
+  380,
+  413,
+  446,
+  479,
+  512,
+  545,
+  578
+ ],
+ "n_prims_total": 62063,
+ "prereg": "prereg_instrument_v2.md",
+ "band_used": 0.15,
+ "summary": {
+  "exc_full_static": {
+   "n": 17,
+   "median": 0.3754,
+   "iqr": [
+    -4.5357,
+    5.2566
+   ],
+   "mean": 1.1902
+  },
+  "exc_ring": {
+   "n": 17,
+   "median": -2.7742,
+   "iqr": [
+    -5.4175,
+    -0.1808
+   ],
+   "mean": -2.143
+  },
+  "exc_depth_matched": {
+   "n": 17,
+   "median": 0.5573,
+   "iqr": [
+    -4.5893,
+    6.0823
+   ],
+   "mean": -0.0774
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 23481,
+   "exc_full_cm": 0.3178,
+   "exc_ring_cm": -2.7742,
+   "exc_m3_cm": 2.2719,
+   "m3_band_tried": null,
+   "m3_z_med": 3.12
+  },
+  {
+   "frame": 83,
+   "n_vac_px": 29700,
+   "exc_full_cm": -5.767,
+   "exc_ring_cm": -6.9224,
+   "exc_m3_cm": -5.4983,
+   "m3_band_tried": null,
+   "m3_z_med": 2.933
+  },
+  {
+   "frame": 116,
+   "n_vac_px": 32564,
+   "exc_full_cm": -0.8184,
+   "exc_ring_cm": -5.3481,
+   "exc_m3_cm": -1.0219,
+   "m3_band_tried": null,
+   "m3_z_med": 2.859
+  },
+  {
+   "frame": 149,
+   "n_vac_px": 48004,
+   "exc_full_cm": 5.2566,
+   "exc_ring_cm": -0.1808,
+   "exc_m3_cm": 4.4489,
+   "m3_band_tried": null,
+   "m3_z_med": 3.208
+  },
+  {
+   "frame": 182,
+   "n_vac_px": 88619,
+   "exc_full_cm": -0.9059,
+   "exc_ring_cm": -4.3445,
+   "exc_m3_cm": -0.866,
+   "m3_band_tried": null,
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 215,
+   "n_vac_px": 96266,
+   "exc_full_cm": -17.0655,
+   "exc_ring_cm": -8.1079,
+   "exc_m3_cm": -12.7399,
+   "m3_band_tried": null,
+   "m3_z_med": 2.835
+  },
+  {
+   "frame": 248,
+   "n_vac_px": 105197,
+   "exc_full_cm": 12.2069,
+   "exc_ring_cm": -8.3341,
+   "exc_m3_cm": 6.1546,
+   "m3_band_tried": null,
+   "m3_z_med": 2.908
+  },
+  {
+   "frame": 281,
+   "n_vac_px": 115165,
+   "exc_full_cm": 16.3148,
+   "exc_ring_cm": 7.7613,
+   "exc_m3_cm": 11.0145,
+   "m3_band_tried": null,
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 314,
+   "n_vac_px": 166153,
+   "exc_full_cm": 6.8258,
+   "exc_ring_cm": 2.6813,
+   "exc_m3_cm": -1.2136,
+   "m3_band_tried": null,
+   "m3_z_med": 2.286
+  },
+  {
+   "frame": 347,
+   "n_vac_px": 165784,
+   "exc_full_cm": -4.5357,
+   "exc_ring_cm": -5.4175,
+   "exc_m3_cm": -4.5893,
+   "m3_band_tried": null,
+   "m3_z_med": 1.813
+  },
+  {
+   "frame": 380,
+   "n_vac_px": 166652,
+   "exc_full_cm": -5.3493,
+   "exc_ring_cm": 2.3238,
+   "exc_m3_cm": -10.7937,
+   "m3_band_tried": null,
+   "m3_z_med": 1.883
+  },
+  {
+   "frame": 413,
+   "n_vac_px": 164701,
+   "exc_full_cm": -6.0752,
+   "exc_ring_cm": -7.3091,
+   "exc_m3_cm": -14.1499,
+   "m3_band_tried": null,
+   "m3_z_med": 1.557
+  },
+  {
+   "frame": 446,
+   "n_vac_px": 167741,
+   "exc_full_cm": 7.849,
+   "exc_ring_cm": 5.2213,
+   "exc_m3_cm": 8.7062,
+   "m3_band_tried": null,
+   "m3_z_med": 2.053
+  },
+  {
+   "frame": 479,
+   "n_vac_px": 166057,
+   "exc_full_cm": 0.3754,
+   "exc_ring_cm": -0.8518,
+   "exc_m3_cm": 0.5573,
+   "m3_band_tried": null,
+   "m3_z_med": 2.317
+  },
+  {
+   "frame": 512,
+   "n_vac_px": 164139,
+   "exc_full_cm": 2.7827,
+   "exc_ring_cm": -2.8798,
+   "exc_m3_cm": 3.6702,
+   "m3_band_tried": null,
+   "m3_z_med": 2.522
+  },
+  {
+   "frame": 545,
+   "n_vac_px": 163124,
+   "exc_full_cm": 4.4132,
+   "exc_ring_cm": -1.1293,
+   "exc_m3_cm": 6.0823,
+   "m3_band_tried": null,
+   "m3_z_med": 2.541
+  },
+  {
+   "frame": 578,
+   "n_vac_px": 164028,
+   "exc_full_cm": 4.408,
+   "exc_ring_cm": -0.8192,
+   "exc_m3_cm": 6.6509,
+   "m3_band_tried": null,
+   "m3_z_med": 2.522
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

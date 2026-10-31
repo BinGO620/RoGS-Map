@@ -1,0 +1,313 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon2_off_s0/datasets_bonn/l3_balloon2_off/seed_0/2026-09-20-23-26-48",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon2_off_s0/datasets_bonn/l3_balloon2_off/seed_0/2026-09-20-23-26-48/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  76,
+  102,
+  128,
+  154,
+  180,
+  206,
+  232,
+  258,
+  285,
+  311,
+  337,
+  363,
+  389,
+  415,
+  441,
+  467
+ ],
+ "n_prims_total": 40030,
+ "prereg": "prereg_instrument_v2.md",
+ "mask_subdir": "dynamic_mask_mover",
+ "band_used": 0.15,
+ "support_px_median": {
+  "static_bg": 3518,
+  "ring": 1398,
+  "vac": 194993
+ },
+ "summary": {
+  "exc_full_static": {
+   "n": 15,
+   "median": -3.5399,
+   "iqr": [
+    -23.2476,
+    1.2231
+   ],
+   "mean": -10.7966
+  },
+  "exc_ring": {
+   "n": 15,
+   "median": -3.8171,
+   "iqr": [
+    -23.3496,
+    1.1559
+   ],
+   "mean": -11.2151
+  },
+  "exc_depth_matched": {
+   "n": 13,
+   "median": -0.7982,
+   "iqr": [
+    -23.5682,
+    0.9973
+   ],
+   "mean": -8.1083
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 121854,
+   "n_static_bg_px": 71025,
+   "n_ring_px": 13300,
+   "exc_full_cm": -6.8436,
+   "exc_ring_cm": -4.2495,
+   "exc_m3_cm": -8.7001,
+   "m3_band_tried": null,
+   "m3_z_med": 3.269
+  },
+  {
+   "frame": 76,
+   "n_vac_px": 176526,
+   "n_static_bg_px": 15442,
+   "n_ring_px": 5600,
+   "exc_full_cm": -1.2935,
+   "exc_ring_cm": -1.4267,
+   "exc_m3_cm": 0.8438,
+   "m3_band_tried": null,
+   "m3_z_med": 3.092
+  },
+  {
+   "frame": 102,
+   "n_vac_px": 194993,
+   "n_static_bg_px": 13056,
+   "n_ring_px": 4428,
+   "exc_full_cm": 9.5983,
+   "exc_ring_cm": 8.7613,
+   "exc_m3_cm": 4.6846,
+   "m3_band_tried": null,
+   "m3_z_med": 2.68
+  },
+  {
+   "frame": 128,
+   "n_vac_px": 187979,
+   "n_static_bg_px": 7463,
+   "n_ring_px": 2963,
+   "exc_full_cm": -0.66,
+   "exc_ring_cm": -0.2912,
+   "exc_m3_cm": -0.7982,
+   "m3_band_tried": null,
+   "m3_z_med": 2.883
+  },
+  {
+   "frame": 154,
+   "n_vac_px": 180943,
+   "n_static_bg_px": 6507,
+   "n_ring_px": 2672,
+   "exc_full_cm": -0.1842,
+   "exc_ring_cm": 0.4014,
+   "exc_m3_cm": -0.1826,
+   "m3_band_tried": null,
+   "m3_z_med": 2.984
+  },
+  {
+   "frame": 180,
+   "n_vac_px": 188832,
+   "n_static_bg_px": 4091,
+   "n_ring_px": 1527,
+   "exc_full_cm": -3.5399,
+   "exc_ring_cm": -3.8171,
+   "exc_m3_cm": -4.5231,
+   "m3_band_tried": null,
+   "m3_z_med": 2.835
+  },
+  {
+   "frame": 206,
+   "n_vac_px": 197369,
+   "n_static_bg_px": 3764,
+   "n_ring_px": 1452,
+   "exc_full_cm": 3.692,
+   "exc_ring_cm": 2.3787,
+   "exc_m3_cm": 2.0722,
+   "m3_band_tried": null,
+   "m3_z_med": 3.12
+  },
+  {
+   "frame": 232,
+   "n_vac_px": 182435,
+   "n_static_bg_px": 3734,
+   "n_ring_px": 1421,
+   "exc_full_cm": -39.8011,
+   "exc_ring_cm": -41.3988,
+   "exc_m3_cm": -24.279,
+   "m3_band_tried": null,
+   "m3_z_med": 2.984
+  },
+  {
+   "frame": 258,
+   "n_vac_px": 207737,
+   "n_static_bg_px": 3517,
+   "n_ring_px": 1398,
+   "exc_full_cm": -31.4029,
+   "exc_ring_cm": -32.4578,
+   "exc_m3_cm": -26.0085,
+   "m3_band_tried": null,
+   "m3_z_med": 3.238
+  },
+  {
+   "frame": 285,
+   "n_vac_px": 220452,
+   "n_static_bg_px": 3515,
+   "n_ring_px": 1398,
+   "exc_full_cm": 11.7744,
+   "exc_ring_cm": 11.4334,
+   "exc_m3_cm": 11.121,
+   "m3_band_tried": null,
+   "m3_z_med": 3.178
+  },
+  {
+   "frame": 311,
+   "n_vac_px": 188219,
+   "n_static_bg_px": 3518,
+   "n_ring_px": 1398,
+   "exc_full_cm": 2.6304,
+   "exc_ring_cm": 1.9103,
+   "exc_m3_cm": 0.9973,
+   "m3_band_tried": null,
+   "m3_z_med": 3.208
+  },
+  {
+   "frame": 337,
+   "n_vac_px": 222745,
+   "n_static_bg_px": 836,
+   "n_ring_px": 413,
+   "exc_full_cm": -19.4767,
+   "exc_ring_cm": -21.1116,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 363,
+   "n_vac_px": 251411,
+   "n_static_bg_px": 839,
+   "n_ring_px": 413,
+   "exc_full_cm": -23.3155,
+   "exc_ring_cm": -23.5132,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.432
+  },
+  {
+   "frame": 389,
+   "n_vac_px": 225231,
+   "n_static_bg_px": 838,
+   "n_ring_px": 413,
+   "exc_full_cm": -23.1796,
+   "exc_ring_cm": -23.1861,
+   "exc_m3_cm": -23.5682,
+   "m3_band_tried": null,
+   "m3_z_med": 2.522
+  },
+  {
+   "frame": 415,
+   "n_vac_px": 202039,
+   "n_static_bg_px": 839,
+   "n_ring_px": 413,
+   "exc_full_cm": -39.9475,
+   "exc_ring_cm": -41.6604,
+   "exc_m3_cm": -37.0675,
+   "m3_band_tried": null,
+   "m3_z_med": 2.908
+  },
+  {
+   "frame": 441,
+   "n_vac_px": 192908,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.68
+  },
+  {
+   "frame": 467,
+   "n_vac_px": 222022,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.744
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

@@ -1,0 +1,11 @@
+# paper2 fulltable BASELINE arm: Combined-Prune as published (both layers off).
+# Identical to crowd3_final except SWBA/LoopClosure absent — condition-matched
+# pairing for the no-regression gate.
+
+inherit_from: "configs/rgbd/bonn/crowd3.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/paper2_fulltable/crowd3_baseline"
+  save_per_frame_ape: true

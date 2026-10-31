@@ -1,0 +1,21 @@
+# L1b 证据门控（evidence gate，治续命）：person_tracking / gate 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1b_gate.md（判据先锁；先于任何 run 提交）
+# 栈 = L3 exit 臂同款（paper-1 栈）；与 l3_person_tracking_exit.yaml 仅差
+#      AlphaLifecycle.evidence_gate + save_dir（对照 = 已有 L3 exit 同 seed，零新增对照 run）
+inherit_from: "configs/rgbd/bonn/person_tracking.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+  evidence_gate: true
+
+# 修正案 2（2026-09-21）：combined_prune/method.yaml:47 的 static_bg_mask_subdir=dynamic_mask_gtmc
+# 在 pt 上已知失效（gtmc 移动者召回 0.10-0.39；rescore §1）；runtime P-A 也是布尔掩码口径
+# （eval_utils load_frozen_mask >127，吃不了类别掩码）。显式关闭该行——离线判据走 render_compare cls12。
+Results:
+  # 掩码重构后：canonical 布尔掩码可直接消费（此前 null = 关闭，因 gtmc 失效）
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1b_person_tracking_gate"
+  save_per_frame_ape: true

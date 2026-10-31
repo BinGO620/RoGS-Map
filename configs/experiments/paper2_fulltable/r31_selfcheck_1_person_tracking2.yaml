@@ -1,0 +1,35 @@
+# R31 (self-checking SWBA gate): swba_min_rel_improve=0.01 (1%).
+# Derived from r29_framegate_* (0.38) by adding ONLY swba_min_rel_improve
+# and changing save_dir; SWBA/LoopClosure blocks otherwise byte-identical.
+# Pre-registered criteria: results/paper2_fulltable/evidence/prereg_r31_selfcheck.md
+# Motivation: R25 tested this gate at 0.2 (=20%), 4x above the measured
+# signal (max 4.8%) -> 100% skip -> never evaluated. Mask IS applied to
+# SWBA edges (dba_lite.py:91-95, swba.py:176-178), so window cost is a
+# static-pixel cost, not the 'no-mask' circular signal R25 claimed.
+inherit_from: "configs/rgbd/bonn/person_tracking2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+  swba_min_rel_improve: 0.01
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r31_selfcheck_1_person_tracking2"
+  save_per_frame_ape: true

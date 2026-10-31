@@ -1,0 +1,180 @@
+==============================================================================
+§A 执行与完整性（K1 / K1-b / K1-c）
+==============================================================================
+run                                 rc  Done   log_rundir==track
+r34_rb_f1_room_seed0                ok     1                True
+r34_rb_f1_room_seed1                ok     1                True
+r34_rb_f1_room_seed2                ok     1                True
+r34_rb_f1_desk2_seed0               ok     1                True
+r34_rb_f1_desk2_seed1               ok     1                True
+r34_rb_f1_desk2_seed2               ok     1                True
+r34_rb_f3_st_rpy_seed0              ok     1                True
+r34_rb_f3_st_rpy_seed1              ok     1                True
+r34_rb_f3_st_rpy_seed2              ok     1                True
+r34_rb_f3_office_seed0              ok     1                True
+r34_rb_f3_office_seed1              ok     1                True
+r34_rb_f3_office_seed2              ok     1                True
+r34_rb_moving_obstructing_box_seed0    ok     1                True
+r34_rb_moving_obstructing_box_seed1    ok     1                True
+r34_rb_moving_obstructing_box_seed2    ok     1                True
+r34_rb_f3_wk_rpy_seed0              ok     1                True
+r34_rb_f3_wk_rpy_seed1              ok     1                True
+r34_rb_f3_wk_rpy_seed2              ok     1                True
+r34_sw_f1_room_seed0                ok     1                True
+r34_sw_f1_room_seed1                ok     1                True
+r34_sw_f1_room_seed2                ok     1                True
+r34_sw_f1_desk2_seed0               ok     1                True
+r34_sw_f1_desk2_seed1               ok     1                True
+r34_sw_f1_desk2_seed2               ok     1                True
+r34_sw_f3_st_rpy_seed0              ok     1                True
+r34_sw_f3_st_rpy_seed1              ok     1                True
+r34_sw_f3_st_rpy_seed2              ok     1                True
+r34_sw_f3_office_seed0              ok     1                True
+r34_sw_f3_office_seed1              ok     1                True
+r34_sw_f3_office_seed2              ok     1                True
+r34_sw_moving_obstructing_box_seed0    ok     1                True
+r34_sw_moving_obstructing_box_seed1    ok     1                True
+r34_sw_moving_obstructing_box_seed2    ok     1                True
+r34_sw_f3_wk_rpy_seed0              ok     1                True
+r34_sw_f3_wk_rpy_seed1              ok     1                True
+r34_sw_f3_wk_rpy_seed2              ok     1                True
+r34_gate_f1_room_seed0              ok     1                True
+r34_gate_f1_room_seed1              ok     1                True
+r34_gate_f1_room_seed2              ok     1                True
+r34_gate_f1_desk2_seed0             ok     1                True
+r34_gate_f1_desk2_seed1             ok     1                True
+r34_gate_f1_desk2_seed2             ok     1                True
+r34_gate_f3_st_rpy_seed0            ok     1                True
+r34_gate_f3_st_rpy_seed1            ok     1                True
+r34_gate_f3_st_rpy_seed2            ok     1                True
+r34_gate_f3_office_seed0            ok     1                True
+r34_gate_f3_office_seed1            ok     1                True
+r34_gate_f3_office_seed2            ok     1                True
+r34_gate_moving_obstructing_box_seed0    ok     1                True
+r34_gate_moving_obstructing_box_seed1    ok     1                True
+r34_gate_moving_obstructing_box_seed2    ok     1                True
+r34_gate_f3_wk_rpy_seed0            ok     1                True
+r34_gate_f3_wk_rpy_seed1            ok     1                True
+r34_gate_f3_wk_rpy_seed2            ok     1                True
+
+==============================================================================
+§B 生效验证（K3；按臂实例化 + 整行形状 + 正控）
+==============================================================================
+run                               exec  skip  gate  delta  anySWBA  loop  verdict
+r34_rb_f1_room_seed0                      0     0     0      0        0     0  OK 
+r34_rb_f1_room_seed1                      0     0     0      0        0     0  OK 
+r34_rb_f1_room_seed2                      0     0     0      0        0     0  OK 
+r34_rb_f1_desk2_seed0                      0     0     0      0        0     0  OK 
+r34_rb_f1_desk2_seed1                      0     0     0      0        0     0  OK 
+r34_rb_f1_desk2_seed2                      0     0     0      0        0     0  OK 
+r34_rb_f3_st_rpy_seed0                      0     0     0      0        0     0  OK 
+r34_rb_f3_st_rpy_seed1                      0     0     0      0        0     0  OK 
+r34_rb_f3_st_rpy_seed2                      0     0     0      0        0     0  OK 
+r34_rb_f3_office_seed0                      0     0     0      0        0     0  OK 
+r34_rb_f3_office_seed1                      0     0     0      0        0     0  OK 
+r34_rb_f3_office_seed2                      0     0     0      0        0     0  OK 
+r34_rb_moving_obstructing_box_seed0                      0     0     0      0        0     0  OK 
+r34_rb_moving_obstructing_box_seed1                      0     0     0      0        0     0  OK 
+r34_rb_moving_obstructing_box_seed2                      0     0     0      0        0     0  OK 
+r34_rb_f3_wk_rpy_seed0                      0     0     0      0        0     0  OK 
+r34_rb_f3_wk_rpy_seed1                      0     0     0      0        0     0  OK 
+r34_rb_f3_wk_rpy_seed2                      0     0     0      0        0     0  OK 
+r34_sw_f1_room_seed0                    285     0   286      1      571     0  OK 
+r34_sw_f1_room_seed1                    285     0   286      1      571     0  OK 
+r34_sw_f1_room_seed2                    285     0   286      1      571     0  OK 
+r34_sw_f1_desk2_seed0                    155     0   156      1      311     0  OK 
+r34_sw_f1_desk2_seed1                    158     0   159      1      317     0  OK 
+r34_sw_f1_desk2_seed2                    157     0   158      1      315     0  OK 
+r34_sw_f3_st_rpy_seed0                    158     0   159      1      317     0  OK 
+r34_sw_f3_st_rpy_seed1                    158     0   159      1      317     0  OK 
+r34_sw_f3_st_rpy_seed2                    158     0   159      1      317     0  OK 
+r34_sw_f3_office_seed0                    502     0   503      1     1005     0  OK 
+r34_sw_f3_office_seed1                    502     0   503      1     1005     0  OK 
+r34_sw_f3_office_seed2                    503     0   504      1     1007     0  OK 
+r34_sw_moving_obstructing_box_seed0                    117     0   120      3      237     0  OK 
+r34_sw_moving_obstructing_box_seed1                    114     0   119      5      233     0  OK 
+r34_sw_moving_obstructing_box_seed2                    116     0   121      5      237     0  OK 
+r34_sw_f3_wk_rpy_seed0                    174     0   175      1      349     0  OK 
+r34_sw_f3_wk_rpy_seed1                    174     0   175      1      349     0  OK 
+r34_sw_f3_wk_rpy_seed2                    174     0   175      1      349     0  OK 
+r34_gate_f1_room_seed0                    155   133   289      1      577   164  OK 
+r34_gate_f1_room_seed1                    154   126   281      1      561   132  OK 
+r34_gate_f1_room_seed2                    153   131   285      1      569   152  OK 
+r34_gate_f1_desk2_seed0                     82    72   155      1      309   132  OK 
+r34_gate_f1_desk2_seed1                     95    61   157      1      313   136  OK 
+r34_gate_f1_desk2_seed2                     95    60   156      1      311   128  OK 
+r34_gate_f3_st_rpy_seed0                     71    88   159      0      318    68  OK 
+r34_gate_f3_st_rpy_seed1                     64    94   159      1      317    68  OK 
+r34_gate_f3_st_rpy_seed2                     66    92   159      1      317    72  OK 
+r34_gate_f3_office_seed0                    394   108   503      1     1005   236  OK 
+r34_gate_f3_office_seed1                    408    96   504      0     1008   228  OK 
+r34_gate_f3_office_seed2                    407    97   504      0     1008   232  OK 
+r34_gate_moving_obstructing_box_seed0                     83    35   121      3      239    96  OK 
+r34_gate_moving_obstructing_box_seed1                     86    31   121      4      238    96  OK 
+r34_gate_moving_obstructing_box_seed2                     83    36   121      2      240    88  OK 
+r34_gate_f3_wk_rpy_seed0                     78    92   175      5      345   105  OK 
+r34_gate_f3_wk_rpy_seed1                     93    82   175      0      350   108  OK 
+r34_gate_f3_wk_rpy_seed2                     78    95   174      1      347   112  OK 
+
+delta=(c)-(a)-(b) 上界实测: min 0 max 5  （prereg: 预期 0–5，>5 须归因；判据为 (c)>=(a)+(b) 无上界）
+
+==============================================================================
+§C 回环自证（§2.1；gate 臂逐 run，去折行）
+==============================================================================
+r34_gate_f1_room_seed0              med=0.00 max=0.00 KFs=290
+r34_gate_f1_room_seed1              med=0.00 max=0.00 KFs=282
+r34_gate_f1_room_seed2              med=0.00 max=0.00 KFs=286
+r34_gate_f1_desk2_seed0              med=0.00 max=0.00 KFs=156
+r34_gate_f1_desk2_seed1              med=- max=- KFs=-  (no correction line: 0 verified skip)
+r34_gate_f1_desk2_seed2              med=0.00 max=0.00 KFs=157
+r34_gate_f3_st_rpy_seed0              med=0.00 max=10.36 KFs=160  <-- NONZERO: 触发 §2.1 补 final 臂
+r34_gate_f3_st_rpy_seed1              med=0.00 max=0.00 KFs=160
+r34_gate_f3_st_rpy_seed2              med=0.00 max=13.23 KFs=160  <-- NONZERO: 触发 §2.1 补 final 臂
+r34_gate_f3_office_seed0              med=0.00 max=0.00 KFs=504
+r34_gate_f3_office_seed1              med=0.00 max=0.00 KFs=505
+r34_gate_f3_office_seed2              med=0.00 max=0.00 KFs=505
+r34_gate_moving_obstructing_box_seed0              med=0.00 max=0.00 KFs=122
+r34_gate_moving_obstructing_box_seed1              med=0.00 max=0.00 KFs=122
+r34_gate_moving_obstructing_box_seed2              med=0.00 max=0.00 KFs=122
+r34_gate_f3_wk_rpy_seed0              med=0.00 max=0.00 KFs=176
+r34_gate_f3_wk_rpy_seed1              med=0.00 max=0.00 KFs=176
+r34_gate_f3_wk_rpy_seed2              med=0.00 max=0.00 KFs=175
+
+==============================================================================
+§D 主表（K2：col 8 全帧，3-seed）+ K5 复现性 + K6 不变量
+==============================================================================
+seq                            rb       sw     gate  | rb vs frozen    tol  K5
+f1_room                    16.391   13.897   17.948          +8.152   4.60  EXCEEDS -> K5 归因触发器
+f1_desk2                    5.108    3.452    3.781          -2.089  1.00*  EXCEEDS -> K5 归因触发器
+f3_st_rpy                   5.287    7.223    6.931          +2.602   1.83  EXCEEDS -> K5 归因触发器
+f3_office                   1.404    3.052    3.006          -0.240  1.00*  PASS
+moving_obstructing_box     29.176   20.334   19.237         +10.400  18.77  PASS
+f3_wk_rpy                   4.891   10.765    6.597          +0.598   1.00  PASS
+  (* = 该序列无先验多抽样，退化为 1.0cm 地板)
+
+seq                        Δ(rb→sw)  Δ(rb→gate)                    归因
+f1_room                      -2.494      +1.557               SWBA 主导
+f1_desk2                     -1.655      -1.327               SWBA 主导
+f3_st_rpy                    +1.936      +1.643               SWBA 主导
+f3_office                    +1.648      +1.603               SWBA 主导
+moving_obstructing_box       -8.842      -9.939               SWBA 主导
+f3_wk_rpy                    +5.875      +1.706               SWBA 主导
+
+==============================================================================
+§E K6 不变量（方向与幅度；含 K5 剔除语义）
+==============================================================================
+  K5 剔除后保留的有害序列: ['f3_office', 'moving_obstructing_box', 'f3_wk_rpy']
+  K5 剔除的序列（不计入分子/分母）: ['f1_room', 'f3_st_rpy']
+  f3_office                  Δ(rb→gate)= +1.603  PASS (需为正且 >1.0cm)
+  moving_obstructing_box     Δ(rb→gate)= -9.939  FAIL (需为正且 >1.0cm)
+  f3_wk_rpy                  Δ(rb→gate)= +1.706  PASS (需为正且 >1.0cm)
+  f1_desk2 (方向对照)            Δ(rb→gate)= -1.327  PASS (需为负)
+
+  K6 有害序列达标: 2/3 （阈值 ≥3 **且** 分母=未被K5剔除者）
+  ** K6 未达标 => 结论行改「部分不成立」+ 止损项（预注册 K6）**
+
+==============================================================================
+汇总
+==============================================================================
+K1/K1-b/K1-c 失败: 0
+K3 失败: 0

@@ -1,0 +1,30 @@
+{
+ "run_dir": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed2/datasets_bonn/r33_rebase_gate_person_tracking/seed_2/2026-09-16-13-13-27",
+ "ply": "results/paper2_fulltable/r33_rebase_gate_person_tracking_seed2/datasets_bonn/r33_rebase_gate_person_tracking/seed_2/2026-09-16-13-13-27/point_cloud/final_after_opt/point_cloud.ply",
+ "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+ "anchor_est0_gt0_cm": 0.0,
+ "mask_source": "dynamic_mask_gtmc",
+ "results": {
+  "est": {
+   "fusion": {
+    "frames_used": 29,
+    "frames_total": 580,
+    "frame_stride": 20,
+    "pixel_stride": 5,
+    "masked_px_skipped": 789257,
+    "frames_without_mask": 0,
+    "fusion_pose": "est"
+   },
+   "metrics": {
+    "accuracy_cm": 7.6185,
+    "completion_cm": 7.269,
+    "completion_ratio": 51.5295,
+    "precision_ratio": 59.4382,
+    "fscore": 55.202,
+    "num_rec_points_eval": 66252,
+    "num_gt_points_eval": 200000,
+    "threshold_m": 0.05
+   }
+  }
+ }
+}

@@ -1,0 +1,76 @@
+# L3 alpha-ledger 逐合取项诊断摘录（verdict_L3 §9 的工件）
+# 源：各 exit 臂 s0 的 <tag>.consolelog 的 alpha-ledger 记录（rich.Console 折行，此处已取续行）
+# 字段（utils/slam_backend.py:1050-1068）：geom_front/geom_free=几何合取项计数；a_lt_carve=α<tau_carve(0.20) 计数；a_lt_reset=α<tau_reset(0.35) 计数；a_min=全图 α 最小值
+
+===== L3_balloon_exit_s0 =====
+MonoGS: alpha-ledger KF 435: N=38697 proj_valid=20401 visible=21458 
+proj_and_vis=20401 ev_valid_at=19047 updated=19047 | a_min=0.0996 a_mean=0.8383 
+obs_max=83 obs_ge_min=35808 resets=0 grows=0 | geom_front=688 geom_free=205 
+a_lt_reset=238 a_lt_carve=22 | ev_mean=0.0284 ev_hi_frac=0.0140 
+ev_valid_frac=0.8709
+  [累计] reset 2, carved 0
+
+===== L3_balloon2_exit_s0 =====
+MonoGS: alpha-ledger KF 465: N=58047 proj_valid=39835 visible=41105 
+proj_and_vis=39835 ev_valid_at=36133 updated=36133 | a_min=0.0036 a_mean=0.8170 
+obs_max=92 obs_ge_min=44968 resets=0 grows=0 | geom_front=2577 geom_free=952 
+a_lt_reset=1760 a_lt_carve=1128 | ev_mean=0.1233 ev_hi_frac=0.1180 
+ev_valid_frac=0.8398
+  [累计] reset 55, carved 18
+
+===== L3_crowd_exit_s0 =====
+MonoGS: alpha-ledger KF 925: N=47223 proj_valid=30721 visible=31929 
+proj_and_vis=30721 ev_valid_at=27418 updated=27418 | a_min=0.0580 a_mean=0.8245 
+obs_max=184 obs_ge_min=39331 resets=0 grows=0 | geom_front=1228 geom_free=392 
+a_lt_reset=788 a_lt_carve=206 | ev_mean=0.0071 ev_hi_frac=0.0053 
+ev_valid_frac=0.8500
+  [累计] reset 3, carved 0
+
+===== L3_crowd2_exit_s0 =====
+MonoGS: alpha-ledger KF 890: N=60350 proj_valid=42465 visible=43764 
+proj_and_vis=42465 ev_valid_at=37564 updated=37564 | a_min=0.0593 a_mean=0.7962 
+obs_max=169 obs_ge_min=47941 resets=0 grows=0 | geom_front=1715 geom_free=456 
+a_lt_reset=666 a_lt_carve=155 | ev_mean=0.0124 ev_hi_frac=0.0084 
+ev_valid_frac=0.8392
+  [累计] reset 5, carved 0
+
+===== L3_crowd3_exit_s0 =====
+MonoGS: alpha-ledger KF 850: N=66993 proj_valid=40628 visible=41988 
+proj_and_vis=40628 ev_valid_at=36448 updated=36448 | a_min=0.0231 a_mean=0.8023 
+obs_max=165 obs_ge_min=54834 resets=0 grows=0 | geom_front=1181 geom_free=322 
+a_lt_reset=564 a_lt_carve=227 | ev_mean=0.0105 ev_hi_frac=0.0065 
+ev_valid_frac=0.8321
+  [累计] reset 9, carved 1
+
+===== L3_person_tracking_exit_s0 =====
+MonoGS: alpha-ledger KF 576: N=55002 proj_valid=16506 visible=17353 
+proj_and_vis=16506 ev_valid_at=15048 updated=15048 | a_min=0.2445 a_mean=0.8599 
+obs_max=68 obs_ge_min=51063 resets=0 grows=0 | geom_front=673 geom_free=291 
+a_lt_reset=151 a_lt_carve=0 | ev_mean=0.0212 ev_hi_frac=0.0096 
+ev_valid_frac=0.8514
+  [累计] reset 2, carved 0
+
+===== L3_person_tracking2_exit_s0 =====
+MonoGS: alpha-ledger KF 565: N=120282 proj_valid=32897 visible=34666 
+proj_and_vis=32897 ev_valid_at=30316 updated=30316 | a_min=0.2223 a_mean=0.8280 
+obs_max=68 obs_ge_min=103834 resets=0 grows=0 | geom_front=1275 geom_free=454 
+a_lt_reset=69 a_lt_carve=0 | ev_mean=0.0092 ev_hi_frac=0.0056 
+ev_valid_frac=0.8707
+  [累计] reset 13, carved 0
+
+===== L3_mvnobox_exit_s0 =====
+MonoGS: alpha-ledger KF 775: N=45408 proj_valid=27902 visible=29415 
+proj_and_vis=27902 ev_valid_at=25935 updated=25935 | a_min=0.0299 a_mean=0.8869 
+obs_max=155 obs_ge_min=39118 resets=0 grows=0 | geom_front=466 geom_free=245 
+a_lt_reset=223 a_lt_carve=43 | ev_mean=0.0153 ev_hi_frac=0.0113 
+ev_valid_frac=0.8744
+  [累计] reset 6, carved 0
+
+===== L3_mvnobox2_exit_s0 =====
+MonoGS: alpha-ledger KF 934: N=53318 proj_valid=15652 visible=17338 
+proj_and_vis=15652 ev_valid_at=13420 updated=13420 | a_min=0.1479 a_mean=0.8807 
+obs_max=159 obs_ge_min=52427 resets=0 grows=0 | geom_front=357 geom_free=154 
+a_lt_reset=203 a_lt_carve=15 | ev_mean=0.0257 ev_hi_frac=0.0147 
+ev_valid_frac=0.8615
+  [累计] reset 1, carved 0
+

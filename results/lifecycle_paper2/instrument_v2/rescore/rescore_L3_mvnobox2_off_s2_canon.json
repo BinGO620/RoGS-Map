@@ -1,0 +1,211 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_mvnobox2_off_s2/datasets_bonn/l3_mvnobox2_off/seed_2/2026-09-21-09-54-33",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_mvnobox2_off_s2/datasets_bonn/l3_mvnobox2_off/seed_2/2026-09-21-09-54-33/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  100,
+  150,
+  200,
+  250,
+  300,
+  350,
+  400,
+  450,
+  500,
+  550,
+  600,
+  650,
+  700,
+  750,
+  800,
+  850
+ ],
+ "n_prims_total": 82355,
+ "prereg": "prereg_instrument_v2.md",
+ "band_used": 0.15,
+ "summary": {
+  "exc_full_static": {
+   "n": 15,
+   "median": 0.7554,
+   "iqr": [
+    -3.3411,
+    3.171
+   ],
+   "mean": 0.9484
+  },
+  "exc_ring": {
+   "n": 15,
+   "median": 0.3973,
+   "iqr": [
+    -1.0115,
+    2.8133
+   ],
+   "mean": 0.073
+  },
+  "exc_depth_matched": {
+   "n": 15,
+   "median": 2.1977,
+   "iqr": [
+    -0.7052,
+    4.8475
+   ],
+   "mean": 1.5059
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 0
+  },
+  {
+   "frame": 100,
+   "n_vac_px": 0
+  },
+  {
+   "frame": 150,
+   "n_vac_px": 4825,
+   "exc_full_cm": -7.5924,
+   "exc_ring_cm": 0.3973,
+   "exc_m3_cm": -7.5263,
+   "m3_band_tried": null,
+   "m3_z_med": 2.467
+  },
+  {
+   "frame": 200,
+   "n_vac_px": 4674,
+   "exc_full_cm": 6.1478,
+   "exc_ring_cm": -0.8571,
+   "exc_m3_cm": 4.5988,
+   "m3_band_tried": null,
+   "m3_z_med": 1.766
+  },
+  {
+   "frame": 250,
+   "n_vac_px": 4603,
+   "exc_full_cm": 10.5959,
+   "exc_ring_cm": 0.2326,
+   "exc_m3_cm": 8.6072,
+   "m3_band_tried": null,
+   "m3_z_med": 1.663
+  },
+  {
+   "frame": 300,
+   "n_vac_px": 4611,
+   "exc_full_cm": 14.3643,
+   "exc_ring_cm": -5.4251,
+   "exc_m3_cm": 11.798,
+   "m3_band_tried": null,
+   "m3_z_med": 1.696
+  },
+  {
+   "frame": 350,
+   "n_vac_px": 4302,
+   "exc_full_cm": -1.65,
+   "exc_ring_cm": -2.6826,
+   "exc_m3_cm": 3.3808,
+   "m3_band_tried": null,
+   "m3_z_med": 1.343
+  },
+  {
+   "frame": 400,
+   "n_vac_px": 4172,
+   "exc_full_cm": -5.7737,
+   "exc_ring_cm": -0.1048,
+   "exc_m3_cm": -0.0379,
+   "m3_band_tried": null,
+   "m3_z_med": 1.189
+  },
+  {
+   "frame": 450,
+   "n_vac_px": 4323,
+   "exc_full_cm": -1.8783,
+   "exc_ring_cm": -1.1659,
+   "exc_m3_cm": -1.3219,
+   "m3_band_tried": null,
+   "m3_z_med": 1.343
+  },
+  {
+   "frame": 500,
+   "n_vac_px": 47281,
+   "exc_full_cm": -5.1551,
+   "exc_ring_cm": 5.5786,
+   "exc_m3_cm": -11.6268,
+   "m3_band_tried": null,
+   "m3_z_med": 2.398
+  },
+  {
+   "frame": 550,
+   "n_vac_px": 75358,
+   "exc_full_cm": -4.8038,
+   "exc_ring_cm": -12.9127,
+   "exc_m3_cm": -0.0885,
+   "m3_band_tried": null,
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 600,
+   "n_vac_px": 110241,
+   "exc_full_cm": 3.2538,
+   "exc_ring_cm": 2.634,
+   "exc_m3_cm": 6.356,
+   "m3_band_tried": null,
+   "m3_z_med": 3.037
+  },
+  {
+   "frame": 650,
+   "n_vac_px": 124944,
+   "exc_full_cm": 3.0883,
+   "exc_ring_cm": 2.5645,
+   "exc_m3_cm": 5.0962,
+   "m3_band_tried": null,
+   "m3_z_med": 3.037
+  },
+  {
+   "frame": 700,
+   "n_vac_px": 164414,
+   "exc_full_cm": 0.7972,
+   "exc_ring_cm": 2.1537,
+   "exc_m3_cm": 2.2564,
+   "m3_band_tried": null,
+   "m3_z_med": 2.723
+  },
+  {
+   "frame": 750,
+   "n_vac_px": 163543,
+   "exc_full_cm": 1.9267,
+   "exc_ring_cm": 3.5809,
+   "exc_m3_cm": 2.1977,
+   "m3_band_tried": null,
+   "m3_z_med": 2.503
+  },
+  {
+   "frame": 800,
+   "n_vac_px": 165618,
+   "exc_full_cm": 0.7554,
+   "exc_ring_cm": 2.9926,
+   "exc_m3_cm": 0.7191,
+   "m3_band_tried": null,
+   "m3_z_med": 2.45
+  },
+  {
+   "frame": 850,
+   "n_vac_px": 163807,
+   "exc_full_cm": 0.15,
+   "exc_ring_cm": 4.1094,
+   "exc_m3_cm": -1.82,
+   "m3_band_tried": null,
+   "m3_z_med": 2.415
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

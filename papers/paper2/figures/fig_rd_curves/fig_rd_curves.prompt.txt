@@ -1,0 +1,52 @@
+# fig_rd_curves — Rate–distortion curves (two panels)
+# 论文位置：§5 Codec（图注 fig:rd）
+# 类型：数据曲线族（真实 R-D 读数）→ ❌ 不可用生成模型产出
+#   本文件 = 【样式重构说明书】：用绘图代码重画
+# 目标尺寸：双栏宽 183 mm，两联，现图 792×302 pt（≈2.62:1）
+
+================================================================
+中文意图说明
+================================================================
+左右两联 R-D 曲线（rate vs PSNR），7 序列各一条线 + 跨 seed IQR 带：
+- 左：全图 PSNR，每序列 baseline（实线）与 final（虚线）
+- 右：静态区 PSNR（baseline）
+7 条序列 × tab10 配色 + 半透明 IQR 填充带。
+
+待改进点：
+1. 7 序列用 tab10 彩虹色 → **色盲不友好、且有"AI 味"**（本次重点）
+2. 图例 2 列挤在左上压线；线太密时不可读
+3. 两联标题内置（"R-D curves (full image)"）与图注重复
+4. IQR 带 alpha 偏低略脏
+
+================================================================
+Restyle spec（绘图代码重画，数据不变）
+================================================================
+Keep DATA identical (same rate points, same means, same IQR). Redraw STYLE only.
+
+- Palette: replace rainbow tab10 with a **perceptually ordered, colourblind-safe** scheme.
+  Recommended: use viridis/cividis sampled across the 7 sequences (ordered by rate or by name),
+  OR a curated 7-colour subset that avoids red-green pairs (e.g. blue→green→orange family:
+  #0072B2, #56B4E9, #009E73, #E69F00, #D55E00, #CC79A7, #000000). Distinguish sequences ALSO
+  by marker shape (o s ^ v D p *) so hue is not the only cue.
+- baseline = solid + filled circle; final = dashed + filled square; both markers 3 pt.
+- IQR band: same colour as its line, alpha 0.15–0.20, no edge.
+- Axes: x "rate (bytes/primitive)", y "PSNR (dB)" / "static-region PSNR (dB)", Arial 7 pt,
+  ticks 6 pt, direction in, thin spines, light grid alpha 0.25.
+- Remove in-panel titles (let the LaTeX caption say full-image vs static). If a distinction is
+  needed, put small bold "(a)"/"(b)" top-left, 8 pt.
+- Legend: frameless, 6 pt, ≤2 columns, moved OUTSIDE crowding (best empty corner or just below).
+- White background; output vector PDF, double-column width 183 mm.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT resample or invent curve points — the polyline must pass through the real R-D points.
+No rainbow palette. No 3D, no shadows, no in-figure title duplicating the caption.
+
+================================================================
+Post checklist
+================================================================
+[ ] 7 序列配色色盲安全（无红绿对）且**另有标记形状区分**
+[ ] 曲线经过真实读数点（未编造）
+[ ] IQR 带为同色半透明；图例无框不压线
+[ ] 面板内无标题（避免与图注重复）；字体统一 Arial

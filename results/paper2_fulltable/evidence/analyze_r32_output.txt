@@ -1,0 +1,145 @@
+==============================================================================
+§4.1 执行判据：done 行 finished rc=0
+==============================================================================
+queued=21  rc0=21  nonzero_rc=0  batch_all_done=True
+缺失/未 rc=0 的 run（0）: 无
+
+==============================================================================
+§4.2 主读数（col 8 全帧 ate_rmse_cm）逐 seed + 均值
+==============================================================================
+balloon               baseline=3.2472(n3)  gate0.30=3.6260(n3)  gate0.38_OLD=4.0564(n3)  gate0.38=4.1239(n3)  gate0.45=4.2336(n3)
+balloon2              baseline=5.4841(n3)  gate0.30=5.3173(n3)  gate0.38_OLD=5.3996(n3)  gate0.38=5.4459(n3)  gate0.45=5.2541(n3)
+crowd                 baseline=2.2347(n3)  gate0.30=2.2439(n3)  gate0.38_OLD=2.2503(n3)  gate0.38=2.3944(n3)  gate0.45=2.4019(n3)
+crowd2                baseline=2.2595(n3)  gate0.30=2.1718(n3)  gate0.38_OLD=2.6201(n3)  gate0.38=2.5713(n3)  gate0.45=2.9935(n3)
+crowd3                baseline=1.5299(n3)  gate0.30=1.6200(n3)  gate0.38_OLD=1.8936(n3)  gate0.38=1.8336(n3)  gate0.45=2.2344(n3)
+person_tracking       baseline=11.3097(n3)  gate0.30=8.8582(n3)  gate0.38_OLD=7.8336(n3)  gate0.38=8.0647(n3)  gate0.45=8.4636(n3)
+person_tracking2      baseline=10.4037(n3)  gate0.30=12.3983(n3)  gate0.38_OLD=11.5371(n3)  gate0.38=12.1561(n3)  gate0.45=11.6787(n3)
+
+==============================================================================
+§4.3 生效验证（按门实例化 + 整行形状 + 合流等式）
+==============================================================================
+  [P23 self-test] r29_framegate_crowd2_seed0         applied=  61 (期望>0) naive 'SWBA kf='=178 -> PASS
+  [P23 self-test] r25_gate_crowd2_seed0              applied=   0 (期望=0) naive 'SWBA kf='=177 -> PASS
+  [P23 self-test] 判据判别力 = OK（非恒真）
+
+run                                         applied  skipped   gate  gate-a-s  composite
+  (composite = applied>0 AND skipped>0 AND 0 <= gate-(applied+skipped) <= 1；退化 run 的等式因 0==0+0 而平凡成立，故必须叠加前两项)
+  注：delta 允许 0/1 —— 首个 gate 检查可能已 armed 但窗口未就绪，既不产生执行行也不产生 skip 行（实测 21 个 run：delta 全为 0 或 1）
+r32_regate038_balloon_seed0                      71       15     87         1         OK
+r32_regate038_balloon_seed1                      73       13     87         1         OK
+r32_regate038_balloon_seed2                      70       16     87         1         OK
+r32_regate038_balloon2_seed0                     51       41     93         1         OK
+r32_regate038_balloon2_seed1                     54       38     93         1         OK
+r32_regate038_balloon2_seed2                     51       41     93         1         OK
+r32_regate038_crowd_seed0                        81      103    185         1         OK
+r32_regate038_crowd_seed1                        75      110    185         0         OK
+r32_regate038_crowd_seed2                        79      105    185         1         OK
+r32_regate038_crowd2_seed0                       64      114    178         0         OK
+r32_regate038_crowd2_seed1                       65      113    178         0         OK
+r32_regate038_crowd2_seed2                       61      117    178         0         OK
+r32_regate038_crowd3_seed0                       69      101    170         0         OK
+r32_regate038_crowd3_seed1                       71       99    170         0         OK
+r32_regate038_crowd3_seed2                       75       95    170         0         OK
+r32_regate038_person_tracking_seed0             104       10    115         1         OK
+r32_regate038_person_tracking_seed1             108        6    115         1         OK
+r32_regate038_person_tracking_seed2             100       14    115         1         OK
+r32_regate038_person_tracking2_seed0            103        9    113         1         OK
+r32_regate038_person_tracking2_seed1             98       14    113         1         OK
+r32_regate038_person_tracking2_seed2             97       15    113         1         OK
+
+-- 与 r29_framegate 同序列同 seed 比照（applied / skipped） --
+crowd2               s0  r32=  64/ 114  r29=  61/ 117
+
+==============================================================================
+§4.4 判读判据（数字触发条件）
+==============================================================================
+[pt1 0.38 甜点] 条件: mean(r32) < min(mean(0.30), mean(0.45)) 且**与两侧**逐 seed 不重叠
+  person_tracking: 0.30=8.8582 0.38=8.0647 0.45=8.4636
+    均值层甜点(r32 最小)=True
+    与 0.30 逐seed重叠=False   与 0.45 逐seed重叠=True   (锁定判据要求两侧都不重叠)
+    r32 seeds=['7.9691', '8.0671', '8.1580']
+    0.30 seeds=['8.5690', '8.8273', '9.1783']
+    0.45 seeds=['7.7264', '8.5389', '9.1255']
+    差距: vs 0.30 = 9.0%, vs 0.45 = 4.7%; 该序列批间噪声地板 = 12.5%
+    => 显著性: 至少一个差距落在批间噪声内 -> 须标注
+    (旧 0.38 臂 r29 = 7.8336)
+
+[易序列单调] 条件: crowd2/crowd3 上同时 mean(0.30) < mean(0.38) < mean(0.45)
+  注: 0.30 与 0.45 两臂**同批**（r30 批, 09-14/15）→ 该步比较不受跨批噪声影响；
+      0.38 列来自 R32 批（09-15）→ 含 0.38 的两步是跨批比较，须对照噪声地板。
+  crowd2: 0.30=2.1718 0.38=2.5713 0.45=2.9935 -> 均值单调=True
+      逐seed三元全分离=True | **0.30<0.45 逐seed分离(同批)=True** (地板 14.6%)
+      步长: 0.30->0.38 +18.4% (跨批), 0.38->0.45 +16.4% (跨批), 0.30->0.45 +37.8% (同批)
+      seeds 0.30=['2.1580', '2.1595', '2.1980'] 0.38=['2.3750', '2.6536', '2.6852'] 0.45=['2.6861', '2.9193', '3.3750']
+      (旧 0.38=2.6201)
+  crowd3: 0.30=1.6200 0.38=1.8336 0.45=2.2344 -> 均值单调=True
+      逐seed三元全分离=True | **0.30<0.45 逐seed分离(同批)=True** (地板 1.2%)
+      步长: 0.30->0.38 +13.2% (跨批), 0.38->0.45 +21.9% (跨批), 0.30->0.45 +37.9% (同批)
+      seeds 0.30=['1.5731', '1.6328', '1.6540'] 0.38=['1.8256', '1.8350', '1.8403'] 0.45=['2.2158', '2.2229', '2.2646']
+      (旧 0.38=1.8936)
+  balloon: 0.30=3.6260 0.38=4.1239 0.45=4.2336 -> 均值单调=True
+      逐seed三元全分离=False | **0.30<0.45 逐seed分离(同批)=True** (地板 8.7%)
+      步长: 0.30->0.38 +13.7% (跨批), 0.38->0.45 +2.7% (跨批), 0.30->0.45 +16.8% (同批)
+      seeds 0.30=['3.4084', '3.5197', '3.9500'] 0.38=['4.0919', '4.0941', '4.1857'] 0.45=['4.0199', '4.3157', '4.3651']
+      (旧 0.38=4.0564)
+
+[定性保证] 条件: **易序列**(balloon/crowd/crowd2/crowd3) 全部 <=5cm；pt1 降幅 >=30%
+  (balloon2 不在易序列硬门内 —— 其 baseline 本就 >5cm；pt 家族从未 <=5cm，是已知未达的 5cm 红线)
+  易序列 0.38 臂值: [('balloon', 4.1239), ('crowd', 2.3944), ('crowd2', 2.5713), ('crowd3', 1.8336)]
+  易序列 >5cm 的: 无 -> PASS
+  (参考, 非硬门) balloon2 = 5.4459  baseline=5.4841
+  (参考, 非硬门) person_tracking = 8.0647  baseline=11.3097
+  (参考, 非硬门) person_tracking2 = 12.1561  baseline=10.4037
+  pt1: baseline=11.3097 -> 0.38=8.0647  降幅=28.7%  (阈值 30%)  FAIL
+
+[批间噪声地板] 0.30/0.45 臂 seed2(09-15 01:08 批) vs seed0/1(09-14 批) 残差
+  gate0.30   balloon              seed2= 3.4084 seed01mean= 3.7348 residual=  -8.7%
+  gate0.30   balloon2             seed2= 5.2659 seed01mean= 5.3430 residual=  -1.4%
+  gate0.30   crowd                seed2= 2.3970 seed01mean= 2.1673 residual= +10.6%
+  gate0.30   crowd2               seed2= 2.1580 seed01mean= 2.1787 residual=  -1.0%
+  gate0.30   crowd3               seed2= 1.6328 seed01mean= 1.6136 residual=  +1.2%
+  gate0.30   person_tracking      seed2= 8.8273 seed01mean= 8.8737 residual=  -0.5%
+  gate0.30   person_tracking2     seed2=11.4999 seed01mean=12.8475 residual= -10.5%
+  gate0.45   balloon              seed2= 4.3157 seed01mean= 4.1925 residual=  +2.9%
+  gate0.45   balloon2             seed2= 5.3653 seed01mean= 5.1986 residual=  +3.2%
+  gate0.45   crowd                seed2= 2.3632 seed01mean= 2.4213 residual=  -2.4%
+  gate0.45   crowd2               seed2= 2.6861 seed01mean= 3.1471 residual= -14.6%
+  gate0.45   crowd3               seed2= 2.2158 seed01mean= 2.2438 residual=  -1.2%
+  gate0.45   person_tracking      seed2= 7.7264 seed01mean= 8.8322 residual= -12.5%
+  gate0.45   person_tracking2     seed2=11.6269 seed01mean=11.7046 residual=  -0.7%
+
+==============================================================================
+§4.5 单变量：r32 vs r29 逐字段 config diff（应仅限 save_dir）
+==============================================================================
+  由 tests/paper2_fulltable/test_fulltable_configs.py::test_r32_regate038_configs 断言（本地 pytest 7 passed + 变异测试）。
+
+==============================================================================
+§七 跨裁决依赖：R31 判据参照臂即 0.38 列 —— 按新参照重算
+==============================================================================
+  R31 预注册判据: MAIN = 自校验臂 <= 参照*1.03 (crowd2/crowd3/balloon)
+                  SUB  = pt1 自校验臂 <= 参照 + 5% (即 7.83*1.05 = 8.2)
+  参照 = 0.38 臂；重基线后参照应由 r29_framegate 换成 r32_regate038。
+  -- 参照 = 旧 r29_framegate（R31 当初所用，已作废） --
+    r31_selfcheck_0p5 @ ref=r29: MAIN=FAIL SUB=FAIL (pt1 8.8072 vs 阈值 8.2253)
+        crowd2 2.7573vs2.6201!, crowd3 1.7925vs1.8936, balloon 3.8850vs4.0564
+    r31_selfcheck_1 @ ref=r29: MAIN=PASS SUB=FAIL (pt1 10.2518 vs 阈值 8.2253)
+        crowd2 2.3258vs2.6201, crowd3 1.7036vs1.8936, balloon 3.7164vs4.0564
+    r31_selfcheck_2 @ ref=r29: MAIN=PASS SUB=FAIL (pt1 11.3446 vs 阈值 8.2253)
+        crowd2 2.6933vs2.6201, crowd3 1.5716vs1.8936, balloon 3.0865vs4.0564
+  -- 参照 = 新 r32_regate038（重基线后应改用） --
+    r31_selfcheck_0p5 @ ref=r32: MAIN=FAIL SUB=FAIL (pt1 8.8072 vs 阈值 8.4680)
+        crowd2 2.7573vs2.5713!, crowd3 1.7925vs1.8336, balloon 3.8850vs4.1239
+    r31_selfcheck_1 @ ref=r32: MAIN=PASS SUB=FAIL (pt1 10.2518 vs 阈值 8.4680)
+        crowd2 2.3258vs2.5713, crowd3 1.7036vs1.8336, balloon 3.7164vs4.1239
+    r31_selfcheck_2 @ ref=r32: MAIN=FAIL SUB=FAIL (pt1 11.3446 vs 阈值 8.4680)
+        crowd2 2.6933vs2.5713!, crowd3 1.5716vs1.8336, balloon 3.0865vs4.1239
+  -- MECH 门（**与参照臂无关**，直接取自 R31 自身日志，故换参照后不变） --
+    r31_selfcheck_0p5: applied=691 skipped=385 -> 两态共存 = PASS（不随参照移动）
+    r31_selfcheck_1: applied=380 skipped=681 -> 两态共存 = PASS（不随参照移动）
+    r31_selfcheck_2: applied=90 skipped=989 -> 两态共存 = PASS（不随参照移动）
+  注: R31 总判 'no arm passes all three gates' 由三档 SUB 全 FAIL 支撑，
+      换参照后 SUB 全 FAIL 不变 ⇒ 总判不变。2% 臂 MAIN 由 PASS 翻 FAIL，
+      但 verdict_r31.md §四.5 已自述该臂 crowd2 两 seed 极差 0.941cm > ±3% 带 0.081cm，
+      属噪声级判定 ⇒ **不构成'结论被加强'**（勿用该翻转做正面论据）。
+
+OVERALL: counts_ok = True | done rc0 = 21/21 | batch_all_done = True

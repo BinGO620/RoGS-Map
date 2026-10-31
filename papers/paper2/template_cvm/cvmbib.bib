@@ -1,0 +1,345 @@
+% cvmbib.bib — 论文2 (CVM) 参考文献。2026-10-05 由主会话从 resources/lit_dyn_mapping/bib/references.bib
+% 抽取已核条目并改用论文内 cite key；压缩线新增条目见文件尾（标注核验状态）。
+% 规则：未在原文/API 逐字核实的 ID 一律标注 [ID未核]，引用前回源。
+
+@inproceedings{DynaGSLAM,
+  author    = {Li, Runfa Blark and Shaghaghi, Mahdi and Suzuki, Keito and Liu, Xinshuang and Moparthi, Varun and Du, Bang and Curtis, Walker and Renschler, Martin and Lee, Ki Myung Brian and Atanasov, Nikolay and Nguyen, Truong},
+  title     = {{DynaGSLAM}: real-time {Gaussian} splatting {SLAM} for online rendering, tracking, motion predictions of moving objects in dynamic scenes},
+  booktitle = {WACV},
+  pages     = {2434--2444},
+  year      = {2026},
+  annote      = {arXiv:2503.11979; code MIT (API-verified 2026-09-19)}
+}
+
+@inproceedings{MonoGS,
+  author    = {Matsuki, Hidenobu and Murai, Riku and Kelly, Paul H. J. and Davison, Andrew J.},
+  title     = {{Gaussian} splatting {SLAM}},
+  booktitle = {CVPR},
+  pages     = {18039--18048},
+  year      = {2024},
+  annote      = {即 MonoGS，本仓基座；页码逐字回源 2026-10-08（CVF OpenAccess CVPR2024）}
+}
+
+@inproceedings{SplaTAM,
+  author    = {Keetha, Nikhil and Karhade, Jay and Jatavallabhula, Krishna Murthy and Yang, Gengshan and Scherer, Sebastian and Ramanan, Deva and Luiten, Jonathon},
+  title     = {{SplaTAM}: splat, track \& map {3D} {Gaussians} for dense {RGB-D} {SLAM}},
+  booktitle = {CVPR},
+  pages     = {21357--21366},
+  year      = {2024},
+  doi       = {10.1109/CVPR52733.2024.02018},
+  annote    = {页码/DOI 逐字回源 2026-10-09（Crossref 10.1109/CVPR52733.2024.02018 + CVF OpenAccess）}
+}
+
+@inproceedings{WildGS,
+  author    = {Zheng, Jianhao and Zhu, Zihan and Bieri, Valentin and Pollefeys, Marc and Peng, Songyou and Armeni, Iro},
+  title     = {{WildGS-SLAM}: monocular {Gaussian} splatting {SLAM} in dynamic environments},
+  booktitle = {CVPR},
+  pages     = {11461--11471},
+  year      = {2025},
+  doi       = {10.1109/CVPR52734.2025.01070},
+  annote    = {arXiv:2504.03886; code: github.com/GradientSpaces/WildGS-SLAM；页码/DOI 逐字回源 2026-10-09（Crossref + CVF）}
+}
+
+@article{DynaSLAM,
+  author  = {Bescos, Berta and F{\'a}cil, Jos{\'e} M. and Civera, Javier and Neira, Jos{\'e}},
+  title   = {{DynaSLAM}: tracking, mapping and inpainting in dynamic scenes},
+  journal = {IEEE Robotics and Automation Letters (RA-L)},
+  volume  = {3},
+  number  = {4},
+  pages   = {4076--4083},
+  year    = {2018},
+  annote    = {DOI 10.1109/LRA.2018.2860039; arXiv:1806.05620}
+}
+
+@inproceedings{Dy3DGS,
+  author    = {Li, Mingrui and Zhou, Yiming and Zhou, Hongxing and Hu, Xinggang and Roemer, Florian and Wang, Hongyu and Osman, Ahmad},
+  title     = {{Dy3DGS-SLAM}: monocular {3D} {Gaussian} splatting {SLAM} for dynamic environments},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  pages     = {14572--14578},
+  year      = {2025},
+  annote    = {arXiv:2506.05965; authors verified from PDF 2026-09-19; 逐字回源 2026-10-08：
+             **更正**原标 arXiv-only 系误 ⇒ 实为 **ICRA 2025 已录**（IEEE DOI 10.1109/ICRA55743.2025.11127324；
+             作者 Mingrui Li 本人 Google Scholar 列 "ICRA 2025, pp.14572-14578"；dblp 同）}
+}
+
+@inproceedings{GGD,
+  author    = {Liu, Yi and Xu, Haoxuan and Duan, Hongbo and Fan, Keyu and Zhang, Zhengyang and Zhuang, Peiyu and Luo, Pengting and Liu, Houde},
+  title     = {{GGD-SLAM}: monocular {3DGS} {SLAM} powered by generalizable motion model for dynamic environments},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  pages     = {16900--16907},
+  year      = {2026},
+  annote    = {arXiv:2604.12837; authors verified from PDF 2026-09-19; 逐字回源 2026-10-08：
+             arXiv comments = "8 pages, Accepted by ICRA 2026" + ICRA 2026 program (ThI1I.98) ⇒ **ICRA 2026 已录**;
+             页码回源 2026-10-14（Crossref DOI 10.1109/icra57385.2026.11696808，pages 16900-16907）}
+}
+
+@misc{DGSLAM,
+  author    = {Xu, Yueming and Jiang, Haochen and Xiao, Zhongyang and Feng, Jianfeng and Zhang, Li},
+  title     = {{DG-SLAM}: robust dynamic {Gaussian} splatting {SLAM} with hybrid pose optimization},
+  howpublished = {arXiv preprint arXiv:2411.08373},
+  year      = {2024},
+  annote    = {**更正 2026-10-14**：本条目原误标为 DGS-SLAM (arXiv:2411.10722, Kong 等)。经复现数据
+             逐序列对拍（balloon 3.66≈3.7 / person_t 4.25≈4.5 / mv_box2 3.56≈3.5 vs 原文 Table 3），
+             确认实际复现与引用对象为 **DG-SLAM (2411.08373, Xu 等)**。方法 = 运动掩码生成（深度
+             warp + 语义融合）+ 自适应高斯增删 + DROID-VO 粗到细混合位姿优化；2411.10722 的
+             DGS-SLAM（Kong 等）为不同系统，与本论文无关。}
+}
+
+@article{DGSSlam,
+  author  = {Kong, Mangyu and Lee, Jaewon and Lee, Seongwon and Kim, Euntai},
+  title   = {{DGS-SLAM}: Gaussian splatting {SLAM} in dynamic environment},
+  journal = {arXiv preprint arXiv:2411.10722},
+  year    = {2024},
+  annote  = {逐字回源 2026-10-15（resources/lit_dyn_mapping/bib/references.bib: kong2024dgsslam）。
+             与本稿复现对象 DG-SLAM (2411.08373, Xu 等) 为**不同系统**；本稿仅在 §2 引其存在，防读者混同。}
+}
+
+@article{RGDSLAM,
+  author  = {Wang, Haocheng and Shou, Yejun and Shen, Lingfeng and Li, Shuai and Cao, Yanlong},
+  title   = {{RGD-SLAM}: robust {Gaussian} splatting {SLAM} for dynamic environments},
+  journal = {Pattern Recognition},
+  volume  = {175},
+  pages   = {113071},
+  year    = {2026},
+  annote  = {逐字回源 2026-10-12（Crossref DOI 10.1016/j.patcog.2026.113071，Elsevier）
+            ⇒ Pattern Recognition vol 175, article 113071, 2026；横比表复现方法之一（dynamic/3dgs）}
+}
+
+@misc{RoDynSLAM,
+  author    = {Jiang, Haochen and Xu, Yueming and Li, Kejie and Feng, Jianfeng and Zhang, Li},
+  title     = {{RoDyn-SLAM}: robust dynamic dense {RGB-D} {SLAM} with neural radiance fields},
+  howpublished = {arXiv preprint arXiv:2407.01303},
+  year      = {2024},
+  annote    = {逐字回源 2026-10-12（arXiv abs 2407.01303，cs.RO 2024-07-01）
+              ⇒ RoDyn-SLAM = NeRF-based dynamic dense RGB-D SLAM；横比表复现方法之一（dynamic/nerf）}
+}
+
+@article{BDGSS,
+  author  = {Yang, Tianyu and Wei, Shuangfeng and Nan, Jingxuan and Li, Ming-Yang and Li, Ming-Rui},
+  title   = {{BDGS-SLAM}: a probabilistic {3D} {Gaussian} splatting framework for robust {SLAM} in dynamic environments},
+  journal = {Sensors},
+  volume  = {25},
+  number  = {21},
+  pages   = {6641},
+  year    = {2025},
+  annote    = {DOI 10.3390/s25216641; 摘要级核对 2026-09-20; YOLOv5 先验 + 贝叶斯动态概率;
+             多视图概率更新 + 指数衰减聚合共视 KF，可恢复被误剪的静态高斯; 动态高斯用渲染惩罚约束}
+}
+
+% ============ 压缩线 / 3DGS 渲染（2026-10-05 新增；核验状态逐条标注）============
+
+@article{CompressionSurvey,
+  author  = {Ali, Muhammad Salman and Zhang, Chaoning and Cagnazzo, Marco and Valenzise, Giuseppe and Tartaglione, Enzo and Bae, Sung-Ho},
+  title   = {Compression in {3D} {Gaussian} splatting: a survey of methods, trends, and future directions},
+  journal = {IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
+  volume  = {36},
+  number  = {7},
+  pages   = {9291--9308},
+  year    = {2026},
+  annote    = {DOI 10.1109/TCSVT.2026.3676048; arXiv:2502.19457; 逐字回源 2026-10-08（Crossref + IP-Paris portal）：
+             **更正**原写 Ali,Muhammad / Zhang,Kai 系张冠李戴 ⇒ 实为 Muhammad Salman Ali / Chaoning Zhang；
+             且原标 journal=arXiv 系陈旧 ⇒ 已正式出版 IEEE TCSVT 2026, 36(7):9291-9308}
+}
+
+@inproceedings{SOG,
+  author    = {Morgenstern, Wieland and Barthel, Florian and Hilsmann, Anna and Eisert, Peter},
+  title     = {Compact {3D} scene representation via self-organizing {Gaussian} grids},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {18--34},
+  year      = {2024},
+  annote    = {arXiv:2312.13299; SOG。percentile-based attribute-range clipping；
+             作者/venue/pages 逐字回源 2026-10-05（官方项目页 bibtex + ECCV 2024；pages 18--34）。
+             注：会议年 = ECCV 2024；Springer 官方 proceedings bibtex year 作 2025（出版年），本稿取会议年}
+}
+
+@article{StitchGS,
+  author  = {Su, Jinhe and Pan, Shengfang and Zhu, Huanxin and Chen, Siyu and Huang, Yaoming and Zhou, Yixin},
+  title   = {{StitchGS}: towards seamless and lightweight large-scale {3D} {Gaussian} splatting},
+  journal = {Remote Sensing},
+  volume  = {18},
+  number  = {10},
+  pages   = {1460},
+  year    = {2026},
+  annote    = {DOI 10.3390/rs18101460; 作者/卷期页逐字回源 2026-10-05（Crossref）。
+             ⚠ 旧件声称"Quantile 0.999 percentile rule for scale outliers"在摘要中未获证实——
+             正文只把它与 SOG 并列引为"percentile-based range clipping 已在工具箱中"，
+             未对该具体规则作断言（回源待核）}
+}
+
+@inproceedings{TC3DGS,
+  author    = {Javed, Saqib and Khan, Ahmad Jarrar and Dumery, Corentin and Zhao, Chen and Salzmann, Mathieu},
+  title     = {Temporally compressed {3D} {Gaussian} splatting for dynamic scenes},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2025},
+  annote    = {arXiv:2412.05700; BMVC 2025 (paper 543), Sheffield, 2025-11-24..27;
+             作者/venue 逐字回源 2026-10-05（bmvc2025.bmva.org/proceedings/543 + arXiv 摘要）}
+}
+
+@inproceedings{MEGA,
+  author    = {Zhang, Xinjie and Liu, Zhening and Zhang, Yifan and Ge, Xingtong and He, Dailan and Xu, Tongda and Wang, Yan and Lin, Zehong and Yan, Shuicheng and Zhang, Jun},
+  title     = {{MEGA}: memory-efficient {4D} {Gaussian} splatting for dynamic scenes},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages     = {27828--27838},
+  year      = {2025},
+  annote    = {DOI 10.1109/ICCV51701.2025.02583; ICCV 2025 Poster + Highlight。
+             **回源更正 2026-10-05**：原 bib 误标 ICLR 2025（旧件 [ID未核]）；实际 = ICCV 2025，
+             经 HKUST portal + ICCV 虚拟会场 + OpenReview 三方核对}
+}
+
+@inproceedings{PWAS,
+  author    = {Yang, Zhaolin and Yin, Huilin and Zhang, Linchuan and Liu, Mingyu and Knoll, Alois C.},
+  title     = {Importance-driven {3D} {Gaussian} {SLAM} for efficient mapping and communication-aware sharing},
+  booktitle = {CVPR Workshops (DriveX)},
+  pages     = {796--804},
+  year      = {2026},
+  annote      = {逐字回源 2026-10-08（CVF OpenAccess CVPR2026W/DriveX bibtex：author/pages 796-804；DriveX=CVPR 2026 workshop）}
+}
+
+@article{MGSSlam,
+  author  = {Cao, Tongtai and Huang, Shi-Sheng and Guo, Kaiyue and Sha, Hao and Li, Deqi and Liu, Yue},
+  title   = {{MGS-SLAM}: monocular {3D} {Gaussian} splatting {SLAM} with significance-guided pruning},
+  journal = {Computational Visual Media},
+  volume  = {12},
+  number  = {4},
+  pages   = {941--957},
+  year    = {2026},
+  annote    = {DOI 10.26599/CVM.2026.9450555; 11(4):941-957（IEEE Xplore 11623389 + SciOpen；卷期页补 2026-10-08）。CVM 2026 会议版同题。签名豁免规则：
+             不透明度大于 tau\_alpha 的结构骨架高斯不剪（防灾难遗忘）——即“大而承重”的先例知识。
+             全文在库；细读记录见 resources/lit\_dyn\_mapping/venue\_cvm.md 7.4}
+}
+
+@inproceedings{CGSSlam,
+  author    = {Deng, Tianchen and Chen, Yaohui and Yang, Jianfei and Yuan, Shenghai and Liu, Jiuming and Wang, Danwei and Chen, Weidong},
+  title     = {{CGS-SLAM}: compact {3D} {Gaussian} splatting for dense visual {SLAM}},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages     = {1606--1613},
+  year      = {2025},
+  doi       = {10.1109/IROS60139.2025.11246845},
+  annote    = {作者/页码/DOI 逐字回源 2026-10-09（Crossref DOI ...IROS60139.2025.11246845 + IEEE Xplore doc 11246845）。
+             **注意**：本条 = IROS 2025 版（7 作者）；另有**同名异文** arXiv:2403.11247「Compact 3D Gaussian
+             Splatting for Dense Visual SLAM」（9 作者、Accepted by IJCV 2026，仅作者自述、无出版社 DOI）——
+             两者标题近乎相同、作者不同，本文按 IROS 版（有正式 venue）引用}
+}
+
+@article{DiskChunGS,
+  author  = {Feldmann, Casimir and Wilder-Smith, Maximum and Patil, Vaishakh and Oechsle, Michael and Niemeyer, Michael and Tateno, Keisuke and Hutter, Marco},
+  title   = {{DiskChunGS}: large-scale {3D} {Gaussian} {SLAM} through chunk-based memory management},
+  journal = {IEEE Robotics and Automation Letters},
+  volume  = {11},
+  number  = {4},
+  pages   = {5009--5016},
+  year    = {2026},
+  annote    = {DOI 10.1109/LRA.2026.3668704（更正 2026-10-12：原记的 "INSPEC 11417439" 是 IEEE
+             文献号非 DOI）；RA-L 2026 vol.11(4):5009-5016；arXiv:2511.23030；
+             作者/卷期页逐字回源 2026-10-05（IEEE Xplore + GitHub leggedrobotics/DiskChunGS）}
+}
+
+% ============ 基座表示 / 数据集 ============
+
+@article{Kerbl3DGS,
+  author  = {Kerbl, Bernhard and Kopanas, Georgios and Leimk{\"u}hler, Thomas and Drettakis, George},
+  title   = {{3D} {Gaussian} splatting for real-time radiance field rendering},
+  journal = {ACM Transactions on Graphics},
+  volume  = {42},
+  number  = {4},
+  pages   = {1--14},
+  year    = {2023},
+  doi     = {10.1145/3592433},
+  annote  = {DOI 10.1145/3592433（SIGGRAPH 2023）；逐字回源 2026-10-09（Crossref：Kerbl/Kopanas/Leimkuehler/Drettakis,
+             TOG 42(4):1-14）。本稿基座 = 标准 3D 高斯可微光栅器（MonoGS 建立其上），正文 §2/§3 必引}
+}
+
+@inproceedings{BonnDataset,
+  author    = {Palazzolo, Emanuele and Behley, Jens and Lottes, Philipp and Gigu{\`e}re, Philippe and Stachniss, Cyrill},
+  title     = {{ReFusion}: {3D} reconstruction in dynamic environments for {RGB-D} cameras exploiting residuals},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages     = {7855--7862},
+  year      = {2019},
+  annote    = {DOI 10.1109/IROS40897.2019.8967590; 逐字回源 2026-10-08（Crossref：ReFusion, p.7855-7862；
+             **更正**：原写 DOI ...8967788 实为 ALTRO 论文，已改）。本稿 7 序列评测集出处}
+}
+
+@inproceedings{CoSLAM,
+  author    = {Wang, Hengyi and Wang, Jingwen and Agapito, Lourdes},
+  title     = {{Co-SLAM}: joint coordinate and sparse parametric encodings for neural real-time {SLAM}},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {13293--13302},
+  year      = {2023},
+  annote    = {逐字回源 2026-10-11（GitHub/CVPR poster/OpenAccess PDF：Wang, Wang, Agapito, UCL, CVPR 2023）。
+             页码更正 2026-10-12（CVF OpenAccess bibtex + IEEE Crossref 10.1109/CVPR52729.2023.01277
+             双源一致 = 13293--13302；原 14365--14374 系笔误）。横比表 static/NeRF 组}
+}
+
+@inproceedings{NGDSLAM,
+  author    = {Zhang, Yuhao and Bujanca, Mihai and Luj{\'a}n, Mikel},
+  title     = {{NGD-SLAM}: towards real-time dynamic {SLAM} without {GPU}},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages     = {3467--3473},
+  year      = {2025},
+  annote    = {逐字回源 2026-10-11（Semantic Scholar/GitHub yuhaozhang7/NGD-SLAM：Zhang, Bujanca, Luj{\'a}n,
+             IROS, p.3467-3473）。年份更正 2026-10-12（Crossref 10.1109/IROS60139.2025.11246202
+             published 2025-10-01 + arXiv comments "Accepted to IROS 2025" 双源一致 = 2025；
+             原 2024 系 arXiv 预印年）。横比表 dynamic/keypoint 组}
+}
+
+@article{ORBSLAM3,
+  author    = {Campos, Carlos and Elvira, Richard and G{\'o}mez Rodr{\'i}guez, Juan J. and Montiel, Jos{\'e} M. M. and Tard{\'o}s, Juan D.},
+  title     = {{ORB-SLAM3}: an accurate open-source library for visual, visual-inertial and multi-map {SLAM}},
+  journal   = {IEEE Transactions on Robotics},
+  volume    = {37},
+  number    = {6},
+  pages     = {1874--1890},
+  year      = {2021},
+  annote    = {逐字回源 2026-10-11（GitHub UZ-SLAMLab/ORB_SLAM3 官方引用：TRO 37(6):1874-1890, 2021）。
+             横比表 static/keypoint 组}
+}
+
+@inproceedings{TUMBenchmark,
+  author    = {Sturm, J{\"u}rgen and Engelhard, Nikolas and Endres, Felix and Burgard, Wolfram and Cremers, Daniel},
+  title     = {A benchmark for the evaluation of {RGB-D} {SLAM} systems},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages     = {573--580},
+  year      = {2012},
+  annote    = {DOI 10.1109/IROS.2012.6385773; 逐字回源 2026-10-08（页码 573-580）。held-out TUM 面板出处}
+}
+
+% ============ 未在正文引用但预留 ============
+@inproceedings{HAC,
+  author    = {Chen, Yihang and Wu, Qianyi and Lin, Weiyao and Harandi, Mehrtash and Cai, Jianfei},
+  title     = {{HAC}: hash-grid assisted context for {3D} {Gaussian} splatting compression},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {422--438},
+  year      = {2024},
+  annote    = {arXiv:2403.14530；作者/venue/页码逐字回源 2026-10-14（Crossref DOI 10.1007/978-3-031-72667-5_24，pages 422-438）}
+}
+@inproceedings{Compact3D,
+  author    = {Lee, Joo Chan and Rho, Daniel and Sun, Xiangyu and Ko, Jong Hwan and Park, Eunbyung},
+  title     = {Compact {3D} {Gaussian} representation for radiance field},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {21719--21728},
+  year      = {2024},
+  annote    = {CVPR 2024 Highlight；作者/页码逐字回源 2026-10-05（官方 repo bibtex + CVF 论文页）；
+             entry 类型 @article→@inproceedings 更正 2026-10-08（原 journal 字段实为会议 booktitle）}
+}
+@inproceedings{Compressed3DGS,
+  author    = {Niedermayr, Simon and Stumpfegger, Josef and Westermann, R{\"u}diger},
+  title     = {Compressed {3D} {Gaussian} splatting for accelerated novel view synthesis},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {10349--10358},
+  year      = {2024},
+  annote    = {arXiv:2401.02436；作者/venue/页码逐字回源 2026-10-17（Crossref DOI 10.1109/CVPR52733.2024.00985，
+             pages 10349-10358）。本稿 §5 的 Niedermayr 基线即此法（QAT 再拟合口径见 tab:rd 题注）}
+}
+
+% ============ 自引（双盲规则 = 第三人称 + 匿名作者） ============
+@misc{RoGSSLAM,
+  author = {{Anonymous Author(s)}},
+  title  = {{RoGS-SLAM}: robust {Gaussian} splatting {SLAM} in dynamic environments via reliability-guided weighting},
+  note   = {Accepted at MMM 2027; anonymous version included as supplementary material},
+  year   = {2027},
+  annote = {论文1 = 本稿基础栈（§3 描述的四组件：uniform temporal keyframe coverage、robust residual reweighting、
+           flow-consistency reliability、density lifecycle）。2026-10-20 邮件录用 MMM 2027（用户确认）。
+           匿名版 = papers/MMM2027_RoGS-SLAM_submission.pdf（投稿版本身即 Anonymous Author(s)，无需再脱敏）。
+           与 [DGSLAM]/[DGSSlam] 的区别：本稿正文 §2 L169-170 消歧句已明确。引用依据：CVM 模板
+           cvmpaper_for_review.tex:82-89 明确不禁自引，只禁第一人称 my/our}
+}

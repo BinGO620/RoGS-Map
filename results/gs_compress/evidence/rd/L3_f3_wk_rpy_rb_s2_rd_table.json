@@ -1,0 +1,422 @@
+{
+  "tag": "L3_f3_wk_rpy_rb_s2",
+  "run_dir": "results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/",
+  "frames": "0,60,120,180,240",
+  "rows": [
+    {
+      "tag": "L3_f3_wk_rpy_rb_s2",
+      "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+      "kind": "baseline",
+      "render": {
+        "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+        "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply",
+        "trj": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/plot/trj_full_final.json",
+        "n_frames": 5,
+        "interval": 5,
+        "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+        "mask_source": null,
+        "mask_kind": null,
+        "mask_class": null,
+        "mask_validity": null,
+        "mean_psnr": 12.727,
+        "mean_ssim": 0.5459,
+        "mean_lpips": 0.4549,
+        "mean_depth_l1_cm": 79.9157,
+        "per_frame": [
+          {
+            "frame": 0,
+            "psnr": 13.756,
+            "ssim": 0.5442,
+            "lpips": 0.4435,
+            "depth_l1_cm": 97.1803
+          },
+          {
+            "frame": 60,
+            "psnr": 15.7533,
+            "ssim": 0.635,
+            "lpips": 0.4592,
+            "depth_l1_cm": 51.9059
+          },
+          {
+            "frame": 120,
+            "psnr": 13.8557,
+            "ssim": 0.5562,
+            "lpips": 0.3873,
+            "depth_l1_cm": 83.27
+          },
+          {
+            "frame": 180,
+            "psnr": 6.9759,
+            "ssim": 0.321,
+            "lpips": 0.6124,
+            "depth_l1_cm": 50.032
+          },
+          {
+            "frame": 240,
+            "psnr": 13.2942,
+            "ssim": 0.6733,
+            "lpips": 0.3721,
+            "depth_l1_cm": 117.1904
+          }
+        ],
+        "frames_render_skipped": 0
+      }
+    },
+    {
+      "tag": "L3_f3_wk_rpy_rb_s2",
+      "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+      "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply",
+      "bits": [
+        16,
+        8,
+        8,
+        8,
+        8
+      ],
+      "bits_dyn": null,
+      "coarsen": null,
+      "n": 82295,
+      "n_orig": 82295,
+      "prune": {
+        "opacity_below": null,
+        "scale_above": null,
+        "ghost": false,
+        "dropped": 0
+      },
+      "alloc": "uniform",
+      "partition_meta": {
+        "iso_scale": false,
+        "iso_thresh": 0.1
+      },
+      "codec_bytes": 1114631,
+      "codec_bytes_per_prim": 13.544334406707577,
+      "rate_bytes_per_prim": 13.544334406707577,
+      "recon_ply_bytes": 5596475,
+      "orig_full_bytes": 6583600,
+      "orig_render_bytes": 4608520,
+      "ratio_full": 5.906528707706856,
+      "ratio_render14": 4.134570095394799,
+      "render": {
+        "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-51",
+        "ply": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-51/point_cloud/final/point_cloud.ply",
+        "trj": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-51/plot/trj_full_final.json",
+        "n_frames": 5,
+        "interval": 5,
+        "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+        "mask_source": null,
+        "mask_kind": null,
+        "mask_class": null,
+        "mask_validity": null,
+        "mean_psnr": 12.7198,
+        "mean_ssim": 0.5457,
+        "mean_lpips": 0.4559,
+        "mean_depth_l1_cm": 79.9129,
+        "per_frame": [
+          {
+            "frame": 0,
+            "psnr": 13.7442,
+            "ssim": 0.544,
+            "lpips": 0.4439,
+            "depth_l1_cm": 97.1689
+          },
+          {
+            "frame": 60,
+            "psnr": 15.7559,
+            "ssim": 0.6347,
+            "lpips": 0.4613,
+            "depth_l1_cm": 51.9078
+          },
+          {
+            "frame": 120,
+            "psnr": 13.8383,
+            "ssim": 0.5559,
+            "lpips": 0.3879,
+            "depth_l1_cm": 83.2998
+          },
+          {
+            "frame": 180,
+            "psnr": 6.9726,
+            "ssim": 0.321,
+            "lpips": 0.6125,
+            "depth_l1_cm": 49.9909
+          },
+          {
+            "frame": 240,
+            "psnr": 13.288,
+            "ssim": 0.6728,
+            "lpips": 0.3738,
+            "depth_l1_cm": 117.1973
+          }
+        ],
+        "frames_render_skipped": 0
+      }
+    },
+    {
+      "tag": "L3_f3_wk_rpy_rb_s2",
+      "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+      "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply",
+      "bits": [
+        12,
+        7,
+        7,
+        7,
+        7
+      ],
+      "bits_dyn": null,
+      "coarsen": null,
+      "n": 82295,
+      "n_orig": 82295,
+      "prune": {
+        "opacity_below": null,
+        "scale_above": null,
+        "ghost": false,
+        "dropped": 0
+      },
+      "alloc": "uniform",
+      "partition_meta": {
+        "iso_scale": false,
+        "iso_thresh": 0.1
+      },
+      "codec_bytes": 929911,
+      "codec_bytes_per_prim": 11.299726593353181,
+      "rate_bytes_per_prim": 11.299726593353181,
+      "recon_ply_bytes": 5596475,
+      "orig_full_bytes": 6583600,
+      "orig_render_bytes": 4608520,
+      "ratio_full": 7.079817315850657,
+      "ratio_render14": 4.955872121095459,
+      "render": {
+        "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-44",
+        "ply": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-44/point_cloud/final/point_cloud.ply",
+        "trj": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-44/plot/trj_full_final.json",
+        "n_frames": 5,
+        "interval": 5,
+        "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+        "mask_source": null,
+        "mask_kind": null,
+        "mask_class": null,
+        "mask_validity": null,
+        "mean_psnr": 12.7355,
+        "mean_ssim": 0.5433,
+        "mean_lpips": 0.4594,
+        "mean_depth_l1_cm": 79.8342,
+        "per_frame": [
+          {
+            "frame": 0,
+            "psnr": 13.7687,
+            "ssim": 0.5399,
+            "lpips": 0.4479,
+            "depth_l1_cm": 97.1933
+          },
+          {
+            "frame": 60,
+            "psnr": 15.7593,
+            "ssim": 0.633,
+            "lpips": 0.4654,
+            "depth_l1_cm": 51.8293
+          },
+          {
+            "frame": 120,
+            "psnr": 13.8613,
+            "ssim": 0.5518,
+            "lpips": 0.3908,
+            "depth_l1_cm": 83.171
+          },
+          {
+            "frame": 180,
+            "psnr": 6.9943,
+            "ssim": 0.3207,
+            "lpips": 0.6147,
+            "depth_l1_cm": 49.8531
+          },
+          {
+            "frame": 240,
+            "psnr": 13.2938,
+            "ssim": 0.6712,
+            "lpips": 0.3783,
+            "depth_l1_cm": 117.1245
+          }
+        ],
+        "frames_render_skipped": 0
+      }
+    },
+    {
+      "tag": "L3_f3_wk_rpy_rb_s2",
+      "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+      "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply",
+      "bits": [
+        10,
+        6,
+        6,
+        6,
+        6
+      ],
+      "bits_dyn": null,
+      "coarsen": null,
+      "n": 82295,
+      "n_orig": 82295,
+      "prune": {
+        "opacity_below": null,
+        "scale_above": null,
+        "ghost": false,
+        "dropped": 0
+      },
+      "alloc": "uniform",
+      "partition_meta": {
+        "iso_scale": false,
+        "iso_thresh": 0.1
+      },
+      "codec_bytes": 773250,
+      "codec_bytes_per_prim": 9.396075095692327,
+      "rate_bytes_per_prim": 9.396075095692327,
+      "recon_ply_bytes": 5596475,
+      "orig_full_bytes": 6583600,
+      "orig_render_bytes": 4608520,
+      "ratio_full": 8.514193339799547,
+      "ratio_render14": 5.959935337859683,
+      "render": {
+        "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-41",
+        "ply": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-41/point_cloud/final/point_cloud.ply",
+        "trj": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-41/plot/trj_full_final.json",
+        "n_frames": 5,
+        "interval": 5,
+        "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+        "mask_source": null,
+        "mask_kind": null,
+        "mask_class": null,
+        "mask_validity": null,
+        "mean_psnr": 12.619,
+        "mean_ssim": 0.5195,
+        "mean_lpips": 0.4868,
+        "mean_depth_l1_cm": 79.7719,
+        "per_frame": [
+          {
+            "frame": 0,
+            "psnr": 13.6033,
+            "ssim": 0.5036,
+            "lpips": 0.4708,
+            "depth_l1_cm": 96.7759
+          },
+          {
+            "frame": 60,
+            "psnr": 15.6715,
+            "ssim": 0.6147,
+            "lpips": 0.4867,
+            "depth_l1_cm": 51.8722
+          },
+          {
+            "frame": 120,
+            "psnr": 13.7217,
+            "ssim": 0.5178,
+            "lpips": 0.4195,
+            "depth_l1_cm": 83.0482
+          },
+          {
+            "frame": 180,
+            "psnr": 6.8834,
+            "ssim": 0.314,
+            "lpips": 0.6434,
+            "depth_l1_cm": 50.0511
+          },
+          {
+            "frame": 240,
+            "psnr": 13.2149,
+            "ssim": 0.6475,
+            "lpips": 0.4137,
+            "depth_l1_cm": 117.112
+          }
+        ],
+        "frames_render_skipped": 0
+      }
+    },
+    {
+      "tag": "L3_f3_wk_rpy_rb_s2",
+      "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05",
+      "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed2/datasets_tum/r34_rb_f3_wk_rpy/seed_2/2026-09-17-20-58-05/point_cloud/final/point_cloud.ply",
+      "bits": [
+        8,
+        4,
+        4,
+        4,
+        4
+      ],
+      "bits_dyn": null,
+      "coarsen": null,
+      "n": 82295,
+      "n_orig": 82295,
+      "prune": {
+        "opacity_below": null,
+        "scale_above": null,
+        "ghost": false,
+        "dropped": 0
+      },
+      "alloc": "uniform",
+      "partition_meta": {
+        "iso_scale": false,
+        "iso_thresh": 0.1
+      },
+      "codec_bytes": 466724,
+      "codec_bytes_per_prim": 5.671353059116592,
+      "rate_bytes_per_prim": 5.671353059116592,
+      "recon_ply_bytes": 5596475,
+      "orig_full_bytes": 6583600,
+      "orig_render_bytes": 4608520,
+      "ratio_full": 14.105981265158851,
+      "ratio_render14": 9.874186885611197,
+      "render": {
+        "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-40",
+        "ply": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-40/point_cloud/final/point_cloud.ply",
+        "trj": "/home/jiangwenheng/cron/monogs-ours/results/gs_compress/recon/L3_f3_wk_rpy_rb_s2/2026-10-04-00-00-40/plot/trj_full_final.json",
+        "n_frames": 5,
+        "interval": 5,
+        "interval_note": "offline render; run-time eval_rendering interval=5 could collide with the KF grid (NaN root cause)",
+        "mask_source": null,
+        "mask_kind": null,
+        "mask_class": null,
+        "mask_validity": null,
+        "mean_psnr": 11.613,
+        "mean_ssim": 0.3968,
+        "mean_lpips": 0.6335,
+        "mean_depth_l1_cm": 80.2546,
+        "per_frame": [
+          {
+            "frame": 0,
+            "psnr": 12.3362,
+            "ssim": 0.3245,
+            "lpips": 0.6251,
+            "depth_l1_cm": 95.525
+          },
+          {
+            "frame": 60,
+            "psnr": 14.4307,
+            "ssim": 0.5107,
+            "lpips": 0.6079,
+            "depth_l1_cm": 52.5449
+          },
+          {
+            "frame": 120,
+            "psnr": 12.4214,
+            "ssim": 0.35,
+            "lpips": 0.6117,
+            "depth_l1_cm": 86.0089
+          },
+          {
+            "frame": 180,
+            "psnr": 6.5892,
+            "ssim": 0.2925,
+            "lpips": 0.7308,
+            "depth_l1_cm": 49.8798
+          },
+          {
+            "frame": 240,
+            "psnr": 12.2876,
+            "ssim": 0.5064,
+            "lpips": 0.5918,
+            "depth_l1_cm": 117.3146
+          }
+        ],
+        "frames_render_skipped": 0
+      }
+    }
+  ]
+}

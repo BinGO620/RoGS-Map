@@ -1,0 +1,37 @@
+# DynPort L1 —— 臂 C−（阴性对照：DynPort on + 插入错位 0.30m）—— balloon2
+# 判据本体 = results/dynport/evidence/prereg_dynport_L1.md（账本 D2-027）。
+# 仪器判别力锚：若仪器检不出 30cm 错位，则任何更小效应不可信（J7）。
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: false
+
+LoopClosure:
+  enabled: false
+
+TransientMap:
+  enabled: false
+
+E2ObjectLayer:
+  enabled: false
+
+DynPort:
+  enabled: true
+  lam_d: 0.20
+  cap: 50000
+  lmax: 45
+  unproj_stride: 3
+  fit_iters: 300
+  lineage_base: 402653184
+  control_shift_m: 0.30
+  min_scale_m: 0.001
+  max_scale_m: 0.02
+  causal_log:
+    enabled: true
+    every_n: 1
+
+Results:
+  save_dir: "results/dynport/L1/balloon2_Cneg"
+  save_per_frame_ape: true

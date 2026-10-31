@@ -1,0 +1,339 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon_off_s0/datasets_bonn/l3_balloon_off/seed_0/2026-09-21-01-26-29",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_balloon_off_s0/datasets_bonn/l3_balloon_off/seed_0/2026-09-21-01-26-29/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  74,
+  98,
+  123,
+  147,
+  171,
+  195,
+  219,
+  244,
+  268,
+  292,
+  316,
+  340,
+  364,
+  389,
+  413,
+  437
+ ],
+ "n_prims_total": 37317,
+ "prereg": "prereg_instrument_v2.md",
+ "mask_subdir": "dynamic_mask_mover",
+ "band_used": 0.15,
+ "support_px_median": {
+  "static_bg": 2396,
+  "ring": 560,
+  "vac": 198190
+ },
+ "summary": {
+  "exc_full_static": {
+   "n": 11,
+   "median": 2.2355,
+   "iqr": [
+    0.104,
+    6.2343
+   ],
+   "mean": 2.3786
+  },
+  "exc_ring": {
+   "n": 11,
+   "median": 1.5124,
+   "iqr": [
+    -0.4397,
+    4.6467
+   ],
+   "mean": 1.9309
+  },
+  "exc_depth_matched": {
+   "n": 11,
+   "median": 3.3869,
+   "iqr": [
+    1.5666,
+    6.4501
+   ],
+   "mean": 3.9234
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 83401,
+   "n_static_bg_px": 130570,
+   "n_ring_px": 28762,
+   "exc_full_cm": 0.8932,
+   "exc_ring_cm": -0.4324,
+   "exc_m3_cm": 2.2895,
+   "m3_band_tried": null,
+   "m3_z_med": 3.037
+  },
+  {
+   "frame": 74,
+   "n_vac_px": 163894,
+   "n_static_bg_px": 43083,
+   "n_ring_px": 11930,
+   "exc_full_cm": 7.556,
+   "exc_ring_cm": 6.2352,
+   "exc_m3_cm": 7.5353,
+   "m3_band_tried": null,
+   "m3_z_med": 3.12
+  },
+  {
+   "frame": 98,
+   "n_vac_px": 185284,
+   "n_static_bg_px": 33944,
+   "n_ring_px": 9040,
+   "exc_full_cm": 3.1118,
+   "exc_ring_cm": -0.9965,
+   "exc_m3_cm": 4.636,
+   "m3_band_tried": null,
+   "m3_z_med": 3.178
+  },
+  {
+   "frame": 123,
+   "n_vac_px": 182974,
+   "n_static_bg_px": 32780,
+   "n_ring_px": 8334,
+   "exc_full_cm": 5.21,
+   "exc_ring_cm": 3.0582,
+   "exc_m3_cm": 6.1604,
+   "m3_band_tried": null,
+   "m3_z_med": 3.01
+  },
+  {
+   "frame": 147,
+   "n_vac_px": 164706,
+   "n_static_bg_px": 30054,
+   "n_ring_px": 7340,
+   "exc_full_cm": 7.2586,
+   "exc_ring_cm": 6.5128,
+   "exc_m3_cm": 6.7398,
+   "m3_band_tried": null,
+   "m3_z_med": 2.485
+  },
+  {
+   "frame": 171,
+   "n_vac_px": 180292,
+   "n_static_bg_px": 18454,
+   "n_ring_px": 4498,
+   "exc_full_cm": 1.0572,
+   "exc_ring_cm": -0.4471,
+   "exc_m3_cm": -5.0703,
+   "m3_band_tried": null,
+   "m3_z_med": 2.198
+  },
+  {
+   "frame": 195,
+   "n_vac_px": 164367,
+   "n_static_bg_px": 15380,
+   "n_ring_px": 3163,
+   "exc_full_cm": 2.2355,
+   "exc_ring_cm": 1.5124,
+   "exc_m3_cm": 3.0443,
+   "m3_band_tried": null,
+   "m3_z_med": 2.639
+  },
+  {
+   "frame": 219,
+   "n_vac_px": 210270,
+   "n_static_bg_px": 2872,
+   "n_ring_px": 620,
+   "exc_full_cm": -0.6852,
+   "exc_ring_cm": 1.5693,
+   "exc_m3_cm": 0.8438,
+   "m3_band_tried": null,
+   "m3_z_med": 2.984
+  },
+  {
+   "frame": 244,
+   "n_vac_px": 221604,
+   "n_static_bg_px": 2396,
+   "n_ring_px": 560,
+   "exc_full_cm": 9.5194,
+   "exc_ring_cm": 17.398,
+   "exc_m3_cm": 16.7531,
+   "m3_band_tried": null,
+   "m3_z_med": 2.958
+  },
+  {
+   "frame": 268,
+   "n_vac_px": 198190,
+   "n_static_bg_px": 2378,
+   "n_ring_px": 554,
+   "exc_full_cm": -1.2254,
+   "exc_ring_cm": 1.496,
+   "exc_m3_cm": -3.1614,
+   "m3_band_tried": null,
+   "m3_z_med": 2.984
+  },
+  {
+   "frame": 292,
+   "n_vac_px": 188888,
+   "n_static_bg_px": 1884,
+   "n_ring_px": 550,
+   "exc_full_cm": -8.767,
+   "exc_ring_cm": -14.6661,
+   "exc_m3_cm": 3.3869,
+   "m3_band_tried": null,
+   "m3_z_med": 2.812
+  },
+  {
+   "frame": 316,
+   "n_vac_px": 252856,
+   "n_static_bg_px": 1,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 340,
+   "n_vac_px": 242501,
+   "n_static_bg_px": 1,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 364,
+   "n_vac_px": 263090,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.68
+  },
+  {
+   "frame": 389,
+   "n_vac_px": 263898,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.579
+  },
+  {
+   "frame": 413,
+   "n_vac_px": 265826,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.659
+  },
+  {
+   "frame": 437,
+   "n_vac_px": 265899,
+   "n_static_bg_px": 0,
+   "n_ring_px": 0,
+   "exc_full_cm": null,
+   "exc_ring_cm": null,
+   "exc_m3_cm": null,
+   "m3_band_tried": [
+    {
+     "band": 0.15,
+     "n_px": 0
+    },
+    {
+     "band": 0.25,
+     "n_px": 0
+    },
+    {
+     "band": 0.35,
+     "n_px": 0
+    }
+   ],
+   "m3_z_med": 2.659
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

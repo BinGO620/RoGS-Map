@@ -1,0 +1,10 @@
+# R34 same-batch re-verification: byte-identical to rollbase_f3_wk_rpy.yaml except save_dir.
+# See results/paper2_rollout/evidence/prereg_r34.md
+# paper2 拉通 baseline 臂 (TUM): Combined-Prune 原机.
+inherit_from: "configs/rgbd/tum/f3_wk_rpy.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/paper2_rollout/r34_rb_f3_wk_rpy"
+  save_per_frame_ape: true

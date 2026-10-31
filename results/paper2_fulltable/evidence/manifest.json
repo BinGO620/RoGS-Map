@@ -1,0 +1,231 @@
+{
+  "experiment": "paper2_fulltable/seed3_promotion",
+  "date": "2026-09-07",
+  "head": "f43788b8",
+  "batch": {
+    "new_runs": 28,
+    "skipped_restored": 7,
+    "preexisting": 28,
+    "rc": 0
+  },
+  "gate_config": "final + SWBA.swba_max_static_conf=0.38",
+  "superseded_r29_framegate": {
+    "arm_key": "r29_framegate (== the 0.38 gate arm)",
+    "reason": "ran 2026-09-07, before the SWBA jacobian fixes a21e0773/1150fb25 (2026-09-09); the gate reference numbers were declared void in results/joint_correct/README.md 2.5c on 2026-09-09",
+    "rebased_to": "r32_regate038_* (21 run, current HEAD, 2026-09-16)",
+    "rebased_pt1_cm": 8.0647,
+    "rebased_note": "the ate_cm['r29_framegate'] block below is kept ONLY as the historical 3-seed promotion record tied to head f43788b8 / date 2026-09-07 -- do NOT cite it as the current gate column; see evidence/verdict_f_rebase.md"
+  },
+  "ate_cm": {
+    "baseline": {
+      "balloon": {
+        "0": 3.2674,
+        "1": 2.9394,
+        "2": 3.1404
+      },
+      "balloon2": {
+        "0": 5.2273,
+        "1": 5.2892,
+        "2": 5.4654
+      },
+      "crowd": {
+        "0": 2.4234,
+        "1": 2.2491,
+        "2": 2.2102
+      },
+      "crowd2": {
+        "0": 2.2229,
+        "1": 2.0409,
+        "2": 2.0565
+      },
+      "crowd3": {
+        "0": 1.5985,
+        "1": 1.5593,
+        "2": 1.5067
+      },
+      "person_tracking": {
+        "0": 10.6032,
+        "1": 13.152,
+        "2": 17.0935
+      },
+      "person_tracking2": {
+        "0": 12.2581,
+        "1": 12.1677,
+        "2": 10.7546
+      }
+    },
+    "final": {
+      "balloon": {
+        "0": 4.1864,
+        "1": 4.1164,
+        "2": 4.3276
+      },
+      "balloon2": {
+        "0": 5.1631,
+        "1": 5.3391,
+        "2": 5.4797
+      },
+      "crowd": {
+        "0": 2.4935,
+        "1": 2.3919,
+        "2": 2.5133
+      },
+      "crowd2": {
+        "0": 4.1593,
+        "1": 4.2275,
+        "2": 3.5978
+      },
+      "crowd3": {
+        "0": 2.4329,
+        "1": 2.6774,
+        "2": 2.6351
+      },
+      "person_tracking": {
+        "0": 9.4149,
+        "1": 7.5517,
+        "2": 8.4639
+      },
+      "person_tracking2": {
+        "0": 11.7494,
+        "1": 11.1438,
+        "2": 11.9488
+      }
+    },
+    "r29_framegate": {
+      "balloon": {
+        "0": 3.9873,
+        "1": 4.267,
+        "2": 3.9149
+      },
+      "balloon2": {
+        "0": 5.3995,
+        "1": 5.3796,
+        "2": 5.4196
+      },
+      "crowd": {
+        "0": 2.1383,
+        "1": 2.4405,
+        "2": 2.1721
+      },
+      "crowd2": {
+        "0": 2.3435,
+        "1": 2.6716,
+        "2": 2.8452
+      },
+      "crowd3": {
+        "0": 1.9024,
+        "1": 1.9307,
+        "2": 1.8477
+      },
+      "person_tracking": {
+        "0": 7.5461,
+        "1": 7.5316,
+        "2": 8.4231
+      },
+      "person_tracking2": {
+        "0": 11.1784,
+        "1": 11.39,
+        "2": 12.043
+      }
+    }
+  },
+  "mean_sd": {
+    "baseline": {
+      "balloon": {
+        "mean": 3.12,
+        "sd": 0.17
+      },
+      "balloon2": {
+        "mean": 5.33,
+        "sd": 0.12
+      },
+      "crowd": {
+        "mean": 2.29,
+        "sd": 0.11
+      },
+      "crowd2": {
+        "mean": 2.11,
+        "sd": 0.1
+      },
+      "crowd3": {
+        "mean": 1.55,
+        "sd": 0.05
+      },
+      "person_tracking": {
+        "mean": 13.62,
+        "sd": 3.27
+      },
+      "person_tracking2": {
+        "mean": 11.73,
+        "sd": 0.84
+      }
+    },
+    "final": {
+      "balloon": {
+        "mean": 4.21,
+        "sd": 0.11
+      },
+      "balloon2": {
+        "mean": 5.33,
+        "sd": 0.16
+      },
+      "crowd": {
+        "mean": 2.47,
+        "sd": 0.07
+      },
+      "crowd2": {
+        "mean": 3.99,
+        "sd": 0.35
+      },
+      "crowd3": {
+        "mean": 2.58,
+        "sd": 0.13
+      },
+      "person_tracking": {
+        "mean": 8.48,
+        "sd": 0.93
+      },
+      "person_tracking2": {
+        "mean": 11.61,
+        "sd": 0.42
+      }
+    },
+    "r29_framegate": {
+      "balloon": {
+        "mean": 4.06,
+        "sd": 0.19
+      },
+      "balloon2": {
+        "mean": 5.4,
+        "sd": 0.02
+      },
+      "crowd": {
+        "mean": 2.25,
+        "sd": 0.17
+      },
+      "crowd2": {
+        "mean": 2.62,
+        "sd": 0.25
+      },
+      "crowd3": {
+        "mean": 1.89,
+        "sd": 0.04
+      },
+      "person_tracking": {
+        "mean": 7.83,
+        "sd": 0.51
+      },
+      "person_tracking2": {
+        "mean": 11.54,
+        "sd": 0.45
+      }
+    }
+  },
+  "red_line_5cm_pass_gate": [
+    "balloon",
+    "crowd",
+    "crowd2",
+    "crowd3"
+  ],
+  "verdict": "pt1 main signal holds at 3 seeds (13.62->7.83, -42%) but misses 5cm bar by 2.83; easy-seq protection reproduced; pt2 unchanged"
+}

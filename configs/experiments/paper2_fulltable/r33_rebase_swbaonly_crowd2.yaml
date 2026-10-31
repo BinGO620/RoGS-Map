@@ -1,0 +1,12 @@
+# R33 rebaseline of the SWBA-ONLY attribution arm (SWBA on, loop closure off).
+# Byte-identical to crowd2_swbaonly.yaml except save_dir. See evidence/prereg_rebase_arms.md.
+inherit_from: "configs/rgbd/bonn/crowd2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r33_rebase_swbaonly_crowd2"
+  save_per_frame_ape: true

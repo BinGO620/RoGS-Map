@@ -1,0 +1,16 @@
+# Attribution arm (fulltable diagnosis): SWBA-ONLY without loop closure.
+# fulltable paired data: loop graph corrections were 0.00cm on crowd2 (no-op)
+# while SWBA per-KF |dt| reached 2.9-6.6cm on a 2cm-quality sequence —
+# this arm isolates SWBA as the regression source (pre-registered: if the
+# regression persists here, SWBA health-gating is the fix rung).
+
+inherit_from: "configs/rgbd/bonn/crowd3.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+
+Results:
+  save_dir: "results/paper2_fulltable/crowd3_swbaonly"
+  save_per_frame_ape: true

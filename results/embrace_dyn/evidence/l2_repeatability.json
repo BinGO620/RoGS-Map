@@ -1,0 +1,69 @@
+{
+ "purpose": "L2 repeatability: same locked config run twice (rep1 = dyn_probe_results.json, rep2 = dyn_probe_results_rep2.json)",
+ "config": "configs/experiments/embrace_dyn/probe_pt2.yaml (identical except the out path)",
+ "arm1_bit_identical": [
+  "P1:baseline",
+  "P1:gate"
+ ],
+ "max_abs_delta_dyn_psnr_db": 0.0055,
+ "max_abs_delta_dyn_dl1_cm": 0.017,
+ "cause": "GPU rasterizer backward atomics during the 300-step local fit; arms without fitting are exactly identical",
+ "rows": [
+  {
+   "map": "baseline",
+   "arm": "C-",
+   "d_dyn_psnr": -0.0055,
+   "d_dyn_dl1_cm": 0.0012,
+   "d_static_psnr": -0.0003
+  },
+  {
+   "map": "baseline",
+   "arm": "P1",
+   "d_dyn_psnr": 0.0,
+   "d_dyn_dl1_cm": 0.0,
+   "d_static_psnr": 0.0
+  },
+  {
+   "map": "baseline",
+   "arm": "P2",
+   "d_dyn_psnr": -0.0037,
+   "d_dyn_dl1_cm": 0.0048,
+   "d_static_psnr": -0.0017
+  },
+  {
+   "map": "baseline",
+   "arm": "P4",
+   "d_dyn_psnr": 0.0036,
+   "d_dyn_dl1_cm": -0.0037,
+   "d_static_psnr": -0.0007
+  },
+  {
+   "map": "gate",
+   "arm": "C-",
+   "d_dyn_psnr": -0.0033,
+   "d_dyn_dl1_cm": -0.0008,
+   "d_static_psnr": 0.0002
+  },
+  {
+   "map": "gate",
+   "arm": "P1",
+   "d_dyn_psnr": 0.0,
+   "d_dyn_dl1_cm": 0.0,
+   "d_static_psnr": 0.0
+  },
+  {
+   "map": "gate",
+   "arm": "P2",
+   "d_dyn_psnr": -0.0015,
+   "d_dyn_dl1_cm": -0.0018,
+   "d_static_psnr": 0.0022
+  },
+  {
+   "map": "gate",
+   "arm": "P4",
+   "d_dyn_psnr": -0.0043,
+   "d_dyn_dl1_cm": 0.017,
+   "d_static_psnr": 0.004
+  }
+ ]
+}

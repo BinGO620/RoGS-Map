@@ -1,0 +1,41 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08/point_cloud/final_after_opt/point_cloud.ply",
+ "protocol": "trajectory-anchored self-consistent v2 (identity frame; NOT the official Bonn T_g chain)",
+ "anchor_est0_gt0_cm": 0.0,
+ "mask_source": "seg_mask",
+ "results": {
+  "est": {
+   "fusion": {
+    "frames_used": 44,
+    "frames_total": 873,
+    "frame_stride": 20,
+    "pixel_stride": 5,
+    "masked_px_skipped": 4563,
+    "frames_without_mask": 0,
+    "fusion_pose": "est"
+   },
+   "metrics": {
+    "accuracy_cm": 36.9988,
+    "completion_cm": 12.9798,
+    "completion_ratio": 53.6045,
+    "precision_ratio": 36.6166,
+    "fscore": 43.5112,
+    "num_rec_points_eval": 122611,
+    "num_gt_points_eval": 200000,
+    "threshold_m": 0.05
+   },
+   "robust": {
+    "mean_cm": 35.6892,
+    "median_cm": 8.1124,
+    "p95_cm": 162.1773,
+    "p99_cm": 258.6644,
+    "trimmed_mean_p95_cm": 26.0303,
+    "frac_within_5cm": 0.40199,
+    "frac_over_1m": 0.119002,
+    "frac_over_5m": 0.00013,
+    "n_eval": 122611
+   }
+  }
+ }
+}

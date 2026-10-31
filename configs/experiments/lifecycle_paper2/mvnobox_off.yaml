@@ -1,0 +1,9 @@
+# L1 补遗 3：mvnobox / off 臂（主场确认）
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1.md §8（判据先锁）
+inherit_from: "configs/rgbd/bonn/moving_nonobstructing_box.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/lifecycle_paper2/L1_mvnobox_off"
+  save_per_frame_ape: true

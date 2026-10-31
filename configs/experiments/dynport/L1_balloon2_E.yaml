@@ -1,0 +1,26 @@
+# DynPort L1 —— 臂 E（主线 erase；DynPort 关）—— balloon2
+# 判据本体 = results/dynport/evidence/prereg_dynport_L1.md（账本 D2-027）。
+# 单变量：E/D 只差 DynPort.enabled；其余与 D 逐字段一致。
+# 栈 = 前作 baseline（SWBA/LC 关；语义掩码开，与 D 同）。
+inherit_from: "configs/rgbd/bonn/balloon2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: false
+
+LoopClosure:
+  enabled: false
+
+TransientMap:
+  enabled: false
+
+E2ObjectLayer:
+  enabled: false
+
+DynPort:
+  enabled: false
+
+Results:
+  save_dir: "results/dynport/L1/balloon2_E"
+  save_per_frame_ape: true

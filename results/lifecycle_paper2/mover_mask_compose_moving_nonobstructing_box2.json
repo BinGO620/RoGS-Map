@@ -1,0 +1,18 @@
+{
+ "sequence": "rgbd_bonn_moving_nonobstructing_box2",
+ "method": "union(person_semantic, motion_residual)",
+ "person_subdir": "dynamic_mask",
+ "motion_subdir": "dynamic_mask_motion",
+ "out_subdir": "dynamic_mask_mover",
+ "created": "2026-09-25 15:50:44",
+ "stats": {
+  "n_frames": 931,
+  "n_person_only": 0,
+  "n_motion_only": 0,
+  "n_both": 931
+ },
+ "added_frac_median": 0.009362,
+ "union_area_frac_median": 0.015,
+ "sha256": "4bc02429959418f356c79c300e4ced58c8bf80d8674321f2675a3ed0671f77f6",
+ "note": "并集口径：人沿用语义掩码（保 G1=1.0），非人行体由运动残差补入。新仪器，与 canonical 读数禁混引。"
+}

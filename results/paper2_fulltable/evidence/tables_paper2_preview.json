@@ -1,0 +1,1318 @@
+{
+ "baseline|balloon": {
+  "ate_mean": 3.2472,
+  "ate_sd": 0.0659,
+  "ate_n": 3,
+  "ate_seeds": [
+   3.2955,
+   3.1721,
+   3.2741
+  ],
+  "kf_ate_mean": 3.2319,
+  "kf_ate_sd": 0.0745,
+  "kf_ate_seeds": [
+   3.2874,
+   3.1472,
+   3.2611
+  ],
+  "psnr": 21.8041,
+  "ssim": 0.8519,
+  "lpips": 0.2727,
+  "depth_l1": 23.6664,
+  "static_psnr": 27.6792,
+  "static_ssim": 0.9109,
+  "static_cov": 1.0,
+  "ghost_excess": 2.9654,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 31954.3333,
+  "peak_mem_gb": 2.752,
+  "fps_med": 0.362,
+  "sim3_scale": 1.09453,
+  "sim3_scale_seeds": [
+   1.09844,
+   1.09047,
+   1.09469
+  ],
+  "sim3_ate_seeds": [
+   1.7721,
+   1.8571,
+   1.8791
+  ],
+  "sim3_ate_se3_seeds": [
+   3.2955,
+   3.1721,
+   3.2741
+  ],
+  "sim3_n": 3
+ },
+ "baseline|balloon2": {
+  "ate_mean": 5.4841,
+  "ate_sd": 0.2683,
+  "ate_n": 3,
+  "ate_seeds": [
+   5.2203,
+   5.4754,
+   5.7566
+  ],
+  "kf_ate_mean": 5.4464,
+  "kf_ate_sd": 0.2593,
+  "kf_ate_seeds": [
+   5.1927,
+   5.4356,
+   5.7109
+  ],
+  "psnr": 18.7223,
+  "ssim": 0.8081,
+  "lpips": 0.3163,
+  "depth_l1": 39.6196,
+  "static_psnr": 26.2767,
+  "static_ssim": 0.9018,
+  "static_cov": 1.0,
+  "ghost_excess": -10.8495,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 37797.0,
+  "peak_mem_gb": 2.8887,
+  "fps_med": 0.422,
+  "sim3_scale": 1.15876,
+  "sim3_scale_seeds": [
+   1.15877,
+   1.15614,
+   1.16138
+  ],
+  "sim3_ate_seeds": [
+   4.1438,
+   4.4991,
+   4.7835
+  ],
+  "sim3_ate_se3_seeds": [
+   5.2203,
+   5.4754,
+   5.7566
+  ],
+  "sim3_n": 3
+ },
+ "baseline|crowd": {
+  "ate_mean": 2.2347,
+  "ate_sd": 0.0964,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.215,
+   2.1496,
+   2.3394
+  ],
+  "kf_ate_mean": 2.7265,
+  "kf_ate_sd": 0.1061,
+  "kf_ate_seeds": [
+   2.6216,
+   2.8338,
+   2.7242
+  ],
+  "psnr": 19.9166,
+  "ssim": 0.8286,
+  "lpips": 0.2739,
+  "depth_l1": 29.9842,
+  "static_psnr": 27.611,
+  "static_ssim": 0.9232,
+  "static_cov": 1.0,
+  "ghost_excess": 1.4507,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 41279.6667,
+  "peak_mem_gb": 3.2871,
+  "fps_med": 0.466,
+  "sim3_scale": 1.16919,
+  "sim3_scale_seeds": [
+   1.17031,
+   1.14594,
+   1.19131
+  ],
+  "sim3_ate_seeds": [
+   1.5352,
+   1.6351,
+   1.5391
+  ],
+  "sim3_ate_se3_seeds": [
+   2.215,
+   2.1496,
+   2.3394
+  ],
+  "sim3_n": 3
+ },
+ "baseline|crowd2": {
+  "ate_mean": 2.2595,
+  "ate_sd": 0.3235,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.1319,
+   2.6273,
+   2.0193
+  ],
+  "kf_ate_mean": 2.2837,
+  "kf_ate_sd": 0.2231,
+  "kf_ate_seeds": [
+   2.2857,
+   2.5058,
+   2.0596
+  ],
+  "psnr": 19.5024,
+  "ssim": 0.8229,
+  "lpips": 0.297,
+  "depth_l1": 33.6612,
+  "static_psnr": 27.4457,
+  "static_ssim": 0.9218,
+  "static_cov": 1.0,
+  "ghost_excess": 4.4313,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 41470.3333,
+  "peak_mem_gb": 3.2285,
+  "fps_med": 0.503,
+  "sim3_scale": 1.074,
+  "sim3_scale_seeds": [
+   1.04191,
+   1.09217,
+   1.08794
+  ],
+  "sim3_ate_seeds": [
+   2.1057,
+   2.5356,
+   1.9039
+  ],
+  "sim3_ate_se3_seeds": [
+   2.1319,
+   2.6273,
+   2.0193
+  ],
+  "sim3_n": 3
+ },
+ "baseline|crowd3": {
+  "ate_mean": 1.5299,
+  "ate_sd": 0.0234,
+  "ate_n": 3,
+  "ate_seeds": [
+   1.5199,
+   1.5567,
+   1.5132
+  ],
+  "kf_ate_mean": 1.537,
+  "kf_ate_sd": 0.0385,
+  "kf_ate_seeds": [
+   1.5409,
+   1.5734,
+   1.4967
+  ],
+  "psnr": 17.0406,
+  "ssim": 0.7776,
+  "lpips": 0.3452,
+  "depth_l1": 41.4286,
+  "static_psnr": 24.7918,
+  "static_ssim": 0.919,
+  "static_cov": 1.0,
+  "ghost_excess": 4.5387,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 38059.3333,
+  "peak_mem_gb": 3.2617,
+  "fps_med": 0.479,
+  "sim3_scale": 1.05294,
+  "sim3_scale_seeds": [
+   1.04917,
+   1.05298,
+   1.05666
+  ],
+  "sim3_ate_seeds": [
+   1.4694,
+   1.4998,
+   1.4464
+  ],
+  "sim3_ate_se3_seeds": [
+   1.5199,
+   1.5567,
+   1.5132
+  ],
+  "sim3_n": 3
+ },
+ "baseline|person_tracking": {
+  "ate_mean": 11.3097,
+  "ate_sd": 0.7016,
+  "ate_n": 3,
+  "ate_seeds": [
+   11.4596,
+   10.5453,
+   11.9243
+  ],
+  "kf_ate_mean": 11.2017,
+  "kf_ate_sd": 0.6715,
+  "kf_ate_seeds": [
+   11.3852,
+   10.4576,
+   11.7624
+  ],
+  "psnr": 22.6841,
+  "ssim": 0.8601,
+  "lpips": 0.2638,
+  "depth_l1": 26.783,
+  "static_psnr": 27.3133,
+  "static_ssim": 0.9006,
+  "static_cov": 1.0,
+  "ghost_excess": 3.9646,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 67568.6667,
+  "peak_mem_gb": 3.2891,
+  "fps_med": 0.361,
+  "sim3_scale": 1.1511,
+  "sim3_scale_seeds": [
+   1.16123,
+   1.14467,
+   1.1474
+  ],
+  "sim3_ate_seeds": [
+   7.3052,
+   6.8188,
+   8.7076
+  ],
+  "sim3_ate_se3_seeds": [
+   11.4596,
+   10.5453,
+   11.9243
+  ],
+  "sim3_n": 3
+ },
+ "baseline|person_tracking2": {
+  "ate_mean": 10.4037,
+  "ate_sd": 0.2809,
+  "ate_n": 3,
+  "ate_seeds": [
+   10.3665,
+   10.1433,
+   10.7013
+  ],
+  "kf_ate_mean": 10.3861,
+  "kf_ate_sd": 0.2447,
+  "kf_ate_seeds": [
+   10.3483,
+   10.1626,
+   10.6475
+  ],
+  "psnr": 22.7199,
+  "ssim": 0.8612,
+  "lpips": 0.2492,
+  "depth_l1": 28.6879,
+  "static_psnr": 27.7361,
+  "static_ssim": 0.8928,
+  "static_cov": 1.0,
+  "ghost_excess": 2.2067,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 71475.0,
+  "peak_mem_gb": 3.3594,
+  "fps_med": 0.456,
+  "sim3_scale": 1.1136,
+  "sim3_scale_seeds": [
+   1.11608,
+   1.11456,
+   1.11017
+  ],
+  "sim3_ate_seeds": [
+   7.385,
+   7.1527,
+   8.1517
+  ],
+  "sim3_ate_se3_seeds": [
+   10.3665,
+   10.1433,
+   10.7013
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|balloon": {
+  "ate_mean": 4.2143,
+  "ate_sd": 0.142,
+  "ate_n": 3,
+  "ate_seeds": [
+   4.0566,
+   4.332,
+   4.2542
+  ],
+  "kf_ate_mean": 4.0796,
+  "kf_ate_sd": 0.1486,
+  "kf_ate_seeds": [
+   3.9112,
+   4.1926,
+   4.1349
+  ],
+  "psnr": 21.601,
+  "ssim": 0.8523,
+  "lpips": 0.274,
+  "depth_l1": 23.8345,
+  "static_psnr": 27.3663,
+  "static_ssim": 0.9125,
+  "static_cov": 1.0,
+  "ghost_excess": 2.9428,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 39131.6667,
+  "peak_mem_gb": 2.7812,
+  "fps_med": 0.337,
+  "sim3_scale": 1.0942,
+  "sim3_scale_seeds": [
+   1.09116,
+   1.09888,
+   1.09256
+  ],
+  "sim3_ate_seeds": [
+   3.1295,
+   3.3237,
+   3.3551
+  ],
+  "sim3_ate_se3_seeds": [
+   4.0566,
+   4.332,
+   4.2542
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|balloon2": {
+  "ate_mean": 5.3669,
+  "ate_sd": 0.0821,
+  "ate_n": 3,
+  "ate_seeds": [
+   5.3897,
+   5.2758,
+   5.4352
+  ],
+  "kf_ate_mean": 5.242,
+  "kf_ate_sd": 0.0819,
+  "kf_ate_seeds": [
+   5.2983,
+   5.1481,
+   5.2797
+  ],
+  "psnr": 18.8817,
+  "ssim": 0.8091,
+  "lpips": 0.315,
+  "depth_l1": 39.0606,
+  "static_psnr": 26.1066,
+  "static_ssim": 0.9002,
+  "static_cov": 1.0,
+  "ghost_excess": -12.9481,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 45548.3333,
+  "peak_mem_gb": 2.8398,
+  "fps_med": 0.393,
+  "sim3_scale": 1.17029,
+  "sim3_scale_seeds": [
+   1.17707,
+   1.16254,
+   1.17127
+  ],
+  "sim3_ate_seeds": [
+   4.1099,
+   4.1642,
+   4.252
+  ],
+  "sim3_ate_se3_seeds": [
+   5.3897,
+   5.2758,
+   5.4352
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|crowd": {
+  "ate_mean": 2.3457,
+  "ate_sd": 0.119,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.4825,
+   2.2883,
+   2.2662
+  ],
+  "kf_ate_mean": 2.673,
+  "kf_ate_sd": 0.4061,
+  "kf_ate_seeds": [
+   3.1407,
+   2.4687,
+   2.4095
+  ],
+  "psnr": 19.656,
+  "ssim": 0.8279,
+  "lpips": 0.2748,
+  "depth_l1": 30.3544,
+  "static_psnr": 27.2782,
+  "static_ssim": 0.9223,
+  "static_cov": 1.0,
+  "ghost_excess": 0.7278,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 48657.3333,
+  "peak_mem_gb": 3.5996,
+  "fps_med": 0.362,
+  "sim3_scale": 1.09018,
+  "sim3_scale_seeds": [
+   1.08165,
+   1.10373,
+   1.08516
+  ],
+  "sim3_ate_seeds": [
+   2.3441,
+   2.0467,
+   2.0993
+  ],
+  "sim3_ate_se3_seeds": [
+   2.4825,
+   2.2883,
+   2.2662
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|crowd2": {
+  "ate_mean": 4.0932,
+  "ate_sd": 0.4364,
+  "ate_n": 3,
+  "ate_seeds": [
+   4.2001,
+   3.6132,
+   4.4662
+  ],
+  "kf_ate_mean": 3.8343,
+  "kf_ate_sd": 0.4135,
+  "kf_ate_seeds": [
+   3.9132,
+   3.3871,
+   4.2027
+  ],
+  "psnr": 19.649,
+  "ssim": 0.818,
+  "lpips": 0.3042,
+  "depth_l1": 36.2664,
+  "static_psnr": 26.9147,
+  "static_ssim": 0.9136,
+  "static_cov": 1.0,
+  "ghost_excess": -1.842,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 35020.3333,
+  "peak_mem_gb": 3.5059,
+  "fps_med": 0.348,
+  "sim3_scale": 0.81546,
+  "sim3_scale_seeds": [
+   0.8037,
+   0.86132,
+   0.78135
+  ],
+  "sim3_ate_seeds": [
+   3.7595,
+   3.3856,
+   3.9302
+  ],
+  "sim3_ate_se3_seeds": [
+   4.2001,
+   3.6132,
+   4.4662
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|crowd3": {
+  "ate_mean": 2.4793,
+  "ate_sd": 0.2042,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.6773,
+   2.2695,
+   2.491
+  ],
+  "kf_ate_mean": 2.2777,
+  "kf_ate_sd": 0.1637,
+  "kf_ate_seeds": [
+   2.4063,
+   2.0934,
+   2.3333
+  ],
+  "psnr": 17.2428,
+  "ssim": 0.7771,
+  "lpips": 0.347,
+  "depth_l1": 42.8792,
+  "static_psnr": 24.7918,
+  "static_ssim": 0.9171,
+  "static_cov": 1.0,
+  "ghost_excess": 3.4365,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 59273.6667,
+  "peak_mem_gb": 4.1328,
+  "fps_med": 0.353,
+  "sim3_scale": 0.99562,
+  "sim3_scale_seeds": [
+   0.98175,
+   1.00268,
+   1.00242
+  ],
+  "sim3_ate_seeds": [
+   2.6732,
+   2.2694,
+   2.4909
+  ],
+  "sim3_ate_se3_seeds": [
+   2.6773,
+   2.2695,
+   2.491
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|person_tracking": {
+  "ate_mean": 8.6193,
+  "ate_sd": 1.5261,
+  "ate_n": 3,
+  "ate_seeds": [
+   10.381,
+   7.7038,
+   7.7731
+  ],
+  "kf_ate_mean": 8.6628,
+  "kf_ate_sd": 1.5428,
+  "kf_ate_seeds": [
+   10.4405,
+   7.6727,
+   7.8753
+  ],
+  "psnr": 22.3811,
+  "ssim": 0.8618,
+  "lpips": 0.2523,
+  "depth_l1": 24.9186,
+  "static_psnr": 27.5868,
+  "static_ssim": 0.9008,
+  "static_cov": 1.0,
+  "ghost_excess": 4.6768,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 78492.6667,
+  "peak_mem_gb": 3.7461,
+  "fps_med": 0.354,
+  "sim3_scale": 1.1006,
+  "sim3_scale_seeds": [
+   1.11054,
+   1.09301,
+   1.09825
+  ],
+  "sim3_ate_seeds": [
+   8.2367,
+   5.4676,
+   5.2776
+  ],
+  "sim3_ate_se3_seeds": [
+   10.381,
+   7.7038,
+   7.7731
+  ],
+  "sim3_n": 3
+ },
+ "swbaonly|person_tracking2": {
+  "ate_mean": 11.8328,
+  "ate_sd": 0.4663,
+  "ate_n": 3,
+  "ate_seeds": [
+   11.8093,
+   12.3104,
+   11.3786
+  ],
+  "kf_ate_mean": 11.7357,
+  "kf_ate_sd": 0.4372,
+  "kf_ate_seeds": [
+   11.6845,
+   12.1962,
+   11.3264
+  ],
+  "psnr": 22.8131,
+  "ssim": 0.8573,
+  "lpips": 0.251,
+  "depth_l1": 25.3353,
+  "static_psnr": 28.1874,
+  "static_ssim": 0.8963,
+  "static_cov": 1.0,
+  "ghost_excess": 1.5712,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 61205.0,
+  "peak_mem_gb": 3.9844,
+  "fps_med": 0.388,
+  "sim3_scale": 1.09875,
+  "sim3_scale_seeds": [
+   1.09429,
+   1.10618,
+   1.09578
+  ],
+  "sim3_ate_seeds": [
+   10.1733,
+   10.3417,
+   9.6114
+  ],
+  "sim3_ate_se3_seeds": [
+   11.8093,
+   12.3104,
+   11.3786
+  ],
+  "sim3_n": 3
+ },
+ "final|balloon": {
+  "ate_mean": 4.2415,
+  "ate_sd": 0.0755,
+  "ate_n": 3,
+  "ate_seeds": [
+   4.3283,
+   4.2056,
+   4.1907
+  ],
+  "kf_ate_mean": 4.0897,
+  "kf_ate_sd": 0.0713,
+  "kf_ate_seeds": [
+   4.1698,
+   4.0659,
+   4.0333
+  ],
+  "psnr": 21.5482,
+  "ssim": 0.849,
+  "lpips": 0.2764,
+  "depth_l1": 23.6253,
+  "static_psnr": 27.737,
+  "static_ssim": 0.9116,
+  "static_cov": 1.0,
+  "ghost_excess": 3.3085,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 33307.0,
+  "peak_mem_gb": 2.7891,
+  "fps_med": 0.326,
+  "sim3_scale": 1.09446,
+  "sim3_scale_seeds": [
+   1.09497,
+   1.09218,
+   1.09622
+  ],
+  "sim3_ate_seeds": [
+   3.401,
+   3.3007,
+   3.1954
+  ],
+  "sim3_ate_se3_seeds": [
+   4.3283,
+   4.2056,
+   4.1907
+  ],
+  "sim3_n": 3
+ },
+ "final|balloon2": {
+  "ate_mean": 5.3416,
+  "ate_sd": 0.0843,
+  "ate_n": 3,
+  "ate_seeds": [
+   5.3431,
+   5.2565,
+   5.4251
+  ],
+  "kf_ate_mean": 5.2622,
+  "kf_ate_sd": 0.0806,
+  "kf_ate_seeds": [
+   5.2885,
+   5.1718,
+   5.3264
+  ],
+  "psnr": 18.6474,
+  "ssim": 0.807,
+  "lpips": 0.3205,
+  "depth_l1": 38.7737,
+  "static_psnr": 26.1214,
+  "static_ssim": 0.8981,
+  "static_cov": 1.0,
+  "ghost_excess": -10.9991,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 44552.3333,
+  "peak_mem_gb": 2.8535,
+  "fps_med": 0.373,
+  "sim3_scale": 1.16506,
+  "sim3_scale_seeds": [
+   1.16383,
+   1.16085,
+   1.17051
+  ],
+  "sim3_ate_seeds": [
+   4.2336,
+   4.1622,
+   4.2493
+  ],
+  "sim3_ate_se3_seeds": [
+   5.3431,
+   5.2565,
+   5.4251
+  ],
+  "sim3_n": 3
+ },
+ "final|crowd": {
+  "ate_mean": 2.44,
+  "ate_sd": 0.1002,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.4281,
+   2.5456,
+   2.3462
+  ],
+  "kf_ate_mean": 2.8464,
+  "kf_ate_sd": 0.2857,
+  "kf_ate_seeds": [
+   2.8179,
+   3.1452,
+   2.576
+  ],
+  "psnr": 19.6557,
+  "ssim": 0.8265,
+  "lpips": 0.2756,
+  "depth_l1": 30.2369,
+  "static_psnr": 27.0953,
+  "static_ssim": 0.9205,
+  "static_cov": 1.0,
+  "ghost_excess": 1.994,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 36373.6667,
+  "peak_mem_gb": 3.3281,
+  "fps_med": 0.354,
+  "sim3_scale": 1.09239,
+  "sim3_scale_seeds": [
+   1.10111,
+   1.09733,
+   1.07872
+  ],
+  "sim3_ate_seeds": [
+   2.214,
+   2.3575,
+   2.2084
+  ],
+  "sim3_ate_se3_seeds": [
+   2.4281,
+   2.5456,
+   2.3462
+  ],
+  "sim3_n": 3
+ },
+ "final|crowd2": {
+  "ate_mean": 4.0514,
+  "ate_sd": 0.2542,
+  "ate_n": 3,
+  "ate_seeds": [
+   3.9492,
+   4.3408,
+   3.8642
+  ],
+  "kf_ate_mean": 3.8128,
+  "kf_ate_sd": 0.24,
+  "kf_ate_seeds": [
+   3.7214,
+   4.085,
+   3.6319
+  ],
+  "psnr": 19.8691,
+  "ssim": 0.8195,
+  "lpips": 0.3029,
+  "depth_l1": 37.645,
+  "static_psnr": 27.2688,
+  "static_ssim": 0.9137,
+  "static_cov": 1.0,
+  "ghost_excess": 3.3862,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 44705.3333,
+  "peak_mem_gb": 3.4922,
+  "fps_med": 0.347,
+  "sim3_scale": 0.82009,
+  "sim3_scale_seeds": [
+   0.81786,
+   0.81484,
+   0.82757
+  ],
+  "sim3_ate_seeds": [
+   3.5503,
+   3.9873,
+   3.5072
+  ],
+  "sim3_ate_se3_seeds": [
+   3.9492,
+   4.3408,
+   3.8642
+  ],
+  "sim3_n": 3
+ },
+ "final|crowd3": {
+  "ate_mean": 2.4443,
+  "ate_sd": 0.0323,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.4758,
+   2.4112,
+   2.4458
+  ],
+  "kf_ate_mean": 2.293,
+  "kf_ate_sd": 0.0571,
+  "kf_ate_seeds": [
+   2.3502,
+   2.236,
+   2.2927
+  ],
+  "psnr": 17.2844,
+  "ssim": 0.7767,
+  "lpips": 0.3478,
+  "depth_l1": 41.9224,
+  "static_psnr": 24.6217,
+  "static_ssim": 0.9157,
+  "static_cov": 1.0,
+  "ghost_excess": 4.8393,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 36716.6667,
+  "peak_mem_gb": 3.3398,
+  "fps_med": 0.357,
+  "sim3_scale": 0.99151,
+  "sim3_scale_seeds": [
+   0.98814,
+   0.99286,
+   0.99352
+  ],
+  "sim3_ate_seeds": [
+   2.4739,
+   2.4105,
+   2.4453
+  ],
+  "sim3_ate_se3_seeds": [
+   2.4758,
+   2.4112,
+   2.4458
+  ],
+  "sim3_n": 3
+ },
+ "final|person_tracking": {
+  "ate_mean": 8.2082,
+  "ate_sd": 0.3317,
+  "ate_n": 3,
+  "ate_seeds": [
+   7.93,
+   8.5752,
+   8.1193
+  ],
+  "kf_ate_mean": 8.2604,
+  "kf_ate_sd": 0.3734,
+  "kf_ate_seeds": [
+   7.9334,
+   8.6672,
+   8.1806
+  ],
+  "psnr": 22.5916,
+  "ssim": 0.8606,
+  "lpips": 0.2638,
+  "depth_l1": 25.6764,
+  "static_psnr": 27.6514,
+  "static_ssim": 0.9039,
+  "static_cov": 1.0,
+  "ghost_excess": 3.4728,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 63542.3333,
+  "peak_mem_gb": 3.4277,
+  "fps_med": 0.348,
+  "sim3_scale": 1.10475,
+  "sim3_scale_seeds": [
+   1.09417,
+   1.10862,
+   1.11147
+  ],
+  "sim3_ate_seeds": [
+   5.7256,
+   5.8767,
+   4.9962
+  ],
+  "sim3_ate_se3_seeds": [
+   7.93,
+   8.5752,
+   8.1193
+  ],
+  "sim3_n": 3
+ },
+ "final|person_tracking2": {
+  "ate_mean": 12.3881,
+  "ate_sd": 0.6309,
+  "ate_n": 3,
+  "ate_seeds": [
+   11.718,
+   12.9706,
+   12.4758
+  ],
+  "kf_ate_mean": 12.3199,
+  "kf_ate_sd": 0.6377,
+  "kf_ate_seeds": [
+   11.6429,
+   12.9092,
+   12.4075
+  ],
+  "psnr": 23.0419,
+  "ssim": 0.8615,
+  "lpips": 0.252,
+  "depth_l1": 26.0009,
+  "static_psnr": 27.734,
+  "static_ssim": 0.8944,
+  "static_cov": 1.0,
+  "ghost_excess": 0.8891,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 57284.3333,
+  "peak_mem_gb": 3.582,
+  "fps_med": 0.373,
+  "sim3_scale": 1.09464,
+  "sim3_scale_seeds": [
+   1.09981,
+   1.08853,
+   1.09558
+  ],
+  "sim3_ate_seeds": [
+   9.8675,
+   11.6796,
+   10.9042
+  ],
+  "sim3_ate_se3_seeds": [
+   11.718,
+   12.9706,
+   12.4758
+  ],
+  "sim3_n": 3
+ },
+ "gate|balloon": {
+  "ate_mean": 4.225,
+  "ate_sd": 0.035,
+  "ate_n": 3,
+  "ate_seeds": [
+   4.2375,
+   4.252,
+   4.1855
+  ],
+  "kf_ate_mean": 4.0752,
+  "kf_ate_sd": 0.0411,
+  "kf_ate_seeds": [
+   4.0879,
+   4.1084,
+   4.0293
+  ],
+  "psnr": 21.5699,
+  "ssim": 0.8509,
+  "lpips": 0.2726,
+  "depth_l1": 23.3275,
+  "static_psnr": 27.6542,
+  "static_ssim": 0.912,
+  "static_cov": 1.0,
+  "ghost_excess": 0.4545,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 36755.6667,
+  "peak_mem_gb": 2.834,
+  "fps_med": 0.34,
+  "sim3_scale": 1.09932,
+  "sim3_scale_seeds": [
+   1.10187,
+   1.09721,
+   1.09887
+  ],
+  "sim3_ate_seeds": [
+   3.13,
+   3.2547,
+   3.1289
+  ],
+  "sim3_ate_se3_seeds": [
+   4.2375,
+   4.252,
+   4.1855
+  ],
+  "sim3_n": 3
+ },
+ "gate|balloon2": {
+  "ate_mean": 5.318,
+  "ate_sd": 0.1652,
+  "ate_n": 3,
+  "ate_seeds": [
+   5.3873,
+   5.1294,
+   5.4372
+  ],
+  "kf_ate_mean": 5.2245,
+  "kf_ate_sd": 0.1697,
+  "kf_ate_seeds": [
+   5.3129,
+   5.0289,
+   5.3318
+  ],
+  "psnr": 18.5064,
+  "ssim": 0.8069,
+  "lpips": 0.3205,
+  "depth_l1": 39.1626,
+  "static_psnr": 26.4536,
+  "static_ssim": 0.9001,
+  "static_cov": 1.0,
+  "ghost_excess": -13.2399,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 39084.6667,
+  "peak_mem_gb": 2.8164,
+  "fps_med": 0.415,
+  "sim3_scale": 1.16993,
+  "sim3_scale_seeds": [
+   1.16725,
+   1.16451,
+   1.17804
+  ],
+  "sim3_ate_seeds": [
+   4.2445,
+   3.945,
+   4.1595
+  ],
+  "sim3_ate_se3_seeds": [
+   5.3873,
+   5.1294,
+   5.4372
+  ],
+  "sim3_n": 3
+ },
+ "gate|crowd": {
+  "ate_mean": 2.3197,
+  "ate_sd": 0.1917,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.541,
+   2.212,
+   2.2061
+  ],
+  "kf_ate_mean": 2.9533,
+  "kf_ate_sd": 0.6229,
+  "kf_ate_seeds": [
+   3.6718,
+   2.5645,
+   2.6237
+  ],
+  "psnr": 19.8077,
+  "ssim": 0.8275,
+  "lpips": 0.2728,
+  "depth_l1": 29.3632,
+  "static_psnr": 27.6002,
+  "static_ssim": 0.9222,
+  "static_cov": 1.0,
+  "ghost_excess": 1.9708,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 45614.0,
+  "peak_mem_gb": 3.5586,
+  "fps_med": 0.418,
+  "sim3_scale": 1.14253,
+  "sim3_scale_seeds": [
+   1.14202,
+   1.14843,
+   1.13714
+  ],
+  "sim3_ate_seeds": [
+   2.1517,
+   1.7003,
+   1.7685
+  ],
+  "sim3_ate_se3_seeds": [
+   2.541,
+   2.212,
+   2.2061
+  ],
+  "sim3_n": 3
+ },
+ "gate|crowd2": {
+  "ate_mean": 2.499,
+  "ate_sd": 0.2246,
+  "ate_n": 3,
+  "ate_seeds": [
+   2.4755,
+   2.2871,
+   2.7345
+  ],
+  "kf_ate_mean": 2.3511,
+  "kf_ate_sd": 0.1484,
+  "kf_ate_seeds": [
+   2.3547,
+   2.201,
+   2.4977
+  ],
+  "psnr": 19.5304,
+  "ssim": 0.8232,
+  "lpips": 0.2973,
+  "depth_l1": 35.8313,
+  "static_psnr": 27.5408,
+  "static_ssim": 0.922,
+  "static_cov": 1.0,
+  "ghost_excess": 4.4851,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 43398.6667,
+  "peak_mem_gb": 3.3652,
+  "fps_med": 0.436,
+  "sim3_scale": 0.99588,
+  "sim3_scale_seeds": [
+   0.99994,
+   0.99884,
+   0.98885
+  ],
+  "sim3_ate_seeds": [
+   2.4755,
+   2.2871,
+   2.7329
+  ],
+  "sim3_ate_se3_seeds": [
+   2.4755,
+   2.2871,
+   2.7345
+  ],
+  "sim3_n": 3
+ },
+ "gate|crowd3": {
+  "ate_mean": 1.8271,
+  "ate_sd": 0.0471,
+  "ate_n": 3,
+  "ate_seeds": [
+   1.8637,
+   1.8436,
+   1.7739
+  ],
+  "kf_ate_mean": 1.7548,
+  "kf_ate_sd": 0.0332,
+  "kf_ate_seeds": [
+   1.7826,
+   1.7639,
+   1.718
+  ],
+  "psnr": 17.3566,
+  "ssim": 0.7785,
+  "lpips": 0.3469,
+  "depth_l1": 42.2503,
+  "static_psnr": 24.6548,
+  "static_ssim": 0.9181,
+  "static_cov": 1.0,
+  "ghost_excess": 5.4788,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 42159.0,
+  "peak_mem_gb": 3.3105,
+  "fps_med": 0.415,
+  "sim3_scale": 1.04057,
+  "sim3_scale_seeds": [
+   1.03063,
+   1.03995,
+   1.05113
+  ],
+  "sim3_ate_seeds": [
+   1.8477,
+   1.8163,
+   1.728
+  ],
+  "sim3_ate_se3_seeds": [
+   1.8637,
+   1.8436,
+   1.7739
+  ],
+  "sim3_n": 3
+ },
+ "gate|person_tracking": {
+  "ate_mean": 7.9469,
+  "ate_sd": 0.6963,
+  "ate_n": 3,
+  "ate_seeds": [
+   8.541,
+   8.1191,
+   7.1807
+  ],
+  "kf_ate_mean": 7.9693,
+  "kf_ate_sd": 0.7095,
+  "kf_ate_seeds": [
+   8.5475,
+   8.1828,
+   7.1776
+  ],
+  "psnr": 22.6098,
+  "ssim": 0.861,
+  "lpips": 0.2642,
+  "depth_l1": 26.3788,
+  "static_psnr": 27.601,
+  "static_ssim": 0.9008,
+  "static_cov": 1.0,
+  "ghost_excess": 3.8587,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 63104.3333,
+  "peak_mem_gb": 3.5371,
+  "fps_med": 0.361,
+  "sim3_scale": 1.09833,
+  "sim3_scale_seeds": [
+   1.09924,
+   1.10628,
+   1.08946
+  ],
+  "sim3_ate_seeds": [
+   6.315,
+   5.326,
+   4.9088
+  ],
+  "sim3_ate_se3_seeds": [
+   8.541,
+   8.1191,
+   7.1807
+  ],
+  "sim3_n": 3
+ },
+ "gate|person_tracking2": {
+  "ate_mean": 11.6765,
+  "ate_sd": 0.3721,
+  "ate_n": 3,
+  "ate_seeds": [
+   12.0408,
+   11.6917,
+   11.2971
+  ],
+  "kf_ate_mean": 11.6022,
+  "kf_ate_sd": 0.3878,
+  "kf_ate_seeds": [
+   11.9846,
+   11.6127,
+   11.2093
+  ],
+  "psnr": 23.0024,
+  "ssim": 0.8639,
+  "lpips": 0.2513,
+  "depth_l1": 25.4476,
+  "static_psnr": 27.6055,
+  "static_ssim": 0.894,
+  "static_cov": 1.0,
+  "ghost_excess": 1.7495,
+  "render_n": 3,
+  "mask_source": "dynamic_mask",
+  "n_gauss": 59161.6667,
+  "peak_mem_gb": 3.5703,
+  "fps_med": 0.39,
+  "sim3_scale": 1.09988,
+  "sim3_scale_seeds": [
+   1.10387,
+   1.09879,
+   1.09699
+  ],
+  "sim3_ate_seeds": [
+   10.1035,
+   9.8739,
+   9.4686
+  ],
+  "sim3_ate_se3_seeds": [
+   12.0408,
+   11.6917,
+   11.2971
+  ],
+  "sim3_n": 3
+ }
+}

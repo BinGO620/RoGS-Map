@@ -1,0 +1,79 @@
+[1/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_baseline_balloon_seed0/datasets_bonn/r33_rebase_baseline_balloon/seed_0/2026-09-16-01-37-09
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_baseline_balloon_seed0_2026-09-16-01-37-09  mean PSNR=21.8545 SSIM=0.8529 LPIPS=0.2727
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 121.4005, "completion_cm": 181.3706, "completion_ratio": 1.358, "precision_ratio": 3.7615, "fscore": 1.9956, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 251056}
+[2/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_baseline_crowd_seed0/datasets_bonn/r33_rebase_baseline_crowd/seed_0/2026-09-16-04-45-31
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_baseline_crowd_seed0_2026-09-16-04-45-31  mean PSNR=19.5066 SSIM=0.8281 LPIPS=0.2743
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 58.5487, "completion_cm": 164.1203, "completion_ratio": 2.8085, "precision_ratio": 9.3505, "fscore": 4.3196, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 240998}
+[3/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_baseline_crowd3_seed0/datasets_bonn/r33_rebase_baseline_crowd3/seed_0/2026-09-16-09-11-26
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_baseline_crowd3_seed0_2026-09-16-09-11-26  mean PSNR=17.0257 SSIM=0.7763 LPIPS=0.3468
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 66.965, "completion_cm": 138.1802, "completion_ratio": 2.673, "precision_ratio": 8.1265, "fscore": 4.0228, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 259986}
+[4/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_baseline_person_tracking2_seed0/datasets_bonn/r33_rebase_baseline_person_tracking2/seed_0/2026-09-16-13-23-00
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_baseline_person_tracking2_seed0_2026-09-16-13-23-00  mean PSNR=22.5795 SSIM=0.8647 LPIPS=0.2437
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 128.1918, "completion_cm": 125.4657, "completion_ratio": 4.564, "precision_ratio": 6.7855, "fscore": 5.4573, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 554892}
+[5/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_swbaonly_balloon2_seed0/datasets_bonn/r33_rebase_swbaonly_balloon2/seed_0/2026-09-16-03-50-00
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_swbaonly_balloon2_seed0_2026-09-16-03-50-00  mean PSNR=19.0034 SSIM=0.8076 LPIPS=0.3122
+[6/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_swbaonly_crowd2_seed0/datasets_bonn/r33_rebase_swbaonly_crowd2/seed_0/2026-09-16-07-43-52
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_swbaonly_crowd2_seed0_2026-09-16-07-43-52  mean PSNR=19.3819 SSIM=0.814 LPIPS=0.3077
+[7/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_swbaonly_person_tracking_seed0/datasets_bonn/r33_rebase_swbaonly_person_tracking/seed_0/2026-09-16-12-01-25
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_swbaonly_person_tracking_seed0_2026-09-16-12-01-25  mean PSNR=21.903 SSIM=0.8552 LPIPS=0.2585
+[8/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_final_balloon_seed0/datasets_bonn/r33_rebase_final_balloon/seed_0/2026-09-16-01-37-09
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_final_balloon_seed0_2026-09-16-01-37-09  mean PSNR=21.9267 SSIM=0.8502 LPIPS=0.2749
+[9/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_final_crowd_seed0/datasets_bonn/r33_rebase_final_crowd/seed_0/2026-09-16-04-55-36
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_final_crowd_seed0_2026-09-16-04-55-36  mean PSNR=19.7553 SSIM=0.8281 LPIPS=0.2732
+[10/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_final_crowd3_seed0/datasets_bonn/r33_rebase_final_crowd3/seed_0/2026-09-16-09-41-26
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_final_crowd3_seed0_2026-09-16-09-41-26  mean PSNR=17.3289 SSIM=0.7768 LPIPS=0.3479
+[11/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_final_person_tracking2_seed0/datasets_bonn/r33_rebase_final_person_tracking2/seed_0/2026-09-16-13-49-40
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_final_person_tracking2_seed0_2026-09-16-13-49-40  mean PSNR=22.9389 SSIM=0.8603 LPIPS=0.2602
+[12/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_gate_balloon2_seed0/datasets_bonn/r33_rebase_gate_balloon2/seed_0/2026-09-16-04-27-06
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_gate_balloon2_seed0_2026-09-16-04-27-06  mean PSNR=18.3764 SSIM=0.8081 LPIPS=0.3182
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 112.279, "completion_cm": 181.2747, "completion_ratio": 1.1495, "precision_ratio": 5.0465, "fscore": 1.8725, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 277563}
+[13/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_gate_crowd2_seed0/datasets_bonn/r33_rebase_gate_crowd2/seed_0/2026-09-16-08-41-06
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_gate_crowd2_seed0_2026-09-16-08-41-06  mean PSNR=19.6185 SSIM=0.8225 LPIPS=0.2979
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 76.5642, "completion_cm": 134.9259, "completion_ratio": 2.2415, "precision_ratio": 6.082, "fscore": 3.2757, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 275455}
+[14/29] RENDER rc=0 results/paper2_fulltable/r33_rebase_gate_person_tracking_seed0/datasets_bonn/r33_rebase_gate_person_tracking/seed_0/2026-09-16-12-49-02
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_fulltable/render_compare/r33_rebase_gate_person_tracking_seed0_2026-09-16-12-49-02  mean PSNR=22.6901 SSIM=0.8619 LPIPS=0.2635
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 97.5479, "completion_cm": 112.807, "completion_ratio": 4.0275, "precision_ratio": 6.6895, "fscore": 5.0279, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 493918}
+[15/29] RENDER rc=0 results/paper2_rollout/r34_gate_f1_room_seed0/datasets_tum/r34_gate_f1_room/seed_0/2026-09-17-08-43-41
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f1_room_seed0_2026-09-17-08-43-41  mean PSNR=20.0413 SSIM=0.6909 LPIPS=0.3453
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 13.4932, "completion_cm": 9.7731, "completion_ratio": 33.227, "precision_ratio": 26.925, "fscore": 29.7459, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 1185130}
+[16/29] RENDER rc=0 results/paper2_rollout/r34_gate_f1_room_seed2/datasets_tum/r34_gate_f1_room/seed_2/2026-09-17-10-09-49
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f1_room_seed2_2026-09-17-10-09-49  mean PSNR=20.4133 SSIM=0.6868 LPIPS=0.3627
+[17/29] RENDER rc=0 results/paper2_rollout/r34_sw_f1_room_seed0/datasets_tum/r34_sw_f1_room/seed_0/2026-09-17-07-24-39
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_sw_f1_room_seed0_2026-09-17-07-24-39  mean PSNR=20.3878 SSIM=0.6939 LPIPS=0.3476
+[18/29] RENDER rc=0 results/paper2_rollout/r34_gate_f1_desk2_seed1/datasets_tum/r34_gate_f1_desk2/seed_1/2026-09-17-12-14-33
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f1_desk2_seed1_2026-09-17-12-14-33  mean PSNR=21.995 SSIM=0.7584 LPIPS=0.303
+[19/29] RENDER rc=0 results/paper2_rollout/r34_rb_f1_desk2_seed0/datasets_tum/r34_rb_f1_desk2/seed_0/2026-09-17-10-09-41
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_rb_f1_desk2_seed0_2026-09-17-10-09-41  mean PSNR=22.5068 SSIM=0.7569 LPIPS=0.3092
+[20/29] RENDER rc=0 results/paper2_rollout/r34_gate_f3_st_rpy_seed0/datasets_tum/r34_gate_f3_st_rpy/seed_0/2026-09-17-13-36-01
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f3_st_rpy_seed0_2026-09-17-13-36-01  mean PSNR=22.3225 SSIM=0.7846 LPIPS=0.2544
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 80.985, "completion_cm": 12.1373, "completion_ratio": 28.81, "precision_ratio": 9.8225, "fscore": 14.6502, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 603270}
+[21/29] RENDER rc=0 results/paper2_rollout/r34_gate_f3_st_rpy_seed2/datasets_tum/r34_gate_f3_st_rpy/seed_2/2026-09-17-13-04-37
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f3_st_rpy_seed2_2026-09-17-13-04-37  mean PSNR=21.7732 SSIM=0.7669 LPIPS=0.264
+[22/29] RENDER rc=0 results/paper2_rollout/r34_sw_f3_st_rpy_seed0/datasets_tum/r34_sw_f3_st_rpy/seed_0/2026-09-17-12-20-19
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_sw_f3_st_rpy_seed0_2026-09-17-12-20-19  mean PSNR=21.6878 SSIM=0.7621 LPIPS=0.2974
+[23/29] RENDER rc=0 results/paper2_rollout/r34_gate_f3_office_seed1/datasets_tum/r34_gate_f3_office/seed_1/2026-09-17-16-11-20
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f3_office_seed1_2026-09-17-16-11-20  mean PSNR=25.0982 SSIM=0.8357 LPIPS=0.2348
+[24/29] RENDER rc=0 results/paper2_rollout/r34_rb_f3_office_seed0/datasets_tum/r34_rb_f3_office/seed_0/2026-09-17-13-09-55
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_rb_f3_office_seed0_2026-09-17-13-09-55  mean PSNR=25.7106 SSIM=0.854 LPIPS=0.2057
+[25/29] RENDER rc=0 results/paper2_rollout/r34_gate_moving_obstructing_box_seed0/datasets_bonn/r34_gate_moving_obstructing_box/seed_0/2026-09-17-19-04-15
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_moving_obstructing_box_seed0_2026-09-17-19-04-15  mean PSNR=24.1997 SSIM=0.8585 LPIPS=0.2511
+  GEOM rc=0
+  GEOM_OK {"accuracy_cm": 58.9831, "completion_cm": 128.1142, "completion_ratio": 1.539, "precision_ratio": 4.0225, "fscore": 2.2262, "protocol_eligible": true, "pose_source": "full_estimated_trajectory", "mesh_faces": 310184}
+[26/29] RENDER rc=0 results/paper2_rollout/r34_gate_moving_obstructing_box_seed2/datasets_bonn/r34_gate_moving_obstructing_box/seed_2/2026-09-17-20-01-00
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_moving_obstructing_box_seed2_2026-09-17-20-01-00  mean PSNR=25.1096 SSIM=0.8719 LPIPS=0.2471
+[27/29] RENDER rc=0 results/paper2_rollout/r34_sw_moving_obstructing_box_seed0/datasets_bonn/r34_sw_moving_obstructing_box/seed_0/2026-09-17-19-34-37
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_sw_moving_obstructing_box_seed0_2026-09-17-19-34-37  mean PSNR=24.1152 SSIM=0.8574 LPIPS=0.2629
+[28/29] RENDER rc=0 results/paper2_rollout/r34_gate_f3_wk_rpy_seed1/datasets_tum/r34_gate_f3_wk_rpy/seed_1/2026-09-17-21-29-54
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_gate_f3_wk_rpy_seed1_2026-09-17-21-29-54  mean PSNR=18.064 SSIM=0.7098 LPIPS=0.3042
+[29/29] RENDER rc=0 results/paper2_rollout/r34_rb_f3_wk_rpy_seed0/datasets_tum/r34_rb_f3_wk_rpy/seed_0/2026-09-17-19-32-08
+  [render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/paper2_rollout/render_compare/r34_rb_f3_wk_rpy_seed0_2026-09-17-19-32-08  mean PSNR=18.5824 SSIM=0.7265 LPIPS=0.3005
+BATCH_DONE 29

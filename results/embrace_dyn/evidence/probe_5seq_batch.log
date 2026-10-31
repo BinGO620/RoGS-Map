@@ -1,0 +1,922 @@
+probe_5seq start 2026年 10月 05日 星期一 17:11:02 CST PY=/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/bin/python smoke_only=0
+=== SMOKE: crowd2 (baseline+gate, 5 arms) ===
+SMOKE crowd2 rc=0 elapsed=200s (3min)
+DECISION: per_map=100s <=1200s -> FULL 5 sequences (10 maps), est 16min
+RUN  crowd 2026年 10月 05日 星期一 17:14:22 CST
+  crowd rc=0
+DONE crowd2 (cached)
+RUN  crowd3 2026年 10月 05日 星期一 17:17:41 CST
+  crowd3 rc=0
+RUN  balloon2 2026年 10月 05日 星期一 17:20:58 CST
+  balloon2 rc=0
+RUN  person_tracking 2026年 10月 05日 星期一 17:24:16 CST
+  person_tracking rc=0
+probe_5seq all done 2026年 10月 05日 星期一 17:27:36 CST
+9: 10.2839 dB dl1=49.5749
+  [baseline] P1 f85: 11.6437 dB dl1=47.6025
+  [baseline] P1 f111: 9.8064 dB dl1=46.9543
+  [baseline] P1 f141: 10.3451 dB dl1=47.8532
+  [baseline] P1 f167: 9.4218 dB dl1=47.6285
+  [baseline] P1 f222: 8.4827 dB dl1=47.3523
+  [baseline] P1 f257: 9.3467 dB dl1=48.5346
+  [baseline] P1 f283: 12.6922 dB dl1=45.7272
+  [baseline] P1 f309: 9.3538 dB dl1=47.8048
+  [baseline] P1 f336: 9.0997 dB dl1=47.7809
+  [baseline] P1 f362: 8.4214 dB dl1=48.3114
+  [baseline] P1 f405: 18.3955 dB dl1=48.7991
+  [baseline] P1 f720: 9.5779 dB dl1=49.578
+  [baseline] P1 f746: 9.025 dB dl1=50.0
+  [baseline] P4 fit@336: {'iters': 300, 'loss_first': 0.38394, 'loss_last': 0.0281, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9753}
+  [baseline] P4 f6: 15.679 dB dl1=43.0855
+  [baseline] P4 f32: 8.6813 dB dl1=46.2379
+  [baseline] P4 f59: 8.5088 dB dl1=38.8099
+  [baseline] P4 f85: 11.8973 dB dl1=44.1622
+  [baseline] P4 f111: 8.1557 dB dl1=46.5183
+  [baseline] P4 f141: 11.4109 dB dl1=47.1002
+  [baseline] P4 f167: 10.504 dB dl1=48.0012
+  [baseline] P4 f222: 10.8701 dB dl1=34.4904
+  [baseline] P4 f257: 9.3467 dB dl1=48.5346
+  [baseline] P4 f283: 13.3873 dB dl1=30.6066
+  [baseline] P4 f309: 9.3534 dB dl1=47.808
+  [baseline] P4 f336: 30.7381 dB dl1=9.1349
+  [baseline] P4 f362: 8.9212 dB dl1=48.4912
+  [baseline] P4 f405: 18.3955 dB dl1=48.7991
+  [baseline] P4 f720: 11.8053 dB dl1=38.3851
+  [baseline] P4 f746: 13.3278 dB dl1=50.0
+  [baseline] P2 f6: 31.099 dB dl1=8.7268 (fit 0.33261->0.02921)
+  [baseline] C- f6: 10.9389 dB dl1=49.0835
+  [baseline] P2 f32: 30.1832 dB dl1=10.4831 (fit 0.38446->0.02866)
+  [baseline] C- f32: 9.6687 dB dl1=42.5205
+  [baseline] P2 f59: 33.2307 dB dl1=9.5783 (fit 0.41536->0.02485)
+  [baseline] C- f59: 11.3053 dB dl1=45.0987
+  [baseline] P2 f85: 33.6124 dB dl1=5.7221 (fit 0.32076->0.01928)
+  [baseline] C- f85: 9.8992 dB dl1=47.6408
+  [baseline] P2 f111: 33.4302 dB dl1=7.7254 (fit 0.36864->0.02113)
+  [baseline] C- f111: 9.6547 dB dl1=43.591
+  [baseline] P2 f141: 31.5662 dB dl1=9.0306 (fit 0.3753->0.0259)
+  [baseline] C- f141: 10.4142 dB dl1=46.992
+  [baseline] P2 f167: 30.0157 dB dl1=9.6919 (fit 0.4004->0.02818)
+  [baseline] C- f167: 10.3697 dB dl1=46.306
+  [baseline] P2 f222: 30.5082 dB dl1=9.8837 (fit 0.4108->0.03004)
+  [baseline] C- f222: 9.1636 dB dl1=46.8055
+  [baseline] P2 f257: 29.709 dB dl1=12.9353 (fit 0.36388->0.03251)
+  [baseline] C- f257: 9.4278 dB dl1=48.6951
+  [baseline] P2 f283: 29.838 dB dl1=6.7294 (fit 0.28432->0.02146)
+  [baseline] C- f283: 12.1393 dB dl1=42.7638
+  [baseline] P2 f309: 30.9686 dB dl1=8.6365 (fit 0.3626->0.0264)
+  [baseline] C- f309: 9.8338 dB dl1=43.2817
+  [baseline] P2 f336: 30.6976 dB dl1=9.1713 (fit 0.38394->0.02822)
+  [baseline] C- f336: 9.5429 dB dl1=43.8119
+  [baseline] P2 f362: 29.6018 dB dl1=11.592 (fit 0.42139->0.03211)
+  [baseline] C- f362: 8.3791 dB dl1=47.3623
+  [baseline] P2 f405: 37.9367 dB dl1=2.7254 (fit 0.14718->0.01312)
+  [baseline] C- f405: 17.204 dB dl1=47.0024
+  [baseline] P2 f720: 34.5083 dB dl1=8.6072 (fit 0.43708->0.01977)
+  [baseline] C- f720: 9.5719 dB dl1=49.6927
+  [baseline] P2 f746: 31.4581 dB dl1=9.837 (fit 0.44085->0.02803)
+  [baseline] C- f746: 9.025 dB dl1=50.0
+  [baseline] 因果臂 ['P2c']：KF 数=178 首=5 末=890
+  [baseline] P2c f6 (KF 5, dt=1, mask=raw, motion=none): 19.5671 dB bad=19.6412 dl1=10.4368 n_dyn=5805
+  [baseline] P2c f32 (KF 30, dt=2, mask=raw, motion=none): 16.597 dB bad=16.5783 dl1=14.6282 n_dyn=12666
+  [baseline] P2c f59 (KF 55, dt=4, mask=raw, motion=none): 13.3767 dB bad=13.4275 dl1=14.4408 n_dyn=13392
+  [baseline] P2c f85 (KF 85, dt=0, mask=raw, motion=none): 33.6279 dB bad=33.5801 dl1=5.7238 n_dyn=13352
+  [baseline] P2c f111 (KF 110, dt=1, mask=raw, motion=none): 19.78 dB bad=20.14 dl1=10.9335 n_dyn=12104
+  [baseline] P2c f141 (KF 140, dt=1, mask=raw, motion=none): 16.9757 dB bad=16.9489 dl1=15.2712 n_dyn=11760
+  [baseline] P2c f167 (KF 165, dt=2, mask=raw, motion=none): 14.4877 dB bad=14.8302 dl1=19.2194 n_dyn=10025
+  [baseline] P2c f222 (KF 220, dt=2, mask=raw, motion=none): 14.1319 dB bad=14.2709 dl1=21.4343 n_dyn=9455
+  [baseline] P2c f257 (KF 255, dt=2, mask=raw, motion=none): 18.3124 dB bad=18.5016 dl1=22.4845 n_dyn=7169
+  [baseline] P2c f283 (KF 280, dt=3, mask=raw, motion=none): 16.3644 dB bad=16.3244 dl1=13.8727 n_dyn=15191
+  [baseline] P2c f309 (KF 305, dt=4, mask=raw, motion=none): 12.8259 dB bad=12.9259 dl1=23.3596 n_dyn=12857
+  [baseline] P2c f336 (KF 335, dt=1, mask=raw, motion=none): 17.7856 dB bad=18.1644 dl1=13.5687 n_dyn=15110
+  [baseline] P2c f362 (KF 360, dt=2, mask=raw, motion=none): 14.926 dB bad=15.1007 dl1=21.1766 n_dyn=15722
+  [baseline] P2c f405 (KF 405, dt=0, mask=raw, motion=none): 38.008 dB bad=38.0256 dl1=2.7118 n_dyn=6577
+  [baseline] P2c f720 (KF 720, dt=0, mask=raw, motion=none): 34.5773 dB bad=34.5783 dl1=8.525 n_dyn=8068
+  [baseline] P2c f746 (KF 745, dt=1, mask=raw, motion=none): 22.1292 dB bad=22.1292 dl1=14.4069 n_dyn=5613
+[dyn_probe] gate: n_static=38738 mask=dynamic_mask
+  [gate] P1 f6: 12.2884 dB dl1=49.1681
+  [gate] P1 f32: 9.3427 dB dl1=49.0896
+  [gate] P1 f59: 10.3139 dB dl1=49.5697
+  [gate] P1 f85: 11.8156 dB dl1=47.7768
+  [gate] P1 f111: 9.9941 dB dl1=47.1507
+  [gate] P1 f141: 10.6016 dB dl1=48.2581
+  [gate] P1 f167: 9.4526 dB dl1=47.8997
+  [gate] P1 f222: 8.8273 dB dl1=46.9641
+  [gate] P1 f257: 9.0583 dB dl1=48.4464
+  [gate] P1 f283: 13.8604 dB dl1=45.8629
+  [gate] P1 f309: 9.1622 dB dl1=47.9653
+  [gate] P1 f336: 9.5258 dB dl1=48.002
+  [gate] P1 f362: 8.7751 dB dl1=48.6465
+  [gate] P1 f405: 11.6238 dB dl1=48.5977
+  [gate] P1 f720: 9.3196 dB dl1=49.5504
+  [gate] P1 f746: 9.4898 dB dl1=50.0
+  [gate] P4 fit@336: {'iters': 300, 'loss_first': 0.36506, 'loss_last': 0.02842, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9757}
+  [gate] P4 f6: 16.0962 dB dl1=43.5454
+  [gate] P4 f32: 9.3646 dB dl1=46.3333
+  [gate] P4 f59: 8.4965 dB dl1=38.7958
+  [gate] P4 f85: 11.9578 dB dl1=44.3837
+  [gate] P4 f111: 8.2831 dB dl1=46.6987
+  [gate] P4 f141: 11.6107 dB dl1=47.4611
+  [gate] P4 f167: 10.5364 dB dl1=47.9658
+  [gate] P4 f222: 10.9943 dB dl1=33.582
+  [gate] P4 f257: 9.0583 dB dl1=48.4464
+  [gate] P4 f283: 13.6699 dB dl1=32.1261
+  [gate] P4 f309: 9.1623 dB dl1=47.9723
+  [gate] P4 f336: 30.7085 dB dl1=9.1829
+  [gate] P4 f362: 9.1857 dB dl1=48.8037
+  [gate] P4 f405: 11.6238 dB dl1=48.5977
+  [gate] P4 f720: 11.9178 dB dl1=37.2514
+  [gate] P4 f746: 14.0057 dB dl1=50.0
+  [gate] P2 f6: 32.4469 dB dl1=6.7975 (fit 0.30823->0.02465)
+  [gate] C- f6: 11.9876 dB dl1=49.1681
+  [gate] P2 f32: 31.0732 dB dl1=9.3504 (fit 0.36724->0.02633)
+  [gate] C- f32: 10.0401 dB dl1=42.3529
+  [gate] P2 f59: 33.2926 dB dl1=9.5161 (fit 0.40731->0.02456)
+  [gate] C- f59: 11.1202 dB dl1=45.0938
+  [gate] P2 f85: 32.2893 dB dl1=5.8692 (fit 0.30984->0.02041)
+  [gate] C- f85: 9.9717 dB dl1=47.7335
+  [gate] P2 f111: 34.7812 dB dl1=7.6634 (fit 0.35749->0.02067)
+  [gate] C- f111: 9.8672 dB dl1=43.7105
+  [gate] P2 f141: 31.6683 dB dl1=8.9241 (fit 0.3599->0.02566)
+  [gate] C- f141: 10.6681 dB dl1=47.3166
+  [gate] P2 f167: 30.9172 dB dl1=9.6243 (fit 0.39386->0.02732)
+  [gate] C- f167: 10.4346 dB dl1=46.6462
+  [gate] P2 f222: 30.6298 dB dl1=9.6564 (fit 0.39056->0.02904)
+  [gate] C- f222: 9.3779 dB dl1=46.8587
+  [gate] P2 f257: 28.9899 dB dl1=13.4144 (fit 0.3888->0.03491)
+  [gate] C- f257: 9.1424 dB dl1=48.5752
+  [gate] P2 f283: 28.633 dB dl1=6.0513 (fit 0.26636->0.02065)
+  [gate] C- f283: 12.9687 dB dl1=42.9446
+  [gate] P2 f309: 30.8587 dB dl1=8.8279 (fit 0.3685->0.02704)
+  [gate] C- f309: 9.9736 dB dl1=43.2802
+  [gate] P2 f336: 30.6953 dB dl1=9.1547 (fit 0.36506->0.0284)
+  [gate] C- f336: 9.9163 dB dl1=43.9725
+  [gate] P2 f362: 29.793 dB dl1=11.0789 (fit 0.40375->0.03141)
+  [gate] C- f362: 8.4995 dB dl1=47.4656
+  [gate] P2 f405: 34.4455 dB dl1=5.1362 (fit 0.26298->0.01863)
+  [gate] C- f405: 11.3895 dB dl1=47.8697
+  [gate] P2 f720: 34.3866 dB dl1=8.4181 (fit 0.4349->0.01995)
+  [gate] C- f720: 9.3134 dB dl1=49.6673
+  [gate] P2 f746: 32.1342 dB dl1=8.8268 (fit 0.41845->0.02531)
+  [gate] C- f746: 9.4898 dB dl1=50.0
+  [gate] 因果臂 ['P2c']：KF 数=178 首=5 末=890
+  [gate] P2c f6 (KF 5, dt=1, mask=raw, motion=none): 19.8275 dB bad=19.9348 dl1=9.7183 n_dyn=5805
+  [gate] P2c f32 (KF 30, dt=2, mask=raw, motion=none): 16.4006 dB bad=16.3691 dl1=14.8314 n_dyn=12666
+  [gate] P2c f59 (KF 55, dt=4, mask=raw, motion=none): 13.5079 dB bad=13.6136 dl1=13.9054 n_dyn=13392
+  [gate] P2c f85 (KF 85, dt=0, mask=raw, motion=none): 32.2701 dB bad=32.2311 dl1=5.8615 n_dyn=13352
+  [gate] P2c f111 (KF 110, dt=1, mask=raw, motion=none): 19.8714 dB bad=19.7931 dl1=10.5023 n_dyn=12104
+  [gate] P2c f141 (KF 140, dt=1, mask=raw, motion=none): 16.9742 dB bad=16.9419 dl1=16.0377 n_dyn=11760
+  [gate] P2c f167 (KF 165, dt=2, mask=raw, motion=none): 14.4782 dB bad=14.7355 dl1=19.6111 n_dyn=10025
+  [gate] P2c f222 (KF 220, dt=2, mask=raw, motion=none): 14.1879 dB bad=14.2932 dl1=21.0598 n_dyn=9455
+  [gate] P2c f257 (KF 255, dt=2, mask=raw, motion=none): 18.6632 dB bad=18.9383 dl1=20.9799 n_dyn=7169
+  [gate] P2c f283 (KF 280, dt=3, mask=raw, motion=none): 16.1683 dB bad=16.0742 dl1=14.6407 n_dyn=15191
+  [gate] P2c f309 (KF 305, dt=4, mask=raw, motion=none): 12.83 dB bad=12.9166 dl1=23.358 n_dyn=12857
+  [gate] P2c f336 (KF 335, dt=1, mask=raw, motion=none): 17.5701 dB bad=17.7044 dl1=13.2433 n_dyn=15110
+  [gate] P2c f362 (KF 360, dt=2, mask=raw, motion=none): 14.9697 dB bad=14.967 dl1=21.4616 n_dyn=15722
+  [gate] P2c f405 (KF 405, dt=0, mask=raw, motion=none): 34.4632 dB bad=34.4218 dl1=5.1354 n_dyn=6577
+  [gate] P2c f720 (KF 720, dt=0, mask=raw, motion=none): 34.3923 dB bad=34.3846 dl1=8.4137 n_dyn=8068
+  [gate] P2c f746 (KF 745, dt=1, mask=raw, motion=none): 22.0353 dB bad=22.0353 dl1=13.9406 n_dyn=5613
+[dyn_probe] written results/embrace_dyn/evidence/dyn_probe_5seq_crowd2_results.json
+── baseline ──
+  P1  n= 16 dyn_psnr=10.3563 dB dyn_dl1=48.2201 cm cov=1.0 static=25.1696 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.7727 dB dyn_dl1=8.8172 cm cov=1.0 static=25.2083 n_dyn=11089.25
+  C-  n= 16 dyn_psnr=10.4086 dB dyn_dl1=46.2905 cm cov=1.0 static=16.1618 n_dyn=11089.25
+  P4  n= 16 dyn_psnr=12.5614 dB dyn_dl1=41.8853 cm cov=1.0 static=13.1852 n_dyn=15176.0
+  P2c n= 16 dyn_psnr=20.2171 dB dyn_dl1=14.5121 cm cov=1.0 static=23.3965 n_dyn=10929.125
+── gate ──
+  P1  n= 16 dyn_psnr=10.2157 dB dyn_dl1=48.3093 cm cov=1.0 static=25.6476 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.6897 dB dyn_dl1=8.6444 cm cov=1.0 static=25.6212 n_dyn=11089.25
+  C-  n= 16 dyn_psnr=10.26 dB dyn_dl1=46.416 cm cov=1.0 static=16.4269 n_dyn=11089.25
+  P4  n= 16 dyn_psnr=12.292 dB dyn_dl1=41.9466 cm cov=1.0 static=13.2692 n_dyn=15176.0
+  P2c n= 16 dyn_psnr=19.9131 dB dyn_dl1=14.5438 cm cov=1.0 static=23.7638 n_dyn=10929.125
+SMOKE crowd2 rc=0 elapsed=200s (3min)
+DECISION: per_map=100s <=1200s -> FULL 5 sequences (10 maps), est 16min
+RUN  crowd 2026年 10月 05日 星期一 17:14:22 CST
+[dyn_probe] config=configs/experiments/embrace_dyn/probe_5seq_crowd.yaml arms=['P1', 'P2', 'C-', 'P4', 'P2c'] frames=[247, 269, 300, 322, 344, 367, 421, 443, 466, 518, 540, 563, 585, 607, 630, 750]
+[dyn_probe] baseline: n_static=50186 mask=dynamic_mask
+  [baseline] P1 f247: 10.542 dB dl1=44.6627
+  [baseline] P1 f269: 7.0506 dB dl1=48.1764
+  [baseline] P1 f300: 8.1894 dB dl1=45.5663
+  [baseline] P1 f322: 9.6486 dB dl1=47.536
+  [baseline] P1 f344: 11.0819 dB dl1=43.1498
+  [baseline] P1 f367: 12.3104 dB dl1=39.3381
+  [baseline] P1 f421: 8.9869 dB dl1=46.0739
+  [baseline] P1 f443: 9.4642 dB dl1=46.9903
+  [baseline] P1 f466: 9.7874 dB dl1=47.9544
+  [baseline] P1 f518: 10.4112 dB dl1=44.4773
+  [baseline] P1 f540: 9.0267 dB dl1=44.511
+  [baseline] P1 f563: 7.8641 dB dl1=45.8316
+  [baseline] P1 f585: 8.2221 dB dl1=47.6269
+  [baseline] P1 f607: 8.3325 dB dl1=45.6315
+  [baseline] P1 f630: 7.8478 dB dl1=44.6346
+  [baseline] P1 f750: 6.9358 dB dl1=41.8584
+  [baseline] P4 fit@585: {'iters': 300, 'loss_first': 0.40003, 'loss_last': 0.02955, 'opa_mean_before': 0.5, 'opa_mean_after': 0.976}
+  [baseline] P4 f247: 10.9286 dB dl1=45.4225
+  [baseline] P4 f269: 14.0708 dB dl1=21.2251
+  [baseline] P4 f300: 9.9065 dB dl1=37.7898
+  [baseline] P4 f322: 11.0535 dB dl1=41.1946
+  [baseline] P4 f344: 9.6014 dB dl1=38.5487
+  [baseline] P4 f367: 9.5452 dB dl1=45.1847
+  [baseline] P4 f421: 9.6558 dB dl1=40.2805
+  [baseline] P4 f443: 9.4803 dB dl1=42.6557
+  [baseline] P4 f466: 12.9851 dB dl1=24.2691
+  [baseline] P4 f518: 10.6688 dB dl1=44.3858
+  [baseline] P4 f540: 12.2831 dB dl1=28.4488
+  [baseline] P4 f563: 11.2097 dB dl1=34.2164
+  [baseline] P4 f585: 30.115 dB dl1=10.4552
+  [baseline] P4 f607: 9.9027 dB dl1=47.9497
+  [baseline] P4 f630: 11.5202 dB dl1=33.1544
+  [baseline] P4 f750: 11.4718 dB dl1=46.0765
+  [baseline] P2 f247: 31.6156 dB dl1=7.598 (fit 0.34467->0.0244)
+  [baseline] C- f247: 11.2401 dB dl1=47.6052
+  [baseline] P2 f269: 29.2873 dB dl1=13.3209 (fit 0.47065->0.03445)
+  [baseline] C- f269: 7.5394 dB dl1=47.417
+  [baseline] P2 f300: 30.3409 dB dl1=9.1512 (fit 0.36486->0.02674)
+  [baseline] C- f300: 8.9053 dB dl1=42.7253
+  [baseline] P2 f322: 32.4948 dB dl1=7.5034 (fit 0.34894->0.02273)
+  [baseline] C- f322: 9.5714 dB dl1=43.7198
+  [baseline] P2 f344: 32.8993 dB dl1=6.6521 (fit 0.27457->0.0202)
+  [baseline] C- f344: 12.0037 dB dl1=35.9335
+  [baseline] P2 f367: 34.0841 dB dl1=5.8449 (fit 0.21868->0.01877)
+  [baseline] C- f367: 12.7417 dB dl1=35.6768
+  [baseline] P2 f421: 31.3663 dB dl1=8.6641 (fit 0.35839->0.02441)
+  [baseline] C- f421: 9.3858 dB dl1=45.6122
+  [baseline] P2 f443: 31.6865 dB dl1=7.3669 (fit 0.34519->0.02246)
+  [baseline] C- f443: 10.6181 dB dl1=41.0961
+  [baseline] P2 f466: 31.6059 dB dl1=9.1942 (fit 0.35062->0.02629)
+  [baseline] C- f466: 10.0575 dB dl1=45.7123
+  [baseline] P2 f518: 33.4486 dB dl1=6.68 (fit 0.32514->0.02059)
+  [baseline] C- f518: 10.6141 dB dl1=44.1308
+  [baseline] P2 f540: 31.707 dB dl1=8.1691 (fit 0.33942->0.02388)
+  [baseline] C- f540: 9.278 dB dl1=41.1158
+  [baseline] P2 f563: 30.4234 dB dl1=8.8614 (fit 0.368->0.03197)
+  [baseline] C- f563: 8.8297 dB dl1=41.8218
+  [baseline] P2 f585: 30.1127 dB dl1=10.4791 (fit 0.40003->0.0296)
+  [baseline] C- f585: 9.5418 dB dl1=43.6635
+  [baseline] P2 f607: 31.1418 dB dl1=10.0331 (fit 0.41494->0.02599)
+  [baseline] C- f607: 8.5689 dB dl1=44.8619
+  [baseline] P2 f630: 29.2431 dB dl1=9.1549 (fit 0.37644->0.03037)
+  [baseline] C- f630: 8.3807 dB dl1=43.1105
+  [baseline] P2 f750: 28.0415 dB dl1=12.4076 (fit 0.39338->0.03512)
+  [baseline] C- f750: 7.7599 dB dl1=36.7161
+  [baseline] 因果臂 ['P2c']：KF 数=185 首=5 末=925
+  [baseline] P2c f247 (KF 245, dt=2, mask=raw, motion=none): 14.9007 dB bad=15.2023 dl1=20.7427 n_dyn=7850
+  [baseline] P2c f269 (KF 265, dt=4, mask=raw, motion=none): 11.7444 dB bad=11.8968 dl1=29.3662 n_dyn=10511
+  [baseline] P2c f300 (KF 300, dt=0, mask=raw, motion=none): 30.29 dB bad=30.1644 dl1=9.2029 n_dyn=10991
+  [baseline] P2c f322 (KF 320, dt=2, mask=raw, motion=none): 16.3069 dB bad=16.466 dl1=12.8597 n_dyn=20265
+  [baseline] P2c f344 (KF 340, dt=4, mask=raw, motion=none): 15.9772 dB bad=16.0791 dl1=11.1571 n_dyn=12838
+  [baseline] P2c f367 (KF 365, dt=2, mask=raw, motion=none): 22.0954 dB bad=22.2148 dl1=7.3327 n_dyn=8207
+  [baseline] P2c f421 (KF 420, dt=1, mask=raw, motion=none): 17.7526 dB bad=17.6776 dl1=13.1617 n_dyn=13766
+  [baseline] P2c f443 (KF 440, dt=3, mask=raw, motion=none): 13.2264 dB bad=13.3902 dl1=23.6303 n_dyn=16921
+  [baseline] P2c f466 (KF 465, dt=1, mask=raw, motion=none): 21.6663 dB bad=22.0225 dl1=11.1922 n_dyn=12739
+  [baseline] P2c f518 (KF 515, dt=3, mask=raw, motion=none): 15.5423 dB bad=15.4658 dl1=14.6066 n_dyn=9712
+  [baseline] P2c f540 (KF 540, dt=0, mask=raw, motion=none): 31.7043 dB bad=31.4935 dl1=8.169 n_dyn=11238
+  [baseline] P2c f563 (KF 560, dt=3, mask=raw, motion=none): 14.0454 dB bad=14.0821 dl1=17.9171 n_dyn=12544
+  [baseline] P2c f585 (KF 585, dt=0, mask=raw, motion=none): 30.1172 dB bad=30.0239 dl1=10.5042 n_dyn=19799
+  [baseline] P2c f607 (KF 605, dt=2, mask=raw, motion=none): 14.9332 dB bad=14.9124 dl1=20.7438 n_dyn=12439
+  [baseline] P2c f630 (KF 630, dt=0, mask=raw, motion=none): 29.252 dB bad=29.0806 dl1=9.1417 n_dyn=7799
+  [baseline] P2c f750 (KF 750, dt=0, mask=raw, motion=none): 28.0713 dB bad=27.7921 dl1=12.3051 n_dyn=5304
+[dyn_probe] gate: n_static=54014 mask=dynamic_mask
+  [gate] P1 f247: 10.2538 dB dl1=44.2368
+  [gate] P1 f269: 7.0626 dB dl1=48.2151
+  [gate] P1 f300: 8.1683 dB dl1=45.5146
+  [gate] P1 f322: 9.7683 dB dl1=47.5861
+  [gate] P1 f344: 11.3446 dB dl1=42.8551
+  [gate] P1 f367: 12.3937 dB dl1=39.147
+  [gate] P1 f421: 8.9232 dB dl1=45.9133
+  [gate] P1 f443: 9.4385 dB dl1=47.0267
+  [gate] P1 f466: 9.842 dB dl1=48.0245
+  [gate] P1 f518: 10.4861 dB dl1=44.7079
+  [gate] P1 f540: 9.0541 dB dl1=44.6195
+  [gate] P1 f563: 7.7499 dB dl1=45.8284
+  [gate] P1 f585: 8.2267 dB dl1=47.624
+  [gate] P1 f607: 8.2619 dB dl1=45.6873
+  [gate] P1 f630: 7.8856 dB dl1=44.9844
+  [gate] P1 f750: 7.0012 dB dl1=41.5763
+  [gate] P4 fit@585: {'iters': 300, 'loss_first': 0.40264, 'loss_last': 0.02961, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9764}
+  [gate] P4 f247: 10.7302 dB dl1=45.1175
+  [gate] P4 f269: 14.116 dB dl1=21.1531
+  [gate] P4 f300: 9.87 dB dl1=38.4223
+  [gate] P4 f322: 11.025 dB dl1=40.9438
+  [gate] P4 f344: 9.6 dB dl1=38.5298
+  [gate] P4 f367: 9.5132 dB dl1=45.1328
+  [gate] P4 f421: 9.6991 dB dl1=40.1455
+  [gate] P4 f443: 9.4285 dB dl1=42.6971
+  [gate] P4 f466: 13.1694 dB dl1=23.9927
+  [gate] P4 f518: 10.6003 dB dl1=44.402
+  [gate] P4 f540: 12.4014 dB dl1=28.2034
+  [gate] P4 f563: 11.1712 dB dl1=34.323
+  [gate] P4 f585: 30.1378 dB dl1=10.5833
+  [gate] P4 f607: 9.858 dB dl1=47.9962
+  [gate] P4 f630: 11.5488 dB dl1=33.5756
+  [gate] P4 f750: 11.5327 dB dl1=46.1221
+  [gate] P2 f247: 31.5432 dB dl1=7.3278 (fit 0.3475->0.02435)
+  [gate] C- f247: 10.979 dB dl1=47.4605
+  [gate] P2 f269: 29.3846 dB dl1=13.2209 (fit 0.47222->0.03407)
+  [gate] C- f269: 7.5424 dB dl1=47.4219
+  [gate] P2 f300: 30.497 dB dl1=9.3631 (fit 0.36738->0.0269)
+  [gate] C- f300: 8.861 dB dl1=42.7009
+  [gate] P2 f322: 32.4564 dB dl1=7.4309 (fit 0.34607->0.02271)
+  [gate] C- f322: 9.6037 dB dl1=43.6873
+  [gate] P2 f344: 32.9304 dB dl1=6.2906 (fit 0.26808->0.01979)
+  [gate] C- f344: 12.2713 dB dl1=35.6218
+  [gate] P2 f367: 33.5597 dB dl1=5.5287 (fit 0.21492->0.01867)
+  [gate] C- f367: 12.7473 dB dl1=35.656
+  [gate] P2 f421: 31.3113 dB dl1=8.454 (fit 0.36297->0.02434)
+  [gate] C- f421: 9.2934 dB dl1=45.4667
+  [gate] P2 f443: 32.4794 dB dl1=7.4585 (fit 0.3479->0.02187)
+  [gate] C- f443: 10.589 dB dl1=41.239
+  [gate] P2 f466: 31.6245 dB dl1=9.4417 (fit 0.35091->0.02655)
+  [gate] C- f466: 10.0595 dB dl1=45.7412
+  [gate] P2 f518: 33.0546 dB dl1=6.6928 (fit 0.32108->0.02074)
+  [gate] C- f518: 10.6967 dB dl1=44.3685
+  [gate] P2 f540: 31.3402 dB dl1=8.4555 (fit 0.33626->0.02457)
+  [gate] C- f540: 9.2548 dB dl1=41.1709
+  [gate] P2 f563: 30.2559 dB dl1=9.3335 (fit 0.37496->0.03295)
+  [gate] C- f563: 8.7263 dB dl1=41.9188
+  [gate] P2 f585: 30.1405 dB dl1=10.5694 (fit 0.40264->0.02957)
+  [gate] C- f585: 9.5363 dB dl1=43.6603
+  [gate] P2 f607: 31.1088 dB dl1=9.8943 (fit 0.41871->0.02594)
+  [gate] C- f607: 8.4975 dB dl1=44.9251
+  [gate] P2 f630: 29.1532 dB dl1=9.3109 (fit 0.37833->0.03083)
+  [gate] C- f630: 8.4496 dB dl1=43.4278
+  [gate] P2 f750: 28.2199 dB dl1=12.8501 (fit 0.39468->0.03458)
+  [gate] C- f750: 7.8217 dB dl1=36.6431
+  [gate] 因果臂 ['P2c']：KF 数=185 首=5 末=925
+  [gate] P2c f247 (KF 245, dt=2, mask=raw, motion=none): 14.8432 dB bad=15.3706 dl1=20.7634 n_dyn=7850
+  [gate] P2c f269 (KF 265, dt=4, mask=raw, motion=none): 11.7446 dB bad=11.9031 dl1=29.4435 n_dyn=10511
+  [gate] P2c f300 (KF 300, dt=0, mask=raw, motion=none): 30.4643 dB bad=30.3057 dl1=9.375 n_dyn=10991
+  [gate] P2c f322 (KF 320, dt=2, mask=raw, motion=none): 16.3019 dB bad=16.3098 dl1=13.1943 n_dyn=20265
+  [gate] P2c f344 (KF 340, dt=4, mask=raw, motion=none): 16.0333 dB bad=16.2356 dl1=11.0229 n_dyn=12838
+  [gate] P2c f367 (KF 365, dt=2, mask=raw, motion=none): 22.1853 dB bad=22.2732 dl1=7.1462 n_dyn=8207
+  [gate] P2c f421 (KF 420, dt=1, mask=raw, motion=none): 17.8673 dB bad=17.783 dl1=12.8427 n_dyn=13766
+  [gate] P2c f443 (KF 440, dt=3, mask=raw, motion=none): 13.3136 dB bad=13.5564 dl1=23.8226 n_dyn=16921
+  [gate] P2c f466 (KF 465, dt=1, mask=raw, motion=none): 22.8127 dB bad=23.219 dl1=10.4105 n_dyn=12739
+  [gate] P2c f518 (KF 515, dt=3, mask=raw, motion=none): 15.5995 dB bad=15.4983 dl1=14.788 n_dyn=9712
+  [gate] P2c f540 (KF 540, dt=0, mask=raw, motion=none): 31.3448 dB bad=31.4228 dl1=8.4659 n_dyn=11238
+  [gate] P2c f563 (KF 560, dt=3, mask=raw, motion=none): 13.8347 dB bad=13.8894 dl1=18.3605 n_dyn=12544
+  [gate] P2c f585 (KF 585, dt=0, mask=raw, motion=none): 30.1331 dB bad=30.0588 dl1=10.6218 n_dyn=19799
+  [gate] P2c f607 (KF 605, dt=2, mask=raw, motion=none): 14.8566 dB bad=14.8905 dl1=21.0692 n_dyn=12439
+  [gate] P2c f630 (KF 630, dt=0, mask=raw, motion=none): 29.1307 dB bad=28.9741 dl1=9.26 n_dyn=7799
+  [gate] P2c f750 (KF 750, dt=0, mask=raw, motion=none): 28.1889 dB bad=27.8297 dl1=12.9064 n_dyn=5304
+[dyn_probe] written results/embrace_dyn/evidence/dyn_probe_5seq_crowd_results.json
+── baseline ──
+  P1  n= 16 dyn_psnr=9.1063 dB dyn_dl1=45.2512 cm cov=1.0 static=24.6648 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.2187 dB dyn_dl1=8.8176 cm cov=1.0 static=24.9518 n_dyn=11996.8125
+  C-  n= 16 dyn_psnr=9.6898 dB dyn_dl1=42.5574 cm cov=1.0 static=12.8859 n_dyn=11996.8125
+  P4  n= 16 dyn_psnr=12.1499 dB dyn_dl1=36.3286 cm cov=1.0 static=10.9188 n_dyn=19799.0
+  P2c n= 16 dyn_psnr=20.4766 dB dyn_dl1=14.5021 cm cov=1.0 static=22.1815 n_dyn=12057.6875
+── gate ──
+  P1  n= 16 dyn_psnr=9.1163 dB dyn_dl1=45.2217 cm cov=1.0 static=24.5868 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.1912 dB dyn_dl1=8.8514 cm cov=1.0 static=24.7896 n_dyn=11996.8125
+  C-  n= 16 dyn_psnr=9.6831 dB dyn_dl1=42.5694 cm cov=1.0 static=12.8934 n_dyn=11996.8125
+  P4  n= 16 dyn_psnr=12.1501 dB dyn_dl1=36.3338 cm cov=1.0 static=10.8158 n_dyn=19799.0
+  P2c n= 16 dyn_psnr=20.5409 dB dyn_dl1=14.5933 cm cov=1.0 static=22.0434 n_dyn=12057.6875
+  crowd rc=0
+DONE crowd2 (cached)
+RUN  crowd3 2026年 10月 05日 星期一 17:17:41 CST
+[dyn_probe] config=configs/experiments/embrace_dyn/probe_5seq_crowd3.yaml arms=['P1', 'P2', 'C-', 'P4', 'P2c'] frames=[0, 37, 63, 113, 140, 166, 193, 233, 294, 321, 418, 571, 602, 629, 688, 787]
+[dyn_probe] baseline: n_static=35470 mask=dynamic_mask
+  [baseline] P1 f0: 9.5081 dB dl1=42.5837
+  [baseline] P1 f37: 9.324 dB dl1=39.5075
+  [baseline] P1 f63: 10.2274 dB dl1=42.8042
+  [baseline] P1 f113: 9.5278 dB dl1=43.6385
+  [baseline] P1 f140: 9.3897 dB dl1=45.0968
+  [baseline] P1 f166: 11.4525 dB dl1=46.0476
+  [baseline] P1 f193: 10.2475 dB dl1=41.01
+  [baseline] P1 f233: 9.4169 dB dl1=42.9323
+  [baseline] P1 f294: 7.5459 dB dl1=47.9132
+  [baseline] P1 f321: 8.7689 dB dl1=46.9136
+  [baseline] P1 f418: 12.8062 dB dl1=47.7161
+  [baseline] P1 f571: 15.5273 dB dl1=44.2142
+  [baseline] P1 f602: 9.1793 dB dl1=46.552
+  [baseline] P1 f629: 8.6111 dB dl1=49.5708
+  [baseline] P1 f688: 9.9131 dB dl1=48.387
+  [baseline] P1 f787: 8.9127 dB dl1=45.5905
+  [baseline] P4 fit@602: {'iters': 300, 'loss_first': 0.37158, 'loss_last': 0.02676, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9675}
+  [baseline] P4 f0: 13.3936 dB dl1=31.9087
+  [baseline] P4 f37: 12.7354 dB dl1=35.4268
+  [baseline] P4 f63: 11.0268 dB dl1=43.8339
+  [baseline] P4 f113: 9.4599 dB dl1=43.7935
+  [baseline] P4 f140: 9.7728 dB dl1=37.7292
+  [baseline] P4 f166: 10.2227 dB dl1=39.2552
+  [baseline] P4 f193: 9.5254 dB dl1=29.3873
+  [baseline] P4 f233: 10.0381 dB dl1=43.7231
+  [baseline] P4 f294: 9.7021 dB dl1=44.9907
+  [baseline] P4 f321: 9.3413 dB dl1=45.1663
+  [baseline] P4 f418: 12.8062 dB dl1=47.7161
+  [baseline] P4 f571: 13.5213 dB dl1=33.2736
+  [baseline] P4 f602: 30.7653 dB dl1=9.4517
+  [baseline] P4 f629: 8.6308 dB dl1=49.6258
+  [baseline] P4 f688: 8.1048 dB dl1=46.2955
+  [baseline] P4 f787: 8.9042 dB dl1=45.5599
+  [baseline] P2 f0: 28.9067 dB dl1=7.5102 (fit 0.30974->0.0296)
+  [baseline] C- f0: 9.6831 dB dl1=40.7295
+  [baseline] P2 f37: 26.5111 dB dl1=8.2742 (fit 0.31227->0.03122)
+  [baseline] C- f37: 9.4906 dB dl1=39.059
+  [baseline] P2 f63: 31.5579 dB dl1=7.6869 (fit 0.29727->0.02575)
+  [baseline] C- f63: 10.5188 dB dl1=37.9527
+  [baseline] P2 f113: 30.4305 dB dl1=8.4509 (fit 0.33629->0.02715)
+  [baseline] C- f113: 9.4316 dB dl1=40.2832
+  [baseline] P2 f140: 30.1036 dB dl1=10.9172 (fit 0.33492->0.03064)
+  [baseline] C- f140: 9.2 dB dl1=44.3777
+  [baseline] P2 f166: 31.6727 dB dl1=8.0212 (fit 0.28449->0.02589)
+  [baseline] C- f166: 11.5095 dB dl1=44.2085
+  [baseline] P2 f193: 29.0732 dB dl1=7.7938 (fit 0.30011->0.02571)
+  [baseline] C- f193: 10.018 dB dl1=35.6692
+  [baseline] P2 f233: 29.2971 dB dl1=7.2109 (fit 0.31442->0.02754)
+  [baseline] C- f233: 9.6725 dB dl1=41.9459
+  [baseline] P2 f294: 30.1549 dB dl1=10.9689 (fit 0.46817->0.03263)
+  [baseline] C- f294: 7.4872 dB dl1=45.5899
+  [baseline] P2 f321: 31.0462 dB dl1=8.438 (fit 0.40948->0.02692)
+  [baseline] C- f321: 9.7734 dB dl1=44.2489
+  [baseline] P2 f418: 31.7324 dB dl1=8.6108 (fit 0.29039->0.0266)
+  [baseline] C- f418: 11.6591 dB dl1=35.6301
+  [baseline] P2 f571: 33.3465 dB dl1=7.3632 (fit 0.21755->0.02109)
+  [baseline] C- f571: 14.51 dB dl1=39.9014
+  [baseline] P2 f602: 30.7541 dB dl1=9.4952 (fit 0.37158->0.02682)
+  [baseline] C- f602: 9.0726 dB dl1=46.3688
+  [baseline] P2 f629: 30.1074 dB dl1=12.171 (fit 0.48196->0.03065)
+  [baseline] C- f629: 8.7483 dB dl1=47.9086
+  [baseline] P2 f688: 33.7895 dB dl1=7.5735 (fit 0.36959->0.02039)
+  [baseline] C- f688: 10.2224 dB dl1=41.5384
+  [baseline] P2 f787: 29.1732 dB dl1=11.7638 (fit 0.37552->0.03763)
+  [baseline] C- f787: 10.0475 dB dl1=40.0114
+  [baseline] 因果臂 ['P2c']：KF 数=170 首=5 末=850
+  [baseline] causal f0: 冷启动（无前置 KF）⇒ 不计入因果判据
+  [baseline] P2c f37 (KF 35, dt=2, mask=raw, motion=none): 19.3533 dB bad=19.793 dl1=10.6394 n_dyn=7604
+  [baseline] P2c f63 (KF 60, dt=3, mask=raw, motion=none): 16.0679 dB bad=16.2855 dl1=13.1732 n_dyn=7676
+  [baseline] P2c f113 (KF 110, dt=3, mask=raw, motion=none): 14.3842 dB bad=14.2539 dl1=15.4796 n_dyn=7711
+  [baseline] P2c f140 (KF 140, dt=0, mask=raw, motion=none): 30.0957 dB bad=30.112 dl1=10.9278 n_dyn=13846
+  [baseline] P2c f166 (KF 165, dt=1, mask=raw, motion=none): 22.4497 dB bad=22.5806 dl1=8.8308 n_dyn=9968
+  [baseline] P2c f193 (KF 190, dt=3, mask=raw, motion=none): 15.8706 dB bad=16.2243 dl1=15.5296 n_dyn=14013
+  [baseline] P2c f233 (KF 230, dt=3, mask=raw, motion=none): 12.9102 dB bad=13.4332 dl1=19.7131 n_dyn=9088
+  [baseline] P2c f294 (KF 290, dt=4, mask=raw, motion=none): 11.2442 dB bad=11.2391 dl1=29.2609 n_dyn=12265
+  [baseline] P2c f321 (KF 320, dt=1, mask=raw, motion=none): 16.6291 dB bad=16.5322 dl1=14.6557 n_dyn=9758
+  [baseline] P2c f418 (KF 415, dt=3, mask=raw, motion=none): 13.9843 dB bad=14.3151 dl1=22.2061 n_dyn=7566
+  [baseline] P2c f571 (KF 570, dt=1, mask=raw, motion=none): 23.4733 dB bad=23.3774 dl1=11.4871 n_dyn=7827
+  [baseline] P2c f602 (KF 600, dt=2, mask=raw, motion=none): 16.3381 dB bad=16.4152 dl1=16.6607 n_dyn=14199
+  [baseline] P2c f629 (KF 625, dt=4, mask=raw, motion=none): 14.6025 dB bad=14.7416 dl1=15.541 n_dyn=13793
+  [baseline] P2c f688 (KF 685, dt=3, mask=raw, motion=none): 12.858 dB bad=12.8497 dl1=24.4495 n_dyn=8179
+  [baseline] P2c f787 (KF 785, dt=2, mask=raw, motion=none): 16.8102 dB bad=16.8415 dl1=20.2353 n_dyn=5812
+[dyn_probe] gate: n_static=45629 mask=dynamic_mask
+  [gate] P1 f0: 10.004 dB dl1=42.4442
+  [gate] P1 f37: 9.5649 dB dl1=39.5749
+  [gate] P1 f63: 10.2949 dB dl1=42.7874
+  [gate] P1 f113: 9.6547 dB dl1=43.8324
+  [gate] P1 f140: 10.0393 dB dl1=45.0285
+  [gate] P1 f166: 12.3344 dB dl1=45.8355
+  [gate] P1 f193: 10.6117 dB dl1=41.3936
+  [gate] P1 f233: 9.466 dB dl1=42.6906
+  [gate] P1 f294: 7.8027 dB dl1=47.7596
+  [gate] P1 f321: 9.0425 dB dl1=46.8342
+  [gate] P1 f418: 13.7722 dB dl1=48.1321
+  [gate] P1 f571: 14.0087 dB dl1=44.2423
+  [gate] P1 f602: 9.4948 dB dl1=46.6794
+  [gate] P1 f629: 8.7775 dB dl1=49.5525
+  [gate] P1 f688: 9.8858 dB dl1=48.4376
+  [gate] P1 f787: 8.9615 dB dl1=45.3658
+  [gate] P4 fit@602: {'iters': 300, 'loss_first': 0.36375, 'loss_last': 0.02698, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9671}
+  [gate] P4 f0: 13.6151 dB dl1=31.9932
+  [gate] P4 f37: 12.8914 dB dl1=35.0925
+  [gate] P4 f63: 10.9395 dB dl1=43.7677
+  [gate] P4 f113: 9.592 dB dl1=44.0094
+  [gate] P4 f140: 10.2447 dB dl1=38.2461
+  [gate] P4 f166: 10.5712 dB dl1=39.5256
+  [gate] P4 f193: 9.6959 dB dl1=29.5134
+  [gate] P4 f233: 9.9678 dB dl1=43.4338
+  [gate] P4 f294: 9.9112 dB dl1=44.8696
+  [gate] P4 f321: 9.4179 dB dl1=45.5658
+  [gate] P4 f418: 13.7722 dB dl1=48.1321
+  [gate] P4 f571: 12.4761 dB dl1=33.2918
+  [gate] P4 f602: 30.3992 dB dl1=9.4864
+  [gate] P4 f629: 8.7053 dB dl1=49.6281
+  [gate] P4 f688: 8.0995 dB dl1=46.0715
+  [gate] P4 f787: 8.7801 dB dl1=45.3301
+  [gate] P2 f0: 30.6478 dB dl1=7.5863 (fit 0.30042->0.02673)
+  [gate] C- f0: 10.092 dB dl1=40.6959
+  [gate] P2 f37: 30.7364 dB dl1=8.3898 (fit 0.30705->0.02671)
+  [gate] C- f37: 9.6876 dB dl1=39.2075
+  [gate] P2 f63: 31.8399 dB dl1=7.8781 (fit 0.29568->0.02462)
+  [gate] C- f63: 10.636 dB dl1=37.9741
+  [gate] P2 f113: 30.5332 dB dl1=8.5516 (fit 0.33412->0.02775)
+  [gate] C- f113: 9.6004 dB dl1=40.5478
+  [gate] P2 f140: 30.0237 dB dl1=10.105 (fit 0.31885->0.03041)
+  [gate] C- f140: 9.7061 dB dl1=44.2637
+  [gate] P2 f166: 32.3531 dB dl1=7.0999 (fit 0.26363->0.0238)
+  [gate] C- f166: 12.1555 dB dl1=44.1011
+  [gate] P2 f193: 31.81 dB dl1=7.2869 (fit 0.2912->0.0227)
+  [gate] C- f193: 10.1551 dB dl1=35.8197
+  [gate] P2 f233: 29.6893 dB dl1=7.5819 (fit 0.31317->0.02511)
+  [gate] C- f233: 9.7087 dB dl1=41.7071
+  [gate] P2 f294: 30.1082 dB dl1=10.8524 (fit 0.4618->0.03183)
+  [gate] C- f294: 7.7355 dB dl1=45.4764
+  [gate] P2 f321: 30.9656 dB dl1=8.7005 (fit 0.40332->0.02731)
+  [gate] C- f321: 10.1862 dB dl1=44.0452
+  [gate] P2 f418: 33.0243 dB dl1=6.8625 (fit 0.26688->0.02303)
+  [gate] C- f418: 12.2666 dB dl1=35.9735
+  [gate] P2 f571: 33.7784 dB dl1=7.3309 (fit 0.24437->0.02166)
+  [gate] C- f571: 13.3982 dB dl1=40.0379
+  [gate] P2 f602: 30.4742 dB dl1=9.3933 (fit 0.36375->0.02692)
+  [gate] C- f602: 9.0976 dB dl1=46.4378
+  [gate] P2 f629: 30.2344 dB dl1=11.9542 (fit 0.47459->0.03016)
+  [gate] C- f629: 8.9538 dB dl1=47.8892
+  [gate] P2 f688: 34.0435 dB dl1=7.4008 (fit 0.3686->0.02001)
+  [gate] C- f688: 10.2371 dB dl1=41.6444
+  [gate] P2 f787: 30.5159 dB dl1=11.3649 (fit 0.3715->0.03079)
+  [gate] C- f787: 10.1304 dB dl1=39.7608
+  [gate] 因果臂 ['P2c']：KF 数=170 首=5 末=850
+  [gate] causal f0: 冷启动（无前置 KF）⇒ 不计入因果判据
+  [gate] P2c f37 (KF 35, dt=2, mask=raw, motion=none): 19.8351 dB bad=19.7999 dl1=10.6998 n_dyn=7604
+  [gate] P2c f63 (KF 60, dt=3, mask=raw, motion=none): 15.7392 dB bad=16.1298 dl1=13.6359 n_dyn=7676
+  [gate] P2c f113 (KF 110, dt=3, mask=raw, motion=none): 14.4257 dB bad=14.2703 dl1=15.6334 n_dyn=7711
+  [gate] P2c f140 (KF 140, dt=0, mask=raw, motion=none): 30.0239 dB bad=30.2361 dl1=10.0422 n_dyn=13846
+  [gate] P2c f166 (KF 165, dt=1, mask=raw, motion=none): 22.5962 dB bad=22.7643 dl1=8.3936 n_dyn=9968
+  [gate] P2c f193 (KF 190, dt=3, mask=raw, motion=none): 15.8261 dB bad=15.977 dl1=14.7148 n_dyn=14013
+  [gate] P2c f233 (KF 230, dt=3, mask=raw, motion=none): 12.9252 dB bad=13.4262 dl1=19.978 n_dyn=9088
+  [gate] P2c f294 (KF 290, dt=4, mask=raw, motion=none): 11.2576 dB bad=11.267 dl1=29.6148 n_dyn=12265
+  [gate] P2c f321 (KF 320, dt=1, mask=raw, motion=none): 15.9543 dB bad=15.881 dl1=15.6769 n_dyn=9758
+  [gate] P2c f418 (KF 415, dt=3, mask=raw, motion=none): 14.1649 dB bad=14.3617 dl1=19.6749 n_dyn=7566
+  [gate] P2c f571 (KF 570, dt=1, mask=raw, motion=none): 23.1468 dB bad=23.0849 dl1=11.0963 n_dyn=7827
+  [gate] P2c f602 (KF 600, dt=2, mask=raw, motion=none): 16.3916 dB bad=16.537 dl1=16.277 n_dyn=14199
+  [gate] P2c f629 (KF 625, dt=4, mask=raw, motion=none): 14.5 dB bad=14.6527 dl1=16.0971 n_dyn=13793
+  [gate] P2c f688 (KF 685, dt=3, mask=raw, motion=none): 12.9242 dB bad=12.8695 dl1=24.0013 n_dyn=8179
+  [gate] P2c f787 (KF 785, dt=2, mask=raw, motion=none): 16.8212 dB bad=16.7507 dl1=19.9365 n_dyn=5812
+[dyn_probe] written results/embrace_dyn/evidence/dyn_probe_5seq_crowd3_results.json
+── baseline ──
+  P1  n= 16 dyn_psnr=10.0224 dB dyn_dl1=45.0299 cm cov=1.0 static=25.0055 n_dyn=0.0
+  P2  n= 16 dyn_psnr=30.4786 dB dyn_dl1=8.8906 cm cov=1.0 static=25.3939 n_dyn=9967.25
+  C-  n= 16 dyn_psnr=10.0653 dB dyn_dl1=41.5889 cm cov=1.0 static=13.9713 n_dyn=9967.25
+  P4  n= 16 dyn_psnr=11.7469 dB dyn_dl1=39.1961 cm cov=1.0 static=14.992 n_dyn=15519.0
+  P2c n= 15 dyn_psnr=17.1381 dB dyn_dl1=16.586 cm cov=1.0 static=22.8724 n_dyn=9953.6667
+── gate ──
+  P1  n= 16 dyn_psnr=10.2322 dB dyn_dl1=45.0369 cm cov=1.0 static=24.6455 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.2986 dB dyn_dl1=8.6462 cm cov=1.0 static=24.9863 n_dyn=9967.25
+  C-  n= 16 dyn_psnr=10.2342 dB dyn_dl1=41.5989 cm cov=1.0 static=13.9253 n_dyn=9967.25
+  P4  n= 16 dyn_psnr=11.8174 dB dyn_dl1=39.2473 cm cov=1.0 static=14.9856 n_dyn=15519.0
+  P2c n= 15 dyn_psnr=17.1021 dB dyn_dl1=16.3648 cm cov=1.0 static=22.6158 n_dyn=9953.6667
+  crowd3 rc=0
+RUN  balloon2 2026年 10月 05日 星期一 17:20:58 CST
+[dyn_probe] config=configs/experiments/embrace_dyn/probe_5seq_balloon2.yaml arms=['P1', 'P2', 'C-', 'P4', 'P2c'] frames=[0, 16, 31, 60, 75, 91, 132, 147, 163, 178, 194, 210, 331, 424, 439, 455]
+[dyn_probe] baseline: n_static=46196 mask=dynamic_mask
+  [baseline] P1 f0: 11.1094 dB dl1=42.7368
+  [baseline] P1 f16: 13.1834 dB dl1=42.8853
+  [baseline] P1 f31: 12.7426 dB dl1=43.6692
+  [baseline] P1 f60: 13.1728 dB dl1=47.5631
+  [baseline] P1 f75: 12.5356 dB dl1=47.3305
+  [baseline] P1 f91: 14.2437 dB dl1=44.096
+  [baseline] P1 f132: 14.2785 dB dl1=47.6162
+  [baseline] P1 f147: 10.858 dB dl1=46.6654
+  [baseline] P1 f163: 12.4352 dB dl1=45.0651
+  [baseline] P1 f178: 11.7381 dB dl1=45.5084
+  [baseline] P1 f194: 11.8512 dB dl1=47.0735
+  [baseline] P1 f210: 8.4719 dB dl1=43.0733
+  [baseline] P1 f331: 17.1333 dB dl1=44.4894
+  [baseline] P1 f424: 16.9561 dB dl1=42.6535
+  [baseline] P1 f439: 13.9589 dB dl1=42.6458
+  [baseline] P1 f455: 17.3459 dB dl1=41.2019
+  [baseline] P4 fit@194: {'iters': 300, 'loss_first': 0.28801, 'loss_last': 0.0262, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9677}
+  [baseline] P4 f0: 11.0066 dB dl1=42.1721
+  [baseline] P4 f16: 12.4522 dB dl1=38.9899
+  [baseline] P4 f31: 11.8229 dB dl1=38.9772
+  [baseline] P4 f60: 12.6015 dB dl1=26.886
+  [baseline] P4 f75: 12.6251 dB dl1=31.8606
+  [baseline] P4 f91: 13.7718 dB dl1=27.0052
+  [baseline] P4 f132: 13.2525 dB dl1=24.2753
+  [baseline] P4 f147: 10.8467 dB dl1=30.8846
+  [baseline] P4 f163: 12.8633 dB dl1=29.9677
+  [baseline] P4 f178: 11.769 dB dl1=22.9538
+  [baseline] P4 f194: 31.6068 dB dl1=7.6264
+  [baseline] P4 f210: 8.8691 dB dl1=37.517
+  [baseline] P4 f331: 14.4483 dB dl1=21.2236
+  [baseline] P4 f424: 15.5303 dB dl1=33.5913
+  [baseline] P4 f439: 13.3523 dB dl1=39.5984
+  [baseline] P4 f455: 14.7362 dB dl1=35.994
+  [baseline] P2 f0: 26.3796 dB dl1=9.2326 (fit 0.28025->0.03203)
+  [baseline] C- f0: 11.9668 dB dl1=35.269
+  [baseline] P2 f16: 26.6015 dB dl1=8.9422 (fit 0.23787->0.03231)
+  [baseline] C- f16: 13.7975 dB dl1=35.8659
+  [baseline] P2 f31: 31.3522 dB dl1=8.4814 (fit 0.24234->0.02662)
+  [baseline] C- f31: 11.7602 dB dl1=37.8391
+  [baseline] P2 f60: 31.7066 dB dl1=8.3552 (fit 0.25762->0.02822)
+  [baseline] C- f60: 12.8287 dB dl1=39.5294
+  [baseline] P2 f75: 32.3047 dB dl1=7.0761 (fit 0.25367->0.02645)
+  [baseline] C- f75: 12.5372 dB dl1=36.626
+  [baseline] P2 f91: 27.1087 dB dl1=8.0451 (fit 0.21882->0.0313)
+  [baseline] C- f91: 14.3021 dB dl1=40.6729
+  [baseline] P2 f132: 31.0126 dB dl1=7.0339 (fit 0.22512->0.02754)
+  [baseline] C- f132: 13.5244 dB dl1=39.7711
+  [baseline] P2 f147: 25.7885 dB dl1=9.6501 (fit 0.28292->0.04159)
+  [baseline] C- f147: 11.554 dB dl1=42.1797
+  [baseline] P2 f163: 30.6489 dB dl1=8.6782 (fit 0.24466->0.02775)
+  [baseline] C- f163: 12.2688 dB dl1=39.2164
+  [baseline] P2 f178: 28.5006 dB dl1=8.6131 (fit 0.27604->0.02996)
+  [baseline] C- f178: 11.5331 dB dl1=37.4854
+  [baseline] P2 f194: 31.6578 dB dl1=7.6081 (fit 0.28801->0.02618)
+  [baseline] C- f194: 11.9152 dB dl1=38.4641
+  [baseline] P2 f210: 29.7544 dB dl1=9.0262 (fit 0.34369->0.02977)
+  [baseline] C- f210: 9.8727 dB dl1=39.4757
+  [baseline] P2 f331: 37.7477 dB dl1=4.9137 (fit 0.18706->0.01727)
+  [baseline] C- f331: 15.9473 dB dl1=40.9
+  [baseline] P2 f424: 34.3429 dB dl1=5.5429 (fit 0.16496->0.02108)
+  [baseline] C- f424: 15.9062 dB dl1=40.2539
+  [baseline] P2 f439: 33.5989 dB dl1=6.0709 (fit 0.2076->0.02079)
+  [baseline] C- f439: 14.1658 dB dl1=37.1531
+  [baseline] P2 f455: 36.0318 dB dl1=5.3749 (fit 0.1677->0.01858)
+  [baseline] C- f455: 16.5918 dB dl1=37.2675
+  [baseline] 因果臂 ['P2c']：KF 数=93 首=5 末=465
+  [baseline] causal f0: 冷启动（无前置 KF）⇒ 不计入因果判据
+  [baseline] P2c f16 (KF 15, dt=1, mask=raw, motion=none): 21.8891 dB bad=21.9536 dl1=9.3684 n_dyn=6316
+  [baseline] P2c f31 (KF 30, dt=1, mask=raw, motion=none): 17.3558 dB bad=17.2732 dl1=11.5537 n_dyn=6010
+  [baseline] P2c f60 (KF 60, dt=0, mask=raw, motion=none): 31.7216 dB bad=31.7203 dl1=8.3506 n_dyn=5760
+  [baseline] P2c f75 (KF 75, dt=0, mask=raw, motion=none): 32.3713 dB bad=32.564 dl1=7.0793 n_dyn=6369
+  [baseline] P2c f91 (KF 90, dt=1, mask=raw, motion=none): 24.8029 dB bad=24.9085 dl1=8.3005 n_dyn=5917
+  [baseline] P2c f132 (KF 130, dt=2, mask=raw, motion=none): 18.2829 dB bad=18.4193 dl1=9.5534 n_dyn=7080
+  [baseline] P2c f147 (KF 145, dt=2, mask=raw, motion=none): 18.777 dB bad=18.8859 dl1=11.6086 n_dyn=5923
+  [baseline] P2c f163 (KF 160, dt=3, mask=raw, motion=none): 15.6157 dB bad=15.5948 dl1=13.1709 n_dyn=5618
+  [baseline] P2c f178 (KF 175, dt=3, mask=raw, motion=none): 16.6237 dB bad=16.6277 dl1=12.8596 n_dyn=6846
+  [baseline] P2c f194 (KF 190, dt=4, mask=raw, motion=none): 14.6857 dB bad=14.8758 dl1=16.633 n_dyn=7669
+  [baseline] P2c f210 (KF 210, dt=0, mask=raw, motion=none): 29.6696 dB bad=29.3768 dl1=9.0323 n_dyn=6179
+  [baseline] P2c f331 (KF 330, dt=1, mask=raw, motion=none): 24.6698 dB bad=24.5859 dl1=5.7556 n_dyn=5977
+  [baseline] P2c f424 (KF 420, dt=4, mask=raw, motion=none): 17.0796 dB bad=17.3249 dl1=13.7704 n_dyn=4647
+  [baseline] P2c f439 (KF 435, dt=4, mask=raw, motion=none): 16.2768 dB bad=16.4107 dl1=14.5955 n_dyn=5940
+  [baseline] P2c f455 (KF 455, dt=0, mask=raw, motion=none): 35.9191 dB bad=36.1253 dl1=5.3628 n_dyn=4675
+[dyn_probe] gate: n_static=53441 mask=dynamic_mask
+  [gate] P1 f0: 11.188 dB dl1=41.9271
+  [gate] P1 f16: 15.7593 dB dl1=42.4641
+  [gate] P1 f31: 12.5084 dB dl1=44.0284
+  [gate] P1 f60: 11.4755 dB dl1=46.8284
+  [gate] P1 f75: 12.0919 dB dl1=46.9995
+  [gate] P1 f91: 14.0331 dB dl1=42.8948
+  [gate] P1 f132: 13.5593 dB dl1=48.5366
+  [gate] P1 f147: 10.408 dB dl1=46.1351
+  [gate] P1 f163: 11.6656 dB dl1=44.7775
+  [gate] P1 f178: 10.2325 dB dl1=45.1969
+  [gate] P1 f194: 10.65 dB dl1=46.9714
+  [gate] P1 f210: 8.4495 dB dl1=43.0411
+  [gate] P1 f331: 16.5396 dB dl1=44.1639
+  [gate] P1 f424: 15.9444 dB dl1=43.0278
+  [gate] P1 f439: 12.7318 dB dl1=42.3337
+  [gate] P1 f455: 16.4231 dB dl1=41.0959
+  [gate] P4 fit@194: {'iters': 300, 'loss_first': 0.30951, 'loss_last': 0.02673, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9674}
+  [gate] P4 f0: 11.0253 dB dl1=41.533
+  [gate] P4 f16: 14.4254 dB dl1=38.978
+  [gate] P4 f31: 11.6228 dB dl1=39.8202
+  [gate] P4 f60: 11.8869 dB dl1=25.6909
+  [gate] P4 f75: 12.3389 dB dl1=31.0006
+  [gate] P4 f91: 13.4237 dB dl1=25.0867
+  [gate] P4 f132: 12.9904 dB dl1=23.9552
+  [gate] P4 f147: 10.5858 dB dl1=30.9587
+  [gate] P4 f163: 12.63 dB dl1=30.2584
+  [gate] P4 f178: 11.2658 dB dl1=22.563
+  [gate] P4 f194: 31.043 dB dl1=7.5761
+  [gate] P4 f210: 8.9206 dB dl1=37.4341
+  [gate] P4 f331: 14.0066 dB dl1=20.3063
+  [gate] P4 f424: 15.1594 dB dl1=33.9736
+  [gate] P4 f439: 12.3989 dB dl1=40.0602
+  [gate] P4 f455: 14.7657 dB dl1=36.4423
+  [gate] P2 f0: 27.1147 dB dl1=7.7724 (fit 0.27509->0.02815)
+  [gate] C- f0: 11.9318 dB dl1=34.6533
+  [gate] P2 f16: 25.2262 dB dl1=6.1343 (fit 0.1903->0.02776)
+  [gate] C- f16: 15.7354 dB dl1=35.4473
+  [gate] P2 f31: 32.5218 dB dl1=7.081 (fit 0.24448->0.02176)
+  [gate] C- f31: 11.6137 dB dl1=38.1848
+  [gate] P2 f60: 31.8383 dB dl1=7.702 (fit 0.29072->0.02522)
+  [gate] C- f60: 11.3785 dB dl1=39.0195
+  [gate] P2 f75: 32.6297 dB dl1=6.8541 (fit 0.26282->0.02361)
+  [gate] C- f75: 11.9948 dB dl1=36.5185
+  [gate] P2 f91: 33.2922 dB dl1=6.3899 (fit 0.21886->0.02101)
+  [gate] C- f91: 14.3796 dB dl1=38.8767
+  [gate] P2 f132: 33.9396 dB dl1=6.0962 (fit 0.24277->0.01998)
+  [gate] C- f132: 13.0167 dB dl1=40.1167
+  [gate] P2 f147: 31.2737 dB dl1=8.4649 (fit 0.29882->0.02691)
+  [gate] C- f147: 11.1043 dB dl1=41.1974
+  [gate] P2 f163: 31.9008 dB dl1=7.7633 (fit 0.26363->0.02425)
+  [gate] C- f163: 11.6338 dB dl1=39.2701
+  [gate] P2 f178: 30.0646 dB dl1=7.7043 (fit 0.30927->0.02692)
+  [gate] C- f178: 10.7747 dB dl1=37.5683
+  [gate] P2 f194: 31.0473 dB dl1=7.6202 (fit 0.30951->0.02677)
+  [gate] C- f194: 10.9287 dB dl1=38.6574
+  [gate] P2 f210: 29.0149 dB dl1=8.6342 (fit 0.34548->0.02993)
+  [gate] C- f210: 9.8557 dB dl1=39.4564
+  [gate] P2 f331: 34.7331 dB dl1=5.1976 (fit 0.18451->0.01727)
+  [gate] C- f331: 15.0998 dB dl1=40.4927
+  [gate] P2 f424: 32.9642 dB dl1=6.733 (fit 0.17242->0.02323)
+  [gate] C- f424: 15.2518 dB dl1=40.537
+  [gate] P2 f439: 30.8551 dB dl1=7.3181 (fit 0.22212->0.02705)
+  [gate] C- f439: 13.1152 dB dl1=36.648
+  [gate] P2 f455: 30.6596 dB dl1=6.4103 (fit 0.16835->0.02446)
+  [gate] C- f455: 16.1847 dB dl1=37.5349
+  [gate] 因果臂 ['P2c']：KF 数=93 首=5 末=465
+  [gate] causal f0: 冷启动（无前置 KF）⇒ 不计入因果判据
+  [gate] P2c f16 (KF 15, dt=1, mask=raw, motion=none): 21.6529 dB bad=22.1463 dl1=6.8037 n_dyn=6316
+  [gate] P2c f31 (KF 30, dt=1, mask=raw, motion=none): 18.3138 dB bad=18.3138 dl1=9.9011 n_dyn=6010
+  [gate] P2c f60 (KF 60, dt=0, mask=raw, motion=none): 31.8163 dB bad=31.8291 dl1=7.7276 n_dyn=5760
+  [gate] P2c f75 (KF 75, dt=0, mask=raw, motion=none): 32.6025 dB bad=32.5931 dl1=6.8558 n_dyn=6369
+  [gate] P2c f91 (KF 90, dt=1, mask=raw, motion=none): 27.499 dB bad=27.9139 dl1=6.9538 n_dyn=5917
+  [gate] P2c f132 (KF 130, dt=2, mask=raw, motion=none): 17.1677 dB bad=17.1677 dl1=10.2732 n_dyn=7080
+  [gate] P2c f147 (KF 145, dt=2, mask=raw, motion=none): 20.1858 dB bad=20.1765 dl1=10.5475 n_dyn=5923
+  [gate] P2c f163 (KF 160, dt=3, mask=raw, motion=none): 13.4146 dB bad=13.3705 dl1=16.7751 n_dyn=5618
+  [gate] P2c f178 (KF 175, dt=3, mask=raw, motion=none): 17.0345 dB bad=16.8879 dl1=12.0373 n_dyn=6846
+  [gate] P2c f194 (KF 190, dt=4, mask=raw, motion=none): 14.4117 dB bad=14.466 dl1=17.0942 n_dyn=7669
+  [gate] P2c f210 (KF 210, dt=0, mask=raw, motion=none): 28.9587 dB bad=28.6988 dl1=8.6443 n_dyn=6179
+  [gate] P2c f331 (KF 330, dt=1, mask=raw, motion=none): 24.6921 dB bad=24.7233 dl1=6.1838 n_dyn=5977
+  [gate] P2c f424 (KF 420, dt=4, mask=raw, motion=none): 16.9018 dB bad=17.0592 dl1=15.0378 n_dyn=4647
+  [gate] P2c f439 (KF 435, dt=4, mask=raw, motion=none): 15.9691 dB bad=15.907 dl1=15.2377 n_dyn=5940
+  [gate] P2c f455 (KF 455, dt=0, mask=raw, motion=none): 30.705 dB bad=30.7071 dl1=6.4023 n_dyn=4675
+[dyn_probe] written results/embrace_dyn/evidence/dyn_probe_5seq_balloon2_results.json
+── baseline ──
+  P1  n= 16 dyn_psnr=13.2509 dB dyn_dl1=44.6421 cm cov=1.0 static=23.6652 n_dyn=0.0
+  P2  n= 16 dyn_psnr=30.9086 dB dyn_dl1=7.6653 cm cov=1.0 static=23.9979 n_dyn=6113.5
+  C-  n= 16 dyn_psnr=13.1545 dB dyn_dl1=38.6231 cm cov=1.0 static=17.8582 n_dyn=6113.5
+  P4  n= 16 dyn_psnr=13.8472 dB dyn_dl1=30.5952 cm cov=1.0 static=18.4503 n_dyn=7658.0
+  P2c n= 15 dyn_psnr=22.3827 dB dyn_dl1=10.4663 cm cov=1.0 static=23.4603 n_dyn=6061.7333
+── gate ──
+  P1  n= 16 dyn_psnr=12.7287 dB dyn_dl1=44.4014 cm cov=1.0 static=24.7693 n_dyn=0.0
+  P2  n= 16 dyn_psnr=31.1922 dB dyn_dl1=7.1172 cm cov=1.0 static=25.0108 n_dyn=6113.5
+  C-  n= 16 dyn_psnr=12.75 dB dyn_dl1=38.3862 cm cov=1.0 static=17.7434 n_dyn=6113.5
+  P4  n= 16 dyn_psnr=13.6556 dB dyn_dl1=30.3523 cm cov=1.0 static=18.5652 n_dyn=7658.0
+  P2c n= 15 dyn_psnr=22.0884 dB dyn_dl1=10.4317 cm cov=1.0 static=23.8835 n_dyn=6061.7333
+  balloon2 rc=0
+RUN  person_tracking 2026年 10月 05日 星期一 17:24:16 CST
+[dyn_probe] config=configs/experiments/embrace_dyn/probe_5seq_person_tracking.yaml arms=['P1', 'P2', 'C-', 'P4', 'P2c'] frames=[28, 56, 159, 169, 179, 189, 200, 210, 220, 230, 241, 251, 261, 271, 282, 292]
+[dyn_probe] baseline: n_static=77231 mask=dynamic_mask
+  [baseline] P1 f28: 12.0938 dB dl1=38.7504
+  [baseline] P1 f56: 7.3056 dB dl1=37.7139
+  [baseline] P1 f159: 5.7967 dB dl1=39.6088
+  [baseline] P1 f169: 6.6654 dB dl1=40.4239
+  [baseline] P1 f179: 5.6342 dB dl1=44.4177
+  [baseline] P1 f189: 5.3472 dB dl1=42.648
+  [baseline] P1 f200: 7.6335 dB dl1=42.1039
+  [baseline] P1 f210: 7.2228 dB dl1=42.0447
+  [baseline] P1 f220: 7.1747 dB dl1=41.987
+  [baseline] P1 f230: 8.8932 dB dl1=44.164
+  [baseline] P1 f241: 10.5353 dB dl1=42.9311
+  [baseline] P1 f251: 9.3681 dB dl1=41.077
+  [baseline] P1 f261: 11.1246 dB dl1=36.7162
+  [baseline] P1 f271: 13.298 dB dl1=36.3921
+  [baseline] P1 f282: 18.5398 dB dl1=39.983
+  [baseline] P1 f292: 20.031 dB dl1=33.2865
+  [baseline] P4 fit@241: {'iters': 300, 'loss_first': 0.30828, 'loss_last': 0.02803, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9419}
+  [baseline] P4 f28: 12.0938 dB dl1=38.7504
+  [baseline] P4 f56: 7.3056 dB dl1=37.7139
+  [baseline] P4 f159: 5.7967 dB dl1=39.6088
+  [baseline] P4 f169: 6.6654 dB dl1=40.4239
+  [baseline] P4 f179: 5.6342 dB dl1=44.4177
+  [baseline] P4 f189: 5.3472 dB dl1=42.648
+  [baseline] P4 f200: 7.6335 dB dl1=42.1039
+  [baseline] P4 f210: 7.2228 dB dl1=42.0447
+  [baseline] P4 f220: 7.1421 dB dl1=42.0038
+  [baseline] P4 f230: 9.2199 dB dl1=35.2101
+  [baseline] P4 f241: 31.1249 dB dl1=9.5505
+  [baseline] P4 f251: 10.0076 dB dl1=31.6055
+  [baseline] P4 f261: 11.4129 dB dl1=36.4243
+  [baseline] P4 f271: 12.6945 dB dl1=38.0416
+  [baseline] P4 f282: 17.355 dB dl1=40.4707
+  [baseline] P4 f292: 16.4543 dB dl1=35.7815
+  [baseline] P2 f28: 32.7954 dB dl1=6.207 (fit 0.23146->0.02196)
+  [baseline] C- f28: 12.3405 dB dl1=37.1104
+  [baseline] P2 f56: 28.0509 dB dl1=12.2753 (fit 0.37244->0.03814)
+  [baseline] C- f56: 7.509 dB dl1=37.2985
+  [baseline] P2 f159: 28.2538 dB dl1=9.8209 (fit 0.43157->0.03282)
+  [baseline] C- f159: 5.7292 dB dl1=39.8977
+  [baseline] P2 f169: 29.9047 dB dl1=9.489 (fit 0.39062->0.03001)
+  [baseline] C- f169: 6.4611 dB dl1=40.2019
+  [baseline] P2 f179: 29.3063 dB dl1=10.0751 (fit 0.44895->0.03264)
+  [baseline] C- f179: 5.8505 dB dl1=44.3545
+  [baseline] P2 f189: 28.5586 dB dl1=8.797 (fit 0.44391->0.03363)
+  [baseline] C- f189: 5.309 dB dl1=42.5947
+  [baseline] P2 f200: 30.2022 dB dl1=9.1567 (fit 0.35951->0.02976)
+  [baseline] C- f200: 7.1739 dB dl1=42.7498
+  [baseline] P2 f210: 29.9731 dB dl1=8.581 (fit 0.37083->0.02916)
+  [baseline] C- f210: 7.1202 dB dl1=41.5352
+  [baseline] P2 f220: 29.1051 dB dl1=10.6662 (fit 0.38345->0.03328)
+  [baseline] C- f220: 7.0662 dB dl1=41.3546
+  [baseline] P2 f230: 30.3547 dB dl1=9.5922 (fit 0.32759->0.03021)
+  [baseline] C- f230: 8.7822 dB dl1=41.6039
+  [baseline] P2 f241: 31.0175 dB dl1=9.5621 (fit 0.30828->0.02822)
+  [baseline] C- f241: 9.7338 dB dl1=39.5049
+  [baseline] P2 f251: 24.0464 dB dl1=8.5658 (fit 0.32941->0.03929)
+  [baseline] C- f251: 8.2722 dB dl1=37.0909
+  [baseline] P2 f261: 25.1424 dB dl1=9.4888 (fit 0.26338->0.0345)
+  [baseline] C- f261: 11.0345 dB dl1=33.1151
+  [baseline] P2 f271: 30.471 dB dl1=15.2492 (fit 0.19559->0.03654)
+  [baseline] C- f271: 12.3881 dB dl1=33.4233
+  [baseline] P2 f282: 30.2297 dB dl1=16.4387 (fit 0.14969->0.03522)
+  [baseline] C- f282: 14.6612 dB dl1=37.484
+  [baseline] P2 f292: 29.1449 dB dl1=28.3962 (fit 0.10776->0.05589)
+  [baseline] C- f292: 17.9944 dB dl1=33.2651
+  [baseline] 因果臂 ['P2c']：KF 数=115 首=5 末=575
+  [baseline] P2c f28 (KF 25, dt=3, mask=raw, motion=none): 14.6054 dB bad=15.0125 dl1=12.5375 n_dyn=4033
+  [baseline] P2c f56 (KF 55, dt=1, mask=raw, motion=none): 17.7209 dB bad=17.555 dl1=14.5359 n_dyn=4108
+  [baseline] P2c f159 (KF 155, dt=4, mask=raw, motion=none): 9.9588 dB bad=9.723 dl1=19.702 n_dyn=4083
+  [baseline] P2c f169 (KF 165, dt=4, mask=raw, motion=none): 10.1444 dB bad=9.9317 dl1=24.4554 n_dyn=4766
+  [baseline] P2c f179 (KF 175, dt=4, mask=raw, motion=none): 9.5817 dB bad=9.6205 dl1=24.4959 n_dyn=4430
+  [baseline] P2c f189 (KF 185, dt=4, mask=raw, motion=none): 9.4498 dB bad=9.2933 dl1=22.9297 n_dyn=5188
+  [baseline] P2c f200 (KF 200, dt=0, mask=raw, motion=none): 30.173 dB bad=30.083 dl1=9.1964 n_dyn=4730
+  [baseline] P2c f210 (KF 210, dt=0, mask=raw, motion=none): 30.0247 dB bad=29.9965 dl1=8.5741 n_dyn=4476
+  [baseline] P2c f220 (KF 220, dt=0, mask=raw, motion=none): 29.091 dB bad=28.9464 dl1=10.6427 n_dyn=5015
+  [baseline] P2c f230 (KF 230, dt=0, mask=raw, motion=none): 30.3226 dB bad=30.3459 dl1=9.5716 n_dyn=5640
+  [baseline] P2c f241 (KF 240, dt=1, mask=raw, motion=none): 18.6306 dB bad=19.172 dl1=13.0898 n_dyn=5873
+  [baseline] P2c f251 (KF 250, dt=1, mask=raw, motion=none): 20.2382 dB bad=20.7138 dl1=9.6677 n_dyn=5324
+  [baseline] P2c f261 (KF 260, dt=1, mask=raw, motion=none): 21.8591 dB bad=21.8197 dl1=10.8345 n_dyn=4992
+  [baseline] P2c f271 (KF 270, dt=1, mask=raw, motion=none): 20.9688 dB bad=20.6953 dl1=17.3839 n_dyn=5050
+  [baseline] P2c f282 (KF 280, dt=2, mask=raw, motion=none): 21.2824 dB bad=21.0611 dl1=18.7114 n_dyn=5146
+  [baseline] P2c f292 (KF 290, dt=2, mask=raw, motion=none): 22.1132 dB bad=22.2047 dl1=30.8662 n_dyn=3815
+[dyn_probe] gate: n_static=47594 mask=dynamic_mask
+  [gate] P1 f28: 11.5326 dB dl1=38.7142
+  [gate] P1 f56: 7.4766 dB dl1=37.1281
+  [gate] P1 f159: 5.7793 dB dl1=37.5542
+  [gate] P1 f169: 6.3352 dB dl1=39.0992
+  [gate] P1 f179: 5.6488 dB dl1=42.8807
+  [gate] P1 f189: 5.4403 dB dl1=40.7577
+  [gate] P1 f200: 7.5065 dB dl1=40.5939
+  [gate] P1 f210: 7.4574 dB dl1=42.2226
+  [gate] P1 f220: 6.934 dB dl1=43.3998
+  [gate] P1 f230: 9.326 dB dl1=42.8071
+  [gate] P1 f241: 8.9162 dB dl1=42.9768
+  [gate] P1 f251: 8.6876 dB dl1=42.634
+  [gate] P1 f261: 11.1341 dB dl1=42.9116
+  [gate] P1 f271: 12.5537 dB dl1=41.0975
+  [gate] P1 f282: 15.9604 dB dl1=42.8246
+  [gate] P1 f292: 21.0293 dB dl1=40.5758
+  [gate] P4 fit@241: {'iters': 300, 'loss_first': 0.35722, 'loss_last': 0.05363, 'opa_mean_before': 0.5, 'opa_mean_after': 0.9541}
+  [gate] P4 f28: 11.5326 dB dl1=38.7142
+  [gate] P4 f56: 7.4766 dB dl1=37.1281
+  [gate] P4 f159: 5.7793 dB dl1=37.5542
+  [gate] P4 f169: 6.3352 dB dl1=39.0992
+  [gate] P4 f179: 5.6488 dB dl1=42.8807
+  [gate] P4 f189: 5.4403 dB dl1=40.7577
+  [gate] P4 f200: 7.5065 dB dl1=40.5939
+  [gate] P4 f210: 7.4574 dB dl1=42.2226
+  [gate] P4 f220: 6.9341 dB dl1=43.4019
+  [gate] P4 f230: 9.9064 dB dl1=36.1948
+  [gate] P4 f241: 21.6361 dB dl1=11.6474
+  [gate] P4 f251: 9.9751 dB dl1=32.9904
+  [gate] P4 f261: 11.7563 dB dl1=41.7962
+  [gate] P4 f271: 12.3172 dB dl1=41.7004
+  [gate] P4 f282: 15.1819 dB dl1=43.8822
+  [gate] P4 f292: 15.8698 dB dl1=42.7708
+  [gate] P2 f28: 30.1902 dB dl1=7.378 (fit 0.25396->0.02548)
+  [gate] C- f28: 11.5472 dB dl1=37.5853
+  [gate] P2 f56: 28.6541 dB dl1=10.834 (fit 0.36673->0.03518)
+  [gate] C- f56: 7.4607 dB dl1=36.751
+  [gate] P2 f159: 26.1714 dB dl1=11.3192 (fit 0.43352->0.03954)
+  [gate] C- f159: 5.6467 dB dl1=38.2855
+  [gate] P2 f169: 28.2313 dB dl1=11.0029 (fit 0.40912->0.03553)
+  [gate] C- f169: 6.3556 dB dl1=39.0407
+  [gate] P2 f179: 29.2499 dB dl1=10.0218 (fit 0.45502->0.03196)
+  [gate] C- f179: 5.8305 dB dl1=43.0198
+  [gate] P2 f189: 28.0314 dB dl1=9.2626 (fit 0.44526->0.03531)
+  [gate] C- f189: 5.4003 dB dl1=41.2058
+  [gate] P2 f200: 30.0478 dB dl1=9.7081 (fit 0.35753->0.03127)
+  [gate] C- f200: 7.212 dB dl1=41.1499
+  [gate] P2 f210: 29.9273 dB dl1=10.8478 (fit 0.35863->0.0325)
+  [gate] C- f210: 7.1967 dB dl1=41.7582
+  [gate] P2 f220: 28.2336 dB dl1=13.7252 (fit 0.39271->0.0414)
+  [gate] C- f220: 6.8793 dB dl1=41.9724
+  [gate] P2 f230: 26.5104 dB dl1=9.9606 (fit 0.32732->0.03932)
+  [gate] C- f230: 8.9067 dB dl1=40.5999
+  [gate] P2 f241: 21.5699 dB dl1=11.6283 (fit 0.35722->0.05388)
+  [gate] C- f241: 9.029 dB dl1=40.0924
+  [gate] P2 f251: 20.4502 dB dl1=11.7468 (fit 0.3706->0.05621)
+  [gate] C- f251: 7.8032 dB dl1=39.7637
+  [gate] P2 f261: 21.912 dB dl1=12.0647 (fit 0.30016->0.0471)
+  [gate] C- f261: 10.9044 dB dl1=39.4601
+  [gate] P2 f271: 22.2309 dB dl1=13.2596 (fit 0.25233->0.05808)
+  [gate] C- f271: 12.1207 dB dl1=36.4036
+  [gate] P2 f282: 30.7411 dB dl1=7.8902 (fit 0.23407->0.02924)
+  [gate] C- f282: 14.3779 dB dl1=35.7727
+  [gate] P2 f292: 35.3345 dB dl1=7.7752 (fit 0.15889->0.02219)
+  [gate] C- f292: 14.8966 dB dl1=38.9964
+  [gate] 因果臂 ['P2c']：KF 数=115 首=5 末=575
+  [gate] P2c f28 (KF 25, dt=3, mask=raw, motion=none): 14.6839 dB bad=14.5832 dl1=13.5751 n_dyn=4033
+  [gate] P2c f56 (KF 55, dt=1, mask=raw, motion=none): 18.6854 dB bad=18.4387 dl1=12.8284 n_dyn=4108
+  [gate] P2c f159 (KF 155, dt=4, mask=raw, motion=none): 9.9313 dB bad=9.7599 dl1=20.669 n_dyn=4083
+  [gate] P2c f169 (KF 165, dt=4, mask=raw, motion=none): 10.1653 dB bad=10.1742 dl1=26.3148 n_dyn=4766
+  [gate] P2c f179 (KF 175, dt=4, mask=raw, motion=none): 10.0081 dB bad=10.0663 dl1=23.8034 n_dyn=4430
+  [gate] P2c f189 (KF 185, dt=4, mask=raw, motion=none): 8.9802 dB bad=8.9414 dl1=22.9885 n_dyn=5188
+  [gate] P2c f200 (KF 200, dt=0, mask=raw, motion=none): 30.1019 dB bad=29.9199 dl1=9.6898 n_dyn=4730
+  [gate] P2c f210 (KF 210, dt=0, mask=raw, motion=none): 30.2124 dB bad=30.2186 dl1=10.8753 n_dyn=4476
+  [gate] P2c f220 (KF 220, dt=0, mask=raw, motion=none): 28.1777 dB bad=28.1855 dl1=13.762 n_dyn=5015
+  [gate] P2c f230 (KF 230, dt=0, mask=raw, motion=none): 26.0984 dB bad=25.8369 dl1=10.0269 n_dyn=5640
+  [gate] P2c f241 (KF 240, dt=1, mask=raw, motion=none): 16.2278 dB bad=16.6982 dl1=15.1439 n_dyn=5873
+  [gate] P2c f251 (KF 250, dt=1, mask=raw, motion=none): 16.7618 dB bad=17.2437 dl1=12.8769 n_dyn=5324
+  [gate] P2c f261 (KF 260, dt=1, mask=raw, motion=none): 19.1952 dB bad=19.4715 dl1=12.6148 n_dyn=4992
+  [gate] P2c f271 (KF 270, dt=1, mask=raw, motion=none): 18.269 dB bad=18.6325 dl1=15.8076 n_dyn=5050
+  [gate] P2c f282 (KF 280, dt=2, mask=raw, motion=none): 20.9568 dB bad=20.9151 dl1=9.7711 n_dyn=5146
+  [gate] P2c f292 (KF 290, dt=2, mask=raw, motion=none): 21.3258 dB bad=21.3685 dl1=9.7362 n_dyn=3815
+[dyn_probe] written results/embrace_dyn/evidence/dyn_probe_5seq_person_tracking_results.json
+── baseline ──
+  P1  n= 16 dyn_psnr=9.7915 dB dyn_dl1=40.2655 cm cov=1.0 static=26.592 n_dyn=0.0
+  P2  n= 16 dyn_psnr=29.1598 dB dyn_dl1=11.3976 cm cov=1.0 static=26.8725 n_dyn=4799.375
+  C-  n= 16 dyn_psnr=9.2141 dB dyn_dl1=38.9115 cm cov=1.0 static=16.7115 n_dyn=4799.375
+  P4  n= 16 dyn_psnr=10.8194 dB dyn_dl1=37.3 cm cov=1.0 static=20.974 n_dyn=5916.0
+  P2c n= 16 dyn_psnr=19.7603 dB dyn_dl1=16.0747 cm cov=1.0 static=24.67 n_dyn=4791.8125
+── gate ──
+  P1  n= 16 dyn_psnr=9.4824 dB dyn_dl1=41.1361 cm cov=1.0 static=26.218 n_dyn=0.0
+  P2  n= 16 dyn_psnr=27.3429 dB dyn_dl1=10.5266 cm cov=1.0 static=26.4349 n_dyn=4799.375
+  C-  n= 16 dyn_psnr=8.848 dB dyn_dl1=39.4911 cm cov=1.0 static=16.8681 n_dyn=4799.375
+  P4  n= 16 dyn_psnr=10.0471 dB dyn_dl1=38.3334 cm cov=1.0 static=20.9379 n_dyn=5916.0
+  P2c n= 16 dyn_psnr=18.7363 dB dyn_dl1=15.0302 cm cov=1.0 static=24.5292 n_dyn=4791.8125
+  person_tracking rc=0
+probe_5seq all done 2026年 10月 05日 星期一 17:27:36 CST

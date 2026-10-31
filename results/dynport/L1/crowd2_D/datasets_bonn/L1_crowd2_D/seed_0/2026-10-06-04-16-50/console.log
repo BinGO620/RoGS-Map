@@ -1,0 +1,57 @@
+MonoGS: saving results in 
+results/dynport/L1/crowd2_D/datasets_bonn/L1_crowd2_D/seed_0/2026-10-06-04-16-50
+MonoGS: logging console output to 
+results/dynport/L1/crowd2_D/datasets_bonn/L1_crowd2_D/seed_0/2026-10-06-04-16-50
+/console.log
+MonoGS: Semantic insertion gate frame 0: 65807 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Semantic insertion gate frame 5: 76128 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: DynPort KF 5: inserted=17482 case1_hits=0 n_buf=17482 n_model=34565 
+cond1=0 cond2=0 cap_hits=0
+MonoGS: Backend worker failed: TypeError: can't convert cuda:0 device type 
+tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data/monogs-ours/utils/slam_backend.py", line 1924, in run
+    self._run_loop()
+  File "/data/monogs-ours/utils/slam_backend.py", line 2115, in _run_loop
+    self._dynport_step(cur_frame_idx, self.viewpoints)
+  File "/data/monogs-ours/utils/slam_backend.py", line 1826, in _dynport_step
+    self._dynport_fit(cur_frame_idx, viewpoint)
+  File "/data/monogs-ours/utils/slam_backend.py", line 1860, in _dynport_fit
+    mask_t = torch.as_tensor(np.asarray(mask, dtype=bool)[0] if 
+np.asarray(mask).ndim == 3
+  File 
+"/data/conda_envs/monogs-ours/lib/python3.10/site-packages/torch/_tensor.py", 
+line 1030, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to
+copy the tensor to host memory first.
+
+Process Process-3:
+Traceback (most recent call last):
+  File "/data/conda_envs/monogs-ours/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/data/conda_envs/monogs-ours/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/data/monogs-ours/utils/slam_backend.py", line 1924, in run
+    self._run_loop()
+  File "/data/monogs-ours/utils/slam_backend.py", line 2115, in _run_loop
+    self._dynport_step(cur_frame_idx, self.viewpoints[cur_frame_idx])
+  File "/data/monogs-ours/utils/slam_backend.py", line 1826, in _dynport_step
+    self._dynport_fit(cur_frame_idx, viewpoint)
+  File "/data/monogs-ours/utils/slam_backend.py", line 1860, in _dynport_fit
+    mask_t = torch.as_tensor(np.asarray(mask, dtype=bool)[0] if np.asarray(mask).ndim == 3
+  File "/data/conda_envs/monogs-ours/lib/python3.10/site-packages/torch/_tensor.py", line 1030, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+Traceback (most recent call last):
+  File "/data/monogs-ours/slam.py", line 755, in <module>
+    slam = SLAM(config, save_dir=save_dir)
+  File "/data/monogs-ours/slam.py", line 358, in __init__
+    self.frontend.run()
+  File "/data/monogs-ours/utils/slam_frontend.py", line 3020, in run
+    raise RuntimeError(f"Backend worker failed: {data[1]}")
+RuntimeError: Backend worker failed: TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

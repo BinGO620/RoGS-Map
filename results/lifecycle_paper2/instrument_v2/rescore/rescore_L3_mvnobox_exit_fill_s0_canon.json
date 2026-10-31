@@ -1,0 +1,216 @@
+{
+ "run_dir": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_mvnobox_exit_fill_s0/datasets_bonn/l3_mvnobox_exit_fill/seed_0/2026-09-21-11-01-08",
+ "ply": "/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L3_mvnobox_exit_fill_s0/datasets_bonn/l3_mvnobox_exit_fill/seed_0/2026-09-21-11-01-08/point_cloud/final_after_opt/point_cloud.ply",
+ "frames": [
+  50,
+  95,
+  141,
+  186,
+  232,
+  277,
+  322,
+  368,
+  413,
+  458,
+  504,
+  549,
+  594,
+  640,
+  685,
+  731,
+  776
+ ],
+ "n_prims_total": 46848,
+ "prereg": "prereg_instrument_v2.md",
+ "band_used": 0.15,
+ "summary": {
+  "exc_full_static": {
+   "n": 16,
+   "median": -2.4313,
+   "iqr": [
+    -4.9741,
+    2.7491
+   ],
+   "mean": -2.4866
+  },
+  "exc_ring": {
+   "n": 16,
+   "median": -0.2495,
+   "iqr": [
+    -4.1063,
+    3.6704
+   ],
+   "mean": -1.0315
+  },
+  "exc_depth_matched": {
+   "n": 16,
+   "median": -2.6006,
+   "iqr": [
+    -7.4811,
+    2.4421
+   ],
+   "mean": -3.1436
+  }
+ },
+ "per_frame": [
+  {
+   "frame": 50,
+   "n_vac_px": 0
+  },
+  {
+   "frame": 95,
+   "n_vac_px": 1458,
+   "exc_full_cm": -18.9215,
+   "exc_ring_cm": -2.1695,
+   "exc_m3_cm": -20.1453,
+   "m3_band_tried": null,
+   "m3_z_med": 3.269
+  },
+  {
+   "frame": 141,
+   "n_vac_px": 1339,
+   "exc_full_cm": -7.8093,
+   "exc_ring_cm": -3.0494,
+   "exc_m3_cm": -2.4406,
+   "m3_band_tried": null,
+   "m3_z_med": 3.468
+  },
+  {
+   "frame": 186,
+   "n_vac_px": 1446,
+   "exc_full_cm": 0.66,
+   "exc_ring_cm": 3.19,
+   "exc_m3_cm": -0.3846,
+   "m3_band_tried": null,
+   "m3_z_med": 2.56
+  },
+  {
+   "frame": 232,
+   "n_vac_px": 1459,
+   "exc_full_cm": -9.7415,
+   "exc_ring_cm": -3.4414,
+   "exc_m3_cm": -10.2805,
+   "m3_band_tried": null,
+   "m3_z_med": 2.68
+  },
+  {
+   "frame": 277,
+   "n_vac_px": 21632,
+   "exc_full_cm": 3.2625,
+   "exc_ring_cm": 6.5213,
+   "exc_m3_cm": 2.1353,
+   "m3_band_tried": null,
+   "m3_z_med": 2.56
+  },
+  {
+   "frame": 322,
+   "n_vac_px": 47578,
+   "exc_full_cm": -2.3064,
+   "exc_ring_cm": -7.9516,
+   "exc_m3_cm": -2.7605,
+   "m3_band_tried": null,
+   "m3_z_med": 2.767
+  },
+  {
+   "frame": 368,
+   "n_vac_px": 50364,
+   "exc_full_cm": 2.5779,
+   "exc_ring_cm": -19.2874,
+   "exc_m3_cm": 7.5382,
+   "m3_band_tried": null,
+   "m3_z_med": 2.618
+  },
+  {
+   "frame": 413,
+   "n_vac_px": 74221,
+   "exc_full_cm": 2.0141,
+   "exc_ring_cm": 8.8059,
+   "exc_m3_cm": 1.9033,
+   "m3_band_tried": null,
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 458,
+   "n_vac_px": 103390,
+   "exc_full_cm": -4.6716,
+   "exc_ring_cm": 2.8095,
+   "exc_m3_cm": -4.3817,
+   "m3_band_tried": null,
+   "m3_z_med": 2.701
+  },
+  {
+   "frame": 504,
+   "n_vac_px": 123862,
+   "exc_full_cm": -4.7864,
+   "exc_ring_cm": -8.5863,
+   "exc_m3_cm": -12.8993,
+   "m3_band_tried": null,
+   "m3_z_med": 2.522
+  },
+  {
+   "frame": 549,
+   "n_vac_px": 123263,
+   "exc_full_cm": -4.9177,
+   "exc_ring_cm": -6.1011,
+   "exc_m3_cm": -9.5874,
+   "m3_band_tried": null,
+   "m3_z_med": 2.467
+  },
+  {
+   "frame": 594,
+   "n_vac_px": 123951,
+   "exc_full_cm": -5.1433,
+   "exc_ring_cm": -1.129,
+   "exc_m3_cm": -6.7791,
+   "m3_band_tried": null,
+   "m3_z_med": 2.333
+  },
+  {
+   "frame": 640,
+   "n_vac_px": 124801,
+   "exc_full_cm": -2.5561,
+   "exc_ring_cm": 5.1114,
+   "exc_m3_cm": -4.0123,
+   "m3_band_tried": null,
+   "m3_z_med": 2.256
+  },
+  {
+   "frame": 685,
+   "n_vac_px": 126818,
+   "exc_full_cm": 4.0277,
+   "exc_ring_cm": 5.6379,
+   "exc_m3_cm": 3.3627,
+   "m3_band_tried": null,
+   "m3_z_med": 2.226
+  },
+  {
+   "frame": 731,
+   "n_vac_px": 126370,
+   "exc_full_cm": 4.5934,
+   "exc_ring_cm": 0.63,
+   "exc_m3_cm": 5.0695,
+   "m3_band_tried": null,
+   "m3_z_med": 2.522
+  },
+  {
+   "frame": 776,
+   "n_vac_px": 123823,
+   "exc_full_cm": 3.933,
+   "exc_ring_cm": 2.5058,
+   "exc_m3_cm": 3.3648,
+   "m3_band_tried": null,
+   "m3_z_med": 2.45
+  }
+ ],
+ "instrument_params": {
+  "edge_margin_px": 15,
+  "support_min_px": 200,
+  "sample_cap_px": 5000,
+  "band_options": [
+   0.15,
+   0.25,
+   0.35
+  ]
+ },
+ "note": "\u4e09\u53c2\u7167\u5171\u7528\u540c\u4e00 vacated \u533a\u4e0e\u540c\u4e00\u6e32\u67d3\u6df1\u5ea6\uff1bm3 \u6df1\u5ea6\u6e90 = GT\uff08\u88ab\u8bc4\u5bf9\u8c61\u4e0d\u81ea\u8bc1\uff09\uff1b\u805a\u5408 median+IQR\uff08mean \u4ec5\u5bf9\u7167\u53c2\u8003\uff0c\u4e0d\u4f5c\u7ed3\u8bba\uff0cNOTES:516\uff09"
+}

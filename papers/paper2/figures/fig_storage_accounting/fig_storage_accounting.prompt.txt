@@ -1,0 +1,48 @@
+# fig_storage_accounting — Map size per sequence across arms
+# 论文位置：§6 Anti-dynamic Cost（图注 fig:storage）
+# 类型：数据柱状（真实基元数/存储）→ ❌ 不可用生成模型产出
+#   本文件 = 【样式重构说明书】：用绘图代码重画
+# 目标尺寸：单栏宽 ~89 mm，现图 504×259 pt（≈1.94:1）
+
+================================================================
+中文意图说明
+================================================================
+7 序列的"地图体量"分组柱：每序列 3 臂（base / gate / final 之类）并排柱，
+展示动态处理对体量的影响**跨序列异号**（有的增、有的减）。
+
+待改进点：
+1. 臂间配色与"异号"信息不醒目（正负方向应一眼可见）
+2. x 轴序列名旋转压字；柱间距/组间距不匀
+3. 缺基准线（= base 或 0%）帮读"增/减"方向
+4. 图例可读性
+
+================================================================
+Restyle spec（绘图代码重画，数据不变）
+================================================================
+Keep DATA identical (same per-sequence, per-arm values). Redraw STYLE only.
+
+- Grouped bars, 3 arms per sequence, consistent bar width and white 0.5 pt edges.
+- Arm colours (colourblind-safe): base = #0072B2 (blue), gate = #D55E00 (vermillion),
+  final = #009E73 (bluish green). Distinguish also by a hatch pattern per arm
+  (solid / '//' / '..') so hue is not the only cue.
+- Reference line at the neutral baseline (1.0× or 0%, dotted #333, 0.7 pt) with a tiny
+  inline label so over/under reads instantly.
+- x tick labels = sequence short names, horizontal if they fit else 30°, 6–7 pt.
+- y label "map size (× base)" or "primitives (MB)" — match the caption's unit, Arial 7 pt.
+  Keep it honest about the unit actually plotted.
+- Legend frameless, 6–7 pt, one row (base / gate / final).
+- No in-panel title (LaTeX caption). Light grid alpha 0.25 behind bars.
+- White background; colourblind-safe; output vector PDF, single-column width 89 mm.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT change any bar value. No 3D bars, no shadows, no gradients, no truncated y-axis.
+
+================================================================
+Post checklist
+================================================================
+[ ] 三臂配色色盲安全且**另有 hatch 区分**
+[ ] 柱高与真实数据逐格一致（未编造）
+[ ] 有中性基准线；y 轴单位与图注一致且不截断
+[ ] 图例无框、x 轴标签不压字

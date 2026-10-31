@@ -1,0 +1,45 @@
+# fig3_trajectory_crowd2 — Estimated trajectories vs ground truth (crowd2)
+# 论文位置：§8.2 Measurement（图注 fig:traj）
+# 类型：数据曲线（真实轨迹）→ ❌ 不可用生成模型产出（会编造轨迹形状）
+#   本文件 = 【样式重构说明书】：用绘图代码（matplotlib/R）从真实轨迹数据重画
+# 目标尺寸：单栏 ~89 mm，现图 272×219 pt（近方形）
+
+================================================================
+中文意图说明
+================================================================
+估计轨迹 vs 真值的 2D 俯视对比（crowd2）。3 条线：base 臂、gate 臂、ground truth；
+两条估计臂均已 SE(3) 对齐到 GT 的世界帧。x 轴 z(m)、y 轴 x(m)，等比例。
+
+待改进点：
+1. 默认 matplotlib 配色/线型偏"AI 味"，不够出版级
+2. 图例位置可能压线；坐标轴 tick 偏密
+3. 缺网格轻重层次；两条臂与 GT 的区分靠颜色（色盲不友好）
+
+================================================================
+Restyle spec（绘图代码重画，数据不变）
+================================================================
+Keep the DATA identical (same arrays, same SE(3) alignment). Redraw only the STYLE.
+
+- Lines: ground truth = black dotted (#000000), base = blue solid (#0072B2),
+  gate = vermillion dashed (#D55E00). Colourblind-safe; distinguish ALSO by linestyle
+  (solid vs dashed vs dotted). Linewidth 1.0–1.2 pt.
+- Axes: "x (m)" and "z (m)", Arial 7 pt; equal aspect; ticks 6 pt, few (sparse),
+  direction in, thin 0.5 pt spine.
+- Grid: very light (alpha 0.25), behind data.
+- Legend: frameless (frameon=False), 6–7 pt, placed in an empty corner, no box.
+- No title. No chartjunk. White background.
+- Output: vector PDF, single-column width 89 mm.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT invent, smooth, resample, or "prettify" the trajectory shape. Data points fixed.
+Do NOT add 3D view, no arrows, no annotation balloons unless in the LaTeX caption.
+
+================================================================
+Post checklist
+================================================================
+[ ] 三条线颜色=Okabe-Ito 蓝/朱红/黑，且线型也区分（色盲安全）
+[ ] 等比例坐标、轴标签带单位、tick 稀疏
+[ ] 图例无边框、不压线
+[ ] 轨迹形状与原始数据一致（未编造）

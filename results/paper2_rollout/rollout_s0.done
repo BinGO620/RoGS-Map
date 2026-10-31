@@ -1,0 +1,82 @@
+par-runner 2026年 09月 09日 星期三 21:47:45 CST: 20 jobs queued (roll_balloon_tracking2 roll_balloon_tracking roll_f1_desk2 roll_f1_desk roll_f1_room roll_f2_person roll_f2_xyz roll_f3_office roll_f3_st_hf roll_f3_st_rpy roll_f3_st_static roll_f3_st_xyz roll_f3_wk_hf roll_f3_wk_rpy roll_f3_wk_static roll_f3_wk_xyz roll_moving_nonobstructing_box roll_moving_obstructing_box roll_static roll_synchronous)
+roll_balloon_tracking2_seed0 GPU=1 start 2026年 09月 09日 星期三 21:47:45 CST
+roll_balloon_tracking_seed0 GPU=0 start 2026年 09月 09日 星期三 21:47:45 CST
+roll_balloon_tracking2_seed0 GPU=1 finished rc=0 2026年 09月 09日 星期三 22:03:46 CST
+roll_f1_desk2_seed0 GPU=1 start 2026年 09月 09日 星期三 22:03:46 CST
+roll_f1_desk2_seed0 GPU=1 finished rc=0 2026年 09月 09日 星期三 22:25:03 CST
+roll_f1_room_seed0 GPU=1 start 2026年 09月 09日 星期三 22:25:03 CST
+roll_f1_room_seed0 GPU=1 finished rc=0 2026年 09月 09日 星期三 23:03:14 CST
+roll_f2_xyz_seed0 GPU=1 start 2026年 09月 09日 星期三 23:03:14 CST
+roll_balloon_tracking_seed0 GPU=0 finished rc=0 2026年 09月 09日 星期三 23:29:19 CST
+roll_f1_desk_seed0 GPU=0 start 2026年 09月 09日 星期三 23:29:19 CST
+roll_f2_xyz_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 00:14:02 CST
+roll_f3_st_hf_seed0 GPU=1 start 2026年 09月 10日 星期四 00:14:02 CST
+roll_f3_st_hf_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 00:44:35 CST
+roll_f3_st_static_seed0 GPU=1 start 2026年 09月 10日 星期四 00:44:35 CST
+roll_f3_st_static_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 01:00:09 CST
+roll_f3_wk_hf_seed0 GPU=1 start 2026年 09月 10日 星期四 01:00:09 CST
+roll_f1_desk_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 01:11:58 CST
+roll_f2_person_seed0 GPU=0 start 2026年 09月 10日 星期四 01:11:58 CST
+roll_f3_wk_hf_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 01:27:51 CST
+roll_f3_wk_static_seed0 GPU=1 start 2026年 09月 10日 星期四 01:27:51 CST
+roll_f3_wk_static_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 01:46:13 CST
+roll_moving_nonobstructing_box_seed0 GPU=1 start 2026年 09月 10日 星期四 01:46:13 CST
+roll_moving_nonobstructing_box_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 02:19:02 CST
+roll_static_seed0 GPU=1 start 2026年 09月 10日 星期四 02:19:02 CST
+roll_static_seed0 GPU=1 finished rc=1 2026年 09月 10日 星期四 02:19:23 CST
+roll_f2_person_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 09:21:23 CST
+roll_f3_office_seed0 GPU=0 start 2026年 09月 10日 星期四 09:21:23 CST
+roll_f3_office_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 13:26:27 CST
+roll_f3_st_rpy_seed0 GPU=0 start 2026年 09月 10日 星期四 13:26:27 CST
+roll_f3_st_rpy_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 14:28:59 CST
+roll_f3_st_xyz_seed0 GPU=0 start 2026年 09月 10日 星期四 14:28:59 CST
+roll_f3_st_xyz_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 15:48:26 CST
+roll_f3_wk_rpy_seed0 GPU=0 start 2026年 09月 10日 星期四 15:48:26 CST
+roll_f3_wk_rpy_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 16:55:13 CST
+roll_f3_wk_xyz_seed0 GPU=0 start 2026年 09月 10日 星期四 16:55:13 CST
+roll_f3_wk_xyz_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 17:49:58 CST
+roll_moving_obstructing_box_seed0 GPU=0 start 2026年 09月 10日 星期四 17:49:58 CST
+roll_moving_obstructing_box_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 18:43:21 CST
+roll_synchronous_seed0 GPU=0 start 2026年 09月 10日 星期四 18:43:21 CST
+roll_synchronous_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 19:07:47 CST
+batch all done 2026年 09月 10日 星期四 19:07:47 CST (workers=2 gpus=0 1)
+par-runner 2026年 09月 10日 星期四 19:29:10 CST: 21 jobs queued (roll_balloon_tracking2 roll_balloon_tracking rollbase_balloon_tracking2 rollbase_balloon_tracking rollbase_f1_desk2 rollbase_f1_desk rollbase_f1_room rollbase_f2_person rollbase_f2_xyz rollbase_f3_office rollbase_f3_st_hf rollbase_f3_st_rpy rollbase_f3_st_static rollbase_f3_st_xyz rollbase_f3_wk_hf rollbase_f3_wk_rpy rollbase_f3_wk_static rollbase_f3_wk_xyz rollbase_moving_nonobstructing_box rollbase_moving_obstructing_box rollbase_static rollbase_synchronous roll_f1_desk2 roll_f1_desk roll_f1_room roll_f2_person roll_f2_xyz roll_f3_office roll_f3_st_hf roll_f3_st_rpy roll_f3_st_static roll_f3_st_xyz roll_f3_wk_hf roll_f3_wk_rpy roll_f3_wk_static roll_f3_wk_xyz roll_moving_nonobstructing_box roll_moving_obstructing_box roll_static roll_synchronous )
+rollbase_balloon_tracking2_seed0 GPU=1 start 2026年 09月 10日 星期四 19:29:10 CST
+rollbase_balloon_tracking_seed0 GPU=0 start 2026年 09月 10日 星期四 19:29:10 CST
+rollbase_balloon_tracking2_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 20:01:46 CST
+rollbase_f1_desk2_seed0 GPU=1 start 2026年 09月 10日 星期四 20:01:46 CST
+rollbase_balloon_tracking_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 20:09:13 CST
+rollbase_f1_desk_seed0 GPU=0 start 2026年 09月 10日 星期四 20:09:13 CST
+rollbase_f1_desk2_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 20:44:25 CST
+rollbase_f1_room_seed0 GPU=1 start 2026年 09月 10日 星期四 20:44:25 CST
+rollbase_f1_desk_seed0 GPU=0 finished rc=0 2026年 09月 10日 星期四 20:53:09 CST
+rollbase_f2_person_seed0 GPU=0 start 2026年 09月 10日 星期四 20:53:09 CST
+rollbase_f1_room_seed0 GPU=1 finished rc=0 2026年 09月 10日 星期四 21:58:14 CST
+rollbase_f2_xyz_seed0 GPU=1 start 2026年 09月 10日 星期四 21:58:14 CST
+rollbase_f2_person_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 00:12:02 CST
+rollbase_f3_office_seed0 GPU=0 start 2026年 09月 11日 星期五 00:12:02 CST
+rollbase_f2_xyz_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 00:27:03 CST
+rollbase_f3_st_hf_seed0 GPU=1 start 2026年 09月 11日 星期五 00:27:03 CST
+rollbase_f3_st_hf_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 01:36:01 CST
+rollbase_f3_st_static_seed0 GPU=1 start 2026年 09月 11日 星期五 01:36:01 CST
+rollbase_f3_st_static_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 02:13:17 CST
+rollbase_f3_wk_hf_seed0 GPU=1 start 2026年 09月 11日 星期五 02:13:17 CST
+rollbase_f3_wk_hf_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 02:57:21 CST
+rollbase_f3_wk_static_seed0 GPU=1 start 2026年 09月 11日 星期五 02:57:21 CST
+rollbase_f3_office_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 03:12:26 CST
+rollbase_f3_st_rpy_seed0 GPU=0 start 2026年 09月 11日 星期五 03:12:26 CST
+rollbase_f3_wk_static_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 03:14:35 CST
+rollbase_moving_nonobstructing_box_seed0 GPU=1 start 2026年 09月 11日 星期五 03:14:35 CST
+rollbase_f3_st_rpy_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 03:41:08 CST
+rollbase_f3_st_xyz_seed0 GPU=0 start 2026年 09月 11日 星期五 03:41:08 CST
+rollbase_moving_nonobstructing_box_seed0 GPU=1 finished rc=0 2026年 09月 11日 星期五 03:45:06 CST
+rollbase_static_seed0 GPU=1 start 2026年 09月 11日 星期五 03:45:06 CST
+rollbase_f3_st_xyz_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 04:27:03 CST
+rollbase_f3_wk_rpy_seed0 GPU=0 start 2026年 09月 11日 星期五 04:27:03 CST
+rollbase_f3_wk_rpy_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 05:04:17 CST
+rollbase_f3_wk_xyz_seed0 GPU=0 start 2026年 09月 11日 星期五 05:04:17 CST
+rollbase_f3_wk_xyz_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 05:44:59 CST
+rollbase_moving_obstructing_box_seed0 GPU=0 start 2026年 09月 11日 星期五 05:44:59 CST
+rollbase_moving_obstructing_box_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 06:31:23 CST
+rollbase_synchronous_seed0 GPU=0 start 2026年 09月 11日 星期五 06:31:23 CST
+rollbase_synchronous_seed0 GPU=0 finished rc=0 2026年 09月 11日 星期五 06:43:39 CST

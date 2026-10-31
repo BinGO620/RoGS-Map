@@ -1,0 +1,1159 @@
+MonoGS: saving results in 
+results/lifecycle_paper2/L3_balloon_exit_s2/datasets_bonn/l3_balloon_exit/seed_2
+/2026-09-21-02-04-44
+MonoGS: logging console output to 
+results/lifecycle_paper2/L3_balloon_exit_s2/datasets_bonn/l3_balloon_exit/seed_2
+/2026-09-21-02-04-44/console.log
+MonoGS: Semantic insertion gate frame 0: 50178 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Resetting the system
+MonoGS: Initialized map
+MonoGS: Semantic insertion gate frame 5: 49009 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: alpha-exit KF 5: reset 0, carved 0
+MonoGS: alpha-ledger KF 5: N=17176 proj_valid=16266 visible=17046 
+proj_and_vis=16266 ev_valid_at=14959 updated=14959 | a_min=0.6300 a_mean=0.7207 
+obs_max=1 obs_ge_min=0 resets=0 grows=0 | geom_front=800 geom_free=279 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.0471 ev_hi_frac=0.0390 
+ev_valid_frac=0.8591
+MonoGS: Candidate insert KF 5: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001114, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 10: 46410 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: alpha-exit KF 10: reset 0, carved 0
+MonoGS: alpha-ledger KF 10: N=15573 proj_valid=14744 visible=15269 
+proj_and_vis=14744 ev_valid_at=13449 updated=13449 | a_min=0.5670 a_mean=0.7400 
+obs_max=2 obs_ge_min=0 resets=0 grows=0 | geom_front=352 geom_free=136 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.1091 ev_hi_frac=0.1063 
+ev_valid_frac=0.8342
+MonoGS: Candidate insert KF 10: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 15: 47128 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 6 lineage(s): removed 0 Gaussians
+MonoGS: alpha-exit KF 15: reset 0, carved 0
+MonoGS: alpha-ledger KF 15: N=17852 proj_valid=16989 visible=17549 
+proj_and_vis=16989 ev_valid_at=15178 updated=15178 | a_min=0.5103 a_mean=0.7513 
+obs_max=3 obs_ge_min=10466 resets=0 grows=0 | geom_front=449 geom_free=221 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.1111 ev_hi_frac=0.1086 
+ev_valid_frac=0.8347
+MonoGS: Candidate insert KF 15: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 20: 45451 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  21
+Eval: RMSE ATE [m] 0.006816431135366247
+MonoGS: Pruned 32 lineage(s): removed 6 Gaussians
+MonoGS: alpha-exit KF 20: reset 0, carved 0
+MonoGS: alpha-ledger KF 20: N=22848 proj_valid=21951 visible=22428 
+proj_and_vis=21951 ev_valid_at=19453 updated=19453 | a_min=0.4593 a_mean=0.7555 
+obs_max=4 obs_ge_min=12759 resets=0 grows=0 | geom_front=1211 geom_free=644 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.1129 ev_hi_frac=0.1115 
+ev_valid_frac=0.8427
+MonoGS: Candidate insert KF 20: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 25: 44392 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 86 lineage(s): removed 7 Gaussians
+MonoGS: alpha-exit KF 25: reset 0, carved 0
+MonoGS: alpha-ledger KF 25: N=20510 proj_valid=19078 visible=19629 
+proj_and_vis=19078 ev_valid_at=16638 updated=16638 | a_min=0.4133 a_mean=0.7699 
+obs_max=5 obs_ge_min=14406 resets=0 grows=0 | geom_front=739 geom_free=273 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.1202 ev_hi_frac=0.1169 
+ev_valid_frac=0.8362
+MonoGS: Candidate insert KF 25: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 30: 44352 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3117 lineage(s): removed 1323 Gaussians
+MonoGS: alpha-exit KF 30: reset 0, carved 0
+MonoGS: alpha-ledger KF 30: N=20315 proj_valid=19032 visible=19532 
+proj_and_vis=19032 ev_valid_at=16906 updated=16906 | a_min=0.3720 a_mean=0.7730 
+obs_max=6 obs_ge_min=14070 resets=0 grows=0 | geom_front=708 geom_free=394 
+a_lt_reset=0 a_lt_carve=0 | ev_mean=0.1294 ev_hi_frac=0.1268 
+ev_valid_frac=0.8472
+MonoGS: Candidate insert KF 30: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 35: 41736 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3421 lineage(s): removed 1530 Gaussians
+MonoGS: alpha-exit KF 35: reset 32, carved 0
+MonoGS: alpha-ledger KF 35: N=23785 proj_valid=21785 visible=22255 
+proj_and_vis=21785 ev_valid_at=19223 updated=19223 | a_min=0.3348 a_mean=0.7703 
+obs_max=7 obs_ge_min=14170 resets=0 grows=0 | geom_front=1749 geom_free=1221 
+a_lt_reset=182 a_lt_carve=0 | ev_mean=0.1296 ev_hi_frac=0.1279 
+ev_valid_frac=0.8507
+MonoGS: Candidate insert KF 35: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 40: 46335 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4209 lineage(s): removed 1069 Gaussians
+MonoGS: alpha-exit KF 40: reset 0, carved 0
+MonoGS: alpha-ledger KF 40: N=18750 proj_valid=16428 visible=16810 
+proj_and_vis=16428 ev_valid_at=14870 updated=14870 | a_min=0.3013 a_mean=0.7854 
+obs_max=8 obs_ge_min=12994 resets=0 grows=0 | geom_front=465 geom_free=137 
+a_lt_reset=176 a_lt_carve=0 | ev_mean=0.1356 ev_hi_frac=0.1293 
+ev_valid_frac=0.8495
+MonoGS: Candidate insert KF 40: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 45: 46381 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  46
+Eval: RMSE ATE [m] 0.008648486821481921
+MonoGS: Pruned 3955 lineage(s): removed 743 Gaussians
+MonoGS: alpha-exit KF 45: reset 0, carved 0
+MonoGS: alpha-ledger KF 45: N=23007 proj_valid=20529 visible=20926 
+proj_and_vis=20529 ev_valid_at=18681 updated=18681 | a_min=0.2712 a_mean=0.7800 
+obs_max=9 obs_ge_min=13892 resets=0 grows=0 | geom_front=1092 geom_free=603 
+a_lt_reset=220 a_lt_carve=0 | ev_mean=0.1284 ev_hi_frac=0.1220 
+ev_valid_frac=0.8483
+MonoGS: Candidate insert KF 45: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001005, scale_max=0.020000, scale_init=knn
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Semantic insertion gate frame 50: 46052 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4372 lineage(s): removed 1621 Gaussians
+MonoGS: alpha-exit KF 50: reset 0, carved 0
+MonoGS: alpha-ledger KF 50: N=20063 proj_valid=18329 visible=18736 
+proj_and_vis=18329 ev_valid_at=16604 updated=16604 | a_min=0.2441 a_mean=0.7930 
+obs_max=10 obs_ge_min=14061 resets=0 grows=0 | geom_front=620 geom_free=249 
+a_lt_reset=262 a_lt_carve=0 | ev_mean=0.1247 ev_hi_frac=0.1208 
+ev_valid_frac=0.8489
+MonoGS: Candidate insert KF 50: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001098, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 55: 47078 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4494 lineage(s): removed 1408 Gaussians
+MonoGS: alpha-exit KF 55: reset 0, carved 0
+MonoGS: alpha-ledger KF 55: N=23655 proj_valid=22315 visible=22678 
+proj_and_vis=22315 ev_valid_at=19872 updated=19872 | a_min=0.2197 a_mean=0.7872 
+obs_max=11 obs_ge_min=15085 resets=0 grows=0 | geom_front=627 geom_free=163 
+a_lt_reset=364 a_lt_carve=0 | ev_mean=0.1227 ev_hi_frac=0.1203 
+ev_valid_frac=0.8449
+MonoGS: Candidate insert KF 55: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 60: 50304 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4141 lineage(s): removed 711 Gaussians
+MonoGS: alpha-exit KF 60: reset 1, carved 0
+MonoGS: alpha-ledger KF 60: N=18320 proj_valid=15721 visible=16200 
+proj_and_vis=15721 ev_valid_at=14332 updated=14332 | a_min=0.1977 a_mean=0.7913 
+obs_max=12 obs_ge_min=13532 resets=0 grows=0 | geom_front=1320 geom_free=749 
+a_lt_reset=370 a_lt_carve=94 | ev_mean=0.1626 ev_hi_frac=0.1546 
+ev_valid_frac=0.8619
+MonoGS: Candidate insert KF 60: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 65: 53834 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3423 lineage(s): removed 1149 Gaussians
+MonoGS: alpha-exit KF 65: reset 2, carved 2
+MonoGS: alpha-ledger KF 65: N=22174 proj_valid=18684 visible=19164 
+proj_and_vis=18684 ev_valid_at=16564 updated=16564 | a_min=0.1779 a_mean=0.7812 
+obs_max=13 obs_ge_min=13593 resets=0 grows=0 | geom_front=1347 geom_free=559 
+a_lt_reset=223 a_lt_carve=58 | ev_mean=0.1436 ev_hi_frac=0.1377 
+ev_valid_frac=0.8492
+MonoGS: Candidate insert KF 65: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001168, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 70: 55851 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  71
+Eval: RMSE ATE [m] 0.009833388550899843
+MonoGS: Pruned 4463 lineage(s): removed 1481 Gaussians
+MonoGS: alpha-exit KF 70: reset 6, carved 0
+MonoGS: alpha-ledger KF 70: N=25691 proj_valid=22292 visible=22835 
+proj_and_vis=22292 ev_valid_at=19504 updated=19504 | a_min=0.1789 a_mean=0.7743 
+obs_max=14 obs_ge_min=13481 resets=0 grows=0 | geom_front=1729 geom_free=640 
+a_lt_reset=132 a_lt_carve=1 | ev_mean=0.1613 ev_hi_frac=0.1562 
+ev_valid_frac=0.8605
+MonoGS: Candidate insert KF 70: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001174, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 75: 56013 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4388 lineage(s): removed 1695 Gaussians
+MonoGS: alpha-exit KF 75: reset 2, carved 0
+MonoGS: alpha-ledger KF 75: N=18359 proj_valid=15398 visible=15923 
+proj_and_vis=15398 ev_valid_at=13634 updated=13634 | a_min=0.2074 a_mean=0.7827 
+obs_max=15 obs_ge_min=11918 resets=0 grows=0 | geom_front=1191 geom_free=456 
+a_lt_reset=58 a_lt_carve=0 | ev_mean=0.2175 ev_hi_frac=0.1880 
+ev_valid_frac=0.8587
+MonoGS: Candidate insert KF 75: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001195, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 80: 53793 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4556 lineage(s): removed 1183 Gaussians
+MonoGS: alpha-exit KF 80: reset 0, carved 0
+MonoGS: alpha-ledger KF 80: N=22176 proj_valid=19307 visible=19848 
+proj_and_vis=19307 ev_valid_at=17297 updated=17297 | a_min=0.2251 a_mean=0.7739 
+obs_max=16 obs_ge_min=13402 resets=0 grows=0 | geom_front=1645 geom_free=572 
+a_lt_reset=17 a_lt_carve=0 | ev_mean=0.1500 ev_hi_frac=0.1442 
+ev_valid_frac=0.8575
+MonoGS: Candidate insert KF 80: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001548, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 85: 47962 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4233 lineage(s): removed 2284 Gaussians
+MonoGS: alpha-exit KF 85: reset 0, carved 0
+MonoGS: alpha-ledger KF 85: N=24892 proj_valid=22056 visible=22559 
+proj_and_vis=22056 ev_valid_at=19890 updated=19890 | a_min=0.2453 a_mean=0.7736 
+obs_max=17 obs_ge_min=13471 resets=0 grows=0 | geom_front=1242 geom_free=343 
+a_lt_reset=19 a_lt_carve=0 | ev_mean=0.1517 ev_hi_frac=0.1499 
+ev_valid_frac=0.8629
+MonoGS: Candidate insert KF 85: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 90: 42922 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4084 lineage(s): removed 2018 Gaussians
+MonoGS: alpha-exit KF 90: reset 5, carved 0
+MonoGS: alpha-ledger KF 90: N=27874 proj_valid=24458 visible=25067 
+proj_and_vis=24458 ev_valid_at=21935 updated=21935 | a_min=0.2212 a_mean=0.7744 
+obs_max=18 obs_ge_min=15609 resets=0 grows=0 | geom_front=2547 geom_free=1465 
+a_lt_reset=40 a_lt_carve=0 | ev_mean=0.1434 ev_hi_frac=0.1410 
+ev_valid_frac=0.8642
+MonoGS: Candidate insert KF 90: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 95: 40816 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  96
+Eval: RMSE ATE [m] 0.00894162068429037
+MonoGS: Pruned 4012 lineage(s): removed 1066 Gaussians
+MonoGS: alpha-exit KF 95: reset 0, carved 0
+MonoGS: alpha-ledger KF 95: N=17630 proj_valid=14820 visible=15314 
+proj_and_vis=14820 ev_valid_at=13461 updated=13461 | a_min=0.1991 a_mean=0.8041 
+obs_max=19 obs_ge_min=14540 resets=0 grows=0 | geom_front=517 geom_free=132 
+a_lt_reset=50 a_lt_carve=1 | ev_mean=0.1313 ev_hi_frac=0.1262 
+ev_valid_frac=0.8607
+MonoGS: Candidate insert KF 95: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001250, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 100: 38569 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4486 lineage(s): removed 2096 Gaussians
+MonoGS: alpha-exit KF 100: reset 0, carved 0
+MonoGS: alpha-ledger KF 100: N=20534 proj_valid=17983 visible=18532 
+proj_and_vis=17983 ev_valid_at=16186 updated=16186 | a_min=0.1803 a_mean=0.7947 
+obs_max=20 obs_ge_min=14262 resets=0 grows=0 | geom_front=1065 geom_free=458 
+a_lt_reset=113 a_lt_carve=1 | ev_mean=0.1214 ev_hi_frac=0.1192 
+ev_valid_frac=0.8559
+MonoGS: Candidate insert KF 100: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 105: 39666 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 5057 lineage(s): removed 1725 Gaussians
+MonoGS: alpha-exit KF 105: reset 0, carved 0
+MonoGS: alpha-ledger KF 105: N=23809 proj_valid=21285 visible=21896 
+proj_and_vis=21285 ev_valid_at=18840 updated=18840 | a_min=0.1640 a_mean=0.7879 
+obs_max=21 obs_ge_min=12996 resets=0 grows=0 | geom_front=2225 geom_free=1464 
+a_lt_reset=203 a_lt_carve=1 | ev_mean=0.1157 ev_hi_frac=0.1139 
+ev_valid_frac=0.8570
+MonoGS: Candidate insert KF 105: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 110: 39753 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4038 lineage(s): removed 1064 Gaussians
+MonoGS: alpha-exit KF 110: reset 1, carved 0
+MonoGS: alpha-ledger KF 110: N=14715 proj_valid=12298 visible=12914 
+proj_and_vis=12298 ev_valid_at=10733 updated=10733 | a_min=0.1476 a_mean=0.8224 
+obs_max=22 obs_ge_min=12680 resets=0 grows=0 | geom_front=296 geom_free=119 
+a_lt_reset=304 a_lt_carve=2 | ev_mean=0.1118 ev_hi_frac=0.1097 
+ev_valid_frac=0.8624
+MonoGS: Candidate insert KF 110: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 115: 43201 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4406 lineage(s): removed 0 Gaussians
+MonoGS: alpha-exit KF 115: reset 1, carved 0
+MonoGS: alpha-ledger KF 115: N=19715 proj_valid=16902 visible=17562 
+proj_and_vis=16902 ev_valid_at=14996 updated=14996 | a_min=0.1681 a_mean=0.8012 
+obs_max=23 obs_ge_min=13299 resets=0 grows=0 | geom_front=754 geom_free=255 
+a_lt_reset=473 a_lt_carve=3 | ev_mean=0.1106 ev_hi_frac=0.1093 
+ev_valid_frac=0.8610
+MonoGS: Candidate insert KF 115: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001089, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 120: 44355 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  121
+Eval: RMSE ATE [m] 0.010550467118525904
+MonoGS: Pruned 3557 lineage(s): removed 689 Gaussians
+MonoGS: alpha-exit KF 120: reset 1, carved 0
+MonoGS: alpha-ledger KF 120: N=24026 proj_valid=20880 visible=21558 
+proj_and_vis=20880 ev_valid_at=18721 updated=18721 | a_min=0.1661 a_mean=0.7906 
+obs_max=24 obs_ge_min=12943 resets=0 grows=0 | geom_front=1166 geom_free=438 
+a_lt_reset=515 a_lt_carve=15 | ev_mean=0.1168 ev_hi_frac=0.1156 
+ev_valid_frac=0.8647
+MonoGS: Candidate insert KF 120: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 125: 46341 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3927 lineage(s): removed 752 Gaussians
+MonoGS: alpha-exit KF 125: reset 0, carved 0
+MonoGS: alpha-ledger KF 125: N=15953 proj_valid=13378 visible=13997 
+proj_and_vis=13378 ev_valid_at=12063 updated=12063 | a_min=0.1495 a_mean=0.8200 
+obs_max=25 obs_ge_min=13007 resets=0 grows=0 | geom_front=426 geom_free=174 
+a_lt_reset=474 a_lt_carve=46 | ev_mean=0.1390 ev_hi_frac=0.1306 
+ev_valid_frac=0.8659
+MonoGS: Candidate insert KF 125: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001062, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 130: 50673 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4008 lineage(s): removed 5 Gaussians
+MonoGS: alpha-exit KF 130: reset 1, carved 0
+MonoGS: alpha-ledger KF 130: N=20948 proj_valid=17804 visible=18464 
+proj_and_vis=17804 ev_valid_at=16078 updated=16078 | a_min=0.1345 a_mean=0.7979 
+obs_max=26 obs_ge_min=14015 resets=0 grows=0 | geom_front=712 geom_free=183 
+a_lt_reset=463 a_lt_carve=115 | ev_mean=0.1363 ev_hi_frac=0.1345 
+ev_valid_frac=0.8620
+MonoGS: Candidate insert KF 130: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001039, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 135: 54923 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3489 lineage(s): removed 897 Gaussians
+MonoGS: alpha-exit KF 135: reset 0, carved 0
+MonoGS: alpha-ledger KF 135: N=25051 proj_valid=21153 visible=21738 
+proj_and_vis=21153 ev_valid_at=18788 updated=18788 | a_min=0.1218 a_mean=0.7892 
+obs_max=27 obs_ge_min=13706 resets=0 grows=0 | geom_front=1150 geom_free=304 
+a_lt_reset=477 a_lt_carve=190 | ev_mean=0.1488 ev_hi_frac=0.1469 
+ev_valid_frac=0.8534
+MonoGS: Candidate insert KF 135: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001016, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 140: 60539 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4560 lineage(s): removed 1246 Gaussians
+MonoGS: alpha-exit KF 140: reset 3, carved 1
+MonoGS: alpha-ledger KF 140: N=28805 proj_valid=24047 visible=24730 
+proj_and_vis=24047 ev_valid_at=21423 updated=21423 | a_min=0.1097 a_mean=0.7846 
+obs_max=28 obs_ge_min=16340 resets=0 grows=0 | geom_front=1802 geom_free=615 
+a_lt_reset=466 a_lt_carve=209 | ev_mean=0.1612 ev_hi_frac=0.1573 
+ev_valid_frac=0.8532
+MonoGS: Candidate insert KF 140: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 145: 64251 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  146
+MonoGS: Pruned 4684 lineage(s): removed 544 Gaussians
+Eval: RMSE ATE [m] 0.017428031184579515
+MonoGS: alpha-exit KF 145: reset 6, carved 0
+MonoGS: alpha-ledger KF 145: N=17069 proj_valid=13005 visible=13661 
+proj_and_vis=13005 ev_valid_at=11624 updated=11624 | a_min=0.0987 a_mean=0.8230 
+obs_max=29 obs_ge_min=14276 resets=0 grows=0 | geom_front=347 geom_free=61 
+a_lt_reset=406 a_lt_carve=148 | ev_mean=0.1897 ev_hi_frac=0.1836 
+ev_valid_frac=0.8537
+MonoGS: Candidate insert KF 145: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 150: 65032 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4756 lineage(s): removed 1036 Gaussians
+MonoGS: alpha-exit KF 150: reset 6, carved 0
+MonoGS: alpha-ledger KF 150: N=21033 proj_valid=16488 visible=17142 
+proj_and_vis=16488 ev_valid_at=14762 updated=14762 | a_min=0.0889 a_mean=0.7989 
+obs_max=30 obs_ge_min=14012 resets=0 grows=0 | geom_front=481 geom_free=130 
+a_lt_reset=411 a_lt_carve=101 | ev_mean=0.1919 ev_hi_frac=0.1867 
+ev_valid_frac=0.8454
+MonoGS: Candidate insert KF 150: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 155: 68231 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4199 lineage(s): removed 668 Gaussians
+MonoGS: alpha-exit KF 155: reset 3, carved 0
+MonoGS: alpha-ledger KF 155: N=25365 proj_valid=19984 visible=20756 
+proj_and_vis=19984 ev_valid_at=17702 updated=17702 | a_min=0.0800 a_mean=0.7847 
+obs_max=31 obs_ge_min=13774 resets=0 grows=0 | geom_front=896 geom_free=376 
+a_lt_reset=314 a_lt_carve=79 | ev_mean=0.1851 ev_hi_frac=0.1807 
+ev_valid_frac=0.8492
+MonoGS: Candidate insert KF 155: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 160: 67098 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4233 lineage(s): removed 770 Gaussians
+MonoGS: alpha-exit KF 160: reset 4, carved 1
+MonoGS: alpha-ledger KF 160: N=17482 proj_valid=12816 visible=13521 
+proj_and_vis=12816 ev_valid_at=11248 updated=11248 | a_min=0.0720 a_mean=0.8226 
+obs_max=32 obs_ge_min=14965 resets=0 grows=0 | geom_front=281 geom_free=55 
+a_lt_reset=237 a_lt_carve=59 | ev_mean=0.1892 ev_hi_frac=0.1842 
+ev_valid_frac=0.8428
+MonoGS: Candidate insert KF 160: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 165: 65493 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4380 lineage(s): removed 298 Gaussians
+MonoGS: alpha-exit KF 165: reset 1, carved 0
+MonoGS: alpha-ledger KF 165: N=22183 proj_valid=16567 visible=17339 
+proj_and_vis=16567 ev_valid_at=14865 updated=14865 | a_min=0.0700 a_mean=0.7973 
+obs_max=33 obs_ge_min=15403 resets=0 grows=0 | geom_front=489 geom_free=98 
+a_lt_reset=216 a_lt_carve=22 | ev_mean=0.1859 ev_hi_frac=0.1810 
+ev_valid_frac=0.8523
+MonoGS: Candidate insert KF 165: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 170: 62143 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  171
+Eval: RMSE ATE [m] 0.023122939164139013
+MonoGS: Pruned 3039 lineage(s): removed 808 Gaussians
+MonoGS: alpha-exit KF 170: reset 6, carved 0
+MonoGS: alpha-ledger KF 170: N=26375 proj_valid=18988 visible=19836 
+proj_and_vis=18988 ev_valid_at=16461 updated=16461 | a_min=0.0752 a_mean=0.7839 
+obs_max=34 obs_ge_min=14995 resets=0 grows=0 | geom_front=658 geom_free=197 
+a_lt_reset=218 a_lt_carve=19 | ev_mean=0.1746 ev_hi_frac=0.1707 
+ev_valid_frac=0.8413
+MonoGS: Candidate insert KF 170: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 175: 62347 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4628 lineage(s): removed 707 Gaussians
+MonoGS: alpha-exit KF 175: reset 9, carved 1
+MonoGS: alpha-ledger KF 175: N=19127 proj_valid=13116 visible=13935 
+proj_and_vis=13116 ev_valid_at=11581 updated=11581 | a_min=0.0677 a_mean=0.8136 
+obs_max=35 obs_ge_min=16083 resets=0 grows=0 | geom_front=610 geom_free=210 
+a_lt_reset=187 a_lt_carve=7 | ev_mean=0.1711 ev_hi_frac=0.1647 
+ev_valid_frac=0.8470
+MonoGS: Candidate insert KF 175: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 180: 57405 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4521 lineage(s): removed 1 Gaussians
+MonoGS: alpha-exit KF 180: reset 12, carved 0
+MonoGS: alpha-ledger KF 180: N=24125 proj_valid=18242 visible=19026 
+proj_and_vis=18242 ev_valid_at=16218 updated=16218 | a_min=0.1442 a_mean=0.7920 
+obs_max=36 obs_ge_min=16681 resets=0 grows=0 | geom_front=697 geom_free=161 
+a_lt_reset=165 a_lt_carve=2 | ev_mean=0.1609 ev_hi_frac=0.1556 
+ev_valid_frac=0.8453
+MonoGS: Candidate insert KF 180: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 185: 59005 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3217 lineage(s): removed 1064 Gaussians
+MonoGS: alpha-exit KF 185: reset 5, carved 0
+MonoGS: alpha-ledger KF 185: N=28061 proj_valid=22647 visible=23352 
+proj_and_vis=22647 ev_valid_at=20177 updated=20177 | a_min=0.1442 a_mean=0.7826 
+obs_max=37 obs_ge_min=16409 resets=0 grows=0 | geom_front=1102 geom_free=287 
+a_lt_reset=60 a_lt_carve=2 | ev_mean=0.1596 ev_hi_frac=0.1542 
+ev_valid_frac=0.8487
+MonoGS: Candidate insert KF 185: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 190: 59288 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3943 lineage(s): removed 925 Gaussians
+MonoGS: alpha-exit KF 190: reset 1, carved 0
+MonoGS: alpha-ledger KF 190: N=23351 proj_valid=17781 visible=18494 
+proj_and_vis=17781 ev_valid_at=16007 updated=16007 | a_min=0.1442 a_mean=0.7966 
+obs_max=38 obs_ge_min=18323 resets=0 grows=0 | geom_front=812 geom_free=213 
+a_lt_reset=42 a_lt_carve=2 | ev_mean=0.1802 ev_hi_frac=0.1645 
+ev_valid_frac=0.8484
+MonoGS: Candidate insert KF 190: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 195: 63194 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  196
+Eval: RMSE ATE [m] 0.027624385702208952
+MonoGS: Pruned 4171 lineage(s): removed 89 Gaussians
+MonoGS: alpha-exit KF 195: reset 0, carved 0
+MonoGS: alpha-ledger KF 195: N=28273 proj_valid=21625 visible=22307 
+proj_and_vis=21625 ev_valid_at=19841 updated=19841 | a_min=0.1442 a_mean=0.7780 
+obs_max=39 obs_ge_min=19845 resets=0 grows=0 | geom_front=1263 geom_free=418 
+a_lt_reset=18 a_lt_carve=2 | ev_mean=0.1979 ev_hi_frac=0.1807 
+ev_valid_frac=0.8515
+MonoGS: Candidate insert KF 195: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001156, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 200: 61085 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3743 lineage(s): removed 1841 Gaussians
+MonoGS: alpha-exit KF 200: reset 1, carved 0
+MonoGS: alpha-ledger KF 200: N=31448 proj_valid=24386 visible=25099 
+proj_and_vis=24386 ev_valid_at=22484 updated=22484 | a_min=0.1442 a_mean=0.7671 
+obs_max=40 obs_ge_min=19736 resets=0 grows=0 | geom_front=1325 geom_free=320 
+a_lt_reset=18 a_lt_carve=4 | ev_mean=0.2198 ev_hi_frac=0.2022 
+ev_valid_frac=0.8590
+MonoGS: Candidate insert KF 200: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 205: 54668 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4369 lineage(s): removed 1884 Gaussians
+MonoGS: alpha-exit KF 205: reset 2, carved 0
+MonoGS: alpha-ledger KF 205: N=27035 proj_valid=19501 visible=20196 
+proj_and_vis=19501 ev_valid_at=17787 updated=17787 | a_min=0.1442 a_mean=0.7659 
+obs_max=41 obs_ge_min=20992 resets=0 grows=0 | geom_front=1290 geom_free=354 
+a_lt_reset=21 a_lt_carve=4 | ev_mean=0.2688 ev_hi_frac=0.2467 
+ev_valid_frac=0.8545
+MonoGS: Candidate insert KF 205: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001106, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 210: 53301 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4629 lineage(s): removed 938 Gaussians
+MonoGS: alpha-exit KF 210: reset 2, carved 0
+MonoGS: alpha-ledger KF 210: N=31097 proj_valid=23058 visible=23728 
+proj_and_vis=23058 ev_valid_at=21245 updated=21245 | a_min=0.1442 a_mean=0.7534 
+obs_max=42 obs_ge_min=22168 resets=0 grows=0 | geom_front=2496 geom_free=972 
+a_lt_reset=25 a_lt_carve=3 | ev_mean=0.2245 ev_hi_frac=0.1974 
+ev_valid_frac=0.8595
+MonoGS: Candidate insert KF 210: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 215: 49839 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4350 lineage(s): removed 2077 Gaussians
+MonoGS: alpha-exit KF 215: reset 4, carved 0
+MonoGS: alpha-ledger KF 215: N=34021 proj_valid=25276 visible=25957 
+proj_and_vis=25276 ev_valid_at=23528 updated=23528 | a_min=0.1442 a_mean=0.7464 
+obs_max=43 obs_ge_min=22366 resets=0 grows=0 | geom_front=3475 geom_free=1536 
+a_lt_reset=34 a_lt_carve=2 | ev_mean=0.2161 ev_hi_frac=0.1833 
+ev_valid_frac=0.8721
+MonoGS: Candidate insert KF 215: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001527, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 220: 46135 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  221
+Eval: RMSE ATE [m] 0.027360820477151996
+MonoGS: Pruned 4361 lineage(s): removed 2034 Gaussians
+MonoGS: alpha-exit KF 220: reset 3, carved 0
+MonoGS: alpha-ledger KF 220: N=36994 proj_valid=26754 visible=27518 
+proj_and_vis=26754 ev_valid_at=24911 updated=24911 | a_min=0.1442 a_mean=0.7405 
+obs_max=44 obs_ge_min=24548 resets=0 grows=0 | geom_front=4733 geom_free=2100 
+a_lt_reset=69 a_lt_carve=2 | ev_mean=0.2324 ev_hi_frac=0.1984 
+ev_valid_frac=0.8732
+MonoGS: Candidate insert KF 220: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001124, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 225: 45514 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4567 lineage(s): removed 1231 Gaussians
+MonoGS: alpha-exit KF 225: reset 4, carved 0
+MonoGS: alpha-ledger KF 225: N=28502 proj_valid=18442 visible=19106 
+proj_and_vis=18442 ev_valid_at=16958 updated=16958 | a_min=0.1442 a_mean=0.7448 
+obs_max=45 obs_ge_min=24040 resets=0 grows=0 | geom_front=3274 geom_free=1449 
+a_lt_reset=230 a_lt_carve=2 | ev_mean=0.2101 ev_hi_frac=0.1830 
+ev_valid_frac=0.8704
+MonoGS: Candidate insert KF 225: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 230: 47631 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4548 lineage(s): removed 2064 Gaussians
+MonoGS: alpha-exit KF 230: reset 4, carved 0
+MonoGS: alpha-ledger KF 230: N=31438 proj_valid=20412 visible=21078 
+proj_and_vis=20412 ev_valid_at=18986 updated=18986 | a_min=0.1442 a_mean=0.7420 
+obs_max=46 obs_ge_min=23761 resets=0 grows=0 | geom_front=2439 geom_free=801 
+a_lt_reset=416 a_lt_carve=3 | ev_mean=0.1817 ev_hi_frac=0.1476 
+ev_valid_frac=0.8685
+MonoGS: Candidate insert KF 230: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001016, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 235: 52483 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4428 lineage(s): removed 1799 Gaussians
+MonoGS: alpha-exit KF 235: reset 8, carved 0
+MonoGS: alpha-ledger KF 235: N=34640 proj_valid=22589 visible=23314 
+proj_and_vis=22589 ev_valid_at=20983 updated=20983 | a_min=0.1442 a_mean=0.7409 
+obs_max=47 obs_ge_min=23509 resets=0 grows=0 | geom_front=1800 geom_free=485 
+a_lt_reset=1125 a_lt_carve=5 | ev_mean=0.1983 ev_hi_frac=0.1697 
+ev_valid_frac=0.8649
+MonoGS: Candidate insert KF 235: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001061, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 240: 47289 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4281 lineage(s): removed 1338 Gaussians
+MonoGS: alpha-exit KF 240: reset 6, carved 0
+MonoGS: alpha-ledger KF 240: N=29734 proj_valid=16816 visible=17499 
+proj_and_vis=16816 ev_valid_at=15453 updated=15453 | a_min=0.1442 a_mean=0.7489 
+obs_max=48 obs_ge_min=24872 resets=0 grows=0 | geom_front=909 geom_free=333 
+a_lt_reset=1974 a_lt_carve=18 | ev_mean=0.1995 ev_hi_frac=0.1730 
+ev_valid_frac=0.8556
+MonoGS: Candidate insert KF 240: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001156, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 245: 36245 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  246
+Eval: RMSE ATE [m] 0.027448753192240716
+MonoGS: Pruned 3934 lineage(s): removed 679 Gaussians
+MonoGS: alpha-exit KF 245: reset 13, carved 0
+MonoGS: alpha-ledger KF 245: N=34075 proj_valid=20837 visible=21558 
+proj_and_vis=20837 ev_valid_at=18525 updated=18525 | a_min=0.1408 a_mean=0.7471 
+obs_max=49 obs_ge_min=26201 resets=0 grows=0 | geom_front=1001 geom_free=382 
+a_lt_reset=1943 a_lt_carve=41 | ev_mean=0.1167 ev_hi_frac=0.0973 
+ev_valid_frac=0.8280
+MonoGS: Candidate insert KF 245: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001003, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 250: 36874 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3513 lineage(s): removed 1242 Gaussians
+MonoGS: alpha-exit KF 250: reset 72, carved 0
+MonoGS: alpha-ledger KF 250: N=37833 proj_valid=24816 visible=25601 
+proj_and_vis=24816 ev_valid_at=22829 updated=22829 | a_min=0.1268 a_mean=0.7484 
+obs_max=50 obs_ge_min=26521 resets=0 grows=0 | geom_front=1586 geom_free=851 
+a_lt_reset=1229 a_lt_carve=57 | ev_mean=0.1118 ev_hi_frac=0.0915 
+ev_valid_frac=0.8432
+MonoGS: Candidate insert KF 250: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 255: 50686 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3585 lineage(s): removed 1408 Gaussians
+MonoGS: alpha-exit KF 255: reset 60, carved 0
+MonoGS: alpha-ledger KF 255: N=31052 proj_valid=17624 visible=18485 
+proj_and_vis=17624 ev_valid_at=15414 updated=15414 | a_min=0.1186 a_mean=0.7608 
+obs_max=51 obs_ge_min=27661 resets=0 grows=0 | geom_front=794 geom_free=391 
+a_lt_reset=1071 a_lt_carve=202 | ev_mean=0.2159 ev_hi_frac=0.1804 
+ev_valid_frac=0.8393
+MonoGS: Candidate insert KF 255: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 260: 64638 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3807 lineage(s): removed 936 Gaussians
+MonoGS: alpha-exit KF 260: reset 37, carved 0
+MonoGS: alpha-ledger KF 260: N=35116 proj_valid=21672 visible=22579 
+proj_and_vis=21672 ev_valid_at=19877 updated=19877 | a_min=0.1067 a_mean=0.7558 
+obs_max=52 obs_ge_min=27497 resets=0 grows=0 | geom_front=1846 geom_free=1043 
+a_lt_reset=1018 a_lt_carve=322 | ev_mean=0.1768 ev_hi_frac=0.1640 
+ev_valid_frac=0.8504
+MonoGS: Candidate insert KF 260: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Resetting the opacity of non-visible Gaussians
+MonoGS: Semantic insertion gate frame 265: 70813 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4739 lineage(s): removed 1668 Gaussians
+MonoGS: alpha-exit KF 265: reset 22, carved 0
+MonoGS: alpha-ledger KF 265: N=38448 proj_valid=25544 visible=26661 
+proj_and_vis=25544 ev_valid_at=23339 updated=23339 | a_min=0.0960 a_mean=0.7565 
+obs_max=53 obs_ge_min=26955 resets=0 grows=0 | geom_front=2697 geom_free=1462 
+a_lt_reset=1100 a_lt_carve=485 | ev_mean=0.1902 ev_hi_frac=0.1869 
+ev_valid_frac=0.8600
+MonoGS: Candidate insert KF 265: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 270: 70659 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  271
+MonoGS: Pruned 4699 lineage(s): removed 978 Gaussians
+Eval: RMSE ATE [m] 0.026818260800111324
+MonoGS: alpha-exit KF 270: reset 8, carved 0
+MonoGS: alpha-ledger KF 270: N=42470 proj_valid=29701 visible=30777 
+proj_and_vis=29701 ev_valid_at=26133 updated=26133 | a_min=0.0864 a_mean=0.7570 
+obs_max=54 obs_ge_min=30262 resets=0 grows=0 | geom_front=2102 geom_free=1233 
+a_lt_reset=1249 a_lt_carve=597 | ev_mean=0.1944 ev_hi_frac=0.1927 
+ev_valid_frac=0.8410
+MonoGS: Candidate insert KF 270: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 275: 67046 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4365 lineage(s): removed 302 Gaussians
+MonoGS: alpha-exit KF 275: reset 3, carved 1
+MonoGS: alpha-ledger KF 275: N=23125 proj_valid=14145 visible=14837 
+proj_and_vis=14145 ev_valid_at=12739 updated=12739 | a_min=0.0778 a_mean=0.7598 
+obs_max=55 obs_ge_min=20399 resets=0 grows=0 | geom_front=897 geom_free=483 
+a_lt_reset=1199 a_lt_carve=581 | ev_mean=0.1982 ev_hi_frac=0.1890 
+ev_valid_frac=0.8599
+MonoGS: Candidate insert KF 275: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 280: 63849 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3795 lineage(s): removed 1112 Gaussians
+MonoGS: alpha-exit KF 280: reset 0, carved 0
+MonoGS: alpha-ledger KF 280: N=27012 proj_valid=18083 visible=18722 
+proj_and_vis=18083 ev_valid_at=16629 updated=16629 | a_min=0.0700 a_mean=0.7520 
+obs_max=56 obs_ge_min=20260 resets=0 grows=0 | geom_front=1132 geom_free=605 
+a_lt_reset=1401 a_lt_carve=634 | ev_mean=0.1759 ev_hi_frac=0.1733 
+ev_valid_frac=0.8603
+MonoGS: Candidate insert KF 280: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 285: 56940 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4045 lineage(s): removed 1041 Gaussians
+MonoGS: alpha-exit KF 285: reset 5, carved 0
+MonoGS: alpha-ledger KF 285: N=30971 proj_valid=22008 visible=22645 
+proj_and_vis=22008 ev_valid_at=21036 updated=21036 | a_min=0.0630 a_mean=0.7458 
+obs_max=57 obs_ge_min=19862 resets=0 grows=0 | geom_front=2806 geom_free=1505 
+a_lt_reset=1512 a_lt_carve=725 | ev_mean=0.1680 ev_hi_frac=0.1656 
+ev_valid_frac=0.8716
+MonoGS: Candidate insert KF 285: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 290: 59793 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4959 lineage(s): removed 572 Gaussians
+MonoGS: alpha-exit KF 290: reset 17, carved 0
+MonoGS: alpha-ledger KF 290: N=20854 proj_valid=12959 visible=13640 
+proj_and_vis=12959 ev_valid_at=12045 updated=12045 | a_min=0.0567 a_mean=0.7531 
+obs_max=58 obs_ge_min=18100 resets=0 grows=0 | geom_front=818 geom_free=453 
+a_lt_reset=1280 a_lt_carve=642 | ev_mean=0.1675 ev_hi_frac=0.1558 
+ev_valid_frac=0.8680
+MonoGS: Candidate insert KF 290: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 295: 48527 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  296
+MonoGS: Pruned 5148 lineage(s): removed 299 Gaussians
+Eval: RMSE ATE [m] 0.026279153215799565
+MonoGS: alpha-exit KF 295: reset 77, carved 26
+MonoGS: alpha-ledger KF 295: N=25555 proj_valid=16897 visible=17671 
+proj_and_vis=16897 ev_valid_at=15587 updated=15587 | a_min=0.0664 a_mean=0.7458 
+obs_max=59 obs_ge_min=18462 resets=0 grows=0 | geom_front=1498 geom_free=934 
+a_lt_reset=1234 a_lt_carve=454 | ev_mean=0.1554 ev_hi_frac=0.1522 
+ev_valid_frac=0.8643
+MonoGS: Candidate insert KF 295: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 300: 51972 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4928 lineage(s): removed 1042 Gaussians
+MonoGS: alpha-exit KF 300: reset 108, carved 19
+MonoGS: alpha-ledger KF 300: N=29487 proj_valid=19781 visible=20681 
+proj_and_vis=19781 ev_valid_at=18125 updated=18125 | a_min=0.0664 a_mean=0.7426 
+obs_max=60 obs_ge_min=18069 resets=0 grows=0 | geom_front=2393 geom_free=1159 
+a_lt_reset=1023 a_lt_carve=178 | ev_mean=0.1676 ev_hi_frac=0.1647 
+ev_valid_frac=0.8669
+MonoGS: Candidate insert KF 300: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 305: 55614 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4953 lineage(s): removed 568 Gaussians
+MonoGS: alpha-exit KF 305: reset 58, carved 4
+MonoGS: alpha-ledger KF 305: N=20528 proj_valid=12294 visible=13005 
+proj_and_vis=12294 ev_valid_at=11176 updated=11176 | a_min=0.0664 a_mean=0.7574 
+obs_max=61 obs_ge_min=17517 resets=0 grows=0 | geom_front=717 geom_free=267 
+a_lt_reset=574 a_lt_carve=71 | ev_mean=0.1680 ev_hi_frac=0.1605 
+ev_valid_frac=0.8717
+MonoGS: Candidate insert KF 305: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 310: 37560 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4513 lineage(s): removed 313 Gaussians
+MonoGS: alpha-exit KF 310: reset 39, carved 4
+MonoGS: alpha-ledger KF 310: N=25211 proj_valid=16492 visible=17346 
+proj_and_vis=16492 ev_valid_at=15120 updated=15120 | a_min=0.0664 a_mean=0.7567 
+obs_max=62 obs_ge_min=17883 resets=0 grows=0 | geom_front=1223 geom_free=462 
+a_lt_reset=284 a_lt_carve=42 | ev_mean=0.0989 ev_hi_frac=0.0940 
+ev_valid_frac=0.8771
+MonoGS: Candidate insert KF 310: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001075, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 315: 17464 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4314 lineage(s): removed 1181 Gaussians
+MonoGS: alpha-exit KF 315: reset 21, carved 2
+MonoGS: alpha-ledger KF 315: N=29026 proj_valid=20656 visible=21470 
+proj_and_vis=20656 ev_valid_at=19055 updated=19055 | a_min=0.0664 a_mean=0.7627 
+obs_max=63 obs_ge_min=17779 resets=0 grows=0 | geom_front=1667 geom_free=646 
+a_lt_reset=193 a_lt_carve=26 | ev_mean=0.0499 ev_hi_frac=0.0434 
+ev_valid_frac=0.8719
+MonoGS: Candidate insert KF 315: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001054, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 320: 8613 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Evaluating ATE at frame:  321
+Eval: RMSE ATE [m] 0.026543974388279264
+MonoGS: Pruned 4305 lineage(s): removed 771 Gaussians
+MonoGS: alpha-exit KF 320: reset 9, carved 0
+MonoGS: alpha-ledger KF 320: N=33253 proj_valid=24540 visible=25248 
+proj_and_vis=24540 ev_valid_at=22397 updated=22397 | a_min=0.1026 a_mean=0.7678 
+obs_max=64 obs_ge_min=21412 resets=0 grows=0 | geom_front=2663 geom_free=879 
+a_lt_reset=154 a_lt_carve=16 | ev_mean=0.0294 ev_hi_frac=0.0198 
+ev_valid_frac=0.8648
+MonoGS: Candidate insert KF 320: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001189, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4315 lineage(s): removed 405 Gaussians
+MonoGS: alpha-exit KF 325: reset 1, carved 0
+MonoGS: alpha-ledger KF 325: N=25652 proj_valid=16506 visible=17110 
+proj_and_vis=16506 ev_valid_at=15349 updated=15349 | a_min=0.1447 a_mean=0.7872 
+obs_max=65 obs_ge_min=21276 resets=0 grows=0 | geom_front=1892 geom_free=529 
+a_lt_reset=133 a_lt_carve=8 | ev_mean=0.0540 ev_hi_frac=0.0235 
+ev_valid_frac=0.8669
+MonoGS: Candidate insert KF 325: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001159, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4270 lineage(s): removed 1826 Gaussians
+MonoGS: alpha-exit KF 330: reset 3, carved 0
+MonoGS: alpha-ledger KF 330: N=28826 proj_valid=19179 visible=19735 
+proj_and_vis=19179 ev_valid_at=17765 updated=17765 | a_min=0.1596 a_mean=0.7840 
+obs_max=66 obs_ge_min=21491 resets=0 grows=0 | geom_front=2129 geom_free=621 
+a_lt_reset=127 a_lt_carve=7 | ev_mean=0.0376 ev_hi_frac=0.0166 
+ev_valid_frac=0.8699
+MonoGS: Candidate insert KF 330: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001190, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3612 lineage(s): removed 1394 Gaussians
+MonoGS: alpha-exit KF 335: reset 3, carved 0
+MonoGS: alpha-ledger KF 335: N=32432 proj_valid=21797 visible=22395 
+proj_and_vis=21797 ev_valid_at=20561 updated=20561 | a_min=0.1694 a_mean=0.7817 
+obs_max=67 obs_ge_min=22048 resets=0 grows=0 | geom_front=2610 geom_free=720 
+a_lt_reset=125 a_lt_carve=5 | ev_mean=0.0540 ev_hi_frac=0.0271 
+ev_valid_frac=0.8761
+MonoGS: Candidate insert KF 335: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001340, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4294 lineage(s): removed 1510 Gaussians
+MonoGS: alpha-exit KF 340: reset 5, carved 0
+MonoGS: alpha-ledger KF 340: N=35922 proj_valid=24397 visible=25025 
+proj_and_vis=24397 ev_valid_at=22945 updated=22945 | a_min=0.1694 a_mean=0.7809 
+obs_max=68 obs_ge_min=25072 resets=0 grows=0 | geom_front=2700 geom_free=869 
+a_lt_reset=128 a_lt_carve=5 | ev_mean=0.0530 ev_hi_frac=0.0318 
+ev_valid_frac=0.8781
+MonoGS: Candidate insert KF 340: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001151, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  346
+Eval: RMSE ATE [m] 0.02691770036051364
+MonoGS: Pruned 3812 lineage(s): removed 896 Gaussians
+MonoGS: alpha-exit KF 345: reset 2, carved 0
+MonoGS: alpha-ledger KF 345: N=28862 proj_valid=16199 visible=16828 
+proj_and_vis=16199 ev_valid_at=15286 updated=15286 | a_min=0.1694 a_mean=0.7982 
+obs_max=69 obs_ge_min=25499 resets=0 grows=0 | geom_front=2072 geom_free=618 
+a_lt_reset=125 a_lt_carve=4 | ev_mean=0.0665 ev_hi_frac=0.0253 
+ev_valid_frac=0.8762
+MonoGS: Candidate insert KF 345: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001372, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3641 lineage(s): removed 2058 Gaussians
+MonoGS: alpha-exit KF 350: reset 2, carved 0
+MonoGS: alpha-ledger KF 350: N=31804 proj_valid=18624 visible=19268 
+proj_and_vis=18624 ev_valid_at=17375 updated=17375 | a_min=0.1694 a_mean=0.7931 
+obs_max=69 obs_ge_min=25313 resets=0 grows=0 | geom_front=2009 geom_free=586 
+a_lt_reset=126 a_lt_carve=4 | ev_mean=0.0436 ev_hi_frac=0.0194 
+ev_valid_frac=0.8673
+MonoGS: Candidate insert KF 350: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3809 lineage(s): removed 1783 Gaussians
+MonoGS: alpha-exit KF 355: reset 4, carved 0
+MonoGS: alpha-ledger KF 355: N=35021 proj_valid=21413 visible=22020 
+proj_and_vis=21413 ev_valid_at=20052 updated=20052 | a_min=0.1694 a_mean=0.7912 
+obs_max=70 obs_ge_min=24587 resets=0 grows=0 | geom_front=1751 geom_free=491 
+a_lt_reset=127 a_lt_carve=4 | ev_mean=0.0347 ev_hi_frac=0.0168 
+ev_valid_frac=0.8688
+MonoGS: Candidate insert KF 355: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3895 lineage(s): removed 1456 Gaussians
+MonoGS: alpha-exit KF 360: reset 4, carved 0
+MonoGS: alpha-ledger KF 360: N=38565 proj_valid=24429 visible=25158 
+proj_and_vis=24429 ev_valid_at=22766 updated=22766 | a_min=0.1694 a_mean=0.7910 
+obs_max=70 obs_ge_min=27299 resets=0 grows=0 | geom_front=1734 geom_free=424 
+a_lt_reset=129 a_lt_carve=4 | ev_mean=0.0284 ev_hi_frac=0.0147 
+ev_valid_frac=0.8673
+MonoGS: Candidate insert KF 360: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3692 lineage(s): removed 589 Gaussians
+MonoGS: alpha-exit KF 365: reset 1, carved 0
+MonoGS: alpha-ledger KF 365: N=30879 proj_valid=15725 visible=16430 
+proj_and_vis=15725 ev_valid_at=14635 updated=14635 | a_min=0.1726 a_mean=0.8098 
+obs_max=70 obs_ge_min=27708 resets=0 grows=0 | geom_front=1165 geom_free=367 
+a_lt_reset=141 a_lt_carve=4 | ev_mean=0.0479 ev_hi_frac=0.0220 
+ev_valid_frac=0.8669
+MonoGS: Candidate insert KF 365: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  371
+Eval: RMSE ATE [m] 0.02720657118784909
+MonoGS: Pruned 3345 lineage(s): removed 1496 Gaussians
+MonoGS: alpha-exit KF 370: reset 0, carved 0
+MonoGS: alpha-ledger KF 370: N=34383 proj_valid=19285 visible=19980 
+proj_and_vis=19285 ev_valid_at=17748 updated=17748 | a_min=0.1726 a_mean=0.8034 
+obs_max=71 obs_ge_min=27842 resets=0 grows=0 | geom_front=1021 geom_free=293 
+a_lt_reset=140 a_lt_carve=4 | ev_mean=0.0223 ev_hi_frac=0.0110 
+ev_valid_frac=0.8671
+MonoGS: Candidate insert KF 370: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001074, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3577 lineage(s): removed 1831 Gaussians
+MonoGS: alpha-exit KF 375: reset 1, carved 0
+MonoGS: alpha-ledger KF 375: N=37552 proj_valid=22204 visible=22988 
+proj_and_vis=22204 ev_valid_at=20735 updated=20735 | a_min=0.1726 a_mean=0.8001 
+obs_max=72 obs_ge_min=27038 resets=0 grows=0 | geom_front=1242 geom_free=411 
+a_lt_reset=141 a_lt_carve=4 | ev_mean=0.0173 ev_hi_frac=0.0098 
+ev_valid_frac=0.8715
+MonoGS: Candidate insert KF 375: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001163, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3989 lineage(s): removed 1385 Gaussians
+MonoGS: alpha-exit KF 380: reset 1, carved 0
+MonoGS: alpha-ledger KF 380: N=41167 proj_valid=25149 visible=25893 
+proj_and_vis=25149 ev_valid_at=23841 updated=23841 | a_min=0.1726 a_mean=0.7987 
+obs_max=73 obs_ge_min=29726 resets=0 grows=0 | geom_front=1802 geom_free=438 
+a_lt_reset=142 a_lt_carve=4 | ev_mean=0.0134 ev_hi_frac=0.0072 
+ev_valid_frac=0.8678
+MonoGS: Candidate insert KF 380: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4434 lineage(s): removed 688 Gaussians
+MonoGS: alpha-exit KF 385: reset 1, carved 0
+MonoGS: alpha-ledger KF 385: N=32683 proj_valid=15713 visible=16407 
+proj_and_vis=15713 ev_valid_at=14822 updated=14822 | a_min=0.1726 a_mean=0.8222 
+obs_max=74 obs_ge_min=30151 resets=0 grows=0 | geom_front=1306 geom_free=374 
+a_lt_reset=152 a_lt_carve=6 | ev_mean=0.0218 ev_hi_frac=0.0118 
+ev_valid_frac=0.8691
+MonoGS: Candidate insert KF 385: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001298, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4251 lineage(s): removed 1922 Gaussians
+MonoGS: alpha-exit KF 390: reset 1, carved 0
+MonoGS: alpha-ledger KF 390: N=35761 proj_valid=19077 visible=19748 
+proj_and_vis=19077 ev_valid_at=18016 updated=18016 | a_min=0.1726 a_mean=0.8152 
+obs_max=75 obs_ge_min=29692 resets=0 grows=0 | geom_front=1231 geom_free=330 
+a_lt_reset=151 a_lt_carve=6 | ev_mean=0.0137 ev_hi_frac=0.0080 
+ev_valid_frac=0.8698
+MonoGS: Candidate insert KF 390: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001007, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  396
+Eval: RMSE ATE [m] 0.02906757873890746
+MonoGS: Pruned 3928 lineage(s): removed 1273 Gaussians
+MonoGS: alpha-exit KF 395: reset 3, carved 0
+MonoGS: alpha-ledger KF 395: N=39488 proj_valid=22761 visible=23567 
+proj_and_vis=22761 ev_valid_at=21563 updated=21563 | a_min=0.1726 a_mean=0.8103 
+obs_max=76 obs_ge_min=29176 resets=0 grows=0 | geom_front=1352 geom_free=349 
+a_lt_reset=153 a_lt_carve=6 | ev_mean=0.0121 ev_hi_frac=0.0078 
+ev_valid_frac=0.8779
+MonoGS: Candidate insert KF 395: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 400: 4008 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 4139 lineage(s): removed 992 Gaussians
+MonoGS: alpha-exit KF 400: reset 0, carved 0
+MonoGS: alpha-ledger KF 400: N=35366 proj_valid=17545 visible=18428 
+proj_and_vis=17545 ev_valid_at=16656 updated=16656 | a_min=0.1726 a_mean=0.8290 
+obs_max=77 obs_ge_min=31889 resets=0 grows=0 | geom_front=1296 geom_free=341 
+a_lt_reset=159 a_lt_carve=8 | ev_mean=0.0243 ev_hi_frac=0.0117 
+ev_valid_frac=0.8765
+MonoGS: Candidate insert KF 400: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Semantic insertion gate frame 405: 2942 person px zeroed (no dynamic 
+Gaussians)
+MonoGS: Pruned 3912 lineage(s): removed 483 Gaussians
+MonoGS: alpha-exit KF 405: reset 2, carved 0
+MonoGS: alpha-ledger KF 405: N=39883 proj_valid=22316 visible=23289 
+proj_and_vis=22316 ev_valid_at=20774 updated=20774 | a_min=0.1726 a_mean=0.8199 
+obs_max=78 obs_ge_min=33129 resets=0 grows=0 | geom_front=1338 geom_free=371 
+a_lt_reset=162 a_lt_carve=8 | ev_mean=0.0228 ev_hi_frac=0.0140 
+ev_valid_frac=0.8747
+MonoGS: Candidate insert KF 405: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001092, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3318 lineage(s): removed 1011 Gaussians
+MonoGS: alpha-exit KF 410: reset 4, carved 0
+MonoGS: alpha-ledger KF 410: N=43872 proj_valid=26510 visible=27488 
+proj_and_vis=26510 ev_valid_at=24252 updated=24252 | a_min=0.1726 a_mean=0.8159 
+obs_max=79 obs_ge_min=33425 resets=0 grows=0 | geom_front=1153 geom_free=299 
+a_lt_reset=165 a_lt_carve=8 | ev_mean=0.0123 ev_hi_frac=0.0078 
+ev_valid_frac=0.8692
+MonoGS: Candidate insert KF 410: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 3958 lineage(s): removed 1631 Gaussians
+MonoGS: alpha-exit KF 415: reset 5, carved 0
+MonoGS: alpha-ledger KF 415: N=47241 proj_valid=29854 visible=30859 
+proj_and_vis=29854 ev_valid_at=27502 updated=27502 | a_min=0.1726 a_mean=0.8143 
+obs_max=80 obs_ge_min=36176 resets=0 grows=0 | geom_front=1194 geom_free=311 
+a_lt_reset=166 a_lt_carve=8 | ev_mean=0.0099 ev_hi_frac=0.0063 
+ev_valid_frac=0.8710
+MonoGS: Candidate insert KF 415: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Evaluating ATE at frame:  421
+Eval: RMSE ATE [m] 0.030086050546851626
+MonoGS: Pruned 4171 lineage(s): removed 1169 Gaussians
+MonoGS: alpha-exit KF 420: reset 5, carved 0
+MonoGS: alpha-ledger KF 420: N=51072 proj_valid=33644 visible=34679 
+proj_and_vis=33644 ev_valid_at=31253 updated=31253 | a_min=0.1726 a_mean=0.8139 
+obs_max=81 obs_ge_min=39779 resets=0 grows=0 | geom_front=1205 geom_free=314 
+a_lt_reset=167 a_lt_carve=8 | ev_mean=0.0088 ev_hi_frac=0.0059 
+ev_valid_frac=0.8715
+MonoGS: Candidate insert KF 420: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4004 lineage(s): removed 1936 Gaussians
+MonoGS: alpha-exit KF 425: reset 0, carved 0
+MonoGS: alpha-ledger KF 425: N=40071 proj_valid=20735 visible=21841 
+proj_and_vis=20735 ev_valid_at=19229 updated=19229 | a_min=0.1726 a_mean=0.8376 
+obs_max=82 obs_ge_min=37320 resets=0 grows=0 | geom_front=1085 geom_free=320 
+a_lt_reset=181 a_lt_carve=10 | ev_mean=0.0368 ev_hi_frac=0.0230 
+ev_valid_frac=0.8712
+MonoGS: Candidate insert KF 425: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 2938 lineage(s): removed 1329 Gaussians
+MonoGS: alpha-exit KF 430: reset 0, carved 0
+MonoGS: alpha-ledger KF 430: N=43742 proj_valid=24463 visible=25578 
+proj_and_vis=24463 ev_valid_at=22755 updated=22755 | a_min=0.1726 a_mean=0.8291 
+obs_max=83 obs_ge_min=37522 resets=0 grows=0 | geom_front=1056 geom_free=303 
+a_lt_reset=182 a_lt_carve=10 | ev_mean=0.0176 ev_hi_frac=0.0123 
+ev_valid_frac=0.8702
+MonoGS: Candidate insert KF 430: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+MonoGS: Pruned 4159 lineage(s): removed 1539 Gaussians
+MonoGS: alpha-exit KF 435: reset 1, carved 0
+MonoGS: alpha-ledger KF 435: N=47203 proj_valid=27962 visible=29094 
+proj_and_vis=27962 ev_valid_at=26204 updated=26204 | a_min=0.1726 a_mean=0.8238 
+obs_max=84 obs_ge_min=36774 resets=0 grows=0 | geom_front=1232 geom_free=348 
+a_lt_reset=182 a_lt_carve=11 | ev_mean=0.0165 ev_hi_frac=0.0118 
+ev_valid_frac=0.8709
+MonoGS: Candidate insert KF 435: inserted 5000 Gaussians
+MonoGS: Deferred promotion health: invalid={'xyz': 0, 'features_dc': 0, 
+'features_rest': 0, 'opacity': 0, 'scaling': 0, 'rotation': 0}, 
+scale_min=0.001000, scale_max=0.020000, scale_init=knn
+Eval: RMSE ATE [m] 0.03068758105496674
+Eval: Online SLAM time 566.5851094927639
+Eval: Online SLAM FPS 0.7748173975009957
+Eval: per-frame APE: KF-RMSE=3.07cm (88 kf) vs nonKF-RMSE=3.15cm (351 nonkf) -> 
+results/lifecycle_paper2/L3_balloon_exit_s2/datasets_bonn/l3_balloon_exit/seed_2
+/2026-09-21-02-04-44/per_frame_ape.csv
+Eval: RMSE ATE [m] 0.03068449407845993
+Eval: mean psnr: nan, ssim: nan, lpips: nan, depth_l1_cm: None
+MonoGS: Starting color refinement
+  0%|          | 0/26000 [00:00<?, ?it/s]  0%|          | 15/26000 [00:00<03:02, 142.19it/s]  0%|          | 31/26000 [00:00<02:55, 148.22it/s]  0%|          | 46/26000 [00:00<03:01, 143.22it/s]  0%|          | 61/26000 [00:00<03:09, 137.21it/s]  0%|          | 75/26000 [00:00<03:10, 135.82it/s]  0%|          | 91/26000 [00:00<03:02, 141.70it/s]  0%|          | 106/26000 [00:00<03:00, 143.54it/s]  0%|          | 121/26000 [00:00<03:00, 143.13it/s]  1%|          | 136/26000 [00:00<03:01, 142.41it/s]  1%|          | 152/26000 [00:01<02:57, 145.87it/s]  1%|          | 167/26000 [00:01<03:03, 140.63it/s]  1%|          | 182/26000 [00:01<03:08, 136.87it/s]  1%|          | 196/26000 [00:01<03:10, 135.57it/s]  1%|          | 210/26000 [00:01<03:13, 133.45it/s]  1%|          | 225/26000 [00:01<03:09, 136.33it/s]  1%|          | 239/26000 [00:01<03:08, 136.69it/s]  1%|          | 254/26000 [00:01<03:04, 139.18it/s]  1%|          | 269/26000 [00:01<03:03, 139.89it/s]  1%|          | 283/26000 [00:02<03:04, 139.49it/s]  1%|          | 298/26000 [00:02<03:02, 140.90it/s]  1%|          | 313/26000 [00:02<03:05, 138.67it/s]  1%|▏         | 327/26000 [00:02<03:06, 137.34it/s]  1%|▏         | 342/26000 [00:02<03:02, 140.59it/s]  1%|▏         | 357/26000 [00:02<03:00, 142.04it/s]  1%|▏         | 372/26000 [00:02<03:01, 140.88it/s]  1%|▏         | 387/26000 [00:02<03:00, 141.75it/s]  2%|▏         | 402/26000 [00:02<02:58, 143.05it/s]  2%|▏         | 417/26000 [00:02<02:59, 142.89it/s]  2%|▏         | 432/26000 [00:03<02:57, 144.20it/s]  2%|▏         | 447/26000 [00:03<03:02, 139.72it/s]  2%|▏         | 462/26000 [00:03<03:02, 139.78it/s]  2%|▏         | 477/26000 [00:03<03:02, 139.87it/s]  2%|▏         | 492/26000 [00:03<03:00, 141.18it/s]  2%|▏         | 507/26000 [00:03<03:02, 139.76it/s]  2%|▏         | 521/26000 [00:03<03:03, 138.77it/s]  2%|▏         | 536/26000 [00:03<03:01, 140.32it/s]  2%|▏         | 551/26000 [00:03<03:04, 137.82it/s]  2%|▏         | 566/26000 [00:04<03:01, 139.88it/s]  2%|▏         | 581/26000 [00:04<03:05, 137.15it/s]  2%|▏         | 595/26000 [00:04<03:06, 136.55it/s]  2%|▏         | 609/26000 [00:04<03:05, 136.73it/s]  2%|▏         | 624/26000 [00:04<03:01, 139.48it/s]  2%|▏         | 639/26000 [00:04<02:59, 141.34it/s]  3%|▎         | 654/26000 [00:04<03:00, 140.72it/s]  3%|▎         | 669/26000 [00:04<03:05, 136.40it/s]  3%|▎         | 684/26000 [00:04<03:01, 139.51it/s]  3%|▎         | 698/26000 [00:04<03:02, 138.51it/s]  3%|▎         | 713/26000 [00:05<02:59, 141.16it/s]  3%|▎         | 728/26000 [00:05<02:56, 142.80it/s]  3%|▎         | 743/26000 [00:05<02:59, 140.60it/s]  3%|▎         | 758/26000 [00:05<02:59, 140.34it/s]  3%|▎         | 773/26000 [00:05<02:58, 141.47it/s]  3%|▎         | 788/26000 [00:05<02:57, 141.80it/s]  3%|▎         | 803/26000 [00:05<02:56, 142.73it/s]  3%|▎         | 818/26000 [00:05<02:55, 143.84it/s]  3%|▎         | 833/26000 [00:05<03:02, 138.12it/s]  3%|▎         | 847/26000 [00:06<03:01, 138.42it/s]  3%|▎         | 862/26000 [00:06<03:00, 138.95it/s]  3%|▎         | 877/26000 [00:06<02:59, 140.24it/s]  3%|▎         | 892/26000 [00:06<02:57, 141.52it/s]  3%|▎         | 907/26000 [00:06<02:57, 141.34it/s]  4%|▎         | 922/26000 [00:06<03:01, 138.11it/s]  4%|▎         | 936/26000 [00:06<03:01, 138.38it/s]  4%|▎         | 951/26000 [00:06<02:58, 140.41it/s]  4%|▎         | 966/26000 [00:06<02:55, 142.26it/s]  4%|▍         | 981/26000 [00:06<02:55, 142.78it/s]  4%|▍         | 996/26000 [00:07<02:57, 140.75it/s]  4%|▍         | 1011/26000 [00:07<02:56, 141.35it/s]  4%|▍         | 1026/26000 [00:07<03:04, 135.35it/s]  4%|▍         | 1040/26000 [00:07<03:06, 134.07it/s]  4%|▍         | 1054/26000 [00:07<03:05, 134.22it/s]  4%|▍         | 1068/26000 [00:07<03:03, 135.71it/s]  4%|▍         | 1082/26000 [00:07<03:02, 136.30it/s]  4%|▍         | 1096/26000 [00:07<03:03, 135.91it/s]  4%|▍         | 1111/26000 [00:07<03:00, 138.07it/s]  4%|▍         | 1125/26000 [00:08<03:02, 136.42it/s]  4%|▍         | 1139/26000 [00:08<03:01, 137.20it/s]  4%|▍         | 1154/26000 [00:08<02:59, 138.76it/s]  4%|▍         | 1169/26000 [00:08<02:57, 140.11it/s]  5%|▍         | 1184/26000 [00:08<03:03, 135.34it/s]  5%|▍         | 1199/26000 [00:08<02:59, 138.24it/s]  5%|▍         | 1213/26000 [00:08<03:04, 134.52it/s]  5%|▍         | 1228/26000 [00:08<03:01, 136.49it/s]  5%|▍         | 1242/26000 [00:08<03:01, 136.40it/s]  5%|▍         | 1256/26000 [00:09<03:01, 136.61it/s]  5%|▍         | 1271/26000 [00:09<02:58, 138.46it/s]  5%|▍         | 1285/26000 [00:09<03:02, 135.35it/s]  5%|▍         | 1299/26000 [00:09<03:04, 134.20it/s]  5%|▌         | 1314/26000 [00:09<03:00, 136.61it/s]  5%|▌         | 1329/26000 [00:09<02:58, 138.18it/s]  5%|▌         | 1343/26000 [00:09<02:59, 137.60it/s]  5%|▌         | 1357/26000 [00:09<03:01, 135.71it/s]  5%|▌         | 1371/26000 [00:09<03:00, 136.77it/s]  5%|▌         | 1385/26000 [00:09<02:58, 137.67it/s]  5%|▌         | 1400/26000 [00:10<02:57, 138.86it/s]  5%|▌         | 1414/26000 [00:10<02:57, 138.81it/s]  5%|▌         | 1429/26000 [00:10<02:56, 138.92it/s]  6%|▌         | 1443/26000 [00:10<02:57, 138.17it/s]  6%|▌         | 1458/26000 [00:10<02:55, 139.50it/s]  6%|▌         | 1473/26000 [00:10<02:53, 141.50it/s]  6%|▌         | 1488/26000 [00:10<02:53, 141.16it/s]  6%|▌         | 1503/26000 [00:10<02:54, 140.08it/s]  6%|▌         | 1518/26000 [00:10<02:53, 140.93it/s]  6%|▌         | 1533/26000 [00:11<02:55, 139.72it/s]  6%|▌         | 1547/26000 [00:11<02:56, 138.79it/s]  6%|▌         | 1561/26000 [00:11<02:56, 138.47it/s]  6%|▌         | 1575/26000 [00:11<03:02, 133.78it/s]  6%|▌         | 1589/26000 [00:11<03:06, 131.12it/s]  6%|▌         | 1603/26000 [00:11<03:03, 133.27it/s]  6%|▌         | 1618/26000 [00:11<02:58, 136.86it/s]  6%|▋         | 1632/26000 [00:11<02:59, 136.03it/s]  6%|▋         | 1646/26000 [00:11<02:58, 136.49it/s]  6%|▋         | 1661/26000 [00:11<02:54, 139.52it/s]  6%|▋         | 1676/26000 [00:12<02:52, 140.81it/s]  7%|▋         | 1691/26000 [00:12<02:52, 140.87it/s]  7%|▋         | 1706/26000 [00:12<02:50, 142.67it/s]  7%|▋         | 1721/26000 [00:12<02:56, 137.62it/s]  7%|▋         | 1735/26000 [00:12<02:58, 135.66it/s]  7%|▋         | 1749/26000 [00:12<03:04, 131.55it/s]  7%|▋         | 1763/26000 [00:12<03:02, 132.67it/s]  7%|▋         | 1778/26000 [00:12<02:59, 135.23it/s]  7%|▋         | 1793/26000 [00:12<02:56, 137.49it/s]  7%|▋         | 1807/26000 [00:13<02:56, 137.17it/s]  7%|▋         | 1822/26000 [00:13<02:53, 139.32it/s]  7%|▋         | 1837/26000 [00:13<02:51, 140.73it/s]  7%|▋         | 1852/26000 [00:13<02:58, 135.12it/s]  7%|▋         | 1866/26000 [00:13<02:57, 135.76it/s]  7%|▋         | 1881/26000 [00:13<02:55, 137.32it/s]  7%|▋         | 1896/26000 [00:13<02:53, 138.84it/s]  7%|▋         | 1910/26000 [00:13<02:56, 136.80it/s]  7%|▋         | 1925/26000 [00:13<02:53, 138.48it/s]  7%|▋         | 1940/26000 [00:13<02:52, 139.84it/s]  8%|▊         | 1955/26000 [00:14<02:51, 140.25it/s]  8%|▊         | 1970/26000 [00:14<02:56, 135.83it/s]  8%|▊         | 1984/26000 [00:14<02:55, 136.78it/s]  8%|▊         | 1998/26000 [00:14<02:54, 137.59it/s]  8%|▊         | 2012/26000 [00:14<02:55, 136.80it/s]  8%|▊         | 2027/26000 [00:14<02:53, 138.49it/s]  8%|▊         | 2041/26000 [00:14<02:54, 137.16it/s]  8%|▊         | 2056/26000 [00:14<02:52, 138.43it/s]  8%|▊         | 2070/26000 [00:14<02:53, 137.78it/s]  8%|▊         | 2084/26000 [00:15<03:02, 131.28it/s]  8%|▊         | 2098/26000 [00:15<03:00, 132.56it/s]  8%|▊         | 2112/26000 [00:15<03:00, 132.08it/s]  8%|▊         | 2126/26000 [00:15<03:02, 131.06it/s]  8%|▊         | 2141/26000 [00:15<02:58, 133.88it/s]  8%|▊         | 2155/26000 [00:15<02:57, 134.02it/s]  8%|▊         | 2169/26000 [00:15<02:57, 134.57it/s]  8%|▊         | 2183/26000 [00:15<02:56, 135.29it/s]  8%|▊         | 2197/26000 [00:15<03:00, 131.59it/s]  9%|▊         | 2212/26000 [00:16<02:57, 133.96it/s]  9%|▊         | 2226/26000 [00:16<02:56, 134.92it/s]  9%|▊         | 2240/26000 [00:16<02:55, 135.05it/s]  9%|▊         | 2254/26000 [00:16<02:57, 134.14it/s]  9%|▊         | 2268/26000 [00:16<02:55, 134.87it/s]  9%|▉         | 2282/26000 [00:16<02:54, 136.14it/s]  9%|▉         | 2296/26000 [00:16<02:57, 133.89it/s]  9%|▉         | 2310/26000 [00:16<02:57, 133.76it/s]  9%|▉         | 2324/26000 [00:16<02:56, 134.47it/s]  9%|▉         | 2338/26000 [00:16<02:54, 135.86it/s]  9%|▉         | 2352/26000 [00:17<03:00, 130.86it/s]  9%|▉         | 2366/26000 [00:17<02:59, 131.85it/s]  9%|▉         | 2381/26000 [00:17<02:56, 133.57it/s]  9%|▉         | 2395/26000 [00:17<02:54, 135.23it/s]  9%|▉         | 2410/26000 [00:17<02:52, 137.00it/s]  9%|▉         | 2424/26000 [00:17<02:53, 135.96it/s]  9%|▉         | 2438/26000 [00:17<02:54, 135.13it/s]  9%|▉         | 2453/26000 [00:17<02:51, 136.97it/s]  9%|▉         | 2467/26000 [00:17<02:50, 137.83it/s] 10%|▉         | 2481/26000 [00:17<02:50, 137.55it/s] 10%|▉         | 2495/26000 [00:18<02:51, 137.34it/s] 10%|▉         | 2509/26000 [00:18<02:50, 138.09it/s] 10%|▉         | 2524/26000 [00:18<02:48, 139.68it/s] 10%|▉         | 2539/26000 [00:18<02:46, 140.77it/s] 10%|▉         | 2554/26000 [00:18<02:48, 138.75it/s] 10%|▉         | 2568/26000 [00:18<02:52, 135.49it/s] 10%|▉         | 2582/26000 [00:18<02:57, 132.30it/s] 10%|▉         | 2596/26000 [00:18<02:56, 132.60it/s] 10%|█         | 2610/26000 [00:18<02:53, 134.59it/s] 10%|█         | 2624/26000 [00:19<02:51, 136.00it/s] 10%|█         | 2639/26000 [00:19<02:47, 139.26it/s] 10%|█         | 2653/26000 [00:19<02:49, 137.64it/s] 10%|█         | 2667/26000 [00:19<02:53, 134.80it/s] 10%|█         | 2681/26000 [00:19<02:52, 135.27it/s] 10%|█         | 2695/26000 [00:19<02:52, 135.28it/s] 10%|█         | 2709/26000 [00:19<02:51, 135.67it/s] 10%|█         | 2723/26000 [00:19<02:52, 134.89it/s] 11%|█         | 2737/26000 [00:19<02:53, 134.03it/s] 11%|█         | 2752/26000 [00:19<02:50, 136.27it/s] 11%|█         | 2767/26000 [00:20<02:49, 137.23it/s] 11%|█         | 2781/26000 [00:20<02:48, 137.54it/s] 11%|█         | 2796/26000 [00:20<02:46, 139.58it/s] 11%|█         | 2811/26000 [00:20<02:45, 140.21it/s] 11%|█         | 2826/26000 [00:20<02:46, 138.97it/s] 11%|█         | 2840/26000 [00:20<02:48, 137.23it/s] 11%|█         | 2854/26000 [00:20<02:55, 131.64it/s] 11%|█         | 2868/26000 [00:20<02:56, 130.73it/s] 11%|█         | 2883/26000 [00:20<02:52, 133.73it/s] 11%|█         | 2898/26000 [00:21<02:49, 136.20it/s] 11%|█         | 2912/26000 [00:21<02:48, 136.84it/s] 11%|█▏        | 2926/26000 [00:21<02:50, 135.50it/s] 11%|█▏        | 2940/26000 [00:21<02:48, 136.77it/s] 11%|█▏        | 2954/26000 [00:21<02:52, 133.71it/s] 11%|█▏        | 2968/26000 [00:21<02:50, 135.16it/s] 11%|█▏        | 2982/26000 [00:21<02:57, 130.00it/s] 12%|█▏        | 2996/26000 [00:21<02:56, 130.35it/s] 12%|█▏        | 3010/26000 [00:21<02:52, 133.02it/s] 12%|█▏        | 3024/26000 [00:22<03:05, 123.65it/s] 12%|█▏        | 3039/26000 [00:22<02:57, 129.69it/s] 12%|█▏        | 3053/26000 [00:22<02:58, 128.86it/s] 12%|█▏        | 3067/26000 [00:22<02:57, 129.46it/s] 12%|█▏        | 3081/26000 [00:22<02:53, 132.16it/s] 12%|█▏        | 3095/26000 [00:22<02:51, 133.79it/s] 12%|█▏        | 3109/26000 [00:22<02:50, 134.06it/s] 12%|█▏        | 3123/26000 [00:22<02:53, 131.70it/s] 12%|█▏        | 3138/26000 [00:22<02:48, 135.67it/s] 12%|█▏        | 3152/26000 [00:22<02:47, 136.44it/s] 12%|█▏        | 3166/26000 [00:23<02:47, 136.46it/s] 12%|█▏        | 3180/26000 [00:23<02:46, 137.24it/s] 12%|█▏        | 3195/26000 [00:23<02:44, 138.40it/s] 12%|█▏        | 3209/26000 [00:23<02:45, 137.88it/s] 12%|█▏        | 3223/26000 [00:23<02:51, 132.51it/s] 12%|█▏        | 3237/26000 [00:23<02:52, 131.87it/s] 13%|█▎        | 3252/26000 [00:23<02:49, 134.48it/s] 13%|█▎        | 3266/26000 [00:23<02:47, 135.78it/s] 13%|█▎        | 3281/26000 [00:23<02:45, 137.65it/s] 13%|█▎        | 3295/26000 [00:24<02:46, 136.62it/s] 13%|█▎        | 3309/26000 [00:24<02:48, 134.83it/s] 13%|█▎        | 3323/26000 [00:24<02:49, 133.41it/s] 13%|█▎        | 3337/26000 [00:24<02:51, 132.30it/s] 13%|█▎        | 3351/26000 [00:24<02:54, 130.15it/s] 13%|█▎        | 3365/26000 [00:24<02:52, 131.52it/s] 13%|█▎        | 3380/26000 [00:24<02:47, 134.89it/s] 13%|█▎        | 3394/26000 [00:24<02:52, 130.97it/s] 13%|█▎        | 3408/26000 [00:24<02:49, 133.45it/s] 13%|█▎        | 3422/26000 [00:24<02:47, 135.08it/s] 13%|█▎        | 3436/26000 [00:25<02:45, 136.27it/s] 13%|█▎        | 3450/26000 [00:25<02:44, 137.08it/s] 13%|█▎        | 3464/26000 [00:25<02:46, 135.33it/s] 13%|█▎        | 3478/26000 [00:25<02:46, 135.28it/s] 13%|█▎        | 3492/26000 [00:25<02:44, 136.45it/s] 13%|█▎        | 3506/26000 [00:25<02:43, 137.18it/s] 14%|█▎        | 3521/26000 [00:25<02:42, 138.28it/s] 14%|█▎        | 3535/26000 [00:25<02:42, 138.05it/s] 14%|█▎        | 3549/26000 [00:25<02:43, 137.45it/s] 14%|█▎        | 3563/26000 [00:26<02:44, 136.11it/s] 14%|█▍        | 3577/26000 [00:26<02:43, 136.96it/s] 14%|█▍        | 3591/26000 [00:26<02:50, 131.80it/s] 14%|█▍        | 3605/26000 [00:26<02:49, 131.94it/s] 14%|█▍        | 3619/26000 [00:26<02:53, 129.17it/s] 14%|█▍        | 3633/26000 [00:26<02:49, 131.92it/s] 14%|█▍        | 3647/26000 [00:26<02:46, 134.22it/s] 14%|█▍        | 3661/26000 [00:26<02:44, 135.60it/s] 14%|█▍        | 3675/26000 [00:26<02:49, 131.77it/s] 14%|█▍        | 3689/26000 [00:26<02:54, 127.69it/s] 14%|█▍        | 3702/26000 [00:27<02:56, 126.55it/s] 14%|█▍        | 3717/26000 [00:27<02:50, 130.60it/s] 14%|█▍        | 3731/26000 [00:27<02:47, 132.81it/s] 14%|█▍        | 3745/26000 [00:27<02:47, 132.59it/s] 14%|█▍        | 3759/26000 [00:27<02:45, 134.10it/s] 15%|█▍        | 3773/26000 [00:27<02:45, 134.58it/s] 15%|█▍        | 3787/26000 [00:27<02:44, 134.69it/s] 15%|█▍        | 3801/26000 [00:27<02:46, 133.02it/s] 15%|█▍        | 3815/26000 [00:27<02:50, 130.48it/s] 15%|█▍        | 3829/26000 [00:28<02:47, 132.05it/s] 15%|█▍        | 3843/26000 [00:28<02:46, 132.92it/s] 15%|█▍        | 3857/26000 [00:28<02:44, 134.36it/s] 15%|█▍        | 3871/26000 [00:28<02:45, 133.98it/s] 15%|█▍        | 3885/26000 [00:28<02:43, 134.97it/s] 15%|█▍        | 3899/26000 [00:28<02:42, 136.10it/s] 15%|█▌        | 3913/26000 [00:28<02:44, 134.19it/s] 15%|█▌        | 3927/26000 [00:28<02:45, 133.66it/s] 15%|█▌        | 3941/26000 [00:28<02:44, 134.08it/s] 15%|█▌        | 3955/26000 [00:28<02:47, 131.73it/s] 15%|█▌        | 3969/26000 [00:29<02:48, 130.88it/s] 15%|█▌        | 3983/26000 [00:29<02:49, 129.90it/s] 15%|█▌        | 3996/26000 [00:29<02:51, 128.41it/s] 15%|█▌        | 4010/26000 [00:29<02:49, 129.75it/s] 15%|█▌        | 4024/26000 [00:29<02:46, 132.34it/s] 16%|█▌        | 4038/26000 [00:29<02:43, 134.46it/s] 16%|█▌        | 4052/26000 [00:29<02:42, 134.89it/s] 16%|█▌        | 4066/26000 [00:29<02:50, 128.84it/s] 16%|█▌        | 4079/26000 [00:29<02:50, 128.50it/s] 16%|█▌        | 4093/26000 [00:30<02:48, 129.98it/s] 16%|█▌        | 4107/26000 [00:30<02:47, 130.83it/s] 16%|█▌        | 4121/26000 [00:30<02:44, 132.62it/s] 16%|█▌        | 4136/26000 [00:30<02:41, 135.58it/s] 16%|█▌        | 4150/26000 [00:30<02:43, 133.46it/s] 16%|█▌        | 4165/26000 [00:30<02:41, 135.43it/s] 16%|█▌        | 4179/26000 [00:30<02:45, 132.20it/s] 16%|█▌        | 4193/26000 [00:30<02:45, 131.71it/s] 16%|█▌        | 4207/26000 [00:30<02:48, 129.54it/s] 16%|█▌        | 4222/26000 [00:30<02:43, 133.17it/s] 16%|█▋        | 4236/26000 [00:31<02:43, 132.75it/s] 16%|█▋        | 4250/26000 [00:31<02:42, 133.51it/s] 16%|█▋        | 4264/26000 [00:31<02:41, 134.82it/s] 16%|█▋        | 4278/26000 [00:31<02:47, 129.54it/s] 17%|█▋        | 4292/26000 [00:31<02:48, 128.59it/s] 17%|█▋        | 4305/26000 [00:31<02:53, 124.68it/s] 17%|█▋        | 4318/26000 [00:31<02:54, 124.03it/s] 17%|█▋        | 4331/26000 [00:31<03:02, 118.86it/s] 17%|█▋        | 4343/26000 [00:31<03:05, 116.67it/s] 17%|█▋        | 4355/26000 [00:32<03:15, 110.85it/s] 17%|█▋        | 4367/26000 [00:32<03:20, 108.07it/s] 17%|█▋        | 4378/26000 [00:32<03:32, 101.99it/s] 17%|█▋        | 4391/26000 [00:32<03:19, 108.30it/s] 17%|█▋        | 4402/26000 [00:32<03:23, 106.36it/s] 17%|█▋        | 4413/26000 [00:32<03:31, 102.09it/s] 17%|█▋        | 4424/26000 [00:32<03:35, 99.91it/s]  17%|█▋        | 4435/26000 [00:32<03:32, 101.66it/s] 17%|█▋        | 4446/26000 [00:33<03:29, 103.01it/s] 17%|█▋        | 4457/26000 [00:33<03:29, 102.81it/s] 17%|█▋        | 4468/26000 [00:33<03:36, 99.55it/s]  17%|█▋        | 4478/26000 [00:33<03:39, 98.08it/s] 17%|█▋        | 4488/26000 [00:33<03:47, 94.47it/s] 17%|█▋        | 4498/26000 [00:33<03:58, 90.08it/s] 17%|█▋        | 4508/26000 [00:33<03:58, 90.25it/s] 17%|█▋        | 4519/26000 [00:33<03:48, 94.15it/s] 17%|█▋        | 4530/26000 [00:33<03:38, 98.23it/s] 17%|█▋        | 4541/26000 [00:33<03:35, 99.47it/s] 18%|█▊        | 4551/26000 [00:34<03:36, 99.00it/s] 18%|█▊        | 4562/26000 [00:34<03:30, 101.92it/s] 18%|█▊        | 4573/26000 [00:34<03:31, 101.38it/s] 18%|█▊        | 4585/26000 [00:34<03:27, 102.98it/s] 18%|█▊        | 4596/26000 [00:34<03:32, 100.64it/s] 18%|█▊        | 4607/26000 [00:34<03:29, 102.35it/s] 18%|█▊        | 4618/26000 [00:34<03:38, 98.05it/s]  18%|█▊        | 4629/26000 [00:34<03:36, 98.89it/s] 18%|█▊        | 4639/26000 [00:34<03:44, 95.05it/s] 18%|█▊        | 4649/26000 [00:35<03:45, 94.75it/s] 18%|█▊        | 4660/26000 [00:35<03:38, 97.81it/s] 18%|█▊        | 4673/26000 [00:35<03:22, 105.43it/s] 18%|█▊        | 4685/26000 [00:35<03:15, 108.75it/s] 18%|█▊        | 4696/26000 [00:35<03:23, 104.78it/s] 18%|█▊        | 4707/26000 [00:35<03:28, 101.95it/s] 18%|█▊        | 4718/26000 [00:35<03:40, 96.70it/s]  18%|█▊        | 4729/26000 [00:35<03:36, 98.25it/s] 18%|█▊        | 4739/26000 [00:35<03:38, 97.30it/s] 18%|█▊        | 4749/26000 [00:36<03:41, 96.10it/s] 18%|█▊        | 4759/26000 [00:36<03:41, 95.82it/s] 18%|█▊        | 4770/26000 [00:36<03:36, 98.19it/s] 18%|█▊        | 4782/26000 [00:36<03:26, 102.88it/s] 18%|█▊        | 4793/26000 [00:36<03:23, 104.38it/s] 18%|█▊        | 4804/26000 [00:36<03:24, 103.88it/s] 19%|█▊        | 4816/26000 [00:36<03:20, 105.76it/s] 19%|█▊        | 4827/26000 [00:36<03:18, 106.85it/s] 19%|█▊        | 4839/26000 [00:36<03:13, 109.60it/s] 19%|█▊        | 4850/26000 [00:37<03:26, 102.67it/s] 19%|█▊        | 4861/26000 [00:37<03:40, 95.94it/s]  19%|█▊        | 4872/26000 [00:37<03:32, 99.38it/s] 19%|█▉        | 4883/26000 [00:37<03:43, 94.42it/s] 19%|█▉        | 4893/26000 [00:37<03:46, 93.07it/s] 19%|█▉        | 4904/26000 [00:37<03:36, 97.32it/s] 19%|█▉        | 4917/26000 [00:37<03:20, 105.17it/s] 19%|█▉        | 4929/26000 [00:37<03:16, 107.30it/s] 19%|█▉        | 4940/26000 [00:37<03:17, 106.85it/s] 19%|█▉        | 4951/26000 [00:38<03:21, 104.23it/s] 19%|█▉        | 4962/26000 [00:38<03:20, 105.18it/s] 19%|█▉        | 4973/26000 [00:38<03:28, 101.01it/s] 19%|█▉        | 4984/26000 [00:38<03:30, 99.93it/s]  19%|█▉        | 4995/26000 [00:38<03:28, 100.92it/s] 19%|█▉        | 5007/26000 [00:38<03:21, 104.24it/s] 19%|█▉        | 5019/26000 [00:38<03:15, 107.43it/s] 19%|█▉        | 5031/26000 [00:38<03:10, 109.82it/s] 19%|█▉        | 5043/26000 [00:38<03:09, 110.54it/s] 19%|█▉        | 5055/26000 [00:39<03:06, 112.38it/s] 19%|█▉        | 5067/26000 [00:39<03:10, 109.85it/s] 20%|█▉        | 5079/26000 [00:39<03:17, 106.19it/s] 20%|█▉        | 5090/26000 [00:39<03:15, 107.06it/s] 20%|█▉        | 5101/26000 [00:39<03:28, 100.41it/s] 20%|█▉        | 5112/26000 [00:39<03:26, 101.36it/s] 20%|█▉        | 5123/26000 [00:39<03:25, 101.79it/s] 20%|█▉        | 5134/26000 [00:39<03:32, 97.97it/s]  20%|█▉        | 5145/26000 [00:39<03:30, 99.08it/s] 20%|█▉        | 5155/26000 [00:40<03:30, 99.17it/s] 20%|█▉        | 5165/26000 [00:40<03:32, 97.91it/s] 20%|█▉        | 5175/26000 [00:40<03:32, 97.82it/s] 20%|█▉        | 5185/26000 [00:40<03:37, 95.56it/s] 20%|█▉        | 5195/26000 [00:40<03:45, 92.46it/s] 20%|██        | 5206/26000 [00:40<03:36, 95.83it/s] 20%|██        | 5218/26000 [00:40<03:27, 100.11it/s] 20%|██        | 5229/26000 [00:40<03:22, 102.73it/s] 20%|██        | 5240/26000 [00:40<03:20, 103.67it/s] 20%|██        | 5251/26000 [00:40<03:20, 103.40it/s] 20%|██        | 5262/26000 [00:41<03:19, 103.83it/s] 20%|██        | 5273/26000 [00:41<03:19, 103.90it/s] 20%|██        | 5284/26000 [00:41<03:17, 104.83it/s] 20%|██        | 5295/26000 [00:41<03:18, 104.07it/s] 20%|██        | 5307/26000 [00:41<03:14, 106.55it/s] 20%|██        | 5318/26000 [00:41<03:15, 106.05it/s] 20%|██        | 5329/26000 [00:41<03:15, 105.64it/s] 21%|██        | 5340/26000 [00:41<03:15, 105.53it/s] 21%|██        | 5351/26000 [00:41<03:19, 103.34it/s] 21%|██        | 5362/26000 [00:42<03:28, 99.20it/s]  21%|██        | 5373/26000 [00:42<03:24, 100.74it/s] 21%|██        | 5385/26000 [00:42<03:18, 104.04it/s] 21%|██        | 5396/26000 [00:42<03:15, 105.26it/s] 21%|██        | 5407/26000 [00:42<03:13, 106.42it/s] 21%|██        | 5418/26000 [00:42<03:12, 106.79it/s] 21%|██        | 5429/26000 [00:42<03:12, 106.86it/s] 21%|██        | 5441/26000 [00:42<03:06, 110.29it/s] 21%|██        | 5454/26000 [00:42<03:01, 112.98it/s] 21%|██        | 5466/26000 [00:43<03:08, 108.68it/s] 21%|██        | 5477/26000 [00:43<03:14, 105.34it/s] 21%|██        | 5488/26000 [00:43<03:19, 102.59it/s] 21%|██        | 5499/26000 [00:43<03:21, 101.56it/s] 21%|██        | 5510/26000 [00:43<03:23, 100.54it/s] 21%|██        | 5522/26000 [00:43<03:17, 103.47it/s] 21%|██▏       | 5533/26000 [00:43<03:25, 99.42it/s]  21%|██▏       | 5543/26000 [00:43<03:28, 98.29it/s] 21%|██▏       | 5553/26000 [00:43<03:31, 96.69it/s] 21%|██▏       | 5565/26000 [00:44<03:19, 102.33it/s] 21%|██▏       | 5576/26000 [00:44<03:15, 104.22it/s] 21%|██▏       | 5587/26000 [00:44<03:15, 104.56it/s] 22%|██▏       | 5598/26000 [00:44<03:15, 104.28it/s] 22%|██▏       | 5610/26000 [00:44<03:09, 107.46it/s] 22%|██▏       | 5621/26000 [00:44<03:21, 101.37it/s] 22%|██▏       | 5632/26000 [00:44<03:22, 100.83it/s] 22%|██▏       | 5643/26000 [00:44<03:26, 98.40it/s]  22%|██▏       | 5653/26000 [00:44<03:35, 94.51it/s] 22%|██▏       | 5664/26000 [00:44<03:28, 97.71it/s] 22%|██▏       | 5676/26000 [00:45<03:17, 102.67it/s] 22%|██▏       | 5687/26000 [00:45<03:14, 104.56it/s] 22%|██▏       | 5698/26000 [00:45<03:26, 98.22it/s]  22%|██▏       | 5708/26000 [00:45<03:27, 97.62it/s] 22%|██▏       | 5718/26000 [00:45<03:30, 96.37it/s] 22%|██▏       | 5729/26000 [00:45<03:27, 97.55it/s] 22%|██▏       | 5740/26000 [00:45<03:22, 99.96it/s] 22%|██▏       | 5751/26000 [00:45<03:27, 97.66it/s] 22%|██▏       | 5763/26000 [00:45<03:18, 101.73it/s] 22%|██▏       | 5776/26000 [00:46<03:05, 108.74it/s] 22%|██▏       | 5787/26000 [00:46<03:12, 104.93it/s] 22%|██▏       | 5798/26000 [00:46<03:26, 98.04it/s]  22%|██▏       | 5808/26000 [00:46<03:26, 97.90it/s] 22%|██▏       | 5818/26000 [00:46<03:30, 95.93it/s] 22%|██▏       | 5829/26000 [00:46<03:23, 98.95it/s] 22%|██▏       | 5840/26000 [00:46<03:19, 100.97it/s] 23%|██▎       | 5851/26000 [00:46<03:27, 97.22it/s]  23%|██▎       | 5861/26000 [00:46<03:30, 95.80it/s] 23%|██▎       | 5872/26000 [00:47<03:23, 99.11it/s] 23%|██▎       | 5884/26000 [00:47<03:12, 104.66it/s] 23%|██▎       | 5895/26000 [00:47<03:13, 103.65it/s] 23%|██▎       | 5907/26000 [00:47<03:08, 106.85it/s] 23%|██▎       | 5919/26000 [00:47<03:03, 109.53it/s] 23%|██▎       | 5930/26000 [00:47<03:17, 101.40it/s] 23%|██▎       | 5941/26000 [00:47<03:19, 100.46it/s] 23%|██▎       | 5952/26000 [00:47<03:21, 99.71it/s]  23%|██▎       | 5963/26000 [00:47<03:17, 101.35it/s] 23%|██▎       | 5974/26000 [00:48<03:29, 95.41it/s]  23%|██▎       | 5984/26000 [00:48<03:32, 94.17it/s] 23%|██▎       | 5994/26000 [00:48<03:40, 90.81it/s] 23%|██▎       | 6005/26000 [00:48<03:29, 95.55it/s] 23%|██▎       | 6017/26000 [00:48<03:18, 100.44it/s] 23%|██▎       | 6028/26000 [00:48<03:30, 94.69it/s]  23%|██▎       | 6039/26000 [00:48<03:26, 96.86it/s] 23%|██▎       | 6050/26000 [00:48<03:21, 99.25it/s] 23%|██▎       | 6062/26000 [00:48<03:11, 104.18it/s] 23%|██▎       | 6073/26000 [00:49<03:15, 101.94it/s] 23%|██▎       | 6084/26000 [00:49<03:18, 100.41it/s] 23%|██▎       | 6097/26000 [00:49<03:08, 105.75it/s] 23%|██▎       | 6108/26000 [00:49<03:07, 106.09it/s] 24%|██▎       | 6119/26000 [00:49<03:18, 99.96it/s]  24%|██▎       | 6130/26000 [00:49<03:21, 98.40it/s] 24%|██▎       | 6142/26000 [00:49<03:14, 101.90it/s] 24%|██▎       | 6153/26000 [00:49<03:17, 100.74it/s] 24%|██▎       | 6164/26000 [00:49<03:17, 100.48it/s] 24%|██▍       | 6175/26000 [00:50<03:21, 98.43it/s]  24%|██▍       | 6185/26000 [00:50<03:21, 98.10it/s] 24%|██▍       | 6196/26000 [00:50<03:15, 101.14it/s] 24%|██▍       | 6208/26000 [00:50<03:10, 103.71it/s] 24%|██▍       | 6219/26000 [00:50<03:12, 102.99it/s] 24%|██▍       | 6230/26000 [00:50<03:13, 102.43it/s] 24%|██▍       | 6241/26000 [00:50<03:19, 99.12it/s]  24%|██▍       | 6251/26000 [00:50<03:26, 95.51it/s] 24%|██▍       | 6261/26000 [00:50<03:31, 93.32it/s] 24%|██▍       | 6272/26000 [00:51<03:27, 95.09it/s] 24%|██▍       | 6283/26000 [00:51<03:20, 98.12it/s] 24%|██▍       | 6293/26000 [00:51<03:24, 96.52it/s] 24%|██▍       | 6304/26000 [00:51<03:22, 97.45it/s] 24%|██▍       | 6314/26000 [00:51<03:26, 95.34it/s] 24%|██▍       | 6325/26000 [00:51<03:19, 98.61it/s] 24%|██▍       | 6336/26000 [00:51<03:13, 101.61it/s] 24%|██▍       | 6347/26000 [00:51<03:25, 95.49it/s]  24%|██▍       | 6360/26000 [00:51<03:10, 103.18it/s] 25%|██▍       | 6372/26000 [00:52<03:03, 106.82it/s] 25%|██▍       | 6383/26000 [00:52<03:11, 102.28it/s] 25%|██▍       | 6394/26000 [00:52<03:19, 98.27it/s]  25%|██▍       | 6404/26000 [00:52<03:32, 92.24it/s] 25%|██▍       | 6414/26000 [00:52<03:29, 93.70it/s] 25%|██▍       | 6425/26000 [00:52<03:24, 95.63it/s] 25%|██▍       | 6435/26000 [00:52<03:24, 95.69it/s] 25%|██▍       | 6445/26000 [00:52<03:26, 94.65it/s] 25%|██▍       | 6455/26000 [00:52<03:24, 95.50it/s] 25%|██▍       | 6465/26000 [00:53<03:22, 96.57it/s] 25%|██▍       | 6476/26000 [00:53<03:17, 98.70it/s] 25%|██▍       | 6486/26000 [00:53<03:24, 95.51it/s] 25%|██▍       | 6496/26000 [00:53<03:21, 96.69it/s] 25%|██▌       | 6507/26000 [00:53<03:17, 98.56it/s] 25%|██▌       | 6517/26000 [00:53<03:25, 94.70it/s] 25%|██▌       | 6528/26000 [00:53<03:16, 98.98it/s] 25%|██▌       | 6538/26000 [00:53<03:16, 99.06it/s] 25%|██▌       | 6548/26000 [00:53<03:23, 95.59it/s] 25%|██▌       | 6560/26000 [00:54<03:13, 100.60it/s] 25%|██▌       | 6571/26000 [00:54<03:13, 100.54it/s] 25%|██▌       | 6582/26000 [00:54<03:25, 94.69it/s]  25%|██▌       | 6593/26000 [00:54<03:17, 98.49it/s] 25%|██▌       | 6604/26000 [00:54<03:11, 101.24it/s] 25%|██▌       | 6615/26000 [00:54<03:09, 102.37it/s] 25%|██▌       | 6627/26000 [00:54<03:04, 104.96it/s] 26%|██▌       | 6639/26000 [00:54<03:00, 107.44it/s] 26%|██▌       | 6650/26000 [00:54<03:10, 101.39it/s] 26%|██▌       | 6661/26000 [00:55<03:20, 96.48it/s]  26%|██▌       | 6671/26000 [00:55<03:25, 93.88it/s] 26%|██▌       | 6682/26000 [00:55<03:21, 96.08it/s] 26%|██▌       | 6692/26000 [00:55<03:23, 94.81it/s] 26%|██▌       | 6702/26000 [00:55<03:20, 96.02it/s] 26%|██▌       | 6712/26000 [00:55<03:18, 97.05it/s] 26%|██▌       | 6722/26000 [00:55<03:30, 91.51it/s] 26%|██▌       | 6732/26000 [00:55<03:30, 91.55it/s] 26%|██▌       | 6742/26000 [00:55<03:30, 91.37it/s] 26%|██▌       | 6754/26000 [00:56<03:18, 96.83it/s] 26%|██▌       | 6765/26000 [00:56<03:15, 98.37it/s] 26%|██▌       | 6777/26000 [00:56<03:08, 102.22it/s] 26%|██▌       | 6788/26000 [00:56<03:09, 101.21it/s] 26%|██▌       | 6799/26000 [00:56<03:06, 103.12it/s] 26%|██▌       | 6810/26000 [00:56<03:10, 100.81it/s] 26%|██▌       | 6821/26000 [00:56<03:20, 95.51it/s]  26%|██▋       | 6831/26000 [00:56<03:23, 94.40it/s] 26%|██▋       | 6841/26000 [00:56<03:23, 94.26it/s] 26%|██▋       | 6851/26000 [00:57<03:24, 93.42it/s] 26%|██▋       | 6863/26000 [00:57<03:13, 99.15it/s] 26%|██▋       | 6875/26000 [00:57<03:07, 102.26it/s] 26%|██▋       | 6886/26000 [00:57<03:08, 101.55it/s] 27%|██▋       | 6897/26000 [00:57<03:14, 98.34it/s]  27%|██▋       | 6907/26000 [00:57<03:15, 97.75it/s] 27%|██▋       | 6918/26000 [00:57<03:11, 99.41it/s] 27%|██▋       | 6929/26000 [00:57<03:07, 101.82it/s] 27%|██▋       | 6942/26000 [00:57<02:57, 107.63it/s] 27%|██▋       | 6954/26000 [00:57<02:53, 110.07it/s] 27%|██▋       | 6966/26000 [00:58<03:02, 104.25it/s] 27%|██▋       | 6977/26000 [00:58<03:03, 103.46it/s] 27%|██▋       | 6988/26000 [00:58<03:02, 104.16it/s] 27%|██▋       | 6999/26000 [00:58<03:01, 104.46it/s] 27%|██▋       | 7010/26000 [00:58<03:05, 102.29it/s] 27%|██▋       | 7022/26000 [00:58<03:00, 104.92it/s] 27%|██▋       | 7033/26000 [00:58<03:04, 102.71it/s] 27%|██▋       | 7044/26000 [00:58<03:05, 102.38it/s] 27%|██▋       | 7055/26000 [00:58<03:02, 103.64it/s] 27%|██▋       | 7066/26000 [00:59<03:02, 103.57it/s] 27%|██▋       | 7077/26000 [00:59<03:09, 99.61it/s]  27%|██▋       | 7087/26000 [00:59<03:16, 96.26it/s] 27%|██▋       | 7097/26000 [00:59<03:20, 94.12it/s] 27%|██▋       | 7108/26000 [00:59<03:16, 96.09it/s] 27%|██▋       | 7121/26000 [00:59<02:59, 105.11it/s] 27%|██▋       | 7132/26000 [00:59<03:08, 99.95it/s]  27%|██▋       | 7144/26000 [00:59<03:02, 103.46it/s] 28%|██▊       | 7155/26000 [00:59<03:01, 103.75it/s] 28%|██▊       | 7166/26000 [01:00<03:03, 102.70it/s] 28%|██▊       | 7177/26000 [01:00<03:07, 100.57it/s] 28%|██▊       | 7188/26000 [01:00<03:02, 103.05it/s] 28%|██▊       | 7200/26000 [01:00<02:57, 106.06it/s] 28%|██▊       | 7211/26000 [01:00<03:02, 102.70it/s] 28%|██▊       | 7222/26000 [01:00<03:06, 100.75it/s] 28%|██▊       | 7233/26000 [01:00<03:05, 100.91it/s] 28%|██▊       | 7244/26000 [01:00<03:07, 99.87it/s]  28%|██▊       | 7255/26000 [01:00<03:09, 99.16it/s] 28%|██▊       | 7265/26000 [01:01<03:12, 97.39it/s] 28%|██▊       | 7276/26000 [01:01<03:07, 99.71it/s] 28%|██▊       | 7287/26000 [01:01<03:06, 100.43it/s] 28%|██▊       | 7298/26000 [01:01<03:02, 102.76it/s] 28%|██▊       | 7310/26000 [01:01<02:57, 105.39it/s] 28%|██▊       | 7321/26000 [01:01<02:55, 106.67it/s] 28%|██▊       | 7332/26000 [01:01<03:06, 100.03it/s] 28%|██▊       | 7343/26000 [01:01<03:12, 97.02it/s]  28%|██▊       | 7353/26000 [01:01<03:14, 96.05it/s] 28%|██▊       | 7365/26000 [01:02<03:03, 101.76it/s] 28%|██▊       | 7376/26000 [01:02<03:02, 102.29it/s] 28%|██▊       | 7389/26000 [01:02<02:52, 107.83it/s] 28%|██▊       | 7400/26000 [01:02<02:54, 106.59it/s] 29%|██▊       | 7411/26000 [01:02<02:57, 104.80it/s] 29%|██▊       | 7423/26000 [01:02<02:50, 109.04it/s] 29%|██▊       | 7434/26000 [01:02<02:51, 108.40it/s] 29%|██▊       | 7445/26000 [01:02<02:53, 106.77it/s] 29%|██▊       | 7456/26000 [01:02<02:55, 105.46it/s] 29%|██▊       | 7467/26000 [01:03<02:55, 105.80it/s] 29%|██▉       | 7478/26000 [01:03<03:02, 101.34it/s] 29%|██▉       | 7489/26000 [01:03<03:03, 100.81it/s] 29%|██▉       | 7500/26000 [01:03<03:04, 100.13it/s] 29%|██▉       | 7511/26000 [01:03<03:06, 99.31it/s]  29%|██▉       | 7522/26000 [01:03<03:03, 100.86it/s] 29%|██▉       | 7533/26000 [01:03<02:59, 102.66it/s] 29%|██▉       | 7544/26000 [01:03<02:58, 103.17it/s] 29%|██▉       | 7555/26000 [01:03<02:57, 104.06it/s] 29%|██▉       | 7568/26000 [01:03<02:49, 109.03it/s] 29%|██▉       | 7579/26000 [01:04<02:59, 102.44it/s] 29%|██▉       | 7591/26000 [01:04<02:52, 106.54it/s] 29%|██▉       | 7603/26000 [01:04<02:49, 108.64it/s] 29%|██▉       | 7614/26000 [01:04<02:53, 105.97it/s] 29%|██▉       | 7625/26000 [01:04<02:51, 106.87it/s] 29%|██▉       | 7637/26000 [01:04<02:47, 109.36it/s] 29%|██▉       | 7648/26000 [01:04<02:47, 109.51it/s] 29%|██▉       | 7659/26000 [01:04<02:48, 108.62it/s] 30%|██▉       | 7670/26000 [01:04<02:53, 105.66it/s] 30%|██▉       | 7681/26000 [01:05<02:54, 105.13it/s] 30%|██▉       | 7693/26000 [01:05<02:50, 107.49it/s] 30%|██▉       | 7704/26000 [01:05<02:58, 102.61it/s] 30%|██▉       | 7715/26000 [01:05<02:55, 104.30it/s] 30%|██▉       | 7726/26000 [01:05<02:55, 104.25it/s] 30%|██▉       | 7737/26000 [01:05<02:58, 102.37it/s] 30%|██▉       | 7748/26000 [01:05<02:55, 104.25it/s] 30%|██▉       | 7759/26000 [01:05<03:01, 100.62it/s] 30%|██▉       | 7770/26000 [01:05<03:02, 99.93it/s]  30%|██▉       | 7781/26000 [01:06<03:02, 99.63it/s] 30%|██▉       | 7791/26000 [01:06<03:03, 99.50it/s] 30%|███       | 7802/26000 [01:06<03:02, 99.98it/s] 30%|███       | 7813/26000 [01:06<03:03, 99.06it/s] 30%|███       | 7823/26000 [01:06<03:08, 96.52it/s] 30%|███       | 7834/26000 [01:06<03:02, 99.29it/s] 30%|███       | 7844/26000 [01:06<03:05, 97.70it/s] 30%|███       | 7854/26000 [01:06<03:09, 95.72it/s] 30%|███       | 7864/26000 [01:06<03:08, 96.17it/s] 30%|███       | 7875/26000 [01:07<03:03, 98.86it/s] 30%|███       | 7886/26000 [01:07<03:02, 99.06it/s] 30%|███       | 7896/26000 [01:07<03:10, 95.17it/s] 30%|███       | 7906/26000 [01:07<03:11, 94.48it/s] 30%|███       | 7916/26000 [01:07<03:14, 92.75it/s] 30%|███       | 7927/26000 [01:07<03:07, 96.28it/s] 31%|███       | 7939/26000 [01:07<02:56, 102.57it/s] 31%|███       | 7950/26000 [01:07<02:56, 102.39it/s] 31%|███       | 7962/26000 [01:07<02:49, 106.65it/s] 31%|███       | 7973/26000 [01:07<02:58, 101.14it/s] 31%|███       | 7984/26000 [01:08<03:08, 95.50it/s]  31%|███       | 7996/26000 [01:08<03:00, 100.00it/s] 31%|███       | 8008/26000 [01:08<02:51, 104.70it/s] 31%|███       | 8020/26000 [01:08<02:48, 106.88it/s] 31%|███       | 8032/26000 [01:08<02:45, 108.50it/s] 31%|███       | 8043/26000 [01:08<02:47, 107.32it/s] 31%|███       | 8054/26000 [01:08<02:55, 102.31it/s] 31%|███       | 8066/26000 [01:08<02:50, 105.21it/s] 31%|███       | 8077/26000 [01:08<02:58, 100.16it/s] 31%|███       | 8088/26000 [01:09<03:04, 97.00it/s]  31%|███       | 8099/26000 [01:09<02:58, 100.14it/s] 31%|███       | 8110/26000 [01:09<03:00, 99.31it/s]  31%|███       | 8122/26000 [01:09<02:52, 103.49it/s] 31%|███▏      | 8133/26000 [01:09<02:54, 102.10it/s] 31%|███▏      | 8144/26000 [01:09<02:54, 102.21it/s] 31%|███▏      | 8155/26000 [01:09<02:57, 100.35it/s] 31%|███▏      | 8166/26000 [01:09<03:01, 98.25it/s]  31%|███▏      | 8176/26000 [01:09<03:00, 98.59it/s] 31%|███▏      | 8187/26000 [01:10<02:58, 99.87it/s] 32%|███▏      | 8198/26000 [01:10<03:04, 96.28it/s] 32%|███▏      | 8208/26000 [01:10<03:03, 96.95it/s] 32%|███▏      | 8220/26000 [01:10<02:52, 103.33it/s] 32%|███▏      | 8232/26000 [01:10<02:45, 107.55it/s] 32%|███▏      | 8244/26000 [01:10<02:43, 108.63it/s] 32%|███▏      | 8256/26000 [01:10<02:42, 108.95it/s] 32%|███▏      | 8267/26000 [01:10<02:49, 104.40it/s] 32%|███▏      | 8278/26000 [01:10<02:58, 99.29it/s]  32%|███▏      | 8289/26000 [01:11<03:02, 96.82it/s] 32%|███▏      | 8301/26000 [01:11<02:55, 101.01it/s] 32%|███▏      | 8312/26000 [01:11<03:00, 97.86it/s]  32%|███▏      | 8322/26000 [01:11<03:06, 95.01it/s] 32%|███▏      | 8332/26000 [01:11<03:07, 94.42it/s] 32%|███▏      | 8343/26000 [01:11<03:00, 97.94it/s] 32%|███▏      | 8353/26000 [01:11<03:01, 97.39it/s] 32%|███▏      | 8363/26000 [01:11<03:06, 94.62it/s] 32%|███▏      | 8373/26000 [01:11<03:05, 95.05it/s] 32%|███▏      | 8384/26000 [01:12<02:58, 98.65it/s] 32%|███▏      | 8394/26000 [01:12<03:00, 97.50it/s] 32%|███▏      | 8404/26000 [01:12<03:10, 92.21it/s] 32%|███▏      | 8414/26000 [01:12<03:08, 93.29it/s] 32%|███▏      | 8426/26000 [01:12<02:57, 99.00it/s] 32%|███▏      | 8436/26000 [01:12<03:04, 95.33it/s] 32%|███▏      | 8446/26000 [01:12<03:08, 93.17it/s] 33%|███▎      | 8456/26000 [01:12<03:06, 94.29it/s] 33%|███▎      | 8467/26000 [01:12<03:02, 96.12it/s] 33%|███▎      | 8477/26000 [01:13<03:05, 94.53it/s] 33%|███▎      | 8487/26000 [01:13<03:05, 94.40it/s] 33%|███▎      | 8498/26000 [01:13<03:02, 95.82it/s] 33%|███▎      | 8510/26000 [01:13<02:54, 100.35it/s] 33%|███▎      | 8521/26000 [01:13<03:00, 96.72it/s]  33%|███▎      | 8531/26000 [01:13<03:03, 94.96it/s] 33%|███▎      | 8542/26000 [01:13<03:00, 96.55it/s] 33%|███▎      | 8554/26000 [01:13<02:52, 101.07it/s] 33%|███▎      | 8565/26000 [01:13<02:53, 100.62it/s] 33%|███▎      | 8577/26000 [01:14<02:47, 104.12it/s] 33%|███▎      | 8588/26000 [01:14<02:46, 104.35it/s] 33%|███▎      | 8599/26000 [01:14<02:56, 98.72it/s]  33%|███▎      | 8610/26000 [01:14<02:52, 100.62it/s] 33%|███▎      | 8622/26000 [01:14<02:46, 104.48it/s] 33%|███▎      | 8633/26000 [01:14<02:53, 100.11it/s] 33%|███▎      | 8644/26000 [01:14<02:53, 99.89it/s]  33%|███▎      | 8655/26000 [01:14<02:56, 98.45it/s] 33%|███▎      | 8666/26000 [01:14<02:52, 100.43it/s] 33%|███▎      | 8677/26000 [01:15<02:52, 100.36it/s] 33%|███▎      | 8688/26000 [01:15<02:56, 97.86it/s]  33%|███▎      | 8698/26000 [01:15<02:57, 97.64it/s] 34%|███▎      | 8711/26000 [01:15<02:43, 105.73it/s] 34%|███▎      | 8723/26000 [01:15<02:40, 107.41it/s] 34%|███▎      | 8734/26000 [01:15<02:45, 104.31it/s] 34%|███▎      | 8745/26000 [01:15<02:53, 99.32it/s]  34%|███▎      | 8756/26000 [01:15<02:52, 99.69it/s] 34%|███▎      | 8767/26000 [01:15<02:57, 96.87it/s] 34%|███▍      | 8777/26000 [01:16<02:59, 96.14it/s] 34%|███▍      | 8787/26000 [01:16<03:00, 95.56it/s] 34%|███▍      | 8797/26000 [01:16<03:01, 95.02it/s] 34%|███▍      | 8808/26000 [01:16<02:55, 98.10it/s] 34%|███▍      | 8820/26000 [01:16<02:46, 103.09it/s] 34%|███▍      | 8831/26000 [01:16<02:55, 97.72it/s]  34%|███▍      | 8841/26000 [01:16<02:55, 97.80it/s] 34%|███▍      | 8851/26000 [01:16<02:55, 97.74it/s] 34%|███▍      | 8861/26000 [01:16<02:54, 98.22it/s] 34%|███▍      | 8873/26000 [01:17<02:46, 102.98it/s] 34%|███▍      | 8885/26000 [01:17<02:38, 107.85it/s] 34%|███▍      | 8897/26000 [01:17<02:35, 109.78it/s] 34%|███▍      | 8908/26000 [01:17<02:44, 104.14it/s] 34%|███▍      | 8919/26000 [01:17<02:41, 105.53it/s] 34%|███▍      | 8930/26000 [01:17<02:40, 106.11it/s] 34%|███▍      | 8941/26000 [01:17<02:39, 107.10it/s] 34%|███▍      | 8952/26000 [01:17<02:40, 106.04it/s] 34%|███▍      | 8963/26000 [01:17<02:42, 104.99it/s] 35%|███▍      | 8974/26000 [01:17<02:43, 104.42it/s] 35%|███▍      | 8985/26000 [01:18<02:46, 102.11it/s] 35%|███▍      | 8996/26000 [01:18<02:58, 95.36it/s]  35%|███▍      | 9007/26000 [01:18<02:51, 99.19it/s] 35%|███▍      | 9018/26000 [01:18<02:51, 98.74it/s] 35%|███▍      | 9029/26000 [01:18<02:46, 101.65it/s] 35%|███▍      | 9042/26000 [01:18<02:37, 107.89it/s] 35%|███▍      | 9053/26000 [01:18<02:41, 104.89it/s] 35%|███▍      | 9064/26000 [01:18<02:43, 103.75it/s] 35%|███▍      | 9075/26000 [01:18<02:49, 99.64it/s]  35%|███▍      | 9086/26000 [01:19<02:46, 101.29it/s] 35%|███▍      | 9097/26000 [01:19<02:56, 95.78it/s]  35%|███▌      | 9108/26000 [01:19<02:52, 98.14it/s] 35%|███▌      | 9120/26000 [01:19<02:45, 102.24it/s] 35%|███▌      | 9131/26000 [01:19<02:47, 101.00it/s] 35%|███▌      | 9142/26000 [01:19<02:50, 99.13it/s]  35%|███▌      | 9153/26000 [01:19<02:46, 101.21it/s] 35%|███▌      | 9164/26000 [01:19<02:52, 97.43it/s]  35%|███▌      | 9175/26000 [01:19<02:48, 100.12it/s] 35%|███▌      | 9186/26000 [01:20<02:46, 101.01it/s] 35%|███▌      | 9197/26000 [01:20<02:44, 102.32it/s] 35%|███▌      | 9208/26000 [01:20<02:43, 102.68it/s] 35%|███▌      | 9220/26000 [01:20<02:37, 106.65it/s] 36%|███▌      | 9231/26000 [01:20<02:46, 100.98it/s] 36%|███▌      | 9242/26000 [01:20<02:46, 100.91it/s] 36%|███▌      | 9253/26000 [01:20<02:49, 98.96it/s]  36%|███▌      | 9265/26000 [01:20<02:42, 102.74it/s] 36%|███▌      | 9276/26000 [01:20<02:41, 103.74it/s] 36%|███▌      | 9287/26000 [01:21<02:41, 103.20it/s] 36%|███▌      | 9298/26000 [01:21<02:40, 103.97it/s] 36%|███▌      | 9309/26000 [01:21<02:42, 102.65it/s] 36%|███▌      | 9320/26000 [01:21<02:41, 103.54it/s] 36%|███▌      | 9331/26000 [01:21<02:50, 97.80it/s]  36%|███▌      | 9341/26000 [01:21<02:53, 96.08it/s] 36%|███▌      | 9352/26000 [01:21<02:49, 98.29it/s] 36%|███▌      | 9363/26000 [01:21<02:44, 101.14it/s] 36%|███▌      | 9375/26000 [01:21<02:40, 103.79it/s] 36%|███▌      | 9386/26000 [01:22<02:37, 105.32it/s] 36%|███▌      | 9398/26000 [01:22<02:32, 108.70it/s] 36%|███▌      | 9409/26000 [01:22<02:41, 102.46it/s] 36%|███▌      | 9420/26000 [01:22<02:46, 99.62it/s]  36%|███▋      | 9431/26000 [01:22<02:42, 101.79it/s] 36%|███▋      | 9442/26000 [01:22<02:43, 101.49it/s] 36%|███▋      | 9453/26000 [01:22<02:42, 102.04it/s] 36%|███▋      | 9466/26000 [01:22<02:30, 109.82it/s] 36%|███▋      | 9478/26000 [01:22<02:33, 107.35it/s] 36%|███▋      | 9489/26000 [01:23<02:39, 103.36it/s] 37%|███▋      | 9500/26000 [01:23<02:36, 105.18it/s] 37%|███▋      | 9511/26000 [01:23<02:45, 99.71it/s]  37%|███▋      | 9522/26000 [01:23<02:42, 101.15it/s] 37%|███▋      | 9533/26000 [01:23<02:48, 97.93it/s]  37%|███▋      | 9544/26000 [01:23<02:44, 99.92it/s] 37%|███▋      | 9555/26000 [01:23<02:45, 99.57it/s] 37%|███▋      | 9565/26000 [01:23<02:55, 93.72it/s] 37%|███▋      | 9576/26000 [01:23<02:53, 94.74it/s] 37%|███▋      | 9586/26000 [01:24<02:50, 96.09it/s] 37%|███▋      | 9597/26000 [01:24<02:44, 99.55it/s] 37%|███▋      | 9608/26000 [01:24<02:40, 102.12it/s] 37%|███▋      | 9619/26000 [01:24<02:39, 102.86it/s] 37%|███▋      | 9630/26000 [01:24<02:36, 104.33it/s] 37%|███▋      | 9641/26000 [01:24<02:38, 103.30it/s] 37%|███▋      | 9652/26000 [01:24<02:38, 103.24it/s] 37%|███▋      | 9664/26000 [01:24<02:31, 107.66it/s] 37%|███▋      | 9675/26000 [01:24<02:36, 104.07it/s] 37%|███▋      | 9686/26000 [01:25<02:45, 98.64it/s]  37%|███▋      | 9696/26000 [01:25<02:44, 98.87it/s] 37%|███▋      | 9707/26000 [01:25<02:42, 100.19it/s] 37%|███▋      | 9719/26000 [01:25<02:34, 105.40it/s] 37%|███▋      | 9730/26000 [01:25<02:35, 104.39it/s] 37%|███▋      | 9741/26000 [01:25<02:33, 105.91it/s] 38%|███▊      | 9752/26000 [01:25<02:44, 98.82it/s]  38%|███▊      | 9762/26000 [01:25<02:49, 96.00it/s] 38%|███▊      | 9773/26000 [01:25<02:43, 99.54it/s] 38%|███▊      | 9784/26000 [01:25<02:39, 101.73it/s] 38%|███▊      | 9795/26000 [01:26<02:37, 102.89it/s] 38%|███▊      | 9806/26000 [01:26<02:37, 103.07it/s] 38%|███▊      | 9817/26000 [01:26<02:39, 101.61it/s] 38%|███▊      | 9828/26000 [01:26<02:39, 101.71it/s] 38%|███▊      | 9839/26000 [01:26<02:36, 103.42it/s] 38%|███▊      | 9850/26000 [01:26<02:35, 104.00it/s] 38%|███▊      | 9861/26000 [01:26<02:40, 100.77it/s] 38%|███▊      | 9872/26000 [01:26<02:36, 102.77it/s] 38%|███▊      | 9884/26000 [01:26<02:32, 105.68it/s] 38%|███▊      | 9895/26000 [01:27<02:43, 98.27it/s]  38%|███▊      | 9905/26000 [01:27<02:43, 98.53it/s] 38%|███▊      | 9917/26000 [01:27<02:36, 102.97it/s] 38%|███▊      | 9928/26000 [01:27<02:34, 104.34it/s] 38%|███▊      | 9940/26000 [01:27<02:30, 107.05it/s] 38%|███▊      | 9951/26000 [01:27<02:30, 106.62it/s] 38%|███▊      | 9962/26000 [01:27<02:31, 105.81it/s] 38%|███▊      | 9973/26000 [01:27<02:31, 105.99it/s] 38%|███▊      | 9984/26000 [01:27<02:39, 100.57it/s] 38%|███▊      | 9995/26000 [01:28<02:35, 103.09it/s] 38%|███▊      | 10006/26000 [01:28<02:32, 104.65it/s] 39%|███▊      | 10017/26000 [01:28<02:40, 99.81it/s]  39%|███▊      | 10028/26000 [01:28<02:43, 97.92it/s] 39%|███▊      | 10039/26000 [01:28<02:40, 99.48it/s] 39%|███▊      | 10051/26000 [01:28<02:34, 103.21it/s] 39%|███▊      | 10062/26000 [01:28<02:38, 100.46it/s] 39%|███▊      | 10074/26000 [01:28<02:30, 105.53it/s] 39%|███▉      | 10085/26000 [01:28<02:31, 105.09it/s] 39%|███▉      | 10096/26000 [01:28<02:31, 104.71it/s] 39%|███▉      | 10107/26000 [01:29<02:35, 101.93it/s] 39%|███▉      | 10118/26000 [01:29<02:41, 98.14it/s]  39%|███▉      | 10128/26000 [01:29<02:49, 93.69it/s] 39%|███▉      | 10140/26000 [01:29<02:39, 99.64it/s] 39%|███▉      | 10153/26000 [01:29<02:30, 105.31it/s] 39%|███▉      | 10164/26000 [01:29<02:29, 106.22it/s] 39%|███▉      | 10175/26000 [01:29<02:28, 106.68it/s] 39%|███▉      | 10188/26000 [01:29<02:22, 111.02it/s] 39%|███▉      | 10200/26000 [01:29<02:24, 109.54it/s] 39%|███▉      | 10211/26000 [01:30<02:25, 108.30it/s] 39%|███▉      | 10222/26000 [01:30<02:26, 108.05it/s] 39%|███▉      | 10234/26000 [01:30<02:23, 109.52it/s] 39%|███▉      | 10246/26000 [01:30<02:21, 111.52it/s] 39%|███▉      | 10258/26000 [01:30<02:21, 110.97it/s] 40%|███▉      | 10271/26000 [01:30<02:16, 115.58it/s] 40%|███▉      | 10283/26000 [01:30<02:16, 115.43it/s] 40%|███▉      | 10295/26000 [01:30<02:17, 114.37it/s] 40%|███▉      | 10307/26000 [01:30<02:19, 112.80it/s] 40%|███▉      | 10319/26000 [01:31<02:21, 110.45it/s] 40%|███▉      | 10331/26000 [01:31<02:23, 109.37it/s] 40%|███▉      | 10342/26000 [01:31<02:24, 108.65it/s] 40%|███▉      | 10353/26000 [01:31<02:24, 108.22it/s] 40%|███▉      | 10365/26000 [01:31<02:23, 109.30it/s] 40%|███▉      | 10377/26000 [01:31<02:19, 111.61it/s] 40%|███▉      | 10389/26000 [01:31<02:31, 103.21it/s] 40%|████      | 10400/26000 [01:31<02:30, 103.89it/s] 40%|████      | 10411/26000 [01:31<02:29, 104.39it/s] 40%|████      | 10422/26000 [01:32<02:29, 103.99it/s] 40%|████      | 10433/26000 [01:32<02:35, 99.86it/s]  40%|████      | 10444/26000 [01:32<02:34, 100.61it/s] 40%|████      | 10455/26000 [01:32<02:36, 99.30it/s]  40%|████      | 10465/26000 [01:32<02:38, 97.81it/s] 40%|████      | 10475/26000 [01:32<02:45, 93.89it/s] 40%|████      | 10486/26000 [01:32<02:40, 96.75it/s] 40%|████      | 10497/26000 [01:32<02:35, 99.70it/s] 40%|████      | 10508/26000 [01:32<02:32, 101.87it/s] 40%|████      | 10519/26000 [01:33<02:30, 102.90it/s] 41%|████      | 10531/26000 [01:33<02:24, 106.84it/s] 41%|████      | 10543/26000 [01:33<02:24, 106.66it/s] 41%|████      | 10554/26000 [01:33<02:28, 103.87it/s] 41%|████      | 10565/26000 [01:33<02:31, 101.71it/s] 41%|████      | 10576/26000 [01:33<02:30, 102.58it/s] 41%|████      | 10588/26000 [01:33<02:26, 105.56it/s] 41%|████      | 10599/26000 [01:33<02:25, 106.04it/s] 41%|████      | 10610/26000 [01:33<02:27, 104.31it/s] 41%|████      | 10622/26000 [01:33<02:24, 106.50it/s] 41%|████      | 10634/26000 [01:34<02:20, 109.08it/s] 41%|████      | 10645/26000 [01:34<02:23, 106.75it/s] 41%|████      | 10656/26000 [01:34<02:24, 106.16it/s] 41%|████      | 10667/26000 [01:34<02:34, 99.49it/s]  41%|████      | 10678/26000 [01:34<02:34, 99.20it/s] 41%|████      | 10688/26000 [01:34<02:36, 97.93it/s] 41%|████      | 10699/26000 [01:34<02:31, 101.07it/s] 41%|████      | 10710/26000 [01:34<02:32, 100.56it/s] 41%|████      | 10722/26000 [01:34<02:26, 104.56it/s] 41%|████▏     | 10733/26000 [01:35<02:33, 99.47it/s]  41%|████▏     | 10744/26000 [01:35<02:31, 100.84it/s] 41%|████▏     | 10755/26000 [01:35<02:29, 101.90it/s] 41%|████▏     | 10766/26000 [01:35<02:32, 100.05it/s] 41%|████▏     | 10777/26000 [01:35<02:28, 102.39it/s] 41%|████▏     | 10788/26000 [01:35<02:28, 102.67it/s] 42%|████▏     | 10799/26000 [01:35<02:31, 100.52it/s] 42%|████▏     | 10810/26000 [01:35<02:32, 99.59it/s]  42%|████▏     | 10820/26000 [01:35<02:36, 97.02it/s] 42%|████▏     | 10831/26000 [01:36<02:34, 98.43it/s] 42%|████▏     | 10842/26000 [01:36<02:30, 100.67it/s] 42%|████▏     | 10854/26000 [01:36<02:25, 104.41it/s] 42%|████▏     | 10865/26000 [01:36<02:28, 101.75it/s] 42%|████▏     | 10876/26000 [01:36<02:36, 96.64it/s]  42%|████▏     | 10887/26000 [01:36<02:31, 99.75it/s] 42%|████▏     | 10898/26000 [01:36<02:43, 92.39it/s] 42%|████▏     | 10908/26000 [01:36<02:44, 91.94it/s] 42%|████▏     | 10919/26000 [01:36<02:38, 94.92it/s] 42%|████▏     | 10929/26000 [01:37<02:40, 94.00it/s] 42%|████▏     | 10940/26000 [01:37<02:36, 96.46it/s] 42%|████▏     | 10951/26000 [01:37<02:31, 99.21it/s] 42%|████▏     | 10961/26000 [01:37<02:32, 98.92it/s] 42%|████▏     | 10971/26000 [01:37<02:31, 99.07it/s] 42%|████▏     | 10981/26000 [01:37<02:32, 98.32it/s] 42%|████▏     | 10991/26000 [01:37<02:36, 95.83it/s] 42%|████▏     | 11002/26000 [01:37<02:32, 98.13it/s] 42%|████▏     | 11012/26000 [01:37<02:33, 97.48it/s] 42%|████▏     | 11022/26000 [01:38<02:33, 97.43it/s] 42%|████▏     | 11033/26000 [01:38<02:29, 99.87it/s] 42%|████▏     | 11045/26000 [01:38<02:22, 105.20it/s] 43%|████▎     | 11056/26000 [01:38<02:21, 105.35it/s] 43%|████▎     | 11067/26000 [01:38<02:30, 99.16it/s]  43%|████▎     | 11077/26000 [01:38<02:34, 96.83it/s] 43%|████▎     | 11087/26000 [01:38<02:33, 97.18it/s] 43%|████▎     | 11098/26000 [01:38<02:32, 98.02it/s] 43%|████▎     | 11108/26000 [01:38<02:32, 97.45it/s] 43%|████▎     | 11118/26000 [01:38<02:33, 97.24it/s] 43%|████▎     | 11130/26000 [01:39<02:25, 102.08it/s] 43%|████▎     | 11141/26000 [01:39<02:23, 103.27it/s] 43%|████▎     | 11152/26000 [01:39<02:22, 104.33it/s] 43%|████▎     | 11164/26000 [01:39<02:19, 106.02it/s] 43%|████▎     | 11175/26000 [01:39<02:19, 106.04it/s] 43%|████▎     | 11186/26000 [01:39<02:27, 100.64it/s] 43%|████▎     | 11197/26000 [01:39<02:26, 100.97it/s] 43%|████▎     | 11208/26000 [01:39<02:26, 101.08it/s] 43%|████▎     | 11219/26000 [01:39<02:27, 99.93it/s]  43%|████▎     | 11230/26000 [01:40<02:26, 100.48it/s] 43%|████▎     | 11241/26000 [01:40<02:28, 99.26it/s]  43%|████▎     | 11251/26000 [01:40<02:30, 98.08it/s] 43%|████▎     | 11261/26000 [01:40<02:29, 98.32it/s] 43%|████▎     | 11273/26000 [01:40<02:24, 102.05it/s] 43%|████▎     | 11284/26000 [01:40<02:27, 99.46it/s]  43%|████▎     | 11296/26000 [01:40<02:22, 103.20it/s] 43%|████▎     | 11307/26000 [01:40<02:23, 102.11it/s] 44%|████▎     | 11318/26000 [01:40<02:29, 98.41it/s]  44%|████▎     | 11328/26000 [01:41<02:31, 96.59it/s] 44%|████▎     | 11339/26000 [01:41<02:28, 98.43it/s] 44%|████▎     | 11349/26000 [01:41<02:29, 97.95it/s] 44%|████▎     | 11359/26000 [01:41<02:30, 97.30it/s] 44%|████▎     | 11369/26000 [01:41<02:32, 95.94it/s] 44%|████▍     | 11380/26000 [01:41<02:26, 99.61it/s] 44%|████▍     | 11391/26000 [01:41<02:25, 100.18it/s] 44%|████▍     | 11403/26000 [01:41<02:20, 103.99it/s] 44%|████▍     | 11416/26000 [01:41<02:13, 109.62it/s] 44%|████▍     | 11428/26000 [01:42<02:09, 112.38it/s] 44%|████▍     | 11441/26000 [01:42<02:06, 115.48it/s] 44%|████▍     | 11453/26000 [01:42<02:08, 113.54it/s] 44%|████▍     | 11465/26000 [01:42<02:09, 111.94it/s] 44%|████▍     | 11477/26000 [01:42<02:09, 111.77it/s] 44%|████▍     | 11489/26000 [01:42<02:14, 108.18it/s] 44%|████▍     | 11500/26000 [01:42<02:16, 105.96it/s] 44%|████▍     | 11512/26000 [01:42<02:13, 108.30it/s] 44%|████▍     | 11523/26000 [01:42<02:14, 107.50it/s] 44%|████▍     | 11534/26000 [01:43<02:26, 99.01it/s]  44%|████▍     | 11546/26000 [01:43<02:21, 102.36it/s] 44%|████▍     | 11557/26000 [01:43<02:26, 98.69it/s]  44%|████▍     | 11567/26000 [01:43<02:29, 96.79it/s] 45%|████▍     | 11577/26000 [01:43<02:32, 94.38it/s] 45%|████▍     | 11587/26000 [01:43<02:32, 94.48it/s] 45%|████▍     | 11597/26000 [01:43<02:32, 94.46it/s] 45%|████▍     | 11607/26000 [01:43<02:30, 95.81it/s] 45%|████▍     | 11617/26000 [01:43<02:29, 96.24it/s] 45%|████▍     | 11628/26000 [01:43<02:26, 98.23it/s] 45%|████▍     | 11638/26000 [01:44<02:29, 96.00it/s] 45%|████▍     | 11648/26000 [01:44<02:30, 95.62it/s] 45%|████▍     | 11658/26000 [01:44<02:33, 93.68it/s] 45%|████▍     | 11669/26000 [01:44<02:26, 98.07it/s] 45%|████▍     | 11680/26000 [01:44<02:23, 99.57it/s] 45%|████▍     | 11693/26000 [01:44<02:15, 105.74it/s] 45%|████▌     | 11704/26000 [01:44<02:13, 106.75it/s] 45%|████▌     | 11715/26000 [01:44<02:16, 104.91it/s] 45%|████▌     | 11726/26000 [01:44<02:14, 106.21it/s] 45%|████▌     | 11738/26000 [01:45<02:12, 108.04it/s] 45%|████▌     | 11749/26000 [01:45<02:13, 107.04it/s] 45%|████▌     | 11762/26000 [01:45<02:08, 110.55it/s] 45%|████▌     | 11774/26000 [01:45<02:13, 106.70it/s] 45%|████▌     | 11785/26000 [01:45<02:14, 105.64it/s] 45%|████▌     | 11796/26000 [01:45<02:18, 102.35it/s] 45%|████▌     | 11808/26000 [01:45<02:14, 105.18it/s] 45%|████▌     | 11820/26000 [01:45<02:12, 107.07it/s] 46%|████▌     | 11831/26000 [01:45<02:13, 106.07it/s] 46%|████▌     | 11842/26000 [01:46<02:16, 103.81it/s] 46%|████▌     | 11853/26000 [01:46<02:20, 100.93it/s] 46%|████▌     | 11864/26000 [01:46<02:22, 99.23it/s]  46%|████▌     | 11876/26000 [01:46<02:17, 102.51it/s] 46%|████▌     | 11887/26000 [01:46<02:22, 99.27it/s]  46%|████▌     | 11897/26000 [01:46<02:23, 98.60it/s] 46%|████▌     | 11908/26000 [01:46<02:19, 101.36it/s] 46%|████▌     | 11919/26000 [01:46<02:21, 99.44it/s]  46%|████▌     | 11930/26000 [01:46<02:20, 99.86it/s] 46%|████▌     | 11941/26000 [01:47<02:18, 101.40it/s] 46%|████▌     | 11952/26000 [01:47<02:17, 101.87it/s] 46%|████▌     | 11963/26000 [01:47<02:14, 104.01it/s] 46%|████▌     | 11974/26000 [01:47<02:15, 103.51it/s] 46%|████▌     | 11986/26000 [01:47<02:12, 105.78it/s] 46%|████▌     | 11998/26000 [01:47<02:08, 109.23it/s] 46%|████▌     | 12009/26000 [01:47<02:10, 107.44it/s] 46%|████▌     | 12020/26000 [01:47<02:09, 107.57it/s] 46%|████▋     | 12031/26000 [01:47<02:10, 106.80it/s] 46%|████▋     | 12043/26000 [01:47<02:08, 108.42it/s] 46%|████▋     | 12054/26000 [01:48<02:08, 108.25it/s] 46%|████▋     | 12066/26000 [01:48<02:08, 108.52it/s] 46%|████▋     | 12078/26000 [01:48<02:08, 108.69it/s] 46%|████▋     | 12089/26000 [01:48<02:15, 102.62it/s] 47%|████▋     | 12100/26000 [01:48<02:18, 100.09it/s] 47%|████▋     | 12112/26000 [01:48<02:12, 104.99it/s] 47%|████▋     | 12123/26000 [01:48<02:15, 102.12it/s] 47%|████▋     | 12134/26000 [01:48<02:17, 101.14it/s] 47%|████▋     | 12145/26000 [01:48<02:19, 99.34it/s]  47%|████▋     | 12155/26000 [01:49<02:20, 98.74it/s] 47%|████▋     | 12168/26000 [01:49<02:11, 105.42it/s] 47%|████▋     | 12179/26000 [01:49<02:09, 106.55it/s] 47%|████▋     | 12190/26000 [01:49<02:09, 106.73it/s] 47%|████▋     | 12201/26000 [01:49<02:09, 106.91it/s] 47%|████▋     | 12212/26000 [01:49<02:11, 104.76it/s] 47%|████▋     | 12223/26000 [01:49<02:10, 105.37it/s] 47%|████▋     | 12235/26000 [01:49<02:08, 107.28it/s] 47%|████▋     | 12246/26000 [01:49<02:07, 107.54it/s] 47%|████▋     | 12258/26000 [01:50<02:04, 110.11it/s] 47%|████▋     | 12270/26000 [01:50<02:05, 109.41it/s] 47%|████▋     | 12282/26000 [01:50<02:05, 109.61it/s] 47%|████▋     | 12295/26000 [01:50<02:01, 113.02it/s] 47%|████▋     | 12307/26000 [01:50<01:59, 114.63it/s] 47%|████▋     | 12319/26000 [01:50<02:00, 113.79it/s] 47%|████▋     | 12331/26000 [01:50<02:06, 107.94it/s] 47%|████▋     | 12342/26000 [01:50<02:11, 104.01it/s] 48%|████▊     | 12355/26000 [01:50<02:05, 108.81it/s] 48%|████▊     | 12367/26000 [01:51<02:02, 110.86it/s] 48%|████▊     | 12379/26000 [01:51<02:06, 107.40it/s] 48%|████▊     | 12390/26000 [01:51<02:09, 104.72it/s] 48%|████▊     | 12401/26000 [01:51<02:09, 105.01it/s] 48%|████▊     | 12412/26000 [01:51<02:11, 103.52it/s] 48%|████▊     | 12423/26000 [01:51<02:10, 104.03it/s] 48%|████▊     | 12434/26000 [01:51<02:10, 104.02it/s] 48%|████▊     | 12445/26000 [01:51<02:13, 101.66it/s] 48%|████▊     | 12457/26000 [01:51<02:10, 104.04it/s] 48%|████▊     | 12468/26000 [01:52<02:14, 100.92it/s] 48%|████▊     | 12479/26000 [01:52<02:16, 98.90it/s]  48%|████▊     | 12489/26000 [01:52<02:17, 98.25it/s] 48%|████▊     | 12501/26000 [01:52<02:12, 102.09it/s] 48%|████▊     | 12512/26000 [01:52<02:09, 104.31it/s] 48%|████▊     | 12523/26000 [01:52<02:07, 105.88it/s] 48%|████▊     | 12535/26000 [01:52<02:04, 108.41it/s] 48%|████▊     | 12546/26000 [01:52<02:08, 104.78it/s] 48%|████▊     | 12557/26000 [01:52<02:12, 101.25it/s] 48%|████▊     | 12568/26000 [01:52<02:15, 98.95it/s]  48%|████▊     | 12579/26000 [01:53<02:13, 100.82it/s] 48%|████▊     | 12590/26000 [01:53<02:11, 101.86it/s] 48%|████▊     | 12601/26000 [01:53<02:17, 97.12it/s]  49%|████▊     | 12611/26000 [01:53<02:16, 97.85it/s] 49%|████▊     | 12622/26000 [01:53<02:16, 97.66it/s] 49%|████▊     | 12632/26000 [01:53<02:20, 95.31it/s] 49%|████▊     | 12643/26000 [01:53<02:16, 97.92it/s] 49%|████▊     | 12654/26000 [01:53<02:13, 100.00it/s] 49%|████▊     | 12666/26000 [01:53<02:06, 105.20it/s] 49%|████▉     | 12679/26000 [01:54<02:01, 109.89it/s] 49%|████▉     | 12691/26000 [01:54<02:00, 110.88it/s] 49%|████▉     | 12703/26000 [01:54<02:04, 106.82it/s] 49%|████▉     | 12714/26000 [01:54<02:11, 101.38it/s] 49%|████▉     | 12725/26000 [01:54<02:11, 100.68it/s] 49%|████▉     | 12736/26000 [01:54<02:12, 100.34it/s] 49%|████▉     | 12747/26000 [01:54<02:13, 99.07it/s]  49%|████▉     | 12758/26000 [01:54<02:12, 99.97it/s] 49%|████▉     | 12769/26000 [01:54<02:16, 97.07it/s] 49%|████▉     | 12780/26000 [01:55<02:14, 98.00it/s] 49%|████▉     | 12790/26000 [01:55<02:21, 93.56it/s] 49%|████▉     | 12800/26000 [01:55<02:25, 90.53it/s] 49%|████▉     | 12811/26000 [01:55<02:22, 92.66it/s] 49%|████▉     | 12821/26000 [01:55<02:26, 89.86it/s] 49%|████▉     | 12831/26000 [01:55<02:27, 89.28it/s] 49%|████▉     | 12841/26000 [01:55<02:25, 90.64it/s] 49%|████▉     | 12852/26000 [01:55<02:21, 93.14it/s] 49%|████▉     | 12862/26000 [01:56<02:20, 93.82it/s] 50%|████▉     | 12872/26000 [01:56<02:24, 90.67it/s] 50%|████▉     | 12882/26000 [01:56<02:21, 92.96it/s] 50%|████▉     | 12892/26000 [01:56<02:20, 92.98it/s] 50%|████▉     | 12903/26000 [01:56<02:15, 96.39it/s] 50%|████▉     | 12913/26000 [01:56<02:15, 96.91it/s] 50%|████▉     | 12924/26000 [01:56<02:10, 100.52it/s] 50%|████▉     | 12937/26000 [01:56<02:02, 106.62it/s] 50%|████▉     | 12948/26000 [01:56<02:02, 106.46it/s] 50%|████▉     | 12960/26000 [01:56<01:59, 109.13it/s] 50%|████▉     | 12971/26000 [01:57<02:07, 101.83it/s] 50%|████▉     | 12982/26000 [01:57<02:06, 103.31it/s] 50%|████▉     | 12994/26000 [01:57<02:00, 107.87it/s] 50%|█████     | 13006/26000 [01:57<01:59, 108.71it/s] 50%|█████     | 13017/26000 [01:57<02:00, 107.59it/s] 50%|█████     | 13028/26000 [01:57<02:03, 104.98it/s] 50%|█████     | 13040/26000 [01:57<02:00, 107.31it/s] 50%|█████     | 13051/26000 [01:57<02:04, 103.79it/s] 50%|█████     | 13062/26000 [01:57<02:06, 102.17it/s] 50%|█████     | 13073/26000 [01:58<02:13, 96.60it/s]  50%|█████     | 13083/26000 [01:58<02:13, 97.01it/s] 50%|█████     | 13093/26000 [01:58<02:13, 96.89it/s] 50%|█████     | 13103/26000 [01:58<02:12, 97.67it/s] 50%|█████     | 13115/26000 [01:58<02:05, 102.86it/s] 50%|█████     | 13127/26000 [01:58<02:01, 106.18it/s] 51%|█████     | 13139/26000 [01:58<01:59, 107.97it/s] 51%|█████     | 13151/26000 [01:58<01:57, 109.19it/s] 51%|█████     | 13164/26000 [01:58<01:54, 112.30it/s] 51%|█████     | 13176/26000 [01:59<01:52, 114.32it/s] 51%|█████     | 13188/26000 [01:59<01:51, 114.72it/s] 51%|█████     | 13200/26000 [01:59<01:50, 115.37it/s] 51%|█████     | 13213/26000 [01:59<01:49, 116.74it/s] 51%|█████     | 13225/26000 [01:59<01:52, 113.82it/s] 51%|█████     | 13237/26000 [01:59<01:50, 115.07it/s] 51%|█████     | 13249/26000 [01:59<01:50, 115.13it/s] 51%|█████     | 13261/26000 [01:59<01:52, 113.11it/s] 51%|█████     | 13273/26000 [01:59<01:55, 109.81it/s] 51%|█████     | 13285/26000 [01:59<01:58, 106.89it/s] 51%|█████     | 13296/26000 [02:00<02:01, 104.95it/s] 51%|█████     | 13307/26000 [02:00<02:05, 101.42it/s] 51%|█████     | 13318/26000 [02:00<02:08, 99.01it/s]  51%|█████▏    | 13330/26000 [02:00<02:03, 102.58it/s] 51%|█████▏    | 13341/26000 [02:00<02:01, 104.55it/s] 51%|█████▏    | 13352/26000 [02:00<01:59, 105.41it/s] 51%|█████▏    | 13363/26000 [02:00<02:01, 103.86it/s] 51%|█████▏    | 13374/26000 [02:00<02:03, 102.08it/s] 51%|█████▏    | 13385/26000 [02:00<02:00, 104.27it/s] 52%|█████▏    | 13397/26000 [02:01<01:59, 105.14it/s] 52%|█████▏    | 13408/26000 [02:01<02:04, 100.86it/s] 52%|█████▏    | 13419/26000 [02:01<02:04, 101.09it/s] 52%|█████▏    | 13430/26000 [02:01<02:08, 97.73it/s]  52%|█████▏    | 13440/26000 [02:01<02:08, 97.67it/s] 52%|█████▏    | 13451/26000 [02:01<02:05, 99.65it/s] 52%|█████▏    | 13462/26000 [02:01<02:03, 101.69it/s] 52%|█████▏    | 13475/26000 [02:01<01:54, 109.23it/s] 52%|█████▏    | 13486/26000 [02:01<01:55, 108.42it/s] 52%|█████▏    | 13498/26000 [02:02<01:52, 110.72it/s] 52%|█████▏    | 13510/26000 [02:02<01:50, 113.35it/s] 52%|█████▏    | 13522/26000 [02:02<01:54, 109.31it/s] 52%|█████▏    | 13533/26000 [02:02<02:01, 103.00it/s] 52%|█████▏    | 13544/26000 [02:02<01:59, 104.50it/s] 52%|█████▏    | 13555/26000 [02:02<01:57, 105.56it/s] 52%|█████▏    | 13567/26000 [02:02<01:54, 108.43it/s] 52%|█████▏    | 13578/26000 [02:02<01:54, 108.28it/s] 52%|█████▏    | 13589/26000 [02:02<01:54, 108.03it/s] 52%|█████▏    | 13600/26000 [02:03<01:54, 108.48it/s] 52%|█████▏    | 13611/26000 [02:03<01:56, 105.99it/s] 52%|█████▏    | 13622/26000 [02:03<01:56, 106.65it/s] 52%|█████▏    | 13633/26000 [02:03<01:55, 106.80it/s] 52%|█████▏    | 13644/26000 [02:03<01:58, 104.08it/s] 53%|█████▎    | 13655/26000 [02:03<02:08, 96.10it/s]  53%|█████▎    | 13666/26000 [02:03<02:05, 97.97it/s] 53%|█████▎    | 13677/26000 [02:03<02:02, 100.82it/s] 53%|█████▎    | 13688/26000 [02:03<02:00, 102.53it/s] 53%|█████▎    | 13699/26000 [02:03<02:01, 101.26it/s] 53%|█████▎    | 13710/26000 [02:04<02:04, 98.59it/s]  53%|█████▎    | 13720/26000 [02:04<02:05, 97.55it/s] 53%|█████▎    | 13730/26000 [02:04<02:05, 97.84it/s] 53%|█████▎    | 13741/26000 [02:04<02:01, 100.70it/s] 53%|█████▎    | 13753/26000 [02:04<01:56, 105.21it/s] 53%|█████▎    | 13764/26000 [02:04<02:05, 97.44it/s]  53%|█████▎    | 13774/26000 [02:04<02:07, 95.94it/s] 53%|█████▎    | 13785/26000 [02:04<02:07, 96.14it/s] 53%|█████▎    | 13795/26000 [02:04<02:08, 94.97it/s] 53%|█████▎    | 13805/26000 [02:05<02:11, 92.62it/s] 53%|█████▎    | 13816/26000 [02:05<02:07, 95.73it/s] 53%|█████▎    | 13827/26000 [02:05<02:03, 98.38it/s] 53%|█████▎    | 13837/26000 [02:05<02:06, 96.12it/s] 53%|█████▎    | 13847/26000 [02:05<02:05, 97.02it/s] 53%|█████▎    | 13857/26000 [02:05<02:06, 95.76it/s] 53%|█████▎    | 13869/26000 [02:05<02:01, 100.14it/s] 53%|█████▎    | 13880/26000 [02:05<02:04, 97.28it/s]  53%|█████▎    | 13890/26000 [02:05<02:03, 97.69it/s] 53%|█████▎    | 13902/26000 [02:06<01:58, 102.38it/s] 54%|█████▎    | 13913/26000 [02:06<01:58, 102.38it/s] 54%|█████▎    | 13924/26000 [02:06<01:57, 102.38it/s] 54%|█████▎    | 13936/26000 [02:06<01:55, 104.16it/s] 54%|█████▎    | 13947/26000 [02:06<02:00, 99.85it/s]  54%|█████▎    | 13958/26000 [02:06<02:04, 96.36it/s] 54%|█████▎    | 13969/26000 [02:06<02:03, 97.43it/s] 54%|█████▍    | 13980/26000 [02:06<02:00, 99.95it/s] 54%|█████▍    | 13991/26000 [02:06<02:04, 96.76it/s] 54%|█████▍    | 14004/26000 [02:07<01:55, 103.72it/s] 54%|█████▍    | 14016/26000 [02:07<01:52, 106.58it/s] 54%|█████▍    | 14028/26000 [02:07<01:50, 108.23it/s] 54%|█████▍    | 14039/26000 [02:07<01:52, 106.74it/s] 54%|█████▍    | 14050/26000 [02:07<01:51, 107.62it/s] 54%|█████▍    | 14062/26000 [02:07<01:48, 109.60it/s] 54%|█████▍    | 14073/26000 [02:07<01:51, 107.06it/s] 54%|█████▍    | 14084/26000 [02:07<01:52, 105.76it/s] 54%|█████▍    | 14096/26000 [02:07<01:50, 107.47it/s] 54%|█████▍    | 14108/26000 [02:08<01:47, 110.49it/s] 54%|█████▍    | 14120/26000 [02:08<01:49, 108.01it/s] 54%|█████▍    | 14131/26000 [02:08<01:56, 102.31it/s] 54%|█████▍    | 14142/26000 [02:08<01:55, 102.55it/s] 54%|█████▍    | 14153/26000 [02:08<01:53, 104.36it/s] 54%|█████▍    | 14164/26000 [02:08<01:57, 100.52it/s] 55%|█████▍    | 14175/26000 [02:08<01:57, 100.52it/s] 55%|█████▍    | 14186/26000 [02:08<02:01, 97.54it/s]  55%|█████▍    | 14197/26000 [02:08<01:58, 99.82it/s] 55%|█████▍    | 14208/26000 [02:09<01:59, 98.90it/s] 55%|█████▍    | 14219/26000 [02:09<01:57, 100.61it/s] 55%|█████▍    | 14230/26000 [02:09<01:54, 103.04it/s] 55%|█████▍    | 14241/26000 [02:09<01:56, 101.08it/s] 55%|█████▍    | 14253/26000 [02:09<01:52, 104.24it/s] 55%|█████▍    | 14264/26000 [02:09<01:52, 104.56it/s] 55%|█████▍    | 14275/26000 [02:09<01:54, 102.48it/s] 55%|█████▍    | 14287/26000 [02:09<01:51, 105.23it/s] 55%|█████▍    | 14298/26000 [02:09<01:50, 106.15it/s] 55%|█████▌    | 14309/26000 [02:10<01:56, 99.95it/s]  55%|█████▌    | 14320/26000 [02:10<01:56, 100.66it/s] 55%|█████▌    | 14331/26000 [02:10<01:57, 99.70it/s]  55%|█████▌    | 14343/26000 [02:10<01:52, 103.38it/s] 55%|█████▌    | 14354/26000 [02:10<01:51, 104.41it/s] 55%|█████▌    | 14365/26000 [02:10<01:50, 104.85it/s] 55%|█████▌    | 14376/26000 [02:10<01:49, 105.71it/s] 55%|█████▌    | 14388/26000 [02:10<01:47, 108.06it/s] 55%|█████▌    | 14400/26000 [02:10<01:46, 108.70it/s] 55%|█████▌    | 14411/26000 [02:10<01:47, 108.02it/s] 55%|█████▌    | 14422/26000 [02:11<01:48, 106.45it/s] 56%|█████▌    | 14434/26000 [02:11<01:45, 109.83it/s] 56%|█████▌    | 14445/26000 [02:11<01:48, 106.26it/s] 56%|█████▌    | 14457/26000 [02:11<01:45, 109.13it/s] 56%|█████▌    | 14469/26000 [02:11<01:43, 111.49it/s] 56%|█████▌    | 14481/26000 [02:11<01:44, 109.94it/s] 56%|█████▌    | 14493/26000 [02:11<01:46, 107.77it/s] 56%|█████▌    | 14504/26000 [02:11<01:52, 102.22it/s] 56%|█████▌    | 14515/26000 [02:11<01:52, 101.76it/s] 56%|█████▌    | 14526/26000 [02:12<01:52, 101.98it/s] 56%|█████▌    | 14537/26000 [02:12<01:52, 102.19it/s] 56%|█████▌    | 14548/26000 [02:12<01:54, 99.85it/s]  56%|█████▌    | 14559/26000 [02:12<01:55, 99.01it/s] 56%|█████▌    | 14569/26000 [02:12<01:57, 97.31it/s] 56%|█████▌    | 14580/26000 [02:12<01:55, 98.84it/s] 56%|█████▌    | 14591/26000 [02:12<01:52, 101.74it/s] 56%|█████▌    | 14603/26000 [02:12<01:48, 104.96it/s] 56%|█████▌    | 14614/26000 [02:12<01:51, 101.91it/s] 56%|█████▋    | 14625/26000 [02:13<01:55, 98.67it/s]  56%|█████▋    | 14636/26000 [02:13<01:54, 99.29it/s] 56%|█████▋    | 14648/26000 [02:13<01:50, 102.87it/s] 56%|█████▋    | 14660/26000 [02:13<01:46, 106.54it/s] 56%|█████▋    | 14671/26000 [02:13<01:51, 101.85it/s] 56%|█████▋    | 14682/26000 [02:13<01:54, 99.04it/s]  57%|█████▋    | 14692/26000 [02:13<01:55, 98.30it/s] 57%|█████▋    | 14703/26000 [02:13<01:54, 98.88it/s] 57%|█████▋    | 14713/26000 [02:13<01:55, 97.75it/s] 57%|█████▋    | 14724/26000 [02:14<01:52, 100.30it/s] 57%|█████▋    | 14735/26000 [02:14<01:49, 102.90it/s] 57%|█████▋    | 14746/26000 [02:14<01:51, 101.15it/s] 57%|█████▋    | 14757/26000 [02:14<01:54, 98.61it/s]  57%|█████▋    | 14768/26000 [02:14<01:50, 101.60it/s] 57%|█████▋    | 14779/26000 [02:14<01:49, 102.82it/s] 57%|█████▋    | 14791/26000 [02:14<01:45, 106.75it/s] 57%|█████▋    | 14803/26000 [02:14<01:43, 108.65it/s] 57%|█████▋    | 14817/26000 [02:14<01:36, 115.50it/s] 57%|█████▋    | 14829/26000 [02:15<01:40, 111.52it/s] 57%|█████▋    | 14841/26000 [02:15<01:48, 102.68it/s] 57%|█████▋    | 14852/26000 [02:15<01:55, 96.17it/s]  57%|█████▋    | 14862/26000 [02:15<01:59, 93.50it/s] 57%|█████▋    | 14872/26000 [02:15<01:57, 94.99it/s] 57%|█████▋    | 14882/26000 [02:15<01:57, 94.69it/s] 57%|█████▋    | 14893/26000 [02:15<01:52, 98.56it/s] 57%|█████▋    | 14903/26000 [02:15<01:58, 93.76it/s] 57%|█████▋    | 14913/26000 [02:15<02:01, 90.94it/s] 57%|█████▋    | 14923/26000 [02:16<02:02, 90.61it/s] 57%|█████▋    | 14933/26000 [02:16<01:59, 92.52it/s] 57%|█████▋    | 14943/26000 [02:16<01:56, 94.61it/s] 58%|█████▊    | 14953/26000 [02:16<01:55, 95.50it/s] 58%|█████▊    | 14963/26000 [02:16<01:55, 95.35it/s] 58%|█████▊    | 14974/26000 [02:16<01:52, 98.06it/s] 58%|█████▊    | 14985/26000 [02:16<01:49, 100.92it/s] 58%|█████▊    | 14996/26000 [02:16<01:49, 100.56it/s] 58%|█████▊    | 15007/26000 [02:16<01:47, 102.05it/s] 58%|█████▊    | 15018/26000 [02:16<01:50, 99.44it/s]  58%|█████▊    | 15028/26000 [02:17<01:52, 97.94it/s] 58%|█████▊    | 15038/26000 [02:17<01:55, 95.20it/s] 58%|█████▊    | 15049/26000 [02:17<01:51, 98.23it/s] 58%|█████▊    | 15059/26000 [02:17<01:53, 96.54it/s] 58%|█████▊    | 15070/26000 [02:17<01:51, 98.43it/s] 58%|█████▊    | 15081/26000 [02:17<01:47, 101.67it/s] 58%|█████▊    | 15092/26000 [02:17<01:45, 103.08it/s] 58%|█████▊    | 15103/26000 [02:17<01:43, 104.79it/s] 58%|█████▊    | 15116/26000 [02:17<01:39, 109.67it/s] 58%|█████▊    | 15128/26000 [02:18<01:37, 110.99it/s] 58%|█████▊    | 15141/26000 [02:18<01:34, 114.60it/s] 58%|█████▊    | 15153/26000 [02:18<01:36, 112.59it/s] 58%|█████▊    | 15165/26000 [02:18<01:38, 110.52it/s] 58%|█████▊    | 15177/26000 [02:18<01:39, 108.83it/s] 58%|█████▊    | 15189/26000 [02:18<01:37, 110.95it/s] 58%|█████▊    | 15201/26000 [02:18<01:36, 111.56it/s] 59%|█████▊    | 15213/26000 [02:18<01:36, 112.14it/s] 59%|█████▊    | 15225/26000 [02:18<01:36, 111.09it/s] 59%|█████▊    | 15237/26000 [02:19<01:35, 112.89it/s] 59%|█████▊    | 15250/26000 [02:19<01:31, 117.72it/s] 59%|█████▊    | 15262/26000 [02:19<01:31, 117.44it/s] 59%|█████▊    | 15274/26000 [02:19<01:33, 114.79it/s] 59%|█████▉    | 15286/26000 [02:19<01:32, 115.63it/s] 59%|█████▉    | 15298/26000 [02:19<01:33, 114.80it/s] 59%|█████▉    | 15310/26000 [02:19<01:34, 113.22it/s] 59%|█████▉    | 15322/26000 [02:19<01:38, 108.45it/s] 59%|█████▉    | 15333/26000 [02:19<01:41, 105.50it/s] 59%|█████▉    | 15344/26000 [02:20<01:44, 102.04it/s] 59%|█████▉    | 15355/26000 [02:20<01:46, 99.62it/s]  59%|█████▉    | 15365/26000 [02:20<01:54, 92.97it/s] 59%|█████▉    | 15375/26000 [02:20<01:56, 91.46it/s] 59%|█████▉    | 15386/26000 [02:20<01:50, 95.98it/s] 59%|█████▉    | 15396/26000 [02:20<01:53, 93.65it/s] 59%|█████▉    | 15406/26000 [02:20<01:52, 94.36it/s] 59%|█████▉    | 15416/26000 [02:20<01:55, 91.71it/s] 59%|█████▉    | 15427/26000 [02:20<01:51, 94.62it/s] 59%|█████▉    | 15437/26000 [02:21<01:51, 95.13it/s] 59%|█████▉    | 15447/26000 [02:21<01:50, 95.50it/s] 59%|█████▉    | 15458/26000 [02:21<01:48, 97.47it/s] 59%|█████▉    | 15469/26000 [02:21<01:45, 99.66it/s] 60%|█████▉    | 15479/26000 [02:21<01:46, 98.85it/s] 60%|█████▉    | 15489/26000 [02:21<01:50, 95.23it/s] 60%|█████▉    | 15500/26000 [02:21<01:46, 98.86it/s] 60%|█████▉    | 15512/26000 [02:21<01:40, 103.84it/s] 60%|█████▉    | 15523/26000 [02:21<01:39, 105.29it/s] 60%|█████▉    | 15534/26000 [02:21<01:44, 100.40it/s] 60%|█████▉    | 15545/26000 [02:22<01:42, 102.34it/s] 60%|█████▉    | 15556/26000 [02:22<01:42, 102.04it/s] 60%|█████▉    | 15567/26000 [02:22<01:44, 100.07it/s] 60%|█████▉    | 15578/26000 [02:22<01:41, 102.27it/s] 60%|█████▉    | 15589/26000 [02:22<01:39, 104.42it/s] 60%|██████    | 15601/26000 [02:22<01:37, 106.49it/s] 60%|██████    | 15612/26000 [02:22<01:45, 98.48it/s]  60%|██████    | 15622/26000 [02:22<01:50, 93.70it/s] 60%|██████    | 15633/26000 [02:22<01:46, 97.10it/s] 60%|██████    | 15644/26000 [02:23<01:42, 100.59it/s] 60%|██████    | 15655/26000 [02:23<01:43, 100.14it/s] 60%|██████    | 15666/26000 [02:23<01:48, 95.37it/s]  60%|██████    | 15677/26000 [02:23<01:44, 99.24it/s] 60%|██████    | 15688/26000 [02:23<01:42, 100.46it/s] 60%|██████    | 15699/26000 [02:23<01:41, 101.65it/s] 60%|██████    | 15710/26000 [02:23<01:40, 102.46it/s] 60%|██████    | 15721/26000 [02:23<01:47, 95.98it/s]  61%|██████    | 15731/26000 [02:23<01:49, 93.62it/s] 61%|██████    | 15742/26000 [02:24<01:46, 96.52it/s] 61%|██████    | 15754/26000 [02:24<01:41, 100.88it/s] 61%|██████    | 15765/26000 [02:24<01:40, 101.94it/s] 61%|██████    | 15776/26000 [02:24<01:42, 99.94it/s]  61%|██████    | 15787/26000 [02:24<01:44, 97.83it/s] 61%|██████    | 15798/26000 [02:24<01:40, 101.09it/s] 61%|██████    | 15809/26000 [02:24<01:41, 100.28it/s] 61%|██████    | 15821/26000 [02:24<01:36, 105.03it/s] 61%|██████    | 15832/26000 [02:24<01:43, 98.01it/s]  61%|██████    | 15842/26000 [02:25<01:49, 92.44it/s] 61%|██████    | 15853/26000 [02:25<01:46, 95.52it/s] 61%|██████    | 15863/26000 [02:25<01:47, 94.26it/s] 61%|██████    | 15873/26000 [02:25<01:49, 92.47it/s] 61%|██████    | 15886/26000 [02:25<01:40, 100.71it/s] 61%|██████    | 15897/26000 [02:25<01:42, 98.23it/s]  61%|██████    | 15908/26000 [02:25<01:41, 99.34it/s] 61%|██████    | 15919/26000 [02:25<01:40, 100.71it/s] 61%|██████▏   | 15931/26000 [02:25<01:35, 105.20it/s] 61%|██████▏   | 15943/26000 [02:26<01:34, 106.51it/s] 61%|██████▏   | 15954/26000 [02:26<01:36, 103.77it/s] 61%|██████▏   | 15966/26000 [02:26<01:34, 106.64it/s] 61%|██████▏   | 15977/26000 [02:26<01:34, 105.96it/s] 61%|██████▏   | 15989/26000 [02:26<01:32, 107.74it/s] 62%|██████▏   | 16000/26000 [02:26<01:34, 105.84it/s] 62%|██████▏   | 16011/26000 [02:26<01:36, 104.00it/s] 62%|██████▏   | 16022/26000 [02:26<01:36, 103.74it/s] 62%|██████▏   | 16033/26000 [02:26<01:39, 100.24it/s] 62%|██████▏   | 16044/26000 [02:27<01:38, 101.18it/s] 62%|██████▏   | 16056/26000 [02:27<01:34, 105.72it/s] 62%|██████▏   | 16067/26000 [02:27<01:36, 103.19it/s] 62%|██████▏   | 16078/26000 [02:27<01:37, 101.93it/s] 62%|██████▏   | 16089/26000 [02:27<01:38, 100.73it/s] 62%|██████▏   | 16100/26000 [02:27<01:36, 102.29it/s] 62%|██████▏   | 16111/26000 [02:27<01:37, 101.63it/s] 62%|██████▏   | 16122/26000 [02:27<01:37, 100.95it/s] 62%|██████▏   | 16133/26000 [02:27<01:36, 102.70it/s] 62%|██████▏   | 16144/26000 [02:28<01:36, 101.70it/s] 62%|██████▏   | 16155/26000 [02:28<01:42, 95.85it/s]  62%|██████▏   | 16165/26000 [02:28<01:45, 92.86it/s] 62%|██████▏   | 16175/26000 [02:28<01:44, 94.10it/s] 62%|██████▏   | 16185/26000 [02:28<01:45, 93.33it/s] 62%|██████▏   | 16196/26000 [02:28<01:42, 95.98it/s] 62%|██████▏   | 16206/26000 [02:28<01:41, 96.44it/s] 62%|██████▏   | 16216/26000 [02:28<01:46, 91.82it/s] 62%|██████▏   | 16226/26000 [02:28<01:50, 88.58it/s] 62%|██████▏   | 16236/26000 [02:29<01:48, 89.65it/s] 62%|██████▏   | 16246/26000 [02:29<01:45, 92.24it/s] 63%|██████▎   | 16256/26000 [02:29<01:48, 90.22it/s] 63%|██████▎   | 16266/26000 [02:29<01:46, 91.00it/s] 63%|██████▎   | 16276/26000 [02:29<01:46, 91.69it/s] 63%|██████▎   | 16288/26000 [02:29<01:39, 97.16it/s] 63%|██████▎   | 16298/26000 [02:29<01:41, 95.65it/s] 63%|██████▎   | 16308/26000 [02:29<01:42, 94.65it/s] 63%|██████▎   | 16318/26000 [02:29<01:40, 96.04it/s] 63%|██████▎   | 16328/26000 [02:30<01:42, 94.39it/s] 63%|██████▎   | 16339/26000 [02:30<01:41, 95.46it/s] 63%|██████▎   | 16351/26000 [02:30<01:36, 100.15it/s] 63%|██████▎   | 16363/26000 [02:30<01:33, 102.73it/s] 63%|██████▎   | 16374/26000 [02:30<01:34, 101.79it/s] 63%|██████▎   | 16385/26000 [02:30<01:38, 97.17it/s]  63%|██████▎   | 16396/26000 [02:30<01:36, 99.30it/s] 63%|██████▎   | 16408/26000 [02:30<01:32, 104.06it/s] 63%|██████▎   | 16421/26000 [02:30<01:27, 109.02it/s] 63%|██████▎   | 16432/26000 [02:31<01:29, 106.37it/s] 63%|██████▎   | 16443/26000 [02:31<01:32, 103.74it/s] 63%|██████▎   | 16454/26000 [02:31<01:33, 102.58it/s] 63%|██████▎   | 16465/26000 [02:31<01:35, 99.85it/s]  63%|██████▎   | 16477/26000 [02:31<01:30, 105.29it/s] 63%|██████▎   | 16488/26000 [02:31<01:34, 100.39it/s] 63%|██████▎   | 16499/26000 [02:31<01:37, 97.86it/s]  63%|██████▎   | 16509/26000 [02:31<01:37, 97.05it/s] 64%|██████▎   | 16519/26000 [02:31<01:40, 93.99it/s] 64%|██████▎   | 16530/26000 [02:32<01:37, 97.15it/s] 64%|██████▎   | 16541/26000 [02:32<01:35, 99.03it/s] 64%|██████▎   | 16554/26000 [02:32<01:28, 106.30it/s] 64%|██████▎   | 16565/26000 [02:32<01:31, 103.08it/s] 64%|██████▍   | 16576/26000 [02:32<01:31, 103.11it/s] 64%|██████▍   | 16587/26000 [02:32<01:32, 101.50it/s] 64%|██████▍   | 16598/26000 [02:32<01:31, 103.15it/s] 64%|██████▍   | 16609/26000 [02:32<01:32, 101.15it/s] 64%|██████▍   | 16620/26000 [02:32<01:33, 100.76it/s] 64%|██████▍   | 16631/26000 [02:32<01:33, 99.68it/s]  64%|██████▍   | 16641/26000 [02:33<01:34, 98.61it/s] 64%|██████▍   | 16651/26000 [02:33<01:35, 98.15it/s] 64%|██████▍   | 16661/26000 [02:33<01:40, 92.72it/s] 64%|██████▍   | 16672/26000 [02:33<01:37, 96.14it/s] 64%|██████▍   | 16685/26000 [02:33<01:29, 104.61it/s] 64%|██████▍   | 16697/26000 [02:33<01:25, 108.51it/s] 64%|██████▍   | 16710/26000 [02:33<01:22, 112.92it/s] 64%|██████▍   | 16723/26000 [02:33<01:20, 115.19it/s] 64%|██████▍   | 16735/26000 [02:33<01:26, 106.53it/s] 64%|██████▍   | 16746/26000 [02:34<01:29, 103.02it/s] 64%|██████▍   | 16757/26000 [02:34<01:32, 99.52it/s]  64%|██████▍   | 16768/26000 [02:34<01:36, 95.58it/s] 65%|██████▍   | 16778/26000 [02:34<01:36, 95.75it/s] 65%|██████▍   | 16788/26000 [02:34<01:38, 93.44it/s] 65%|██████▍   | 16798/26000 [02:34<01:36, 95.08it/s] 65%|██████▍   | 16810/26000 [02:34<01:31, 100.45it/s] 65%|██████▍   | 16822/26000 [02:34<01:28, 103.48it/s] 65%|██████▍   | 16834/26000 [02:34<01:27, 105.28it/s] 65%|██████▍   | 16845/26000 [02:35<01:25, 106.53it/s] 65%|██████▍   | 16856/26000 [02:35<01:27, 104.55it/s] 65%|██████▍   | 16867/26000 [02:35<01:30, 101.08it/s] 65%|██████▍   | 16878/26000 [02:35<01:32, 98.94it/s]  65%|██████▍   | 16888/26000 [02:35<01:32, 98.67it/s] 65%|██████▍   | 16898/26000 [02:35<01:33, 96.99it/s] 65%|██████▌   | 16909/26000 [02:35<01:30, 100.26it/s] 65%|██████▌   | 16920/26000 [02:35<01:28, 102.27it/s] 65%|██████▌   | 16931/26000 [02:35<01:27, 103.81it/s] 65%|██████▌   | 16942/26000 [02:36<01:28, 102.50it/s] 65%|██████▌   | 16953/26000 [02:36<01:30, 100.45it/s] 65%|██████▌   | 16964/26000 [02:36<01:33, 96.37it/s]  65%|██████▌   | 16975/26000 [02:36<01:31, 98.50it/s] 65%|██████▌   | 16988/26000 [02:36<01:25, 105.69it/s] 65%|██████▌   | 16999/26000 [02:36<01:29, 100.69it/s] 65%|██████▌   | 17010/26000 [02:36<01:27, 102.67it/s] 65%|██████▌   | 17021/26000 [02:36<01:31, 98.39it/s]  66%|██████▌   | 17031/26000 [02:36<01:32, 97.45it/s] 66%|██████▌   | 17041/26000 [02:37<01:33, 95.47it/s] 66%|██████▌   | 17053/26000 [02:37<01:30, 99.05it/s] 66%|██████▌   | 17063/26000 [02:37<01:32, 96.95it/s] 66%|██████▌   | 17074/26000 [02:37<01:31, 98.03it/s] 66%|██████▌   | 17085/26000 [02:37<01:30, 98.02it/s] 66%|██████▌   | 17096/26000 [02:37<01:28, 101.00it/s] 66%|██████▌   | 17107/26000 [02:37<01:32, 96.03it/s]  66%|██████▌   | 17117/26000 [02:37<01:33, 94.61it/s] 66%|██████▌   | 17127/26000 [02:37<01:33, 95.39it/s] 66%|██████▌   | 17137/26000 [02:38<01:31, 96.52it/s] 66%|██████▌   | 17147/26000 [02:38<01:31, 96.88it/s] 66%|██████▌   | 17158/26000 [02:38<01:29, 98.76it/s] 66%|██████▌   | 17170/26000 [02:38<01:25, 103.55it/s] 66%|██████▌   | 17181/26000 [02:38<01:28, 99.63it/s]  66%|██████▌   | 17192/26000 [02:38<01:31, 96.33it/s] 66%|██████▌   | 17202/26000 [02:38<01:30, 97.09it/s] 66%|██████▌   | 17214/26000 [02:38<01:27, 100.73it/s] 66%|██████▋   | 17225/26000 [02:38<01:25, 102.39it/s] 66%|██████▋   | 17236/26000 [02:39<01:25, 102.56it/s] 66%|██████▋   | 17247/26000 [02:39<01:27, 99.89it/s]  66%|██████▋   | 17258/26000 [02:39<01:28, 98.64it/s] 66%|██████▋   | 17268/26000 [02:39<01:28, 98.95it/s] 66%|██████▋   | 17279/26000 [02:39<01:27, 99.23it/s] 66%|██████▋   | 17289/26000 [02:39<01:30, 96.66it/s] 67%|██████▋   | 17299/26000 [02:39<01:29, 97.25it/s] 67%|██████▋   | 17309/26000 [02:39<01:30, 95.71it/s] 67%|██████▋   | 17319/26000 [02:39<01:33, 92.47it/s] 67%|██████▋   | 17331/26000 [02:40<01:28, 98.41it/s] 67%|██████▋   | 17341/26000 [02:40<01:29, 97.22it/s] 67%|██████▋   | 17352/26000 [02:40<01:26, 100.30it/s] 67%|██████▋   | 17363/26000 [02:40<01:26, 99.86it/s]  67%|██████▋   | 17375/26000 [02:40<01:23, 103.77it/s] 67%|██████▋   | 17386/26000 [02:40<01:23, 103.33it/s] 67%|██████▋   | 17397/26000 [02:40<01:27, 98.40it/s]  67%|██████▋   | 17408/26000 [02:40<01:26, 99.33it/s] 67%|██████▋   | 17419/26000 [02:40<01:26, 99.47it/s] 67%|██████▋   | 17430/26000 [02:40<01:24, 101.58it/s] 67%|██████▋   | 17441/26000 [02:41<01:25, 99.90it/s]  67%|██████▋   | 17452/26000 [02:41<01:28, 96.30it/s] 67%|██████▋   | 17462/26000 [02:41<01:28, 96.34it/s] 67%|██████▋   | 17474/26000 [02:41<01:23, 101.72it/s] 67%|██████▋   | 17486/26000 [02:41<01:21, 105.03it/s] 67%|██████▋   | 17497/26000 [02:41<01:20, 106.23it/s] 67%|██████▋   | 17508/26000 [02:41<01:21, 104.83it/s] 67%|██████▋   | 17519/26000 [02:41<01:21, 103.57it/s] 67%|██████▋   | 17530/26000 [02:41<01:22, 103.06it/s] 67%|██████▋   | 17541/26000 [02:42<01:22, 101.95it/s] 68%|██████▊   | 17552/26000 [02:42<01:28, 95.40it/s]  68%|██████▊   | 17562/26000 [02:42<01:33, 90.18it/s] 68%|██████▊   | 17572/26000 [02:42<01:34, 89.42it/s] 68%|██████▊   | 17582/26000 [02:42<01:31, 91.57it/s] 68%|██████▊   | 17592/26000 [02:42<01:33, 90.08it/s] 68%|██████▊   | 17602/26000 [02:42<01:34, 89.34it/s] 68%|██████▊   | 17612/26000 [02:42<01:32, 90.22it/s] 68%|██████▊   | 17622/26000 [02:43<01:30, 92.77it/s] 68%|██████▊   | 17633/26000 [02:43<01:28, 94.98it/s] 68%|██████▊   | 17644/26000 [02:43<01:25, 97.67it/s] 68%|██████▊   | 17654/26000 [02:43<01:26, 96.58it/s] 68%|██████▊   | 17665/26000 [02:43<01:25, 97.54it/s] 68%|██████▊   | 17675/26000 [02:43<01:30, 92.31it/s] 68%|██████▊   | 17685/26000 [02:43<01:28, 93.67it/s] 68%|██████▊   | 17696/26000 [02:43<01:26, 96.22it/s] 68%|██████▊   | 17706/26000 [02:43<01:26, 95.64it/s] 68%|██████▊   | 17718/26000 [02:43<01:21, 101.37it/s] 68%|██████▊   | 17730/26000 [02:44<01:18, 105.53it/s] 68%|██████▊   | 17741/26000 [02:44<01:21, 101.46it/s] 68%|██████▊   | 17753/26000 [02:44<01:17, 106.24it/s] 68%|██████▊   | 17765/26000 [02:44<01:15, 108.77it/s] 68%|██████▊   | 17776/26000 [02:44<01:21, 101.22it/s] 68%|██████▊   | 17787/26000 [02:44<01:22, 100.09it/s] 68%|██████▊   | 17798/26000 [02:44<01:23, 98.70it/s]  68%|██████▊   | 17809/26000 [02:44<01:20, 101.60it/s] 69%|██████▊   | 17820/26000 [02:44<01:21, 99.88it/s]  69%|██████▊   | 17831/26000 [02:45<01:23, 98.12it/s] 69%|██████▊   | 17843/26000 [02:45<01:19, 102.01it/s] 69%|██████▊   | 17855/26000 [02:45<01:16, 106.75it/s] 69%|██████▊   | 17866/26000 [02:45<01:20, 101.14it/s] 69%|██████▉   | 17877/26000 [02:45<01:24, 96.70it/s]  69%|██████▉   | 17888/26000 [02:45<01:22, 98.23it/s] 69%|██████▉   | 17898/26000 [02:45<01:22, 97.87it/s] 69%|██████▉   | 17908/26000 [02:45<01:23, 97.36it/s] 69%|██████▉   | 17919/26000 [02:45<01:21, 98.80it/s] 69%|██████▉   | 17930/26000 [02:46<01:20, 99.82it/s] 69%|██████▉   | 17941/26000 [02:46<01:20, 100.51it/s] 69%|██████▉   | 17952/26000 [02:46<01:19, 100.73it/s] 69%|██████▉   | 17963/26000 [02:46<01:19, 100.64it/s] 69%|██████▉   | 17974/26000 [02:46<01:21, 98.69it/s]  69%|██████▉   | 17984/26000 [02:46<01:23, 96.21it/s] 69%|██████▉   | 17994/26000 [02:46<01:23, 96.01it/s] 69%|██████▉   | 18005/26000 [02:46<01:21, 98.37it/s] 69%|██████▉   | 18015/26000 [02:46<01:24, 95.05it/s] 69%|██████▉   | 18026/26000 [02:47<01:22, 96.88it/s] 69%|██████▉   | 18036/26000 [02:47<01:22, 96.35it/s] 69%|██████▉   | 18047/26000 [02:47<01:21, 97.87it/s] 69%|██████▉   | 18059/26000 [02:47<01:18, 101.75it/s] 70%|██████▉   | 18070/26000 [02:47<01:16, 103.67it/s] 70%|██████▉   | 18082/26000 [02:47<01:14, 105.85it/s] 70%|██████▉   | 18093/26000 [02:47<01:14, 106.28it/s] 70%|██████▉   | 18104/26000 [02:47<01:14, 106.17it/s] 70%|██████▉   | 18115/26000 [02:47<01:16, 102.88it/s] 70%|██████▉   | 18127/26000 [02:48<01:15, 104.47it/s] 70%|██████▉   | 18138/26000 [02:48<01:18, 100.75it/s] 70%|██████▉   | 18149/26000 [02:48<01:19, 98.19it/s]  70%|██████▉   | 18160/26000 [02:48<01:18, 100.50it/s] 70%|██████▉   | 18171/26000 [02:48<01:17, 101.40it/s] 70%|██████▉   | 18182/26000 [02:48<01:15, 103.69it/s] 70%|██████▉   | 18193/26000 [02:48<01:14, 105.25it/s] 70%|███████   | 18205/26000 [02:48<01:11, 108.70it/s] 70%|███████   | 18216/26000 [02:48<01:13, 105.72it/s] 70%|███████   | 18227/26000 [02:49<01:16, 101.40it/s] 70%|███████   | 18238/26000 [02:49<01:17, 100.56it/s] 70%|███████   | 18249/26000 [02:49<01:15, 103.11it/s] 70%|███████   | 18260/26000 [02:49<01:13, 104.96it/s] 70%|███████   | 18271/26000 [02:49<01:13, 105.84it/s] 70%|███████   | 18284/26000 [02:49<01:09, 111.22it/s] 70%|███████   | 18296/26000 [02:49<01:10, 109.95it/s] 70%|███████   | 18308/26000 [02:49<01:12, 105.96it/s] 70%|███████   | 18319/26000 [02:49<01:13, 103.87it/s] 71%|███████   | 18331/26000 [02:49<01:11, 106.76it/s] 71%|███████   | 18342/26000 [02:50<01:12, 105.82it/s] 71%|███████   | 18353/26000 [02:50<01:12, 106.10it/s] 71%|███████   | 18364/26000 [02:50<01:13, 103.49it/s] 71%|███████   | 18375/26000 [02:50<01:14, 102.25it/s] 71%|███████   | 18386/26000 [02:50<01:13, 102.94it/s] 71%|███████   | 18398/26000 [02:50<01:11, 105.71it/s] 71%|███████   | 18409/26000 [02:50<01:12, 105.39it/s] 71%|███████   | 18420/26000 [02:50<01:11, 105.81it/s] 71%|███████   | 18431/26000 [02:50<01:11, 105.83it/s] 71%|███████   | 18442/26000 [02:51<01:11, 105.93it/s] 71%|███████   | 18454/26000 [02:51<01:10, 107.61it/s] 71%|███████   | 18466/26000 [02:51<01:09, 109.03it/s] 71%|███████   | 18477/26000 [02:51<01:09, 108.83it/s] 71%|███████   | 18488/26000 [02:51<01:13, 101.97it/s] 71%|███████   | 18499/26000 [02:51<01:17, 96.38it/s]  71%|███████   | 18510/26000 [02:51<01:16, 98.33it/s] 71%|███████   | 18520/26000 [02:51<01:17, 95.92it/s] 71%|███████▏  | 18530/26000 [02:51<01:20, 93.28it/s] 71%|███████▏  | 18540/26000 [02:52<01:19, 93.79it/s] 71%|███████▏  | 18550/26000 [02:52<01:21, 91.92it/s] 71%|███████▏  | 18560/26000 [02:52<01:20, 92.49it/s] 71%|███████▏  | 18571/26000 [02:52<01:17, 96.42it/s] 71%|███████▏  | 18581/26000 [02:52<01:18, 94.23it/s] 72%|███████▏  | 18594/26000 [02:52<01:11, 103.24it/s] 72%|███████▏  | 18605/26000 [02:52<01:10, 105.00it/s] 72%|███████▏  | 18616/26000 [02:52<01:11, 103.57it/s] 72%|███████▏  | 18627/26000 [02:52<01:12, 101.19it/s] 72%|███████▏  | 18638/26000 [02:53<01:11, 103.66it/s] 72%|███████▏  | 18649/26000 [02:53<01:12, 101.05it/s] 72%|███████▏  | 18660/26000 [02:53<01:15, 97.81it/s]  72%|███████▏  | 18671/26000 [02:53<01:13, 100.23it/s] 72%|███████▏  | 18682/26000 [02:53<01:12, 100.34it/s] 72%|███████▏  | 18693/26000 [02:53<01:11, 102.16it/s] 72%|███████▏  | 18704/26000 [02:53<01:11, 101.46it/s] 72%|███████▏  | 18716/26000 [02:53<01:08, 106.49it/s] 72%|███████▏  | 18727/26000 [02:53<01:08, 105.70it/s] 72%|███████▏  | 18738/26000 [02:54<01:12, 100.62it/s] 72%|███████▏  | 18749/26000 [02:54<01:14, 97.90it/s]  72%|███████▏  | 18760/26000 [02:54<01:12, 100.11it/s] 72%|███████▏  | 18772/26000 [02:54<01:08, 105.07it/s] 72%|███████▏  | 18784/26000 [02:54<01:06, 109.02it/s] 72%|███████▏  | 18796/26000 [02:54<01:05, 110.09it/s] 72%|███████▏  | 18808/26000 [02:54<01:09, 104.00it/s] 72%|███████▏  | 18819/26000 [02:54<01:12, 98.84it/s]  72%|███████▏  | 18830/26000 [02:54<01:12, 99.55it/s] 72%|███████▏  | 18841/26000 [02:55<01:15, 95.09it/s] 73%|███████▎  | 18851/26000 [02:55<01:15, 95.13it/s] 73%|███████▎  | 18862/26000 [02:55<01:12, 98.35it/s] 73%|███████▎  | 18873/26000 [02:55<01:11, 99.37it/s] 73%|███████▎  | 18885/26000 [02:55<01:08, 103.47it/s] 73%|███████▎  | 18896/26000 [02:55<01:08, 104.37it/s] 73%|███████▎  | 18907/26000 [02:55<01:11, 98.85it/s]  73%|███████▎  | 18917/26000 [02:55<01:12, 97.83it/s] 73%|███████▎  | 18927/26000 [02:55<01:12, 98.07it/s] 73%|███████▎  | 18937/26000 [02:55<01:14, 95.16it/s] 73%|███████▎  | 18947/26000 [02:56<01:15, 92.85it/s] 73%|███████▎  | 18958/26000 [02:56<01:13, 96.34it/s] 73%|███████▎  | 18971/26000 [02:56<01:07, 103.80it/s] 73%|███████▎  | 18982/26000 [02:56<01:08, 102.85it/s] 73%|███████▎  | 18993/26000 [02:56<01:08, 101.61it/s] 73%|███████▎  | 19004/26000 [02:56<01:10, 98.91it/s]  73%|███████▎  | 19015/26000 [02:56<01:09, 99.97it/s] 73%|███████▎  | 19026/26000 [02:56<01:08, 102.52it/s] 73%|███████▎  | 19037/26000 [02:56<01:08, 101.71it/s] 73%|███████▎  | 19049/26000 [02:57<01:06, 104.25it/s] 73%|███████▎  | 19060/26000 [02:57<01:08, 101.73it/s] 73%|███████▎  | 19071/26000 [02:57<01:12, 95.32it/s]  73%|███████▎  | 19081/26000 [02:57<01:13, 94.52it/s] 73%|███████▎  | 19091/26000 [02:57<01:14, 92.86it/s] 73%|███████▎  | 19101/26000 [02:57<01:15, 91.46it/s] 74%|███████▎  | 19112/26000 [02:57<01:11, 96.31it/s] 74%|███████▎  | 19124/26000 [02:57<01:07, 101.81it/s] 74%|███████▎  | 19136/26000 [02:57<01:04, 106.12it/s] 74%|███████▎  | 19148/26000 [02:58<01:03, 107.43it/s] 74%|███████▎  | 19159/26000 [02:58<01:03, 106.99it/s] 74%|███████▎  | 19170/26000 [02:58<01:03, 107.82it/s] 74%|███████▍  | 19181/26000 [02:58<01:05, 104.76it/s] 74%|███████▍  | 19192/26000 [02:58<01:06, 102.92it/s] 74%|███████▍  | 19203/26000 [02:58<01:08, 99.38it/s]  74%|███████▍  | 19214/26000 [02:58<01:06, 101.64it/s] 74%|███████▍  | 19226/26000 [02:58<01:04, 105.07it/s] 74%|███████▍  | 19239/26000 [02:58<01:01, 109.60it/s] 74%|███████▍  | 19250/26000 [02:59<01:01, 109.39it/s] 74%|███████▍  | 19261/26000 [02:59<01:05, 103.60it/s] 74%|███████▍  | 19272/26000 [02:59<01:06, 100.66it/s] 74%|███████▍  | 19283/26000 [02:59<01:09, 97.01it/s]  74%|███████▍  | 19294/26000 [02:59<01:09, 97.16it/s] 74%|███████▍  | 19304/26000 [02:59<01:12, 92.51it/s] 74%|███████▍  | 19314/26000 [02:59<01:13, 90.56it/s] 74%|███████▍  | 19324/26000 [02:59<01:11, 93.00it/s] 74%|███████▍  | 19335/26000 [02:59<01:09, 95.42it/s] 74%|███████▍  | 19347/26000 [03:00<01:06, 100.41it/s] 74%|███████▍  | 19359/26000 [03:00<01:03, 104.68it/s] 74%|███████▍  | 19370/26000 [03:00<01:06, 100.12it/s] 75%|███████▍  | 19384/26000 [03:00<01:00, 109.25it/s] 75%|███████▍  | 19398/26000 [03:00<00:56, 116.54it/s] 75%|███████▍  | 19410/26000 [03:00<00:57, 115.54it/s] 75%|███████▍  | 19422/26000 [03:00<01:00, 108.25it/s] 75%|███████▍  | 19433/26000 [03:00<01:02, 104.34it/s] 75%|███████▍  | 19444/26000 [03:00<01:05, 99.52it/s]  75%|███████▍  | 19455/26000 [03:01<01:07, 97.69it/s] 75%|███████▍  | 19466/26000 [03:01<01:05, 99.31it/s] 75%|███████▍  | 19476/26000 [03:01<01:07, 97.29it/s] 75%|███████▍  | 19488/26000 [03:01<01:04, 101.62it/s] 75%|███████▍  | 19499/26000 [03:01<01:04, 101.33it/s] 75%|███████▌  | 19510/26000 [03:01<01:04, 100.83it/s] 75%|███████▌  | 19521/26000 [03:01<01:07, 95.64it/s]  75%|███████▌  | 19531/26000 [03:01<01:08, 94.91it/s] 75%|███████▌  | 19542/26000 [03:01<01:06, 96.88it/s] 75%|███████▌  | 19552/26000 [03:02<01:09, 92.57it/s] 75%|███████▌  | 19562/26000 [03:02<01:08, 94.58it/s] 75%|███████▌  | 19573/26000 [03:02<01:06, 96.50it/s] 75%|███████▌  | 19585/26000 [03:02<01:02, 102.58it/s] 75%|███████▌  | 19596/26000 [03:02<01:04, 99.67it/s]  75%|███████▌  | 19607/26000 [03:02<01:05, 97.67it/s] 75%|███████▌  | 19618/26000 [03:02<01:03, 100.30it/s] 75%|███████▌  | 19629/26000 [03:02<01:02, 101.91it/s] 76%|███████▌  | 19640/26000 [03:02<01:05, 97.30it/s]  76%|███████▌  | 19650/26000 [03:03<01:04, 97.85it/s] 76%|███████▌  | 19660/26000 [03:03<01:06, 94.90it/s] 76%|███████▌  | 19670/26000 [03:03<01:09, 91.04it/s] 76%|███████▌  | 19680/26000 [03:03<01:08, 92.41it/s] 76%|███████▌  | 19690/26000 [03:03<01:08, 92.40it/s] 76%|███████▌  | 19701/26000 [03:03<01:04, 97.03it/s] 76%|███████▌  | 19711/26000 [03:03<01:05, 96.11it/s] 76%|███████▌  | 19722/26000 [03:03<01:03, 99.30it/s] 76%|███████▌  | 19733/26000 [03:03<01:02, 100.91it/s] 76%|███████▌  | 19744/26000 [03:04<01:02, 99.83it/s]  76%|███████▌  | 19755/26000 [03:04<01:03, 98.21it/s] 76%|███████▌  | 19765/26000 [03:04<01:04, 95.95it/s] 76%|███████▌  | 19776/26000 [03:04<01:03, 97.74it/s] 76%|███████▌  | 19786/26000 [03:04<01:04, 96.64it/s] 76%|███████▌  | 19796/26000 [03:04<01:05, 94.28it/s] 76%|███████▌  | 19806/26000 [03:04<01:04, 95.64it/s] 76%|███████▌  | 19816/26000 [03:04<01:07, 91.44it/s] 76%|███████▋  | 19826/26000 [03:04<01:05, 93.76it/s] 76%|███████▋  | 19836/26000 [03:05<01:06, 92.15it/s] 76%|███████▋  | 19848/26000 [03:05<01:03, 96.90it/s] 76%|███████▋  | 19858/26000 [03:05<01:06, 92.52it/s] 76%|███████▋  | 19868/26000 [03:05<01:04, 94.51it/s] 76%|███████▋  | 19878/26000 [03:05<01:06, 91.97it/s] 76%|███████▋  | 19888/26000 [03:05<01:06, 92.00it/s] 77%|███████▋  | 19899/26000 [03:05<01:04, 95.14it/s] 77%|███████▋  | 19912/26000 [03:05<00:58, 104.26it/s] 77%|███████▋  | 19924/26000 [03:05<00:57, 106.20it/s] 77%|███████▋  | 19935/26000 [03:06<00:56, 106.77it/s] 77%|███████▋  | 19946/26000 [03:06<01:00, 100.89it/s] 77%|███████▋  | 19957/26000 [03:06<00:58, 103.02it/s] 77%|███████▋  | 19969/26000 [03:06<00:57, 105.24it/s] 77%|███████▋  | 19980/26000 [03:06<00:59, 101.40it/s] 77%|███████▋  | 19991/26000 [03:06<00:58, 102.00it/s] 77%|███████▋  | 20003/26000 [03:06<00:56, 106.91it/s] 77%|███████▋  | 20015/26000 [03:06<00:55, 108.64it/s] 77%|███████▋  | 20026/26000 [03:06<00:56, 104.98it/s] 77%|███████▋  | 20037/26000 [03:07<00:58, 102.07it/s] 77%|███████▋  | 20048/26000 [03:07<01:00, 98.15it/s]  77%|███████▋  | 20060/26000 [03:07<00:58, 102.13it/s] 77%|███████▋  | 20071/26000 [03:07<00:57, 103.80it/s] 77%|███████▋  | 20082/26000 [03:07<00:59, 100.27it/s] 77%|███████▋  | 20093/26000 [03:07<00:57, 102.58it/s] 77%|███████▋  | 20105/26000 [03:07<00:55, 105.53it/s] 77%|███████▋  | 20118/26000 [03:07<00:53, 110.22it/s] 77%|███████▋  | 20130/26000 [03:07<00:52, 111.79it/s] 77%|███████▋  | 20142/26000 [03:07<00:52, 111.39it/s] 78%|███████▊  | 20154/26000 [03:08<00:54, 107.44it/s] 78%|███████▊  | 20165/26000 [03:08<00:56, 103.90it/s] 78%|███████▊  | 20176/26000 [03:08<00:59, 97.47it/s]  78%|███████▊  | 20186/26000 [03:08<01:01, 94.93it/s] 78%|███████▊  | 20196/26000 [03:08<01:01, 93.75it/s] 78%|███████▊  | 20207/26000 [03:08<01:00, 96.46it/s] 78%|███████▊  | 20217/26000 [03:08<01:02, 92.79it/s] 78%|███████▊  | 20228/26000 [03:08<00:59, 96.21it/s] 78%|███████▊  | 20238/26000 [03:09<01:01, 94.22it/s] 78%|███████▊  | 20248/26000 [03:09<01:01, 93.41it/s] 78%|███████▊  | 20258/26000 [03:09<01:03, 91.14it/s] 78%|███████▊  | 20269/26000 [03:09<01:00, 95.25it/s] 78%|███████▊  | 20279/26000 [03:09<01:02, 92.22it/s] 78%|███████▊  | 20289/26000 [03:09<01:05, 87.49it/s] 78%|███████▊  | 20300/26000 [03:09<01:02, 90.94it/s] 78%|███████▊  | 20310/26000 [03:09<01:01, 92.27it/s] 78%|███████▊  | 20321/26000 [03:09<00:59, 95.74it/s] 78%|███████▊  | 20331/26000 [03:10<00:58, 96.74it/s] 78%|███████▊  | 20342/26000 [03:10<00:57, 97.97it/s] 78%|███████▊  | 20352/26000 [03:10<00:57, 98.10it/s] 78%|███████▊  | 20362/26000 [03:10<00:57, 97.29it/s] 78%|███████▊  | 20372/26000 [03:10<00:57, 97.52it/s] 78%|███████▊  | 20382/26000 [03:10<00:57, 96.92it/s] 78%|███████▊  | 20393/26000 [03:10<00:56, 99.84it/s] 78%|███████▊  | 20404/26000 [03:10<00:56, 99.89it/s] 79%|███████▊  | 20414/26000 [03:10<00:57, 97.89it/s] 79%|███████▊  | 20425/26000 [03:10<00:55, 100.92it/s] 79%|███████▊  | 20436/26000 [03:11<00:53, 103.24it/s] 79%|███████▊  | 20447/26000 [03:11<00:54, 101.63it/s] 79%|███████▊  | 20458/26000 [03:11<00:53, 102.66it/s] 79%|███████▊  | 20469/26000 [03:11<00:56, 98.49it/s]  79%|███████▉  | 20479/26000 [03:11<00:56, 97.99it/s] 79%|███████▉  | 20490/26000 [03:11<00:55, 98.60it/s] 79%|███████▉  | 20500/26000 [03:11<00:55, 98.84it/s] 79%|███████▉  | 20511/26000 [03:11<00:54, 100.74it/s] 79%|███████▉  | 20522/26000 [03:11<00:55, 97.85it/s]  79%|███████▉  | 20532/26000 [03:12<00:58, 93.55it/s] 79%|███████▉  | 20542/26000 [03:12<00:59, 91.08it/s] 79%|███████▉  | 20553/26000 [03:12<00:58, 93.78it/s] 79%|███████▉  | 20563/26000 [03:12<00:57, 94.28it/s] 79%|███████▉  | 20573/26000 [03:12<00:58, 93.01it/s] 79%|███████▉  | 20583/26000 [03:12<00:57, 94.23it/s] 79%|███████▉  | 20593/26000 [03:12<00:57, 94.71it/s] 79%|███████▉  | 20603/26000 [03:12<00:57, 94.47it/s] 79%|███████▉  | 20614/26000 [03:12<00:55, 97.27it/s] 79%|███████▉  | 20625/26000 [03:13<00:54, 98.03it/s] 79%|███████▉  | 20636/26000 [03:13<00:54, 98.72it/s] 79%|███████▉  | 20647/26000 [03:13<00:53, 99.46it/s] 79%|███████▉  | 20657/26000 [03:13<00:54, 97.61it/s] 79%|███████▉  | 20667/26000 [03:13<00:56, 94.42it/s] 80%|███████▉  | 20677/26000 [03:13<00:58, 91.36it/s] 80%|███████▉  | 20687/26000 [03:13<00:58, 90.72it/s] 80%|███████▉  | 20699/26000 [03:13<00:54, 96.73it/s] 80%|███████▉  | 20709/26000 [03:13<00:56, 93.75it/s] 80%|███████▉  | 20719/26000 [03:14<00:55, 94.38it/s] 80%|███████▉  | 20729/26000 [03:14<00:57, 90.98it/s] 80%|███████▉  | 20739/26000 [03:14<00:58, 90.37it/s] 80%|███████▉  | 20750/26000 [03:14<00:56, 92.70it/s] 80%|███████▉  | 20760/26000 [03:14<00:55, 94.11it/s] 80%|███████▉  | 20771/26000 [03:14<00:53, 97.26it/s] 80%|███████▉  | 20781/26000 [03:14<00:53, 96.70it/s] 80%|███████▉  | 20791/26000 [03:14<00:54, 95.70it/s] 80%|████████  | 20801/26000 [03:14<00:54, 95.77it/s] 80%|████████  | 20812/26000 [03:15<00:53, 97.84it/s] 80%|████████  | 20822/26000 [03:15<00:53, 97.66it/s] 80%|████████  | 20832/26000 [03:15<00:54, 94.66it/s] 80%|████████  | 20842/26000 [03:15<00:53, 95.78it/s] 80%|████████  | 20852/26000 [03:15<00:53, 95.85it/s] 80%|████████  | 20864/26000 [03:15<00:50, 101.76it/s] 80%|████████  | 20875/26000 [03:15<00:53, 96.31it/s]  80%|████████  | 20885/26000 [03:15<00:55, 92.70it/s] 80%|████████  | 20895/26000 [03:15<00:54, 93.38it/s] 80%|████████  | 20905/26000 [03:15<00:54, 93.83it/s] 80%|████████  | 20915/26000 [03:16<00:56, 90.80it/s] 80%|████████  | 20926/26000 [03:16<00:53, 93.97it/s] 81%|████████  | 20937/26000 [03:16<00:51, 97.73it/s] 81%|████████  | 20947/26000 [03:16<00:52, 96.04it/s] 81%|████████  | 20958/26000 [03:16<00:50, 99.43it/s] 81%|████████  | 20969/26000 [03:16<00:49, 100.75it/s] 81%|████████  | 20980/26000 [03:16<00:51, 97.91it/s]  81%|████████  | 20990/26000 [03:16<00:52, 95.78it/s] 81%|████████  | 21000/26000 [03:16<00:51, 96.64it/s] 81%|████████  | 21010/26000 [03:17<00:52, 94.77it/s] 81%|████████  | 21020/26000 [03:17<00:52, 94.14it/s] 81%|████████  | 21031/26000 [03:17<00:50, 97.56it/s] 81%|████████  | 21042/26000 [03:17<00:50, 98.94it/s] 81%|████████  | 21052/26000 [03:17<00:51, 96.37it/s] 81%|████████  | 21062/26000 [03:17<00:51, 95.18it/s] 81%|████████  | 21072/26000 [03:17<00:53, 92.68it/s] 81%|████████  | 21083/26000 [03:17<00:51, 95.16it/s] 81%|████████  | 21095/26000 [03:17<00:49, 99.89it/s] 81%|████████  | 21106/26000 [03:18<00:49, 98.70it/s] 81%|████████  | 21116/26000 [03:18<00:51, 94.69it/s] 81%|████████▏ | 21127/26000 [03:18<00:50, 96.67it/s] 81%|████████▏ | 21138/26000 [03:18<00:48, 100.22it/s] 81%|████████▏ | 21150/26000 [03:18<00:46, 103.87it/s] 81%|████████▏ | 21161/26000 [03:18<00:46, 103.60it/s] 81%|████████▏ | 21172/26000 [03:18<00:47, 101.25it/s] 81%|████████▏ | 21183/26000 [03:18<00:48, 99.42it/s]  82%|████████▏ | 21193/26000 [03:18<00:50, 95.41it/s] 82%|████████▏ | 21203/26000 [03:19<00:50, 95.92it/s] 82%|████████▏ | 21213/26000 [03:19<00:51, 93.82it/s] 82%|████████▏ | 21223/26000 [03:19<00:51, 92.24it/s] 82%|████████▏ | 21235/26000 [03:19<00:48, 98.26it/s] 82%|████████▏ | 21245/26000 [03:19<00:48, 98.38it/s] 82%|████████▏ | 21255/26000 [03:19<00:49, 96.73it/s] 82%|████████▏ | 21266/26000 [03:19<00:47, 100.34it/s] 82%|████████▏ | 21278/26000 [03:19<00:45, 104.21it/s] 82%|████████▏ | 21289/26000 [03:19<00:44, 105.27it/s] 82%|████████▏ | 21300/26000 [03:20<00:45, 104.26it/s] 82%|████████▏ | 21311/26000 [03:20<00:47, 98.00it/s]  82%|████████▏ | 21321/26000 [03:20<00:49, 94.23it/s] 82%|████████▏ | 21331/26000 [03:20<00:49, 95.00it/s] 82%|████████▏ | 21341/26000 [03:20<00:49, 94.31it/s] 82%|████████▏ | 21351/26000 [03:20<00:48, 95.90it/s] 82%|████████▏ | 21362/26000 [03:20<00:47, 97.49it/s] 82%|████████▏ | 21373/26000 [03:20<00:46, 99.42it/s] 82%|████████▏ | 21383/26000 [03:20<00:47, 96.37it/s] 82%|████████▏ | 21393/26000 [03:20<00:47, 96.75it/s] 82%|████████▏ | 21403/26000 [03:21<00:47, 97.58it/s] 82%|████████▏ | 21413/26000 [03:21<00:47, 97.54it/s] 82%|████████▏ | 21423/26000 [03:21<00:46, 97.84it/s] 82%|████████▏ | 21433/26000 [03:21<00:46, 98.13it/s] 82%|████████▏ | 21443/26000 [03:21<00:46, 98.59it/s] 83%|████████▎ | 21453/26000 [03:21<00:48, 94.05it/s] 83%|████████▎ | 21463/26000 [03:21<00:48, 93.52it/s] 83%|████████▎ | 21473/26000 [03:21<00:48, 93.87it/s] 83%|████████▎ | 21484/26000 [03:21<00:46, 96.65it/s] 83%|████████▎ | 21494/26000 [03:22<00:48, 93.52it/s] 83%|████████▎ | 21504/26000 [03:22<00:48, 93.43it/s] 83%|████████▎ | 21514/26000 [03:22<00:47, 94.02it/s] 83%|████████▎ | 21524/26000 [03:22<00:47, 95.06it/s] 83%|████████▎ | 21535/26000 [03:22<00:45, 98.88it/s] 83%|████████▎ | 21547/26000 [03:22<00:43, 102.57it/s] 83%|████████▎ | 21560/26000 [03:22<00:41, 108.23it/s] 83%|████████▎ | 21573/26000 [03:22<00:39, 111.86it/s] 83%|████████▎ | 21585/26000 [03:22<00:41, 106.80it/s] 83%|████████▎ | 21596/26000 [03:23<00:43, 101.26it/s] 83%|████████▎ | 21608/26000 [03:23<00:41, 104.82it/s] 83%|████████▎ | 21619/26000 [03:23<00:41, 104.48it/s] 83%|████████▎ | 21630/26000 [03:23<00:42, 102.74it/s] 83%|████████▎ | 21641/26000 [03:23<00:42, 103.10it/s] 83%|████████▎ | 21652/26000 [03:23<00:41, 103.54it/s] 83%|████████▎ | 21664/26000 [03:23<00:40, 106.80it/s] 83%|████████▎ | 21675/26000 [03:23<00:40, 107.12it/s] 83%|████████▎ | 21686/26000 [03:23<00:41, 104.70it/s] 83%|████████▎ | 21697/26000 [03:24<00:42, 100.88it/s] 83%|████████▎ | 21708/26000 [03:24<00:43, 97.69it/s]  84%|████████▎ | 21718/26000 [03:24<00:43, 97.50it/s] 84%|████████▎ | 21728/26000 [03:24<00:44, 96.46it/s] 84%|████████▎ | 21738/26000 [03:24<00:44, 96.12it/s] 84%|████████▎ | 21749/26000 [03:24<00:43, 97.86it/s] 84%|████████▎ | 21759/26000 [03:24<00:43, 97.27it/s] 84%|████████▎ | 21769/26000 [03:24<00:43, 96.50it/s] 84%|████████▍ | 21779/26000 [03:24<00:44, 95.65it/s] 84%|████████▍ | 21789/26000 [03:24<00:43, 95.86it/s] 84%|████████▍ | 21799/26000 [03:25<00:44, 93.83it/s] 84%|████████▍ | 21809/26000 [03:25<00:44, 93.54it/s] 84%|████████▍ | 21819/26000 [03:25<00:46, 90.19it/s] 84%|████████▍ | 21831/26000 [03:25<00:43, 96.41it/s] 84%|████████▍ | 21841/26000 [03:25<00:44, 94.11it/s] 84%|████████▍ | 21852/26000 [03:25<00:42, 96.89it/s] 84%|████████▍ | 21865/26000 [03:25<00:40, 102.80it/s] 84%|████████▍ | 21877/26000 [03:25<00:39, 104.97it/s] 84%|████████▍ | 21888/26000 [03:25<00:40, 101.07it/s] 84%|████████▍ | 21899/26000 [03:26<00:41, 98.39it/s]  84%|████████▍ | 21909/26000 [03:26<00:43, 94.90it/s] 84%|████████▍ | 21919/26000 [03:26<00:42, 95.44it/s] 84%|████████▍ | 21929/26000 [03:26<00:44, 92.51it/s] 84%|████████▍ | 21939/26000 [03:26<00:44, 91.01it/s] 84%|████████▍ | 21949/26000 [03:26<00:44, 91.90it/s] 84%|████████▍ | 21959/26000 [03:26<00:45, 88.92it/s] 84%|████████▍ | 21970/26000 [03:26<00:43, 93.70it/s] 85%|████████▍ | 21981/26000 [03:26<00:41, 97.16it/s] 85%|████████▍ | 21991/26000 [03:27<00:42, 93.83it/s] 85%|████████▍ | 22002/26000 [03:27<00:41, 95.79it/s] 85%|████████▍ | 22012/26000 [03:27<00:42, 93.82it/s] 85%|████████▍ | 22022/26000 [03:27<00:43, 91.86it/s] 85%|████████▍ | 22032/26000 [03:27<00:42, 93.96it/s] 85%|████████▍ | 22042/26000 [03:27<00:42, 92.36it/s] 85%|████████▍ | 22052/26000 [03:27<00:43, 90.69it/s] 85%|████████▍ | 22062/26000 [03:27<00:42, 92.00it/s] 85%|████████▍ | 22073/26000 [03:27<00:40, 96.78it/s] 85%|████████▍ | 22085/26000 [03:28<00:37, 103.31it/s] 85%|████████▍ | 22096/26000 [03:28<00:39, 98.13it/s]  85%|████████▌ | 22106/26000 [03:28<00:41, 93.59it/s] 85%|████████▌ | 22116/26000 [03:28<00:41, 93.52it/s] 85%|████████▌ | 22127/26000 [03:28<00:39, 97.58it/s] 85%|████████▌ | 22139/26000 [03:28<00:37, 103.61it/s] 85%|████████▌ | 22150/26000 [03:28<00:38, 99.51it/s]  85%|████████▌ | 22161/26000 [03:28<00:40, 94.04it/s] 85%|████████▌ | 22171/26000 [03:28<00:42, 91.11it/s] 85%|████████▌ | 22181/26000 [03:29<00:42, 90.63it/s] 85%|████████▌ | 22191/26000 [03:29<00:41, 91.06it/s] 85%|████████▌ | 22201/26000 [03:29<00:42, 89.64it/s] 85%|████████▌ | 22212/26000 [03:29<00:40, 93.59it/s] 85%|████████▌ | 22224/26000 [03:29<00:37, 99.48it/s] 86%|████████▌ | 22236/26000 [03:29<00:36, 102.91it/s] 86%|████████▌ | 22247/26000 [03:29<00:36, 104.10it/s] 86%|████████▌ | 22259/26000 [03:29<00:34, 107.80it/s] 86%|████████▌ | 22270/26000 [03:29<00:35, 104.14it/s] 86%|████████▌ | 22281/26000 [03:30<00:37, 98.84it/s]  86%|████████▌ | 22291/26000 [03:30<00:38, 95.21it/s] 86%|████████▌ | 22301/26000 [03:30<00:38, 95.64it/s] 86%|████████▌ | 22312/26000 [03:30<00:37, 97.39it/s] 86%|████████▌ | 22322/26000 [03:30<00:37, 97.05it/s] 86%|████████▌ | 22332/26000 [03:30<00:37, 96.71it/s] 86%|████████▌ | 22342/26000 [03:30<00:38, 95.93it/s] 86%|████████▌ | 22353/26000 [03:30<00:37, 97.33it/s] 86%|████████▌ | 22363/26000 [03:30<00:38, 95.16it/s] 86%|████████▌ | 22375/26000 [03:31<00:35, 101.91it/s] 86%|████████▌ | 22387/26000 [03:31<00:34, 104.75it/s] 86%|████████▌ | 22398/26000 [03:31<00:34, 105.03it/s] 86%|████████▌ | 22409/26000 [03:31<00:35, 101.28it/s] 86%|████████▌ | 22420/26000 [03:31<00:35, 100.87it/s] 86%|████████▋ | 22431/26000 [03:31<00:36, 99.03it/s]  86%|████████▋ | 22441/26000 [03:31<00:36, 97.01it/s] 86%|████████▋ | 22452/26000 [03:31<00:35, 99.00it/s] 86%|████████▋ | 22464/26000 [03:31<00:34, 102.91it/s] 86%|████████▋ | 22475/26000 [03:32<00:34, 101.43it/s] 86%|████████▋ | 22486/26000 [03:32<00:35, 99.68it/s]  87%|████████▋ | 22497/26000 [03:32<00:34, 100.73it/s] 87%|████████▋ | 22508/26000 [03:32<00:35, 99.06it/s]  87%|████████▋ | 22518/26000 [03:32<00:36, 96.58it/s] 87%|████████▋ | 22528/26000 [03:32<00:35, 97.25it/s] 87%|████████▋ | 22539/26000 [03:32<00:34, 100.58it/s] 87%|████████▋ | 22550/26000 [03:32<00:33, 103.15it/s] 87%|████████▋ | 22561/26000 [03:32<00:33, 103.09it/s] 87%|████████▋ | 22572/26000 [03:33<00:34, 98.98it/s]  87%|████████▋ | 22582/26000 [03:33<00:34, 98.36it/s] 87%|████████▋ | 22592/26000 [03:33<00:35, 95.59it/s] 87%|████████▋ | 22602/26000 [03:33<00:35, 95.93it/s] 87%|████████▋ | 22612/26000 [03:33<00:35, 94.18it/s] 87%|████████▋ | 22622/26000 [03:33<00:35, 94.78it/s] 87%|████████▋ | 22634/26000 [03:33<00:33, 101.64it/s] 87%|████████▋ | 22645/26000 [03:33<00:32, 102.34it/s] 87%|████████▋ | 22656/26000 [03:33<00:34, 97.05it/s]  87%|████████▋ | 22666/26000 [03:33<00:34, 96.27it/s] 87%|████████▋ | 22676/26000 [03:34<00:34, 96.96it/s] 87%|████████▋ | 22686/26000 [03:34<00:34, 95.95it/s] 87%|████████▋ | 22697/26000 [03:34<00:33, 98.56it/s] 87%|████████▋ | 22709/26000 [03:34<00:32, 102.06it/s] 87%|████████▋ | 22720/26000 [03:34<00:32, 102.32it/s] 87%|████████▋ | 22731/26000 [03:34<00:32, 100.78it/s] 87%|████████▋ | 22742/26000 [03:34<00:32, 100.20it/s] 88%|████████▊ | 22753/26000 [03:34<00:32, 100.44it/s] 88%|████████▊ | 22764/26000 [03:34<00:32, 99.60it/s]  88%|████████▊ | 22774/26000 [03:35<00:34, 94.70it/s] 88%|████████▊ | 22784/26000 [03:35<00:34, 94.00it/s] 88%|████████▊ | 22794/26000 [03:35<00:33, 95.52it/s] 88%|████████▊ | 22804/26000 [03:35<00:33, 95.58it/s] 88%|████████▊ | 22816/26000 [03:35<00:31, 100.37it/s] 88%|████████▊ | 22828/26000 [03:35<00:30, 104.99it/s] 88%|████████▊ | 22839/26000 [03:35<00:29, 106.42it/s] 88%|████████▊ | 22850/26000 [03:35<00:29, 105.95it/s] 88%|████████▊ | 22861/26000 [03:35<00:29, 105.49it/s] 88%|████████▊ | 22873/26000 [03:36<00:29, 107.31it/s] 88%|████████▊ | 22885/26000 [03:36<00:28, 110.34it/s] 88%|████████▊ | 22897/26000 [03:36<00:27, 111.27it/s] 88%|████████▊ | 22909/26000 [03:36<00:27, 110.92it/s] 88%|████████▊ | 22921/26000 [03:36<00:28, 109.63it/s] 88%|████████▊ | 22932/26000 [03:36<00:28, 108.06it/s] 88%|████████▊ | 22943/26000 [03:36<00:28, 106.61it/s] 88%|████████▊ | 22954/26000 [03:36<00:29, 103.76it/s] 88%|████████▊ | 22965/26000 [03:36<00:29, 102.15it/s] 88%|████████▊ | 22976/26000 [03:36<00:29, 104.27it/s] 88%|████████▊ | 22987/26000 [03:37<00:28, 105.68it/s] 88%|████████▊ | 22999/26000 [03:37<00:27, 107.89it/s] 89%|████████▊ | 23012/26000 [03:37<00:26, 112.50it/s] 89%|████████▊ | 23024/26000 [03:37<00:26, 112.83it/s] 89%|████████▊ | 23036/26000 [03:37<00:26, 113.97it/s] 89%|████████▊ | 23048/26000 [03:37<00:27, 108.03it/s] 89%|████████▊ | 23059/26000 [03:37<00:28, 101.79it/s] 89%|████████▊ | 23070/26000 [03:37<00:29, 100.74it/s] 89%|████████▉ | 23081/26000 [03:38<00:30, 94.97it/s]  89%|████████▉ | 23091/26000 [03:38<00:30, 95.79it/s] 89%|████████▉ | 23101/26000 [03:38<00:30, 94.57it/s] 89%|████████▉ | 23111/26000 [03:38<00:30, 94.75it/s] 89%|████████▉ | 23121/26000 [03:38<00:32, 89.18it/s] 89%|████████▉ | 23133/26000 [03:38<00:29, 96.03it/s] 89%|████████▉ | 23145/26000 [03:38<00:28, 101.73it/s] 89%|████████▉ | 23157/26000 [03:38<00:26, 105.50it/s] 89%|████████▉ | 23168/26000 [03:38<00:27, 103.61it/s] 89%|████████▉ | 23180/26000 [03:38<00:26, 107.76it/s] 89%|████████▉ | 23193/26000 [03:39<00:24, 112.64it/s] 89%|████████▉ | 23206/26000 [03:39<00:24, 115.38it/s] 89%|████████▉ | 23218/26000 [03:39<00:23, 116.21it/s] 89%|████████▉ | 23230/26000 [03:39<00:24, 115.30it/s] 89%|████████▉ | 23242/26000 [03:39<00:25, 106.92it/s] 89%|████████▉ | 23253/26000 [03:39<00:26, 104.87it/s] 89%|████████▉ | 23264/26000 [03:39<00:25, 105.52it/s] 90%|████████▉ | 23276/26000 [03:39<00:25, 107.59it/s] 90%|████████▉ | 23289/26000 [03:39<00:24, 111.52it/s] 90%|████████▉ | 23301/26000 [03:40<00:25, 107.52it/s] 90%|████████▉ | 23312/26000 [03:40<00:26, 102.14it/s] 90%|████████▉ | 23323/26000 [03:40<00:27, 97.85it/s]  90%|████████▉ | 23333/26000 [03:40<00:28, 94.51it/s] 90%|████████▉ | 23343/26000 [03:40<00:28, 93.90it/s] 90%|████████▉ | 23354/26000 [03:40<00:27, 97.24it/s] 90%|████████▉ | 23364/26000 [03:40<00:27, 97.08it/s] 90%|████████▉ | 23375/26000 [03:40<00:26, 97.63it/s] 90%|████████▉ | 23385/26000 [03:40<00:27, 95.16it/s] 90%|████████▉ | 23395/26000 [03:41<00:28, 92.08it/s] 90%|█████████ | 23405/26000 [03:41<00:28, 91.76it/s] 90%|█████████ | 23417/26000 [03:41<00:26, 98.38it/s] 90%|█████████ | 23429/26000 [03:41<00:25, 102.64it/s] 90%|█████████ | 23440/26000 [03:41<00:25, 101.77it/s] 90%|█████████ | 23451/26000 [03:41<00:25, 98.04it/s]  90%|█████████ | 23463/26000 [03:41<00:25, 101.46it/s] 90%|█████████ | 23474/26000 [03:41<00:25, 97.23it/s]  90%|█████████ | 23484/26000 [03:41<00:26, 96.20it/s] 90%|█████████ | 23494/26000 [03:42<00:25, 96.39it/s] 90%|█████████ | 23505/26000 [03:42<00:25, 98.28it/s] 90%|█████████ | 23516/26000 [03:42<00:24, 99.46it/s] 90%|█████████ | 23527/26000 [03:42<00:24, 100.72it/s] 91%|█████████ | 23538/26000 [03:42<00:24, 102.21it/s] 91%|█████████ | 23549/26000 [03:42<00:25, 97.84it/s]  91%|█████████ | 23559/26000 [03:42<00:25, 96.65it/s] 91%|█████████ | 23570/26000 [03:42<00:24, 99.04it/s] 91%|█████████ | 23580/26000 [03:42<00:25, 94.54it/s] 91%|█████████ | 23590/26000 [03:43<00:25, 93.57it/s] 91%|█████████ | 23601/26000 [03:43<00:25, 95.88it/s] 91%|█████████ | 23612/26000 [03:43<00:24, 97.75it/s] 91%|█████████ | 23622/26000 [03:43<00:24, 97.19it/s] 91%|█████████ | 23633/26000 [03:43<00:23, 100.33it/s] 91%|█████████ | 23645/26000 [03:43<00:22, 103.01it/s] 91%|█████████ | 23656/26000 [03:43<00:22, 103.61it/s] 91%|█████████ | 23667/26000 [03:43<00:24, 96.84it/s]  91%|█████████ | 23677/26000 [03:43<00:24, 95.74it/s] 91%|█████████ | 23687/26000 [03:44<00:24, 94.42it/s] 91%|█████████ | 23698/26000 [03:44<00:23, 98.01it/s] 91%|█████████ | 23708/26000 [03:44<00:23, 97.44it/s] 91%|█████████ | 23720/26000 [03:44<00:22, 100.96it/s] 91%|█████████▏| 23731/26000 [03:44<00:23, 97.19it/s]  91%|█████████▏| 23741/26000 [03:44<00:24, 93.17it/s] 91%|█████████▏| 23751/26000 [03:44<00:23, 94.02it/s] 91%|█████████▏| 23763/26000 [03:44<00:22, 99.35it/s] 91%|█████████▏| 23773/26000 [03:44<00:22, 98.13it/s] 91%|█████████▏| 23783/26000 [03:45<00:22, 97.44it/s] 92%|█████████▏| 23794/26000 [03:45<00:22, 99.04it/s] 92%|█████████▏| 23805/26000 [03:45<00:21, 100.86it/s] 92%|█████████▏| 23816/26000 [03:45<00:21, 100.38it/s] 92%|█████████▏| 23827/26000 [03:45<00:22, 96.10it/s]  92%|█████████▏| 23837/26000 [03:45<00:22, 95.58it/s] 92%|█████████▏| 23848/26000 [03:45<00:21, 98.12it/s] 92%|█████████▏| 23860/26000 [03:45<00:21, 101.87it/s] 92%|█████████▏| 23871/26000 [03:45<00:21, 100.19it/s] 92%|█████████▏| 23882/26000 [03:46<00:21, 97.89it/s]  92%|█████████▏| 23893/26000 [03:46<00:21, 99.01it/s] 92%|█████████▏| 23903/26000 [03:46<00:21, 97.96it/s] 92%|█████████▏| 23914/26000 [03:46<00:20, 101.03it/s] 92%|█████████▏| 23925/26000 [03:46<00:20, 99.48it/s]  92%|█████████▏| 23935/26000 [03:46<00:20, 98.46it/s] 92%|█████████▏| 23945/26000 [03:46<00:21, 95.71it/s] 92%|█████████▏| 23956/26000 [03:46<00:20, 98.24it/s] 92%|█████████▏| 23966/26000 [03:46<00:21, 96.65it/s] 92%|█████████▏| 23977/26000 [03:47<00:20, 97.97it/s] 92%|█████████▏| 23987/26000 [03:47<00:20, 96.94it/s] 92%|█████████▏| 23998/26000 [03:47<00:20, 98.68it/s] 92%|█████████▏| 24008/26000 [03:47<00:20, 95.11it/s] 92%|█████████▏| 24020/26000 [03:47<00:19, 101.90it/s] 92%|█████████▏| 24031/26000 [03:47<00:19, 99.19it/s]  92%|█████████▏| 24042/26000 [03:47<00:19, 99.68it/s] 93%|█████████▎| 24053/26000 [03:47<00:19, 97.49it/s] 93%|█████████▎| 24065/26000 [03:47<00:18, 103.07it/s] 93%|█████████▎| 24077/26000 [03:47<00:18, 105.63it/s] 93%|█████████▎| 24090/26000 [03:48<00:17, 110.39it/s] 93%|█████████▎| 24103/26000 [03:48<00:16, 113.32it/s] 93%|█████████▎| 24115/26000 [03:48<00:17, 107.08it/s] 93%|█████████▎| 24126/26000 [03:48<00:17, 107.78it/s] 93%|█████████▎| 24137/26000 [03:48<00:17, 108.24it/s] 93%|█████████▎| 24148/26000 [03:48<00:17, 105.51it/s] 93%|█████████▎| 24159/26000 [03:48<00:18, 99.19it/s]  93%|█████████▎| 24170/26000 [03:48<00:18, 99.78it/s] 93%|█████████▎| 24181/26000 [03:48<00:18, 99.05it/s] 93%|█████████▎| 24193/26000 [03:49<00:17, 102.72it/s] 93%|█████████▎| 24204/26000 [03:49<00:17, 103.90it/s] 93%|█████████▎| 24215/26000 [03:49<00:17, 102.69it/s] 93%|█████████▎| 24227/26000 [03:49<00:16, 107.53it/s] 93%|█████████▎| 24238/26000 [03:49<00:16, 106.98it/s] 93%|█████████▎| 24249/26000 [03:49<00:16, 104.22it/s] 93%|█████████▎| 24260/26000 [03:49<00:16, 105.27it/s] 93%|█████████▎| 24271/26000 [03:49<00:16, 105.47it/s] 93%|█████████▎| 24282/26000 [03:49<00:17, 98.79it/s]  93%|█████████▎| 24292/26000 [03:50<00:17, 95.27it/s] 93%|█████████▎| 24304/26000 [03:50<00:16, 100.93it/s] 94%|█████████▎| 24315/26000 [03:50<00:16, 101.11it/s] 94%|█████████▎| 24326/26000 [03:50<00:16, 98.88it/s]  94%|█████████▎| 24337/26000 [03:50<00:16, 101.90it/s] 94%|█████████▎| 24348/26000 [03:50<00:16, 99.82it/s]  94%|█████████▎| 24359/26000 [03:50<00:16, 96.97it/s] 94%|█████████▎| 24369/26000 [03:50<00:16, 97.28it/s] 94%|█████████▍| 24380/26000 [03:50<00:16, 98.16it/s] 94%|█████████▍| 24391/26000 [03:51<00:16, 99.53it/s] 94%|█████████▍| 24402/26000 [03:51<00:15, 101.30it/s] 94%|█████████▍| 24413/26000 [03:51<00:15, 103.01it/s] 94%|█████████▍| 24424/26000 [03:51<00:16, 97.83it/s]  94%|█████████▍| 24437/26000 [03:51<00:14, 105.39it/s] 94%|█████████▍| 24448/26000 [03:51<00:15, 99.40it/s]  94%|█████████▍| 24459/26000 [03:51<00:15, 102.03it/s] 94%|█████████▍| 24470/26000 [03:51<00:14, 103.25it/s] 94%|█████████▍| 24481/26000 [03:51<00:15, 97.00it/s]  94%|█████████▍| 24492/26000 [03:52<00:15, 97.95it/s] 94%|█████████▍| 24503/26000 [03:52<00:15, 99.26it/s] 94%|█████████▍| 24513/26000 [03:52<00:15, 98.95it/s] 94%|█████████▍| 24523/26000 [03:52<00:14, 98.62it/s] 94%|█████████▍| 24533/26000 [03:52<00:15, 94.88it/s] 94%|█████████▍| 24543/26000 [03:52<00:15, 94.41it/s] 94%|█████████▍| 24553/26000 [03:52<00:15, 94.22it/s] 94%|█████████▍| 24563/26000 [03:52<00:15, 95.44it/s] 95%|█████████▍| 24573/26000 [03:52<00:14, 95.18it/s] 95%|█████████▍| 24584/26000 [03:53<00:14, 99.06it/s] 95%|█████████▍| 24595/26000 [03:53<00:14, 98.58it/s] 95%|█████████▍| 24606/26000 [03:53<00:13, 100.97it/s] 95%|█████████▍| 24617/26000 [03:53<00:14, 96.68it/s]  95%|█████████▍| 24627/26000 [03:53<00:14, 96.50it/s] 95%|█████████▍| 24638/26000 [03:53<00:14, 96.79it/s] 95%|█████████▍| 24648/26000 [03:53<00:14, 93.73it/s] 95%|█████████▍| 24660/26000 [03:53<00:13, 99.46it/s] 95%|█████████▍| 24670/26000 [03:53<00:13, 98.28it/s] 95%|█████████▍| 24680/26000 [03:54<00:14, 93.79it/s] 95%|█████████▍| 24690/26000 [03:54<00:14, 92.85it/s] 95%|█████████▌| 24700/26000 [03:54<00:14, 90.65it/s] 95%|█████████▌| 24711/26000 [03:54<00:13, 94.50it/s] 95%|█████████▌| 24723/26000 [03:54<00:12, 100.74it/s] 95%|█████████▌| 24734/26000 [03:54<00:12, 99.17it/s]  95%|█████████▌| 24745/26000 [03:54<00:12, 100.63it/s] 95%|█████████▌| 24756/26000 [03:54<00:12, 99.63it/s]  95%|█████████▌| 24766/26000 [03:54<00:12, 98.00it/s] 95%|█████████▌| 24776/26000 [03:55<00:12, 98.26it/s] 95%|█████████▌| 24787/26000 [03:55<00:12, 98.91it/s] 95%|█████████▌| 24798/26000 [03:55<00:11, 100.72it/s] 95%|█████████▌| 24809/26000 [03:55<00:11, 100.96it/s] 95%|█████████▌| 24820/26000 [03:55<00:11, 101.09it/s] 96%|█████████▌| 24831/26000 [03:55<00:11, 99.32it/s]  96%|█████████▌| 24841/26000 [03:55<00:12, 96.36it/s] 96%|█████████▌| 24851/26000 [03:55<00:11, 96.69it/s] 96%|█████████▌| 24861/26000 [03:55<00:11, 95.21it/s] 96%|█████████▌| 24872/26000 [03:55<00:11, 99.16it/s] 96%|█████████▌| 24882/26000 [03:56<00:11, 96.95it/s] 96%|█████████▌| 24893/26000 [03:56<00:11, 99.27it/s] 96%|█████████▌| 24904/26000 [03:56<00:10, 101.91it/s] 96%|█████████▌| 24915/26000 [03:56<00:10, 99.15it/s]  96%|█████████▌| 24925/26000 [03:56<00:10, 99.29it/s] 96%|█████████▌| 24935/26000 [03:56<00:10, 97.39it/s] 96%|█████████▌| 24945/26000 [03:56<00:11, 93.21it/s] 96%|█████████▌| 24955/26000 [03:56<00:11, 93.26it/s] 96%|█████████▌| 24965/26000 [03:56<00:11, 91.47it/s] 96%|█████████▌| 24976/26000 [03:57<00:10, 96.38it/s] 96%|█████████▌| 24987/26000 [03:57<00:10, 98.90it/s] 96%|█████████▌| 24997/26000 [03:57<00:10, 95.28it/s] 96%|█████████▌| 25007/26000 [03:57<00:10, 96.23it/s] 96%|█████████▌| 25017/26000 [03:57<00:10, 94.36it/s] 96%|█████████▋| 25029/26000 [03:57<00:09, 100.57it/s] 96%|█████████▋| 25041/26000 [03:57<00:09, 103.77it/s] 96%|█████████▋| 25053/26000 [03:57<00:08, 107.23it/s] 96%|█████████▋| 25064/26000 [03:57<00:08, 104.97it/s] 96%|█████████▋| 25075/26000 [03:58<00:09, 99.15it/s]  96%|█████████▋| 25085/26000 [03:58<00:09, 95.28it/s] 97%|█████████▋| 25095/26000 [03:58<00:09, 94.97it/s] 97%|█████████▋| 25105/26000 [03:58<00:09, 94.67it/s] 97%|█████████▋| 25115/26000 [03:58<00:09, 91.23it/s] 97%|█████████▋| 25126/26000 [03:58<00:09, 96.10it/s] 97%|█████████▋| 25137/26000 [03:58<00:08, 99.82it/s] 97%|█████████▋| 25148/26000 [03:58<00:08, 102.38it/s] 97%|█████████▋| 25159/26000 [03:58<00:08, 99.04it/s]  97%|█████████▋| 25169/26000 [03:59<00:08, 96.00it/s] 97%|█████████▋| 25180/26000 [03:59<00:08, 98.21it/s] 97%|█████████▋| 25190/26000 [03:59<00:08, 95.33it/s] 97%|█████████▋| 25200/26000 [03:59<00:08, 92.75it/s] 97%|█████████▋| 25210/26000 [03:59<00:08, 91.52it/s] 97%|█████████▋| 25220/26000 [03:59<00:08, 91.55it/s] 97%|█████████▋| 25230/26000 [03:59<00:08, 93.37it/s] 97%|█████████▋| 25240/26000 [03:59<00:08, 94.74it/s] 97%|█████████▋| 25250/26000 [03:59<00:07, 94.45it/s] 97%|█████████▋| 25260/26000 [03:59<00:07, 92.98it/s] 97%|█████████▋| 25271/26000 [04:00<00:07, 95.45it/s] 97%|█████████▋| 25281/26000 [04:00<00:07, 94.01it/s] 97%|█████████▋| 25292/26000 [04:00<00:07, 97.76it/s] 97%|█████████▋| 25302/26000 [04:00<00:07, 97.18it/s] 97%|█████████▋| 25312/26000 [04:00<00:07, 97.33it/s] 97%|█████████▋| 25322/26000 [04:00<00:07, 92.90it/s] 97%|█████████▋| 25332/26000 [04:00<00:07, 92.72it/s] 97%|█████████▋| 25343/26000 [04:00<00:06, 95.46it/s] 98%|█████████▊| 25354/26000 [04:00<00:06, 97.18it/s] 98%|█████████▊| 25364/26000 [04:01<00:06, 97.95it/s] 98%|█████████▊| 25377/26000 [04:01<00:05, 104.73it/s] 98%|█████████▊| 25389/26000 [04:01<00:05, 107.01it/s] 98%|█████████▊| 25400/26000 [04:01<00:05, 105.34it/s] 98%|█████████▊| 25411/26000 [04:01<00:05, 99.81it/s]  98%|█████████▊| 25422/26000 [04:01<00:05, 97.34it/s] 98%|█████████▊| 25432/26000 [04:01<00:05, 96.62it/s] 98%|█████████▊| 25442/26000 [04:01<00:05, 96.91it/s] 98%|█████████▊| 25452/26000 [04:01<00:05, 93.58it/s] 98%|█████████▊| 25463/26000 [04:02<00:05, 96.49it/s] 98%|█████████▊| 25474/26000 [04:02<00:05, 99.65it/s] 98%|█████████▊| 25485/26000 [04:02<00:05, 100.55it/s] 98%|█████████▊| 25496/26000 [04:02<00:05, 97.94it/s]  98%|█████████▊| 25508/26000 [04:02<00:04, 102.34it/s] 98%|█████████▊| 25520/26000 [04:02<00:04, 106.27it/s] 98%|█████████▊| 25531/26000 [04:02<00:04, 105.41it/s] 98%|█████████▊| 25542/26000 [04:02<00:04, 105.41it/s] 98%|█████████▊| 25553/26000 [04:02<00:04, 104.03it/s] 98%|█████████▊| 25565/26000 [04:03<00:04, 106.04it/s] 98%|█████████▊| 25576/26000 [04:03<00:04, 105.90it/s] 98%|█████████▊| 25587/26000 [04:03<00:03, 106.90it/s] 98%|█████████▊| 25599/26000 [04:03<00:03, 110.69it/s] 99%|█████████▊| 25612/26000 [04:03<00:03, 115.45it/s] 99%|█████████▊| 25624/26000 [04:03<00:03, 115.34it/s] 99%|█████████▊| 25636/26000 [04:03<00:03, 113.54it/s] 99%|█████████▊| 25648/26000 [04:03<00:03, 109.24it/s] 99%|█████████▊| 25659/26000 [04:03<00:03, 104.82it/s] 99%|█████████▊| 25670/26000 [04:03<00:03, 103.44it/s] 99%|█████████▉| 25681/26000 [04:04<00:03, 101.45it/s] 99%|█████████▉| 25692/26000 [04:04<00:03, 95.49it/s]  99%|█████████▉| 25703/26000 [04:04<00:03, 97.12it/s] 99%|█████████▉| 25715/26000 [04:04<00:02, 101.57it/s] 99%|█████████▉| 25726/26000 [04:04<00:02, 97.70it/s]  99%|█████████▉| 25736/26000 [04:04<00:02, 98.23it/s] 99%|█████████▉| 25746/26000 [04:04<00:02, 97.30it/s] 99%|█████████▉| 25757/26000 [04:04<00:02, 99.31it/s] 99%|█████████▉| 25767/26000 [04:05<00:02, 95.23it/s] 99%|█████████▉| 25777/26000 [04:05<00:02, 92.03it/s] 99%|█████████▉| 25787/26000 [04:05<00:02, 93.91it/s] 99%|█████████▉| 25797/26000 [04:05<00:02, 94.41it/s] 99%|█████████▉| 25807/26000 [04:05<00:02, 94.88it/s] 99%|█████████▉| 25817/26000 [04:05<00:01, 96.12it/s] 99%|█████████▉| 25827/26000 [04:05<00:01, 95.38it/s] 99%|█████████▉| 25839/26000 [04:05<00:01, 100.12it/s] 99%|█████████▉| 25850/26000 [04:05<00:01, 99.92it/s]  99%|█████████▉| 25861/26000 [04:05<00:01, 100.79it/s]100%|█████████▉| 25872/26000 [04:06<00:01, 98.21it/s] 100%|█████████▉| 25882/26000 [04:06<00:01, 95.30it/s]100%|█████████▉| 25892/26000 [04:06<00:01, 94.20it/s]100%|█████████▉| 25902/26000 [04:06<00:01, 93.23it/s]100%|█████████▉| 25912/26000 [04:06<00:00, 90.82it/s]100%|█████████▉| 25922/26000 [04:06<00:00, 90.22it/s]100%|█████████▉| 25933/26000 [04:06<00:00, 95.66it/s]100%|█████████▉| 25943/26000 [04:06<00:00, 94.62it/s]100%|█████████▉| 25953/26000 [04:06<00:00, 95.78it/s]100%|█████████▉| 25964/26000 [04:07<00:00, 98.12it/s]100%|█████████▉| 25974/26000 [04:07<00:00, 96.39it/s]100%|█████████▉| 25985/26000 [04:07<00:00, 98.69it/s]100%|█████████▉| 25996/26000 [04:07<00:00, 99.27it/s]100%|██████████| 26000/26000 [04:07<00:00, 105.08it/s]
+MonoGS: Map refinement done
+Eval: mean psnr: nan, ssim: nan, lpips: nan, depth_l1_cm: None
+Eval: P-A static-bg eval progress: 0/88 frames
+Eval: P-A static-bg eval progress: 15/88 frames
+Eval: P-A static-bg eval progress: 30/88 frames
+Eval: P-A static-bg eval progress: 45/88 frames
+Eval: P-A static-bg eval progress: 60/88 frames
+Eval: P-A static-bg eval progress: 75/88 frames
+Eval: band PSNR r10=23.5937(n14488) r25=23.9157(n38483) r50=24.0394(n79297)
+Eval: P-A static-bg: psnr=23.7848 ssim=0.8736 lpips=0.1733 depthL1pen=18.8517cm 
+cov=1.0 (scored 88, missing 0, empty 0); vacated psnr=23.1565 
+depthL1pen=19.738cm (n=87 frames, px~203284); GHOST EXCESS depthL1=2.5615cm 
+psnr=-4.5231dB (vs nonvacated 17.1765cm); FRESH-VAC(w=30) psnr=22.1288 
+depthL1pen=19.9842cm excess=-3.6612dB/2.2371cm (px~100044, n=87)
+MonoGS: Backend stopped and joined the main thread
+MonoGS: Done.

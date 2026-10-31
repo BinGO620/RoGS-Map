@@ -1,0 +1,26 @@
+# L1d gate×occupancy 叠加棘轮（D2-007）：person_tracking / stacked 臂
+# 预注册 = results/lifecycle_paper2/evidence/prereg_L1d_stacked.md（判据先锁；先于任何 run 提交）
+# 零新代码：exit + evidence_gate + occupancy_memory 纯 config 组合
+#   （evidence_gate 拦 EMA 抬升、occupancy 供衰减 ⇒ 单调棘轮，假设见一页纸 §1）
+# 对照 = 已有 L3 exit 同 seed canonical 渲染（零新增对照 run）
+# 与 l1b_person_tracking_gate.yaml 仅差 AlphaLifecycle.occupancy 块 + save_dir
+# 与 l1c_person_tracking_occ.yaml 仅差 evidence_gate: false→true
+inherit_from: "configs/rgbd/bonn/person_tracking.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+AlphaLifecycle:
+  enabled: true
+  mode: "exit"
+  evidence_gate: true
+  occupancy_memory: true
+  # 参数锁定于 prereg_L1c_occupancy.md §1.2（改参 = 先提修正案再重派）
+  occupancy_voxel_size: 0.05
+  occupancy_warm_kfs: 10
+  occupancy_decay: 0.9
+  occupancy_alpha_guard: 0.35
+
+Results:
+  static_bg_mask_subdir: "dynamic_mask"
+  save_dir: "results/lifecycle_paper2/L1d_person_tracking_stacked"
+  save_per_frame_ape: true

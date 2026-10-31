@@ -1,0 +1,8 @@
+# paper2 拉通 baseline 臂 (TUM): Combined-Prune 原机.
+inherit_from: "configs/rgbd/tum/f3_wk_xyz.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+Results:
+  save_dir: "results/paper2_rollout/rollbase_f3_wk_xyz"
+  save_per_frame_ape: true

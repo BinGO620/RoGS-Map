@@ -1,0 +1,36 @@
+{
+  "seq": "crowd2",
+  "n_common_frames": 35,
+  "arms": [
+    "E",
+    "D",
+    "Cneg"
+  ],
+  "J1_bad_psnr_delta": {
+    "median": 6.9695,
+    "iqr": 6.3413
+  },
+  "J2_bad_dl1_ratio": {
+    "median": 0.3547,
+    "iqr": 0.2609
+  },
+  "J3_static_delta": {
+    "median": -6.7114,
+    "iqr": 6.8113
+  },
+  "J7_neg_control_dl1_ratio": {
+    "median": 1.2898,
+    "iqr": 1.3104
+  },
+  "J6_judgeable": true,
+  "render_exit": "render_subset_not_ok",
+  "locked_thresholds": {
+    "j1_main_db": 2.5,
+    "j2_dl1_ratio": 0.7,
+    "j3_static_db": 0.25,
+    "j7_ctrl_min": 1.15
+  },
+  "J3_in_locked_exit": true,
+  "instrument": "causal_snapshot",
+  "instrument_note": "causal \u7528\u4e8e J1/J2\uff08\u52a8\u6001\u533a\uff09\uff1bJ3 \u9759\u6001\u533a\u5e94\u53d6 final_map \u53e3\u5f84"
+}

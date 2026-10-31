@@ -1,0 +1,106 @@
+=== CJ w0 start 2026年 09月 20日 星期日 19:42:34 CST GPU=0 HEAD=ddbe36b8 ===
+=== CJ w1 start 2026年 09月 20日 星期日 19:42:34 CST GPU=1 HEAD=ddbe36b8 ===
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_exit_r3/datasets_bonn/crowd2_exit_r3/seed_0/2026-09-20-19-42-38/point_cloud/final_after_opt/point_cloud.ply n=59361 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=15
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/render_compare.py", line 520, in <module>
+    sys.exit(main())
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/render_compare.py", line 339, in main
+    pkg = render(cam, gaussians, pipeline_params, background)
+  File "/home/jiangwenheng/cron/monogs-ours/gaussian_splatting/gaussian_renderer/__init__.py", line 129, in render
+    rendered_image, radii, depth, opacity, n_touched = rasterizer(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 232, in forward
+    return rasterize_gaussians(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 34, in rasterize_gaussians
+    return _RasterizeGaussians.apply(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/autograd/function.py", line 539, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 99, in forward
+    num_rendered, color, radii, geomBuffer, binningBuffer, imgBuffer, depth, opacity, n_touched = _C.rasterize_gaussians(*args)
+RuntimeError: numel: integer multiplication overflow
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_exit_r3/datasets_bonn/crowd2_exit_r3/seed_0/2026-09-20-19-42-38/point_cloud/final_after_opt/point_cloud.ply n=59361 sh=0
+[render_compare] N=895 render frames=[100, 300, 500, 700]
+[render_compare] dynamic mask source=seg_mask class=15
+Traceback (most recent call last):
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/render_compare.py", line 520, in <module>
+    sys.exit(main())
+  File "/home/jiangwenheng/cron/monogs-ours/scripts/02_analysis/render_compare.py", line 339, in main
+    pkg = render(cam, gaussians, pipeline_params, background)
+  File "/home/jiangwenheng/cron/monogs-ours/gaussian_splatting/gaussian_renderer/__init__.py", line 129, in render
+    rendered_image, radii, depth, opacity, n_touched = rasterizer(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 232, in forward
+    return rasterize_gaussians(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 34, in rasterize_gaussians
+    return _RasterizeGaussians.apply(
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/torch/autograd/function.py", line 539, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+  File "/home/jiangwenheng/anaconda3/envs/monogs-ours-3090/lib/python3.10/site-packages/diff_gaussian_rasterization/__init__.py", line 99, in forward
+    num_rendered, color, radii, geomBuffer, binningBuffer, imgBuffer, depth, opacity, n_touched = _C.rasterize_gaussians(*args)
+RuntimeError: numel: integer multiplication overflow
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_off_r2/datasets_bonn/crowd2_off_r2/seed_0/2026-09-20-19-42-38/point_cloud/final_after_opt/point_cloud.ply n=62183 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=15
+  frame 50: PSNR=11.56 SSIM=0.598 LPIPS=0.527 dL1=136.6124153137207 | static PSNR=11.082 SSIM=0.5822 cov=1.0 | ghost_excess=13.0761cm
+  frame 100: PSNR=13.79 SSIM=0.692 LPIPS=0.432 dL1=82.70261287689209 | static PSNR=13.4807 SSIM=0.678 cov=1.0 | ghost_excess=12.0822cm
+  frame 150: PSNR=11.68 SSIM=0.587 LPIPS=0.590 dL1=118.74645948410034 | static PSNR=11.36 SSIM=0.5841 cov=1.0 | ghost_excess=9.5068cm
+  frame 200: PSNR=18.63 SSIM=0.827 LPIPS=0.275 dL1=20.793424546718597 | static PSNR=18.6784 SSIM=0.845 cov=1.0 | ghost_excess=8.7878cm
+  frame 250: PSNR=14.93 SSIM=0.772 LPIPS=0.352 dL1=45.04885375499725 | static PSNR=14.6572 SSIM=0.7888 cov=1.0 | ghost_excess=7.3372cm
+  frame 300: PSNR=13.92 SSIM=0.623 LPIPS=0.518 dL1=81.94218873977661 | static PSNR=13.7481 SSIM=0.6176 cov=1.0 | ghost_excess=3.6262cm
+  frame 350: PSNR=11.75 SSIM=0.628 LPIPS=0.502 dL1=95.2454924583435 | static PSNR=11.2646 SSIM=0.6221 cov=1.0 | ghost_excess=10.4617cm
+  frame 400: PSNR=16.06 SSIM=0.801 LPIPS=0.344 dL1=27.033063769340515 | static PSNR=15.7802 SSIM=0.8173 cov=1.0 | ghost_excess=4.265cm
+  frame 450: PSNR=20.71 SSIM=0.856 LPIPS=0.243 dL1=19.81699913740158 | static PSNR=21.0849 SSIM=0.8688 cov=1.0 | ghost_excess=10.2838cm
+  frame 500: PSNR=21.75 SSIM=0.900 LPIPS=0.179 dL1=13.86965662240982 | static PSNR=22.4619 SSIM=0.9201 cov=1.0 | ghost_excess=3.7481cm
+  frame 550: PSNR=15.19 SSIM=0.793 LPIPS=0.356 dL1=72.51328825950623 | static PSNR=15.0498 SSIM=0.7883 cov=1.0 | ghost_excess=0.5012cm
+  frame 600: PSNR=16.04 SSIM=0.847 LPIPS=0.295 dL1=28.012502193450928 | static PSNR=15.6698 SSIM=0.8539 cov=1.0 | ghost_excess=5.7655cm
+  frame 650: PSNR=15.56 SSIM=0.793 LPIPS=0.340 dL1=40.021538734436035 | static PSNR=15.2323 SSIM=0.793 cov=1.0 | ghost_excess=9.7677cm
+  frame 700: PSNR=20.18 SSIM=0.830 LPIPS=0.308 dL1=37.78659403324127 | static PSNR=20.1508 SSIM=0.838 cov=1.0 | ghost_excess=-0.0936cm
+  frame 750: PSNR=19.83 SSIM=0.865 LPIPS=0.266 dL1=43.07681322097778 | static PSNR=20.5033 SSIM=0.8849 cov=1.0 | ghost_excess=4.3727cm
+  frame 800: PSNR=16.68 SSIM=0.841 LPIPS=0.277 dL1=22.608962655067444 | static PSNR=16.1217 SSIM=0.8413 cov=1.0 | ghost_excess=3.8015cm
+  frame 850: PSNR=19.47 SSIM=0.861 LPIPS=0.232 dL1=21.448709070682526 | static PSNR=20.1383 SSIM=0.8821 cov=1.0 | ghost_excess=7.5692cm
+[render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/render_fv_crowd2_off_r2_dense  mean PSNR=16.3365 SSIM=0.7716 LPIPS=0.3551 | static PSNR=16.2626 cov=1.0 | ghost_excess=6.7564cm | freshvac_excess(w=30)=5.4536cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_off_r2/datasets_bonn/crowd2_off_r2/seed_0/2026-09-20-19-42-38/point_cloud/final_after_opt/point_cloud.ply n=62183 sh=0
+[render_compare] N=895 render frames=[100, 300, 500, 700]
+[render_compare] dynamic mask source=seg_mask class=15
+  frame 100: PSNR=13.79 SSIM=0.692 LPIPS=0.432 dL1=82.70261287689209 | static PSNR=13.4807 SSIM=0.678 cov=1.0 | ghost_excess=12.0822cm
+  frame 300: PSNR=13.92 SSIM=0.623 LPIPS=0.518 dL1=81.94218873977661 | static PSNR=13.7481 SSIM=0.6176 cov=1.0 | ghost_excess=3.6262cm
+  frame 500: PSNR=21.75 SSIM=0.900 LPIPS=0.179 dL1=13.86965662240982 | static PSNR=22.4619 SSIM=0.9201 cov=1.0 | ghost_excess=3.7481cm
+  frame 700: PSNR=20.18 SSIM=0.830 LPIPS=0.308 dL1=37.78659403324127 | static PSNR=20.1508 SSIM=0.838 cov=1.0 | ghost_excess=-0.0936cm
+[render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/render_fv_crowd2_off_r2  mean PSNR=17.4103 SSIM=0.7615 LPIPS=0.3593 | static PSNR=17.4604 cov=1.0 | ghost_excess=4.8407cm | freshvac_excess(w=30)=0.9359cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_exit_r2/datasets_bonn/crowd2_exit_r2/seed_0/2026-09-20-20-04-23/point_cloud/final_after_opt/point_cloud.ply n=72019 sh=0
+[render_compare] N=895 render frames=[50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850]
+[render_compare] dynamic mask source=seg_mask class=15
+  frame 50: PSNR=11.46 SSIM=0.591 LPIPS=0.527 dL1=134.90322828292847 | static PSNR=10.9882 SSIM=0.577 cov=1.0 | ghost_excess=9.7449cm
+  frame 100: PSNR=13.95 SSIM=0.698 LPIPS=0.428 dL1=82.91156888008118 | static PSNR=13.6368 SSIM=0.6838 cov=1.0 | ghost_excess=4.4387cm
+  frame 150: PSNR=11.92 SSIM=0.587 LPIPS=0.589 dL1=114.89061117172241 | static PSNR=11.6059 SSIM=0.5857 cov=1.0 | ghost_excess=5.4961cm
+  frame 200: PSNR=18.58 SSIM=0.818 LPIPS=0.282 dL1=25.85231363773346 | static PSNR=18.5687 SSIM=0.8355 cov=1.0 | ghost_excess=1.8894cm
+  frame 250: PSNR=14.40 SSIM=0.774 LPIPS=0.337 dL1=50.74949860572815 | static PSNR=14.2655 SSIM=0.7919 cov=1.0 | ghost_excess=-3.9482cm
+  frame 300: PSNR=12.62 SSIM=0.616 LPIPS=0.505 dL1=75.93473196029663 | static PSNR=12.6777 SSIM=0.6139 cov=1.0 | ghost_excess=-1.1663cm
+  frame 350: PSNR=11.73 SSIM=0.628 LPIPS=0.499 dL1=95.20480632781982 | static PSNR=11.2276 SSIM=0.6216 cov=1.0 | ghost_excess=2.7159cm
+  frame 400: PSNR=17.65 SSIM=0.801 LPIPS=0.332 dL1=30.530157685279846 | static PSNR=17.9945 SSIM=0.8219 cov=1.0 | ghost_excess=-1.5953cm
+  frame 450: PSNR=20.16 SSIM=0.850 LPIPS=0.248 dL1=23.92190992832184 | static PSNR=20.4505 SSIM=0.8625 cov=1.0 | ghost_excess=3.5623cm
+  frame 500: PSNR=22.77 SSIM=0.900 LPIPS=0.170 dL1=20.37411332130432 | static PSNR=23.8792 SSIM=0.9207 cov=1.0 | ghost_excess=-7.9842cm
+  frame 550: PSNR=15.21 SSIM=0.790 LPIPS=0.351 dL1=75.37723183631897 | static PSNR=15.0714 SSIM=0.7862 cov=1.0 | ghost_excess=-7.8579cm
+  frame 600: PSNR=16.20 SSIM=0.844 LPIPS=0.296 dL1=32.81319439411163 | static PSNR=15.8321 SSIM=0.8517 cov=1.0 | ghost_excess=3.041cm
+  frame 650: PSNR=15.67 SSIM=0.794 LPIPS=0.342 dL1=42.531877756118774 | static PSNR=15.3468 SSIM=0.7938 cov=1.0 | ghost_excess=4.6728cm
+  frame 700: PSNR=17.53 SSIM=0.791 LPIPS=0.314 dL1=66.09519124031067 | static PSNR=17.2561 SSIM=0.7935 cov=1.0 | ghost_excess=-7.8354cm
+  frame 750: PSNR=18.35 SSIM=0.857 LPIPS=0.266 dL1=48.05046021938324 | static PSNR=19.0886 SSIM=0.8778 cov=1.0 | ghost_excess=-5.7095cm
+  frame 800: PSNR=16.76 SSIM=0.841 LPIPS=0.271 dL1=27.784013748168945 | static PSNR=16.1733 SSIM=0.8423 cov=1.0 | ghost_excess=-6.5892cm
+  frame 850: PSNR=19.46 SSIM=0.861 LPIPS=0.225 dL1=25.956466794013977 | static PSNR=20.1638 SSIM=0.8818 cov=1.0 | ghost_excess=-3.6287cm
+[render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/render_fv_crowd2_exit_r2_dense  mean PSNR=16.1432 SSIM=0.7671 LPIPS=0.3519 | static PSNR=16.131 cov=1.0 | ghost_excess=-0.6326cm | freshvac_excess(w=30)=-2.065cm
+[render_compare] PLY=/home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/L1_crowd2_exit_r2/datasets_bonn/crowd2_exit_r2/seed_0/2026-09-20-20-04-23/point_cloud/final_after_opt/point_cloud.ply n=72019 sh=0
+[render_compare] N=895 render frames=[100, 300, 500, 700]
+[render_compare] dynamic mask source=seg_mask class=15
+  frame 100: PSNR=13.95 SSIM=0.698 LPIPS=0.428 dL1=82.91156888008118 | static PSNR=13.6368 SSIM=0.6838 cov=1.0 | ghost_excess=4.4387cm
+  frame 300: PSNR=12.62 SSIM=0.616 LPIPS=0.505 dL1=75.93473196029663 | static PSNR=12.6777 SSIM=0.6139 cov=1.0 | ghost_excess=-1.1663cm
+  frame 500: PSNR=22.77 SSIM=0.900 LPIPS=0.170 dL1=20.37411332130432 | static PSNR=23.8792 SSIM=0.9207 cov=1.0 | ghost_excess=-7.9842cm
+  frame 700: PSNR=17.53 SSIM=0.791 LPIPS=0.314 dL1=66.09519124031067 | static PSNR=17.2561 SSIM=0.7935 cov=1.0 | ghost_excess=-7.8354cm
+[render_compare] wrote /home/jiangwenheng/cron/monogs-ours/results/lifecycle_paper2/render_fv_crowd2_exit_r2  mean PSNR=16.7176 SSIM=0.7511 LPIPS=0.3546 | static PSNR=16.8624 cov=1.0 | ghost_excess=-3.1368cm | freshvac_excess(w=30)=-11.967cm

@@ -1,0 +1,61 @@
+# fig6_dynport_repair — Qualitative offline repair (GT | erased | repaired)
+# 论文位置：§7 Recovering Dynamic Content Offline（图注 fig:dynport-repair）
+# 类型：实验渲染照片拼图（真实工件）→ ❌ 不可用生成模型产出
+#   本文件 = 【样式重构说明书】
+# 目标尺寸：双栏宽 183 mm，宽高比约 1.24:1（现图 408×330 pt）
+
+================================================================
+中文意图说明
+================================================================
+"离线修复"定性对比：4 行 × 3 列照片。
+- 4 行 = 2 序列 × 2 帧（crowd2 f271 / crowd2 f621 / balloon2 f146 / balloon2 f321）
+- 3 列 = Ground truth | Erased (base map) | Repaired (offline)
+- 左列（GT）用暖色方框圈出"动态区"；中、右列各有一个暖色放大插框，框住同一动态区，
+  直观展示：抹除列缺人 → 修复列把人补回
+- 行左标签：序列名 + 帧号
+
+待改进点：
+1. 4 行行高不匀，行标签（"crowd2 f271"）占位偏窄
+2. 3 列标题偏小；列间距不匀
+3. 插框与 GT 方框对应关系不够醒目（读者可能看不出在放大同一区域）
+4. 缺统一的面板编号/列对齐
+
+================================================================
+Style-restructure spec（给绘图工具/人工，或图像编辑模型，只动排版）
+================================================================
+Goal: re-compose the EXISTING rendered photographs into a publication-grade 4×3 montage.
+ABSOLUTELY DO NOT alter/beautify/denoise/inpaint/regenerate any photo pixel — evidence only.
+Allowed: lossless crop, uniform scale, alignment, re-badging of frames/labels.
+NOTE: the "Repaired" column legitimately shows a blurred reconstruction — that blur is the
+TRUE result; do not sharpen or clean it.
+
+Grid: 4 rows × 3 columns. Columns (top headers, 7 pt): "Ground truth", "Erased (base map)",
+"Repaired (offline)". Row labels far-left (two lines: sequence then frame), Arial 7 pt,
+right-aligned: "crowd2 / f271", "crowd2 / f621", "balloon2 / f146", "balloon2 / f321".
+
+Dynamic-region rectangle: in the LEFT column of each row, draw a thin rectangle marking the
+region of interest (vermillion #D55E00, 1.0 pt). In the MIDDLE and RIGHT columns of the same
+row, draw one zoom inset (lower-right) showing exactly that same region magnified; draw the
+same rectangle as the inset's border. The correspondence GT-box ↔ insets must be visually
+obvious (same colour, same aspect).
+
+Typography: Arial/Helvetica 6–7 pt throughout; column headers 7 pt; row labels 7 pt.
+Uniform row heights; uniform column widths; small even gaps (~3 pt). White background.
+Optional (a)(b)(c)(d) row panel letters, 8 pt bold, top-left of each row.
+Colourblind-safe accent only (vermillion #D55E00); photos untouched.
+Output vector container + ≥300 dpi images; canvas ≈ 1.24:1 (183 mm wide); no title, no border.
+
+================================================================
+Negative / do-not
+================================================================
+Do NOT regenerate, sharpen, or "fix" the repaired (blurred) photos — that blur is the result.
+Do NOT add icons/arrows/captions inside. Rows/cols fixed at 4×3. Do not change frame selection.
+
+================================================================
+Post checklist
+================================================================
+[ ] 4 行行高一致、3 列列宽一致；行标签两行对齐
+[ ] 每行 GT 方框 ↔ 中/右插框放大的是**同一区域**，颜色一致
+[ ] 照片像素（尤其修复列的模糊）未被生成模型改动
+[ ] 列标题/行标签字体统一，色盲安全
+[ ] 图内无标题（图注在 LaTeX）

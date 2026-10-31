@@ -1,0 +1,666 @@
+{
+ "experiment": "paper2_fulltable/rebase_r33",
+ "date": "2026-09-16",
+ "batch": "R33: 4 arms x 7 seq x 3 seed = 84 run, all rc=0 (2026-09-16 01:37 -> 15:31)",
+ "arms_note": "all four arms same batch, same code (current HEAD); supersedes the seed3_promotion manifest.json whose baseline/final/gate columns were run on 2026-09-06/07 code and a different batch",
+ "ate_column": "ate_rmse_cm (col8, full-frame); kf_cm = keyframe col14",
+ "prereg": "evidence/prereg_rebase_arms.md",
+ "verdict": "four-arm rebaseline complete (same batch/code): gate vs baseline = pt1 -29.7% (t~5.9; baseline is high-variance, 6-seed drop range -30..-42%), crowd2 +10.6%, crowd3 +19.4%, balloon +30.1%, crowd +3.8%, balloon2 -3.0%, pt2 +12.2% (pt2 no longer 'indistinguishable': per-seed separated, t~4.7). SWBA net cost (within-batch baseline->swbaonly): crowd2 +81.2%, crowd3 +62.1%, balloon +29.8% (per-seed separated); gate recovers 86.9%/68.7%/-1.1%; SWBA is BENEFICIAL on pt1 (-23.8%). The old 'sd 3.27->0.09 (36x convergence)' was a cross-batch splice; same-batch ratio is 1.01x.",
+ "runs_rc0": 84,
+ "arms": {
+  "baseline": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.2955,
+      "kf_cm": 3.2874
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.1721,
+      "kf_cm": 3.1472
+     },
+     {
+      "seed": 2,
+      "full_cm": 3.2741,
+      "kf_cm": 3.2611
+     }
+    ],
+    "mean_full_cm": 3.2472,
+    "sd_full_cm": 0.0659,
+    "mean_kf_cm": 3.2319
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.2203,
+      "kf_cm": 5.1927
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.4754,
+      "kf_cm": 5.4356
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.7566,
+      "kf_cm": 5.7109
+     }
+    ],
+    "mean_full_cm": 5.4841,
+    "sd_full_cm": 0.2683,
+    "mean_kf_cm": 5.4464
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.215,
+      "kf_cm": 2.6216
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.1496,
+      "kf_cm": 2.8338
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.3394,
+      "kf_cm": 2.7242
+     }
+    ],
+    "mean_full_cm": 2.2347,
+    "sd_full_cm": 0.0964,
+    "mean_kf_cm": 2.7265
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.1319,
+      "kf_cm": 2.2857
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.6273,
+      "kf_cm": 2.5058
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.0193,
+      "kf_cm": 2.0596
+     }
+    ],
+    "mean_full_cm": 2.2595,
+    "sd_full_cm": 0.3235,
+    "mean_kf_cm": 2.2837
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.5199,
+      "kf_cm": 1.5409
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.5567,
+      "kf_cm": 1.5734
+     },
+     {
+      "seed": 2,
+      "full_cm": 1.5132,
+      "kf_cm": 1.4967
+     }
+    ],
+    "mean_full_cm": 1.5299,
+    "sd_full_cm": 0.0234,
+    "mean_kf_cm": 1.537
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.4596,
+      "kf_cm": 11.3852
+     },
+     {
+      "seed": 1,
+      "full_cm": 10.5453,
+      "kf_cm": 10.4576
+     },
+     {
+      "seed": 2,
+      "full_cm": 11.9243,
+      "kf_cm": 11.7624
+     }
+    ],
+    "mean_full_cm": 11.3097,
+    "sd_full_cm": 0.7016,
+    "mean_kf_cm": 11.2017
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 10.3665,
+      "kf_cm": 10.3483
+     },
+     {
+      "seed": 1,
+      "full_cm": 10.1433,
+      "kf_cm": 10.1626
+     },
+     {
+      "seed": 2,
+      "full_cm": 10.7013,
+      "kf_cm": 10.6475
+     }
+    ],
+    "mean_full_cm": 10.4037,
+    "sd_full_cm": 0.2809,
+    "mean_kf_cm": 10.3861
+   }
+  },
+  "swbaonly": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.0566,
+      "kf_cm": 3.9112
+     },
+     {
+      "seed": 1,
+      "full_cm": 4.332,
+      "kf_cm": 4.1926
+     },
+     {
+      "seed": 2,
+      "full_cm": 4.2542,
+      "kf_cm": 4.1349
+     }
+    ],
+    "mean_full_cm": 4.2143,
+    "sd_full_cm": 0.142,
+    "mean_kf_cm": 4.0796
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.3897,
+      "kf_cm": 5.2983
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.2758,
+      "kf_cm": 5.1481
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.4352,
+      "kf_cm": 5.2797
+     }
+    ],
+    "mean_full_cm": 5.3669,
+    "sd_full_cm": 0.0821,
+    "mean_kf_cm": 5.242
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.4825,
+      "kf_cm": 3.1407
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2883,
+      "kf_cm": 2.4687
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.2662,
+      "kf_cm": 2.4095
+     }
+    ],
+    "mean_full_cm": 2.3457,
+    "sd_full_cm": 0.119,
+    "mean_kf_cm": 2.673
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.2001,
+      "kf_cm": 3.9132
+     },
+     {
+      "seed": 1,
+      "full_cm": 3.6132,
+      "kf_cm": 3.3871
+     },
+     {
+      "seed": 2,
+      "full_cm": 4.4662,
+      "kf_cm": 4.2027
+     }
+    ],
+    "mean_full_cm": 4.0932,
+    "sd_full_cm": 0.4364,
+    "mean_kf_cm": 3.8343
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.6773,
+      "kf_cm": 2.4063
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2695,
+      "kf_cm": 2.0934
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.491,
+      "kf_cm": 2.3333
+     }
+    ],
+    "mean_full_cm": 2.4793,
+    "sd_full_cm": 0.2042,
+    "mean_kf_cm": 2.2777
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 10.381,
+      "kf_cm": 10.4405
+     },
+     {
+      "seed": 1,
+      "full_cm": 7.7038,
+      "kf_cm": 7.6727
+     },
+     {
+      "seed": 2,
+      "full_cm": 7.7731,
+      "kf_cm": 7.8753
+     }
+    ],
+    "mean_full_cm": 8.6193,
+    "sd_full_cm": 1.5261,
+    "mean_kf_cm": 8.6628
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.8093,
+      "kf_cm": 11.6845
+     },
+     {
+      "seed": 1,
+      "full_cm": 12.3104,
+      "kf_cm": 12.1962
+     },
+     {
+      "seed": 2,
+      "full_cm": 11.3786,
+      "kf_cm": 11.3264
+     }
+    ],
+    "mean_full_cm": 11.8328,
+    "sd_full_cm": 0.4663,
+    "mean_kf_cm": 11.7357
+   }
+  },
+  "final": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.3283,
+      "kf_cm": 4.1698
+     },
+     {
+      "seed": 1,
+      "full_cm": 4.2056,
+      "kf_cm": 4.0659
+     },
+     {
+      "seed": 2,
+      "full_cm": 4.1907,
+      "kf_cm": 4.0333
+     }
+    ],
+    "mean_full_cm": 4.2415,
+    "sd_full_cm": 0.0755,
+    "mean_kf_cm": 4.0897
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.3431,
+      "kf_cm": 5.2885
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.2565,
+      "kf_cm": 5.1718
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.4251,
+      "kf_cm": 5.3264
+     }
+    ],
+    "mean_full_cm": 5.3416,
+    "sd_full_cm": 0.0843,
+    "mean_kf_cm": 5.2622
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.4281,
+      "kf_cm": 2.8179
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.5456,
+      "kf_cm": 3.1452
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.3462,
+      "kf_cm": 2.576
+     }
+    ],
+    "mean_full_cm": 2.44,
+    "sd_full_cm": 0.1002,
+    "mean_kf_cm": 2.8464
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 3.9492,
+      "kf_cm": 3.7214
+     },
+     {
+      "seed": 1,
+      "full_cm": 4.3408,
+      "kf_cm": 4.085
+     },
+     {
+      "seed": 2,
+      "full_cm": 3.8642,
+      "kf_cm": 3.6319
+     }
+    ],
+    "mean_full_cm": 4.0514,
+    "sd_full_cm": 0.2542,
+    "mean_kf_cm": 3.8128
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.4758,
+      "kf_cm": 2.3502
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.4112,
+      "kf_cm": 2.236
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.4458,
+      "kf_cm": 2.2927
+     }
+    ],
+    "mean_full_cm": 2.4443,
+    "sd_full_cm": 0.0323,
+    "mean_kf_cm": 2.293
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 7.93,
+      "kf_cm": 7.9334
+     },
+     {
+      "seed": 1,
+      "full_cm": 8.5752,
+      "kf_cm": 8.6672
+     },
+     {
+      "seed": 2,
+      "full_cm": 8.1193,
+      "kf_cm": 8.1806
+     }
+    ],
+    "mean_full_cm": 8.2082,
+    "sd_full_cm": 0.3317,
+    "mean_kf_cm": 8.2604
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 11.718,
+      "kf_cm": 11.6429
+     },
+     {
+      "seed": 1,
+      "full_cm": 12.9706,
+      "kf_cm": 12.9092
+     },
+     {
+      "seed": 2,
+      "full_cm": 12.4758,
+      "kf_cm": 12.4075
+     }
+    ],
+    "mean_full_cm": 12.3881,
+    "sd_full_cm": 0.6309,
+    "mean_kf_cm": 12.3199
+   }
+  },
+  "gate": {
+   "balloon": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 4.2375,
+      "kf_cm": 4.0879
+     },
+     {
+      "seed": 1,
+      "full_cm": 4.252,
+      "kf_cm": 4.1084
+     },
+     {
+      "seed": 2,
+      "full_cm": 4.1855,
+      "kf_cm": 4.0293
+     }
+    ],
+    "mean_full_cm": 4.225,
+    "sd_full_cm": 0.035,
+    "mean_kf_cm": 4.0752
+   },
+   "balloon2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 5.3873,
+      "kf_cm": 5.3129
+     },
+     {
+      "seed": 1,
+      "full_cm": 5.1294,
+      "kf_cm": 5.0289
+     },
+     {
+      "seed": 2,
+      "full_cm": 5.4372,
+      "kf_cm": 5.3318
+     }
+    ],
+    "mean_full_cm": 5.318,
+    "sd_full_cm": 0.1652,
+    "mean_kf_cm": 5.2245
+   },
+   "crowd": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.541,
+      "kf_cm": 3.6718
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.212,
+      "kf_cm": 2.5645
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.2061,
+      "kf_cm": 2.6237
+     }
+    ],
+    "mean_full_cm": 2.3197,
+    "sd_full_cm": 0.1917,
+    "mean_kf_cm": 2.9533
+   },
+   "crowd2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 2.4755,
+      "kf_cm": 2.3547
+     },
+     {
+      "seed": 1,
+      "full_cm": 2.2871,
+      "kf_cm": 2.201
+     },
+     {
+      "seed": 2,
+      "full_cm": 2.7345,
+      "kf_cm": 2.4977
+     }
+    ],
+    "mean_full_cm": 2.499,
+    "sd_full_cm": 0.2246,
+    "mean_kf_cm": 2.3511
+   },
+   "crowd3": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 1.8637,
+      "kf_cm": 1.7826
+     },
+     {
+      "seed": 1,
+      "full_cm": 1.8436,
+      "kf_cm": 1.7639
+     },
+     {
+      "seed": 2,
+      "full_cm": 1.7739,
+      "kf_cm": 1.718
+     }
+    ],
+    "mean_full_cm": 1.8271,
+    "sd_full_cm": 0.0471,
+    "mean_kf_cm": 1.7548
+   },
+   "person_tracking": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 8.541,
+      "kf_cm": 8.5475
+     },
+     {
+      "seed": 1,
+      "full_cm": 8.1191,
+      "kf_cm": 8.1828
+     },
+     {
+      "seed": 2,
+      "full_cm": 7.1807,
+      "kf_cm": 7.1776
+     }
+    ],
+    "mean_full_cm": 7.9469,
+    "sd_full_cm": 0.6963,
+    "mean_kf_cm": 7.9693
+   },
+   "person_tracking2": {
+    "per_seed": [
+     {
+      "seed": 0,
+      "full_cm": 12.0408,
+      "kf_cm": 11.9846
+     },
+     {
+      "seed": 1,
+      "full_cm": 11.6917,
+      "kf_cm": 11.6127
+     },
+     {
+      "seed": 2,
+      "full_cm": 11.2971,
+      "kf_cm": 11.2093
+     }
+    ],
+    "mean_full_cm": 11.6765,
+    "sd_full_cm": 0.3721,
+    "mean_kf_cm": 11.6022
+   }
+  }
+ },
+ "derived": {
+  "balloon": {
+   "gate_vs_final_pct": -0.39,
+   "gate_vs_baseline_pct": 30.11
+  },
+  "balloon2": {
+   "gate_vs_final_pct": -0.44,
+   "gate_vs_baseline_pct": -3.03
+  },
+  "crowd": {
+   "gate_vs_final_pct": -4.93,
+   "gate_vs_baseline_pct": 3.8
+  },
+  "crowd2": {
+   "gate_vs_final_pct": -38.32,
+   "gate_vs_baseline_pct": 10.6
+  },
+  "crowd3": {
+   "gate_vs_final_pct": -25.25,
+   "gate_vs_baseline_pct": 19.43
+  },
+  "person_tracking": {
+   "gate_vs_final_pct": -3.18,
+   "gate_vs_baseline_pct": -29.73
+  },
+  "person_tracking2": {
+   "gate_vs_final_pct": -5.74,
+   "gate_vs_baseline_pct": 12.23
+  }
+ }
+}

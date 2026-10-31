@@ -1,0 +1,131 @@
+{
+  "experiment": "dynport_L1",
+  "tag": "v2",
+  "prereg": "results/dynport/evidence/prereg_dynport_L1.md",
+  "date": "2026-10-06",
+  "head": "6b66df4c95f23f147dcf79657c55f3aa05d163f3",
+  "judge": "scripts/dynport/judge_dynport.py",
+  "instrument_note": "\u52a8\u6001\u533a J1/J2 \u7528 causal\uff1b\u9759\u6001\u533a J3 \u7528 final-map\uff08\u7981\u6df7\u5f15\uff09",
+  "per_seq": {
+    "crowd2": {
+      "arms": {
+        "E": "results/dynport/L1/crowd2_E/datasets_bonn/L1_crowd2_E/seed_0/2026-10-06-06-36-34",
+        "D": "results/dynport/L1/crowd2_D/datasets_bonn/L1_crowd2_D/seed_0/2026-10-06-06-48-11",
+        "Cneg": "results/dynport/L1/crowd2_Cneg/datasets_bonn/L1_crowd2_Cneg/seed_0/2026-10-06-07-00-15"
+      },
+      "frames": [
+        21,
+        46,
+        71,
+        96,
+        121,
+        146,
+        171,
+        196,
+        221,
+        246,
+        271,
+        296,
+        321,
+        346,
+        371,
+        396,
+        421,
+        446,
+        471,
+        496,
+        521,
+        546,
+        571,
+        596,
+        621,
+        646,
+        671,
+        696,
+        721,
+        746,
+        771,
+        796,
+        821,
+        846,
+        871
+      ],
+      "causal": "results/dynport/evidence/dynport_L1_crowd2_causal.json",
+      "final": "results/dynport/evidence/dynport_L1_crowd2_final.json"
+    },
+    "balloon2": {
+      "arms": {
+        "E": "results/dynport/L1/balloon2_E/datasets_bonn/L1_balloon2_E/seed_0/2026-10-06-07-12-18",
+        "D": "results/dynport/L1/balloon2_D/datasets_bonn/L1_balloon2_D/seed_0/2026-10-06-07-19-09",
+        "Cneg": "results/dynport/L1/balloon2_Cneg/datasets_bonn/L1_balloon2_Cneg/seed_0/2026-10-06-07-26-11"
+      },
+      "frames": [
+        21,
+        46,
+        71,
+        96,
+        121,
+        146,
+        171,
+        196,
+        221,
+        246,
+        271,
+        296,
+        321,
+        346,
+        371,
+        396,
+        421,
+        446
+      ],
+      "causal": "results/dynport/evidence/dynport_L1_balloon2_causal.json",
+      "final": "results/dynport/evidence/dynport_L1_balloon2_final.json"
+    }
+  },
+  "summary": {
+    "crowd2": {
+      "J1": 6.9695,
+      "J2": 0.3547,
+      "J3_final": -0.4878,
+      "J7": 1.2898,
+      "J3": -0.4878,
+      "J5": true,
+      "J4_ok": false,
+      "J4_overhead": 0.951,
+      "J8_ate_delta_cm": 1.057,
+      "render_ok": false,
+      "checks": {
+        "J1": true,
+        "J1_bound": false,
+        "J1_fail": false,
+        "J2": true,
+        "J3": false,
+        "J5": true,
+        "J4": false
+      }
+    },
+    "balloon2": {
+      "J1": 6.9626,
+      "J2": 0.2587,
+      "J3_final": -1.0189,
+      "J7": 1.3972,
+      "J3": -1.0189,
+      "J5": true,
+      "J4_ok": false,
+      "J4_overhead": 0.886,
+      "J8_ate_delta_cm": 1.467,
+      "render_ok": false,
+      "checks": {
+        "J1": true,
+        "J1_bound": false,
+        "J1_fail": false,
+        "J2": true,
+        "J3": false,
+        "J5": true,
+        "J4": false
+      }
+    }
+  },
+  "note": "v2 = \u4fee\u590d\u540e\uff08densify \u8c41\u514d\uff0cf0fcdb6f8 \u6279\uff09"
+}

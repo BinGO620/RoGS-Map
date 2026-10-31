@@ -1,0 +1,12 @@
+# 因果轮 II：刚性估计退化失败的原始证据（从批日志提取）
+# 源日志：/tmp/dyn_c2.log（批 stdout，未入库；本文件为其失败行摘录，保证 F6 可核查）
+# 命令：grep -n 'rigid 估计失败' /tmp/dyn_c2.log
+
+37:  [gate] f93: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+61:  [gate] f243: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+105:  [gate] f561: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+144:  [baseline] f93: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+168:  [baseline] f243: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+212:  [baseline] f561: rigid 估计失败 GeometryException: Degenerate covariance rank, Umeyama alignment is not possible
+
+# 汇总：6 次失败（gate 3 + baseline 3），异常类型 = GeometryException: Degenerate covariance rank

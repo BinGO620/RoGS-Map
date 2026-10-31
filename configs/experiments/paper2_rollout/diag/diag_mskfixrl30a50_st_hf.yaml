@@ -1,0 +1,37 @@
+inherit_from: "configs/rgbd/tum/f3_st_hf.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+SWBA:
+  enabled: true
+  swba_max_static_conf: 0.38
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+SemanticMask:
+  enabled: true
+  model: "maskrcnn"
+  dynamic_classes: [1]
+  dilate_px: 7
+  mask_mapping: true
+  mask_insertion: true
+MaskStability:
+  enabled: true
+  release_rule: "runlen"
+  runlen_min: 30
+DiagMskFix:
+  note: "v2 runlen 释放门: 连续掩码观测>=30 才释放(阶梯50->30); 剖面诊断(早爆发=危害)后预注册 e5f26802, 阶梯下调50->30(C2' n=4判负: 3/4悬崖, 无保护窗病因)"
+Training:
+  async_iter_per_kf: 50
+Results:
+  save_per_frame_ape: true

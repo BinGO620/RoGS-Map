@@ -1,0 +1,33 @@
+# R26 diagnostic: reliability-gated SWBA with the gate OPEN (1.1) — the log
+# carries per-KF static_conf on both regimes (crowd2 healthy vs pt1 drift).
+# The R25 window-cost gate was falsified (distributions overlap: the window
+# cost is the fooled signal); the reliability signal measures how well the
+# current pose explains the STATIC scene — the health signal the gate needs.
+# Calibration run: set the threshold from the distributions, then screen.
+
+inherit_from: "configs/rgbd/bonn/crowd2.yaml"
+method_from: "configs/experiments/combined_prune/method.yaml"
+method: "Combined-Prune"
+
+SWBA:
+  enabled: true
+  swba_max_static_conf: 1.1
+
+LoopClosure:
+  enabled: true
+  min_gap: 25
+  sim_thresh: 0.65
+  max_loops_per_kf: 3
+  loop_weight: 30.0
+  app_candidates: 20
+  geo_candidates: 60
+  geo_score_v3: true
+  geo_cell_diversity: true
+  verify_block_affine: true
+  affine_grid: 1
+  max_median_resid: 0.05
+  verify_icp_init: true
+
+Results:
+  save_dir: "results/paper2_fulltable/r26_relgate_crowd2"
+  save_per_frame_ape: true
