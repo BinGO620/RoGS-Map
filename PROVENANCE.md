@@ -80,9 +80,39 @@ overlay 机制：修订版 `test_dyn_probe.py` 存于 `/data/monogs-export/overl
 | 2060 冒烟 A/B（40 帧 r33 baseline balloon） | 见下 |
 | 离线轨 rd_harness 单点 | 见下 |
 
+## 数字验证矩阵（论文 PDF ↔ 表 tex ↔ 生成器 ↔ run CSV 全链）
+
+| 论文表（\input） | 内容 | 全链验证 |
+|---|---|---|
+| tab_baseline | 11 方法 × BONN 系统横比（含 Prior RGB-D stack 行） | pytest 门禁（生成器==committed tex）+ **PDF 数字 103/103 命中** |
+| tab2r_render / tab3s_static | 渲染/静态指标 | 门禁 + **PDF 14/14、22/22 命中** |
+| tab4_efficiency | 同码计时两列 FPS | 门禁（非退化+中位复算）+ **PDF 14/14 命中** |
+| tab_rd | R-D 主表 42 图 | 门禁 + **PDF 58/58 命中** |
+| tab4d_ablation / tab_dyncost_seq / tab_dynport | 4D 消融 / 反动态代价 / 放置对照 | 门禁 + **PDF 10/10、10/10、8/8 命中** |
+| R33 四臂主表（tab1_main，审计用，论文未 input） | baseline/swbaonly/final/gate | pytest coverage 7×4 全有值 + sim3 阳性对照 60+ 样本双路径一致 |
+| §5 泛化边界（rollout） | R34，ATE 不入表 | evidence verdict 承载 |
+
+**PDF 抽检 = 8 张表 239/239 数字 100% 命中**（pdftotext 全文检索，2026-11-01）。
+配置同源：347 个 yaml 与 monogs-ours@31b0f0367 逐字节一致（parity check）。
+主干与 RoGS-SLAM 的差异恰为预期论文差：dynport 四件（§7 在线对照列）+ slam.py/
+slam_backend.py 两处接线文件；frontend 与 RoGS-SLAM 逐字节一致。
+
+## 事故记录（2026-11-01，parity 机检发现并修复）
+
+copy_by_manifest 为覆盖式复制：补 embrace 脚本的第二次全量拷贝把已完成的减法
+（9 模块删除 + 11 处接线编辑）整体还原，导致 commit `aada4074` 及之前的代码实际为
+纯净 monogs-ours，与 PROVENANCE 描述不符（冒烟 A/B 当时是"纯净 vs 纯净"，无鉴别力）。
+commit `15c99e2c` 重做手术并以真手术版重验：pytest 284 passed、冒烟 A/B
+ATE Δ=0.0137cm（vs 同一纯净参照 0.7458）、parity 复检通过。
+**教训已固化**：今后任何 manifest 重拷后必须重跑 config_parity_check.py + 门禁。
+
 ## 冒烟 A/B 与离线轨补记
 
-- **冒烟 A/B**：`configs/experiments/paper2_fulltable/r33_rebase_baseline_balloon.yaml`，
+- **（勘误）**下文首次 A/B 记录于"重拷还原事故"期间，当时仓内代码=纯净源，
+  该对照无鉴别力，仅作 CUDA 噪声量级参考。**有效记录 = 事故修复后（commit
+  `15c99e2c`）的真手术版对照：ATE RMSE 0.7321 vs 0.7458 cm（Δ=0.0137cm，噪声量级），
+  KF-ATE 0.8947 vs 0.8743——减法未改变管线行为。**
+- **冒烟 A/B（首次，勘误见上）**：`configs/experiments/paper2_fulltable/r33_rebase_baseline_balloon.yaml`，
   `--max-frames 40 --seed 0`，同机同卡（RTX 2060）各一次，参照 = monogs-ours@31b0f0367
   纯净副本。ATE RMSE 0.7208 vs 0.7458 cm（Δ=0.025cm）、KF-ATE 0.8885 vs 0.8743、
   per-frame 均值 0.6469 vs 0.6689——Δ 低于同配置跨批噪声地板（0.18–0.62cm）一个量级，
