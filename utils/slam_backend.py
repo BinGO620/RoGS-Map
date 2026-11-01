@@ -139,29 +139,9 @@ from utils.semantic_mask import (
     mask_mapping_enabled,
     write_semantic_timing_summary,
 )
-from utils.dba_lite import dba_lite_diagnostic_enabled, run_dba_diagnostic
 from utils import alpha_lifecycle
 from utils import occupancy_memory
 from utils import obsdebt
-from utils.selective_densification import (
-    compute_per_gaussian_knobs,
-    get_sel_dens_config,
-    log_sel_dens_state,
-    selective_ledger_update_enabled,
-    update_ledger_depth_signed,
-)
-from utils.densification_selection import (
-    bpw_active,
-    cgb_active,
-    compute_budget_matched_knobs,
-    compute_coverage_gap_knobs,
-    compute_frozen_dose_knobs,
-    fdose_active,
-)
-from utils.static_prob import (
-    compute_residual_evidence,
-    update_static_prob_from_evidence,
-)
 from utils.tri_reliability import (
     TriReliabilityRecorder,
     compute_tri_reliability,
@@ -359,15 +339,6 @@ class BackEnd(mp.Process):
 
         # remove all gaussians
         self.gaussians.prune_points(self.gaussians.unique_kfIDs >= 0)
-        # FDose event ordinal lives on the model instance and would otherwise keep
-        # counting across a re-initialisation: the plan would resume mid-way on a
-        # brand-new map, silently mis-dosing with no error anywhere. Reset it here
-        # (delete, not zero, so the post-reset assertion in
-        # compute_frozen_dose_knobs is meaningful) and arm that assertion: the
-        # first densify event after this call must come back as ordinal 0.
-        if hasattr(self.gaussians, "_fdose_event_idx"):
-            del self.gaussians._fdose_event_idx
-        self.gaussians._fdose_ordinal_must_be_zero = True
         # remove everything from the queues
         while not self.backend_queue.empty():
             self.backend_queue.get()
@@ -410,44 +381,11 @@ class BackEnd(mp.Process):
                     viewspace_point_tensor, visibility_filter
                 )
                 if mapping_iteration % self.init_gaussian_update == 0:
-                    if bpw_active(self.config):
-                        thr_vec, pd_vec = compute_budget_matched_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    elif cgb_active(self.config):
-                        thr_vec, pd_vec = compute_coverage_gap_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    elif fdose_active(self.config):
-                        thr_vec, pd_vec = compute_frozen_dose_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    else:
-                        thr_vec, pd_vec = compute_per_gaussian_knobs(
-                            self.config, self.gaussians, self.iteration_count
-                        )
                     self.gaussians.densify_and_prune(
                         self.opt_params.densify_grad_threshold,
                         self.init_gaussian_th,
                         self.init_gaussian_extent,
                         None,
-                        grad_threshold_vec=thr_vec,
-                        percent_dense_vec=pd_vec,
                     )
 
                 if self.iteration_count == self.init_gaussian_reset or (
@@ -858,81 +796,16 @@ class BackEnd(mp.Process):
                         viewspace_point_tensor_acm[idx], visibility_filter_acm[idx]
                     )
 
-                # Phase 1: keep the residual-EMA ledger live INSIDE the backend
-                # process (frontend updates would not cross the mp boundary and
-                # never reach these densify knobs). Uses the last rendered frame
-                # of this mapping iteration; accumulates between densify events.
-                # ledger_update=depth_signed gates evidence by |z_gauss-obs| so
-                # occluded background / stale ghosts are not mislabelled (1b).
-                if selective_ledger_update_enabled(self.config):
-                    if (
-                        get_sel_dens_config(self.config).get(
-                            "ledger_update", "residual"
-                        )
-                        == "depth_signed"
-                    ):
-                        update_ledger_depth_signed(
-                            self.config, self.gaussians, viewpoint, image,
-                            visibility_filter,
-                        )
-                    else:
-                        update_static_prob_from_evidence(
-                            self.config,
-                            self.gaussians,
-                            viewpoint,
-                            compute_residual_evidence(self.config, image, viewpoint),
-                            visibility_filter,
-                        )
-
                 update_gaussian = (
                     self.iteration_count % self.gaussian_update_every
                     == self.gaussian_update_offset
                 )
                 if update_gaussian:
-                    if bpw_active(self.config):
-                        thr_vec, pd_vec = compute_budget_matched_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    elif cgb_active(self.config):
-                        thr_vec, pd_vec = compute_coverage_gap_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    elif fdose_active(self.config):
-                        thr_vec, pd_vec = compute_frozen_dose_knobs(
-                            self.config,
-                            self.gaussians,
-                            base_grad_threshold=self.opt_params.densify_grad_threshold,
-                            base_percent_dense=self.gaussians.percent_dense,
-                            iteration_count=self.iteration_count,
-                            log_fn=Log,
-                        )
-                    else:
-                        thr_vec, pd_vec = compute_per_gaussian_knobs(
-                            self.config, self.gaussians, self.iteration_count
-                        )
-                    log_sel_dens_state(
-                        self.config,
-                        self.gaussians,
-                        self.iteration_count,
-                        tag=":map",
-                    )
                     self.gaussians.densify_and_prune(
                         self.opt_params.densify_grad_threshold,
                         self.gaussian_th,
                         self.gaussian_extent,
                         self.size_threshold,
-                        grad_threshold_vec=thr_vec,
-                        percent_dense_vec=pd_vec,
                     )
                     gaussian_split = True
 
@@ -1592,14 +1465,6 @@ class BackEnd(mp.Process):
 
     def color_refinement(self):
         Log("Starting color refinement")
-
-        # P2a (doc 14): masked-edge conditioning diagnostic over the KF graph BEFORE
-        # any refinement touches poses/Gaussians. Read-only; gated (DBALite.diagnostic).
-        if dba_lite_diagnostic_enabled(self.config):
-            try:
-                run_dba_diagnostic(self.viewpoints, self.config)
-            except Exception as e:
-                Log(f"DBA-lite diagnostic failed: {e}")
 
         # Numerical safety: drop non-finite (Inf/NaN) Gaussians before refining so the
         # after_opt render eval + final_after_opt PLY (the paper's rendering/geometry

@@ -38,13 +38,6 @@ from utils.gpu_memory_monitor import ProcessTreeGpuMemoryMonitor
 from utils.multiprocessing_utils import FakeQueue, release_cuda_ipc_cache
 from utils.slam_backend import BackEnd
 from utils.slam_frontend import FrontEnd
-from utils.loop_closure import loop_closure_enabled, run_loop_closure
-from utils.dba_lite import (
-    dba_lite_enabled,
-    dba_lite_oracle_enabled,
-    run_dba_oracle,
-    run_dba_v0,
-)
 
 
 BACKEND_TIMING_TIMEOUT_SECONDS = 60.0
@@ -413,50 +406,6 @@ class SLAM:
         # against the frozen dynamic-clean map. Must run before save_final_tracking_raw
         # so the reported full-trajectory ATE reflects the refined poses.
         self.frontend.final_pose_refinement()
-
-        # P2b (doc 14): offline KF-only geometric pose-graph BA. Writes optimized KF
-        # poses into frontend.cameras BEFORE save_final_tracking_raw so the reported
-        # ATE reflects them. Gauge-fixes KF0; held-out validation edges guard vs
-        # train-edge overfit. Default-off (DBALite.enabled).
-        # DBA-lite GT-oracle falsifier (default-off, read-only): does the masked
-        # geometric objective even prefer GT poses? Runs on the online poses BEFORE
-        # any v0 modification. Decides whether a learning-free geometric BA can help.
-        if dba_lite_oracle_enabled(self.config):
-            try:
-                run_dba_oracle(
-                    self.frontend.cameras,
-                    self.frontend.kf_indices,
-                    self.dataset,
-                    self.config,
-                )
-            except Exception as exc:
-                Log(f"DBA-lite oracle failed: {exc}")
-
-        if dba_lite_enabled(self.config):
-            try:
-                run_dba_v0(
-                    self.frontend.cameras,
-                    self.frontend.kf_indices,
-                    self.dataset,
-                    self.config,
-                )
-            except Exception as exc:
-                Log(f"DBA-lite v0 failed: {exc}")
-
-        # R15 (default-off): lightweight loop closure — masked-thumb retrieval
-        # + frozen-photometric-edge verification + pose-graph optimization,
-        # no pretrained models. Runs offline at sequence end, same write-back
-        # contract as DBA-lite above.
-        if loop_closure_enabled(self.config):
-            try:
-                run_loop_closure(
-                    self.frontend.cameras,
-                    self.frontend.kf_indices,
-                    self.dataset,
-                    self.config,
-                )
-            except Exception as exc:
-                Log(f"LoopClosure failed: {exc}")
 
         if self.config["Results"].get("save_final_tracking", True):
             save_final_tracking_raw(
