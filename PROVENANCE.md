@@ -123,3 +123,15 @@ ATE Δ=0.0137cm（vs 同一纯净参照 0.7458）、parity 复检通过。
   （RD 腿 legacy baseline + 修复腿 r33 baseline 7×3，盘上 0 缺失）；
   `tools/package_release_assets.sh` 逐 run 打包三判据件并出 sha256 清单
   （`tools/release_assets.sha256`）；`scripts/download_assets.sh` 下载+校验+还原。
+
+## 归档原则（2026-11-04 登记；用户指令，适用于每一个仓库）
+
+- **工作区永远只留最新**：过时的版本/草稿/历史快照一律移入本仓 `archive/`（就近归档，
+  命名 `{语义}_{YYYY-MM-DD}`），不散落工作区顶层。
+- **归档 ≠ 删除**：归档件是证据键，账本指针不追改；每处归档配 `README.md` 并在仓内
+  索引登记。
+- **本仓独立性**：实验一律回 monogs-ours 做，本仓只收"已判据确认"的成果快照
+  （四步同步见 monogs-ours `/data/master-thesis/WORKFLOW.md`）；本仓自持门禁与
+  PROVENANCE，不依赖 monogs-ours 工作区即可复验。
+- **里程碑触发同步**：只在判决落地/投稿等里程碑做 manifest 重灌 + gate 全跑 +
+  PROVENANCE 登记；平时不同步（避免快照漂移）。
