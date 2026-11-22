@@ -5,8 +5,8 @@
 # 用法：bash scripts/dynport_offline/run_12bit_probe.sh
 set -u
 PY=/data/conda_envs/monogs-ours/bin/python
-REPO=/data/monogs-ours
-OUT=/data/monogs-ours/results/dynport_offline/evidence_4d12bit
+REPO=${MONOGS_REPO:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}
+OUT=${OUT:-$REPO/results/dynport_offline/evidence_4d12bit}
 mkdir -p "$OUT"
 
 declare -A ROOTS=(

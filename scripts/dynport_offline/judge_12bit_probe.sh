@@ -4,8 +4,8 @@
 # 用法：bash scripts/dynport_offline/judge_12bit_probe.sh
 set -u
 PY=/data/conda_envs/monogs-ours/bin/python
-REPO=/data/monogs-ours
-EVID=/data/monogs-ours/results/dynport_offline/evidence_4d12bit
+REPO=${MONOGS_REPO:-$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)}
+EVID=${EVID:-$REPO/results/dynport_offline/evidence_4d12bit}
 
 declare -A BASE=(
   [crowd2]=results/paper2_fulltable/r33_rebase_baseline_crowd2_seed0/datasets_bonn/r33_rebase_baseline_crowd2/seed_0/2026-09-16-06-54-45

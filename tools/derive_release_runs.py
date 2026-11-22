@@ -16,7 +16,11 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = "/data/monogs-ours"
+SRC = os.environ.get("MONOGS_OURS", "")
+if not SRC or not os.path.isdir(os.path.join(SRC, "results")):
+    raise SystemExit(
+        "set MONOGS_OURS to a checkout containing results/ (this script reads "
+        "run directories that are not part of this repo)")
 
 
 def run_root(ref: str) -> str | None:

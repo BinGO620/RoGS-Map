@@ -8,7 +8,11 @@
 #      （或网页：Releases → Draft a new release → 拖入 tools/dist/ 下所有文件）
 set -euo pipefail
 cd "$(dirname "$0")/.."
-SRC=${MONOGS_OURS:-/data/monogs-ours}
+SRC=${MONOGS_OURS:-}
+if [ -z "$SRC" ] || [ ! -d "$SRC/results" ]; then
+    echo "set MONOGS_OURS to a checkout containing results/ (run dirs are not in this repo)" >&2
+    exit 2
+fi
 DIST=tools/dist
 mkdir -p "$DIST"
 : > tools/release_assets.sha256

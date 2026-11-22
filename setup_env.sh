@@ -9,7 +9,7 @@ git submodule update --init --recursive
 
 # 2) conda 环境
 conda env create -f environment.yaml || conda env update -f environment.yaml
-PY=$(conda info --base)/envs/rogs-slam/bin/python
+PY=$(conda info --base)/envs/rogs-map/bin/python
 
 # 3) 编译 CUDA 扩展（environment.yaml 里的 pip 条目在首次 create 时已编译；
 #    env 已存在时手动补一次，幂等）

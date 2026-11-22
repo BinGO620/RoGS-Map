@@ -5,9 +5,13 @@
 #       cu118 wheel 与本机 nvcc 11.8 精确匹配，可直接编译三个 CUDA 扩展。
 # 用法：bash scripts/gs_compress/build_sogs_env.sh
 set -euo pipefail
-PY_BASE=/data/conda_envs/monogs-ours/bin/python
-VENV=/data/conda_envs/sogs
-SOG=/data/monogs-ours/submodules/Self-Organizing-Gaussians
+PY_BASE=${MONOGS_PY:-$(command -v python3.10 || command -v python3)}
+VENV=${SOGS_VENV:-$HOME/.venvs/sogs}
+SOG=${SOG_REPO:-}
+if [ -z "$SOG" ] || [ ! -d "$SOG" ]; then
+    echo "set SOG_REPO to a checkout of Self-Organizing-Gaussians" >&2
+    exit 2
+fi
 ALI=https://mirrors.aliyun.com/pytorch-wheels/cu118
 
 test -d "$SOG/submodules/PLAS" || { echo "缺少 $SOG/submodules/PLAS"; exit 2; }
@@ -41,7 +45,7 @@ export PATH="$CUDA_HOME/bin:$PATH"
 import sys
 import torch, imagecodecs, kornia, omegaconf, plyfile, pandas
 print("torch", torch.__version__, "| cuda", torch.version.cuda, "| avail", torch.cuda.is_available())
-sys.path.insert(0, "/data/monogs-ours/submodules/Self-Organizing-Gaussians")
+sys.path.insert(0, os.environ["SOG_REPO"])
 from scene.gaussian_model import GaussianModel
 from compression.compression_exp import run_single_compression, run_single_decompression
 from plas import sort_with_plas

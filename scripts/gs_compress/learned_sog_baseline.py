@@ -17,8 +17,8 @@ R4-P3 / 门槛 3 整改（方案 A′ 第一基线）。口径与 Table 4 其余
   3. 记账 6 字段旁路（同分母口径）；SOG 丢 0.1–0.4% 低不透明度基元（prune_to_square_shape，
      记录 n_after）；
   4. 配置取官方 `config/compression/umbrella.yaml` 默认实验，未在本文地图上调参；
-  5. 依赖：SOG 源码 = /data/monogs-ours/submodules/Self-Organizing-Gaussians（tarball 快照 +
-     子模块 PLAS/rasterizer/simple-knn 按 pin 组装）。
+  5. 依赖：SOG 源码由环境变量 `SOG_REPO` 指定（须含 submodules/PLAS；
+     子模块按 pin 组装）。
 
 用法（须用 sogs 环境跑；渲染子进程自动切回 monogs-ours 环境）：
   PY=/data/conda_envs/sogs/bin/python
@@ -45,7 +45,7 @@ from plyfile import PlyData
 REPO = Path(__file__).resolve().parents[2]
 RD = REPO / "results/gs_compress/evidence/rd"
 WORK = REPO / ".tmp/learned_sog"
-SOG_REPO = Path("/data/monogs-ours/submodules/Self-Organizing-Gaussians")
+SOG_REPO = Path(os.environ["SOG_REPO"]) if os.environ.get("SOG_REPO") else None
 PY_MONOGS = "/data/conda_envs/monogs-ours/bin/python"
 
 AUX_FIELDS = ["nx", "ny", "nz", "static_prob", "static_obs_count", "unmapped_score"]

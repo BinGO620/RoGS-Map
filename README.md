@@ -69,3 +69,19 @@ RoGS-Densify（论文3）；`diff -r utils/` = 论文间机制差异。
 
 Built on [MonoGS](https://github.com/muskie82/MonoGS) and
 [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
+
+## Reproducing
+
+Full step-by-step instructions — requirements, CUDA checks, environment, dataset
+and release-asset download, per-contribution commands, and the test suite — are
+in **[REPRODUCING.md](REPRODUCING.md)**.
+
+## License
+
+Released for **non-commercial research and evaluation use only**, inherited from
+the Inria/MPII Gaussian-Splatting License that covers the rasterizer submodule.
+See [LICENSE](LICENSE) for the combined terms and the per-component table.
+
+## Citation
+
+If you use this code, please cite the paper — see [CITATION.cff](CITATION.cff).

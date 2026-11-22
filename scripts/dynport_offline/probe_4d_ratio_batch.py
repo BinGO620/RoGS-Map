@@ -1,6 +1,8 @@
 """批量：4D 压缩比（排除抑制 + 绝对量化 + zlib）对全部 R1 快照。"""
 import sys
-sys.path.insert(0, '/data/monogs-ours')
+import os as _os
+sys.path.insert(0, _os.environ.get("MONOGS_REPO",
+    _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))))
 import numpy as np, glob, zlib
 from pathlib import Path
 
